@@ -83,6 +83,8 @@ Return _the **maximum** number of people who can be **good** based on the statem
 *   `statements[i][j]` is either `0`, `1`, or `2`.
 *   `statements[i][i] == 2`
 
+## Solution
+
 ```java
 import java.util.Arrays;
 
