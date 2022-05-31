@@ -62,12 +62,12 @@ import java.util.Queue;
 
 public class Solution {
     private int[][][] dirs = {
-        {{0, -1}, {0, 1}},
-        {{-1, 0}, {1, 0}},
-        {{0, -1}, {1, 0}},
-        {{0, 1}, {1, 0}},
-        {{0, -1}, {-1, 0}},
-        {{0, 1}, {-1, 0}}
+        { {0, -1}, {0, 1}},
+        { {-1, 0}, {1, 0}},
+        { {0, -1}, {1, 0}},
+        { {0, 1}, {1, 0}},
+        { {0, -1}, {-1, 0}},
+        { {0, 1}, {-1, 0}}
     };
     // the idea is you need to check port direction match, you can go to next cell and check whether
     // you can come back.
