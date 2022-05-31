@@ -51,7 +51,7 @@ public class Solution {
             return 0;
         }
         // 4 potential moves:
-        int[][] moves = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+        int[][] moves = { {1, 0}, {-1, 0}, {0, 1}, {0, -1}};
         int m = grid.length;
         int n = grid[0].length;
         // use obs to record the min total obstacles when traverse to the position

@@ -95,7 +95,7 @@ public class Solution {
         Set<String> seen = new HashSet<>();
         Queue<Node> q = new LinkedList<>();
         q.add(new Node(sb.toString(), 0, y, x));
-        int[][] dir = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+        int[][] dir = { {1, 0}, {-1, 0}, {0, 1}, {0, -1}};
         while (!q.isEmpty()) {
             Node next = q.poll();
             String s = next.board;

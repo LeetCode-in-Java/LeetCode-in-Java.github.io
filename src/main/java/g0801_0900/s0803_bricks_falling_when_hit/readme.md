@@ -75,7 +75,7 @@ Hence the result is [0,0].
 
 ```java
 public class Solution {
-    private final int[][] dirs = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+    private final int[][] dirs = { {1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
     public int[] hitBricks(int[][] grid, int[][] hits) {
         int cols = grid[0].length;

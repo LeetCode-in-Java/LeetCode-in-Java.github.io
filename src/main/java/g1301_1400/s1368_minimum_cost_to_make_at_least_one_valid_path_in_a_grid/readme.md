@@ -60,7 +60,7 @@ import java.util.Objects;
 import java.util.Queue;
 
 public class Solution {
-    private final int[][] dir = new int[][] {{0, 0}, {0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    private final int[][] dir = new int[][] { {0, 0}, {0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 
     public int minCost(int[][] grid) {
         int[][] visited = new int[grid.length][grid[0].length];

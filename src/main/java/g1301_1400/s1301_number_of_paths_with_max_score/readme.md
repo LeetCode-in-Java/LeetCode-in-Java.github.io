@@ -38,7 +38,7 @@ In case there is no path, return `[0, 0]`.
 import java.util.List;
 
 public class Solution {
-    private static final int[][] DIRECTIONS = new int[][] {{1, 0}, {0, 1}, {1, 1}};
+    private static final int[][] DIRECTIONS = new int[][] { {1, 0}, {0, 1}, {1, 1}};
 
     public int[] pathsWithMaxScore(List<String> board) {
         int rows = board.size();

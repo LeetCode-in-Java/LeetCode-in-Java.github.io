@@ -109,7 +109,7 @@ public class Solution {
     }
 
     private List<Integer>[] buildGraph(int jump, String[] grid) {
-        int[][] dirs = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+        int[][] dirs = { {-1, 0}, {1, 0}, {0, 1}, {0, -1}};
         int m = grid.length;
         int n = grid[0].length();
         List<Integer>[] graph = new List[m * n];

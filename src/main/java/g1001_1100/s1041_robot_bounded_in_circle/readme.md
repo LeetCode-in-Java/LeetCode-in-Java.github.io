@@ -97,7 +97,7 @@ Based on that, we return true.
 ```java
 public class Solution {
     public boolean isRobotBounded(String instructions) {
-        int[][] dir = {{0, 1}, {-1, 0}, {0, -1}, {1, 0}};
+        int[][] dir = { {0, 1}, {-1, 0}, {0, -1}, {1, 0}};
         int i = 0;
         int x = 0;
         int y = 0;

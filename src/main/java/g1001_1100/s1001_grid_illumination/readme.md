@@ -66,7 +66,7 @@ public class Solution {
             int cell = row1 * n + col1;
             cellno.put(cell, cellno.getOrDefault(cell, 0) + 1);
         }
-        int[][] dir = {{-1, 0}, {-1, 1}, {0, 1}, {1, 1}, {1, 0}, {1, -1}, {0, -1}, {-1, -1}};
+        int[][] dir = { {-1, 0}, {-1, 1}, {0, 1}, {1, 1}, {1, 0}, {1, -1}, {0, -1}, {-1, -1}};
         int[] ans = new int[queries.length];
         for (int i = 0; i < queries.length; i++) {
             int row1 = queries[i][0];

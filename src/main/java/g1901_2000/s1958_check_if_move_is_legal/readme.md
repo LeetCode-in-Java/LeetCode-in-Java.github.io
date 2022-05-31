@@ -66,7 +66,7 @@ Given two integers `rMove` and `cMove` and a character `color` representing the 
 public class Solution {
 
     private static final int[][] DIRS =
-            new int[][] {{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
+            new int[][] { {-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
 
     public boolean checkMove(char[][] board, int rMove, int cMove, char color) {
         char opposite = (color == 'W' ? 'B' : (color == 'B' ? 'W' : ' '));

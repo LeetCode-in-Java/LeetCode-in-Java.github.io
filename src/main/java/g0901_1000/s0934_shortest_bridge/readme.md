@@ -51,7 +51,7 @@ public class Solution {
         }
     }
 
-    private int[][] dirs = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
+    private int[][] dirs = { {1, 0}, {0, 1}, {-1, 0}, {0, -1}};
 
     public int shortestBridge(int[][] grid) {
         ArrayDeque<Pair> q = new ArrayDeque<>();

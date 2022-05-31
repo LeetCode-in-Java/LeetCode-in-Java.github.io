@@ -45,7 +45,7 @@ import java.util.List;
 
 @SuppressWarnings("java:S107")
 public class Solution {
-    private final int[][] dirs = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    private final int[][] dirs = { {0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 
     public int minDays(int[][] grid) {
         int m = grid.length;
