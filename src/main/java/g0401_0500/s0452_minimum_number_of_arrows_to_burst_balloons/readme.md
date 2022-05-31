@@ -56,7 +56,7 @@ public class Solution {
      * I'm glad to have come up with this solution on my own on 10/13/2021:
      * we'll have to sort the
      * balloons by its ending points, a counter case to this is below:
-     * {{0, 6}, {0, 9}, {7, 8}}
+     * { {0, 6}, {0, 9}, {7, 8}}
      * if we sort by starting points, then it becomes:
      * {0, 6}, {0, 9}, {7, 8}
      * this way, if we shoot 9,
