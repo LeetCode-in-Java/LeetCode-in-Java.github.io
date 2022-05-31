@@ -11,7 +11,7 @@ The grammar can best be understood through simple examples:
     *   `R("w") = {"w"}`
 *   When we take a comma-delimited list of two or more expressions, we take the union of possibilities.
     *   `R("{a,b,c}") = {"a","b","c"}`
-    *   `R("{{a,b},{b,c}}") = {"a","b","c"}` (notice the final set only contains each word at most once)
+    *   `R("{ {a,b},{b,c}}") = {"a","b","c"}` (notice the final set only contains each word at most once)
 *   When we concatenate two expressions, we take the set of possible concatenations between two words where the first word comes from the first expression and the second word comes from the second expression.
     *   `R("{a,b}{c,d}") = {"ac","ad","bc","bd"}`
     *   `R("a{b,c}{d,e}f{g,h}") = {"abdfg", "abdfh", "abefg", "abefh", "acdfg", "acdfh", "acefg", "acefh"}`
