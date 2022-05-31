@@ -759,7 +759,7 @@
 | 1104 |[Path In Zigzag Labelled Binary Tree](src/main/java/g1101_1200/s1104_path_in_zigzag_labelled_binary_tree)| Medium | Math, Tree, Binary_Tree | 1 | 58.50
 | 1103 |[Distribute Candies to People](src/main/java/g1101_1200/s1103_distribute_candies_to_people)| Easy | Math, Simulation | 2 | 49.07
 | 1096 |[Brace Expansion II](src/main/java/g1001_1100/s1096_brace_expansion_ii)| Hard | String, Breadth_First_Search, Stack, Backtracking | 23 | 60.36
-| 1095 |[Find in Mountain Array](src/main/java/g1001_1100/s1095_find_in_mountain_array)| |||
+| 1095 |[Find in Mountain Array](src/main/java/g1001_1100/s1095_find_in_mountain_array)| Hard | Array, Binary_Search, Interactive | 0 | 100.00
 | 1094 |[Car Pooling](src/main/java/g1001_1100/s1094_car_pooling)| Medium | Array, Sorting, Heap_Priority_Queue, Simulation, Prefix_Sum | 1 | 99.38
 | 1093 |[Statistics from a Large Sample](src/main/java/g1001_1100/s1093_statistics_from_a_large_sample)| Medium | Math, Two_Pointers, Probability_and_Statistics | 1 | 86.00
 | 1092 |[Shortest Common Supersequence](src/main/java/g1001_1100/s1092_shortest_common_supersequence)| Hard | String, Dynamic_Programming | 10 | 96.12

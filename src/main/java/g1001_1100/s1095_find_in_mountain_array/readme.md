@@ -45,6 +45,14 @@ Submissions making more than `100` calls to `MountainArray.get` will be judged _
 ## Solution
 
 ```java
+/*
+ * // This is MountainArray's API interface.
+ * // You should not implement it, or speculate about its implementation
+ * interface MountainArray {
+ *     public int get(int index) {}
+ *     public int length() {}
+ * }
+ */
 public class Solution {
     public int findInMountainArray(int target, MountainArray mountainArr) {
         int peakIndex = findPeak(mountainArr);
