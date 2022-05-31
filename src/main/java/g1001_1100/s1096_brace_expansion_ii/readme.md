@@ -32,7 +32,7 @@ Given an expression representing a set of words under the given grammar, return 
 
 **Example 2:**
 
-**Input:** expression = "{{a,z},a{b,c},{ab,z}}"
+**Input:** expression = "{ {a,z},a{b,c},{ab,z}}"
 
 **Output:** ["a","ab","ac","z"]
 
