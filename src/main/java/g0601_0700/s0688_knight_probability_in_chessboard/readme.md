@@ -39,7 +39,7 @@ Return _the probability that the knight remains on the board after it has stoppe
 ```java
 public class Solution {
     private final int[][] directions =
-            new int[][] {{-2, -1}, {-2, 1}, {-1, 2}, {1, 2}, {2, -1}, {2, 1}, {1, -2}, {-1, -2}};
+            new int[][] { {-2, -1}, {-2, 1}, {-1, 2}, {1, 2}, {2, -1}, {2, 1}, {1, -2}, {-1, -2}};
     private double[][][] probabilityGiven;
 
     public double knightProbability(int n, int k, int row, int column) {
