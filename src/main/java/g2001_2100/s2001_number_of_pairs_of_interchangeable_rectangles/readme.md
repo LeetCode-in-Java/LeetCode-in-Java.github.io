@@ -10,7 +10,7 @@ Return _the **number** of pairs of **interchangeable** rectangles in_ `rectangle
 
 **Example 1:**
 
-**Input:** rectangles = [[4,8],[3,6],[10,20],[15,30]]
+**Input:** rectangles = \[\[4,8],[3,6],[10,20],[15,30]]
 
 **Output:** 6
 
@@ -30,7 +30,7 @@ Return _the **number** of pairs of **interchangeable** rectangles in_ `rectangle
 
 **Example 2:**
 
-**Input:** rectangles = [[4,5],[7,8]]
+**Input:** rectangles = \[\[4,5],[7,8]]
 
 **Output:** 0
 

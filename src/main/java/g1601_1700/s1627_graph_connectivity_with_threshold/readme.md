@@ -16,7 +16,7 @@ Return _an array_ `answer`_, where_ `answer.length == queries.length` _and_ `ans
 
 ![](https://assets.leetcode.com/uploads/2020/10/09/ex1.jpg)
 
-**Input:** n = 6, threshold = 2, queries = [[1,4],[2,5],[3,6]]
+**Input:** n = 6, threshold = 2, queries = \[\[1,4],[2,5],[3,6]]
 
 **Output:** [false,false,true]
 
@@ -46,7 +46,7 @@ Using the underlined divisors above the threshold, only cities 3 and 6 share a c
 
 ![](https://assets.leetcode.com/uploads/2020/10/10/tmp.jpg)
 
-**Input:** n = 6, threshold = 0, queries = [[4,5],[3,4],[3,2],[2,6],[1,3]]
+**Input:** n = 6, threshold = 0, queries = \[\[4,5],[3,4],[3,2],[2,6],[1,3]]
 
 **Output:** [true,true,true,true,true]
 
@@ -56,7 +56,7 @@ Using the underlined divisors above the threshold, only cities 3 and 6 share a c
 
 ![](https://assets.leetcode.com/uploads/2020/10/17/ex3.jpg)
 
-**Input:** n = 5, threshold = 1, queries = [[4,5],[4,5],[3,2],[2,3],[3,4]]
+**Input:** n = 5, threshold = 1, queries = \[\[4,5],[4,5],[3,2],[2,3],[3,4]]
 
 **Output:** [false,false,false,false,false]
 

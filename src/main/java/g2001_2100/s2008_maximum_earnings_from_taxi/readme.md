@@ -14,7 +14,7 @@ Given `n` and `rides`, return _the **maximum** number of dollars you can earn by
 
 **Example 1:**
 
-**Input:** n = 5, rides = [[2,5,4],[1,5,1]]
+**Input:** n = 5, rides = \[\[2,5,4],[1,5,1]]
 
 **Output:** 7
 
@@ -22,7 +22,7 @@ Given `n` and `rides`, return _the **maximum** number of dollars you can earn by
 
 **Example 2:**
 
-**Input:** n = 20, rides = [[1,6,1],[3,10,2],[10,12,3],[11,12,2],[12,15,2],[13,18,1]]
+**Input:** n = 20, rides = \[\[1,6,1],[3,10,2],[10,12,3],[11,12,2],[12,15,2],[13,18,1]]
 
 **Output:** 20
 

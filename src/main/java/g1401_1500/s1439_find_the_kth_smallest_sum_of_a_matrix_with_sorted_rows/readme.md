@@ -10,7 +10,7 @@ Return _the_ <code>k<sup>th</sup></code> _smallest array sum among all possible 
 
 **Example 1:**
 
-**Input:** mat = [[1,3,11],[2,4,6]], k = 5
+**Input:** mat = \[\[1,3,11],[2,4,6]], k = 5
 
 **Output:** 7
 
@@ -18,13 +18,13 @@ Return _the_ <code>k<sup>th</sup></code> _smallest array sum among all possible 
 
 **Example 2:**
 
-**Input:** mat = [[1,3,11],[2,4,6]], k = 9
+**Input:** mat = \[\[1,3,11],[2,4,6]], k = 9
 
 **Output:** 17
 
 **Example 3:**
 
-**Input:** mat = [[1,10,10],[1,4,5],[2,3,6]], k = 7
+**Input:** mat = \[\[1,10,10],[1,4,5],[2,3,6]], k = 7
 
 **Output:** 9
 

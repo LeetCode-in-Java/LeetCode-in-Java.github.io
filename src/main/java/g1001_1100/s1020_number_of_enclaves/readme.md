@@ -12,7 +12,7 @@ Return _the number of land cells in_ `grid` _for which we cannot walk off the bo
 
 ![](https://assets.leetcode.com/uploads/2021/02/18/enclaves1.jpg)
 
-**Input:** grid = [[0,0,0,0],[1,0,1,0],[0,1,1,0],[0,0,0,0]]
+**Input:** grid = \[\[0,0,0,0],[1,0,1,0],[0,1,1,0],[0,0,0,0]]
 
 **Output:** 3
 
@@ -22,7 +22,7 @@ Return _the number of land cells in_ `grid` _for which we cannot walk off the bo
 
 ![](https://assets.leetcode.com/uploads/2021/02/18/enclaves2.jpg)
 
-**Input:** grid = [[0,1,1,0],[0,0,1,0],[0,0,1,0],[0,0,0,0]]
+**Input:** grid = \[\[0,1,1,0],[0,0,1,0],[0,0,1,0],[0,0,0,0]]
 
 **Output:** 0
 

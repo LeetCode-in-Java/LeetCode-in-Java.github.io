@@ -10,7 +10,7 @@ Return _the **minimum Hamming distance** of_ `source` _and_ `target` _after perf
 
 **Example 1:**
 
-**Input:** source = [1,2,3,4], target = [2,1,4,5], allowedSwaps = [[0,1],[2,3]]
+**Input:** source = [1,2,3,4], target = [2,1,4,5], allowedSwaps = \[\[0,1],[2,3]]
 
 **Output:** 1
 
@@ -32,7 +32,7 @@ The Hamming distance of source and target is 1 as they differ in 1 position: ind
 
 **Example 3:**
 
-**Input:** source = [5,1,2,4,3], target = [1,5,4,2,3], allowedSwaps = [[0,4],[4,2],[1,3],[1,4]]
+**Input:** source = [5,1,2,4,3], target = [1,5,4,2,3], allowedSwaps = \[\[0,4],[4,2],[1,3],[1,4]]
 
 **Output:** 0
 

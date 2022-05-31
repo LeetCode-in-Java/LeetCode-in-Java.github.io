@@ -16,7 +16,7 @@ Note that friendships are not transitive, meaning if `x` is a friend of `y` and 
 
 **Example 1:**
 
-**Input:** n = 2, languages = [[1],[2],[1,2]], friendships = [[1,2],[1,3],[2,3]]
+**Input:** n = 2, languages = \[\[1],[2],[1,2]], friendships = \[\[1,2],[1,3],[2,3]]
 
 **Output:** 1
 
@@ -24,7 +24,7 @@ Note that friendships are not transitive, meaning if `x` is a friend of `y` and 
 
 **Example 2:**
 
-**Input:** n = 3, languages = [[2],[1,3],[1,2],[3]], friendships = [[1,4],[1,2],[3,4],[2,3]]
+**Input:** n = 3, languages = \[\[2],[1,3],[1,2],[3]], friendships = \[\[1,4],[1,2],[3,4],[2,3]]
 
 **Output:** 2
 

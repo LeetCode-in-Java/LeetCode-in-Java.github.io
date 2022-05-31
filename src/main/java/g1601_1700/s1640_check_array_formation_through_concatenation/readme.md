@@ -8,7 +8,7 @@ Return `true` _if it is possible_ _to form the array_ `arr` _from_ `pieces`. Oth
 
 **Example 1:**
 
-**Input:** arr = [15,88], pieces = [[88],[15]]
+**Input:** arr = [15,88], pieces = \[\[88],[15]]
 
 **Output:** true
 
@@ -16,7 +16,7 @@ Return `true` _if it is possible_ _to form the array_ `arr` _from_ `pieces`. Oth
 
 **Example 2:**
 
-**Input:** arr = [49,18,16], pieces = [[16,18,49]]
+**Input:** arr = [49,18,16], pieces = \[\[16,18,49]]
 
 **Output:** false
 
@@ -24,7 +24,7 @@ Return `true` _if it is possible_ _to form the array_ `arr` _from_ `pieces`. Oth
 
 **Example 3:**
 
-**Input:** arr = [91,4,64,78], pieces = [[78],[4,64],[91]]
+**Input:** arr = [91,4,64,78], pieces = \[\[78],[4,64],[91]]
 
 **Output:** true
 

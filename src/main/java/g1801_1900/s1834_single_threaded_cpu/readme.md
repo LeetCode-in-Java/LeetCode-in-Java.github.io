@@ -15,7 +15,7 @@ Return _the order in which the CPU will process the tasks._
 
 **Example 1:**
 
-**Input:** tasks = [[1,2],[2,4],[3,2],[4,1]]
+**Input:** tasks = \[\[1,2],[2,4],[3,2],[4,1]]
 
 **Output:** [0,2,3,1]
 
@@ -39,7 +39,7 @@ Return _the order in which the CPU will process the tasks._
 
 **Example 2:**
 
-**Input:** tasks = [[7,10],[7,12],[7,5],[7,4],[7,2]]
+**Input:** tasks = \[\[7,10],[7,12],[7,5],[7,4],[7,2]]
 
 **Output:** [4,3,2,0,1]
 

@@ -10,7 +10,7 @@ You are also given three integers `src`, `dst`, and `k`, return _**the cheapest 
 
 ![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/02/16/995.png)
 
-**Input:** n = 3, flights = [[0,1,100],[1,2,100],[0,2,500]], src = 0, dst = 2, k = 1
+**Input:** n = 3, flights = \[\[0,1,100],[1,2,100],[0,2,500]], src = 0, dst = 2, k = 1
 
 **Output:** 200
 
@@ -24,7 +24,7 @@ The cheapest price from city `0` to city `2` with at most 1 stop costs 200, as m
 
 ![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/02/16/995.png)
 
-**Input:** n = 3, flights = [[0,1,100],[1,2,100],[0,2,500]], src = 0, dst = 2, k = 0
+**Input:** n = 3, flights = \[\[0,1,100],[1,2,100],[0,2,500]], src = 0, dst = 2, k = 0
 
 **Output:** 500
 

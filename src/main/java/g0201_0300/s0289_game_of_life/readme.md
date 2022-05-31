@@ -17,7 +17,7 @@ The next state is created by applying the above rules simultaneously to every ce
 
 ![](https://assets.leetcode.com/uploads/2020/12/26/grid1.jpg)
 
-**Input:** board = [[0,1,0],[0,0,1],[1,1,1],[0,0,0]]
+**Input:** board = \[\[0,1,0],[0,0,1],[1,1,1],[0,0,0]]
 
 **Output:** [[0,0,0],[1,0,1],[0,1,1],[0,1,0]]
 
@@ -25,7 +25,7 @@ The next state is created by applying the above rules simultaneously to every ce
 
 ![](https://assets.leetcode.com/uploads/2020/12/26/grid2.jpg)
 
-**Input:** board = [[1,1],[1,0]]
+**Input:** board = \[\[1,1],[1,0]]
 
 **Output:** [[1,1],[1,1]]
 

@@ -8,7 +8,7 @@ Given the integer `n` and the array `dislikes` where <code>dislikes[i] = [a<sub>
 
 **Example 1:**
 
-**Input:** n = 4, dislikes = [[1,2],[1,3],[2,4]]
+**Input:** n = 4, dislikes = \[\[1,2],[1,3],[2,4]]
 
 **Output:** true
 
@@ -16,13 +16,13 @@ Given the integer `n` and the array `dislikes` where <code>dislikes[i] = [a<sub>
 
 **Example 2:**
 
-**Input:** n = 3, dislikes = [[1,2],[1,3],[2,3]]
+**Input:** n = 3, dislikes = \[\[1,2],[1,3],[2,3]]
 
 **Output:** false 
 
 **Example 3:**
 
-**Input:** n = 5, dislikes = [[1,2],[2,3],[3,4],[4,5],[1,5]]
+**Input:** n = 5, dislikes = \[\[1,2],[2,3],[3,4],[4,5],[1,5]]
 
 **Output:** false 
 

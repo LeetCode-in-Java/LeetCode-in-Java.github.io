@@ -10,7 +10,7 @@ Return _an array of **right interval** indices for each interval `i`_. If no **r
 
 **Example 1:**
 
-**Input:** intervals = [[1,2]]
+**Input:** intervals = \[\[1,2]]
 
 **Output:** [-1]
 
@@ -18,7 +18,7 @@ Return _an array of **right interval** indices for each interval `i`_. If no **r
 
 **Example 2:**
 
-**Input:** intervals = [[3,4],[2,3],[1,2]]
+**Input:** intervals = \[\[3,4],[2,3],[1,2]]
 
 **Output:** [-1,0,1]
 
@@ -32,7 +32,7 @@ The right interval for [1,2] is [2,3] since start<sub>1</sub> = 2 is the smalles
 
 **Example 3:**
 
-**Input:** intervals = [[1,4],[2,3],[3,4]]
+**Input:** intervals = \[\[1,4],[2,3],[3,4]]
 
 **Output:** [-1,2,-1]
 

@@ -19,7 +19,7 @@ Note that there can be **multiple edges** between the same two nodes.
 
 ![](https://assets.leetcode.com/uploads/2021/06/08/winword_2021-06-08_00-58-39.png)
 
-**Input:** n = 4, edges = [[1,2],[2,4],[1,3],[2,3],[2,1]], queries = [2,3]
+**Input:** n = 4, edges = \[\[1,2],[2,4],[1,3],[2,3],[2,1]], queries = [2,3]
 
 **Output:** [6,5]
 
@@ -31,7 +31,7 @@ Note that there can be **multiple edges** between the same two nodes.
 
 **Example 2:**
 
-**Input:** n = 5, edges = [[1,5],[1,5],[3,4],[2,5],[1,3],[5,1],[2,3],[2,5]], queries = [1,2,3,4,5]
+**Input:** n = 5, edges = \[\[1,5],[1,5],[3,4],[2,5],[1,3],[5,1],[2,3],[2,5]], queries = [1,2,3,4,5]
 
 **Output:** [10,10,9,8,6]
 

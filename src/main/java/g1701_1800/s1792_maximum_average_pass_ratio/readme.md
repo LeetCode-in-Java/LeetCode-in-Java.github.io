@@ -12,7 +12,7 @@ Return _the **maximum** possible average pass ratio after assigning the_ `extraS
 
 **Example 1:**
 
-**Input:** classes = [[1,2],[3,5],[2,2]], `extraStudents` = 2
+**Input:** classes = \[\[1,2],[3,5],[2,2]], `extraStudents` = 2
 
 **Output:** 0.78333
 
@@ -20,7 +20,7 @@ Return _the **maximum** possible average pass ratio after assigning the_ `extraS
 
 **Example 2:**
 
-**Input:** classes = [[2,4],[3,9],[4,5],[2,10]], `extraStudents` = 4
+**Input:** classes = \[\[2,4],[3,9],[4,5],[2,10]], `extraStudents` = 4
 
 **Output:** 0.53485 
 

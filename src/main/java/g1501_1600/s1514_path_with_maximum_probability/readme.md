@@ -12,7 +12,7 @@ If there is no path from `start` to `end`, **return 0**. Your answer will be acc
 
 **![](https://assets.leetcode.com/uploads/2019/09/20/1558_ex1.png)**
 
-**Input:** n = 3, edges = [[0,1],[1,2],[0,2]], succProb = [0.5,0.5,0.2], start = 0, end = 2
+**Input:** n = 3, edges = \[\[0,1],[1,2],[0,2]], succProb = [0.5,0.5,0.2], start = 0, end = 2
 
 **Output:** 0.25000
 
@@ -22,7 +22,7 @@ If there is no path from `start` to `end`, **return 0**. Your answer will be acc
 
 **![](https://assets.leetcode.com/uploads/2019/09/20/1558_ex2.png)**
 
-**Input:** n = 3, edges = [[0,1],[1,2],[0,2]], succProb = [0.5,0.5,0.3], start = 0, end = 2
+**Input:** n = 3, edges = \[\[0,1],[1,2],[0,2]], succProb = [0.5,0.5,0.3], start = 0, end = 2
 
 **Output:** 0.30000
 
@@ -30,7 +30,7 @@ If there is no path from `start` to `end`, **return 0**. Your answer will be acc
 
 **![](https://assets.leetcode.com/uploads/2019/09/20/1558_ex3.png)**
 
-**Input:** n = 3, edges = [[0,1]], succProb = [0.5], start = 0, end = 2
+**Input:** n = 3, edges = \[\[0,1]], succProb = [0.5], start = 0, end = 2
 
 **Output:** 0.00000
 

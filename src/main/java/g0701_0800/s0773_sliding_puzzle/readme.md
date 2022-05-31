@@ -12,7 +12,7 @@ Given the puzzle board `board`, return _the least number of moves required so th
 
 ![](https://assets.leetcode.com/uploads/2021/06/29/slide1-grid.jpg)
 
-**Input:** board = [[1,2,3],[4,0,5]]
+**Input:** board = \[\[1,2,3],[4,0,5]]
 
 **Output:** 1
 
@@ -22,7 +22,7 @@ Given the puzzle board `board`, return _the least number of moves required so th
 
 ![](https://assets.leetcode.com/uploads/2021/06/29/slide2-grid.jpg)
 
-**Input:** board = [[1,2,3],[5,4,0]]
+**Input:** board = \[\[1,2,3],[5,4,0]]
 
 **Output:** -1
 
@@ -32,7 +32,7 @@ Given the puzzle board `board`, return _the least number of moves required so th
 
 ![](https://assets.leetcode.com/uploads/2021/06/29/slide3-grid.jpg)
 
-**Input:** board = [[4,1,2],[5,0,3]]
+**Input:** board = \[\[4,1,2],[5,0,3]]
 
 **Output:** 5
 

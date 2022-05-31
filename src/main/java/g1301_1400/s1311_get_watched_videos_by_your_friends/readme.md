@@ -10,7 +10,7 @@ Level **1** of videos are all watched videos by your friends, level **2** of vid
 
 **![](https://assets.leetcode.com/uploads/2020/01/02/leetcode_friends_1.png)**
 
-**Input:** watchedVideos = [["A","B"],["C"],["B","C"],["D"]], friends = [[1,2],[0,3],[0,3],[1,2]], id = 0, level = 1
+**Input:** watchedVideos = \[\["A","B"],["C"],["B","C"],["D"]], friends = \[\[1,2],[0,3],[0,3],[1,2]], id = 0, level = 1
 
 **Output:** ["B","C"]
 
@@ -32,7 +32,7 @@ C -> 2
 
 **![](https://assets.leetcode.com/uploads/2020/01/02/leetcode_friends_2.png)**
 
-**Input:** watchedVideos = [["A","B"],["C"],["B","C"],["D"]], friends = [[1,2],[0,3],[0,3],[1,2]], id = 0, level = 2
+**Input:** watchedVideos = \[\["A","B"],["C"],["B","C"],["D"]], friends = \[\[1,2],[0,3],[0,3],[1,2]], id = 0, level = 2
 
 **Output:** ["D"]
 

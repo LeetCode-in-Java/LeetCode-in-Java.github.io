@@ -39,7 +39,7 @@ The furthest point the robot ever gets from the origin is (3, 4), which squared 
 
 **Example 2:**
 
-**Input:** commands = [4,-1,4,-2,4], obstacles = [[2,4]]
+**Input:** commands = [4,-1,4,-2,4], obstacles = \[\[2,4]]
 
 **Output:** 65
 

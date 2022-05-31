@@ -16,7 +16,7 @@ Return _an array of size_ `n-1` _where the_ <code>d<sup>th</sup></code> _element
 
 **![](https://assets.leetcode.com/uploads/2020/09/21/p1.png)**
 
-**Input:** n = 4, edges = [[1,2],[2,3],[2,4]]
+**Input:** n = 4, edges = \[\[1,2],[2,3],[2,4]]
 
 **Output:** [3,4,0]
 
@@ -30,13 +30,13 @@ No subtree has two nodes where the max distance between them is 3.
 
 **Example 2:**
 
-**Input:** n = 2, edges = [[1,2]]
+**Input:** n = 2, edges = \[\[1,2]]
 
 **Output:** [1]
 
 **Example 3:**
 
-**Input:** n = 3, edges = [[1,2],[2,3]]
+**Input:** n = 3, edges = \[\[1,2],[2,3]]
 
 **Output:** [2,1]
 

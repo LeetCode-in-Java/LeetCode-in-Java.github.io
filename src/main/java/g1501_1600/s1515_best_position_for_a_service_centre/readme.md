@@ -16,7 +16,7 @@ Answers within <code>10<sup>-5</sup></code> of the actual value will be accepted
 
 ![](https://assets.leetcode.com/uploads/2020/06/25/q4_e1.jpg)
 
-**Input:** positions = [[0,1],[1,0],[1,2],[2,1]]
+**Input:** positions = \[\[0,1],[1,0],[1,2],[2,1]]
 
 **Output:** 4.00000
 
@@ -26,7 +26,7 @@ Answers within <code>10<sup>-5</sup></code> of the actual value will be accepted
 
 ![](https://assets.leetcode.com/uploads/2020/06/25/q4_e3.jpg)
 
-**Input:** positions = [[1,1],[3,3]]
+**Input:** positions = \[\[1,1],[3,3]]
 
 **Output:** 2.82843
 

@@ -12,7 +12,7 @@ Note that points **on the edge** of a vertical area **are not** considered inclu
 
 ![](https://assets.leetcode.com/uploads/2020/09/19/points3.png)
 
-**Input:** points = [[8,7],[9,9],[7,4],[9,7]]
+**Input:** points = \[\[8,7],[9,9],[7,4],[9,7]]
 
 **Output:** 1
 
@@ -20,7 +20,7 @@ Note that points **on the edge** of a vertical area **are not** considered inclu
 
 **Example 2:**
 
-**Input:** points = [[3,1],[9,0],[1,0],[1,4],[5,3],[8,8]]
+**Input:** points = \[\[3,1],[9,0],[1,0],[1,4],[5,3],[8,8]]
 
 **Output:** 3
 

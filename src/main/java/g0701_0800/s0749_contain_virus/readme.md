@@ -14,7 +14,7 @@ Return _the number of walls used to quarantine all the infected regions_. If the
 
 ![](https://assets.leetcode.com/uploads/2021/06/01/virus11-grid.jpg)
 
-**Input:** isInfected = [[0,1,0,0,0,0,0,1],[0,1,0,0,0,0,0,1],[0,0,0,0,0,0,0,1],[0,0,0,0,0,0,0,0]]
+**Input:** isInfected = \[\[0,1,0,0,0,0,0,1],[0,1,0,0,0,0,0,1],[0,0,0,0,0,0,0,1],[0,0,0,0,0,0,0,0]]
 
 **Output:** 10
 
@@ -24,7 +24,7 @@ Return _the number of walls used to quarantine all the infected regions_. If the
 
 ![](https://assets.leetcode.com/uploads/2021/06/01/virus2-grid.jpg)
 
-**Input:** isInfected = [[1,1,1],[1,0,1],[1,1,1]]
+**Input:** isInfected = \[\[1,1,1],[1,0,1],[1,1,1]]
 
 **Output:** 4
 
@@ -32,7 +32,7 @@ Return _the number of walls used to quarantine all the infected regions_. If the
 
 **Example 3:**
 
-**Input:** isInfected = [[1,1,1,0,0,0,0,0,0],[1,0,1,0,1,1,1,1,1],[1,1,1,0,0,0,0,0,0]]
+**Input:** isInfected = \[\[1,1,1,0,0,0,0,0,0],[1,0,1,0,1,1,1,1,1],[1,1,1,0,0,0,0,0,0]]
 
 **Output:** 13
 

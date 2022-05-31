@@ -10,7 +10,7 @@ Given an array `rooms` where `rooms[i]` is the set of keys that you can obtain i
 
 **Example 1:**
 
-**Input:** rooms = [[1],[2],[3],[]]
+**Input:** rooms = \[\[1],[2],[3],[]]
 
 **Output:** true
 
@@ -18,7 +18,7 @@ Given an array `rooms` where `rooms[i]` is the set of keys that you can obtain i
 
 **Example 2:**
 
-**Input:** rooms = [[1,3],[3,0,1],[2],[0]]
+**Input:** rooms = \[\[1,3],[3,0,1],[2],[0]]
 
 **Output:** false
 

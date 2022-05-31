@@ -10,13 +10,13 @@ Return `true` _if it is possible to pick up and drop off all passengers for all 
 
 **Example 1:**
 
-**Input:** trips = [[2,1,5],[3,3,7]], capacity = 4
+**Input:** trips = \[\[2,1,5],[3,3,7]], capacity = 4
 
 **Output:** false
 
 **Example 2:**
 
-**Input:** trips = [[2,1,5],[3,3,7]], capacity = 5
+**Input:** trips = \[\[2,1,5],[3,3,7]], capacity = 5
 
 **Output:** true
 

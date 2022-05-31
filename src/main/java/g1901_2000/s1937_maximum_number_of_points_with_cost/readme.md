@@ -19,7 +19,7 @@ Return _the **maximum** number of points you can achieve_.
 
 ![](https://assets.leetcode.com/uploads/2021/07/12/screenshot-2021-07-12-at-13-40-26-diagram-drawio-diagrams-net.png)
 
-**Input:** points = [[1,2,3],[1,5,1],[3,1,1]]
+**Input:** points = \[\[1,2,3],[1,5,1],[3,1,1]]
 
 **Output:** 9
 
@@ -37,7 +37,7 @@ Your final score is 11 - 2 = 9.
 
 ![](https://assets.leetcode.com/uploads/2021/07/12/screenshot-2021-07-12-at-13-42-14-diagram-drawio-diagrams-net.png)
 
-**Input:** points = [[1,5],[2,3],[4,2]]
+**Input:** points = \[\[1,5],[2,3],[4,2]]
 
 **Output:** 11
 

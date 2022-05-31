@@ -14,7 +14,7 @@ Return _the largest possible overlap_.
 
 ![](https://assets.leetcode.com/uploads/2020/09/09/overlap1.jpg)
 
-**Input:** img1 = [[1,1,0],[0,1,0],[0,1,0]], img2 = [[0,0,0],[0,1,1],[0,0,1]]
+**Input:** img1 = \[\[1,1,0],[0,1,0],[0,1,0]], img2 = \[\[0,0,0],[0,1,1],[0,0,1]]
 
 **Output:** 3
 
@@ -22,13 +22,13 @@ Return _the largest possible overlap_.
 
 **Example 2:**
 
-**Input:** img1 = [[1]], img2 = [[1]]
+**Input:** img1 = \[\[1]], img2 = \[\[1]]
 
 **Output:** 1
 
 **Example 3:**
 
-**Input:** img1 = [[0]], img2 = [[0]]
+**Input:** img1 = \[\[0]], img2 = \[\[0]]
 
 **Output:** 0
 

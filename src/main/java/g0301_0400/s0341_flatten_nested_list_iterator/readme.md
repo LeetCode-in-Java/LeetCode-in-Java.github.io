@@ -22,7 +22,7 @@ If `res` matches the expected flattened list, then your code will be judged as c
 
 **Example 1:**
 
-**Input:** nestedList = [[1,1],2,[1,1]]
+**Input:** nestedList = \[\[1,1],2,[1,1]]
 
 **Output:** [1,1,2,1,1]
 

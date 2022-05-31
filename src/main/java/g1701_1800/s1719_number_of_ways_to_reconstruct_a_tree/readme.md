@@ -29,7 +29,7 @@ An **ancestor** of a node is any node on the path from the root to that node (ex
 
 ![](https://assets.leetcode.com/uploads/2020/12/03/trees2.png)
 
-**Input:** pairs = [[1,2],[2,3]]
+**Input:** pairs = \[\[1,2],[2,3]]
 
 **Output:** 1
 
@@ -39,7 +39,7 @@ An **ancestor** of a node is any node on the path from the root to that node (ex
 
 ![](https://assets.leetcode.com/uploads/2020/12/03/tree.png)
 
-**Input:** pairs = [[1,2],[2,3],[1,3]]
+**Input:** pairs = \[\[1,2],[2,3],[1,3]]
 
 **Output:** 2
 
@@ -47,7 +47,7 @@ An **ancestor** of a node is any node on the path from the root to that node (ex
 
 **Example 3:**
 
-**Input:** pairs = [[1,2],[2,3],[2,4],[1,5]]
+**Input:** pairs = \[\[1,2],[2,3],[2,4],[1,5]]
 
 **Output:** 0
 

@@ -12,7 +12,7 @@ Note that you can return the indices of the edges in any order.
 
 ![](https://assets.leetcode.com/uploads/2020/06/04/ex1.png)
 
-**Input:** n = 5, edges = [[0,1,1],[1,2,1],[2,3,2],[0,3,2],[0,4,3],[3,4,3],[1,4,6]]
+**Input:** n = 5, edges = \[\[0,1,1],[1,2,1],[2,3,2],[0,3,2],[0,4,3],[3,4,3],[1,4,6]]
 
 **Output:** [[0,1],[2,3,4,5]]
 
@@ -30,7 +30,7 @@ The edges 2, 3, 4, and 5 are only part of some MSTs, therefore they are consider
 
 ![](https://assets.leetcode.com/uploads/2020/06/04/ex2.png)
 
-**Input:** n = 4, edges = [[0,1,1],[1,2,1],[2,3,1],[0,3,1]]
+**Input:** n = 4, edges = \[\[0,1,1],[1,2,1],[2,3,1],[0,3,1]]
 
 **Output:** [[],[0,1,2,3]]
 

@@ -14,7 +14,7 @@ Return _the maximum number of achievable requests_.
 
 ![](https://assets.leetcode.com/uploads/2020/09/10/move1.jpg)
 
-**Input:** n = 5, requests = [[0,1],[1,0],[0,1],[1,2],[2,0],[3,4]]
+**Input:** n = 5, requests = \[\[0,1],[1,0],[0,1],[1,2],[2,0],[3,4]]
 
 **Output:** 5 **Explantion:** Let's see the requests: 
 
@@ -36,7 +36,7 @@ We can achieve the requests of users y, a and z by swapping the places in the 3 
 
 ![](https://assets.leetcode.com/uploads/2020/09/10/move2.jpg)
 
-**Input:** n = 3, requests = [[0,0],[1,2],[2,1]]
+**Input:** n = 3, requests = \[\[0,0],[1,2],[2,1]]
 
 **Output:** 3 **Explantion:** Let's see the requests:
 
@@ -50,7 +50,7 @@ We can achieve all the requests.
 
 **Example 3:**
 
-**Input:** n = 4, requests = [[0,3],[3,1],[1,2],[2,0]]
+**Input:** n = 4, requests = \[\[0,3],[3,1],[1,2],[2,0]]
 
 **Output:** 4
 

@@ -22,11 +22,11 @@ An array `a` is a **subset** of an array `b` if `a` can be obtained from `b` by 
 
 - The empty subset has an XOR total of 0. 
 
-- [1] has an XOR total of 1. 
+- \[1] has an XOR total of 1. 
 
-- [3] has an XOR total of 3. 
+- \[3] has an XOR total of 3. 
 
-- [1,3] has an XOR total of 1 XOR 3 = 2. 
+- \[1,3] has an XOR total of 1 XOR 3 = 2. 
   
 0 + 1 + 3 + 2 = 6
 
@@ -40,19 +40,19 @@ An array `a` is a **subset** of an array `b` if `a` can be obtained from `b` by 
 
 - The empty subset has an XOR total of 0. 
 
-- [5] has an XOR total of 5.
+- \[5] has an XOR total of 5.
 
-- [1] has an XOR total of 1. 
+- \[1] has an XOR total of 1. 
 
-- [6] has an XOR total of 6. 
+- \[6] has an XOR total of 6. 
 
-- [5,1] has an XOR total of 5 XOR 1 = 4. 
+- \[5,1] has an XOR total of 5 XOR 1 = 4. 
 
-- [5,6] has an XOR total of 5 XOR 6 = 3. 
+- \[5,6] has an XOR total of 5 XOR 6 = 3. 
 
-- [1,6] has an XOR total of 1 XOR 6 = 7. 
+- \[1,6] has an XOR total of 1 XOR 6 = 7. 
 
-- [5,1,6] has an XOR total of 5 XOR 1 XOR 6 = 2. 
+- \[5,1,6] has an XOR total of 5 XOR 1 XOR 6 = 2. 
   
 0 + 5 + 1 + 6 + 4 + 3 + 7 + 2 = 28
 

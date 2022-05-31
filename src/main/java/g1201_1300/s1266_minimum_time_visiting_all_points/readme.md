@@ -17,7 +17,7 @@ You can move according to these rules:
 
 ![](https://assets.leetcode.com/uploads/2019/11/14/1626_example_1.PNG)
 
-**Input:** points = [[1,1],[3,4],[-1,0]]
+**Input:** points = \[\[1,1],[3,4],[-1,0]]
 
 **Output:** 7
 
@@ -31,7 +31,7 @@ Total time = 7 seconds
 
 **Example 2:**
 
-**Input:** points = [[3,2],[-2,2]]
+**Input:** points = \[\[3,2],[-2,2]]
 
 **Output:** 5
 

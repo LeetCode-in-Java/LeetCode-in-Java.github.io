@@ -10,7 +10,7 @@ Given a `row x col` `grid` of integers, how many `3 x 3` "magic square" subgrids
 
 ![](https://assets.leetcode.com/uploads/2020/09/11/magic_main.jpg)
 
-**Input:** grid = [[4,3,8,4],[9,5,1,9],[2,7,6,2]]
+**Input:** grid = \[\[4,3,8,4],[9,5,1,9],[2,7,6,2]]
 
 **Output:** 1
 
@@ -18,7 +18,7 @@ Given a `row x col` `grid` of integers, how many `3 x 3` "magic square" subgrids
 
 **Example 2:**
 
-**Input:** grid = [[8]]
+**Input:** grid = \[\[8]]
 
 **Output:** 0
 

@@ -10,7 +10,7 @@ The distance used in this problem is the Manhattan distance: the distance betwee
 
 ![](https://assets.leetcode.com/uploads/2019/05/03/1336_ex1.JPG)
 
-**Input:** grid = [[1,0,1],[0,0,0],[1,0,1]]
+**Input:** grid = \[\[1,0,1],[0,0,0],[1,0,1]]
 
 **Output:** 2
 
@@ -20,7 +20,7 @@ The distance used in this problem is the Manhattan distance: the distance betwee
 
 ![](https://assets.leetcode.com/uploads/2019/05/03/1336_ex2.JPG)
 
-**Input:** grid = [[1,0,0],[0,0,0],[0,0,0]]
+**Input:** grid = \[\[1,0,0],[0,0,0],[0,0,0]]
 
 **Output:** 4
 

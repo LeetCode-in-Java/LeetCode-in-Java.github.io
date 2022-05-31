@@ -14,7 +14,7 @@ Return the maximum amount of gold you can collect under the conditions:
 
 **Example 1:**
 
-**Input:** grid = [[0,6,0],[5,8,7],[0,9,0]]
+**Input:** grid = \[\[0,6,0],[5,8,7],[0,9,0]]
 
 **Output:** 24
 
@@ -27,7 +27,7 @@ Return the maximum amount of gold you can collect under the conditions:
 
 **Example 2:**
 
-**Input:** grid = [[1,0,7],[2,0,6],[3,4,5],[0,3,0],[9,0,20]]
+**Input:** grid = \[\[1,0,7],[2,0,6],[3,4,5],[0,3,0],[9,0,20]]
 
 **Output:** 28
 

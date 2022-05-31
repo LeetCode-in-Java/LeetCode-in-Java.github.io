@@ -16,9 +16,9 @@ The bitwise OR of an array `a` is equal to `a[0] **OR** a[1] **OR** ... **OR** a
 
 **Explanation:** The maximum possible bitwise OR of a subset is 3. There are 2 subsets with a bitwise OR of 3: 
 
-- [3] 
+- \[3] 
 
-- [3,1]
+- \[3,1]
 
 **Example 2:**
 
@@ -36,17 +36,17 @@ The bitwise OR of an array `a` is equal to `a[0] **OR** a[1] **OR** ... **OR** a
 
 **Explanation:** The maximum possible bitwise OR of a subset is 7. There are 6 subsets with a bitwise OR of 7: 
 
-- [3,5] 
+- \[3,5] 
 
-- [3,1,5] 
+- \[3,1,5] 
 
-- [3,2,5] 
+- \[3,2,5] 
 
-- [3,2,1,5] 
+- \[3,2,1,5] 
 
-- [2,5] 
+- \[2,5] 
 
-- [2,1,5]
+- \[2,1,5]
 
 **Constraints:**
 

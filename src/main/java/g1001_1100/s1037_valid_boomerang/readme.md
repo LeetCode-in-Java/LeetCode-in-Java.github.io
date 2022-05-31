@@ -8,13 +8,13 @@ A **boomerang** is a set of three points that are **all distinct** and **not in 
 
 **Example 1:**
 
-**Input:** points = [[1,1],[2,3],[3,2]]
+**Input:** points = \[\[1,1],[2,3],[3,2]]
 
 **Output:** true
 
 **Example 2:**
 
-**Input:** points = [[1,1],[2,2],[3,3]]
+**Input:** points = \[\[1,1],[2,2],[3,3]]
 
 **Output:** false
 

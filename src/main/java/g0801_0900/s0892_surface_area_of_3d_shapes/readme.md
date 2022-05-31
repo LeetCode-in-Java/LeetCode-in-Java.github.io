@@ -14,7 +14,7 @@ Return _the total surface area of the resulting shapes_.
 
 ![](https://assets.leetcode.com/uploads/2021/01/08/tmp-grid2.jpg)
 
-**Input:** grid = [[1,2],[3,4]]
+**Input:** grid = \[\[1,2],[3,4]]
 
 **Output:** 34
 
@@ -22,7 +22,7 @@ Return _the total surface area of the resulting shapes_.
 
 ![](https://assets.leetcode.com/uploads/2021/01/08/tmp-grid4.jpg)
 
-**Input:** grid = [[1,1,1],[1,0,1],[1,1,1]]
+**Input:** grid = \[\[1,1,1],[1,0,1],[1,1,1]]
 
 **Output:** 32
 
@@ -30,7 +30,7 @@ Return _the total surface area of the resulting shapes_.
 
 ![](https://assets.leetcode.com/uploads/2021/01/08/tmp-grid5.jpg)
 
-**Input:** grid = [[2,2,2],[2,1,2],[2,2,2]]
+**Input:** grid = \[\[2,2,2],[2,1,2],[2,2,2]]
 
 **Output:** 46
 

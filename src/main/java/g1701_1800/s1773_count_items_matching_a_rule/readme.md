@@ -14,7 +14,7 @@ Return _the number of items that match the given rule_.
 
 **Example 1:**
 
-**Input:** items = [["phone","blue","pixel"],["computer","silver","lenovo"],["phone","gold","iphone"]], ruleKey = "color", ruleValue = "silver"
+**Input:** items = \[\["phone","blue","pixel"],["computer","silver","lenovo"],["phone","gold","iphone"]], ruleKey = "color", ruleValue = "silver"
 
 **Output:** 1
 
@@ -22,7 +22,7 @@ Return _the number of items that match the given rule_.
 
 **Example 2:**
 
-**Input:** items = [["phone","blue","pixel"],["computer","silver","phone"],["phone","gold","iphone"]], ruleKey = "type", ruleValue = "phone"
+**Input:** items = \[\["phone","blue","pixel"],["computer","silver","phone"],["phone","gold","iphone"]], ruleKey = "type", ruleValue = "phone"
 
 **Output:** 2
 

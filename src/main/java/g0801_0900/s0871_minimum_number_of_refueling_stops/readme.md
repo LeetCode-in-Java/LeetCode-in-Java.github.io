@@ -22,7 +22,7 @@ Note that if the car reaches a gas station with `0` fuel left, the car can still
 
 **Example 2:**
 
-**Input:** target = 100, startFuel = 1, stations = [[10,100]]
+**Input:** target = 100, startFuel = 1, stations = \[\[10,100]]
 
 **Output:** -1
 
@@ -30,7 +30,7 @@ Note that if the car reaches a gas station with `0` fuel left, the car can still
 
 **Example 3:**
 
-**Input:** target = 100, startFuel = 10, stations = [[10,60],[20,30],[30,30],[60,40]]
+**Input:** target = 100, startFuel = 10, stations = \[\[10,60],[20,30],[30,30],[60,40]]
 
 **Output:** 2
 

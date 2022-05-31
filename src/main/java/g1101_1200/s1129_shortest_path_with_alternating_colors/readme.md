@@ -13,13 +13,13 @@ Return an array `answer` of length `n`, where each `answer[x]` is the length of 
 
 **Example 1:**
 
-**Input:** n = 3, redEdges = [[0,1],[1,2]], blueEdges = []
+**Input:** n = 3, redEdges = \[\[0,1],[1,2]], blueEdges = []
 
 **Output:** [0,1,-1]
 
 **Example 2:**
 
-**Input:** n = 3, redEdges = [[0,1]], blueEdges = [[2,1]]
+**Input:** n = 3, redEdges = \[\[0,1]], blueEdges = \[\[2,1]]
 
 **Output:** [0,1,-1]
 

@@ -12,7 +12,7 @@ A **subpath** of a path is a contiguous sequence of cities within that path.
 
 **Example 1:**
 
-**Input:** n = 5, paths = [[0,1,2,3,4], 
+**Input:** n = 5, paths = \[\[0,1,2,3,4], 
                            [2,3,4], 
                            [4,0,1,2,3]]
 
@@ -22,7 +22,7 @@ A **subpath** of a path is a contiguous sequence of cities within that path.
 
 **Example 2:**
 
-**Input:** n = 3, paths = [[0],[1],[2]]
+**Input:** n = 3, paths = \[\[0],[1],[2]]
 
 **Output:** 0
 
@@ -30,7 +30,7 @@ A **subpath** of a path is a contiguous sequence of cities within that path.
 
 **Example 3:**
 
-**Input:** n = 5, paths = [[0,1,2,3,4], 
+**Input:** n = 5, paths = \[\[0,1,2,3,4], 
                            [4,3,2,1,0]]
 
 **Output:** 1

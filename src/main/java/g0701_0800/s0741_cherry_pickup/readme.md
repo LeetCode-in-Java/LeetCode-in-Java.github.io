@@ -19,7 +19,7 @@ Return _the maximum number of cherries you can collect by following the rules be
 
 ![](https://assets.leetcode.com/uploads/2020/12/14/grid.jpg)
 
-**Input:** grid = [[0,1,-1],[1,0,-1],[1,1,1]]
+**Input:** grid = \[\[0,1,-1],[1,0,-1],[1,1,1]]
 
 **Output:** 5
 
@@ -27,7 +27,7 @@ Return _the maximum number of cherries you can collect by following the rules be
 
 **Example 2:**
 
-**Input:** grid = [[1,1,-1],[1,-1,1],[-1,1,1]]
+**Input:** grid = \[\[1,1,-1],[1,-1,1],[-1,1,1]]
 
 **Output:** 0
 

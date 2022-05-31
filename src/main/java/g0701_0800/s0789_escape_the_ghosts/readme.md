@@ -12,7 +12,7 @@ Return `true` _if it is possible to escape regardless of how the ghosts move, ot
 
 **Example 1:**
 
-**Input:** ghosts = [[1,0],[0,3]], target = [0,1]
+**Input:** ghosts = \[\[1,0],[0,3]], target = [0,1]
 
 **Output:** true
 
@@ -20,7 +20,7 @@ Return `true` _if it is possible to escape regardless of how the ghosts move, ot
 
 **Example 2:**
 
-**Input:** ghosts = [[1,0]], target = [2,0]
+**Input:** ghosts = \[\[1,0]], target = [2,0]
 
 **Output:** false
 
@@ -28,7 +28,7 @@ Return `true` _if it is possible to escape regardless of how the ghosts move, ot
 
 **Example 3:**
 
-**Input:** ghosts = [[2,0]], target = [1,0]
+**Input:** ghosts = \[\[2,0]], target = [1,0]
 
 **Output:** false
 

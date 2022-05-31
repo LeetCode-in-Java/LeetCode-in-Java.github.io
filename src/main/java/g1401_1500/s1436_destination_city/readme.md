@@ -8,7 +8,7 @@ It is guaranteed that the graph of paths forms a line without any loop, therefor
 
 **Example 1:**
 
-**Input:** paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
+**Input:** paths = \[\["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
 
 **Output:** "Sao Paulo"
 
@@ -16,7 +16,7 @@ It is guaranteed that the graph of paths forms a line without any loop, therefor
 
 **Example 2:**
 
-**Input:** paths = [["B","C"],["D","B"],["C","A"]]
+**Input:** paths = \[\["B","C"],["D","B"],["C","A"]]
 
 **Output:** "A"
 
@@ -32,7 +32,7 @@ It is guaranteed that the graph of paths forms a line without any loop, therefor
 
 **Example 3:**
 
-**Input:** paths = [["A","Z"]]
+**Input:** paths = \[\["A","Z"]]
 
 **Output:** "Z"
 

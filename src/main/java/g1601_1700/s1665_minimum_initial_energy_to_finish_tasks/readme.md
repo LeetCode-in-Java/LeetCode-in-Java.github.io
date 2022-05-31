@@ -15,7 +15,7 @@ Return _the **minimum** initial amount of energy you will need_ _to finish all t
 
 **Example 1:**
 
-**Input:** tasks = [[1,2],[2,4],[4,8]]
+**Input:** tasks = \[\[1,2],[2,4],[4,8]]
 
 **Output:** 8
 
@@ -33,7 +33,7 @@ Notice that even though we have leftover energy, starting with 7 energy does not
 
 **Example 2:**
 
-**Input:** tasks = [[1,3],[2,4],[10,11],[10,12],[8,9]]
+**Input:** tasks = \[\[1,3],[2,4],[10,11],[10,12],[8,9]]
 
 **Output:** 32
 
@@ -53,7 +53,7 @@ Starting with 32 energy, we finish the tasks in the following order:
 
 **Example 3:**
 
-**Input:** tasks = [[1,7],[2,8],[3,9],[4,10],[5,11],[6,12]]
+**Input:** tasks = \[\[1,7],[2,8],[3,9],[4,10],[5,11],[6,12]]
 
 **Output:** 27
 

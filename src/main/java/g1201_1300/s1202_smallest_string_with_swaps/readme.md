@@ -10,7 +10,7 @@ Return the lexicographically smallest string that `s` can be changed to after us
 
 **Example 1:**
 
-**Input:** s = "dcab", pairs = [[0,3],[1,2]]
+**Input:** s = "dcab", pairs = \[\[0,3],[1,2]]
 
 **Output:** "bacd" **Explaination:** 
 
@@ -20,7 +20,7 @@ Swap s[1] and s[2], s = "bacd"
 
 **Example 2:**
 
-**Input:** s = "dcab", pairs = [[0,3],[1,2],[0,2]]
+**Input:** s = "dcab", pairs = \[\[0,3],[1,2],[0,2]]
 
 **Output:** "abcd" **Explaination:**  
 
@@ -32,7 +32,7 @@ Swap s[1] and s[2], s = "abcd"
 
 **Example 3:**
 
-**Input:** s = "cba", pairs = [[0,1],[1,2]]
+**Input:** s = "cba", pairs = \[\[0,1],[1,2]]
 
 **Output:** "abc" **Explaination:**  
 

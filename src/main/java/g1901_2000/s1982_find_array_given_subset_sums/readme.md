@@ -18,21 +18,21 @@ An array `sub` is a **subset** of an array `arr` if `sub` can be obtained from `
 
 **Explanation:** [1,2,-3] is able to achieve the given subset sums: 
 
-- []: sum is 0 
+- \[]: sum is 0 
 
-- [1]: sum is 1 
+- \[1]: sum is 1 
 
-- [2]: sum is 2 
+- \[2]: sum is 2 
 
-- [1,2]: sum is 3 
+- \[1,2]: sum is 3 
 
-- [-3]: sum is -3 
+- \[-3]: sum is -3 
 
-- [1,-3]: sum is -2 
+- \[1,-3]: sum is -2 
 
-- [2,-3]: sum is -1 
+- \[2,-3]: sum is -1 
 
-- [1,2,-3]: sum is 0 
+- \[1,2,-3]: sum is 0 
   
 Note that any permutation of [1,2,-3] and also any permutation of [-1,-2,3] will also be accepted.
 

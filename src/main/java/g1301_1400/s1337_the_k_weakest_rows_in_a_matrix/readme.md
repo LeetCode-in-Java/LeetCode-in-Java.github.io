@@ -38,7 +38,7 @@ The rows ordered from weakest to strongest are [2,0,3,1,4].
 
 **Example 2:**
 
-**Input:** mat = [[1,0,0,0], [1,1,1,1], [1,0,0,0], [1,0,0,0]], k = 2
+**Input:** mat = \[\[1,0,0,0], [1,1,1,1], [1,0,0,0], [1,0,0,0]], k = 2
 
 **Output:** [0,2]
 

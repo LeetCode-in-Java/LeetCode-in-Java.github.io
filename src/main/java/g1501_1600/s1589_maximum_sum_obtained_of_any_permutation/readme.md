@@ -10,7 +10,7 @@ Since the answer may be too large, return it **modulo** <code>10<sup>9</sup> + 7
 
 **Example 1:**
 
-**Input:** nums = [1,2,3,4,5], requests = [[1,3],[0,1]]
+**Input:** nums = [1,2,3,4,5], requests = \[\[1,3],[0,1]]
 
 **Output:** 19
 
@@ -32,7 +32,7 @@ Total sum: 11 + 8 = 19, which is the best that you can do.
 
 **Example 2:**
 
-**Input:** nums = [1,2,3,4,5,6], requests = [[0,1]]
+**Input:** nums = [1,2,3,4,5,6], requests = \[\[0,1]]
 
 **Output:** 11
 
@@ -40,7 +40,7 @@ Total sum: 11 + 8 = 19, which is the best that you can do.
 
 **Example 3:**
 
-**Input:** nums = [1,2,3,4,5,10], requests = [[0,2],[1,3],[1,1]]
+**Input:** nums = [1,2,3,4,5,10], requests = \[\[0,2],[1,3],[1,1]]
 
 **Output:** 47
 

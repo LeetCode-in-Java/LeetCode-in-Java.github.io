@@ -14,7 +14,7 @@ Return _the total number of **provinces**_.
 
 ![](https://assets.leetcode.com/uploads/2020/12/24/graph1.jpg)
 
-**Input:** isConnected = [[1,1,0],[1,1,0],[0,0,1]]
+**Input:** isConnected = \[\[1,1,0],[1,1,0],[0,0,1]]
 
 **Output:** 2
 
@@ -22,7 +22,7 @@ Return _the total number of **provinces**_.
 
 ![](https://assets.leetcode.com/uploads/2020/12/24/graph2.jpg)
 
-**Input:** isConnected = [[1,0,0],[0,1,0],[0,0,1]]
+**Input:** isConnected = \[\[1,0,0],[0,1,0],[0,0,1]]
 
 **Output:** 3
 

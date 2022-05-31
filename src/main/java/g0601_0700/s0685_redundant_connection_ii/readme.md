@@ -14,7 +14,7 @@ Return _an edge that can be removed so that the resulting graph is a rooted tree
 
 ![](https://assets.leetcode.com/uploads/2020/12/20/graph1.jpg)
 
-**Input:** edges = [[1,2],[1,3],[2,3]]
+**Input:** edges = \[\[1,2],[1,3],[2,3]]
 
 **Output:** [2,3]
 
@@ -22,7 +22,7 @@ Return _an edge that can be removed so that the resulting graph is a rooted tree
 
 ![](https://assets.leetcode.com/uploads/2020/12/20/graph2.jpg)
 
-**Input:** edges = [[1,2],[2,3],[3,4],[4,1],[1,5]]
+**Input:** edges = \[\[1,2],[2,3],[3,4],[4,1],[1,5]]
 
 **Output:** [4,1]
 

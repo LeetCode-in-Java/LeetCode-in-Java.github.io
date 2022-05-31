@@ -12,7 +12,7 @@ Students must be placed in seats in good condition.
 
 ![](https://assets.leetcode.com/uploads/2020/01/29/image.png)
 
-**Input:** seats = [["#",".","#","#",".","#"], 
+**Input:** seats = \[\["#",".","#","#",".","#"], 
                     [".","#","#","#","#","."], 
                     ["#",".","#","#",".","#"]]
 
@@ -22,7 +22,7 @@ Students must be placed in seats in good condition.
 
 **Example 2:**
 
-**Input:** seats = [[".","#"], 
+**Input:** seats = \[\[".","#"], 
                     ["#","#"], 
                     ["#","."], 
                     ["#","#"], 
@@ -34,7 +34,7 @@ Students must be placed in seats in good condition.
 
 **Example 3:**
 
-**Input:** seats = [["#",".","**.**",".","#"], 
+**Input:** seats = \[\["#",".","**.**",".","#"], 
                     ["**.**","#","**.**","#","**.**"], 
                     ["**.**",".","#",".","**.**"], 
                     ["**.**","#","**.**","#","**.**"], 

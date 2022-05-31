@@ -10,7 +10,7 @@ Return _the **earliest** year with the **maximum population**_.
 
 **Example 1:**
 
-**Input:** logs = [[1993,1999],[2000,2010]]
+**Input:** logs = \[\[1993,1999],[2000,2010]]
 
 **Output:** 1993
 
@@ -18,7 +18,7 @@ Return _the **earliest** year with the **maximum population**_.
 
 **Example 2:**
 
-**Input:** logs = [[1950,1961],[1960,1971],[1970,1981]]
+**Input:** logs = \[\[1950,1961],[1960,1971],[1970,1981]]
 
 **Output:** 1960
 

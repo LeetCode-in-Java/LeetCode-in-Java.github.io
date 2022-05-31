@@ -14,7 +14,7 @@ Return _the **minimum total wasted space** by choosing the box supplier **optima
 
 **Example 1:**
 
-**Input:** packages = [2,3,5], boxes = [[4,8],[2,8]]
+**Input:** packages = [2,3,5], boxes = \[\[4,8],[2,8]]
 
 **Output:** 6
 
@@ -24,7 +24,7 @@ The total waste is (4-2) + (4-3) + (8-5) = 6.
 
 **Example 2:**
 
-**Input:** packages = [2,3,5], boxes = [[1,4],[2,3],[3,4]]
+**Input:** packages = [2,3,5], boxes = \[\[1,4],[2,3],[3,4]]
 
 **Output:** -1
 
@@ -32,7 +32,7 @@ The total waste is (4-2) + (4-3) + (8-5) = 6.
 
 **Example 3:**
 
-**Input:** packages = [3,5,8,10,11,12], boxes = [[12],[11,9],[10,5,14]]
+**Input:** packages = [3,5,8,10,11,12], boxes = \[\[12],[11,9],[10,5,14]]
 
 **Output:** 9
 

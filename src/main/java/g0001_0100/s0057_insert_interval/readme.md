@@ -10,13 +10,13 @@ Return `intervals` _after the insertion_.
 
 **Example 1:**
 
-**Input:** intervals = [[1,3],[6,9]], newInterval = [2,5]
+**Input:** intervals = \[\[1,3],[6,9]], newInterval = [2,5]
 
 **Output:** [[1,5],[6,9]] 
 
 **Example 2:**
 
-**Input:** intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]
+**Input:** intervals = \[\[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]
 
 **Output:** [[1,2],[3,10],[12,16]]
 
@@ -30,13 +30,13 @@ Return `intervals` _after the insertion_.
 
 **Example 4:**
 
-**Input:** intervals = [[1,5]], newInterval = [2,3]
+**Input:** intervals = \[\[1,5]], newInterval = [2,3]
 
 **Output:** [[1,5]] 
 
 **Example 5:**
 
-**Input:** intervals = [[1,5]], newInterval = [2,7]
+**Input:** intervals = \[\[1,5]], newInterval = [2,7]
 
 **Output:** [[1,7]] 
 

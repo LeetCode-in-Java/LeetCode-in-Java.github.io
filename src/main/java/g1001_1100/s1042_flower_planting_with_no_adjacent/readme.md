@@ -12,7 +12,7 @@ Return _**any** such a choice as an array_ `answer`_, where_ `answer[i]` _is the
 
 **Example 1:**
 
-**Input:** n = 3, paths = [[1,2],[2,3],[3,1]]
+**Input:** n = 3, paths = \[\[1,2],[2,3],[3,1]]
 
 **Output:** [1,2,3]
 
@@ -28,13 +28,13 @@ Hence, [1,2,3] is a valid answer. Other valid answers include [1,2,4], [1,4,2], 
 
 **Example 2:**
 
-**Input:** n = 4, paths = [[1,2],[3,4]]
+**Input:** n = 4, paths = \[\[1,2],[3,4]]
 
 **Output:** [1,2,1,2]
 
 **Example 3:**
 
-**Input:** n = 4, paths = [[1,2],[2,3],[3,4],[4,1],[1,3],[2,4]]
+**Input:** n = 4, paths = \[\[1,2],[2,3],[3,4],[4,1],[1,3],[2,4]]
 
 **Output:** [1,2,3,4]
 

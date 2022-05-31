@@ -10,7 +10,7 @@ It is guaranteed that there exists at least one pair of points that satisfy the 
 
 **Example 1:**
 
-**Input:** points = [[1,3],[2,0],[5,10],[6,-10]], k = 1
+**Input:** points = \[\[1,3],[2,0],[5,10],[6,-10]], k = 1
 
 **Output:** 4
 
@@ -20,7 +20,7 @@ No other pairs satisfy the condition, so we return the max of 4 and 1.
 
 **Example 2:**
 
-**Input:** points = [[0,0],[3,0],[9,2]], k = 3
+**Input:** points = \[\[0,0],[3,0],[9,2]], k = 3
 
 **Output:** 3
 

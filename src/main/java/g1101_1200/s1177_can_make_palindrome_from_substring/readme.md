@@ -12,7 +12,7 @@ Note that each letter is counted individually for replacement, so if, for exampl
 
 **Example :**
 
-**Input:** s = "abcda", queries = [[3,3,0],[1,2,0],[0,3,1],[0,3,2],[0,4,1]]
+**Input:** s = "abcda", queries = \[\[3,3,0],[1,2,0],[0,3,1],[0,3,2],[0,4,1]]
 
 **Output:** [true,false,false,true,true]
 
@@ -30,7 +30,7 @@ queries[4]: substring = "abcda", could be changed to "abcba" which is palidrome.
 
 **Example 2:**
 
-**Input:** s = "lyb", queries = [[0,1,0],[2,2,1]]
+**Input:** s = "lyb", queries = \[\[0,1,0],[2,2,1]]
 
 **Output:** [false,true]
 

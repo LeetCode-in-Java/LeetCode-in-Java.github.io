@@ -12,7 +12,7 @@ Return _the **total area**_. Since the answer may be too large, return it **modu
 
 ![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/06/06/rectangle_area_ii_pic.png)
 
-**Input:** rectangles = [[0,0,2,2],[1,0,2,3],[1,0,3,1]]
+**Input:** rectangles = \[\[0,0,2,2],[1,0,2,3],[1,0,3,1]]
 
 **Output:** 6
 
@@ -24,7 +24,7 @@ From (1,0) to (2,3), all three rectangles overlap.
 
 **Example 2:**
 
-**Input:** rectangles = [[0,0,1000000000,1000000000]]
+**Input:** rectangles = \[\[0,0,1000000000,1000000000]]
 
 **Output:** 49
 

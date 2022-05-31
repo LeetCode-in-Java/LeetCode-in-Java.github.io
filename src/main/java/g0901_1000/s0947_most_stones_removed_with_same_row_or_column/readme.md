@@ -10,7 +10,7 @@ Given an array `stones` of length `n` where <code>stones[i] = [x<sub>i</sub>, y<
 
 **Example 1:**
 
-**Input:** stones = [[0,0],[0,1],[1,0],[1,2],[2,1],[2,2]]
+**Input:** stones = \[\[0,0],[0,1],[1,0],[1,2],[2,1],[2,2]]
 
 **Output:** 5
 
@@ -26,7 +26,7 @@ Stone [0,0] cannot be removed since it does not share a row/column with another 
 
 **Example 2:**
 
-**Input:** stones = [[0,0],[0,2],[1,1],[2,0],[2,2]]
+**Input:** stones = \[\[0,0],[0,2],[1,1],[2,0],[2,2]]
 
 **Output:** 3
 
@@ -42,7 +42,7 @@ Stones [0,0] and [1,1] cannot be removed since they do not share a row/column wi
 
 **Example 3:**
 
-**Input:** stones = [[0,0]]
+**Input:** stones = \[\[0,0]]
 
 **Output:** 0
 

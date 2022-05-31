@@ -10,7 +10,7 @@ The graph is given as follows: `graph[i]` is a list of all nodes you can visit f
 
 ![](https://assets.leetcode.com/uploads/2020/09/28/all_1.jpg)
 
-**Input:** graph = [[1,2],[3],[3],[]]
+**Input:** graph = \[\[1,2],[3],[3],[]]
 
 **Output:** [[0,1,3],[0,2,3]]
 
@@ -20,7 +20,7 @@ The graph is given as follows: `graph[i]` is a list of all nodes you can visit f
 
 ![](https://assets.leetcode.com/uploads/2020/09/28/all_2.jpg)
 
-**Input:** graph = [[4,3,1],[3,2,4],[3],[4],[]]
+**Input:** graph = \[\[4,3,1],[3,2,4],[3],[4],[]]
 
 **Output:** [[0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4]] 
 

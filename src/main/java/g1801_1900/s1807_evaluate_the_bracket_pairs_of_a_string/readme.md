@@ -19,7 +19,7 @@ Return _the resulting string after evaluating **all** of the bracket pairs._
 
 **Example 1:**
 
-**Input:** s = "(name)is(age)yearsold", knowledge = [["name","bob"],["age","two"]]
+**Input:** s = "(name)is(age)yearsold", knowledge = \[\["name","bob"],["age","two"]]
 
 **Output:** "bobistwoyearsold"
 
@@ -31,7 +31,7 @@ The key "age" has a value of "two", so replace "(age)" with "two".
 
 **Example 2:**
 
-**Input:** s = "hi(name)", knowledge = [["a","b"]]
+**Input:** s = "hi(name)", knowledge = \[\["a","b"]]
 
 **Output:** "hi?"
 
@@ -39,7 +39,7 @@ The key "age" has a value of "two", so replace "(age)" with "two".
 
 **Example 3:**
 
-**Input:** s = "(a)(a)(a)aaa", knowledge = [["a","yes"]]
+**Input:** s = "(a)(a)(a)aaa", knowledge = \[\["a","yes"]]
 
 **Output:** "yesyesyesaaa"
 

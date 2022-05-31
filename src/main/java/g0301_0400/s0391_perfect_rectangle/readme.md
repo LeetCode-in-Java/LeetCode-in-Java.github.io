@@ -10,7 +10,7 @@ Return `true` _if all the rectangles together form an exact cover of a rectangul
 
 ![](https://assets.leetcode.com/uploads/2021/03/27/perectrec1-plane.jpg)
 
-**Input:** rectangles = [[1,1,3,3],[3,1,4,2],[3,2,4,4],[1,3,2,4],[2,3,3,4]]
+**Input:** rectangles = \[\[1,1,3,3],[3,1,4,2],[3,2,4,4],[1,3,2,4],[2,3,3,4]]
 
 **Output:** true
 
@@ -20,7 +20,7 @@ Return `true` _if all the rectangles together form an exact cover of a rectangul
 
 ![](https://assets.leetcode.com/uploads/2021/03/27/perfectrec2-plane.jpg)
 
-**Input:** rectangles = [[1,1,2,3],[1,3,2,4],[3,1,4,2],[3,2,4,4]]
+**Input:** rectangles = \[\[1,1,2,3],[1,3,2,4],[3,1,4,2],[3,2,4,4]]
 
 **Output:** false
 
@@ -30,7 +30,7 @@ Return `true` _if all the rectangles together form an exact cover of a rectangul
 
 ![](https://assets.leetcode.com/uploads/2021/03/27/perfectrec3-plane.jpg)
 
-**Input:** rectangles = [[1,1,3,3],[3,1,4,2],[1,3,2,4],[3,2,4,4]]
+**Input:** rectangles = \[\[1,1,3,3],[3,1,4,2],[1,3,2,4],[3,2,4,4]]
 
 **Output:** false
 
@@ -40,7 +40,7 @@ Return `true` _if all the rectangles together form an exact cover of a rectangul
 
 ![](https://assets.leetcode.com/uploads/2021/03/27/perfecrrec4-plane.jpg)
 
-**Input:** rectangles = [[1,1,3,3],[3,1,4,2],[1,3,2,4],[2,2,4,4]]
+**Input:** rectangles = \[\[1,1,3,3],[3,1,4,2],[1,3,2,4],[2,2,4,4]]
 
 **Output:** false
 

@@ -10,7 +10,7 @@ A region is **captured** by flipping all `'O'`s into `'X'`s in that surrounded r
 
 ![](https://assets.leetcode.com/uploads/2021/02/19/xogrid.jpg)
 
-**Input:** board = [["X","X","X","X"],["X","O","O","X"],["X","X","O","X"],["X","O","X","X"]]
+**Input:** board = \[\["X","X","X","X"],["X","O","O","X"],["X","X","O","X"],["X","O","X","X"]]
 
 **Output:** [["X","X","X","X"],["X","X","X","X"],["X","X","X","X"],["X","O","X","X"]]
 
@@ -18,7 +18,7 @@ A region is **captured** by flipping all `'O'`s into `'X'`s in that surrounded r
 
 **Example 2:**
 
-**Input:** board = [["X"]]
+**Input:** board = \[\["X"]]
 
 **Output:** [["X"]] 
 

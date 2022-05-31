@@ -15,13 +15,13 @@ Return any solution if there is more than one solution and return an **empty lis
 
 **![](https://assets.leetcode.com/uploads/2019/09/11/1359_ex1.png)**
 
-**Input:** n = 8, m = 2, group = [-1,-1,1,0,0,1,0,-1], beforeItems = [[],[6],[5],[6],[3,6],[],[],[]]
+**Input:** n = 8, m = 2, group = [-1,-1,1,0,0,1,0,-1], beforeItems = \[\[],[6],[5],[6],[3,6],[],[],[]]
 
 **Output:** [6,3,4,1,5,2,0,7]
 
 **Example 2:**
 
-**Input:** n = 8, m = 2, group = [-1,-1,1,0,0,1,0,-1], beforeItems = [[],[6],[5],[6],[3],[],[4],[]]
+**Input:** n = 8, m = 2, group = [-1,-1,1,0,0,1,0,-1], beforeItems = \[\[],[6],[5],[6],[3],[],[4],[]]
 
 **Output:** []
 

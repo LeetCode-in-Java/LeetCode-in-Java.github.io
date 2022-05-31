@@ -23,7 +23,7 @@ Return _the minimum number of **pushes** to move the box to the target_. If ther
 
 **Input:**
 
-    grid = [["#","#","#","#","#","#"],
+    grid = [ ["#","#","#","#","#","#"],
             ["#","T","#","#","#","#"],
             ["#",".",".","B",".","#"],
             ["#",".","#","#",".","#"],
@@ -38,7 +38,7 @@ Return _the minimum number of **pushes** to move the box to the target_. If ther
 
 **Input:**
 
-    grid = [["#","#","#","#","#","#"],
+    grid = [ ["#","#","#","#","#","#"],
             ["#","T","#","#","#","#"],
             ["#",".",".","B",".","#"],
             ["#","#","#","#",".","#"],
@@ -51,7 +51,7 @@ Return _the minimum number of **pushes** to move the box to the target_. If ther
 
 **Input:**
 
-    grid = [["#","#","#","#","#","#"],
+    grid = [ ["#","#","#","#","#","#"],
             ["#","T",".",".","#","#"],
             ["#",".","#","B",".","#"],
             ["#",".",".",".",".","#"],

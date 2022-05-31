@@ -14,7 +14,7 @@ Return _the **minimum** degree of a connected trio in the graph, or_ `-1` _if th
 
 ![](https://assets.leetcode.com/uploads/2021/01/26/trios1.png)
 
-**Input:** n = 6, edges = [[1,2],[1,3],[3,2],[4,1],[5,2],[3,6]]
+**Input:** n = 6, edges = \[\[1,2],[1,3],[3,2],[4,1],[5,2],[3,6]]
 
 **Output:** 3
 
@@ -24,7 +24,7 @@ Return _the **minimum** degree of a connected trio in the graph, or_ `-1` _if th
 
 ![](https://assets.leetcode.com/uploads/2021/01/26/trios2.png)
 
-**Input:** n = 7, edges = [[1,3],[4,1],[4,3],[2,5],[5,6],[6,7],[7,5],[2,6]]
+**Input:** n = 7, edges = \[\[1,3],[4,1],[4,3],[2,5],[5,6],[6,7],[7,5],[2,6]]
 
 **Output:** 0
 

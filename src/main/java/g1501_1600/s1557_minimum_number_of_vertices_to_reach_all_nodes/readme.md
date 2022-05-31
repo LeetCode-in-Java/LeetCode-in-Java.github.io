@@ -12,7 +12,7 @@ Notice that you can return the vertices in any order.
 
 ![](https://assets.leetcode.com/uploads/2020/07/07/untitled22.png)
 
-**Input:** n = 6, edges = [[0,1],[0,2],[2,5],[3,4],[4,2]]
+**Input:** n = 6, edges = \[\[0,1],[0,2],[2,5],[3,4],[4,2]]
 
 **Output:** [0,3]
 
@@ -22,7 +22,7 @@ Notice that you can return the vertices in any order.
 
 ![](https://assets.leetcode.com/uploads/2020/07/07/untitled.png)
 
-**Input:** n = 5, edges = [[0,1],[2,1],[3,1],[1,4],[2,4]]
+**Input:** n = 5, edges = \[\[0,1],[2,1],[3,1],[1,4],[2,4]]
 
 **Output:** [0,2,3]
 

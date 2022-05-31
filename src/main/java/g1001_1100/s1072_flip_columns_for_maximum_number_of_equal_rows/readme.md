@@ -10,7 +10,7 @@ Return _the maximum number of rows that have all values equal after some number 
 
 **Example 1:**
 
-**Input:** matrix = [[0,1],[1,1]]
+**Input:** matrix = \[\[0,1],[1,1]]
 
 **Output:** 1
 
@@ -18,7 +18,7 @@ Return _the maximum number of rows that have all values equal after some number 
 
 **Example 2:**
 
-**Input:** matrix = [[0,1],[1,0]]
+**Input:** matrix = \[\[0,1],[1,0]]
 
 **Output:** 2
 
@@ -26,7 +26,7 @@ Return _the maximum number of rows that have all values equal after some number 
 
 **Example 3:**
 
-**Input:** matrix = [[0,0,0],[0,0,1],[1,1,0]]
+**Input:** matrix = \[\[0,0,0],[0,0,1],[1,1,0]]
 
 **Output:** 2
 

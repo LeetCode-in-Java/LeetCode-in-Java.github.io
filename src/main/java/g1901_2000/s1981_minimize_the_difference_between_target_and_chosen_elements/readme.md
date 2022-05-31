@@ -14,7 +14,7 @@ The **absolute difference** between two numbers `a` and `b` is the absolute valu
 
 ![](https://assets.leetcode.com/uploads/2021/08/03/matrix1.png)
 
-**Input:** mat = [[1,2,3],[4,5,6],[7,8,9]], target = 13
+**Input:** mat = \[\[1,2,3],[4,5,6],[7,8,9]], target = 13
 
 **Output:** 0
 
@@ -32,7 +32,7 @@ The sum of the chosen elements is 13, which equals the target, so the absolute d
 
 ![](https://assets.leetcode.com/uploads/2021/08/03/matrix1-1.png)
 
-**Input:** mat = [[1],[2],[3]], target = 100
+**Input:** mat = \[\[1],[2],[3]], target = 100
 
 **Output:** 94
 
@@ -50,7 +50,7 @@ The sum of the chosen elements is 6, and the absolute difference is 94.
 
 ![](https://assets.leetcode.com/uploads/2021/08/03/matrix1-3.png)
 
-**Input:** mat = [[1,2,9,8,7]], target = 6
+**Input:** mat = \[\[1,2,9,8,7]], target = 6
 
 **Output:** 1
 

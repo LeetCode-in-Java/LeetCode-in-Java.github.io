@@ -20,17 +20,17 @@ A **subset** of `nums` is any array that can be obtained by deleting some (possi
 
 **Explanation:** The good subsets are:
 
-- [1,2]: product is 2, which is the product of distinct prime 2.
+- \[1,2]: product is 2, which is the product of distinct prime 2.
 
-- [1,2,3]: product is 6, which is the product of distinct primes 2 and 3.
+- \[1,2,3]: product is 6, which is the product of distinct primes 2 and 3.
 
-- [1,3]: product is 3, which is the product of distinct prime 3.
+- \[1,3]: product is 3, which is the product of distinct prime 3.
 
-- [2]: product is 2, which is the product of distinct prime 2.
+- \[2]: product is 2, which is the product of distinct prime 2.
 
-- [2,3]: product is 6, which is the product of distinct primes 2 and 3.
+- \[2,3]: product is 6, which is the product of distinct primes 2 and 3.
 
-- [3]: product is 3, which is the product of distinct prime 3. 
+- \[3]: product is 3, which is the product of distinct prime 3. 
 
 **Example 2:**
 
@@ -40,15 +40,15 @@ A **subset** of `nums` is any array that can be obtained by deleting some (possi
 
 **Explanation:** The good subsets are:
 
-- [2]: product is 2, which is the product of distinct prime 2.
+- \[2]: product is 2, which is the product of distinct prime 2.
 
-- [2,3]: product is 6, which is the product of distinct primes 2 and 3.
+- \[2,3]: product is 6, which is the product of distinct primes 2 and 3.
 
-- [2,15]: product is 30, which is the product of distinct primes 2, 3, and 5.
+- \[2,15]: product is 30, which is the product of distinct primes 2, 3, and 5.
 
-- [3]: product is 3, which is the product of distinct prime 3.
+- \[3]: product is 3, which is the product of distinct prime 3.
 
-- [15]: product is 15, which is the product of distinct primes 3 and 5. 
+- \[15]: product is 15, which is the product of distinct primes 3 and 5. 
 
 **Constraints:**
 

@@ -12,7 +12,7 @@ Return _a **boolean array**_ `answer`_, where_ `answer.length == queries.length`
 
 ![](https://assets.leetcode.com/uploads/2020/12/08/h.png)
 
-**Input:** n = 3, edgeList = [[0,1,2],[1,2,4],[2,0,8],[1,0,16]], queries = [[0,1,2],[0,2,5]]
+**Input:** n = 3, edgeList = \[\[0,1,2],[1,2,4],[2,0,8],[1,0,16]], queries = \[\[0,1,2],[0,2,5]]
 
 **Output:** [false,true]
 
@@ -26,7 +26,7 @@ For the second query, there is a path (0 -> 1 -> 2) of two edges with distances 
 
 ![](https://assets.leetcode.com/uploads/2020/12/08/q.png)
 
-**Input:** n = 5, edgeList = [[0,1,10],[1,2,5],[2,3,9],[3,4,13]], queries = [[0,4,14],[1,4,13]]
+**Input:** n = 5, edgeList = \[\[0,1,10],[1,2,5],[2,3,9],[3,4,13]], queries = \[\[0,4,14],[1,4,13]]
 
 **Output:** [true,false] **Exaplanation:** The above figure shows the given graph.
 

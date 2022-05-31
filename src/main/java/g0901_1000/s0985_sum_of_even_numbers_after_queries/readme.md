@@ -10,7 +10,7 @@ Return _an integer array_ `answer` _where_ `answer[i]` _is the answer to the_ <c
 
 **Example 1:**
 
-**Input:** nums = [1,2,3,4], queries = [[1,0],[-3,1],[-4,0],[2,3]]
+**Input:** nums = [1,2,3,4], queries = \[\[1,0],[-3,1],[-4,0],[2,3]]
 
 **Output:** [8,6,2,4]
 
@@ -26,7 +26,7 @@ After adding 2 to nums[3], the array is [-2,-1,3,6], and the sum of even values 
 
 **Example 2:**
 
-**Input:** nums = [1], queries = [[4,0]]
+**Input:** nums = [1], queries = \[\[4,0]]
 
 **Output:** [0]
 

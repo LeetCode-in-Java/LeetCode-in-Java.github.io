@@ -10,7 +10,7 @@ Return _an array containing the answers to the queries_.
 
 **Example 1:**
 
-**Input:** intervals = [[1,4],[2,4],[3,6],[4,4]], queries = [2,3,4,5]
+**Input:** intervals = \[\[1,4],[2,4],[3,6],[4,4]], queries = [2,3,4,5]
 
 **Output:** [3,3,1,4]
 
@@ -26,7 +26,7 @@ Return _an array containing the answers to the queries_.
 
 **Example 2:**
 
-**Input:** intervals = [[2,3],[2,5],[1,8],[20,25]], queries = [2,19,5,22]
+**Input:** intervals = \[\[2,3],[2,5],[1,8],[20,25]], queries = [2,19,5,22]
 
 **Output:** [2,-1,4,6]
 

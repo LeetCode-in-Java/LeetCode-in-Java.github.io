@@ -12,7 +12,7 @@ Since the answer may be too large, return it modulo <code>10<sup>9</sup> + 7</co
 
 **Example 1:**
 
-**Input:** hats = [[3,4],[4,5],[5]]
+**Input:** hats = \[\[3,4],[4,5],[5]]
 
 **Output:** 1
 
@@ -20,7 +20,7 @@ Since the answer may be too large, return it modulo <code>10<sup>9</sup> + 7</co
 
 **Example 2:**
 
-**Input:** hats = [[3,5,1],[3,5]]
+**Input:** hats = \[\[3,5,1],[3,5]]
 
 **Output:** 4
 
@@ -28,7 +28,7 @@ Since the answer may be too large, return it modulo <code>10<sup>9</sup> + 7</co
 
 **Example 3:**
 
-**Input:** hats = [[1,2,3,4],[1,2,3,4],[1,2,3,4],[1,2,3,4]]
+**Input:** hats = \[\[1,2,3,4],[1,2,3,4],[1,2,3,4],[1,2,3,4]]
 
 **Output:** 24
 

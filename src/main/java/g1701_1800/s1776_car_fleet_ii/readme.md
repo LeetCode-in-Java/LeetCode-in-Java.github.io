@@ -13,7 +13,7 @@ Return an array `answer`, where `answer[i]` is the time, in seconds, at which th
 
 **Example 1:**
 
-**Input:** cars = [[1,2],[2,1],[4,3],[7,2]]
+**Input:** cars = \[\[1,2],[2,1],[4,3],[7,2]]
 
 **Output:** [1.00000,-1.00000,3.00000,-1.00000]
 
@@ -21,7 +21,7 @@ Return an array `answer`, where `answer[i]` is the time, in seconds, at which th
 
 **Example 2:**
 
-**Input:** cars = [[3,4],[5,4],[6,3],[9,1]]
+**Input:** cars = \[\[3,4],[5,4],[6,3],[9,1]]
 
 **Output:** [2.00000,1.00000,1.50000,-1.00000]
 

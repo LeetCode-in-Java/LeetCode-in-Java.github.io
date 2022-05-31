@@ -8,7 +8,7 @@ We define the range `[a, b]` is smaller than range `[c, d]` if `b - a < d - c` *
 
 **Example 1:**
 
-**Input:** nums = [[4,10,15,24,26],[0,9,12,20],[5,18,22,30]]
+**Input:** nums = \[\[4,10,15,24,26],[0,9,12,20],[5,18,22,30]]
 
 **Output:** [20,24]
 
@@ -22,7 +22,7 @@ List 3: [5, 18, 22, 30], 22 is in range [20,24].
 
 **Example 2:**
 
-**Input:** nums = [[1,2,3],[1,2,3],[1,2,3]]
+**Input:** nums = \[\[1,2,3],[1,2,3],[1,2,3]]
 
 **Output:** [1,1]
 

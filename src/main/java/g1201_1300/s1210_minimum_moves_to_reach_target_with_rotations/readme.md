@@ -23,7 +23,7 @@ If there is no way to reach the target, return `-1`.
 
 **Input:** 
 
-    grid = [[0,0,0,0,0,1], 
+    grid = [ [0,0,0,0,0,1], 
             [1,1,0,0,1,0], 
             [0,0,0,0,1,1], 
             [0,0,1,0,1,0], 
@@ -38,7 +38,7 @@ If there is no way to reach the target, return `-1`.
 
 **Input:** 
 
-    grid = [[0,0,1,1,1,1], 
+    grid = [ [0,0,1,1,1,1], 
             [0,0,0,0,1,1], 
             [1,1,0,0,0,1], 
             [1,1,1,0,0,1], 

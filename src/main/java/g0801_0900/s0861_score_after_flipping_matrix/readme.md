@@ -14,7 +14,7 @@ Return _the highest possible **score** after making any number of **moves** (inc
 
 ![](https://assets.leetcode.com/uploads/2021/07/23/lc-toogle1.jpg)
 
-**Input:** grid = [[0,0,1,1],[1,0,1,0],[1,1,0,0]]
+**Input:** grid = \[\[0,0,1,1],[1,0,1,0],[1,1,0,0]]
 
 **Output:** 39
 
@@ -22,7 +22,7 @@ Return _the highest possible **score** after making any number of **moves** (inc
 
 **Example 2:**
 
-**Input:** grid = [[0]]
+**Input:** grid = \[\[0]]
 
 **Output:** 1
 
