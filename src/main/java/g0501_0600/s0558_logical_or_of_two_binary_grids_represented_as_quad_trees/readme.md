@@ -68,8 +68,9 @@ If the value of `isLeaf` or `val` is True we represent it as **1** in the list `
 ## Solution
 
 ```java
-@SuppressWarnings("java:S1104")
-public class Node {
+/*
+// Definition for a QuadTree node.
+class Node {
     public boolean val;
     public boolean isLeaf;
     public Node topLeft;
@@ -77,32 +78,51 @@ public class Node {
     public Node bottomLeft;
     public Node bottomRight;
 
-    public Node() {
-        // empty constructor
-    }
+    public Node() {}
 
-    public Node(boolean val, boolean isLeaf) {
-        this.val = val;
-        this.isLeaf = isLeaf;
-        this.topLeft = null;
-        this.topRight = null;
-        this.bottomLeft = null;
-        this.bottomRight = null;
+    public Node(boolean _val,boolean _isLeaf,Node _topLeft,Node _topRight,Node _bottomLeft,Node _bottomRight) {
+        val = _val;
+        isLeaf = _isLeaf;
+        topLeft = _topLeft;
+        topRight = _topRight;
+        bottomLeft = _bottomLeft;
+        bottomRight = _bottomRight;
     }
-
-    @Override
-    public String toString() {
-        return getNode(this)
-                + getNode(topLeft)
-                + getNode(topRight)
-                + getNode(bottomLeft)
-                + getNode(bottomRight);
-    }
-
-    private String getNode(Node node) {
-        String isLeafLocal = node.isLeaf ? "1" : "0";
-        String valLocal = node.val ? "1" : "0";
-        return "[" + isLeafLocal + "," + valLocal + "]";
+};
+*/
+public class Solution {
+    public Node intersect(Node n1, Node n2) {
+        if (n1.isLeaf) {
+            return n1.val ? n1 : n2;
+        }
+        if (n2.isLeaf) {
+            return n2.val ? n2 : n1;
+        }
+        Node out = new Node();
+        Node tl;
+        Node tr;
+        Node bl;
+        Node br;
+        tl = intersect(n1.topLeft, n2.topLeft);
+        tr = intersect(n1.topRight, n2.topRight);
+        bl = intersect(n1.bottomLeft, n2.bottomLeft);
+        br = intersect(n1.bottomRight, n2.bottomRight);
+        if (tl.isLeaf
+                && tr.isLeaf
+                && bl.isLeaf
+                && br.isLeaf
+                && (tl.val == tr.val)
+                && (tr.val == bl.val)
+                && (br.val == bl.val)) {
+            out.isLeaf = true;
+            out.val = tl.val;
+        } else {
+            out.topLeft = tl;
+            out.topRight = tr;
+            out.bottomLeft = bl;
+            out.bottomRight = br;
+        }
+        return out;
     }
 }
 ```

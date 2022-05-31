@@ -45,9 +45,60 @@ Submissions making more than `100` calls to `MountainArray.get` will be judged _
 ## Solution
 
 ```java
-interface MountainArray {
-    int get(int index);
+public class Solution {
+    public int findInMountainArray(int target, MountainArray mountainArr) {
+        int peakIndex = findPeak(mountainArr);
+        if (target == mountainArr.get(peakIndex)) {
+            return peakIndex;
+        }
+        int leftResult = findInPeakLeft(target, peakIndex, mountainArr);
+        if (leftResult != -1) {
+            return leftResult;
+        }
+        return findInPeakRight(target, peakIndex, mountainArr);
+    }
 
-    int length();
+    private int findPeak(MountainArray mountainArray) {
+        int len = mountainArray.length();
+        int left = 0;
+        int right = len - 1;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (mountainArray.get(mid) < mountainArray.get(mid + 1)) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+        }
+        return left;
+    }
+
+    private int findInPeakLeft(int target, int peakIndex, MountainArray mountainArray) {
+        int leftIndex = 0;
+        int rightIndex = peakIndex - 1;
+        while (leftIndex < rightIndex) {
+            int midIndex = leftIndex + (rightIndex - leftIndex) / 2;
+            if (target > mountainArray.get(midIndex)) {
+                leftIndex = midIndex + 1;
+            } else {
+                rightIndex = midIndex;
+            }
+        }
+        return target == mountainArray.get(leftIndex) ? leftIndex : -1;
+    }
+
+    private int findInPeakRight(int target, int peakIndex, MountainArray mountainArray) {
+        int leftIndex = peakIndex + 1;
+        int rightIndex = mountainArray.length() - 1;
+        while (leftIndex < rightIndex) {
+            int midIndex = leftIndex + (rightIndex - leftIndex) / 2;
+            if (target < mountainArray.get(midIndex)) {
+                leftIndex = midIndex + 1;
+            } else {
+                rightIndex = midIndex;
+            }
+        }
+        return target == mountainArray.get(leftIndex) ? leftIndex : -1;
+    }
 }
 ```
