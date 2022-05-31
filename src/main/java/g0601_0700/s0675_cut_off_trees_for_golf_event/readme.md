@@ -87,7 +87,7 @@ public class Solution {
 
     private int minSteps(List<List<Integer>> forest, int target) {
         int steps = 0;
-        int[][] dirs = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+        int[][] dirs = { {0, 1}, {0, -1}, {1, 0}, {-1, 0}};
         boolean[][] visited = new boolean[forest.size()][forest.get(0).size()];
         Queue<int[]> q = new LinkedList<>();
         q.add(new int[] {this.r, this.c});
