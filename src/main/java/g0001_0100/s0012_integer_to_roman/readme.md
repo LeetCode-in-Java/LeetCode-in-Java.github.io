@@ -66,18 +66,15 @@ Given an integer, convert it to a roman numeral.
 ```java
 public class Solution {
     public String intToRoman(int num) {
-
         StringBuilder sb = new StringBuilder();
         int m = 1000;
         int c = 100;
         int x = 10;
         int i = 1;
-
         num = numerals(sb, num, m, ' ', ' ', 'M');
         num = numerals(sb, num, c, 'M', 'D', 'C');
         num = numerals(sb, num, x, 'C', 'L', 'X');
         numerals(sb, num, i, 'X', 'V', 'I');
-
         return sb.toString();
     }
 
