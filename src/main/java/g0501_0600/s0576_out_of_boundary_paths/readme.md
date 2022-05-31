@@ -35,7 +35,7 @@ Given the five integers `m`, `n`, `maxMove`, `startRow`, `startColumn`, return t
 import java.util.Arrays;
 
 public class Solution {
-    private final int[][] dRowCol = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+    private final int[][] dRowCol = { {1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
     private int dfs(int m, int n, int remainingMoves, int currRow, int currCol, int[][][] cache) {
         if (currRow < 0 || currRow == m || currCol < 0 || currCol == n) {
