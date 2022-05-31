@@ -6,7 +6,7 @@ Given an array of intervals `intervals` where <code>intervals[i] = [start<sub>i<
 
 **Example 1:**
 
-**Input:** intervals = [[1,2],[2,3],[3,4],[1,3]]
+**Input:** intervals = \[\[1,2],[2,3],[3,4],[1,3]]
 
 **Output:** 1
 
@@ -14,7 +14,7 @@ Given an array of intervals `intervals` where <code>intervals[i] = [start<sub>i<
 
 **Example 2:**
 
-**Input:** intervals = [[1,2],[1,2],[1,2]]
+**Input:** intervals = \[\[1,2],[1,2],[1,2]]
 
 **Output:** 2
 
@@ -22,7 +22,7 @@ Given an array of intervals `intervals` where <code>intervals[i] = [start<sub>i<
 
 **Example 3:**
 
-**Input:** intervals = [[1,2],[2,3]]
+**Input:** intervals = \[\[1,2],[2,3]]
 
 **Output:** 0
 

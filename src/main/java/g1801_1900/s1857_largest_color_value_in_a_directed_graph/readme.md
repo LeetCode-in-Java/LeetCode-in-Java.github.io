@@ -14,7 +14,7 @@ Return _the **largest color value** of any valid path in the given graph, or_ `-
 
 ![](https://assets.leetcode.com/uploads/2021/04/21/leet1.png)
 
-**Input:** colors = "abaca", edges = [[0,1],[0,2],[2,3],[3,4]]
+**Input:** colors = "abaca", edges = \[\[0,1],[0,2],[2,3],[3,4]]
 
 **Output:** 3
 
@@ -24,7 +24,7 @@ Return _the **largest color value** of any valid path in the given graph, or_ `-
 
 ![](https://assets.leetcode.com/uploads/2021/04/21/leet2.png)
 
-**Input:** colors = "a", edges = [[0,0]]
+**Input:** colors = "a", edges = \[\[0,0]]
 
 **Output:** -1
 

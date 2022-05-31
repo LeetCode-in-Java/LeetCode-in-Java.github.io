@@ -12,7 +12,7 @@ Return _the maximum number of events you can attend_.
 
 ![](https://assets.leetcode.com/uploads/2020/02/05/e1.png)
 
-**Input:** events = [[1,2],[2,3],[3,4]]
+**Input:** events = \[\[1,2],[2,3],[3,4]]
 
 **Output:** 3
 

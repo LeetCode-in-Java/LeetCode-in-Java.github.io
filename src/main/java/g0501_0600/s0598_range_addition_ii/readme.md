@@ -10,7 +10,7 @@ Count and return _the number of maximum integers in the matrix after performing 
 
 ![](https://assets.leetcode.com/uploads/2020/10/02/ex1.jpg)
 
-**Input:** m = 3, n = 3, ops = [[2,2],[3,3]]
+**Input:** m = 3, n = 3, ops = \[\[2,2],[3,3]]
 
 **Output:** 4
 
@@ -18,7 +18,7 @@ Count and return _the number of maximum integers in the matrix after performing 
 
 **Example 2:**
 
-**Input:** m = 3, n = 3, ops = [[2,2],[3,3],[3,3],[3,3],[2,2],[3,3],[3,3],[3,3],[2,2],[3,3],[3,3],[3,3]]
+**Input:** m = 3, n = 3, ops = \[\[2,2],[3,3],[3,3],[3,3],[2,2],[3,3],[3,3],[3,3],[2,2],[3,3],[3,3],[3,3]]
 
 **Output:** 4 
 

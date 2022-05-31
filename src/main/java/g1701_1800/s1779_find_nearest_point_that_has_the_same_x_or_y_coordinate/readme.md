@@ -10,7 +10,7 @@ The **Manhattan distance** between two points <code>(x<sub>1</sub>, y<sub>1</sub
 
 **Example 1:**
 
-**Input:** x = 3, y = 4, points = [[1,2],[3,1],[2,4],[2,3],[4,4]]
+**Input:** x = 3, y = 4, points = \[\[1,2],[3,1],[2,4],[2,3],[4,4]]
 
 **Output:** 2
 
@@ -18,7 +18,7 @@ The **Manhattan distance** between two points <code>(x<sub>1</sub>, y<sub>1</sub
 
 **Example 2:**
 
-**Input:** x = 3, y = 4, points = [[3,4]]
+**Input:** x = 3, y = 4, points = \[\[3,4]]
 
 **Output:** 0
 
@@ -26,7 +26,7 @@ The **Manhattan distance** between two points <code>(x<sub>1</sub>, y<sub>1</sub
 
 **Example 3:**
 
-**Input:** x = 3, y = 4, points = [[2,3]]
+**Input:** x = 3, y = 4, points = \[\[2,3]]
 
 **Output:** -1
 

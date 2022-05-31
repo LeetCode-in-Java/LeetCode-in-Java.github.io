@@ -10,7 +10,7 @@ Return the number of servers that communicate with any other server.
 
 ![](https://assets.leetcode.com/uploads/2019/11/14/untitled-diagram-6.jpg)
 
-**Input:** grid = [[1,0],[0,1]]
+**Input:** grid = \[\[1,0],[0,1]]
 
 **Output:** 0
 
@@ -20,7 +20,7 @@ Return the number of servers that communicate with any other server.
 
 **![](https://assets.leetcode.com/uploads/2019/11/13/untitled-diagram-4.jpg)**
 
-**Input:** grid = [[1,0],[1,1]]
+**Input:** grid = \[\[1,0],[1,1]]
 
 **Output:** 3
 
@@ -30,7 +30,7 @@ Return the number of servers that communicate with any other server.
 
 ![](https://assets.leetcode.com/uploads/2019/11/14/untitled-diagram-1-3.jpg)
 
-**Input:** grid = [[1,1,0,0],[0,0,1,0],[0,0,1,0],[0,0,0,1]]
+**Input:** grid = \[\[1,1,0,0],[0,0,1,0],[0,0,1,0],[0,0,0,1]]
 
 **Output:** 4
 

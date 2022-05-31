@@ -14,7 +14,7 @@ The main diagonal of a grid is the diagonal that starts at cell `(1, 1)` and end
 
 ![](https://assets.leetcode.com/uploads/2020/07/28/fw.jpg)
 
-**Input:** grid = [[0,0,1],[1,1,0],[1,0,0]]
+**Input:** grid = \[\[0,0,1],[1,1,0],[1,0,0]]
 
 **Output:** 3
 
@@ -22,7 +22,7 @@ The main diagonal of a grid is the diagonal that starts at cell `(1, 1)` and end
 
 ![](https://assets.leetcode.com/uploads/2020/07/16/e2.jpg)
 
-**Input:** grid = [[0,1,1,0],[0,1,1,0],[0,1,1,0],[0,1,1,0]]
+**Input:** grid = \[\[0,1,1,0],[0,1,1,0],[0,1,1,0],[0,1,1,0]]
 
 **Output:** -1
 
@@ -32,7 +32,7 @@ The main diagonal of a grid is the diagonal that starts at cell `(1, 1)` and end
 
 ![](https://assets.leetcode.com/uploads/2020/07/16/e3.jpg)
 
-**Input:** grid = [[1,0,0],[1,1,0],[1,1,1]]
+**Input:** grid = \[\[1,0,0],[1,1,0],[1,1,1]]
 
 **Output:** 0
 

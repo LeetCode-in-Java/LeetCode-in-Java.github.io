@@ -16,7 +16,7 @@ Given `students` and `mentors`, return _the **maximum compatibility score sum** 
 
 **Example 1:**
 
-**Input:** students = [[1,1,0],[1,0,1],[0,0,1]], mentors = [[1,0,0],[0,0,1],[1,1,0]]
+**Input:** students = \[\[1,1,0],[1,0,1],[0,0,1]], mentors = \[\[1,0,0],[0,0,1],[1,1,0]]
 
 **Output:** 8
 
@@ -32,7 +32,7 @@ The compatibility score sum is 3 + 2 + 3 = 8.
 
 **Example 2:**
 
-**Input:** students = [[0,0],[0,0],[0,0]], mentors = [[1,1],[1,1],[1,1]]
+**Input:** students = \[\[0,0],[0,0],[0,0]], mentors = \[\[1,1],[1,1],[1,1]]
 
 **Output:** 0
 

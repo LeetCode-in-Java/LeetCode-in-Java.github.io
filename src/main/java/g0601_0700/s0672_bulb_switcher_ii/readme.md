@@ -21,9 +21,9 @@ Given the two integers `n` and `presses`, return _the number of **different poss
 
 **Explanation:** Status can be: 
 
-- [off] by pressing button 1 
+- \[off] by pressing button 1 
 
-- [on] by pressing button 2
+- \[on] by pressing button 2
 
 **Example 2:**
 
@@ -33,11 +33,11 @@ Given the two integers `n` and `presses`, return _the number of **different poss
 
 **Explanation:** Status can be: 
 
-- [off, off] by pressing button 1 
+- \[off, off] by pressing button 1 
 
-- [on, off] by pressing button 2 
+- \[on, off] by pressing button 2 
 
-- [off, on] by pressing button 3
+- \[off, on] by pressing button 3
 
 **Example 3:**
 
@@ -47,13 +47,13 @@ Given the two integers `n` and `presses`, return _the number of **different poss
 
 **Explanation:** Status can be: 
 
-- [off, off, off] by pressing button 1 
+- \[off, off, off] by pressing button 1 
 
-- [off, on, off] by pressing button 2 
+- \[off, on, off] by pressing button 2 
 
-- [on, off, on] by pressing button 3 
+- \[on, off, on] by pressing button 3 
 
-- [off, on, on] by pressing button 4
+- \[off, on, on] by pressing button 4
 
 **Constraints:**
 

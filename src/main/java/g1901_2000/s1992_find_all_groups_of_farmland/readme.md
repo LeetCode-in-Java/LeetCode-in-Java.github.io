@@ -14,7 +14,7 @@ Return _a 2D array containing the 4-length arrays described above for each **gro
 
 ![](https://assets.leetcode.com/uploads/2021/07/27/screenshot-2021-07-27-at-12-23-15-copy-of-diagram-drawio-diagrams-net.png)
 
-**Input:** land = [[1,0,0],[0,1,1],[0,1,1]]
+**Input:** land = \[\[1,0,0],[0,1,1],[0,1,1]]
 
 **Output:** [[0,0,0,0],[1,1,2,2]]
 
@@ -28,7 +28,7 @@ The second group has a top left corner at land[1][1] and a bottom right corner a
 
 ![](https://assets.leetcode.com/uploads/2021/07/27/screenshot-2021-07-27-at-12-30-26-copy-of-diagram-drawio-diagrams-net.png)
 
-**Input:** land = [[1,1],[1,1]]
+**Input:** land = \[\[1,1],[1,1]]
 
 **Output:** [[0,0,1,1]]
 
@@ -40,7 +40,7 @@ The first group has a top left corner at land[0][0] and a bottom right corner at
 
 ![](https://assets.leetcode.com/uploads/2021/07/27/screenshot-2021-07-27-at-12-32-24-copy-of-diagram-drawio-diagrams-net.png)
 
-**Input:** land = [[0]]
+**Input:** land = \[\[0]]
 
 **Output:** []
 

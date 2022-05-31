@@ -14,7 +14,7 @@ Return _the **chair number** that the friend numbered_ `targetFriend` _will sit 
 
 **Example 1:**
 
-**Input:** times = [[1,4],[2,3],[4,6]], targetFriend = 1
+**Input:** times = \[\[1,4],[2,3],[4,6]], targetFriend = 1
 
 **Output:** 1
 
@@ -34,7 +34,7 @@ Since friend 1 sat on chair 1, we return 1.
 
 **Example 2:**
 
-**Input:** times = [[3,10],[1,5],[2,6]], targetFriend = 0
+**Input:** times = \[\[3,10],[1,5],[2,6]], targetFriend = 0
 
 **Output:** 2
 

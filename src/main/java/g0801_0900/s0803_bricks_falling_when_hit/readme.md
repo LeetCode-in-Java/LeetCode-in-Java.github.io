@@ -15,7 +15,7 @@ Return _an array_ `result`_, where each_ `result[i]` _is the number of bricks th
 
 **Example 1:**
 
-**Input:** grid = [[1,0,0,0],[1,1,1,0]], hits = [[1,0]]
+**Input:** grid = \[\[1,0,0,0],[1,1,1,0]], hits = \[\[1,0]]
 
 **Output:** [2]
 
@@ -35,7 +35,7 @@ Hence the result is [2].
 
 **Example 2:**
 
-**Input:** grid = [[1,0,0,0],[1,1,0,0]], hits = [[1,1],[1,0]]
+**Input:** grid = \[\[1,0,0,0],[1,1,0,0]], hits = \[\[1,1],[1,0]]
 
 **Output:** [0,0]
 

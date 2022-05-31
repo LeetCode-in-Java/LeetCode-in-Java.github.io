@@ -8,7 +8,7 @@ _Return the indices of people whose list of favorite companies is not a **subset
 
 **Example 1:**
 
-**Input:** favoriteCompanies = [["leetcode","google","facebook"],["google","microsoft"],["google","facebook"],["google"],["amazon"]]
+**Input:** favoriteCompanies = \[\["leetcode","google","facebook"],["google","microsoft"],["google","facebook"],["google"],["amazon"]]
 
 **Output:** [0,1,4]
 
@@ -16,7 +16,7 @@ _Return the indices of people whose list of favorite companies is not a **subset
 
 **Example 2:**
 
-**Input:** favoriteCompanies = [["leetcode","google","facebook"],["leetcode","amazon"],["facebook","google"]]
+**Input:** favoriteCompanies = \[\["leetcode","google","facebook"],["leetcode","amazon"],["facebook","google"]]
 
 **Output:** [0,1]
 
@@ -24,7 +24,7 @@ _Return the indices of people whose list of favorite companies is not a **subset
 
 **Example 3:**
 
-**Input:** favoriteCompanies = [["leetcode"],["google"],["facebook"],["amazon"]]
+**Input:** favoriteCompanies = \[\["leetcode"],["google"],["facebook"],["amazon"]]
 
 **Output:** [0,1,2,3]
 

@@ -14,7 +14,7 @@ Given the integer `n` and the array `roads`, return _the **maximal network rank*
 
 **![](https://assets.leetcode.com/uploads/2020/09/21/ex1.png)**
 
-**Input:** n = 4, roads = [[0,1],[0,3],[1,2],[1,3]]
+**Input:** n = 4, roads = \[\[0,1],[0,3],[1,2],[1,3]]
 
 **Output:** 4
 
@@ -24,7 +24,7 @@ Given the integer `n` and the array `roads`, return _the **maximal network rank*
 
 **![](https://assets.leetcode.com/uploads/2020/09/21/ex2.png)**
 
-**Input:** n = 5, roads = [[0,1],[0,3],[1,2],[1,3],[2,3],[2,4]]
+**Input:** n = 5, roads = \[\[0,1],[0,3],[1,2],[1,3],[2,3],[2,4]]
 
 **Output:** 5
 
@@ -32,7 +32,7 @@ Given the integer `n` and the array `roads`, return _the **maximal network rank*
 
 **Example 3:**
 
-**Input:** n = 8, roads = [[0,1],[1,2],[2,3],[2,4],[5,6],[5,7]]
+**Input:** n = 8, roads = \[\[0,1],[1,2],[2,3],[2,4],[5,6],[5,7]]
 
 **Output:** 5
 

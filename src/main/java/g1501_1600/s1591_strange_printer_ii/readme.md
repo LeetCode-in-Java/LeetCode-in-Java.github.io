@@ -15,7 +15,7 @@ Return `true` _if it is possible to print the matrix_ `targetGrid`_,_ _otherwise
 
 ![](https://assets.leetcode.com/uploads/2021/12/23/print1.jpg)
 
-**Input:** targetGrid = [[1,1,1,1],[1,2,2,1],[1,2,2,1],[1,1,1,1]]
+**Input:** targetGrid = \[\[1,1,1,1],[1,2,2,1],[1,2,2,1],[1,1,1,1]]
 
 **Output:** true
 
@@ -23,13 +23,13 @@ Return `true` _if it is possible to print the matrix_ `targetGrid`_,_ _otherwise
 
 ![](https://assets.leetcode.com/uploads/2021/12/23/print2.jpg)
 
-**Input:** targetGrid = [[1,1,1,1],[1,1,3,3],[1,1,3,4],[5,5,1,4]]
+**Input:** targetGrid = \[\[1,1,1,1],[1,1,3,3],[1,1,3,4],[5,5,1,4]]
 
 **Output:** true
 
 **Example 3:**
 
-**Input:** targetGrid = [[1,2,1],[2,1,2],[1,2,1]]
+**Input:** targetGrid = \[\[1,2,1],[2,1,2],[1,2,1]]
 
 **Output:** false
 

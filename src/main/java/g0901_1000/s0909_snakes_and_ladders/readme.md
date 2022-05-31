@@ -23,7 +23,7 @@ Return _the least number of moves required to reach the square_ <code>n<sup>2</s
 
 ![](https://assets.leetcode.com/uploads/2018/09/23/snakes.png)
 
-**Input:** board = [[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,35,-1,-1,13,-1],[-1,-1,-1,-1,-1,-1],[-1,15,-1,-1,-1,-1]]
+**Input:** board = \[\[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,35,-1,-1,13,-1],[-1,-1,-1,-1,-1,-1],[-1,15,-1,-1,-1,-1]]
 
 **Output:** 4
 
@@ -43,7 +43,7 @@ This is the lowest possible number of moves to reach the last square, so return 
 
 **Example 2:**
 
-**Input:** board = [[-1,-1],[-1,3]]
+**Input:** board = \[\[-1,-1],[-1,3]]
 
 **Output:** 1
 

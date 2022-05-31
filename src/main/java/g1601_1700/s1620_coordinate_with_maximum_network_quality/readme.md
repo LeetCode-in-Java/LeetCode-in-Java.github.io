@@ -21,7 +21,7 @@ Return _the array_ <code>[c<sub>x</sub>, c<sub>y</sub>]</code> _representing the
 
 ![](https://assets.leetcode.com/uploads/2020/09/22/untitled-diagram.png)
 
-**Input:** towers = [[1,2,5],[2,1,7],[3,1,9]], radius = 2
+**Input:** towers = \[\[1,2,5],[2,1,7],[3,1,9]], radius = 2
 
 **Output:** [2,1]
 
@@ -37,7 +37,7 @@ No other coordinate has a higher network quality.
 
 **Example 2:**
 
-**Input:** towers = [[23,11,21]], radius = 9
+**Input:** towers = \[\[23,11,21]], radius = 9
 
 **Output:** [23,11]
 
@@ -45,7 +45,7 @@ No other coordinate has a higher network quality.
 
 **Example 3:**
 
-**Input:** towers = [[1,2,13],[2,1,7],[0,1,9]], radius = 2
+**Input:** towers = \[\[1,2,13],[2,1,7],[0,1,9]], radius = 2
 
 **Output:** [1,2]
 

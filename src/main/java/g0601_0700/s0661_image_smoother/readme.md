@@ -12,7 +12,7 @@ Given an `m x n` integer matrix `img` representing the grayscale of an image, re
 
 ![](https://assets.leetcode.com/uploads/2021/05/03/smooth-grid.jpg)
 
-**Input:** img = [[1,1,1],[1,0,1],[1,1,1]]
+**Input:** img = \[\[1,1,1],[1,0,1],[1,1,1]]
 
 **Output:** [[0,0,0],[0,0,0],[0,0,0]]
 
@@ -28,7 +28,7 @@ For the point (1,1): floor(8/9) = floor(0.88888889) = 0
 
 ![](https://assets.leetcode.com/uploads/2021/05/03/smooth2-grid.jpg)
 
-**Input:** img = [[100,200,100],[200,50,200],[100,200,100]]
+**Input:** img = \[\[100,200,100],[200,50,200],[100,200,100]]
 
 **Output:** [[137,141,137],[141,138,141],[137,141,137]]
 

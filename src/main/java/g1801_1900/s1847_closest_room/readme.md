@@ -15,7 +15,7 @@ Return _an array_ `answer` _of length_ `k` _where_ `answer[j]` _contains the ans
 
 **Example 1:**
 
-**Input:** rooms = [[2,2],[1,2],[3,2]], queries = [[3,1],[3,3],[5,2]]
+**Input:** rooms = \[\[2,2],[1,2],[3,2]], queries = \[\[3,1],[3,3],[5,2]]
 
 **Output:** [3,-1,3]
 
@@ -29,7 +29,7 @@ Query = [5,2]: Room number 3 is the closest as abs(3 - 5) = 2, and its size of 2
 
 **Example 2:**
 
-**Input:** rooms = [[1,4],[2,3],[3,5],[4,1],[5,2]], queries = [[2,3],[2,4],[2,5]]
+**Input:** rooms = \[\[1,4],[2,3],[3,5],[4,1],[5,2]], queries = \[\[2,3],[2,4],[2,5]]
 
 **Output:** [2,1,3]
 

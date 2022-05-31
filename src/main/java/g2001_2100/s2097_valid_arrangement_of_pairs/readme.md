@@ -10,7 +10,7 @@ Return _**any** valid arrangement of_ `pairs`.
 
 **Example 1:**
 
-**Input:** pairs = [[5,1],[4,5],[11,9],[9,4]]
+**Input:** pairs = \[\[5,1],[4,5],[11,9],[9,4]]
 
 **Output:** [[11,9],[9,4],[4,5],[5,1]]
 
@@ -26,7 +26,7 @@ end<sub>2</sub> = 5 == 5 = start<sub>3</sub>
 
 **Example 2:**
 
-**Input:** pairs = [[1,3],[3,2],[2,1]]
+**Input:** pairs = \[\[1,3],[3,2],[2,1]]
 
 **Output:** [[1,3],[3,2],[2,1]]
 
@@ -42,7 +42,7 @@ The arrangements [[2,1],[1,3],[3,2]] and [[3,2],[2,1],[1,3]] are also valid.
 
 **Example 3:**
 
-**Input:** pairs = [[1,2],[1,3],[2,1]]
+**Input:** pairs = \[\[1,2],[1,3],[2,1]]
 
 **Output:** [[1,2],[2,1],[1,3]]
 

@@ -16,7 +16,7 @@ Return _a boolean array_ `answer`_, where_ `answer[j]` _is the answer to the_ <c
 
 ![](https://assets.leetcode.com/uploads/2021/05/01/courses4-1-graph.jpg)
 
-**Input:** numCourses = 2, prerequisites = [[1,0]], queries = [[0,1],[1,0]]
+**Input:** numCourses = 2, prerequisites = \[\[1,0]], queries = \[\[0,1],[1,0]]
 
 **Output:** [false,true]
 
@@ -24,7 +24,7 @@ Return _a boolean array_ `answer`_, where_ `answer[j]` _is the answer to the_ <c
 
 **Example 2:**
 
-**Input:** numCourses = 2, prerequisites = [], queries = [[1,0],[0,1]]
+**Input:** numCourses = 2, prerequisites = [], queries = \[\[1,0],[0,1]]
 
 **Output:** [false,false]
 
@@ -34,7 +34,7 @@ Return _a boolean array_ `answer`_, where_ `answer[j]` _is the answer to the_ <c
 
 ![](https://assets.leetcode.com/uploads/2021/05/01/courses4-3-graph.jpg)
 
-**Input:** numCourses = 3, prerequisites = [[1,2],[1,0],[2,0]], queries = [[1,0],[1,2]]
+**Input:** numCourses = 3, prerequisites = \[\[1,2],[1,0],[2,0]], queries = \[\[1,0],[1,2]]
 
 **Output:** [true,true]
 

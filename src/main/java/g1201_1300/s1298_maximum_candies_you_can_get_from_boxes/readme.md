@@ -15,7 +15,7 @@ Return _the maximum number of candies you can get following the rules above_.
 
 **Example 1:**
 
-**Input:** status = [1,0,1,0], candies = [7,5,4,100], keys = [[],[],[1],[]], containedBoxes = [[1,2],[3],[],[]], initialBoxes = [0]
+**Input:** status = [1,0,1,0], candies = [7,5,4,100], keys = \[\[],[],[1],[]], containedBoxes = \[\[1,2],[3],[],[]], initialBoxes = [0]
 
 **Output:** 16
 
@@ -29,7 +29,7 @@ Total number of candies collected = 7 + 4 + 5 = 16 candy.
 
 **Example 2:**
 
-**Input:** status = [1,0,0,0,0,0], candies = [1,1,1,1,1,1], keys = [[1,2,3,4,5],[],[],[],[],[]], containedBoxes = [[1,2,3,4,5],[],[],[],[],[]], initialBoxes = [0]
+**Input:** status = [1,0,0,0,0,0], candies = [1,1,1,1,1,1], keys = \[\[1,2,3,4,5],[],[],[],[],[]], containedBoxes = \[\[1,2,3,4,5],[],[],[],[],[]], initialBoxes = [0]
 
 **Output:** 6
 

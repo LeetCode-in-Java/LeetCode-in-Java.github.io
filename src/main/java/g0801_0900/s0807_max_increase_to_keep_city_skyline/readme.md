@@ -14,7 +14,7 @@ Return _the **maximum total sum** that the height of the buildings can be increa
 
 ![](https://assets.leetcode.com/uploads/2021/06/21/807-ex1.png)
 
-**Input:** grid = [[3,0,8,4],[2,4,5,7],[9,2,6,3],[0,3,1,0]]
+**Input:** grid = \[\[3,0,8,4],[2,4,5,7],[9,2,6,3],[0,3,1,0]]
 
 **Output:** 35
 
@@ -31,7 +31,7 @@ The grid after increasing the height of buildings without affecting skylines is:
 
 **Example 2:**
 
-**Input:** grid = [[0,0,0],[0,0,0],[0,0,0]]
+**Input:** grid = \[\[0,0,0],[0,0,0],[0,0,0]]
 
 **Output:** 0
 

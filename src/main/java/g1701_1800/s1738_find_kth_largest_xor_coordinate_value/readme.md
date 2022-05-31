@@ -10,7 +10,7 @@ Find the <code>k<sup>th</sup></code> largest value **(1-indexed)** of all the co
 
 **Example 1:**
 
-**Input:** matrix = [[5,2],[1,6]], k = 1
+**Input:** matrix = \[\[5,2],[1,6]], k = 1
 
 **Output:** 7
 
@@ -18,7 +18,7 @@ Find the <code>k<sup>th</sup></code> largest value **(1-indexed)** of all the co
 
 **Example 2:**
 
-**Input:** matrix = [[5,2],[1,6]], k = 2
+**Input:** matrix = \[\[5,2],[1,6]], k = 2
 
 **Output:** 5
 
@@ -26,7 +26,7 @@ Find the <code>k<sup>th</sup></code> largest value **(1-indexed)** of all the co
 
 **Example 3:**
 
-**Input:** matrix = [[5,2],[1,6]], k = 3
+**Input:** matrix = \[\[5,2],[1,6]], k = 3
 
 **Output:** 4
 

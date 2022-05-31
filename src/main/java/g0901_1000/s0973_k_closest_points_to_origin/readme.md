@@ -12,7 +12,7 @@ You may return the answer in **any order**. The answer is **guaranteed** to be *
 
 ![](https://assets.leetcode.com/uploads/2021/03/03/closestplane1.jpg)
 
-**Input:** points = [[1,3],[-2,2]], k = 1
+**Input:** points = \[\[1,3],[-2,2]], k = 1
 
 **Output:** [[-2,2]]
 
@@ -28,7 +28,7 @@ We only want the closest k = 1 points from the origin, so the answer is just [[-
 
 **Example 2:**
 
-**Input:** points = [[3,3],[5,-1],[-2,4]], k = 2
+**Input:** points = \[\[3,3],[5,-1],[-2,4]], k = 2
 
 **Output:** [[3,3],[-2,4]]
 

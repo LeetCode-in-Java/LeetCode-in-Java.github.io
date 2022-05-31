@@ -16,7 +16,7 @@ Return the _2D grid_ after applying shift operation `k` times.
 
 ![](https://assets.leetcode.com/uploads/2019/11/05/e1.png)
 
-**Input:** `grid` = [[1,2,3],[4,5,6],[7,8,9]], k = 1
+**Input:** `grid` = \[\[1,2,3],[4,5,6],[7,8,9]], k = 1
 
 **Output:** [[9,1,2],[3,4,5],[6,7,8]]
 
@@ -24,13 +24,13 @@ Return the _2D grid_ after applying shift operation `k` times.
 
 ![](https://assets.leetcode.com/uploads/2019/11/05/e2.png)
 
-**Input:** `grid` = [[3,8,1,9],[19,7,2,5],[4,6,11,10],[12,0,21,13]], k = 4
+**Input:** `grid` = \[\[3,8,1,9],[19,7,2,5],[4,6,11,10],[12,0,21,13]], k = 4
 
 **Output:** [[12,0,21,13],[3,8,1,9],[19,7,2,5],[4,6,11,10]]
 
 **Example 3:**
 
-**Input:** `grid` = [[1,2,3],[4,5,6],[7,8,9]], k = 9
+**Input:** `grid` = \[\[1,2,3],[4,5,6],[7,8,9]], k = 9
 
 **Output:** [[1,2,3],[4,5,6],[7,8,9]]
 

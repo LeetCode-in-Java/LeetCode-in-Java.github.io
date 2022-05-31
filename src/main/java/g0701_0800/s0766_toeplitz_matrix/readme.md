@@ -10,7 +10,7 @@ A matrix is **Toeplitz** if every diagonal from top-left to bottom-right has the
 
 ![](https://assets.leetcode.com/uploads/2020/11/04/ex1.jpg)
 
-**Input:** matrix = [[1,2,3,4],[5,1,2,3],[9,5,1,2]]
+**Input:** matrix = \[\[1,2,3,4],[5,1,2,3],[9,5,1,2]]
 
 **Output:** true
 
@@ -20,7 +20,7 @@ A matrix is **Toeplitz** if every diagonal from top-left to bottom-right has the
 
 ![](https://assets.leetcode.com/uploads/2020/11/04/ex2.jpg)
 
-**Input:** matrix = [[1,2],[2,2]]
+**Input:** matrix = \[\[1,2],[2,2]]
 
 **Output:** false
 

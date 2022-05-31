@@ -10,7 +10,7 @@ Return _an integer array_ `answer` _where_ `answer.length == queries.length` _an
 
 **Example 1:**
 
-**Input:** nums = [0,1,2,3,4], queries = [[3,1],[1,3],[5,6]]
+**Input:** nums = [0,1,2,3,4], queries = \[\[3,1],[1,3],[5,6]]
 
 **Output:** [3,3,7]
 
@@ -24,7 +24,7 @@ Return _an integer array_ `answer` _where_ `answer.length == queries.length` _an
 
 **Example 2:**
 
-**Input:** nums = [5,2,4,6,6,3], queries = [[12,4],[8,1],[6,3]]
+**Input:** nums = [5,2,4,6,6,3], queries = \[\[12,4],[8,1],[6,3]]
 
 **Output:** [15,-1,5]
 

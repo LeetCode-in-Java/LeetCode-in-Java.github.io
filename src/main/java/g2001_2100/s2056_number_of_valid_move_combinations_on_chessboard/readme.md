@@ -24,7 +24,7 @@ Return _the number of **valid** move combinations_.
 
 ![](https://assets.leetcode.com/uploads/2021/09/23/a1.png)
 
-**Input:** pieces = ["rook"], positions = [[1,1]]
+**Input:** pieces = ["rook"], positions = \[\[1,1]]
 
 **Output:** 15
 
@@ -34,7 +34,7 @@ Return _the number of **valid** move combinations_.
 
 ![](https://assets.leetcode.com/uploads/2021/09/23/a2.png)
 
-**Input:** pieces = ["queen"], positions = [[1,1]]
+**Input:** pieces = ["queen"], positions = \[\[1,1]]
 
 **Output:** 22
 
@@ -44,7 +44,7 @@ Return _the number of **valid** move combinations_.
 
 ![](https://assets.leetcode.com/uploads/2021/09/23/a3.png)
 
-**Input:** pieces = ["bishop"], positions = [[4,3]]
+**Input:** pieces = ["bishop"], positions = \[\[4,3]]
 
 **Output:** 12
 
@@ -67,6 +67,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
+@SuppressWarnings("unchecked")
 public class Solution {
     // 0: rook, queen, bishop
     private int[][][] dirs = {

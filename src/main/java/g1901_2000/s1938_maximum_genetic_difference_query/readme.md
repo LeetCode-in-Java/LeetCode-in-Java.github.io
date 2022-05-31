@@ -12,33 +12,33 @@ Return _an array_ `ans` _where_ `ans[i]` _is the answer to the_ <code>i<sup>th</
 
 ![](https://assets.leetcode.com/uploads/2021/06/29/c1.png)
 
-**Input:** parents = [-1,0,1,1], queries = [[0,2],[3,2],[2,5]]
+**Input:** parents = [-1,0,1,1], queries = \[\[0,2],[3,2],[2,5]]
 
 **Output:** [2,3,7]
 
 **Explanation:** The queries are processed as follows: 
 
-- [0,2]: The node with the maximum genetic difference is 0, with a difference of 2 XOR 0 = 2. 
+- \[0,2]: The node with the maximum genetic difference is 0, with a difference of 2 XOR 0 = 2. 
 
-- [3,2]: The node with the maximum genetic difference is 1, with a difference of 2 XOR 1 = 3. 
+- \[3,2]: The node with the maximum genetic difference is 1, with a difference of 2 XOR 1 = 3. 
 
-- [2,5]: The node with the maximum genetic difference is 2, with a difference of 5 XOR 2 = 7.
+- \[2,5]: The node with the maximum genetic difference is 2, with a difference of 5 XOR 2 = 7.
 
 **Example 2:**
 
 ![](https://assets.leetcode.com/uploads/2021/06/29/c2.png)
 
-**Input:** parents = [3,7,-1,2,0,7,0,2], queries = [[4,6],[1,15],[0,5]]
+**Input:** parents = [3,7,-1,2,0,7,0,2], queries = \[\[4,6],[1,15],[0,5]]
 
 **Output:** [6,14,7]
 
 **Explanation:** The queries are processed as follows: 
 
-- [4,6]: The node with the maximum genetic difference is 0, with a difference of 6 XOR 0 = 6. 
+- \[4,6]: The node with the maximum genetic difference is 0, with a difference of 6 XOR 0 = 6. 
 
-- [1,15]: The node with the maximum genetic difference is 1, with a difference of 15 XOR 1 = 14. 
+- \[1,15]: The node with the maximum genetic difference is 1, with a difference of 15 XOR 1 = 14. 
 
-- [0,5]: The node with the maximum genetic difference is 2, with a difference of 5 XOR 2 = 7.
+- \[0,5]: The node with the maximum genetic difference is 2, with a difference of 5 XOR 2 = 7.
 
 **Constraints:**
 

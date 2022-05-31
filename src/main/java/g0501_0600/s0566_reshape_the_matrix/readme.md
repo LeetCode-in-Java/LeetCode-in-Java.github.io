@@ -14,7 +14,7 @@ If the `reshape` operation with given parameters is possible and legal, output t
 
 ![](https://assets.leetcode.com/uploads/2021/04/24/reshape1-grid.jpg)
 
-**Input:** mat = [[1,2],[3,4]], r = 1, c = 4
+**Input:** mat = \[\[1,2],[3,4]], r = 1, c = 4
 
 **Output:** [[1,2,3,4]]
 
@@ -22,7 +22,7 @@ If the `reshape` operation with given parameters is possible and legal, output t
 
 ![](https://assets.leetcode.com/uploads/2021/04/24/reshape2-grid.jpg)
 
-**Input:** mat = [[1,2],[3,4]], r = 2, c = 4
+**Input:** mat = \[\[1,2],[3,4]], r = 2, c = 4
 
 **Output:** [[1,2],[3,4]]
 

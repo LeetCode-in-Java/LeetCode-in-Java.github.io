@@ -12,7 +12,7 @@ The island doesn't have "lakes", meaning the water inside isn't connected to the
 
 ![](https://assets.leetcode.com/uploads/2018/10/12/island.png)
 
-**Input:** grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
+**Input:** grid = \[\[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
 
 **Output:** 16
 
@@ -20,13 +20,13 @@ The island doesn't have "lakes", meaning the water inside isn't connected to the
 
 **Example 2:**
 
-**Input:** grid = [[1]]
+**Input:** grid = \[\[1]]
 
 **Output:** 4
 
 **Example 3:**
 
-**Input:** grid = [[1,0]]
+**Input:** grid = \[\[1,0]]
 
 **Output:** 4
 

@@ -21,7 +21,7 @@ Return _the **maximum** number of people who can be **good** based on the statem
 
 ![](https://assets.leetcode.com/uploads/2022/01/15/logic1.jpg)
 
-**Input:** statements = [[2,1,2],[1,2,2],[2,0,2]]
+**Input:** statements = \[\[2,1,2],[1,2,2],[2,0,2]]
 
 **Output:** 2
 
@@ -54,7 +54,7 @@ Return _the **maximum** number of people who can be **good** based on the statem
 
 ![](https://assets.leetcode.com/uploads/2022/01/15/logic2.jpg)
 
-**Input:** statements = [[2,0],[0,2]]
+**Input:** statements = \[\[2,0],[0,2]]
 
 **Output:** 1
 

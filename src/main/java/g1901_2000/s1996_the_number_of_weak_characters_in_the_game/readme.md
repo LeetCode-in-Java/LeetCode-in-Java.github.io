@@ -10,7 +10,7 @@ Return _the number of **weak** characters_.
 
 **Example 1:**
 
-**Input:** properties = [[5,5],[6,3],[3,6]]
+**Input:** properties = \[\[5,5],[6,3],[3,6]]
 
 **Output:** 0
 
@@ -18,7 +18,7 @@ Return _the number of **weak** characters_.
 
 **Example 2:**
 
-**Input:** properties = [[2,2],[3,3]]
+**Input:** properties = \[\[2,2],[3,3]]
 
 **Output:** 1
 
@@ -26,7 +26,7 @@ Return _the number of **weak** characters_.
 
 **Example 3:**
 
-**Input:** properties = [[1,5],[10,4],[4,3]]
+**Input:** properties = \[\[1,5],[10,4],[4,3]]
 
 **Output:** 1
 

@@ -12,7 +12,7 @@ _Return the probability that after `t` seconds the frog is on the vertex `target
 
 ![](https://assets.leetcode.com/uploads/2021/12/21/frog1.jpg)
 
-**Input:** n = 7, edges = [[1,2],[1,3],[1,7],[2,4],[2,6],[3,5]], t = 2, target = 4
+**Input:** n = 7, edges = \[\[1,2],[1,3],[1,7],[2,4],[2,6],[3,5]], t = 2, target = 4
 
 **Output:** 0.16666666666666666
 
@@ -22,7 +22,7 @@ _Return the probability that after `t` seconds the frog is on the vertex `target
 
 **![](https://assets.leetcode.com/uploads/2021/12/21/frog2.jpg)**
 
-**Input:** n = 7, edges = [[1,2],[1,3],[1,7],[2,4],[2,6],[3,5]], t = 1, target = 7
+**Input:** n = 7, edges = \[\[1,2],[1,3],[1,7],[2,4],[2,6],[3,5]], t = 1, target = 7
 
 **Output:** 0.3333333333333333
 

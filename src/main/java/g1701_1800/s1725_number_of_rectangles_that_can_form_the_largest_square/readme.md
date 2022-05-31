@@ -12,7 +12,7 @@ Return _the **number** of rectangles that can make a square with a side length o
 
 **Example 1:**
 
-**Input:** rectangles = [[5,8],[3,9],[5,12],[16,5]]
+**Input:** rectangles = \[\[5,8],[3,9],[5,12],[16,5]]
 
 **Output:** 3
 
@@ -20,7 +20,7 @@ Return _the **number** of rectangles that can make a square with a side length o
 
 **Example 2:**
 
-**Input:** rectangles = [[2,3],[3,7],[4,3],[3,7]]
+**Input:** rectangles = \[\[2,3],[3,7],[4,3],[3,7]]
 
 **Output:** 3
 

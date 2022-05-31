@@ -14,7 +14,7 @@ Notice that the modulo is performed after getting the maximum product.
 
 ![](https://assets.leetcode.com/uploads/2021/12/23/product1.jpg)
 
-**Input:** grid = [[-1,-2,-3],[-2,-3,-3],[-3,-3,-2]]
+**Input:** grid = \[\[-1,-2,-3],[-2,-3,-3],[-3,-3,-2]]
 
 **Output:** -1
 
@@ -24,7 +24,7 @@ Notice that the modulo is performed after getting the maximum product.
 
 ![](https://assets.leetcode.com/uploads/2021/12/23/product2.jpg)
 
-**Input:** grid = [[1,-2,1],[1,-2,1],[3,-4,1]]
+**Input:** grid = \[\[1,-2,1],[1,-2,1],[3,-4,1]]
 
 **Output:** 8
 
@@ -34,7 +34,7 @@ Notice that the modulo is performed after getting the maximum product.
 
 ![](https://assets.leetcode.com/uploads/2021/12/23/product3.jpg)
 
-**Input:** grid = [[1,3],[0,-4]]
+**Input:** grid = \[\[1,3],[0,-4]]
 
 **Output:** 0
 

@@ -17,7 +17,7 @@ Return _the minimum cost of painting all the remaining houses in such a way that
 
 **Example 1:**
 
-**Input:** houses = [0,0,0,0,0], cost = [[1,10],[10,1],[10,1],[1,10],[5,1]], m = 5, n = 2, target = 3
+**Input:** houses = [0,0,0,0,0], cost = \[\[1,10],[10,1],[10,1],[1,10],[5,1]], m = 5, n = 2, target = 3
 
 **Output:** 9
 
@@ -29,7 +29,7 @@ Cost of paint all houses (1 + 1 + 1 + 1 + 5) = 9.
 
 **Example 2:**
 
-**Input:** houses = [0,2,1,2,0], cost = [[1,10],[10,1],[10,1],[1,10],[5,1]], m = 5, n = 2, target = 3
+**Input:** houses = [0,2,1,2,0], cost = \[\[1,10],[10,1],[10,1],[1,10],[5,1]], m = 5, n = 2, target = 3
 
 **Output:** 11
 
@@ -41,7 +41,7 @@ Cost of paint the first and last house (10 + 1) = 11.
 
 **Example 3:**
 
-**Input:** houses = [3,1,2,3], cost = [[1,1,1],[1,1,1],[1,1,1],[1,1,1]], m = 4, n = 3, target = 3
+**Input:** houses = [3,1,2,3], cost = \[\[1,1,1],[1,1,1],[1,1,1],[1,1,1]], m = 4, n = 3, target = 3
 
 **Output:** -1
 

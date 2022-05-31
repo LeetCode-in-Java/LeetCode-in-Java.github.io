@@ -14,7 +14,7 @@ Return _the array_ `answer` _as described above_.
 
 **Example 1:**
 
-**Input:** logs = [[0,5],[1,2],[0,2],[0,5],[1,3]], k = 5
+**Input:** logs = \[\[0,5],[1,2],[0,2],[0,5],[1,3]], k = 5
 
 **Output:** [0,2,0,0,0]
 
@@ -28,7 +28,7 @@ Since both users have a UAM of 2, answer[2] is 2, and the remaining answer[j] va
 
 **Example 2:**
 
-**Input:** logs = [[1,1],[2,2],[2,3]], k = 4
+**Input:** logs = \[\[1,1],[2,2],[2,3]], k = 4
 
 **Output:** [1,1,0,0]
 

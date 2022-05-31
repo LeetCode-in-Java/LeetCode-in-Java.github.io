@@ -16,7 +16,7 @@ Return _an integer array_ `ans` _where_ `ans[i]` _represents the height describe
 
 ![](https://assets.leetcode.com/uploads/2021/04/28/fallingsq1-plane.jpg)
 
-**Input:** positions = [[1,2],[2,3],[6,1]]
+**Input:** positions = \[\[1,2],[2,3],[6,1]]
 
 **Output:** [2,5,5]
 
@@ -32,7 +32,7 @@ Thus, we return an answer of [2, 5, 5].
 
 **Example 2:**
 
-**Input:** positions = [[100,100],[200,100]]
+**Input:** positions = \[\[100,100],[200,100]]
 
 **Output:** [100,100]
 

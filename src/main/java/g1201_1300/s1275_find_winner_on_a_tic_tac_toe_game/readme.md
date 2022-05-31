@@ -19,7 +19,7 @@ You can assume that `moves` is valid (i.e., it follows the rules of **Tic-Tac-To
 
 ![](https://assets.leetcode.com/uploads/2021/09/22/xo1-grid.jpg)
 
-**Input:** moves = [[0,0],[2,0],[1,1],[2,1],[2,2]]
+**Input:** moves = \[\[0,0],[2,0],[1,1],[2,1],[2,2]]
 
 **Output:** "A"
 
@@ -29,7 +29,7 @@ You can assume that `moves` is valid (i.e., it follows the rules of **Tic-Tac-To
 
 ![](https://assets.leetcode.com/uploads/2021/09/22/xo2-grid.jpg)
 
-**Input:** moves = [[0,0],[1,1],[0,1],[0,2],[1,0],[2,0]]
+**Input:** moves = \[\[0,0],[1,1],[0,1],[0,2],[1,0],[2,0]]
 
 **Output:** "B"
 
@@ -39,7 +39,7 @@ You can assume that `moves` is valid (i.e., it follows the rules of **Tic-Tac-To
 
 ![](https://assets.leetcode.com/uploads/2021/09/22/xo3-grid.jpg)
 
-**Input:** moves = [[0,0],[1,1],[2,0],[1,0],[1,2],[2,1],[0,1],[0,2],[2,2]]
+**Input:** moves = \[\[0,0],[1,1],[2,0],[1,0],[1,2],[2,1],[0,1],[0,2],[2,2]]
 
 **Output:** "Draw"
 

@@ -12,7 +12,7 @@ Return _the original array_ `nums`_. If there are multiple solutions, return **a
 
 **Example 1:**
 
-**Input:** adjacentPairs = [[2,1],[3,4],[3,2]]
+**Input:** adjacentPairs = \[\[2,1],[3,4],[3,2]]
 
 **Output:** [1,2,3,4]
 
@@ -20,7 +20,7 @@ Return _the original array_ `nums`_. If there are multiple solutions, return **a
 
 **Example 2:**
 
-**Input:** adjacentPairs = [[4,-2],[1,4],[-3,1]]
+**Input:** adjacentPairs = \[\[4,-2],[1,4],[-3,1]]
 
 **Output:** [-2,4,1,-3]
 
@@ -28,7 +28,7 @@ Return _the original array_ `nums`_. If there are multiple solutions, return **a
 
 **Example 3:**
 
-**Input:** adjacentPairs = [[100000,-100000]]
+**Input:** adjacentPairs = \[\[100000,-100000]]
 
 **Output:** [100000,-100000]
 

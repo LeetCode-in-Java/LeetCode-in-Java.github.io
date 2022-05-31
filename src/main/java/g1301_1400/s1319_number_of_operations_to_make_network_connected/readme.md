@@ -12,7 +12,7 @@ Return _the minimum number of times you need to do this in order to make all the
 
 ![](https://assets.leetcode.com/uploads/2020/01/02/sample_1_1677.png)
 
-**Input:** n = 4, connections = [[0,1],[0,2],[1,2]]
+**Input:** n = 4, connections = \[\[0,1],[0,2],[1,2]]
 
 **Output:** 1
 
@@ -22,13 +22,13 @@ Return _the minimum number of times you need to do this in order to make all the
 
 ![](https://assets.leetcode.com/uploads/2020/01/02/sample_2_1677.png)
 
-**Input:** n = 6, connections = [[0,1],[0,2],[0,3],[1,2],[1,3]]
+**Input:** n = 6, connections = \[\[0,1],[0,2],[0,3],[1,2],[1,3]]
 
 **Output:** 2
 
 **Example 3:**
 
-**Input:** n = 6, connections = [[0,1],[0,2],[0,3],[1,2]]
+**Input:** n = 6, connections = \[\[0,1],[0,2],[0,3],[1,2]]
 
 **Output:** -1
 

@@ -10,7 +10,7 @@ You are given a 2D integer array `edges` where each <code>edges[i] = [u<sub>i</s
 
 ![](https://assets.leetcode.com/uploads/2021/02/24/star_graph.png)
 
-**Input:** edges = [[1,2],[2,3],[4,2]]
+**Input:** edges = \[\[1,2],[2,3],[4,2]]
 
 **Output:** 2
 
@@ -18,7 +18,7 @@ You are given a 2D integer array `edges` where each <code>edges[i] = [u<sub>i</s
 
 **Example 2:**
 
-**Input:** edges = [[1,2],[5,1],[1,3],[1,4]]
+**Input:** edges = \[\[1,2],[5,1],[1,3],[1,4]]
 
 **Output:** 1 
 

@@ -46,7 +46,7 @@ If the value of `isLeaf` or `val` is True we represent it as **1** in the list `
 
 ![](https://assets.leetcode.com/uploads/2020/02/11/qt1.png) ![](https://assets.leetcode.com/uploads/2020/02/11/qt2.png)
 
-**Input:** quadTree1 = [[0,1],[1,1],[1,1],[1,0],[1,0]] , quadTree2 = [[0,1],[1,1],[0,1],[1,1],[1,0],null,null,null,null,[1,0],[1,0],[1,1],[1,1]]
+**Input:** quadTree1 = \[\[0,1],[1,1],[1,1],[1,0],[1,0]] , quadTree2 = \[\[0,1],[1,1],[0,1],[1,1],[1,0],null,null,null,null,[1,0],[1,0],[1,1],[1,1]]
 
 **Output:** [[0,0],[1,1],[1,1],[1,1],[1,0]]
 
@@ -54,7 +54,7 @@ If the value of `isLeaf` or `val` is True we represent it as **1** in the list `
 
 **Example 2:**
 
-**Input:** quadTree1 = [[1,0]], quadTree2 = [[1,0]]
+**Input:** quadTree1 = \[\[1,0]], quadTree2 = \[\[1,0]]
 
 **Output:** [[1,0]]
 

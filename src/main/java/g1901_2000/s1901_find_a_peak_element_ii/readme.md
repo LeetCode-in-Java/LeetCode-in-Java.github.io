@@ -14,7 +14,7 @@ You must write an algorithm that runs in `O(m log(n))` or `O(n log(m))` time.
 
 ![](https://assets.leetcode.com/uploads/2021/06/08/1.png)
 
-**Input:** mat = [[1,4],[3,2]]
+**Input:** mat = \[\[1,4],[3,2]]
 
 **Output:** [0,1]
 
@@ -24,7 +24,7 @@ You must write an algorithm that runs in `O(m log(n))` or `O(n log(m))` time.
 
 **![](https://assets.leetcode.com/uploads/2021/06/07/3.png)**
 
-**Input:** mat = [[10,20,15],[21,30,14],[7,16,32]]
+**Input:** mat = \[\[10,20,15],[21,30,14],[7,16,32]]
 
 **Output:** [1,1]
 

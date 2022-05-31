@@ -12,7 +12,7 @@ Note that the subarrays are **disjoint** if and only if there is no index `k` su
 
 **Example 1:**
 
-**Input:** groups = [[1,-1,-1],[3,-2,0]], nums = [1,-1,0,1,-1,-1,3,-2,0]
+**Input:** groups = \[\[1,-1,-1],[3,-2,0]], nums = [1,-1,0,1,-1,-1,3,-2,0]
 
 **Output:** true
 
@@ -20,7 +20,7 @@ Note that the subarrays are **disjoint** if and only if there is no index `k` su
 
 **Example 2:**
 
-**Input:** groups = [[10,-2],[1,2,3,4]], nums = [1,2,3,4,10,-2]
+**Input:** groups = \[\[10,-2],[1,2,3,4]], nums = [1,2,3,4,10,-2]
 
 **Output:** false
 
@@ -28,7 +28,7 @@ Note that the subarrays are **disjoint** if and only if there is no index `k` su
 
 **Example 3:**
 
-**Input:** groups = [[1,2,3],[3,4]], nums = [7,7,1,2,3,4,7,7]
+**Input:** groups = \[\[1,2,3],[3,4]], nums = [7,7,1,2,3,4,7,7]
 
 **Output:** false
 

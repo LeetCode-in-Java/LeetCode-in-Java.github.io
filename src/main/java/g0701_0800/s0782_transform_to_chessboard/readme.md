@@ -12,7 +12,7 @@ A **chessboard board** is a board where no `0`'s and no `1`'s are 4-directionall
 
 ![](https://assets.leetcode.com/uploads/2021/06/29/chessboard1-grid.jpg)
 
-**Input:** board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]
+**Input:** board = \[\[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]
 
 **Output:** 2
 
@@ -26,7 +26,7 @@ A **chessboard board** is a board where no `0`'s and no `1`'s are 4-directionall
 
 ![](https://assets.leetcode.com/uploads/2021/06/29/chessboard2-grid.jpg)
 
-**Input:** board = [[0,1],[1,0]]
+**Input:** board = \[\[0,1],[1,0]]
 
 **Output:** 0
 
@@ -36,7 +36,7 @@ A **chessboard board** is a board where no `0`'s and no `1`'s are 4-directionall
 
 ![](https://assets.leetcode.com/uploads/2021/06/29/chessboard3-grid.jpg)
 
-**Input:** board = [[1,0],[1,0]]
+**Input:** board = \[\[1,0],[1,0]]
 
 **Output:** -1
 

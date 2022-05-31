@@ -17,7 +17,7 @@ Given a string `word`, return `true` _if_ `word` _can be placed in_ `board`_, or
 
 ![](https://assets.leetcode.com/uploads/2021/10/04/crossword-ex1-1.png)
 
-**Input:** board = [["#", " ", "#"], [" ", " ", "#"], ["#", "c", " "]], word = "abc"
+**Input:** board = \[\["#", " ", "#"], [" ", " ", "#"], ["#", "c", " "]], word = "abc"
 
 **Output:** true
 
@@ -27,7 +27,7 @@ Given a string `word`, return `true` _if_ `word` _can be placed in_ `board`_, or
 
 ![](https://assets.leetcode.com/uploads/2021/10/04/crossword-ex2-1.png)
 
-**Input:** board = [[" ", "#", "a"], [" ", "#", "c"], [" ", "#", "a"]], word = "ac"
+**Input:** board = \[\[" ", "#", "a"], [" ", "#", "c"], [" ", "#", "a"]], word = "ac"
 
 **Output:** false
 
@@ -37,7 +37,7 @@ Given a string `word`, return `true` _if_ `word` _can be placed in_ `board`_, or
 
 ![](https://assets.leetcode.com/uploads/2021/10/04/crossword-ex3-1.png)
 
-**Input:** board = [["#", " ", "#"], [" ", " ", "#"], ["#", " ", "c"]], word = "ca"
+**Input:** board = \[\["#", " ", "#"], [" ", " ", "#"], ["#", " ", "c"]], word = "ca"
 
 **Output:** true
 

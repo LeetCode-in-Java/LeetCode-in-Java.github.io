@@ -8,13 +8,13 @@ Return _the number of pairs_ `(i, j)` _for which_ `0 <= i < j < dominoes.length`
 
 **Example 1:**
 
-**Input:** dominoes = [[1,2],[2,1],[3,4],[5,6]]
+**Input:** dominoes = \[\[1,2],[2,1],[3,4],[5,6]]
 
 **Output:** 1
 
 **Example 2:**
 
-**Input:** dominoes = [[1,2],[1,2],[1,1],[1,2],[2,2]]
+**Input:** dominoes = \[\[1,2],[1,2],[1,1],[1,2],[2,2]]
 
 **Output:** 3
 

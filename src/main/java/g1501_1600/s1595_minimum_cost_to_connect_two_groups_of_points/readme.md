@@ -12,7 +12,7 @@ Return _the minimum cost it takes to connect the two groups_.
 
 ![](https://assets.leetcode.com/uploads/2020/09/03/ex1.jpg)
 
-**Input:** cost = [[15, 96], [36, 2]]
+**Input:** cost = \[\[15, 96], [36, 2]]
 
 **Output:** 17
 
@@ -28,7 +28,7 @@ This results in a total cost of 17.
 
 ![](https://assets.leetcode.com/uploads/2020/09/03/ex2.jpg)
 
-**Input:** cost = [[1, 3, 5], [4, 1, 1], [1, 5, 3]]
+**Input:** cost = \[\[1, 3, 5], [4, 1, 1], [1, 5, 3]]
 
 **Output:** 4
 
@@ -50,7 +50,7 @@ This does not matter as there is no limit to the number of points that can be co
 
 **Example 3:**
 
-**Input:** cost = [[2, 5, 1], [3, 4, 7], [8, 1, 2], [6, 2, 4], [3, 8, 8]]
+**Input:** cost = \[\[2, 5, 1], [3, 4, 7], [8, 1, 2], [6, 2, 4], [3, 8, 8]]
 
 **Output:** 10
 

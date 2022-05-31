@@ -12,7 +12,7 @@ Return _the **maximum height** of the stacked_ `cuboids`.
 
 **![](https://assets.leetcode.com/uploads/2019/10/21/image.jpg)**
 
-**Input:** cuboids = [[50,45,20],[95,37,53],[45,23,12]]
+**Input:** cuboids = \[\[50,45,20],[95,37,53],[45,23,12]]
 
 **Output:** 190
 
@@ -28,7 +28,7 @@ The total height is 95 + 50 + 45 = 190.
 
 **Example 2:**
 
-**Input:** cuboids = [[38,25,45],[76,35,3]]
+**Input:** cuboids = \[\[38,25,45],[76,35,3]]
 
 **Output:** 76
 
@@ -40,7 +40,7 @@ We choose cuboid 1 and rotate it so that the 35x3 side is facing down and its he
 
 **Example 3:**
 
-**Input:** cuboids = [[7,11,17],[7,17,11],[11,7,17],[11,17,7],[17,7,11],[17,11,7]]
+**Input:** cuboids = \[\[7,11,17],[7,17,11],[11,7,17],[11,17,7],[17,7,11],[17,11,7]]
 
 **Output:** 102
 

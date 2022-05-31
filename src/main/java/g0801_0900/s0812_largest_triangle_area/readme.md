@@ -8,7 +8,7 @@ Given an array of points on the **X-Y** plane `points` where <code>points[i] = [
 
 ![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/04/1027.png)
 
-**Input:** points = [[0,0],[0,1],[1,0],[0,2],[2,0]]
+**Input:** points = \[\[0,0],[0,1],[1,0],[0,2],[2,0]]
 
 **Output:** 2.00000
 
@@ -16,7 +16,7 @@ Given an array of points on the **X-Y** plane `points` where <code>points[i] = [
 
 **Example 2:**
 
-**Input:** points = [[1,0],[0,0],[0,1]]
+**Input:** points = \[\[1,0],[0,0],[0,1]]
 
 **Output:** 0.50000
 

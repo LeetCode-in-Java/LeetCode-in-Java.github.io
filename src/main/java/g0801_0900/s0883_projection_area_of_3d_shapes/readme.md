@@ -16,7 +16,7 @@ Return _the total area of all three projections_.
 
 ![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/02/shadow.png)
 
-**Input:** grid = [[1,2],[3,4]]
+**Input:** grid = \[\[1,2],[3,4]]
 
 **Output:** 17
 
@@ -24,13 +24,13 @@ Return _the total area of all three projections_.
 
 **Example 2:**
 
-**Input:** grid = [[2]]
+**Input:** grid = \[\[2]]
 
 **Output:** 5
 
 **Example 3:**
 
-**Input:** grid = [[1,0],[0,2]]
+**Input:** grid = \[\[1,0],[0,2]]
 
 **Output:** 8
 

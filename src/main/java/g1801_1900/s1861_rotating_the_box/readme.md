@@ -20,7 +20,7 @@ Return _an_ `n x m` _matrix representing the box after the rotation described ab
 
 **Input:**
 
-    box = [["#",".","#"]]
+    box = \[\["#",".","#"]]
 
 **Output:**
 
@@ -34,7 +34,7 @@ Return _an_ `n x m` _matrix representing the box after the rotation described ab
 
 **Input:**
 
-    box = [["#",".","*","."], 
+    box = \[\["#",".","*","."], 
            ["#","#","*","."]]
 
 **Output:**
@@ -50,7 +50,7 @@ Return _an_ `n x m` _matrix representing the box after the rotation described ab
 
 **Input:**
 
-    box = [["#","#","*",".","*","."], 
+    box = \[\["#","#","*",".","*","."], 
            ["#","#","#","*",".","."], 
            ["#","#","#",".","#","."]]
 

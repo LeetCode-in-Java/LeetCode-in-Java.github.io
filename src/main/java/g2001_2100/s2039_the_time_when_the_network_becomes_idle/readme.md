@@ -21,7 +21,7 @@ Return _the **earliest second** starting from which the network becomes **idle**
 
 ![example 1](https://assets.leetcode.com/uploads/2021/09/22/quiet-place-example1.png)
 
-**Input:** edges = [[0,1],[1,2]], patience = [0,2,1]
+**Input:** edges = \[\[0,1],[1,2]], patience = [0,2,1]
 
 **Output:** 8
 
@@ -70,7 +70,7 @@ This is the time when the network becomes idle.
 
 ![example 2](https://assets.leetcode.com/uploads/2021/09/04/network_a_quiet_place_2.png)
 
-**Input:** edges = [[0,1],[0,2],[1,2]], patience = [0,10,10]
+**Input:** edges = \[\[0,1],[0,2],[1,2]], patience = [0,10,10]
 
 **Output:** 3
 

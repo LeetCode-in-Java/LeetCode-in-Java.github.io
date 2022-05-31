@@ -17,7 +17,7 @@ Return _an array_ `answer` _of size_ `n` _where_ `answer[i]` _is the column that
 
 **![](https://assets.leetcode.com/uploads/2019/09/26/ball.jpg)**
 
-**Input:** grid = [[1,1,1,-1,-1],[1,1,1,-1,-1],[-1,-1,-1,1,1],[1,1,1,1,-1],[-1,-1,-1,-1,-1]]
+**Input:** grid = \[\[1,1,1,-1,-1],[1,1,1,-1,-1],[-1,-1,-1,1,1],[1,1,1,1,-1],[-1,-1,-1,-1,-1]]
 
 **Output:** [1,-1,-1,-1,-1]
 
@@ -35,7 +35,7 @@ Ball b4 is dropped at column 4 and will get stuck on the box between column 2 an
 
 **Example 2:**
 
-**Input:** grid = [[-1]]
+**Input:** grid = \[\[-1]]
 
 **Output:** [-1]
 
@@ -43,7 +43,7 @@ Ball b4 is dropped at column 4 and will get stuck on the box between column 2 an
 
 **Example 3:**
 
-**Input:** grid = [[1,1,1,1,1,1],[-1,-1,-1,-1,-1,-1],[1,1,1,1,1,1],[-1,-1,-1,-1,-1,-1]]
+**Input:** grid = \[\[1,1,1,1,1,1],[-1,-1,-1,-1,-1,-1],[1,1,1,1,1,1],[-1,-1,-1,-1,-1,-1]]
 
 **Output:** [0,1,2,3,4,-1]
 

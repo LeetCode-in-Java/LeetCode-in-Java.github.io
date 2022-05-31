@@ -13,7 +13,7 @@ Return _the **average** waiting time of all customers_. Solutions within <code>1
 
 **Example 1:**
 
-**Input:** customers = [[1,2],[2,5],[4,3]]
+**Input:** customers = \[\[1,2],[2,5],[4,3]]
 
 **Output:** 5.00000
 
@@ -27,7 +27,7 @@ Return _the **average** waiting time of all customers_. Solutions within <code>1
 
 **Example 2:**
 
-**Input:** customers = [[5,2],[5,4],[10,3],[20,1]]
+**Input:** customers = \[\[5,2],[5,4],[10,3],[20,1]]
 
 **Output:** 3.25000
 

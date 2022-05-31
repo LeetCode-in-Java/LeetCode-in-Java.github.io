@@ -12,7 +12,7 @@ Return _the lowest price you have to pay for exactly certain items as given, whe
 
 **Example 1:**
 
-**Input:** price = [2,5], special = [[3,0,5],[1,2,10]], needs = [3,2]
+**Input:** price = [2,5], special = \[\[3,0,5],[1,2,10]], needs = [3,2]
 
 **Output:** 14
 
@@ -26,7 +26,7 @@ You need to buy 3A and 2B, so you may pay $10 for 1A and 2B (special offer #2), 
 
 **Example 2:**
 
-**Input:** price = [2,3,4], special = [[1,1,0,4],[2,2,1,9]], needs = [1,2,1]
+**Input:** price = [2,3,4], special = \[\[1,1,0,4],[2,2,1,9]], needs = [1,2,1]
 
 **Output:** 11
 

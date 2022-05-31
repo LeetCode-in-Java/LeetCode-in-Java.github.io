@@ -12,7 +12,7 @@ Return _a list of all the people that have the secret after all the meetings hav
 
 **Example 1:**
 
-**Input:** n = 6, meetings = [[1,2,5],[2,3,8],[1,5,10]], firstPerson = 1
+**Input:** n = 6, meetings = \[\[1,2,5],[2,3,8],[1,5,10]], firstPerson = 1
 
 **Output:** [0,1,2,3,5]
 
@@ -30,7 +30,7 @@ Thus, people 0, 1, 2, 3, and 5 know the secret after all the meetings.
 
 **Example 2:**
 
-**Input:** n = 4, meetings = [[3,1,3],[1,2,2],[0,3,3]], firstPerson = 3
+**Input:** n = 4, meetings = \[\[3,1,3],[1,2,2],[0,3,3]], firstPerson = 3
 
 **Output:** [0,1,3]
 
@@ -46,7 +46,7 @@ Thus, people 0, 1, and 3 know the secret after all the meetings.
 
 **Example 3:**
 
-**Input:** n = 5, meetings = [[3,4,2],[1,2,1],[2,3,1]], firstPerson = 1
+**Input:** n = 5, meetings = \[\[3,4,2],[1,2,1],[2,3,1]], firstPerson = 1
 
 **Output:** [0,1,2,3,4]
 

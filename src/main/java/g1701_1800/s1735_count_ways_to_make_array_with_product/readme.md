@@ -8,7 +8,7 @@ Return _an integer array_ `answer` _where_ `answer.length == queries.length`_, a
 
 **Example 1:**
 
-**Input:** queries = [[2,6],[5,1],[73,660]]
+**Input:** queries = \[\[2,6],[5,1],[73,660]]
 
 **Output:** [4,1,50734910]
 
@@ -22,7 +22,7 @@ Return _an integer array_ `answer` _where_ `answer.length == queries.length`_, a
 
 **Example 2:**
 
-**Input:** queries = [[1,1],[2,2],[3,3],[4,4],[5,5]]
+**Input:** queries = \[\[1,1],[2,2],[3,3],[4,4],[5,5]]
 
 **Output:** [1,2,3,10,5]
 

@@ -22,7 +22,7 @@ The given node will always be the first node with `val = 1`. You must return the
 
 ![](https://assets.leetcode.com/uploads/2019/11/04/133_clone_graph_question.png)
 
-**Input:** adjList = [[2,4],[1,3],[2,4],[1,3]]
+**Input:** adjList = \[\[2,4],[1,3],[2,4],[1,3]]
 
 **Output:** [[2,4],[1,3],[2,4],[1,3]]
 
@@ -38,7 +38,7 @@ The given node will always be the first node with `val = 1`. You must return the
 
 ![](https://assets.leetcode.com/uploads/2020/01/07/graph.png)
 
-**Input:** adjList = [[]]
+**Input:** adjList = \[\[]]
 
 **Output:** [[]]
 
@@ -56,7 +56,7 @@ The given node will always be the first node with `val = 1`. You must return the
 
 ![](https://assets.leetcode.com/uploads/2020/01/07/graph-1.png)
 
-**Input:** adjList = [[2],[1]]
+**Input:** adjList = \[\[2],[1]]
 
 **Output:** [[2],[1]] 
 

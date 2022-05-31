@@ -16,7 +16,7 @@ Return _an array_ `ans` _of size_ `n`, _where_ `ans[i]` _is the closest ancestor
 
 **![](https://assets.leetcode.com/uploads/2021/01/06/untitled-diagram.png)**
 
-**Input:** nums = [2,3,3,2], edges = [[0,1],[1,2],[1,3]]
+**Input:** nums = [2,3,3,2], edges = \[\[0,1],[1,2],[1,3]]
 
 **Output:** [-1,0,0,1]
 
@@ -32,7 +32,7 @@ Return _an array_ `ans` _of size_ `n`, _where_ `ans[i]` _is the closest ancestor
 
 ![](https://assets.leetcode.com/uploads/2021/01/06/untitled-diagram1.png)
 
-**Input:** nums = [5,6,10,2,3,6,15], edges = [[0,1],[0,2],[1,3],[1,4],[2,5],[2,6]]
+**Input:** nums = [5,6,10,2,3,6,15], edges = \[\[0,1],[0,2],[1,3],[1,4],[2,5],[2,6]]
 
 **Output:** [-1,0,-1,0,0,0,-1]
 

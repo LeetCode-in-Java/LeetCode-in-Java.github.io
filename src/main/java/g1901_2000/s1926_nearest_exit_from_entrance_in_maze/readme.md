@@ -12,7 +12,7 @@ Return _the **number of steps** in the shortest path from the_ `entrance` _to th
 
 ![](https://assets.leetcode.com/uploads/2021/06/04/nearest1-grid.jpg)
 
-**Input:** maze = [["+","+",".","+"],[".",".",".","+"],["+","+","+","."]], entrance = [1,2]
+**Input:** maze = \[\["+","+",".","+"],[".",".",".","+"],["+","+","+","."]], entrance = [1,2]
 
 **Output:** 1
 
@@ -30,7 +30,7 @@ It is impossible to reach [2,3] from the entrance. Thus, the nearest exit is [0,
 
 ![](https://assets.leetcode.com/uploads/2021/06/04/nearesr2-grid.jpg)
 
-**Input:** maze = [["+","+","+"],[".",".","."],["+","+","+"]], entrance = [1,0]
+**Input:** maze = \[\["+","+","+"],[".",".","."],["+","+","+"]], entrance = [1,0]
 
 **Output:** 2
 
@@ -46,7 +46,7 @@ Thus, the nearest exit is [1,2], which is 2 steps away.
 
 ![](https://assets.leetcode.com/uploads/2021/06/04/nearest3-grid.jpg)
 
-**Input:** maze = [[".","+"]], entrance = [0,0]
+**Input:** maze = \[\[".","+"]], entrance = [0,0]
 
 **Output:** -1
 

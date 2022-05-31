@@ -16,7 +16,7 @@ Return _the maximum number of edges you can remove, or return_ `-1` _if it's imp
 
 **![](https://assets.leetcode.com/uploads/2020/08/19/ex1.png)**
 
-**Input:** n = 4, edges = [[3,1,2],[3,2,3],[1,1,3],[1,2,4],[1,1,2],[2,3,4]]
+**Input:** n = 4, edges = \[\[3,1,2],[3,2,3],[1,1,3],[1,2,4],[1,1,2],[2,3,4]]
 
 **Output:** 2
 
@@ -26,7 +26,7 @@ Return _the maximum number of edges you can remove, or return_ `-1` _if it's imp
 
 **![](https://assets.leetcode.com/uploads/2020/08/19/ex2.png)**
 
-**Input:** n = 4, edges = [[3,1,2],[3,2,3],[1,1,4],[2,1,4]]
+**Input:** n = 4, edges = \[\[3,1,2],[3,2,3],[1,1,4],[2,1,4]]
 
 **Output:** 0
 
@@ -36,7 +36,7 @@ Return _the maximum number of edges you can remove, or return_ `-1` _if it's imp
 
 **![](https://assets.leetcode.com/uploads/2020/08/19/ex3.png)**
 
-**Input:** n = 4, edges = [[3,2,3],[1,1,2],[2,3,4]]
+**Input:** n = 4, edges = \[\[3,2,3],[1,1,2],[2,3,4]]
 
 **Output:** -1
 

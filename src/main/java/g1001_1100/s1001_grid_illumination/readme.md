@@ -16,7 +16,7 @@ Return _an array of integers_ `ans`_,_ _where_ `ans[j]` _should be_ `1` _if the 
 
 ![](https://assets.leetcode.com/uploads/2020/08/19/illu_1.jpg)
 
-**Input:** n = 5, lamps = [[0,0],[4,4]], queries = [[1,1],[1,0]]
+**Input:** n = 5, lamps = \[\[0,0],[4,4]], queries = \[\[1,1],[1,0]]
 
 **Output:** [1,0]
 
@@ -24,13 +24,13 @@ Return _an array of integers_ `ans`_,_ _where_ `ans[j]` _should be_ `1` _if the 
 
 **Example 2:**
 
-**Input:** n = 5, lamps = [[0,0],[4,4]], queries = [[1,1],[1,1]]
+**Input:** n = 5, lamps = \[\[0,0],[4,4]], queries = \[\[1,1],[1,1]]
 
 **Output:** [1,1]
 
 **Example 3:**
 
-**Input:** n = 5, lamps = [[0,0],[0,4]], queries = [[0,4],[0,1],[1,4]]
+**Input:** n = 5, lamps = \[\[0,0],[0,4]], queries = \[\[0,4],[0,1],[1,4]]
 
 **Output:** [1,1,0]
 

@@ -14,7 +14,7 @@ Return `true` if any cycle of the same value exists in `grid`, otherwise, return
 
 **![](https://assets.leetcode.com/uploads/2020/07/15/1.png)**
 
-**Input:** grid = [["a","a","a","a"],["a","b","b","a"],["a","b","b","a"],["a","a","a","a"]]
+**Input:** grid = \[\["a","a","a","a"],["a","b","b","a"],["a","b","b","a"],["a","a","a","a"]]
 
 **Output:** true
 
@@ -24,7 +24,7 @@ Return `true` if any cycle of the same value exists in `grid`, otherwise, return
 
 **![](https://assets.leetcode.com/uploads/2020/07/15/22.png)**
 
-**Input:** grid = [["c","c","c","a"],["c","d","c","c"],["c","c","e","c"],["f","c","c","c"]]
+**Input:** grid = \[\["c","c","c","a"],["c","d","c","c"],["c","c","e","c"],["f","c","c","c"]]
 
 **Output:** true
 
@@ -34,7 +34,7 @@ Return `true` if any cycle of the same value exists in `grid`, otherwise, return
 
 **![](https://assets.leetcode.com/uploads/2020/07/15/3.png)**
 
-**Input:** grid = [["a","b","b"],["b","z","b"],["b","b","a"]]
+**Input:** grid = \[\["a","b","b"],["b","z","b"],["b","b","a"]]
 
 **Output:** false
 

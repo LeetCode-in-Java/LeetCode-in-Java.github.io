@@ -14,7 +14,7 @@ A **zero matrix** is a matrix with all cells equal to `0`.
 
 ![](https://assets.leetcode.com/uploads/2019/11/28/matrix.png)
 
-**Input:** mat = [[0,0],[0,1]]
+**Input:** mat = \[\[0,0],[0,1]]
 
 **Output:** 3
 
@@ -22,7 +22,7 @@ A **zero matrix** is a matrix with all cells equal to `0`.
 
 **Example 2:**
 
-**Input:** mat = [[0]]
+**Input:** mat = \[\[0]]
 
 **Output:** 0
 
@@ -30,7 +30,7 @@ A **zero matrix** is a matrix with all cells equal to `0`.
 
 **Example 3:**
 
-**Input:** mat = [[1,0,0],[1,0,0]]
+**Input:** mat = \[\[1,0,0],[1,0,0]]
 
 **Output:** -1
 

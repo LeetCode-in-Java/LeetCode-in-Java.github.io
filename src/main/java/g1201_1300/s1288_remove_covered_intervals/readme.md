@@ -10,7 +10,7 @@ Return _the number of remaining intervals_.
 
 **Example 1:**
 
-**Input:** intervals = [[1,4],[3,6],[2,8]]
+**Input:** intervals = \[\[1,4],[3,6],[2,8]]
 
 **Output:** 2
 
@@ -18,7 +18,7 @@ Return _the number of remaining intervals_.
 
 **Example 2:**
 
-**Input:** intervals = [[1,4],[2,3]]
+**Input:** intervals = \[\[1,4],[2,3]]
 
 **Output:** 1
 

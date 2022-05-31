@@ -24,7 +24,7 @@ Given a **0-indexed** `m x n` binary matrix `grid` representing the farmland, re
 
 ![](https://assets.leetcode.com/uploads/2021/12/22/1.JPG)
 
-**Input:** grid = [[0,1,1,0],[1,1,1,1]]
+**Input:** grid = \[\[0,1,1,0],[1,1,1,1]]
 
 **Output:** 2
 
@@ -38,7 +38,7 @@ Hence total number of pyramidal and inverse pyramidal plots is 2 + 0 = 2.
 
 ![](https://assets.leetcode.com/uploads/2021/12/22/2.JPG)
 
-**Input:** grid = [[1,1,1],[1,1,1]]
+**Input:** grid = \[\[1,1,1],[1,1,1]]
 
 **Output:** 2
 
@@ -50,7 +50,7 @@ Hence the total number of plots is 1 + 1 = 2.
 
 ![](https://assets.leetcode.com/uploads/2021/12/22/3.JPG)
 
-**Input:** grid = [[1,1,1,1,0],[1,1,1,1,1],[1,1,1,1,1],[0,1,0,0,1]]
+**Input:** grid = \[\[1,1,1,1,0],[1,1,1,1,1],[1,1,1,1,1],[0,1,0,0,1]]
 
 **Output:** 13
 

@@ -12,7 +12,7 @@ Return _the **maximum sum** of values that you can receive by attending events._
 
 ![](https://assets.leetcode.com/uploads/2021/01/10/screenshot-2021-01-11-at-60048-pm.png)
 
-**Input:** events = [[1,2,4],[3,4,3],[2,3,1]], k = 2
+**Input:** events = \[\[1,2,4],[3,4,3],[2,3,1]], k = 2
 
 **Output:** 7
 
@@ -22,7 +22,7 @@ Return _the **maximum sum** of values that you can receive by attending events._
 
 ![](https://assets.leetcode.com/uploads/2021/01/10/screenshot-2021-01-11-at-60150-pm.png)
 
-**Input:** events = [[1,2,4],[3,4,3],[2,3,10]], k = 2
+**Input:** events = \[\[1,2,4],[3,4,3],[2,3,10]], k = 2
 
 **Output:** 10
 
@@ -32,7 +32,7 @@ Return _the **maximum sum** of values that you can receive by attending events._
 
 **![](https://assets.leetcode.com/uploads/2021/01/10/screenshot-2021-01-11-at-60703-pm.png)**
 
-**Input:** events = [[1,1,1],[2,2,2],[3,3,3],[4,4,4]], k = 3
+**Input:** events = \[\[1,1,1],[2,2,2],[3,3,3],[4,4,4]], k = 3
 
 **Output:** 9
 

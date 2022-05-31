@@ -14,7 +14,7 @@ _Return the maximum number of four-person groups you can assign on the cinema se
 
 ![](https://assets.leetcode.com/uploads/2020/02/14/cinema_seats_3.png)
 
-**Input:** n = 3, reservedSeats = [[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]
+**Input:** n = 3, reservedSeats = \[\[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]
 
 **Output:** 4
 
@@ -22,13 +22,13 @@ _Return the maximum number of four-person groups you can assign on the cinema se
 
 **Example 2:**
 
-**Input:** n = 2, reservedSeats = [[2,1],[1,8],[2,6]]
+**Input:** n = 2, reservedSeats = \[\[2,1],[1,8],[2,6]]
 
 **Output:** 2
 
 **Example 3:**
 
-**Input:** n = 4, reservedSeats = [[4,3],[1,4],[4,6],[1,7]]
+**Input:** n = 4, reservedSeats = \[\[4,3],[1,4],[4,6],[1,7]]
 
 **Output:** 4
 

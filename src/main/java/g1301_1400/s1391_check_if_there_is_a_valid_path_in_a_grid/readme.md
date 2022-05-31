@@ -23,7 +23,7 @@ Return `true` _if there is a valid path in the grid or_ `false` _otherwise_.
 
 ![](https://assets.leetcode.com/uploads/2020/03/05/e1.png)
 
-**Input:** grid = [[2,4,3],[6,5,2]]
+**Input:** grid = \[\[2,4,3],[6,5,2]]
 
 **Output:** true
 
@@ -33,7 +33,7 @@ Return `true` _if there is a valid path in the grid or_ `false` _otherwise_.
 
 ![](https://assets.leetcode.com/uploads/2020/03/05/e2.png)
 
-**Input:** grid = [[1,2,1],[1,2,1]]
+**Input:** grid = \[\[1,2,1],[1,2,1]]
 
 **Output:** false
 
@@ -41,7 +41,7 @@ Return `true` _if there is a valid path in the grid or_ `false` _otherwise_.
 
 **Example 3:**
 
-**Input:** grid = [[1,1,2]]
+**Input:** grid = \[\[1,1,2]]
 
 **Output:** false
 

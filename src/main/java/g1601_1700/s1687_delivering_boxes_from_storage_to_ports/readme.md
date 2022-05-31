@@ -22,7 +22,7 @@ Return _the **minimum** number of **trips** the ship needs to make to deliver al
 
 **Example 1:**
 
-**Input:** boxes = [[1,1],[2,1],[1,1]], portsCount = 2, maxBoxes = 3, maxWeight = 3
+**Input:** boxes = \[\[1,1],[2,1],[1,1]], portsCount = 2, maxBoxes = 3, maxWeight = 3
 
 **Output:** 4
 
@@ -36,7 +36,7 @@ Note that the first and third boxes cannot be delivered together because the box
 
 **Example 2:**
 
-**Input:** boxes = [[1,2],[3,3],[3,1],[3,1],[2,4]], portsCount = 3, maxBoxes = 3, maxWeight = 6
+**Input:** boxes = \[\[1,2],[3,3],[3,1],[3,1],[2,4]], portsCount = 3, maxBoxes = 3, maxWeight = 6
 
 **Output:** 6
 
@@ -44,7 +44,7 @@ Note that the first and third boxes cannot be delivered together because the box
 
 **Example 3:**
 
-**Input:** boxes = [[1,4],[1,2],[2,1],[2,1],[3,2],[3,4]], portsCount = 3, maxBoxes = 6, maxWeight = 7
+**Input:** boxes = \[\[1,4],[1,2],[2,1],[2,1],[3,2],[3,4]], portsCount = 3, maxBoxes = 6, maxWeight = 7
 
 **Output:** 6
 

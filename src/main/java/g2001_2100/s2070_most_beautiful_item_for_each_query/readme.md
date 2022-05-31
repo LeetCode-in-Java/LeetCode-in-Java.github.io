@@ -10,7 +10,7 @@ Return _an array_ `answer` _of the same length as_ `queries` _where_ `answer[j]`
 
 **Example 1:**
 
-**Input:** items = [[1,2],[3,2],[2,4],[5,6],[3,5]], queries = [1,2,3,4,5,6]
+**Input:** items = \[\[1,2],[3,2],[2,4],[5,6],[3,5]], queries = [1,2,3,4,5,6]
 
 **Output:** [2,4,5,5,6,6]
 
@@ -32,7 +32,7 @@ Hence, the answer for them is the maximum beauty of all items, i.e., 6.
 
 **Example 2:**
 
-**Input:** items = [[1,2],[1,2],[1,3],[1,4]], queries = [1]
+**Input:** items = \[\[1,2],[1,2],[1,3],[1,4]], queries = [1]
 
 **Output:** [4]
 
@@ -44,7 +44,7 @@ Note that multiple items can have the same price and/or beauty.
 
 **Example 3:**
 
-**Input:** items = [[10,1000]], queries = [5]
+**Input:** items = \[\[10,1000]], queries = [5]
 
 **Output:** [0]
 

@@ -8,7 +8,7 @@ Given two `n x n` binary matrices `mat` and `target`, return `true` _if it is po
 
 ![](https://assets.leetcode.com/uploads/2021/05/20/grid3.png)
 
-**Input:** mat = [[0,1],[1,0]], target = [[1,0],[0,1]]
+**Input:** mat = \[\[0,1],[1,0]], target = \[\[1,0],[0,1]]
 
 **Output:** true
 
@@ -18,7 +18,7 @@ Given two `n x n` binary matrices `mat` and `target`, return `true` _if it is po
 
 ![](https://assets.leetcode.com/uploads/2021/05/20/grid4.png)
 
-**Input:** mat = [[0,1],[1,1]], target = [[1,0],[0,1]]
+**Input:** mat = \[\[0,1],[1,1]], target = \[\[1,0],[0,1]]
 
 **Output:** false
 
@@ -28,7 +28,7 @@ Given two `n x n` binary matrices `mat` and `target`, return `true` _if it is po
 
 ![](https://assets.leetcode.com/uploads/2021/05/26/grid4.png)
 
-**Input:** mat = [[0,0,0],[0,1,0],[1,1,1]], target = [[1,1,1],[0,1,0],[0,0,0]]
+**Input:** mat = \[\[0,0,0],[0,1,0],[1,1,1]], target = \[\[1,1,1],[0,1,0],[0,0,0]]
 
 **Output:** true
 

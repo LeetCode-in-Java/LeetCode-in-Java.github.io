@@ -10,7 +10,7 @@ Only include the sum of all the elements on the primary diagonal and all the ele
 
 ![](https://assets.leetcode.com/uploads/2020/08/14/sample_1911.png)
 
-**Input:** mat = [[**1**,2,**3**], 
+**Input:** mat = \[\[**1**,2,**3**], 
                   [4,**5**,6], 
                   [**7**,8,**9**]]
 
@@ -20,7 +20,7 @@ Only include the sum of all the elements on the primary diagonal and all the ele
 
 **Example 2:**
 
-**Input:** mat = [[**1**,1,1,**1**], 
+**Input:** mat = \[\[**1**,1,1,**1**], 
                   [1,**1**,**1**,1], 
                   [1,**1**,**1**,1], 
                   [**1**,1,1,**1**]]
@@ -29,7 +29,7 @@ Only include the sum of all the elements on the primary diagonal and all the ele
 
 **Example 3:**
 
-**Input:** mat = [[**5**]]
+**Input:** mat = \[\[**5**]]
 
 **Output:** 5
 

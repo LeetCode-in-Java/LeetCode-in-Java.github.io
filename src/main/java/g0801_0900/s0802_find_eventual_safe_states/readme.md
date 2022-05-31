@@ -12,7 +12,7 @@ Return _an array containing all the **safe nodes** of the graph_. The answer sho
 
 ![Illustration of graph](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/03/17/picture1.png)
 
-**Input:** graph = [[1,2],[2,3],[5],[0],[5],[],[]]
+**Input:** graph = \[\[1,2],[2,3],[5],[0],[5],[],[]]
 
 **Output:** [2,4,5,6]
 
@@ -24,7 +24,7 @@ Every path starting at nodes 2, 4, 5, and 6 all lead to either node 5 or 6.
 
 **Example 2:**
 
-**Input:** graph = [[1,2,3,4],[1,2],[3,4],[0,4],[]]
+**Input:** graph = \[\[1,2,3,4],[1,2],[3,4],[0,4],[]]
 
 **Output:** [4]
 

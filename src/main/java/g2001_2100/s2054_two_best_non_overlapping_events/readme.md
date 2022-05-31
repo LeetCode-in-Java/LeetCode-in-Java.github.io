@@ -12,7 +12,7 @@ Note that the start time and end time is **inclusive**: that is, you cannot atte
 
 ![](https://assets.leetcode.com/uploads/2021/09/21/picture5.png)
 
-**Input:** events = [[1,3,2],[4,5,2],[2,4,3]]
+**Input:** events = \[\[1,3,2],[4,5,2],[2,4,3]]
 
 **Output:** 4
 
@@ -22,7 +22,7 @@ Note that the start time and end time is **inclusive**: that is, you cannot atte
 
 ![Example 1 Diagram](https://assets.leetcode.com/uploads/2021/09/21/picture1.png)
 
-**Input:** events = [[1,3,2],[4,5,2],[1,5,5]]
+**Input:** events = \[\[1,3,2],[4,5,2],[1,5,5]]
 
 **Output:** 5
 
@@ -32,7 +32,7 @@ Note that the start time and end time is **inclusive**: that is, you cannot atte
 
 ![](https://assets.leetcode.com/uploads/2021/09/21/picture3.png)
 
-**Input:** events = [[1,5,3],[1,5,1],[6,6,5]]
+**Input:** events = \[\[1,5,3],[1,5,1],[6,6,5]]
 
 **Output:** 8
 

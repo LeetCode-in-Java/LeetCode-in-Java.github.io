@@ -12,7 +12,7 @@ Return _the **number of ways** you can arrive at your destination in the **short
 
 ![](https://assets.leetcode.com/uploads/2021/07/17/graph2.png)
 
-**Input:** n = 7, roads = [[0,6,7],[0,1,2],[1,2,3],[1,3,3],[6,3,3],[3,5,1],[6,5,1],[2,5,1],[0,4,5],[4,6,2]]
+**Input:** n = 7, roads = \[\[0,6,7],[0,1,2],[1,2,3],[1,3,3],[6,3,3],[3,5,1],[6,5,1],[2,5,1],[0,4,5],[4,6,2]]
 
 **Output:** 4
 
@@ -28,7 +28,7 @@ Return _the **number of ways** you can arrive at your destination in the **short
 
 **Example 2:**
 
-**Input:** n = 2, roads = [[1,0,10]]
+**Input:** n = 2, roads = \[\[1,0,10]]
 
 **Output:** 1
 

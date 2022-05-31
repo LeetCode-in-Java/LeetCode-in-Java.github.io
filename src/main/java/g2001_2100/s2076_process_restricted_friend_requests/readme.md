@@ -16,7 +16,7 @@ Return _a **boolean array**_ `result`, _where each_ `result[j]` _is_ `true` _if 
 
 **Example 1:**
 
-**Input:** n = 3, restrictions = [[0,1]], requests = [[0,2],[2,1]]
+**Input:** n = 3, restrictions = \[\[0,1]], requests = \[\[0,2],[2,1]]
 
 **Output:** [true,false]
 
@@ -28,7 +28,7 @@ Request 1: Person 2 and person 1 cannot be friends since person 0 and person 1 w
 
 **Example 2:**
 
-**Input:** n = 3, restrictions = [[0,1]], requests = [[1,2],[0,2]]
+**Input:** n = 3, restrictions = \[\[0,1]], requests = \[\[1,2],[0,2]]
 
 **Output:** [true,false]
 
@@ -40,7 +40,7 @@ Request 1: Person 0 and person 2 cannot be friends since person 0 and person 1 w
 
 **Example 3:**
 
-**Input:** n = 5, restrictions = [[0,1],[1,2],[2,3]], requests = [[0,4],[1,2],[3,1],[3,4]]
+**Input:** n = 5, restrictions = \[\[0,1],[1,2],[2,3]], requests = \[\[0,4],[1,2],[3,1],[3,4]]
 
 **Output:** [true,false,true,false]
 

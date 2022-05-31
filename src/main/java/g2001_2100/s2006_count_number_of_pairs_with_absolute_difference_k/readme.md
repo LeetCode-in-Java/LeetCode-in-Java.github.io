@@ -17,13 +17,13 @@ The value of `|x|` is defined as:
 
 **Explanation:** The pairs with an absolute difference of 1 are: 
 
-- [**1**,**2**,2,1] 
+- \[**1**,**2**,2,1] 
 
-- [**1**,2,**2**,1] 
+- \[**1**,2,**2**,1] 
 
-- [1,**2**,2,**1**] 
+- \[1,**2**,2,**1**] 
 
-- [1,2,**2**,**1**]
+- \[1,2,**2**,**1**]
 
 **Example 2:**
 
@@ -41,11 +41,11 @@ The value of `|x|` is defined as:
 
 **Explanation:** The pairs with an absolute difference of 2 are: 
 
-- [**3**,2,**1**,5,4] 
+- \[**3**,2,**1**,5,4] 
 
-- [**3**,2,1,**5**,4] 
+- \[**3**,2,1,**5**,4] 
 
-- [3,**2**,1,5,**4**]
+- \[3,**2**,1,5,**4**]
 
 **Constraints:**
 

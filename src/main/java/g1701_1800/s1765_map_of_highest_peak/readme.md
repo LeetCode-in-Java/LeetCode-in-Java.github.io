@@ -21,7 +21,7 @@ Return _an integer matrix_ `height` _of size_ `m x n` _where_ `height[i][j]` _is
 
 **![](https://assets.leetcode.com/uploads/2021/01/10/screenshot-2021-01-11-at-82045-am.png)**
 
-**Input:** isWater = [[0,1],[0,0]]
+**Input:** isWater = \[\[0,1],[0,0]]
 
 **Output:** [[1,0],[2,1]]
 
@@ -31,7 +31,7 @@ Return _an integer matrix_ `height` _of size_ `m x n` _where_ `height[i][j]` _is
 
 **![](https://assets.leetcode.com/uploads/2021/01/10/screenshot-2021-01-11-at-82050-am.png)**
 
-**Input:** isWater = [[0,0,1],[1,0,0],[0,0,0]]
+**Input:** isWater = \[\[0,0,1],[1,0,0],[0,0,0]]
 
 **Output:** [[1,1,0],[0,1,1],[1,2,2]]
 

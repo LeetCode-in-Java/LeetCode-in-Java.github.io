@@ -16,7 +16,7 @@ Given the original graph and `maxMoves`, return _the number of nodes that are **
 
 ![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/01/origfinal.png)
 
-**Input:** edges = [[0,1,10],[0,2,1],[1,2,2]], maxMoves = 6, n = 3
+**Input:** edges = \[\[0,1,10],[0,2,1],[1,2,2]], maxMoves = 6, n = 3
 
 **Output:** 13
 
@@ -24,13 +24,13 @@ Given the original graph and `maxMoves`, return _the number of nodes that are **
 
 **Example 2:**
 
-**Input:** edges = [[0,1,4],[1,2,6],[0,2,8],[1,3,1]], maxMoves = 10, n = 4
+**Input:** edges = \[\[0,1,4],[1,2,6],[0,2,8],[1,3,1]], maxMoves = 10, n = 4
 
 **Output:** 23
 
 **Example 3:**
 
-**Input:** edges = [[1,2,4],[1,4,5],[1,3,1],[2,3,4],[3,4,5]], maxMoves = 17, n = 5
+**Input:** edges = \[\[1,2,4],[1,4,5],[1,3,1],[2,3,4],[3,4,5]], maxMoves = 17, n = 5
 
 **Output:** 1
 

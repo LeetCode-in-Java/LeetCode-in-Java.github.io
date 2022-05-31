@@ -12,7 +12,7 @@ Given `edges` and the integers `n`, `source`, and `destination`, return `true` _
 
 ![](https://assets.leetcode.com/uploads/2021/08/14/validpath-ex1.png)
 
-**Input:** n = 3, edges = [[0,1],[1,2],[2,0]], source = 0, destination = 2
+**Input:** n = 3, edges = \[\[0,1],[1,2],[2,0]], source = 0, destination = 2
 
 **Output:** true
 
@@ -22,7 +22,7 @@ Given `edges` and the integers `n`, `source`, and `destination`, return `true` _
 
 ![](https://assets.leetcode.com/uploads/2021/08/14/validpath-ex2.png)
 
-**Input:** n = 6, edges = [[0,1],[0,2],[3,5],[5,4],[4,3]], source = 0, destination = 5
+**Input:** n = 6, edges = \[\[0,1],[0,2],[3,5],[5,4],[4,3]], source = 0, destination = 5
 
 **Output:** false
 

@@ -12,7 +12,7 @@ Return _the least time until you can reach the bottom right square_ `(n - 1, n -
 
 ![](https://assets.leetcode.com/uploads/2021/06/29/swim1-grid.jpg)
 
-**Input:** grid = [[0,2],[1,3]]
+**Input:** grid = \[\[0,2],[1,3]]
 
 **Output:** 3
 
@@ -27,7 +27,7 @@ Return _the least time until you can reach the bottom right square_ `(n - 1, n -
 
 ![](https://assets.leetcode.com/uploads/2021/06/29/swim2-grid-1.jpg)
 
-**Input:** grid = [[0,1,2,3,4],[24,23,22,21,5],[12,13,14,15,16],[11,17,18,19,20],[10,9,8,7,6]]
+**Input:** grid = \[\[0,1,2,3,4],[24,23,22,21,5],[12,13,14,15,16],[11,17,18,19,20],[10,9,8,7,6]]
 
 **Output:** 16
 

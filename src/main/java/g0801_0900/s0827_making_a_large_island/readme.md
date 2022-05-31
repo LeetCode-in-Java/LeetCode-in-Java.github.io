@@ -10,7 +10,7 @@ An **island** is a 4-directionally connected group of `1`s.
 
 **Example 1:**
 
-**Input:** grid = [[1,0],[0,1]]
+**Input:** grid = \[\[1,0],[0,1]]
 
 **Output:** 3
 
@@ -18,7 +18,7 @@ An **island** is a 4-directionally connected group of `1`s.
 
 **Example 2:**
 
-**Input:** grid = [[1,1],[1,0]]
+**Input:** grid = \[\[1,1],[1,0]]
 
 **Output:** 4
 
@@ -26,7 +26,7 @@ An **island** is a 4-directionally connected group of `1`s.
 
 **Example 3:**
 
-**Input:** grid = [[1,1],[1,1]]
+**Input:** grid = \[\[1,1],[1,1]]
 
 **Output:** 4
 
