@@ -58,7 +58,7 @@ import java.util.Set;
 public class Solution {
     private int m;
     private int n;
-    private final int[][] dirs = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+    private final int[][] dirs = { {-1, 0}, {1, 0}, {0, 1}, {0, -1}};
 
     public int containVirus(int[][] grid) {
         m = grid.length;
