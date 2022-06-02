@@ -8,7 +8,7 @@
 | 2200 |[Find All K-Distant Indices in an Array](src/main/java/g2101_2200/s2200_find_all_k_distant_indices_in_an_array)| Easy | Array | 2 | 95.30
 | 2193 |[Minimum Number of Moves to Make Palindrome](src/main/java/g2101_2200/s2193_minimum_number_of_moves_to_make_palindrome)| Hard | String, Greedy, Two_Pointers, Binary_Indexed_Tree | 8 | 98.76
 | 2187 |[Minimum Time to Complete Trips](src/main/java/g2101_2200/s2187_minimum_time_to_complete_trips)| Medium | Array, Binary_Search | 187 | 95.03
-| 2181 |[Merge Nodes in Between Zeros](src/main/java/g2101_2200/s2181_merge_nodes_in_between_zeros)| Medium | Simulation |  | 
+| 2181 |[Merge Nodes in Between Zeros](src/main/java/g2101_2200/s2181_merge_nodes_in_between_zeros)| Medium | Simulation | 6 | 96.26
 | 2172 |[Maximum AND Sum of Array](src/main/java/g2101_2200/s2172_maximum_and_sum_of_array)| Hard | Array, Dynamic_Programming, Bit_Manipulation, Bitmask | 21 | 87.50
 | 2166 |[Design Bitset](src/main/java/g2101_2200/s2166_design_bitset)| Medium | Array, Hash_Table, Design | 81 | 73.38
 | 2154 |[Keep Multiplying Found Values by Two](src/main/java/g2101_2200/s2154_keep_multiplying_found_values_by_two)| Easy | Array, Hash_Table, Sorting, Simulation | 1 | 93.21
