@@ -30,14 +30,17 @@ Given an integer array `nums`, return `true` if any value appears **at least twi
 ## Solution
 
 ```java
-import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Solution {
     public boolean containsDuplicate(int[] nums) {
-        Arrays.sort(nums);
-        for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] == nums[i + 1]) {
+        Set<Integer> set = new HashSet<>();
+        for (int n : nums) {
+            if (set.contains(n)) {
                 return true;
+            } else {
+                set.add(n);
             }
         }
         return false;
