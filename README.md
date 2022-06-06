@@ -120,7 +120,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0075 |[Sort Colors](src/main/java/g0001_0100/s0075_sort_colors)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers | 1 | 33.23
-| 0056 |[Merge Intervals](src/main/java/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting | 22 | 12.57
+| 0056 |[Merge Intervals](src/main/java/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting | 7 | 97.44
 | 0706 |[Design HashMap](src/main/java/g0701_0800/s0706_design_hashmap)| Easy | Array, Hash_Table, Design, Linked_List, Hash_Function | 13 | 95.71
 
 #### Day 3 Array
@@ -1333,9 +1333,19 @@
 |------|----------------|-------------|-------------|----------|--------
 | 2246 |[Longest Path With Different Adjacent Characters](src/main/java/g2201_2300/s2246_longest_path_with_different_adjacent_characters)| Hard | Array, String, Depth_First_Search, Tree, Graph, Topological_Sort | 75 | 97.79
 | 2200 |[Find All K-Distant Indices in an Array](src/main/java/g2101_2200/s2200_find_all_k_distant_indices_in_an_array)| Easy | Array | 2 | 95.30
+| 2197 |[Replace Non-Coprime Numbers in Array](src/main/java/g2101_2200/s2197_replace_non_coprime_numbers_in_array)| Hard | Array, Math, Stack, Number_Theory | 60 | 85.52
+| 2196 |[Create Binary Tree From Descriptions](src/main/java/g2101_2200/s2196_create_binary_tree_from_descriptions)| Medium | Array, Hash_Table, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 85 | 76.70
+| 2195 |[Append K Integers With Minimal Sum](src/main/java/g2101_2200/s2195_append_k_integers_with_minimal_sum)| Medium | Array, Math, Sorting, Greedy | 19 | 96.88
+| 2194 |[Cells in a Range on an Excel Sheet](src/main/java/g2101_2200/s2194_cells_in_a_range_on_an_excel_sheet)| Easy | String | 1 | 99.92
 | 2193 |[Minimum Number of Moves to Make Palindrome](src/main/java/g2101_2200/s2193_minimum_number_of_moves_to_make_palindrome)| Hard | String, Greedy, Two_Pointers, Binary_Indexed_Tree | 8 | 98.76
+| 2192 |[All Ancestors of a Node in a Directed Acyclic Graph](src/main/java/g2101_2200/s2192_all_ancestors_of_a_node_in_a_directed_acyclic_graph)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort | 82 | 90.80
+| 2191 |[Sort the Jumbled Numbers](src/main/java/g2101_2200/s2191_sort_the_jumbled_numbers)| Medium | Array, Sorting | 117 | 96.53
+| 2190 |[Most Frequent Number Following Key In an Array](src/main/java/g2101_2200/s2190_most_frequent_number_following_key_in_an_array)| Easy | Array, Hash_Table, Counting | 1 | 100.00
+| 2188 |[Minimum Time to Finish the Race](src/main/java/g2101_2200/s2188_minimum_time_to_finish_the_race)| Hard | Array, Dynamic_Programming | 15 | 93.69
 | 2187 |[Minimum Time to Complete Trips](src/main/java/g2101_2200/s2187_minimum_time_to_complete_trips)| Medium | Array, Binary_Search | 187 | 95.03
 | 2181 |[Merge Nodes in Between Zeros](src/main/java/g2101_2200/s2181_merge_nodes_in_between_zeros)| Medium | Simulation, Linked_List | 6 | 96.26
+| 2177 |[Find Three Consecutive Integers That Sum to a Given Number](src/main/java/g2101_2200/s2177_find_three_consecutive_integers_that_sum_to_a_given_number)| Medium | Math, Simulation | 1 | 78.46
+| 2176 |[Count Equal and Divisible Pairs in an Array](src/main/java/g2101_2200/s2176_count_equal_and_divisible_pairs_in_an_array)| Easy | Array | 4 | 78.29
 | 2172 |[Maximum AND Sum of Array](src/main/java/g2101_2200/s2172_maximum_and_sum_of_array)| Hard | Array, Dynamic_Programming, Bit_Manipulation, Bitmask | 21 | 87.50
 | 2166 |[Design Bitset](src/main/java/g2101_2200/s2166_design_bitset)| Medium | Array, Hash_Table, Design | 81 | 73.38
 | 2165 |[Smallest Value of the Rearranged Number](src/main/java/g2101_2200/s2165_smallest_value_of_the_rearranged_number)| Medium | Math, Sorting | 1 | 100.00
@@ -2986,7 +2996,7 @@
 | 0059 |[Spiral Matrix II](src/main/java/g0001_0100/s0059_spiral_matrix_ii)| Medium | Array, Matrix, Simulation, Data_Structure_II_Day_3_Array | 0 | 100.00
 | 0058 |[Length of Last Word](src/main/java/g0001_0100/s0058_length_of_last_word)| Easy | String, Programming_Skills_II_Day_6 | 0 | 100.00
 | 0057 |[Insert Interval](src/main/java/g0001_0100/s0057_insert_interval)| Medium | Array | 1 | 99.15
-| 0056 |[Merge Intervals](src/main/java/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Data_Structure_II_Day_2_Array | 22 | 12.57
+| 0056 |[Merge Intervals](src/main/java/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Data_Structure_II_Day_2_Array | 7 | 97.44
 | 0055 |[Jump Game](src/main/java/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy, Algorithm_II_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_4 | 2 | 87.28
 | 0054 |[Spiral Matrix](src/main/java/g0001_0100/s0054_spiral_matrix)| Medium | Top_Interview_Questions, Array, Matrix, Simulation, Programming_Skills_II_Day_8 | 0 | 100.00
 | 0053 |[Maximum Subarray](src/main/java/g0001_0100/s0053_maximum_subarray)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer, Data_Structure_I_Day_1_Array, Dynamic_Programming_I_Day_5 | 1 | 100.00
