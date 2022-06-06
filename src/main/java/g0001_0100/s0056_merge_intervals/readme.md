@@ -35,44 +35,19 @@ import java.util.List;
 
 public class Solution {
     public int[][] merge(int[][] intervals) {
-        // sorting
-        // so that we can perform the task linearly
-        Arrays.sort(
-                intervals,
-                (int[] a, int[] b) -> {
-                    if (a[0] == b[0]) {
-                        return Integer.compare(a[1], b[1]);
-                    }
-                    return Integer.compare(a[0], b[0]);
-                });
-
-        List<List<Integer>> list = new ArrayList<>();
-        int i = 0;
-        while (i < intervals.length) {
-            // storing start
-            int start = intervals[i][0];
-            int end = intervals[i][1];
-            i++;
-            while (i < intervals.length && intervals[i][0] <= end) {
-                // making sure range is not shrinking
-                if (intervals[i][1] > end) {
-                    end = intervals[i][1];
-                }
-                i++;
+        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
+        List<int[]> list = new ArrayList<>();
+        int[] current = intervals[0];
+        list.add(current);
+        for (int[] next : intervals) {
+            if (current[1] >= next[0]) {
+                current[1] = Math.max(current[1], next[1]);
+            } else {
+                current = next;
+                list.add(current);
             }
-            List<Integer> temp = new ArrayList<>();
-            temp.add(start);
-            temp.add(end);
-            list.add(temp);
         }
-        int[][] arr = new int[list.size()][2];
-        i = 0;
-        for (List<Integer> l : list) {
-            arr[i][0] = l.get(0);
-            arr[i][1] = l.get(1);
-            i++;
-        }
-        return arr;
+        return list.toArray(new int[list.size()][]);
     }
 }
 ```
