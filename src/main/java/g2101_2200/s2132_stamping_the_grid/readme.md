@@ -66,33 +66,14 @@ public class Solution {
             int prev = -1;
             for (int j = 0; j < row.length; j++) {
                 if (row[j] == 0) {
-                    if (j == prev + 1 && j > 0 && j + w - 1 < rl) {
-                        if (i > 0
-                                && grid[i - 1][j] == 1
-                                && i + h - 1 < grid.length
-                                && canPaved(grid, i, j, i + h - 1, j + w - 1)) {
-                            return false;
-                        }
-                        if (i + 1 < grid.length
-                                && grid[i + 1][j] == 1
-                                && i - h + 1 >= 0
-                                && canPaved(grid, i - h + 1, j, i, j + w - 1)) {
-                            return false;
-                        }
-                    }
-                    if (j + 1 < rl && row[j + 1] == 1 && j - w + 1 >= 0) {
-                        if (i > 0
-                                && grid[i - 1][j] == 1
-                                && i + h - 1 < grid.length
-                                && canPaved(grid, i, j - w + 1, i + h - 1, j)) {
-                            return false;
-                        }
-                        if (i + 1 < grid.length
-                                && grid[i + 1][j] == 1
-                                && i - h + 1 >= 0
-                                && canPaved(grid, i - h + 1, j - w + 1, i, j)) {
-                            return false;
-                        }
+                    if (j + 1 < rl
+                            && row[j + 1] == 1
+                            && j - w + 1 >= 0
+                            && i + 1 < grid.length
+                            && grid[i + 1][j] == 1
+                            && i - h + 1 >= 0
+                            && canPaved(grid, i - h + 1, j - w + 1, i, j)) {
+                        return false;
                     }
                     continue;
                 }
