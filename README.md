@@ -1343,10 +1343,13 @@
 | 2190 |[Most Frequent Number Following Key In an Array](src/main/java/g2101_2200/s2190_most_frequent_number_following_key_in_an_array)| Easy | Array, Hash_Table, Counting | 1 | 100.00
 | 2188 |[Minimum Time to Finish the Race](src/main/java/g2101_2200/s2188_minimum_time_to_finish_the_race)| Hard | Array, Dynamic_Programming | 15 | 93.69
 | 2187 |[Minimum Time to Complete Trips](src/main/java/g2101_2200/s2187_minimum_time_to_complete_trips)| Medium | Array, Binary_Search | 187 | 95.03
+| 2183 |[Count Array Pairs Divisible by K](src/main/java/g2101_2200/s2183_count_array_pairs_divisible_by_k)| Hard | Array, Math, Number_Theory | 849 | 44.54
+| 2182 |[Construct String With Repeat Limit](src/main/java/g2101_2200/s2182_construct_string_with_repeat_limit)| Medium | String, Greedy, Heap_Priority_Queue, Counting | 26 | 96.11
 | 2181 |[Merge Nodes in Between Zeros](src/main/java/g2101_2200/s2181_merge_nodes_in_between_zeros)| Medium | Simulation, Linked_List | 6 | 96.26
 | 2177 |[Find Three Consecutive Integers That Sum to a Given Number](src/main/java/g2101_2200/s2177_find_three_consecutive_integers_that_sum_to_a_given_number)| Medium | Math, Simulation | 1 | 78.46
 | 2176 |[Count Equal and Divisible Pairs in an Array](src/main/java/g2101_2200/s2176_count_equal_and_divisible_pairs_in_an_array)| Easy | Array | 4 | 78.29
 | 2172 |[Maximum AND Sum of Array](src/main/java/g2101_2200/s2172_maximum_and_sum_of_array)| Hard | Array, Dynamic_Programming, Bit_Manipulation, Bitmask | 21 | 87.50
+| 2169 |[Count Operations to Obtain Zero](src/main/java/g2101_2200/s2169_count_operations_to_obtain_zero)| Easy | Math, Simulation | 0 | 100.00
 | 2166 |[Design Bitset](src/main/java/g2101_2200/s2166_design_bitset)| Medium | Array, Hash_Table, Design | 81 | 73.38
 | 2165 |[Smallest Value of the Rearranged Number](src/main/java/g2101_2200/s2165_smallest_value_of_the_rearranged_number)| Medium | Math, Sorting | 1 | 100.00
 | 2164 |[Sort Even and Odd Indices Independently](src/main/java/g2101_2200/s2164_sort_even_and_odd_indices_independently)| Easy | Array, Sorting | 2 | 97.22
@@ -1357,6 +1360,11 @@
 | 2154 |[Keep Multiplying Found Values by Two](src/main/java/g2101_2200/s2154_keep_multiplying_found_values_by_two)| Easy | Array, Hash_Table, Sorting, Simulation | 1 | 93.21
 | 2151 |[Maximum Good People Based on Statements](src/main/java/g2101_2200/s2151_maximum_good_people_based_on_statements)| Hard | Array, Bit_Manipulation, Backtracking, Enumeration | 76 | 47.57
 | 2150 |[Find All Lonely Numbers in the Array](src/main/java/g2101_2200/s2150_find_all_lonely_numbers_in_the_array)| Medium | Array, Hash_Table, Counting | 93 | 70.66
+| 2148 |[Count Elements With Strictly Smaller and Greater Elements](src/main/java/g2101_2200/s2148_count_elements_with_strictly_smaller_and_greater_elements)| Easy | Array, Sorting | 0 | 100.00
+| 2147 |[Number of Ways to Divide a Long Corridor](src/main/java/g2101_2200/s2147_number_of_ways_to_divide_a_long_corridor)| Hard | String, Dynamic_Programming, Math | 54 | 62.96
+| 2146 |[K Highest Ranked Items Within a Price Range](src/main/java/g2101_2200/s2146_k_highest_ranked_items_within_a_price_range)| Medium | Array, Sorting, Breadth_First_Search, Matrix, Heap_Priority_Queue | 81 | 88.84
+| 2145 |[Count the Hidden Sequences](src/main/java/g2101_2200/s2145_count_the_hidden_sequences)| Medium | Array, Prefix_Sum | 7 | 36.03
+| 2144 |[Minimum Cost of Buying Candies With Discount](src/main/java/g2101_2200/s2144_minimum_cost_of_buying_candies_with_discount)| Easy | Array, Sorting, Greedy | 2 | 97.50
 | 2141 |[Maximum Running Time of N Computers](src/main/java/g2101_2200/s2141_maximum_running_time_of_n_computers)| Hard | Array, Sorting, Greedy, Binary_Search | 24 | 70.39
 | 2140 |[Solving Questions With Brainpower](src/main/java/g2101_2200/s2140_solving_questions_with_brainpower)| Medium | Array, Dynamic_Programming | 5 | 98.77
 | 2139 |[Minimum Moves to Reach Target Score](src/main/java/g2101_2200/s2139_minimum_moves_to_reach_target_score)| Medium | Math, Greedy | 1 | 37.95
