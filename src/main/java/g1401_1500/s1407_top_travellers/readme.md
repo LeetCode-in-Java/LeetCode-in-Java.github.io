@@ -92,7 +92,7 @@ Donald did not have any rides, the distance traveled by him is 0.
 ## Solution
 
 ```sql
-﻿# Write your MySQL query statement below
+# Write your MySQL query statement below
 SELECT U.NAME , COALESCE(SUM(R.DISTANCE),0) AS travelled_distance
 FROM USERS U LEFT JOIN RIDES R ON U.ID=R.USER_ID
 GROUP BY 1 ORDER BY 2 DESC , 1 ASC
