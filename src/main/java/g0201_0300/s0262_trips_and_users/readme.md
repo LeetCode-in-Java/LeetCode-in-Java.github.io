@@ -107,7 +107,7 @@ The query result format is in the following example.
 ## Solution
 
 ```sql
-﻿# Write your MySQL query statement below
+# Write your MySQL query statement below
 SELECT request_at AS "Day",
        ROUND(SUM(CASE
                      WHEN t.status!= 'completed' THEN 1

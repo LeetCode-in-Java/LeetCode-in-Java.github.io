@@ -52,6 +52,6 @@ The query result format is in the following example.
 ## Solution
 
 ```sql
-﻿# Write your MySQL query statement below
+# Write your MySQL query statement below
 SELECT  name FROM customer where referee_id  != 2 or referee_id is null;
 ```
