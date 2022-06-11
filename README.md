@@ -1332,8 +1332,12 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2248 |[Intersection of Multiple Arrays](src/main/java/g2201_2300/s2248_intersection_of_multiple_arrays)| Easy || 2 | 99.46
 | 2246 |[Longest Path With Different Adjacent Characters](src/main/java/g2201_2300/s2246_longest_path_with_different_adjacent_characters)| Hard | Array, String, Depth_First_Search, Tree, Graph, Topological_Sort | 75 | 97.79
 | 2241 |[Design an ATM Machine](src/main/java/g2201_2300/s2241_design_an_atm_machine)| Medium | Array, Greedy, Design | 192 | 24.16
+| 2239 |[Find Closest Number to Zero](src/main/java/g2201_2300/s2239_find_closest_number_to_zero)| Easy | Array | 2 | 84.21
+| 2236 |[Root Equals Sum of Children](src/main/java/g2201_2300/s2236_root_equals_sum_of_children)| Easy | Tree, Binary_Tree | 0 | 100.00
+| 2235 |[Add Two Integers](src/main/java/g2201_2300/s2235_add_two_integers)| Easy | Math | 1 | 48.94
 | 2234 |[Maximum Total Beauty of the Gardens](src/main/java/g2201_2300/s2234_maximum_total_beauty_of_the_gardens)| Hard | Array, Sorting, Greedy, Binary_Search, Two_Pointers | 63 | 73.03
 | 2226 |[Maximum Candies Allocated to K Children](src/main/java/g2201_2300/s2226_maximum_candies_allocated_to_k_children)| Medium | Array, Binary_Search | 46 | 78.19
 | 2221 |[Find Triangular Sum of an Array](src/main/java/g2201_2300/s2221_find_triangular_sum_of_an_array)| Medium | Array, Math, Simulation, Combinatorics | 78 | 83.64
