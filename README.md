@@ -1337,7 +1337,7 @@
 | 2256 |[Minimum Average Difference](src/main/java/g2201_2300/s2256_minimum_average_difference)| Medium || 15 | 97.85
 | 2255 |[Count Prefixes of a Given String](src/main/java/g2201_2300/s2255_count_prefixes_of_a_given_string)| Easy || 1 | 94.82
 | 2251 |[Number of Flowers in Full Bloom](src/main/java/g2201_2300/s2251_number_of_flowers_in_full_bloom)| Hard || 113 | 69.23
-| 2250 |[Count Number of Rectangles Containing Each Point](src/main/java/g2201_2300/s2250_count_number_of_rectangles_containing_each_point)| Medium || 480 | 67.91
+| 2250 |[Count Number of Rectangles Containing Each Point](src/main/java/g2201_2300/s2250_count_number_of_rectangles_containing_each_point)| Medium || 49 | 98.80
 | 2249 |[Count Lattice Points Inside a Circle](src/main/java/g2201_2300/s2249_count_lattice_points_inside_a_circle)| Medium || 54 | 92.07
 | 2248 |[Intersection of Multiple Arrays](src/main/java/g2201_2300/s2248_intersection_of_multiple_arrays)| Easy || 2 | 99.46
 | 2246 |[Longest Path With Different Adjacent Characters](src/main/java/g2201_2300/s2246_longest_path_with_different_adjacent_characters)| Hard | Array, String, Depth_First_Search, Tree, Graph, Topological_Sort | 75 | 97.79
@@ -1827,7 +1827,7 @@
 | 1624 |[Largest Substring Between Two Equal Characters](src/main/java/g1601_1700/s1624_largest_substring_between_two_equal_characters)| Easy | String, Hash_Table | 1 | 85.13
 | 1622 |[Fancy Sequence](src/main/java/g1601_1700/s1622_fancy_sequence)| Hard | Math, Design, Segment_Tree | 40 | 96.55
 | 1621 |[Number of Sets of K Non-Overlapping Line Segments](src/main/java/g1601_1700/s1621_number_of_sets_of_k_non_overlapping_line_segments)| Medium | Dynamic_Programming, Math | 16 | 94.74
-| 1620 |[Coordinate With Maximum Network Quality](src/main/java/g1601_1700/s1620_coordinate_with_maximum_network_quality)| Medium | Array, Enumeration | 111 | 7.14
+| 1620 |[Coordinate With Maximum Network Quality](src/main/java/g1601_1700/s1620_coordinate_with_maximum_network_quality)| Medium | Array, Enumeration | 58 | 68.75
 | 1619 |[Mean of Array After Removing Some Elements](src/main/java/g1601_1700/s1619_mean_of_array_after_removing_some_elements)| Easy | Array, Sorting | 2 | 99.81
 | 1617 |[Count Subtrees With Max Distance Between Cities](src/main/java/g1601_1700/s1617_count_subtrees_with_max_distance_between_cities)| Hard | Dynamic_Programming, Tree, Bit_Manipulation, Bitmask, Enumeration | 52 | 78.95
 | 1616 |[Split Two Strings to Make Palindrome](src/main/java/g1601_1700/s1616_split_two_strings_to_make_palindrome)| Medium | String, Greedy, Two_Pointers | 4 | 89.77
@@ -2163,7 +2163,7 @@
 | 1179 |[Reformat Department Table](src/main/java/g1101_1200/s1179_reformat_department_table)| Easy | Database | 493 | 64.80
 | 1178 |[Number of Valid Words for Each Puzzle](src/main/java/g1101_1200/s1178_number_of_valid_words_for_each_puzzle)| Hard | Array, String, Hash_Table, Bit_Manipulation, Trie | 139 | 48.41
 | 1177 |[Can Make Palindrome from Substring](src/main/java/g1101_1200/s1177_can_make_palindrome_from_substring)| Medium | String, Hash_Table, Bit_Manipulation, Prefix_Sum | 13 | 93.08
-| 1175 |[Prime Arrangements](src/main/java/g1101_1200/s1175_prime_arrangements)| Easy | Math | 6 | 10.00
+| 1175 |[Prime Arrangements](src/main/java/g1101_1200/s1175_prime_arrangements)| Easy | Math | 0 | 100.00
 | 1172 |[Dinner Plate Stacks](src/main/java/g1101_1200/s1172_dinner_plate_stacks)| Hard | Hash_Table, Stack, Design, Heap_Priority_Queue | 63 | 96.74
 | 1171 |[Remove Zero Sum Consecutive Nodes from Linked List](src/main/java/g1101_1200/s1171_remove_zero_sum_consecutive_nodes_from_linked_list)| Medium | Hash_Table, Linked_List | 2 | 90.39
 | 1170 |[Compare Strings by Frequency of the Smallest Character](src/main/java/g1101_1200/s1170_compare_strings_by_frequency_of_the_smallest_character)| Medium | Array, String, Hash_Table, Sorting, Binary_Search | 7 | 57.89
