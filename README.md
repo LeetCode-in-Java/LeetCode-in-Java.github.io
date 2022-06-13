@@ -1333,8 +1333,12 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2257 |[Count Unguarded Cells in the Grid](src/main/java/g2201_2300/s2257_count_unguarded_cells_in_the_grid)| Medium || 32 | 70.28
 | 2256 |[Minimum Average Difference](src/main/java/g2201_2300/s2256_minimum_average_difference)| Medium || 15 | 97.85
 | 2255 |[Count Prefixes of a Given String](src/main/java/g2201_2300/s2255_count_prefixes_of_a_given_string)| Easy || 1 | 94.82
+| 2251 |[Number of Flowers in Full Bloom](src/main/java/g2201_2300/s2251_number_of_flowers_in_full_bloom)| Hard || 113 | 69.23
+| 2250 |[Count Number of Rectangles Containing Each Point](src/main/java/g2201_2300/s2250_count_number_of_rectangles_containing_each_point)| Medium || 480 | 67.91
+| 2249 |[Count Lattice Points Inside a Circle](src/main/java/g2201_2300/s2249_count_lattice_points_inside_a_circle)| Medium || 54 | 92.07
 | 2248 |[Intersection of Multiple Arrays](src/main/java/g2201_2300/s2248_intersection_of_multiple_arrays)| Easy || 2 | 99.46
 | 2246 |[Longest Path With Different Adjacent Characters](src/main/java/g2201_2300/s2246_longest_path_with_different_adjacent_characters)| Hard | Array, String, Depth_First_Search, Tree, Graph, Topological_Sort | 75 | 97.79
 | 2245 |[Maximum Trailing Zeros in a Cornered Path](src/main/java/g2201_2300/s2245_maximum_trailing_zeros_in_a_cornered_path)| Medium | Array, Matrix, Prefix_Sum | 96 | 88.49
@@ -1342,6 +1346,7 @@
 | 2243 |[Calculate Digit Sum of a String](src/main/java/g2201_2300/s2243_calculate_digit_sum_of_a_string)| Easy | String, Simulation | 1 | 91.46
 | 2242 |[Maximum Score of a Node Sequence](src/main/java/g2201_2300/s2242_maximum_score_of_a_node_sequence)| Hard | Array, Sorting, Graph, Enumeration | 28 | 97.57
 | 2241 |[Design an ATM Machine](src/main/java/g2201_2300/s2241_design_an_atm_machine)| Medium | Array, Greedy, Design | 192 | 24.16
+| 2240 |[Number of Ways to Buy Pens and Pencils](src/main/java/g2201_2300/s2240_number_of_ways_to_buy_pens_and_pencils)| Medium | Math, Enumeration | 19 | 68.73
 | 2239 |[Find Closest Number to Zero](src/main/java/g2201_2300/s2239_find_closest_number_to_zero)| Easy | Array | 2 | 84.21
 | 2236 |[Root Equals Sum of Children](src/main/java/g2201_2300/s2236_root_equals_sum_of_children)| Easy | Tree, Binary_Tree | 0 | 100.00
 | 2235 |[Add Two Integers](src/main/java/g2201_2300/s2235_add_two_integers)| Easy | Math | 1 | 48.94
