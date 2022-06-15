@@ -75,7 +75,6 @@ public class Solution {
                         return len - occurTimes;
                     }
                 }
-
                 nums[i] = nums[j];
                 j--;
             }
