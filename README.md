@@ -1334,9 +1334,18 @@
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
 | 2300 |[Successful Pairs of Spells and Potions](src/main/java/g2201_2300/s2300_successful_pairs_of_spells_and_potions)| Medium | Array, Two_Pointers, Binary_Search, Sorting | 85 | 71.70
+| 2299 |[Strong Password Checker II](src/main/java/g2201_2300/s2299_strong_password_checker_ii)| Easy | String | 1 | 97.32
 | 2293 |[Min Max Game](src/main/java/g2201_2300/s2293_min_max_game)| Easy | Array, Simulation | 1 | 90.39
 | 2286 |[Booking Concert Tickets in Groups](src/main/java/g2201_2300/s2286_booking_concert_tickets_in_groups)| Hard | Binary_Search, Design, Binary_Indexed_Tree, Segment_Tree | 283 | 67.08
 | 2280 |[Minimum Lines to Represent a Line Chart](src/main/java/g2201_2300/s2280_minimum_lines_to_represent_a_line_chart)| Medium | Array, Math, Geometry, Sorting, Number_Theory | 40 | 96.09
+| 2274 |[Maximum Consecutive Floors Without Special Floors](src/main/java/g2201_2300/s2274_maximum_consecutive_floors_without_special_floors)| Medium | Array, Sorting | 33 | 99.36
+| 2270 |[Number of Ways to Split Array](src/main/java/g2201_2300/s2270_number_of_ways_to_split_array)| Medium | Array, Prefix_Sum | 4 | 77.55
+| 2269 |[Find the K-Beauty of a Number](src/main/java/g2201_2300/s2269_find_the_k_beauty_of_a_number)| Easy | Math, String, Sliding_Window | 2 | 38.88
+| 2267 |[Check if There Is a Valid Parentheses String Path](src/main/java/g2201_2300/s2267_check_if_there_is_a_valid_parentheses_string_path)| Hard | Array, Dynamic_Programming, Matrix | 93 | 77.48
+| 2266 |[Count Number of Texts](src/main/java/g2201_2300/s2266_count_number_of_texts)| Medium | Hash_Table, Math, String, Dynamic_Programming | 38 | 81.43
+| 2265 |[Count Nodes Equal to Average of Subtree](src/main/java/g2201_2300/s2265_count_nodes_equal_to_average_of_subtree)| Medium | Tree, Depth_First_Search, Binary_Tree | 1 | 99.12
+| 2264 |[Largest 3-Same-Digit Number in String](src/main/java/g2201_2300/s2264_largest_3_same_digit_number_in_string)| Easy | String | 3 | 74.57
+| 2262 |[Total Appeal of A String](src/main/java/g2201_2300/s2262_total_appeal_of_a_string)| Hard | Hash_Table, String, Dynamic_Programming | 6 | 97.92
 | 2260 |[Minimum Consecutive Cards to Pick Up](src/main/java/g2201_2300/s2260_minimum_consecutive_cards_to_pick_up)| Medium | Array, Hash_Table, Sliding_Window | 50 | 97.04
 | 2259 |[Remove Digit From Number to Maximize Result](src/main/java/g2201_2300/s2259_remove_digit_from_number_to_maximize_result)| Easy | String, Greedy, Enumeration | 1 | 97.73
 | 2257 |[Count Unguarded Cells in the Grid](src/main/java/g2201_2300/s2257_count_unguarded_cells_in_the_grid)| Medium | Array, Matrix, Simulation | 32 | 70.28
