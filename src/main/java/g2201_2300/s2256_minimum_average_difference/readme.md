@@ -22,7 +22,7 @@ Return _the index with the **minimum average difference**_. If there are multipl
 
 **Explanation:** 
 
-- The average difference of index 0 is: |2 / 1 - (5 + 3 + 9 + 5 + 3) / 5| = |2 / 1 - 25 / 5| = |2 - 5| = 3. 
+- The average difference of index 0 is: \|2 / 1 - (5 + 3 + 9 + 5 + 3) / 5\| = \|2 / 1 - 25 / 5\| = \|2 - 5\| = 3. 
 
 - The average difference of index 1 is: |(2 + 5) / 2 - (3 + 9 + 5 + 3) / 4| = |7 / 2 - 20 / 4| = |3 - 5| = 2. 
  
