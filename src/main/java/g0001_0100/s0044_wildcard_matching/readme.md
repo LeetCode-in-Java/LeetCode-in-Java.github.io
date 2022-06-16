@@ -62,7 +62,6 @@ public class Solution {
         int j = 0;
         int starIdx = -1;
         int lastMatch = -1;
-
         while (i < inputString.length()) {
             if (j < pattern.length()
                     && (inputString.charAt(i) == pattern.charAt(j) || pattern.charAt(j) == '?')) {
@@ -82,7 +81,6 @@ public class Solution {
                 lastMatch++;
                 // index
                 i = lastMatch;
-
             } else {
                 return false;
             }
@@ -91,11 +89,9 @@ public class Solution {
         while (j < pattern.length() && pattern.charAt(j) == '*') {
             j++;
         }
-
         if (i != inputString.length() || j != pattern.length()) {
             isMatch = false;
         }
-
         return isMatch;
     }
 }
