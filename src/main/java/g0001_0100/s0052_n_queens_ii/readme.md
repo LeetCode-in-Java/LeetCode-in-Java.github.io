@@ -48,7 +48,6 @@ public class Solution {
         if (r == n) {
             return 1;
         }
-
         int count = 0;
         for (int c = 0; c < n; c++) {
             if (!row[r] && !col[c] && !diagonal[r + c] && !antiDiagonal[r - c + n - 1]) {
