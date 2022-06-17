@@ -1343,7 +1343,12 @@
 | 2299 |[Strong Password Checker II](src/main/java/g2201_2300/s2299_strong_password_checker_ii)| Easy | String | 1 | 97.32
 | 2296 |[Design a Text Editor](src/main/java/g2201_2300/s2296_design_a_text_editor)| Hard | Linked_List, String, Stack, Design, Simulation, Doubly_Linked_List | 238 | 87.02
 | 2295 |[Replace Elements in an Array](src/main/java/g2201_2300/s2295_replace_elements_in_an_array)| Medium | Array, Hash_Table, Simulation | 89 | 65.26
+| 2294 |[Partition Array Such That Maximum Difference Is K](src/main/java/g2201_2300/s2294_partition_array_such_that_maximum_difference_is_k)| Medium | Array, Greedy, Sorting | 35 | 94.09
 | 2293 |[Min Max Game](src/main/java/g2201_2300/s2293_min_max_game)| Easy | Array, Simulation | 1 | 90.39
+| 2290 |[Minimum Obstacle Removal to Reach Corner](src/main/java/g2201_2300/s2290_minimum_obstacle_removal_to_reach_corner)| Hard | Array, Breadth_First_Search, Graph, Heap_Priority_Queue, Matrix, Shortest_Path | 172 | 82.27
+| 2289 |[Steps to Make Array Non-decreasing](src/main/java/g2201_2300/s2289_steps_to_make_array_non_decreasing)| Medium | Array, Linked_List, Stack, Monotonic_Stack | 11 | 92.82
+| 2288 |[Apply Discount to Prices](src/main/java/g2201_2300/s2288_apply_discount_to_prices)| Medium | String | 82 | 97.98
+| 2287 |[Rearrange Characters to Make Target String](src/main/java/g2201_2300/s2287_rearrange_characters_to_make_target_string)| Easy | Hash_Table, String, Counting | 1 | 87.39
 | 2286 |[Booking Concert Tickets in Groups](src/main/java/g2201_2300/s2286_booking_concert_tickets_in_groups)| Hard | Binary_Search, Design, Binary_Indexed_Tree, Segment_Tree | 283 | 67.08
 | 2280 |[Minimum Lines to Represent a Line Chart](src/main/java/g2201_2300/s2280_minimum_lines_to_represent_a_line_chart)| Medium | Array, Math, Geometry, Sorting, Number_Theory | 40 | 96.09
 | 2276 |[Count Integers in Intervals](src/main/java/g2201_2300/s2276_count_integers_in_intervals)| Hard || 137 | 64.87
