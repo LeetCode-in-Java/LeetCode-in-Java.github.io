@@ -68,7 +68,6 @@ public class Solution {
             }
             i++;
         }
-
         ++count;
         if (count <= 2) {
             nums[k++] = nums[i];
