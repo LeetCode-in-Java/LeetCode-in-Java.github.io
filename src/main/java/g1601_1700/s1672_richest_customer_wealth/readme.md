@@ -55,10 +55,10 @@ The 2nd customer is the richest with a wealth of 10.
 public class Solution {
     public int maximumWealth(int[][] accounts) {
         int max = Integer.MIN_VALUE;
-        for (int i = 0; i < accounts.length; i++) {
+        for (int[] account : accounts) {
             int sum = 0;
-            for (int j = 0; j < accounts[i].length; j++) {
-                sum += accounts[i][j];
+            for (int j = 0; j < account.length; j++) {
+                sum += account[j];
             }
             max = Math.max(max, sum);
         }

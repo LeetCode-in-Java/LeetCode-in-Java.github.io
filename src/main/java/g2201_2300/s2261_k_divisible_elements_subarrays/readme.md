@@ -54,7 +54,7 @@ Since all subarrays are distinct, the total number of subarrays satisfying all t
 ```java
 import java.util.HashSet;
 
-class Solution {
+public class Solution {
     public int countDistinct(int[] nums, int k, int p) {
         HashSet<Long> numSubarray = new HashSet<>();
         for (int i = 0; i < nums.length; i++) {

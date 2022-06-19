@@ -1599,7 +1599,7 @@
 | 1970 |[Last Day Where You Can Still Cross](src/main/java/g1901_2000/s1970_last_day_where_you_can_still_cross)| Hard | Array, Depth_First_Search, Breadth_First_Search, Binary_Search, Matrix, Union_Find | 14 | 95.24
 | 1969 |[Minimum Non-Zero Product of the Array Elements](src/main/java/g1901_2000/s1969_minimum_non_zero_product_of_the_array_elements)| Medium | Math, Greedy, Recursion | 0 | 100.00
 | 1968 |[Array With Elements Not Equal to Average of Neighbors](src/main/java/g1901_2000/s1968_array_with_elements_not_equal_to_average_of_neighbors)| Medium | Array, Sorting, Greedy | 6 | 92.86
-| 1967 |[Number of Strings That Appear as Substrings in Word](src/main/java/g1901_2000/s1967_number_of_strings_that_appear_as_substrings_in_word)| Easy | String | 3 | 10.82
+| 1967 |[Number of Strings That Appear as Substrings in Word](src/main/java/g1901_2000/s1967_number_of_strings_that_appear_as_substrings_in_word)| Easy | String | 1 | 82.02
 | 1965 |[Employees With Missing Information](src/main/java/g1901_2000/s1965_employees_with_missing_information)| Easy | Database, SQL_I_Day_4_Union_and_Select | 617 | 30.40
 | 1964 |[Find the Longest Valid Obstacle Course at Each Position](src/main/java/g1901_2000/s1964_find_the_longest_valid_obstacle_course_at_each_position)| Hard | Array, Binary_Search, Binary_Indexed_Tree | 79 | 85.00
 | 1963 |[Minimum Number of Swaps to Make the String Balanced](src/main/java/g1901_2000/s1963_minimum_number_of_swaps_to_make_the_string_balanced)| Medium | String, Greedy, Two_Pointers, Stack | 17 | 93.71
