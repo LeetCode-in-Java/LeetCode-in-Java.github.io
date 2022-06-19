@@ -45,8 +45,8 @@ There is no way to divide nums into 4 / 2 = 2 pairs such that the pairs satisfy 
 public class Solution {
     public boolean divideArray(int[] nums) {
         int[] freq = new int[501];
-        for (int i = 0; i < nums.length; i++) {
-            ++freq[nums[i]];
+        for (int num : nums) {
+            ++freq[num];
         }
         for (int f : freq) {
             if (f % 2 != 0) {

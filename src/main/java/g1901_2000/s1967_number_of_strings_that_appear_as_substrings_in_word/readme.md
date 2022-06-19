@@ -54,11 +54,15 @@ A **substring** is a contiguous sequence of characters within a string.
 ## Solution
 
 ```java
-import java.util.Arrays;
-
 public class Solution {
     public int numOfStrings(String[] patterns, String word) {
-        return (int) Arrays.stream(patterns).filter(p -> word.indexOf(p) != -1).count();
+        int res = 0;
+        for (String p : patterns) {
+            if (word.contains(p)) {
+                res++;
+            }
+        }
+        return res;
     }
 }
 ```
