@@ -188,7 +188,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0160 |[Intersection of Two Linked Lists](src/main/java/g0101_0200/s0160_intersection_of_two_linked_lists)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List | 2 | 61.05
-| 0082 |[Remove Duplicates from Sorted List II](src/main/java/g0001_0100/s0082_remove_duplicates_from_sorted_list_ii)| Medium | Two_Pointers, Linked_List | 1 | 70.85
+| 0082 |[Remove Duplicates from Sorted List II](src/main/java/g0001_0100/s0082_remove_duplicates_from_sorted_list_ii)| Medium | Two_Pointers, Linked_List | 0 | 100.00
 
 #### Day 12 Linked List
 
@@ -388,7 +388,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0082 |[Remove Duplicates from Sorted List II](src/main/java/g0001_0100/s0082_remove_duplicates_from_sorted_list_ii)| Medium | Two_Pointers, Linked_List | 1 | 70.85
+| 0082 |[Remove Duplicates from Sorted List II](src/main/java/g0001_0100/s0082_remove_duplicates_from_sorted_list_ii)| Medium | Two_Pointers, Linked_List | 0 | 100.00
 | 0015 |[3Sum](src/main/java/g0001_0100/s0015_3sum)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers | 28 | 71.04
 
 #### Day 4 Two Pointers
@@ -434,7 +434,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0078 |[Subsets](src/main/java/g0001_0100/s0078_subsets)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Backtracking | 1 | 87.15
-| 0090 |[Subsets II](src/main/java/g0001_0100/s0090_subsets_ii)| Medium | Array, Bit_Manipulation, Backtracking | 2 | 75.68
+| 0090 |[Subsets II](src/main/java/g0001_0100/s0090_subsets_ii)| Medium | Array, Bit_Manipulation, Backtracking | 2 | 82.94
 
 #### Day 10 Recursion Backtracking
 
@@ -689,7 +689,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0081 |[Search in Rotated Sorted Array II](src/main/java/g0001_0100/s0081_search_in_rotated_sorted_array_ii)| Medium | Array, Binary_Search | 1 | 73.34
+| 0081 |[Search in Rotated Sorted Array II](src/main/java/g0001_0100/s0081_search_in_rotated_sorted_array_ii)| Medium | Array, Binary_Search | 1 | 82.83
 | 0162 |[Find Peak Element](src/main/java/g0101_0200/s0162_find_peak_element)| Medium | Top_Interview_Questions, Array, Binary_Search | 0 | 100.00
 
 #### Day 13
@@ -1440,6 +1440,7 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2309 |[Greatest English Letter in Upper and Lower Case](src/main/java/g2301_2400/s2309_greatest_english_letter_in_upper_and_lower_case)| Easy | Array | 5 | 75.00
 | 2306 |[Naming a Company](src/main/java/g2301_2400/s2306_naming_a_company)| Hard | Array, String, Hash_Table, Bit_Manipulation, Enumeration | 486 | 74.14
 | 2305 |[Fair Distribution of Cookies](src/main/java/g2301_2400/s2305_fair_distribution_of_cookies)| Medium | Array, Dynamic_Programming, Bit_Manipulation, Backtracking, Bitmask | 14 | 84.35
 | 2304 |[Minimum Path Cost in a Grid](src/main/java/g2301_2400/s2304_minimum_path_cost_in_a_grid)| Medium | Array, Dynamic_Programming, Matrix | 6 | 99.18
@@ -3175,16 +3176,16 @@
 | 0093 |[Restore IP Addresses](src/main/java/g0001_0100/s0093_restore_ip_addresses)| Medium | String, Backtracking | 12 | 26.89
 | 0092 |[Reverse Linked List II](src/main/java/g0001_0100/s0092_reverse_linked_list_ii)| Medium | Linked_List | 0 | 100.00
 | 0091 |[Decode Ways](src/main/java/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming, Algorithm_II_Day_15_Dynamic_Programming, Dynamic_Programming_I_Day_10 | 2 | 64.33
-| 0090 |[Subsets II](src/main/java/g0001_0100/s0090_subsets_ii)| Medium | Array, Bit_Manipulation, Backtracking, Algorithm_II_Day_9_Recursion_Backtracking | 2 | 75.68
-| 0089 |[Gray Code](src/main/java/g0001_0100/s0089_gray_code)| Medium | Math, Bit_Manipulation, Backtracking | 2 | 99.93
+| 0090 |[Subsets II](src/main/java/g0001_0100/s0090_subsets_ii)| Medium | Array, Bit_Manipulation, Backtracking, Algorithm_II_Day_9_Recursion_Backtracking | 2 | 82.94
+| 0089 |[Gray Code](src/main/java/g0001_0100/s0089_gray_code)| Medium | Math, Bit_Manipulation, Backtracking | 3 | 98.59
 | 0088 |[Merge Sorted Array](src/main/java/g0001_0100/s0088_merge_sorted_array)| Easy | Top_Interview_Questions, Array, Sorting, Two_Pointers, Data_Structure_I_Day_2_Array | 0 | 100.00
-| 0087 |[Scramble String](src/main/java/g0001_0100/s0087_scramble_string)| Hard | String, Dynamic_Programming | 23 | 54.15
-| 0086 |[Partition List](src/main/java/g0001_0100/s0086_partition_list)| Medium | Two_Pointers, Linked_List | 1 | 59.29
-| 0085 |[Maximal Rectangle](src/main/java/g0001_0100/s0085_maximal_rectangle)| Hard | Array, Dynamic_Programming, Matrix, Stack, Monotonic_Stack | 4 | 95.78
-| 0084 |[Largest Rectangle in Histogram](src/main/java/g0001_0100/s0084_largest_rectangle_in_histogram)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Stack, Monotonic_Stack | 11 | 94.31
+| 0087 |[Scramble String](src/main/java/g0001_0100/s0087_scramble_string)| Hard | String, Dynamic_Programming | 16 | 70.62
+| 0086 |[Partition List](src/main/java/g0001_0100/s0086_partition_list)| Medium | Two_Pointers, Linked_List | 1 | 62.66
+| 0085 |[Maximal Rectangle](src/main/java/g0001_0100/s0085_maximal_rectangle)| Hard | Array, Dynamic_Programming, Matrix, Stack, Monotonic_Stack | 3 | 99.68
+| 0084 |[Largest Rectangle in Histogram](src/main/java/g0001_0100/s0084_largest_rectangle_in_histogram)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Stack, Monotonic_Stack | 11 | 98.34
 | 0083 |[Remove Duplicates from Sorted List](src/main/java/g0001_0100/s0083_remove_duplicates_from_sorted_list)| Easy | Linked_List, Data_Structure_I_Day_8_Linked_List | 0 | 100.00
-| 0082 |[Remove Duplicates from Sorted List II](src/main/java/g0001_0100/s0082_remove_duplicates_from_sorted_list_ii)| Medium | Two_Pointers, Linked_List, Data_Structure_II_Day_11_Linked_List, Algorithm_II_Day_3_Two_Pointers | 1 | 70.85
-| 0081 |[Search in Rotated Sorted Array II](src/main/java/g0001_0100/s0081_search_in_rotated_sorted_array_ii)| Medium | Array, Binary_Search, Binary_Search_II_Day_12 | 1 | 73.34
+| 0082 |[Remove Duplicates from Sorted List II](src/main/java/g0001_0100/s0082_remove_duplicates_from_sorted_list_ii)| Medium | Two_Pointers, Linked_List, Data_Structure_II_Day_11_Linked_List, Algorithm_II_Day_3_Two_Pointers | 0 | 100.00
+| 0081 |[Search in Rotated Sorted Array II](src/main/java/g0001_0100/s0081_search_in_rotated_sorted_array_ii)| Medium | Array, Binary_Search, Binary_Search_II_Day_12 | 1 | 82.83
 | 0080 |[Remove Duplicates from Sorted Array II](src/main/java/g0001_0100/s0080_remove_duplicates_from_sorted_array_ii)| Medium | Array, Two_Pointers | 1 | 82.32
 | 0079 |[Word Search](src/main/java/g0001_0100/s0079_word_search)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Matrix, Backtracking, Algorithm_II_Day_11_Recursion_Backtracking | 135 | 70.56
 | 0078 |[Subsets](src/main/java/g0001_0100/s0078_subsets)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Backtracking, Algorithm_II_Day_9_Recursion_Backtracking | 1 | 87.15
