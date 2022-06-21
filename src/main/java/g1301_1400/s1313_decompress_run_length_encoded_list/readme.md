@@ -35,20 +35,23 @@ At the end the concatenation [2] + [4,4,4] is [2,4,4,4].
 ## Solution
 
 ```java
-import java.util.ArrayList;
-import java.util.List;
-
 public class Solution {
     public int[] decompressRLElist(int[] nums) {
-        List<Integer> list = new ArrayList<>();
-        for (int i = 0; i < nums.length - 1; i += 2) {
-            int count = nums[i];
-            int value = nums[i + 1];
-            while (count-- > 0) {
-                list.add(value);
+        int len = 0;
+        for (int i = 0; i < nums.length; i += 2) {
+            len += nums[i];
+        }
+        int[] ans = new int[len];
+        int index = 0;
+        for (int i = 0; i < nums.length; i += 2) {
+            int j = nums[i];
+            while (j > 0) {
+                ans[index] = nums[i + 1];
+                index++;
+                j--;
             }
         }
-        return list.stream().mapToInt(integer -> integer).toArray();
+        return ans;
     }
 }
 ```

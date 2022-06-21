@@ -2,6 +2,20 @@
 [![](https://img.shields.io/github/forks/javadev/LeetCode-in-Java?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/javadev/LeetCode-in-Java/fork)
 > ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
 
+##
+* [Data Structure I](#data-structure-i)
+* [Data Structure II](#data-structure-ii)
+* [Algorithm I](#algorithm-i)
+* [Algorithm II](#algorithm-ii)
+* [Binary Search I](#binary-search-i)
+* [Binary Search II](#binary-search-ii)
+* [Dynamic Programming I](#dynamic-programming-i)
+* [Programming Skills I](#programming-skills-i)
+* [Programming Skills II](#programming-skills-ii)
+* [Graph Theory I](#graph-theory-i)
+* [SQL I](#sql-i)
+* [Level 1](#level-1)
+
 ### Data Structure I
 
 #### Day 1 Array
@@ -477,7 +491,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0091 |[Decode Ways](src/main/java/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming | 2 | 64.33
+| 0091 |[Decode Ways](src/main/java/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming | 2 | 66.37
 | 0139 |[Word Break](src/main/java/g0101_0200/s0139_word_break)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization | 2 | 96.55
 
 #### Day 16 Dynamic Programming
@@ -820,7 +834,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0413 |[Arithmetic Slices](src/main/java/g0401_0500/s0413_arithmetic_slices)| Medium | Array, Dynamic_Programming | 0 | 100.00
-| 0091 |[Decode Ways](src/main/java/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming | 2 | 64.33
+| 0091 |[Decode Ways](src/main/java/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming | 2 | 66.37
 
 #### Day 11
 
@@ -1440,6 +1454,9 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2312 |[Selling Pieces of Wood](src/main/java/g2301_2400/s2312_selling_pieces_of_wood)| Hard | Backtracking | 78 | 63.64
+| 2311 |[Longest Binary Subsequence Less Than or Equal to K](src/main/java/g2301_2400/s2311_longest_binary_subsequence_less_than_or_equal_to_k)| Medium | Math | 1 | 100.00
+| 2310 |[Sum of Numbers With Units Digit K](src/main/java/g2301_2400/s2310_sum_of_numbers_with_units_digit_k)| Medium | Math | 1 | 66.67
 | 2309 |[Greatest English Letter in Upper and Lower Case](src/main/java/g2301_2400/s2309_greatest_english_letter_in_upper_and_lower_case)| Easy | Array | 5 | 75.00
 | 2306 |[Naming a Company](src/main/java/g2301_2400/s2306_naming_a_company)| Hard | Array, String, Hash_Table, Bit_Manipulation, Enumeration | 486 | 74.14
 | 2305 |[Fair Distribution of Cookies](src/main/java/g2301_2400/s2305_fair_distribution_of_cookies)| Medium | Array, Dynamic_Programming, Bit_Manipulation, Backtracking, Bitmask | 14 | 84.35
@@ -1698,7 +1715,7 @@
 | 1982 |[Find Array Given Subset Sums](src/main/java/g1901_2000/s1982_find_array_given_subset_sums)| Hard | Array, Divide_and_Conquer | 70 | 64.91
 | 1981 |[Minimize the Difference Between Target and Chosen Elements](src/main/java/g1901_2000/s1981_minimize_the_difference_between_target_and_chosen_elements)| Medium | Array, Dynamic_Programming, Matrix | 480 | 90.78
 | 1980 |[Find Unique Binary String](src/main/java/g1901_2000/s1980_find_unique_binary_string)| Medium | Array, String, Backtracking | 7 | 31.88
-| 1979 |[Find Greatest Common Divisor of Array](src/main/java/g1901_2000/s1979_find_greatest_common_divisor_of_array)| Easy | Array, Math, Number_Theory | 5 | 10.46
+| 1979 |[Find Greatest Common Divisor of Array](src/main/java/g1901_2000/s1979_find_greatest_common_divisor_of_array)| Easy | Array, Math, Number_Theory | 1 | 87.75
 | 1977 |[Number of Ways to Separate Numbers](src/main/java/g1901_2000/s1977_number_of_ways_to_separate_numbers)| Hard | String, Dynamic_Programming, Suffix_Array | 604 | 59.21
 | 1976 |[Number of Ways to Arrive at Destination](src/main/java/g1901_2000/s1976_number_of_ways_to_arrive_at_destination)| Medium | Dynamic_Programming, Graph, Topological_Sort, Shortest_Path | 14 | 77.59
 | 1975 |[Maximum Matrix Sum](src/main/java/g1901_2000/s1975_maximum_matrix_sum)| Medium | Array, Greedy, Matrix | 4 | 100.00
@@ -2225,7 +2242,7 @@
 | 1316 |[Distinct Echo Substrings](src/main/java/g1301_1400/s1316_distinct_echo_substrings)| Hard | String, Dynamic_Programming, Sliding_Window, Trie, Hash_Function, Rolling_Hash | 165 | 93.15
 | 1315 |[Sum of Nodes with Even-Valued Grandparent](src/main/java/g1301_1400/s1315_sum_of_nodes_with_even_valued_grandparent)| Medium | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 2 | 78.61
 | 1314 |[Matrix Block Sum](src/main/java/g1301_1400/s1314_matrix_block_sum)| Medium | Array, Matrix, Prefix_Sum, Dynamic_Programming_I_Day_14 | 5 | 67.46
-| 1313 |[Decompress Run-Length Encoded List](src/main/java/g1301_1400/s1313_decompress_run_length_encoded_list)| Easy | Array | 11 | 10.55
+| 1313 |[Decompress Run-Length Encoded List](src/main/java/g1301_1400/s1313_decompress_run_length_encoded_list)| Easy | Array | 1 | 98.11
 | 1312 |[Minimum Insertion Steps to Make a String Palindrome](src/main/java/g1301_1400/s1312_minimum_insertion_steps_to_make_a_string_palindrome)| Hard | String, Dynamic_Programming | 25 | 85.70
 | 1311 |[Get Watched Videos by Your Friends](src/main/java/g1301_1400/s1311_get_watched_videos_by_your_friends)| Medium | Array, Hash_Table, Sorting, Breadth_First_Search | 39 | 73.81
 | 1310 |[XOR Queries of a Subarray](src/main/java/g1301_1400/s1310_xor_queries_of_a_subarray)| Medium | Array, Bit_Manipulation, Prefix_Sum | 3 | 68.91
@@ -3167,15 +3184,15 @@
 | 0102 |[Binary Tree Level Order Traversal](src/main/java/g0101_0200/s0102_binary_tree_level_order_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_11_Tree, Level_1_Day_6_Tree | 0 | 100.00
 | 0101 |[Symmetric Tree](src/main/java/g0101_0200/s0101_symmetric_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_11_Tree | 0 | 100.00
 | 0100 |[Same Tree](src/main/java/g0001_0100/s0100_same_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
-| 0099 |[Recover Binary Search Tree](src/main/java/g0001_0100/s0099_recover_binary_search_tree)| Medium | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 3 | 71.74
+| 0099 |[Recover Binary Search Tree](src/main/java/g0001_0100/s0099_recover_binary_search_tree)| Medium | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 3 | 76.33
 | 0098 |[Validate Binary Search Tree](src/main/java/g0001_0100/s0098_validate_binary_search_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Data_Structure_I_Day_14_Tree, Level_1_Day_8_Binary_Search_Tree | 0 | 100.00
-| 0097 |[Interleaving String](src/main/java/g0001_0100/s0097_interleaving_string)| Medium | String, Dynamic_Programming | 1 | 96.15
+| 0097 |[Interleaving String](src/main/java/g0001_0100/s0097_interleaving_string)| Medium | String, Dynamic_Programming | 2 | 88.01
 | 0096 |[Unique Binary Search Trees](src/main/java/g0001_0100/s0096_unique_binary_search_trees)| Medium | Top_100_Liked_Questions, Dynamic_Programming, Math, Tree, Binary_Tree, Binary_Search_Tree, Dynamic_Programming_I_Day_11 | 0 | 100.00
-| 0095 |[Unique Binary Search Trees II](src/main/java/g0001_0100/s0095_unique_binary_search_trees_ii)| Medium | Dynamic_Programming, Tree, Binary_Tree, Backtracking, Binary_Search_Tree | 1 | 97.38
+| 0095 |[Unique Binary Search Trees II](src/main/java/g0001_0100/s0095_unique_binary_search_trees_ii)| Medium | Dynamic_Programming, Tree, Binary_Tree, Backtracking, Binary_Search_Tree | 1 | 99.82
 | 0094 |[Binary Tree Inorder Traversal](src/main/java/g0001_0100/s0094_binary_tree_inorder_traversal)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Data_Structure_I_Day_10_Tree | 0 | 100.00
-| 0093 |[Restore IP Addresses](src/main/java/g0001_0100/s0093_restore_ip_addresses)| Medium | String, Backtracking | 12 | 26.89
+| 0093 |[Restore IP Addresses](src/main/java/g0001_0100/s0093_restore_ip_addresses)| Medium | String, Backtracking | 13 | 24.23
 | 0092 |[Reverse Linked List II](src/main/java/g0001_0100/s0092_reverse_linked_list_ii)| Medium | Linked_List | 0 | 100.00
-| 0091 |[Decode Ways](src/main/java/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming, Algorithm_II_Day_15_Dynamic_Programming, Dynamic_Programming_I_Day_10 | 2 | 64.33
+| 0091 |[Decode Ways](src/main/java/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming, Algorithm_II_Day_15_Dynamic_Programming, Dynamic_Programming_I_Day_10 | 2 | 66.37
 | 0090 |[Subsets II](src/main/java/g0001_0100/s0090_subsets_ii)| Medium | Array, Bit_Manipulation, Backtracking, Algorithm_II_Day_9_Recursion_Backtracking | 2 | 82.94
 | 0089 |[Gray Code](src/main/java/g0001_0100/s0089_gray_code)| Medium | Math, Bit_Manipulation, Backtracking | 3 | 98.59
 | 0088 |[Merge Sorted Array](src/main/java/g0001_0100/s0088_merge_sorted_array)| Easy | Top_Interview_Questions, Array, Sorting, Two_Pointers, Data_Structure_I_Day_2_Array | 0 | 100.00
