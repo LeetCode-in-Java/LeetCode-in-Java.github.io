@@ -72,7 +72,6 @@ public class Solution {
                 } else {
                     level.addFirst(node.val);
                 }
-
                 if (node.left != null) {
                     q.add(node.left);
                 }
@@ -83,7 +82,6 @@ public class Solution {
             }
             result.add(level);
             zig = !zig;
-
             level = new LinkedList<>();
             if (!q.isEmpty()) {
                 q.add(null);
