@@ -72,7 +72,6 @@ public class Solution {
         if (root.left == null && root.right == null) {
             return root;
         }
-
         if (root.left != null) {
             if (root.right != null) {
                 root.left.next = root.right;
