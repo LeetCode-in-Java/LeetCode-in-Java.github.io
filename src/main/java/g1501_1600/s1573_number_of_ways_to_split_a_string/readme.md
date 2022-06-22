@@ -14,13 +14,13 @@ Return the number of ways `s` can be split such that the number of ones is the s
 
 **Explanation:** There are four ways to split s in 3 parts where each part contain the same number of letters '1'. 
 
-"1|010|1" 
+"1\|010\|1" 
 
-"1|01|01" 
+"1\|01\|01" 
 
-"10|10|1" 
+"10\|10\|1" 
 
-"10|1|01"
+"10\|1\|01"
 
 **Example 2:**
 
@@ -36,11 +36,11 @@ Return the number of ways `s` can be split such that the number of ones is the s
 
 **Explanation:** There are three ways to split s in 3 parts. 
 
-"0|0|00" 
+"0\|0\|00" 
 
-"0|00|0" 
+"0\|00\|0" 
 
-"00|0|0"
+"00\|0\|0"
 
 **Constraints:**
 

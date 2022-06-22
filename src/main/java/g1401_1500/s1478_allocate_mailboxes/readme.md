@@ -16,7 +16,7 @@ The test cases are generated so that the answer fits in a 32-bit integer.
 
 **Output:** 5
 
-**Explanation:** Allocate mailboxes in position 3, 9 and 20. Minimum total distance from each houses to nearest mailboxes is |3-1| + |4-3| + |9-8| + |10-9| + |20-20| = 5
+**Explanation:** Allocate mailboxes in position 3, 9 and 20. Minimum total distance from each houses to nearest mailboxes is \|3-1\| + \|4-3\| + \|9-8\| + \|10-9\| + \|20-20\| = 5
 
 **Example 2:**
 
@@ -26,7 +26,7 @@ The test cases are generated so that the answer fits in a 32-bit integer.
 
 **Output:** 9
 
-**Explanation:** Allocate mailboxes in position 3 and 14. Minimum total distance from each houses to nearest mailboxes is |2-3| + |3-3| + |5-3| + |12-14| + |18-14| = 9.
+**Explanation:** Allocate mailboxes in position 3 and 14. Minimum total distance from each houses to nearest mailboxes is \|2-3\| + \|3-3\| + \|5-3\| + \|12-14\| + \|18-14\| = 9.
 
 **Constraints:**
 

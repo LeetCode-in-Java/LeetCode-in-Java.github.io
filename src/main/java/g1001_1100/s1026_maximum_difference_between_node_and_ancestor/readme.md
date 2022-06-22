@@ -21,7 +21,7 @@ A node `a` is an ancestor of `b` if either: any child of `a` is equal to `b` or 
     |8 - 1| = 7 
     |10 - 13| = 3 
 
-Among all possible differences, the maximum value of 7 is obtained by |8 - 1| = 7.
+Among all possible differences, the maximum value of 7 is obtained by \|8 - 1\| = 7.
 
 **Example 2:**
 

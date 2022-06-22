@@ -21,11 +21,11 @@ The **cost** of changing the final value of an expression is the **number of ope
 
 **Example 1:**
 
-**Input:** expression = "1&(0|1)"
+**Input:** expression = "1&(0\|1)"
 
 **Output:** 1
 
-**Explanation:** We can turn "1&(0|1)" into "1&(0&1)" by changing the '|' to a '&' using 1 operation.
+**Explanation:** We can turn "1&(0\|1)" into "1&(0&1)" by changing the '\|' to a '&' using 1 operation.
 
 The new expression evaluates to 0. 
 
@@ -35,17 +35,17 @@ The new expression evaluates to 0.
 
 **Output:** 3
 
-**Explanation:** We can turn "(0&0)&(0&0&0)" into "(0|1)|(0&0&0)" using 3 operations.
+**Explanation:** We can turn "(0&0)&(0&0&0)" into "(0\|1)\|(0&0&0)" using 3 operations.
 
 The new expression evaluates to 1. 
 
 **Example 3:**
 
-**Input:** expression = "(0|(1|0&1))"
+**Input:** expression = "(0\|(1\|0&1))"
 
 **Output:** 1
 
-**Explanation:** We can turn "(0|(1|0&1))" into "(0|(0|0&1))" using 1 operation.
+**Explanation:** We can turn "(0\|(1\|0&1))" into "(0\|(0\|0&1))" using 1 operation.
 
 The new expression evaluates to 0.
 

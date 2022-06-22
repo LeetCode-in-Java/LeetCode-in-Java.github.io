@@ -20,7 +20,7 @@ An expression can either be:
 
 **Example 2:**
 
-**Input:** expression = "|(f,t)"
+**Input:** expression = "\|(f,t)"
 
 **Output:** true
 

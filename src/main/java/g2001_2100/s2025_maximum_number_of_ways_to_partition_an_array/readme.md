@@ -21,7 +21,7 @@ Return _the **maximum** possible number of ways to **partition**_ `nums` _to sat
 
 There is one way to partition the array: 
 
-- For pivot = 2, we have the partition [3,-1 | 2]: 3 + -1 == 2.
+- For pivot = 2, we have the partition [3,-1 \| 2]: 3 + -1 == 2.
 
 **Example 2:**
 
@@ -33,9 +33,9 @@ There is one way to partition the array:
 
 There are two ways to partition the array: 
 
-- For pivot = 1, we have the partition [0 | 0,0]: 0 == 0 + 0. 
+- For pivot = 1, we have the partition [0 \| 0,0]: 0 == 0 + 0. 
 
-- For pivot = 2, we have the partition [0,0 | 0]: 0 + 0 == 0.
+- For pivot = 2, we have the partition [0,0 \| 0]: 0 + 0 == 0.
 
 **Example 3:**
 
