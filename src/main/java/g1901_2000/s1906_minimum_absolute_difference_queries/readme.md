@@ -25,13 +25,13 @@ The value of `|x|` is defined as:
 
 **Explanation:** The queries are processed as follows: 
 
-- queries[0] = [0,1]: The subarray is [1,3] and the minimum absolute difference is |1-3| = 2. 
+- queries[0] = [0,1]: The subarray is [1,3] and the minimum absolute difference is \|1-3\| = 2. 
 
-- queries[1] = [1,2]: The subarray is [3,4] and the minimum absolute difference is |3-4| = 1. 
+- queries[1] = [1,2]: The subarray is [3,4] and the minimum absolute difference is \|3-4\| = 1. 
 
-- queries[2] = [2,3]: The subarray is [4,8] and the minimum absolute difference is |4-8| = 4. 
+- queries[2] = [2,3]: The subarray is [4,8] and the minimum absolute difference is \|4-8\| = 4. 
 
-- queries[3] = [0,3]: The subarray is [1,3,4,8] and the minimum absolute difference is |3-4| = 1.
+- queries[3] = [0,3]: The subarray is [1,3,4,8] and the minimum absolute difference is \|3-4\| = 1.
 
 **Example 2:**
 
@@ -43,11 +43,11 @@ The value of `|x|` is defined as:
 
 - queries[0] = [2,3]: The subarray is [2,2] and the minimum absolute difference is -1 because all the elements are the same. 
 
-- queries[1] = [0,2]: The subarray is [4,5,2] and the minimum absolute difference is |4-5| = 1. 
+- queries[1] = [0,2]: The subarray is [4,5,2] and the minimum absolute difference is \|4-5\| = 1. 
 
-- queries[2] = [0,5]: The subarray is [4,5,2,2,7,10] and the minimum absolute difference is |4-5| = 1. 
+- queries[2] = [0,5]: The subarray is [4,5,2,2,7,10] and the minimum absolute difference is \|4-5\| = 1. 
 
-- queries[3] = [3,5]: The subarray is [2,7,10] and the minimum absolute difference is |7-10| = 3.
+- queries[3] = [3,5]: The subarray is [2,7,10] and the minimum absolute difference is \|7-10\| = 3.
 
 **Constraints:**
 

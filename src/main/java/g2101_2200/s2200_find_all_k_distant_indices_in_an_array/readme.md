@@ -14,19 +14,19 @@ Return _a list of all k-distant indices sorted in **increasing order**_.
 
 **Explanation:** Here, nums[2] == key and nums[5] == key.
 
-- For index 0, |0 - 2| > k and |0 - 5| > k, so there is no j where |0 - j| <= k and nums[j] == key. Thus, 0 is not a k-distant index.
+- For index 0, \|0 - 2\| > k and \|0 - 5\| > k, so there is no j where \|0 - j\| <= k and nums[j] == key. Thus, 0 is not a k-distant index.
 
-- For index 1, |1 - 2| <= k and nums[2] == key, so 1 is a k-distant index.
+- For index 1, \|1 - 2\| <= k and nums[2] == key, so 1 is a k-distant index.
 
-- For index 2, |2 - 2| <= k and nums[2] == key, so 2 is a k-distant index.
+- For index 2, \|2 - 2\| <= k and nums[2] == key, so 2 is a k-distant index.
 
-- For index 3, |3 - 2| <= k and nums[2] == key, so 3 is a k-distant index.
+- For index 3, \|3 - 2\| <= k and nums[2] == key, so 3 is a k-distant index.
 
-- For index 4, |4 - 5| <= k and nums[5] == key, so 4 is a k-distant index.
+- For index 4, \|4 - 5\| <= k and nums[5] == key, so 4 is a k-distant index.
 
-- For index 5, |5 - 5| <= k and nums[5] == key, so 5 is a k-distant index.
+- For index 5, \|5 - 5\| <= k and nums[5] == key, so 5 is a k-distant index.
 
-- For index 6, |6 - 5| <= k and nums[5] == key, so 6 is a k-distant index.
+- For index 6, \|6 - 5\| <= k and nums[5] == key, so 6 is a k-distant index.
 
 Thus, we return [1,2,3,4,5,6] which is sorted in increasing order. 
 
@@ -36,7 +36,7 @@ Thus, we return [1,2,3,4,5,6] which is sorted in increasing order.
 
 **Output:** [0,1,2,3,4]
 
-**Explanation:** For all indices i in nums, there exists some index j such that |i - j| <= k and nums[j] == key, so every index is a k-distant index.
+**Explanation:** For all indices i in nums, there exists some index j such that \|i - j\| <= k and nums[j] == key, so every index is a k-distant index.
 
 Hence, we return [0,1,2,3,4]. 
 
