@@ -59,7 +59,6 @@ public class Solution {
                     if (i == 0) {
                         dp[j] = 1;
                     }
-
                     dp[j] += dp[j - 1];
                 } else {
                     dp[j] = dp[j - 1];
