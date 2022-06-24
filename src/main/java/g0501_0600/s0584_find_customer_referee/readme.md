@@ -53,5 +53,5 @@ The query result format is in the following example.
 
 ```sql
 # Write your MySQL query statement below
-SELECT  name FROM customer where referee_id  != 2 or referee_id is null;
+SELECT name FROM customer where referee_id != 2 or referee_id is null;
 ```

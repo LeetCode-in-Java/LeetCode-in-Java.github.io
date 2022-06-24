@@ -48,28 +48,20 @@ There are multiple ways to convert arr to target, this is not the only way to do
 ## Solution
 
 ```java
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Arrays;
 
 public class Solution {
     public boolean canBeEqual(int[] target, int[] arr) {
-        Map<Integer, Integer> map = new HashMap<>();
-        for (int num : target) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
-        }
-        for (int num : arr) {
-            if (!map.containsKey(num)) {
-                return false;
-            } else {
-                map.put(num, map.get(num) - 1);
+        int n = target.length;
+        Arrays.sort(target);
+        Arrays.sort(arr);
+        int count = 0;
+        for (int i = 0; i < target.length; i++) {
+            if (target[i] == arr[i]) {
+                count++;
             }
         }
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            if (entry.getValue() != 0) {
-                return false;
-            }
-        }
-        return true;
+        return count == n;
     }
 }
 ```
