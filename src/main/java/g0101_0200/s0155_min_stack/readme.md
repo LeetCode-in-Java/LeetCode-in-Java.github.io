@@ -42,6 +42,20 @@ Implement the `MinStack` class:
 
 ```java
 public class MinStack {
+    private static class Node {
+        int min;
+        int data;
+        Node nextNode;
+        Node previousNode;
+
+        public Node(int min, int data, Node previousNode, Node nextNode) {
+            this.min = min;
+            this.data = data;
+            this.previousNode = previousNode;
+            this.nextNode = nextNode;
+        }
+    }
+
     private Node currentNode;
 
     // initialize your data structure here.

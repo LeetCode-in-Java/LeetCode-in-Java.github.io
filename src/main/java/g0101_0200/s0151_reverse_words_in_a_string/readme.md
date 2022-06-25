@@ -72,7 +72,6 @@ public class Solution {
         if (sb.length() > 0) {
             sb.deleteCharAt(0);
         }
-
         return sb.toString();
     }
 }
