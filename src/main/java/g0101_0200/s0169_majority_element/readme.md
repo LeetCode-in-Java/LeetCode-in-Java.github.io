@@ -45,7 +45,6 @@ public class Solution {
                 }
             }
         }
-
         // For Confirmation
         count = 0;
         for (int j : arr) {
@@ -53,7 +52,6 @@ public class Solution {
                 count++;
             }
         }
-
         if (count >= (arr.length / 2) + 1) {
             return majority;
         } else {
