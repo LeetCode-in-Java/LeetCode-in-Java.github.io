@@ -38,7 +38,7 @@ The arrangement with the smallest value that does not contain any leading zeros 
 public class Solution {
     public long smallestNumber(long num) {
         int[] count = new int[10];
-        long tempNum = 0;
+        long tempNum;
         if (num > 0) {
             tempNum = num;
         } else {

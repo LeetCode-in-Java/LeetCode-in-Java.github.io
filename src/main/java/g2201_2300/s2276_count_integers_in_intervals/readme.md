@@ -54,7 +54,7 @@ import java.util.TreeMap;
 
 public class CountIntervals {
     private final TreeMap<Integer, Integer> map;
-    private int count = 0;
+    private int count;
 
     public CountIntervals() {
         map = new TreeMap<>();

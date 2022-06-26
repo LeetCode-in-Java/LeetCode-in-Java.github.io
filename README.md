@@ -246,7 +246,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0230 |[Kth Smallest Element in a BST](src/main/java/g0201_0300/s0230_kth_smallest_element_in_a_bst)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 0 | 100.00
-| 0173 |[Binary Search Tree Iterator](src/main/java/g0101_0200/s0173_binary_search_tree_iterator)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 18 | 78.45
+| 0173 |[Binary Search Tree Iterator](src/main/java/g0101_0200/s0173_binary_search_tree_iterator)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 18 | 84.18
 
 #### Day 18 Tree
 
@@ -1122,7 +1122,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0061 |[Rotate List](src/main/java/g0001_0100/s0061_rotate_list)| Medium | Two_Pointers, Linked_List | 0 | 100.00
-| 0173 |[Binary Search Tree Iterator](src/main/java/g0101_0200/s0173_binary_search_tree_iterator)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 18 | 78.45
+| 0173 |[Binary Search Tree Iterator](src/main/java/g0101_0200/s0173_binary_search_tree_iterator)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 18 | 84.18
 
 #### Day 17
 
@@ -1291,13 +1291,13 @@
 | 1965 |[Employees With Missing Information](src/main/java/g1901_2000/s1965_employees_with_missing_information)| Easy | Database | 617 | 30.40
 | 1795 |[Rearrange Products Table](src/main/java/g1701_1800/s1795_rearrange_products_table)| Easy | Database | 497 | 64.83
 | 0608 |[Tree Node](src/main/java/g0601_0700/s0608_tree_node)| Medium | LeetCode_Curated_SQL_70, Database | 347 | 95.17
-| 0176 |[Second Highest Salary](src/main/java/g0101_0200/s0176_second_highest_salary)| Medium | Database | 203 | 63.47
+| 0176 |[Second Highest Salary](src/main/java/g0101_0200/s0176_second_highest_salary)| Medium | Database | 405 | 13.88
 
 #### Day 5 Union
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0175 |[Combine Two Tables](src/main/java/g0101_0200/s0175_combine_two_tables)| Easy | Database | 449 | 30.35
+| 0175 |[Combine Two Tables](src/main/java/g0101_0200/s0175_combine_two_tables)| Easy | Database | 491 | 32.30
 | 1581 |[Customer Who Visited but Did Not Make Any Transactions](src/main/java/g1501_1600/s1581_customer_who_visited_but_did_not_make_any_transactions)| Easy | Database | 1039 | 76.99
 | 1148 |[Article Views I](src/main/java/g1101_1200/s1148_article_views_i)| Easy | LeetCode_Curated_SQL_70, Database | 459 | 44.85
 
@@ -1453,6 +1453,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2318 |[Number of Distinct Roll Sequences](src/main/java/g2301_2400/s2318_number_of_distinct_roll_sequences)| Hard || 254 | 91.67
+| 2317 |[Maximum XOR After Operations](src/main/java/g2301_2400/s2317_maximum_xor_after_operations)| Medium || 1 | 100.00
+| 2316 |[Count Unreachable Pairs of Nodes in an Undirected Graph](src/main/java/g2301_2400/s2316_count_unreachable_pairs_of_nodes_in_an_undirected_graph)| Medium || 32 | 100.00
+| 2315 |[Count Asterisks](src/main/java/g2301_2400/s2315_count_asterisks)| Easy || 1 | 100.00
 | 2312 |[Selling Pieces of Wood](src/main/java/g2301_2400/s2312_selling_pieces_of_wood)| Hard | Backtracking | 78 | 63.64
 | 2311 |[Longest Binary Subsequence Less Than or Equal to K](src/main/java/g2301_2400/s2311_longest_binary_subsequence_less_than_or_equal_to_k)| Medium | String, Dynamic_Programming, Greedy, Memoization | 1 | 100.00
 | 2310 |[Sum of Numbers With Units Digit K](src/main/java/g2301_2400/s2310_sum_of_numbers_with_units_digit_k)| Medium | Math | 1 | 66.67
@@ -2145,7 +2149,7 @@
 | 1431 |[Kids With the Greatest Number of Candies](src/main/java/g1401_1500/s1431_kids_with_the_greatest_number_of_candies)| Easy | Array | 1 | 84.43
 | 1425 |[Constrained Subsequence Sum](src/main/java/g1401_1500/s1425_constrained_subsequence_sum)| Hard | Array, Dynamic_Programming, Heap_Priority_Queue, Sliding_Window, Queue, Monotonic_Queue | 69 | 30.52
 | 1424 |[Diagonal Traverse II](src/main/java/g1401_1500/s1424_diagonal_traverse_ii)| Medium | Array, Sorting, Heap_Priority_Queue | 39 | 85.56
-| 1423 |[Maximum Points You Can Obtain from Cards](src/main/java/g1401_1500/s1423_maximum_points_you_can_obtain_from_cards)| Medium | Array, Prefix_Sum, Sliding_Window | 4 | 31.70
+| 1423 |[Maximum Points You Can Obtain from Cards](src/main/java/g1401_1500/s1423_maximum_points_you_can_obtain_from_cards)| Medium | Array, Prefix_Sum, Sliding_Window | 2 | 94.06
 | 1422 |[Maximum Score After Splitting a String](src/main/java/g1401_1500/s1422_maximum_score_after_splitting_a_string)| Easy | String | 1 | 96.45
 | 1420 |[Build Array Where You Can Find The Maximum Exactly K Comparisons](src/main/java/g1401_1500/s1420_build_array_where_you_can_find_the_maximum_exactly_k_comparisons)| Hard | Dynamic_Programming | 22 | 86.32
 | 1419 |[Minimum Number of Frogs Croaking](src/main/java/g1401_1500/s1419_minimum_number_of_frogs_croaking)| Medium | String, Counting | 19 | 32.16
@@ -3109,16 +3113,16 @@
 | 0183 |[Customers Who Never Order](src/main/java/g0101_0200/s0183_customers_who_never_order)| Easy | Database, SQL_I_Day_1_Select | 581 | 23.03
 | 0182 |[Duplicate Emails](src/main/java/g0101_0200/s0182_duplicate_emails)| Easy | Database, SQL_I_Day_10_Where | 345 | 59.47
 | 0181 |[Employees Earning More Than Their Managers](src/main/java/g0101_0200/s0181_employees_earning_more_than_their_managers)| Easy | Database | 385 | 52.30
-| 0180 |[Consecutive Numbers](src/main/java/g0101_0200/s0180_consecutive_numbers)| Medium | Database | 636 | 19.31
-| 0179 |[Largest Number](src/main/java/g0101_0200/s0179_largest_number)| Medium | Top_Interview_Questions, String, Sorting, Greedy | 11 | 45.93
-| 0178 |[Rank Scores](src/main/java/g0101_0200/s0178_rank_scores)| Medium | Database | 299 | 52.08
-| 0177 |[Nth Highest Salary](src/main/java/g0101_0200/s0177_nth_highest_salary)| Medium | Database | 328 | 65.32
-| 0176 |[Second Highest Salary](src/main/java/g0101_0200/s0176_second_highest_salary)| Medium | Database, SQL_I_Day_4_Union_and_Select | 203 | 63.47
-| 0175 |[Combine Two Tables](src/main/java/g0101_0200/s0175_combine_two_tables)| Easy | Database, SQL_I_Day_5_Union | 449 | 30.35
-| 0174 |[Dungeon Game](src/main/java/g0101_0200/s0174_dungeon_game)| Hard | Array, Dynamic_Programming, Matrix | 1 | 96.60
-| 0173 |[Binary Search Tree Iterator](src/main/java/g0101_0200/s0173_binary_search_tree_iterator)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator, Data_Structure_II_Day_17_Tree, Programming_Skills_II_Day_16 | 18 | 78.45
-| 0172 |[Factorial Trailing Zeroes](src/main/java/g0101_0200/s0172_factorial_trailing_zeroes)| Medium | Top_Interview_Questions, Math | 1 | 81.96
-| 0171 |[Excel Sheet Column Number](src/main/java/g0101_0200/s0171_excel_sheet_column_number)| Easy | Top_Interview_Questions, String, Math | 3 | 24.67
+| 0180 |[Consecutive Numbers](src/main/java/g0101_0200/s0180_consecutive_numbers)| Medium | Database | 550 | 48.44
+| 0179 |[Largest Number](src/main/java/g0101_0200/s0179_largest_number)| Medium | Top_Interview_Questions, String, Sorting, Greedy | 10 | 54.50
+| 0178 |[Rank Scores](src/main/java/g0101_0200/s0178_rank_scores)| Medium | Database | 290 | 66.73
+| 0177 |[Nth Highest Salary](src/main/java/g0101_0200/s0177_nth_highest_salary)| Medium | Database | 342 | 71.87
+| 0176 |[Second Highest Salary](src/main/java/g0101_0200/s0176_second_highest_salary)| Medium | Database, SQL_I_Day_4_Union_and_Select | 405 | 13.88
+| 0175 |[Combine Two Tables](src/main/java/g0101_0200/s0175_combine_two_tables)| Easy | Database, SQL_I_Day_5_Union | 491 | 32.30
+| 0174 |[Dungeon Game](src/main/java/g0101_0200/s0174_dungeon_game)| Hard | Array, Dynamic_Programming, Matrix | 0 | 100.00
+| 0173 |[Binary Search Tree Iterator](src/main/java/g0101_0200/s0173_binary_search_tree_iterator)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator, Data_Structure_II_Day_17_Tree, Programming_Skills_II_Day_16 | 18 | 84.18
+| 0172 |[Factorial Trailing Zeroes](src/main/java/g0101_0200/s0172_factorial_trailing_zeroes)| Medium | Top_Interview_Questions, Math | 1 | 85.61
+| 0171 |[Excel Sheet Column Number](src/main/java/g0101_0200/s0171_excel_sheet_column_number)| Easy | Top_Interview_Questions, String, Math | 2 | 76.43
 | 0169 |[Majority Element](src/main/java/g0101_0200/s0169_majority_element)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Data_Structure_II_Day_1_Array | 1 | 100.00
 | 0168 |[Excel Sheet Column Title](src/main/java/g0101_0200/s0168_excel_sheet_column_title)| Easy | String, Math | 0 | 100.00
 | 0167 |[Two Sum II - Input Array Is Sorted](src/main/java/g0101_0200/s0167_two_sum_ii_input_array_is_sorted)| Medium | Array, Binary_Search, Two_Pointers, Algorithm_I_Day_3_Two_Pointers, Binary_Search_I_Day_7 | 1 | 99.21
