@@ -59,7 +59,7 @@ Box 10 has the most number of balls with 2 balls.
 ```java
 public class Solution {
     public int countBalls(int lowLimit, int highLimit) {
-        int maxValue = 0;
+        int maxValue;
         int[] countArray = new int[46];
         int currentSum = getDigitSum(lowLimit);
         countArray[currentSum]++;

@@ -38,7 +38,6 @@ Formally, we can partition the array if we can find indexes `i + 1 < j` with `(a
 ```java
 public class Solution {
     public boolean canThreePartsEqualSum(int[] arr) {
-        int len = arr.length;
         int sum = 0;
         for (int j : arr) {
             sum += j;

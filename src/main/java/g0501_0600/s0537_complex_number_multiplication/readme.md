@@ -35,8 +35,8 @@ Given two complex numbers `num1` and `num2` as strings, return _a string of the 
 ```java
 public class Solution {
     public String complexNumberMultiply(String num1, String num2) {
-        int countReal = 0;
-        int countImagine = 0;
+        int countReal;
+        int countImagine;
         int[] arr1 = new int[2];
         int[] arr2 = new int[2];
 

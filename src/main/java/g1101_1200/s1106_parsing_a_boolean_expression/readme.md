@@ -55,7 +55,7 @@ public class Solution {
     }
 
     private boolean expr() {
-        boolean res = false;
+        boolean res;
         if (match('!')) {
             res = not();
         } else if (match('&')) {

@@ -60,20 +60,21 @@ public class Solution {
     public int findGCD(int[] nums) {
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
-        for (int i = 0; i < nums.length; i++) {
-            if (max < nums[i]) {
-                max = nums[i];
+        for (int num : nums) {
+            if (max < num) {
+                max = num;
             }
-            if (min > nums[i]) {
-                min = nums[i];
+            if (min > num) {
+                min = num;
             }
         }
-        int ans = findGCD(max, min);
-        return ans;
+        return findGCD(max, min);
     }
 
     private int findGCD(int x, int y) {
-        int r = 0, a, b;
+        int r;
+        int a;
+        int b;
         a = (x > y) ? x : y;
         b = (x < y) ? x : y;
         r = b;

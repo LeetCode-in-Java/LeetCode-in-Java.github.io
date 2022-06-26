@@ -43,10 +43,10 @@ s[0] = {nums[0], nums[5], nums[6], nums[2]} = {5, 6, 2, 0}
 ```java
 public class Solution {
     public int arrayNesting(int[] nums) {
-        int index = -1;
-        int value = 0;
+        int index;
+        int value;
         int maxLen = 0;
-        int len = 0;
+        int len;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != -1) {
                 index = i;

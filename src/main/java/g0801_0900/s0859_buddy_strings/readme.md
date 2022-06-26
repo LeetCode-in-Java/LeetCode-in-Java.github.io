@@ -43,7 +43,7 @@ Swapping letters is defined as taking two indices `i` and `j` (0-indexed) such t
 public class Solution {
     public boolean buddyStrings(String s, String goal) {
         int first = -1;
-        int second = -1;
+        int second;
         int[] sCounts = new int[26];
         if (s.equals(goal)) {
             for (int i = 0; i < s.length(); i++) {

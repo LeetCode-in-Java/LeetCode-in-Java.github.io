@@ -29,7 +29,7 @@ Given a string `s`, reverse the order of characters in each word within a senten
 ```java
 public class Solution {
     public String reverseWords(String s) {
-        int l = 0;
+        int l;
         int r = 0;
         int len = s.length();
         char[] ch = s.toCharArray();
