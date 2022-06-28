@@ -59,11 +59,9 @@ public class Solution {
         for (int i = 0; i < numCourses; i++) {
             graph.put(i, new ArrayList<>());
         }
-
         for (int[] classes : prerequisites) {
             graph.get(classes[0]).add(classes[1]);
         }
-
         List<Integer> output = new ArrayList<>();
         Map<Integer, Boolean> visited = new HashMap<>();
         for (int c : graph.keySet()) {
@@ -71,7 +69,6 @@ public class Solution {
                 return new int[0];
             }
         }
-
         int[] res = new int[output.size()];
         for (int i = 0; i < output.size(); i++) {
             res[i] = output.get(i);
@@ -87,15 +84,12 @@ public class Solution {
         if (visited.containsKey(course)) {
             return visited.get(course);
         }
-
         visited.put(course, true);
-
         for (int c : graph.get(course)) {
             if (dfs(c, graph, visited, output)) {
                 return true;
             }
         }
-
         visited.put(course, false);
         output.add(course);
         return false;

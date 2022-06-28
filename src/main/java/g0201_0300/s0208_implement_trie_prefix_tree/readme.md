@@ -89,7 +89,6 @@ public class Trie {
             startWith = false;
             return false;
         }
-
         return search(word, root.children[index], idx + 1);
     }
 
