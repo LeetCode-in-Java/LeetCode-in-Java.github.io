@@ -63,7 +63,6 @@ public class Solution {
                 happy = true;
             }
         }
-
         return happy;
     }
 }
