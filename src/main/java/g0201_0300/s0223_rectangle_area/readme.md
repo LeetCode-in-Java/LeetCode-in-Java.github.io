@@ -36,7 +36,6 @@ public class Solution {
         long right = Math.min(ax2, bx2);
         long top = Math.min(ay2, by2);
         long bottom = Math.max(ay1, by1);
-
         long area = (right - left) * (top - bottom);
         // if not overlaping, either of these two will be non-posittive
         // if right - left = 0, are will automtically be 0 as well

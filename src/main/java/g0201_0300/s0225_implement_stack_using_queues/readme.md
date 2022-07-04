@@ -70,7 +70,6 @@ public class MyStack {
             top = val;
             queueTwo.add(val);
         }
-
         int popValue = queueOne.remove();
         queueOne.addAll(queueTwo);
         queueTwo.clear();
