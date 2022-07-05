@@ -735,7 +735,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0264 |[Ugly Number II](src/main/java/g0201_0300/s0264_ugly_number_ii)| Medium | Hash_Table, Dynamic_Programming, Math, Heap_Priority_Queue | 3 | 88.43
+| 0264 |[Ugly Number II](src/main/java/g0201_0300/s0264_ugly_number_ii)| Medium | Hash_Table, Dynamic_Programming, Math, Heap_Priority_Queue | 2 | 99.91
 | 0096 |[Unique Binary Search Trees](src/main/java/g0001_0100/s0096_unique_binary_search_trees)| Medium | Top_100_Liked_Questions, Dynamic_Programming, Math, Tree, Binary_Tree, Binary_Search_Tree | 0 | 100.00
 
 #### Day 12
@@ -896,7 +896,7 @@
 |-|-|-|-|-|-
 | 1356 |[Sort Integers by The Number of 1 Bits](src/main/java/g1301_1400/s1356_sort_integers_by_the_number_of_1_bits)| Easy | Array, Sorting, Bit_Manipulation, Counting | 10 | 65.50
 | 0232 |[Implement Queue using Stacks](src/main/java/g0201_0300/s0232_implement_queue_using_stacks)| Easy | Stack, Design, Queue | 1 | 67.21
-| 0242 |[Valid Anagram](src/main/java/g0201_0300/s0242_valid_anagram)| Easy | Top_Interview_Questions, String, Hash_Table, Sorting | 2 | 98.88
+| 0242 |[Valid Anagram](src/main/java/g0201_0300/s0242_valid_anagram)| Easy | Top_Interview_Questions, String, Hash_Table, Sorting | 2 | 99.01
 | 0217 |[Contains Duplicate](src/main/java/g0201_0300/s0217_contains_duplicate)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting | 6 | 96.68
 
 #### Day 12 Class and Object
@@ -1535,7 +1535,7 @@
 |-|-|-|-|-|-
 | 0387 |[First Unique Character in a String](src/main/java/g0301_0400/s0387_first_unique_character_in_a_string)| Easy | Top_Interview_Questions, String, Hash_Table, Counting, Queue | 2 | 99.53
 | 0383 |[Ransom Note](src/main/java/g0301_0400/s0383_ransom_note)| Easy | String, Hash_Table, Counting | 1 | 99.79
-| 0242 |[Valid Anagram](src/main/java/g0201_0300/s0242_valid_anagram)| Easy | Top_Interview_Questions, String, Hash_Table, Sorting | 2 | 98.88
+| 0242 |[Valid Anagram](src/main/java/g0201_0300/s0242_valid_anagram)| Easy | Top_Interview_Questions, String, Hash_Table, Sorting | 2 | 99.01
 
 #### Day 7 Linked List
 
@@ -3201,15 +3201,15 @@
 | 0275 |[H-Index II](src/main/java/g0201_0300/s0275_h_index_ii)| Medium | Array, Binary_Search, Binary_Search_II_Day_8 | 0 | 100.00
 | 0274 |[H-Index](src/main/java/g0201_0300/s0274_h_index)| Medium | Array, Sorting, Counting_Sort | 2 | 51.85
 | 0273 |[Integer to English Words](src/main/java/g0201_0300/s0273_integer_to_english_words)| Hard | String, Math, Recursion | 5 | 83.37
-| 0268 |[Missing Number](src/main/java/g0201_0300/s0268_missing_number)| Easy | Top_Interview_Questions, Array, Hash_Table, Math, Sorting, Binary_Search, Bit_Manipulation | 0 | 100.00
-| 0264 |[Ugly Number II](src/main/java/g0201_0300/s0264_ugly_number_ii)| Medium | Hash_Table, Dynamic_Programming, Math, Heap_Priority_Queue, Dynamic_Programming_I_Day_11 | 3 | 88.43
-| 0263 |[Ugly Number](src/main/java/g0201_0300/s0263_ugly_number)| Easy | Math | 1 | 95.93
-| 0262 |[Trips and Users](src/main/java/g0201_0300/s0262_trips_and_users)| Hard | Database | 449 | 79.92
-| 0260 |[Single Number III](src/main/java/g0201_0300/s0260_single_number_iii)| Medium | Array, Bit_Manipulation | 1 | 98.18
-| 0258 |[Add Digits](src/main/java/g0201_0300/s0258_add_digits)| Easy | Math, Simulation, Number_Theory | 1 | 95.33
-| 0257 |[Binary Tree Paths](src/main/java/g0201_0300/s0257_binary_tree_paths)| Easy | String, Depth_First_Search, Tree, Binary_Tree, Backtracking | 2 | 91.59
-| 0242 |[Valid Anagram](src/main/java/g0201_0300/s0242_valid_anagram)| Easy | Top_Interview_Questions, String, Hash_Table, Sorting, Data_Structure_I_Day_6_String, Programming_Skills_I_Day_11_Containers_and_Libraries | 2 | 98.88
-| 0241 |[Different Ways to Add Parentheses](src/main/java/g0201_0300/s0241_different_ways_to_add_parentheses)| Medium | String, Dynamic_Programming, Math, Recursion, Memoization | 2 | 81.46
+| 0268 |[Missing Number](src/main/java/g0201_0300/s0268_missing_number)| Easy | Top_Interview_Questions, Array, Hash_Table, Math, Sorting, Binary_Search, Bit_Manipulation | 1 | 72.07
+| 0264 |[Ugly Number II](src/main/java/g0201_0300/s0264_ugly_number_ii)| Medium | Hash_Table, Dynamic_Programming, Math, Heap_Priority_Queue, Dynamic_Programming_I_Day_11 | 2 | 99.91
+| 0263 |[Ugly Number](src/main/java/g0201_0300/s0263_ugly_number)| Easy | Math | 2 | 65.06
+| 0262 |[Trips and Users](src/main/java/g0201_0300/s0262_trips_and_users)| Hard | Database | 420 | 95.80
+| 0260 |[Single Number III](src/main/java/g0201_0300/s0260_single_number_iii)| Medium | Array, Bit_Manipulation | 1 | 100.00
+| 0258 |[Add Digits](src/main/java/g0201_0300/s0258_add_digits)| Easy | Math, Simulation, Number_Theory | 1 | 100.00
+| 0257 |[Binary Tree Paths](src/main/java/g0201_0300/s0257_binary_tree_paths)| Easy | String, Depth_First_Search, Tree, Binary_Tree, Backtracking | 2 | 93.02
+| 0242 |[Valid Anagram](src/main/java/g0201_0300/s0242_valid_anagram)| Easy | Top_Interview_Questions, String, Hash_Table, Sorting, Data_Structure_I_Day_6_String, Programming_Skills_I_Day_11_Containers_and_Libraries | 2 | 99.01
+| 0241 |[Different Ways to Add Parentheses](src/main/java/g0201_0300/s0241_different_ways_to_add_parentheses)| Medium | String, Dynamic_Programming, Math, Recursion, Memoization | 3 | 70.81
 | 0240 |[Search a 2D Matrix II](src/main/java/g0201_0300/s0240_search_a_2d_matrix_ii)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Matrix, Divide_and_Conquer, Data_Structure_II_Day_4_Array, Binary_Search_II_Day_8 | 7 | 86.73
 | 0239 |[Sliding Window Maximum](src/main/java/g0201_0300/s0239_sliding_window_maximum)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Heap_Priority_Queue, Sliding_Window, Queue, Monotonic_Queue | 58 | 52.28
 | 0238 |[Product of Array Except Self](src/main/java/g0201_0300/s0238_product_of_array_except_self)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Prefix_Sum, Data_Structure_II_Day_5_Array | 1 | 100.00
