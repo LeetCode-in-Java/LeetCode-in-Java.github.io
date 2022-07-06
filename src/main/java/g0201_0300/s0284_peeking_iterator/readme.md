@@ -48,6 +48,9 @@ Implement the `PeekingIterator` class:
 ```java
 import java.util.Iterator;
 
+// Java Iterator interface reference:
+// https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html
+
 public class PeekingIterator implements Iterator<Integer> {
     private Iterator<Integer> it;
     private Integer current;
