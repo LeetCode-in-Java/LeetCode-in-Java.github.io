@@ -1816,10 +1816,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
-| 2328 |[Number of Increasing Paths in a Grid](src/main/java/g2301_2400/s2328_number_of_increasing_paths_in_a_grid)| Hard || 43 | 100.00
-| 2327 |[Number of People Aware of a Secret](src/main/java/g2301_2400/s2327_number_of_people_aware_of_a_secret)| Medium || 7 | 80.00
-| 2326 |[Spiral Matrix IV](src/main/java/g2301_2400/s2326_spiral_matrix_iv)| Medium || 12 | 83.33
-| 2325 |[Decode the Message](src/main/java/g2301_2400/s2325_decode_the_message)| Easy || 7 | 42.86
+| 2328 |[Number of Increasing Paths in a Grid](src/main/java/g2301_2400/s2328_number_of_increasing_paths_in_a_grid)| Hard | Array, Dynamic_Programming, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Memoization, Matrix | 43 | 100.00
+| 2327 |[Number of People Aware of a Secret](src/main/java/g2301_2400/s2327_number_of_people_aware_of_a_secret)| Medium | Dynamic_Programming, Queue, Simulation | 7 | 80.00
+| 2326 |[Spiral Matrix IV](src/main/java/g2301_2400/s2326_spiral_matrix_iv)| Medium | Array, Linked_List, Matrix, Simulation | 12 | 83.33
+| 2325 |[Decode the Message](src/main/java/g2301_2400/s2325_decode_the_message)| Easy | Hash_Table, String | 7 | 42.86
 | 2322 |[Minimum Score After Removals on a Tree](src/main/java/g2301_2400/s2322_minimum_score_after_removals_on_a_tree)| Hard | Array, Bit_Manipulation, Tree, Depth_First_Search | 255 | 70.70
 | 2321 |[Maximum Score Of Spliced Array](src/main/java/g2301_2400/s2321_maximum_score_of_spliced_array)| Hard | Array, Dynamic_Programming | 3 | 99.68
 | 2320 |[Count Number of Ways to Place Houses](src/main/java/g2301_2400/s2320_count_number_of_ways_to_place_houses)| Medium | Dynamic_Programming | 13 | 82.46
@@ -3388,11 +3388,11 @@
 | 0322 |[Coin Change](src/main/java/g0301_0400/s0322_coin_change)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Breadth_First_Search, Algorithm_II_Day_18_Dynamic_Programming, Dynamic_Programming_I_Day_20, Level_2_Day_12_Dynamic_Programming | 22 | 72.14
 | 0321 |[Create Maximum Number](src/main/java/g0301_0400/s0321_create_maximum_number)| Hard | Greedy, Stack, Monotonic_Stack | 9 | 93.46
 | 0319 |[Bulb Switcher](src/main/java/g0301_0400/s0319_bulb_switcher)| Medium | Math, Brainteaser | 0 | 100.00
-| 0318 |[Maximum Product of Word Lengths](src/main/java/g0301_0400/s0318_maximum_product_of_word_lengths)| Medium | Array, String, Bit_Manipulation | 10 | 81.97
-| 0316 |[Remove Duplicate Letters](src/main/java/g0301_0400/s0316_remove_duplicate_letters)| Medium | String, Greedy, Stack, Monotonic_Stack | 2 | 98.39
-| 0315 |[Count of Smaller Numbers After Self](src/main/java/g0301_0400/s0315_count_of_smaller_numbers_after_self)| Hard | Top_Interview_Questions, Array, Binary_Search, Ordered_Set, Divide_and_Conquer, Segment_Tree, Binary_Indexed_Tree, Merge_Sort | 34 | 96.38
-| 0313 |[Super Ugly Number](src/main/java/g0301_0400/s0313_super_ugly_number)| Medium | Array, Dynamic_Programming, Math | 280 | 86.61
-| 0312 |[Burst Balloons](src/main/java/g0301_0400/s0312_burst_balloons)| Hard | Array, Dynamic_Programming | 53 | 86.06
+| 0318 |[Maximum Product of Word Lengths](src/main/java/g0301_0400/s0318_maximum_product_of_word_lengths)| Medium | Array, String, Bit_Manipulation | 12 | 74.92
+| 0316 |[Remove Duplicate Letters](src/main/java/g0301_0400/s0316_remove_duplicate_letters)| Medium | String, Greedy, Stack, Monotonic_Stack | 3 | 92.27
+| 0315 |[Count of Smaller Numbers After Self](src/main/java/g0301_0400/s0315_count_of_smaller_numbers_after_self)| Hard | Top_Interview_Questions, Array, Binary_Search, Ordered_Set, Divide_and_Conquer, Segment_Tree, Binary_Indexed_Tree, Merge_Sort | 36 | 98.63
+| 0313 |[Super Ugly Number](src/main/java/g0301_0400/s0313_super_ugly_number)| Medium | Array, Dynamic_Programming, Math | 19 | 91.86
+| 0312 |[Burst Balloons](src/main/java/g0301_0400/s0312_burst_balloons)| Hard | Array, Dynamic_Programming | 50 | 89.02
 | 0310 |[Minimum Height Trees](src/main/java/g0301_0400/s0310_minimum_height_trees)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort | 25 | 93.99
 | 0309 |[Best Time to Buy and Sell Stock with Cooldown](src/main/java/g0301_0400/s0309_best_time_to_buy_and_sell_stock_with_cooldown)| Medium | Array, Dynamic_Programming, Dynamic_Programming_I_Day_8 | 0 | 100.00
 | 0307 |[Range Sum Query - Mutable](src/main/java/g0301_0400/s0307_range_sum_query_mutable)| Medium | Array, Design, Segment_Tree, Binary_Indexed_Tree | 99 | 88.96
