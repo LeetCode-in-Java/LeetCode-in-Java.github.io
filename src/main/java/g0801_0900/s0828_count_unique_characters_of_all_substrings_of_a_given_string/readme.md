@@ -47,6 +47,8 @@ Sum of lengths of all substring is 1 + 1 + 1 + 2 + 2 + 3 = 10
 ## Solution
 
 ```java
+import java.util.Arrays;
+
 public class Solution {
     public int uniqueLetterString(String s) {
         // Store last index of a character.

@@ -49,13 +49,13 @@ public class Solution {
         n1[0] = 1L;
         for (int i = 1; i < n; i++) {
             long min = Long.MAX_VALUE;
-            for (int j = 0; j < primes1.length; j++) {
-                min = Math.min(min, primes1[j]);
+            for (long l : primes1) {
+                min = Math.min(min, l);
             }
             n1[i] = min;
             for (int j = 0; j < primes1.length; j++) {
                 if (min == primes1[j]) {
-                    primes1[j] *= n1[++index[j]];
+                    primes1[j] = primes[j] * (n1[++index[j]]);
                 }
             }
         }

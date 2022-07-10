@@ -3393,7 +3393,7 @@
 | 0318 |[Maximum Product of Word Lengths](src/main/java/g0301_0400/s0318_maximum_product_of_word_lengths)| Medium | Array, String, Bit_Manipulation | 12 | 74.92
 | 0316 |[Remove Duplicate Letters](src/main/java/g0301_0400/s0316_remove_duplicate_letters)| Medium | String, Greedy, Stack, Monotonic_Stack | 3 | 92.27
 | 0315 |[Count of Smaller Numbers After Self](src/main/java/g0301_0400/s0315_count_of_smaller_numbers_after_self)| Hard | Top_Interview_Questions, Array, Binary_Search, Ordered_Set, Divide_and_Conquer, Segment_Tree, Binary_Indexed_Tree, Merge_Sort | 36 | 98.63
-| 0313 |[Super Ugly Number](src/main/java/g0301_0400/s0313_super_ugly_number)| Medium | Array, Dynamic_Programming, Math | 19 | 91.86
+| 0313 |[Super Ugly Number](src/main/java/g0301_0400/s0313_super_ugly_number)| Medium | Array, Dynamic_Programming, Math | 16 | 96.57
 | 0312 |[Burst Balloons](src/main/java/g0301_0400/s0312_burst_balloons)| Hard | Array, Dynamic_Programming | 50 | 89.02
 | 0310 |[Minimum Height Trees](src/main/java/g0301_0400/s0310_minimum_height_trees)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort | 25 | 93.99
 | 0309 |[Best Time to Buy and Sell Stock with Cooldown](src/main/java/g0301_0400/s0309_best_time_to_buy_and_sell_stock_with_cooldown)| Medium | Array, Dynamic_Programming, Dynamic_Programming_I_Day_8 | 0 | 100.00
