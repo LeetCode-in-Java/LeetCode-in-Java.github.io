@@ -89,13 +89,11 @@ public class Solution {
                     && isPalindrome(words[i], j, words[i].length() - 1)) {
                 res.add(Arrays.asList(i, root.index));
             }
-
             root = root.next[words[i].charAt(j) - 'a'];
             if (root == null) {
                 return;
             }
         }
-
         for (int j : root.list) {
             if (i == j) {
                 continue;
