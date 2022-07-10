@@ -47,7 +47,6 @@ public class Solution {
             result[i] = nums[index];
             --index;
         }
-
         // Start filling all valleys (which is all at even indexes) from end
         // why from end, as the last peak index may have smallest largest value, so to
         // make sure, that is also '>', fill in the smallest element near it.
