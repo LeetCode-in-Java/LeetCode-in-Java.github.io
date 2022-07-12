@@ -165,7 +165,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0215 |[Kth Largest Element in an Array](src/main/java/g0201_0300/s0215_kth_largest_element_in_an_array)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Quickselect | 5 | 70.82
-| 0347 |[Top K Frequent Elements](src/main/java/g0301_0400/s0347_top_k_frequent_elements)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Heap_Priority_Queue, Counting, Divide_and_Conquer, Quickselect, Bucket_Sort | 7 | 99.54
+| 0347 |[Top K Frequent Elements](src/main/java/g0301_0400/s0347_top_k_frequent_elements)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Heap_Priority_Queue, Counting, Divide_and_Conquer, Quickselect, Bucket_Sort | 9 | 97.93
 
 #### Day 21 Heap Priority Queue
 
@@ -202,7 +202,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0344 |[Reverse String](src/main/java/g0301_0400/s0344_reverse_string)| Easy | Top_Interview_Questions, String, Two_Pointers, Recursion | 1 | 87.94
+| 0344 |[Reverse String](src/main/java/g0301_0400/s0344_reverse_string)| Easy | Top_Interview_Questions, String, Two_Pointers, Recursion | 1 | 99.91
 | 0557 |[Reverse Words in a String III](src/main/java/g0501_0600/s0557_reverse_words_in_a_string_iii)| Easy | String, Two_Pointers | 5 | 88.09
 
 #### Day 5 Two Pointers
@@ -500,7 +500,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0350 |[Intersection of Two Arrays II](src/main/java/g0301_0400/s0350_intersection_of_two_arrays_ii)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting, Binary_Search, Two_Pointers | 3 | 81.79
+| 0350 |[Intersection of Two Arrays II](src/main/java/g0301_0400/s0350_intersection_of_two_arrays_ii)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting, Binary_Search, Two_Pointers | 4 | 69.62
 | 0633 |[Sum of Square Numbers](src/main/java/g0601_0700/s0633_sum_of_square_numbers)| Medium | Math, Binary_Search, Two_Pointers | 4 | 82.92
 
 #### Day 11
@@ -807,7 +807,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0377 |[Combination Sum IV](src/main/java/g0301_0400/s0377_combination_sum_iv)| Medium | Array, Dynamic_Programming | 1 | 91.72
+| 0377 |[Combination Sum IV](src/main/java/g0301_0400/s0377_combination_sum_iv)| Medium | Array, Dynamic_Programming | 1 | 92.54
 | 0343 |[Integer Break](src/main/java/g0301_0400/s0343_integer_break)| Medium | Dynamic_Programming, Math | 0 | 100.00
 | 0279 |[Perfect Squares](src/main/java/g0201_0300/s0279_perfect_squares)| Medium | Top_Interview_Questions, Dynamic_Programming, Math, Breadth_First_Search | 1 | 100.00
 
@@ -1510,7 +1510,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0344 |[Reverse String](src/main/java/g0301_0400/s0344_reverse_string)| Easy | Top_Interview_Questions, String, Two_Pointers, Recursion | 1 | 87.94
+| 0344 |[Reverse String](src/main/java/g0301_0400/s0344_reverse_string)| Easy | Top_Interview_Questions, String, Two_Pointers, Recursion | 1 | 99.91
 | 0014 |[Longest Common Prefix](src/main/java/g0001_0100/s0014_longest_common_prefix)| Easy | Top_Interview_Questions, String | 1 | 84.75
 | 0187 |[Repeated DNA Sequences](src/main/java/g0101_0200/s0187_repeated_dna_sequences)| Medium | String, Hash_Table, Bit_Manipulation, Sliding_Window, Hash_Function, Rolling_Hash | 29 | 77.11
 | 0003 |[Longest Substring Without Repeating Characters](src/main/java/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window | 5 | 91.03
@@ -1727,7 +1727,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0350 |[Intersection of Two Arrays II](src/main/java/g0301_0400/s0350_intersection_of_two_arrays_ii)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting, Binary_Search, Two_Pointers | 3 | 81.79
+| 0350 |[Intersection of Two Arrays II](src/main/java/g0301_0400/s0350_intersection_of_two_arrays_ii)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting, Binary_Search, Two_Pointers | 4 | 69.62
 | 0121 |[Best Time to Buy and Sell Stock](src/main/java/g0101_0200/s0121_best_time_to_buy_and_sell_stock)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming | 1 | 100.00
 
 #### Day 4 Array
@@ -3351,26 +3351,26 @@
 | 0381 |[Insert Delete GetRandom O(1) - Duplicates allowed](src/main/java/g0301_0400/s0381_insert_delete_getrandom_o1_duplicates_allowed)| Hard | Array, Hash_Table, Math, Design, Randomized | 26 | 100.00
 | 0380 |[Insert Delete GetRandom O(1)](src/main/java/g0301_0400/s0380_insert_delete_getrandom_o1)| Medium | Top_Interview_Questions, Array, Hash_Table, Math, Design, Randomized, Programming_Skills_II_Day_20 | 20 | 99.24
 | 0378 |[Kth Smallest Element in a Sorted Matrix](src/main/java/g0301_0400/s0378_kth_smallest_element_in_a_sorted_matrix)| Medium | Top_Interview_Questions, Array, Sorting, Binary_Search, Matrix, Heap_Priority_Queue | 0 | 100.00
-| 0377 |[Combination Sum IV](src/main/java/g0301_0400/s0377_combination_sum_iv)| Medium | Array, Dynamic_Programming, Dynamic_Programming_I_Day_21 | 1 | 91.72
+| 0377 |[Combination Sum IV](src/main/java/g0301_0400/s0377_combination_sum_iv)| Medium | Array, Dynamic_Programming, Dynamic_Programming_I_Day_21 | 1 | 92.54
 | 0376 |[Wiggle Subsequence](src/main/java/g0301_0400/s0376_wiggle_subsequence)| Medium | Array, Dynamic_Programming, Greedy, Dynamic_Programming_I_Day_18 | 0 | 100.00
-| 0375 |[Guess Number Higher or Lower II](src/main/java/g0301_0400/s0375_guess_number_higher_or_lower_ii)| Medium | Dynamic_Programming, Math, Game_Theory | 1 | 100.00
+| 0375 |[Guess Number Higher or Lower II](src/main/java/g0301_0400/s0375_guess_number_higher_or_lower_ii)| Medium | Dynamic_Programming, Math, Game_Theory | 2 | 100.00
 | 0374 |[Guess Number Higher or Lower](src/main/java/g0301_0400/s0374_guess_number_higher_or_lower)| Easy | Binary_Search, Interactive, Binary_Search_I_Day_1 | 0 | 100.00
-| 0373 |[Find K Pairs with Smallest Sums](src/main/java/g0301_0400/s0373_find_k_pairs_with_smallest_sums)| Medium | Array, Heap_Priority_Queue | 58 | 29.29
-| 0372 |[Super Pow](src/main/java/g0301_0400/s0372_super_pow)| Medium | Math, Divide_and_Conquer | 2 | 91.10
+| 0373 |[Find K Pairs with Smallest Sums](src/main/java/g0301_0400/s0373_find_k_pairs_with_smallest_sums)| Medium | Array, Heap_Priority_Queue | 59 | 46.79
+| 0372 |[Super Pow](src/main/java/g0301_0400/s0372_super_pow)| Medium | Math, Divide_and_Conquer | 1 | 100.00
 | 0371 |[Sum of Two Integers](src/main/java/g0301_0400/s0371_sum_of_two_integers)| Medium | Top_Interview_Questions, Math, Bit_Manipulation, Udemy_Bit_Manipulation | 0 | 100.00
-| 0368 |[Largest Divisible Subset](src/main/java/g0301_0400/s0368_largest_divisible_subset)| Medium | Array, Dynamic_Programming, Math, Sorting | 20 | 87.61
+| 0368 |[Largest Divisible Subset](src/main/java/g0301_0400/s0368_largest_divisible_subset)| Medium | Array, Dynamic_Programming, Math, Sorting | 24 | 87.83
 | 0367 |[Valid Perfect Square](src/main/java/g0301_0400/s0367_valid_perfect_square)| Easy | Math, Binary_Search, Binary_Search_I_Day_3 | 0 | 100.00
 | 0365 |[Water and Jug Problem](src/main/java/g0301_0400/s0365_water_and_jug_problem)| Medium | Math, Depth_First_Search, Breadth_First_Search, Graph_Theory_I_Day_11_Breadth_First_Search | 0 | 100.00
-| 0363 |[Max Sum of Rectangle No Larger Than K](src/main/java/g0301_0400/s0363_max_sum_of_rectangle_no_larger_than_k)| Hard | Array, Dynamic_Programming, Binary_Search, Matrix, Ordered_Set | 69 | 97.33
+| 0363 |[Max Sum of Rectangle No Larger Than K](src/main/java/g0301_0400/s0363_max_sum_of_rectangle_no_larger_than_k)| Hard | Array, Dynamic_Programming, Binary_Search, Matrix, Ordered_Set | 70 | 99.21
 | 0357 |[Count Numbers with Unique Digits](src/main/java/g0301_0400/s0357_count_numbers_with_unique_digits)| Medium | Dynamic_Programming, Math, Backtracking | 0 | 100.00
-| 0355 |[Design Twitter](src/main/java/g0301_0400/s0355_design_twitter)| Medium | Hash_Table, Design, Heap_Priority_Queue, Linked_List | 8 | 99.79
-| 0354 |[Russian Doll Envelopes](src/main/java/g0301_0400/s0354_russian_doll_envelopes)| Hard | Array, Dynamic_Programming, Sorting, Binary_Search | 65 | 67.49
-| 0352 |[Data Stream as Disjoint Intervals](src/main/java/g0301_0400/s0352_data_stream_as_disjoint_intervals)| Hard | Binary_Search, Design, Ordered_Set | 94 | 76.26
-| 0350 |[Intersection of Two Arrays II](src/main/java/g0301_0400/s0350_intersection_of_two_arrays_ii)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting, Binary_Search, Two_Pointers, Data_Structure_I_Day_3_Array, Binary_Search_I_Day_10 | 3 | 81.79
-| 0349 |[Intersection of Two Arrays](src/main/java/g0301_0400/s0349_intersection_of_two_arrays)| Easy | Array, Hash_Table, Sorting, Binary_Search, Two_Pointers | 1 | 99.75
-| 0347 |[Top K Frequent Elements](src/main/java/g0301_0400/s0347_top_k_frequent_elements)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Heap_Priority_Queue, Counting, Divide_and_Conquer, Quickselect, Bucket_Sort, Data_Structure_II_Day_20_Heap_Priority_Queue | 7 | 99.54
-| 0345 |[Reverse Vowels of a String](src/main/java/g0301_0400/s0345_reverse_vowels_of_a_string)| Easy | String, Two_Pointers | 4 | 86.90
-| 0344 |[Reverse String](src/main/java/g0301_0400/s0344_reverse_string)| Easy | Top_Interview_Questions, String, Two_Pointers, Recursion, Algorithm_I_Day_4_Two_Pointers, Udemy_Strings | 1 | 87.94
+| 0355 |[Design Twitter](src/main/java/g0301_0400/s0355_design_twitter)| Medium | Hash_Table, Design, Heap_Priority_Queue, Linked_List | 14 | 74.65
+| 0354 |[Russian Doll Envelopes](src/main/java/g0301_0400/s0354_russian_doll_envelopes)| Hard | Array, Dynamic_Programming, Sorting, Binary_Search | 46 | 99.83
+| 0352 |[Data Stream as Disjoint Intervals](src/main/java/g0301_0400/s0352_data_stream_as_disjoint_intervals)| Hard | Binary_Search, Design, Ordered_Set | 109 | 62.48
+| 0350 |[Intersection of Two Arrays II](src/main/java/g0301_0400/s0350_intersection_of_two_arrays_ii)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting, Binary_Search, Two_Pointers, Data_Structure_I_Day_3_Array, Binary_Search_I_Day_10 | 4 | 69.62
+| 0349 |[Intersection of Two Arrays](src/main/java/g0301_0400/s0349_intersection_of_two_arrays)| Easy | Array, Hash_Table, Sorting, Binary_Search, Two_Pointers | 1 | 99.77
+| 0347 |[Top K Frequent Elements](src/main/java/g0301_0400/s0347_top_k_frequent_elements)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Heap_Priority_Queue, Counting, Divide_and_Conquer, Quickselect, Bucket_Sort, Data_Structure_II_Day_20_Heap_Priority_Queue | 9 | 97.93
+| 0345 |[Reverse Vowels of a String](src/main/java/g0301_0400/s0345_reverse_vowels_of_a_string)| Easy | String, Two_Pointers | 3 | 98.02
+| 0344 |[Reverse String](src/main/java/g0301_0400/s0344_reverse_string)| Easy | Top_Interview_Questions, String, Two_Pointers, Recursion, Algorithm_I_Day_4_Two_Pointers, Udemy_Strings | 1 | 99.91
 | 0343 |[Integer Break](src/main/java/g0301_0400/s0343_integer_break)| Medium | Dynamic_Programming, Math, Algorithm_II_Day_18_Dynamic_Programming, Dynamic_Programming_I_Day_21 | 0 | 100.00
 | 0342 |[Power of Four](src/main/java/g0301_0400/s0342_power_of_four)| Easy | Math, Bit_Manipulation, Recursion | 1 | 100.00
 | 0341 |[Flatten Nested List Iterator](src/main/java/g0301_0400/s0341_flatten_nested_list_iterator)| Medium | Top_Interview_Questions, Depth_First_Search, Tree, Stack, Design, Queue, Iterator, Programming_Skills_II_Day_18 | 2 | 99.95

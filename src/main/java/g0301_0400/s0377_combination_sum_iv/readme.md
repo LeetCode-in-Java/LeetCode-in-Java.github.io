@@ -48,7 +48,7 @@ The test cases are generated so that the answer can fit in a **32-bit** integer.
 import java.util.Arrays;
 
 public class Solution {
-    int[] storage;
+    private int[] storage;
 
     public int combinationSum4(int[] nums, int target) {
         storage = new int[target + 1];
