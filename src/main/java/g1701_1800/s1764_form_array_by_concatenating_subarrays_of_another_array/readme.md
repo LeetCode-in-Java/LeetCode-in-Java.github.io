@@ -48,28 +48,38 @@ Note that the subarrays are **disjoint** if and only if there is no index `k` su
 ## Solution
 
 ```java
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.Arrays;
 
 public class Solution {
     public boolean canChoose(int[][] groups, int[] nums) {
-        List<Integer> numsInt = new ArrayList<>();
-        for (int num : nums) {
-            numsInt.add(num);
-        }
-        int prevIndex = 0;
-        for (int[] group : groups) {
-            List<Integer> groupInt = new ArrayList<>();
-            for (int num : group) {
-                groupInt.add(num);
+        int prev = 0;
+        for (int i = 0; i < groups.length; i++) {
+            int[] temp = new int[groups[i].length];
+            if (prev + groups[i].length > nums.length) {
+                return false;
             }
-            int index =
-                    Collections.indexOfSubList(
-                            numsInt.subList(prevIndex, numsInt.size()), groupInt);
-            if (index != -1) {
-                prevIndex = index + group.length;
-            } else {
+            int index = 0;
+            int j;
+            for (j = prev; j < prev + groups[i].length; j++) {
+                temp[index++] = nums[j];
+            }
+            if (Arrays.equals(temp, groups[i])) {
+                prev = j;
+                continue;
+            }
+            int k;
+            for (k = j; k < nums.length; k++) {
+                int l;
+                for (l = 0; l < temp.length - 1; l++) {
+                    temp[l] = temp[l + 1];
+                }
+                temp[l] = nums[k];
+                if (Arrays.equals(temp, groups[i])) {
+                    prev = k + 1;
+                    break;
+                }
+            }
+            if (k == nums.length) {
                 return false;
             }
         }
