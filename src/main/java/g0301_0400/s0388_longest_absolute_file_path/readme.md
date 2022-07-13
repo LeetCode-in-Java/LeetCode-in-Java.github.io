@@ -143,7 +143,6 @@ public class Solution {
             }
             isFile = false;
         }
-
         return longestLen;
     }
 }
