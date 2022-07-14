@@ -45,7 +45,6 @@ public class Solution {
         for (int i = start; i < end; i++) {
             nums[s.charAt(i) - 'a']++;
         }
-
         for (int i = start; i < end; i++) {
             if (nums[s.charAt(i) - 'a'] < k) {
                 int j = i + 1;

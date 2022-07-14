@@ -42,12 +42,12 @@ pop() -> 5, pop() -> 3, pop() -> 2, pop() -> 1
 ## Solution
 
 ```java
+import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.LinkedList;
 
 public class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
-        Deque<Integer> stack = new LinkedList<>();
+        Deque<Integer> stack = new ArrayDeque<>();
         int i = 0;
         int j = 0;
         int len = pushed.length;

@@ -64,14 +64,14 @@ Return _an array_ `answer`_, where_ `answer[i]` _is the answer to the_ <code>i<s
 public class Solution {
     public int[] getMaximumXor(int[] nums, int maximumBit) {
         int[] result = new int[nums.length];
-        long[] xOr = new long[nums.length];
-        xOr[0] = nums[0];
+        int val = nums[0];
+        int target = (1 << maximumBit) - 1;
         for (int i = 1; i < nums.length; i++) {
-            xOr[i] ^= xOr[i - 1] ^ nums[i];
+            val ^= nums[i];
         }
-        long maxNum = (long) Math.pow(2, maximumBit) - 1;
-        for (int i = 0; i < nums.length; i++) {
-            result[nums.length - i - 1] = (int) (maxNum ^ xOr[i]);
+        for (int i = 0; i < result.length; i++) {
+            result[i] = target ^ val;
+            val ^= nums[nums.length - i - 1];
         }
         return result;
     }

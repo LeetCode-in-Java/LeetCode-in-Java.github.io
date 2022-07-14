@@ -38,28 +38,16 @@ An integer `y` is a power of three if there exists an integer `x` such that <cod
 ## Solution
 
 ```java
-import java.util.ArrayList;
-import java.util.List;
-
 public class Solution {
     public boolean checkPowersOfThree(int n) {
-        List<Integer> powers = new ArrayList<>();
-        int power = 1;
-        for (int i = 1; power <= n; i++) {
-            powers.add(power);
-            power = (int) Math.pow(3, i);
-        }
-        int i = powers.size() - 1;
-        while (n > 0 && i >= 0) {
-            if (n - powers.get(i) > 0) {
-                n -= powers.get(i--);
-            } else if (n - powers.get(i) == 0) {
-                return true;
-            } else {
-                i--;
+        while (n != 0) {
+            int rem = n % 3;
+            n /= 3;
+            if (rem == 2 || n == 2) {
+                return false;
             }
         }
-        return n == 0;
+        return true;
     }
 }
 ```
