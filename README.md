@@ -1820,10 +1820,10 @@
 | 2337 |[Move Pieces to Obtain a String](src/main/java/g2301_2400/s2337_move_pieces_to_obtain_a_string)| Medium | Two_Pointers, String | 23 | 82.39
 | 2336 |[Smallest Number in Infinite Set](src/main/java/g2301_2400/s2336_smallest_number_in_infinite_set)| Medium | Hash_Table, Design, Heap_Priority_Queue | 12 | 96.69
 | 2335 |[Minimum Amount of Time to Fill Cups](src/main/java/g2301_2400/s2335_minimum_amount_of_time_to_fill_cups)| Easy | Array, Greedy, Heap_Priority_Queue | 1 | 97.92
-| 2334 |[Subarray With Elements Greater Than Varying Threshold](src/main/java/g2301_2400/s2334_subarray_with_elements_greater_than_varying_threshold)| Hard || 385 | 31.56
-| 2333 |[Minimum Sum of Squared Difference](src/main/java/g2301_2400/s2333_minimum_sum_of_squared_difference)| Medium || 15 | 95.13
-| 2332 |[The Latest Time to Catch a Bus](src/main/java/g2301_2400/s2332_the_latest_time_to_catch_a_bus)| Medium || 28 | 100.00
-| 2331 |[Evaluate Boolean Binary Tree](src/main/java/g2301_2400/s2331_evaluate_boolean_binary_tree)| Easy || 0 | 100.00
+| 2334 |[Subarray With Elements Greater Than Varying Threshold](src/main/java/g2301_2400/s2334_subarray_with_elements_greater_than_varying_threshold)| Hard | Array, Stack, Union_Find, Monotonic_Stack | 385 | 31.56
+| 2333 |[Minimum Sum of Squared Difference](src/main/java/g2301_2400/s2333_minimum_sum_of_squared_difference)| Medium | Array, Math, Sorting, Heap_Priority_Queue | 15 | 95.13
+| 2332 |[The Latest Time to Catch a Bus](src/main/java/g2301_2400/s2332_the_latest_time_to_catch_a_bus)| Medium | Array, Two_Pointers, Binary_Search, Sorting | 28 | 100.00
+| 2331 |[Evaluate Boolean Binary Tree](src/main/java/g2301_2400/s2331_evaluate_boolean_binary_tree)| Easy | Binary_Search, Tree, Depth_First_Search | 0 | 100.00
 | 2328 |[Number of Increasing Paths in a Grid](src/main/java/g2301_2400/s2328_number_of_increasing_paths_in_a_grid)| Hard | Array, Dynamic_Programming, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Memoization, Matrix | 43 | 100.00
 | 2327 |[Number of People Aware of a Secret](src/main/java/g2301_2400/s2327_number_of_people_aware_of_a_secret)| Medium | Dynamic_Programming, Queue, Simulation | 7 | 80.00
 | 2326 |[Spiral Matrix IV](src/main/java/g2301_2400/s2326_spiral_matrix_iv)| Medium | Array, Linked_List, Matrix, Simulation | 12 | 83.33
@@ -3262,7 +3262,7 @@
 | 0493 |[Reverse Pairs](src/main/java/g0401_0500/s0493_reverse_pairs)| Hard | Array, Binary_Search, Ordered_Set, Divide_and_Conquer, Segment_Tree, Binary_Indexed_Tree, Merge_Sort | 121 | 31.13
 | 0492 |[Construct the Rectangle](src/main/java/g0401_0500/s0492_construct_the_rectangle)| Easy | Math | 1 | 74.25
 | 0491 |[Increasing Subsequences](src/main/java/g0401_0500/s0491_increasing_subsequences)| Medium | Array, Hash_Table, Bit_Manipulation, Backtracking | 22 | 46.38
-| 0488 |[Zuma Game](src/main/java/g0401_0500/s0488_zuma_game)| Hard | String, Dynamic_Programming, Breadth_First_Search, Memoization | 2077 | 7.41
+| 0488 |[Zuma Game](src/main/java/g0401_0500/s0488_zuma_game)| Hard | String, Dynamic_Programming, Breadth_First_Search, Memoization | 1989 | 32.79
 | 0486 |[Predict the Winner](src/main/java/g0401_0500/s0486_predict_the_winner)| Medium | Array, Dynamic_Programming, Math, Recursion, Game_Theory | 0 | 100.00
 | 0485 |[Max Consecutive Ones](src/main/java/g0401_0500/s0485_max_consecutive_ones)| Easy | Array | 1 | 100.00
 | 0483 |[Smallest Good Base](src/main/java/g0401_0500/s0483_smallest_good_base)| Hard | Math, Binary_Search | 3 | 87.88
