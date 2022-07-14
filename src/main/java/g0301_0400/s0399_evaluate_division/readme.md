@@ -69,7 +69,6 @@ public class Solution {
             rate.put(x, 1.0);
             rate.put(y, 1.0);
         }
-
         for (int i = 0; i < n; ++i) {
             String x = equations.get(i).get(0);
             String y = equations.get(i).get(1);
