@@ -1826,7 +1826,7 @@
 | 2331 |[Evaluate Boolean Binary Tree](src/main/java/g2301_2400/s2331_evaluate_boolean_binary_tree)| Easy | Binary_Search, Tree, Depth_First_Search | 0 | 100.00
 | 2328 |[Number of Increasing Paths in a Grid](src/main/java/g2301_2400/s2328_number_of_increasing_paths_in_a_grid)| Hard | Array, Dynamic_Programming, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Memoization, Matrix | 43 | 100.00
 | 2327 |[Number of People Aware of a Secret](src/main/java/g2301_2400/s2327_number_of_people_aware_of_a_secret)| Medium | Dynamic_Programming, Queue, Simulation | 7 | 80.00
-| 2326 |[Spiral Matrix IV](src/main/java/g2301_2400/s2326_spiral_matrix_iv)| Medium | Array, Linked_List, Matrix, Simulation | 12 | 83.33
+| 2326 |[Spiral Matrix IV](src/main/java/g2301_2400/s2326_spiral_matrix_iv)| Medium | Array, Linked_List, Matrix, Simulation | 12 | 85.48
 | 2325 |[Decode the Message](src/main/java/g2301_2400/s2325_decode_the_message)| Easy | Hash_Table, String | 7 | 42.86
 | 2322 |[Minimum Score After Removals on a Tree](src/main/java/g2301_2400/s2322_minimum_score_after_removals_on_a_tree)| Hard | Array, Bit_Manipulation, Tree, Depth_First_Search | 255 | 70.70
 | 2321 |[Maximum Score Of Spliced Array](src/main/java/g2301_2400/s2321_maximum_score_of_spliced_array)| Hard | Array, Dynamic_Programming | 3 | 99.68
@@ -2925,7 +2925,7 @@
 | 0905 |[Sort Array By Parity](src/main/java/g0901_1000/s0905_sort_array_by_parity)| Easy | Array, Sorting, Two_Pointers | 1 | 95.51
 | 0904 |[Fruit Into Baskets](src/main/java/g0901_1000/s0904_fruit_into_baskets)| Medium | Array, Hash_Table, Sliding_Window | 6 | 95.60
 | 0903 |[Valid Permutations for DI Sequence](src/main/java/g0901_1000/s0903_valid_permutations_for_di_sequence)| Hard | Dynamic_Programming | 3 | 74.00
-| 0902 |[Numbers At Most N Given Digit Set](src/main/java/g0901_1000/s0902_numbers_at_most_n_given_digit_set)| Hard | Array, Dynamic_Programming, Math, Binary_Search | 2 | 18.29
+| 0902 |[Numbers At Most N Given Digit Set](src/main/java/g0901_1000/s0902_numbers_at_most_n_given_digit_set)| Hard | Array, Dynamic_Programming, Math, Binary_Search | 1 | 87.03
 | 0901 |[Online Stock Span](src/main/java/g0901_1000/s0901_online_stock_span)| Medium | Stack, Design, Monotonic_Stack, Data_Stream | 47 | 76.17
 | 0900 |[RLE Iterator](src/main/java/g0801_0900/s0900_rle_iterator)| Medium | Array, Design, Counting, Iterator | 3 | 100.00
 | 0899 |[Orderly Queue](src/main/java/g0801_0900/s0899_orderly_queue)| Hard | String, Math, Sorting | 1 | 100.00
