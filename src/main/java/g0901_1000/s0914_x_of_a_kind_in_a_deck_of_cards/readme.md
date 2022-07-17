@@ -37,20 +37,21 @@ Return `true` if and only if you can choose `X >= 2` such that it is possible to
 
 ```java
 import java.util.HashMap;
+import java.util.Map;
 
 public class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         HashMap<Integer, Integer> hmap = new HashMap<>();
-        for (int i = 0; i < deck.length; i++) {
-            if (hmap.containsKey(deck[i])) {
-                hmap.put(deck[i], hmap.get(deck[i]) + 1);
+        for (int j : deck) {
+            if (hmap.containsKey(j)) {
+                hmap.put(j, hmap.get(j) + 1);
             } else {
-                hmap.put(deck[i], 1);
+                hmap.put(j, 1);
             }
         }
         int x = hmap.get(deck[0]);
-        for (Integer i : hmap.keySet()) {
-            x = gcd(x, hmap.get(i));
+        for (Map.Entry<Integer, Integer> entry : hmap.entrySet()) {
+            x = gcd(x, entry.getValue());
         }
         return x >= 2;
     }

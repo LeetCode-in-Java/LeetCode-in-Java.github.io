@@ -46,41 +46,32 @@ Return _the reformatted string_ or return **an empty string** if it is impossibl
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("java:S5413")
 public class Solution {
     public String reformat(String s) {
-        List<Character> characterList = new ArrayList<>();
-        List<Character> numberList = new ArrayList<>();
+        List<Character> chars = new ArrayList<>();
+        List<Character> digits = new ArrayList<>();
         for (char c : s.toCharArray()) {
-            if (Character.isAlphabetic(c)) {
-                characterList.add(c);
+            if (c >= '0' && c <= '9') {
+                digits.add(c);
             } else {
-                numberList.add(c);
+                chars.add(c);
             }
         }
-        if (Math.abs(characterList.size() - numberList.size()) > 1) {
+        if (Math.abs(digits.size() - chars.size()) > 1) {
             return "";
-        } else {
-            StringBuilder sb = new StringBuilder();
-            if (characterList.size() > numberList.size()) {
-                for (int i = 0; i < characterList.size() - 1; i++) {
-                    sb.append(characterList.get(i));
-                    sb.append(numberList.get(i));
-                }
-                sb.append(characterList.get(characterList.size() - 1));
-            } else if (characterList.size() == numberList.size()) {
-                for (int i = 0; i < numberList.size(); i++) {
-                    sb.append(numberList.get(i));
-                    sb.append(characterList.get(i));
-                }
-            } else {
-                for (int i = 0; i < numberList.size() - 1; i++) {
-                    sb.append(numberList.get(i));
-                    sb.append(characterList.get(i));
-                }
-                sb.append(numberList.get(numberList.size() - 1));
-            }
-            return sb.toString();
         }
+        boolean isDigit = digits.size() > chars.size();
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            if (isDigit) {
+                sb.append(digits.remove(0));
+            } else {
+                sb.append(chars.remove(0));
+            }
+            isDigit = !isDigit;
+        }
+        return sb.toString();
     }
 }
 ```

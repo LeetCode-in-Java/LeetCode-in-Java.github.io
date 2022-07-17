@@ -46,12 +46,10 @@ public class Solution {
     public int splitArray(int[] nums, int m) {
         int maxVal = 0;
         int minVal = nums[0];
-
         for (int num : nums) {
             maxVal += num;
             minVal = Math.max(minVal, num);
         }
-
         while (minVal < maxVal) {
             int midVal = minVal + (maxVal - minVal) / 2;
             // if we can split, try to reduce the midVal so decrease maxVal
@@ -62,7 +60,6 @@ public class Solution {
                 minVal = midVal + 1;
             }
         }
-
         return minVal;
     }
 
