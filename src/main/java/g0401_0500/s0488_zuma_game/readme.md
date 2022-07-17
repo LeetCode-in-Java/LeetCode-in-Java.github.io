@@ -71,14 +71,15 @@ There are still balls remaining on the board, and you are out of balls to insert
 ## Solution
 
 ```java
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.HashMap;
-import java.util.Stack;
 
 public class Solution {
     private HashMap<String, Integer> map = new HashMap<>();
 
     private String removeConsecutiveThreeOrMoreBalls(String board) {
-        Stack<Character> st = new Stack<>();
+        Deque<Character> st = new ArrayDeque<>();
         int n = board.length();
         for (int i = 0; i < n; i++) {
             char ch = board.charAt(i);
@@ -115,7 +116,9 @@ public class Solution {
             return map.get(key);
         }
         board = removeConsecutiveThreeOrMoreBalls(board);
-        int ans = 100, n = board.length(), m = hand.length();
+        int ans = 100;
+        int n = board.length();
+        int m = hand.length();
         if (n == 0 || m == 0) {
             map.put(key, n == 0 ? 0 : 100);
             return n == 0 ? 0 : 100;

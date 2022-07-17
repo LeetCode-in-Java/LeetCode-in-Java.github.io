@@ -38,6 +38,7 @@ The <code>n<sup>th</sup></code> **super ugly number** is **guaranteed** to fit i
 ## Solution
 
 ```java
+@SuppressWarnings("java:S3012")
 public class Solution {
     public int nthSuperUglyNumber(int n, int[] primes) {
         long[] primes1 = new long[primes.length];
