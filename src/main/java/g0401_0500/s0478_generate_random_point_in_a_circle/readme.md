@@ -62,4 +62,10 @@ public class Solution {
         return center - radius + random.nextDouble() * 2 * radius;
     }
 }
+
+/*
+ * Your Solution object will be instantiated and called as such:
+ * Solution obj = new Solution(radius, x_center, y_center);
+ * double[] param_1 = obj.randPoint();
+ */
 ```

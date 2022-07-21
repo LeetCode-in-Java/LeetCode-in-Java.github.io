@@ -55,7 +55,6 @@ public class Solution {
         if (s > sum || (sum + s) % 2 != 0) {
             return 0;
         }
-
         int[][] dp = new int[(sum + s) / 2 + 1][nums.length + 1];
         dp[0][0] = 1;
         // empty knapsack must be processed specially
