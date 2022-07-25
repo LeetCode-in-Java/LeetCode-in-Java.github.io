@@ -64,9 +64,9 @@ The query result format is in the following example.
 
 ```sql
 # Write your MySQL query statement below
-select activity_date as day, count(distinct user_id) as active_users
+select activity_date as "day", count(distinct user_id) as active_users
 from Activity
 where activity_date between '2019-06-28' and '2019-07-27'
-group by day
+group by "day"
 having count(activity_type) > 0;
 ```
