@@ -779,7 +779,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0005 |[Longest Palindromic Substring](src/main/java/g0001_0100/s0005_longest_palindromic_substring)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming | 10 | 98.57
-| 0516 |[Longest Palindromic Subsequence](src/main/java/g0501_0600/s0516_longest_palindromic_subsequence)| Medium | String, Dynamic_Programming | 31 | 96.10
+| 0516 |[Longest Palindromic Subsequence](src/main/java/g0501_0600/s0516_longest_palindromic_subsequence)| Medium | String, Dynamic_Programming | 88 | 58.87
 
 #### Day 18
 
@@ -801,7 +801,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0322 |[Coin Change](src/main/java/g0301_0400/s0322_coin_change)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Breadth_First_Search | 17 | 91.77
-| 0518 |[Coin Change 2](src/main/java/g0501_0600/s0518_coin_change_2)| Medium | Array, Dynamic_Programming | 3 | 91.32
+| 0518 |[Coin Change 2](src/main/java/g0501_0600/s0518_coin_change_2)| Medium | Array, Dynamic_Programming | 4 | 84.67
 
 #### Day 21
 
@@ -976,7 +976,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0503 |[Next Greater Element II](src/main/java/g0501_0600/s0503_next_greater_element_ii)| Medium | Array, Stack, Monotonic_Stack | 7 | 95.85
+| 0503 |[Next Greater Element II](src/main/java/g0501_0600/s0503_next_greater_element_ii)| Medium | Array, Stack, Monotonic_Stack | 7 | 97.03
 | 0556 |[Next Greater Element III](src/main/java/g0501_0600/s0556_next_greater_element_iii)| Medium | String, Math, Two_Pointers | 0 | 100.00
 
 #### Day 11
@@ -1218,7 +1218,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0586 |[Customer Placing the Largest Number of Orders](src/main/java/g0501_0600/s0586_customer_placing_the_largest_number_of_orders)| Easy | LeetCode_Curated_SQL_70, Database | 392 | 90.54
-| 0511 |[Game Play Analysis I](src/main/java/g0501_0600/s0511_game_play_analysis_i)| Easy | LeetCode_Curated_SQL_70, Database | 620 | 35.70
+| 0511 |[Game Play Analysis I](src/main/java/g0501_0600/s0511_game_play_analysis_i)| Easy | LeetCode_Curated_SQL_70, Database | 586 | 56.94
 | 1890 |[The Latest Login in 2020](src/main/java/g1801_1900/s1890_the_latest_login_in_2020)| Easy | Database | 571 | 73.59
 | 1741 |[Find Total Time Spent by Each Employee](src/main/java/g1701_1800/s1741_find_total_time_spent_by_each_employee)| Easy | Database | 414 | 93.27
 
@@ -3240,26 +3240,26 @@
 | 0523 |[Continuous Subarray Sum](src/main/java/g0501_0600/s0523_continuous_subarray_sum)| Medium | Array, Hash_Table, Math, Prefix_Sum | 25 | 78.40
 | 0522 |[Longest Uncommon Subsequence II](src/main/java/g0501_0600/s0522_longest_uncommon_subsequence_ii)| Medium | Array, String, Hash_Table, Sorting, Two_Pointers | 1 | 100.00
 | 0521 |[Longest Uncommon Subsequence I](src/main/java/g0501_0600/s0521_longest_uncommon_subsequence_i)| Easy | String | 0 | 100.00
-| 0520 |[Detect Capital](src/main/java/g0501_0600/s0520_detect_capital)| Easy | String | 2 | 72.44
-| 0519 |[Random Flip Matrix](src/main/java/g0501_0600/s0519_random_flip_matrix)| Medium | Hash_Table, Math, Randomized, Reservoir_Sampling | 39 | 68.47
-| 0518 |[Coin Change 2](src/main/java/g0501_0600/s0518_coin_change_2)| Medium | Array, Dynamic_Programming, Dynamic_Programming_I_Day_20 | 3 | 91.32
-| 0517 |[Super Washing Machines](src/main/java/g0501_0600/s0517_super_washing_machines)| Hard | Array, Greedy | 0 | 100.00
-| 0516 |[Longest Palindromic Subsequence](src/main/java/g0501_0600/s0516_longest_palindromic_subsequence)| Medium | String, Dynamic_Programming, Dynamic_Programming_I_Day_17 | 31 | 96.10
-| 0515 |[Find Largest Value in Each Tree Row](src/main/java/g0501_0600/s0515_find_largest_value_in_each_tree_row)| Medium | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 1 | 96.84
-| 0514 |[Freedom Trail](src/main/java/g0501_0600/s0514_freedom_trail)| Hard | String, Dynamic_Programming, Depth_First_Search, Breadth_First_Search | 17 | 75.84
-| 0513 |[Find Bottom Left Tree Value](src/main/java/g0501_0600/s0513_find_bottom_left_tree_value)| Medium | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 1 | 80.06
-| 0511 |[Game Play Analysis I](src/main/java/g0501_0600/s0511_game_play_analysis_i)| Easy | LeetCode_Curated_SQL_70, Database, SQL_I_Day_8_Function | 620 | 35.70
+| 0520 |[Detect Capital](src/main/java/g0501_0600/s0520_detect_capital)| Easy | String | 2 | 65.95
+| 0519 |[Random Flip Matrix](src/main/java/g0501_0600/s0519_random_flip_matrix)| Medium | Hash_Table, Math, Randomized, Reservoir_Sampling | 38 | 79.28
+| 0518 |[Coin Change 2](src/main/java/g0501_0600/s0518_coin_change_2)| Medium | Array, Dynamic_Programming, Dynamic_Programming_I_Day_20 | 4 | 84.67
+| 0517 |[Super Washing Machines](src/main/java/g0501_0600/s0517_super_washing_machines)| Hard | Array, Greedy | 1 | 94.02
+| 0516 |[Longest Palindromic Subsequence](src/main/java/g0501_0600/s0516_longest_palindromic_subsequence)| Medium | String, Dynamic_Programming, Dynamic_Programming_I_Day_17 | 88 | 58.87
+| 0515 |[Find Largest Value in Each Tree Row](src/main/java/g0501_0600/s0515_find_largest_value_in_each_tree_row)| Medium | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 2 | 85.27
+| 0514 |[Freedom Trail](src/main/java/g0501_0600/s0514_freedom_trail)| Hard | String, Dynamic_Programming, Depth_First_Search, Breadth_First_Search | 8 | 95.63
+| 0513 |[Find Bottom Left Tree Value](src/main/java/g0501_0600/s0513_find_bottom_left_tree_value)| Medium | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
+| 0511 |[Game Play Analysis I](src/main/java/g0501_0600/s0511_game_play_analysis_i)| Easy | LeetCode_Curated_SQL_70, Database, SQL_I_Day_8_Function | 586 | 56.94
 | 0509 |[Fibonacci Number](src/main/java/g0501_0600/s0509_fibonacci_number)| Easy | Dynamic_Programming, Math, Recursion, Memoization, Dynamic_Programming_I_Day_1, Level_1_Day_10_Dynamic_Programming, Udemy_Dynamic_Programming | 0 | 100.00
-| 0508 |[Most Frequent Subtree Sum](src/main/java/g0501_0600/s0508_most_frequent_subtree_sum)| Medium | Hash_Table, Depth_First_Search, Tree, Binary_Tree | 6 | 77.55
-| 0507 |[Perfect Number](src/main/java/g0501_0600/s0507_perfect_number)| Easy | Math | 2 | 73.73
-| 0506 |[Relative Ranks](src/main/java/g0501_0600/s0506_relative_ranks)| Easy | Array, Sorting, Heap_Priority_Queue | 4 | 99.79
-| 0504 |[Base 7](src/main/java/g0501_0600/s0504_base_7)| Easy | Math | 1 | 94.93
-| 0503 |[Next Greater Element II](src/main/java/g0501_0600/s0503_next_greater_element_ii)| Medium | Array, Stack, Monotonic_Stack, Programming_Skills_II_Day_10 | 7 | 95.85
-| 0502 |[IPO](src/main/java/g0501_0600/s0502_ipo)| Hard | Array, Sorting, Greedy, Heap_Priority_Queue | 43 | 92.06
-| 0501 |[Find Mode in Binary Search Tree](src/main/java/g0501_0600/s0501_find_mode_in_binary_search_tree)| Easy | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 1 | 91.60
-| 0500 |[Keyboard Row](src/main/java/g0401_0500/s0500_keyboard_row)| Easy | Array, String, Hash_Table | 0 | 100.00
-| 0498 |[Diagonal Traverse](src/main/java/g0401_0500/s0498_diagonal_traverse)| Medium | Array, Matrix, Simulation | 2 | 96.07
-| 0497 |[Random Point in Non-overlapping Rectangles](src/main/java/g0401_0500/s0497_random_point_in_non_overlapping_rectangles)| Medium | Math, Binary_Search, Prefix_Sum, Ordered_Set, Randomized, Reservoir_Sampling | 44 | 97.50
+| 0508 |[Most Frequent Subtree Sum](src/main/java/g0501_0600/s0508_most_frequent_subtree_sum)| Medium | Hash_Table, Depth_First_Search, Tree, Binary_Tree | 4 | 96.83
+| 0507 |[Perfect Number](src/main/java/g0501_0600/s0507_perfect_number)| Easy | Math | 2 | 80.46
+| 0506 |[Relative Ranks](src/main/java/g0501_0600/s0506_relative_ranks)| Easy | Array, Sorting, Heap_Priority_Queue | 11 | 72.65
+| 0504 |[Base 7](src/main/java/g0501_0600/s0504_base_7)| Easy | Math | 0 | 100.00
+| 0503 |[Next Greater Element II](src/main/java/g0501_0600/s0503_next_greater_element_ii)| Medium | Array, Stack, Monotonic_Stack, Programming_Skills_II_Day_10 | 7 | 97.03
+| 0502 |[IPO](src/main/java/g0501_0600/s0502_ipo)| Hard | Array, Sorting, Greedy, Heap_Priority_Queue | 51 | 89.62
+| 0501 |[Find Mode in Binary Search Tree](src/main/java/g0501_0600/s0501_find_mode_in_binary_search_tree)| Easy | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 1 | 92.14
+| 0500 |[Keyboard Row](src/main/java/g0401_0500/s0500_keyboard_row)| Easy | Array, String, Hash_Table | 1 | 82.00
+| 0498 |[Diagonal Traverse](src/main/java/g0401_0500/s0498_diagonal_traverse)| Medium | Array, Matrix, Simulation | 4 | 59.46
+| 0497 |[Random Point in Non-overlapping Rectangles](src/main/java/g0401_0500/s0497_random_point_in_non_overlapping_rectangles)| Medium | Math, Binary_Search, Prefix_Sum, Ordered_Set, Randomized, Reservoir_Sampling | 53 | 94.83
 | 0496 |[Next Greater Element I](src/main/java/g0401_0500/s0496_next_greater_element_i)| Easy | Array, Hash_Table, Stack, Monotonic_Stack, Programming_Skills_I_Day_5_Function | 4 | 81.18
 | 0495 |[Teemo Attacking](src/main/java/g0401_0500/s0495_teemo_attacking)| Easy | Array, Simulation | 2 | 97.97
 | 0494 |[Target Sum](src/main/java/g0401_0500/s0494_target_sum)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Backtracking | 9 | 79.99
