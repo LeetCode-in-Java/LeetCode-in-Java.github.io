@@ -77,13 +77,6 @@ Capital gain/loss is the sum of capital gains/losses for each ('Buy' --> 'Sell')
 
 ```sql
 # Write your MySQL query statement below
-SELECT
-    stock_name, 
-    SUM(IF (operation = 1, price, -1 * price)) AS capital_gain_loss
-FROM
-    Stocks
-GROUP BY
-    stock_name
-ORDER BY
-    operation_day asc;
+SELECT stock_name, SUM(CASE WHEN operation='Sell' THEN price ELSE -price END) AS capital_gain_loss
+FROM Stocks GROUP BY stock_name;
 ```
