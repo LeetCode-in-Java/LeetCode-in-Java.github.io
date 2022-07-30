@@ -85,4 +85,10 @@ public class Solution {
         return Objects.requireNonNull(treeSet.ceiling(new int[] {target, 1}))[1];
     }
 }
+
+/*
+ * Your Solution object will be instantiated and called as such:
+ * Solution obj = new Solution(w);
+ * int param_1 = obj.pickIndex();
+ */
 ```

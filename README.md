@@ -607,7 +607,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0154 |[Find Minimum in Rotated Sorted Array II](src/main/java/g0101_0200/s0154_find_minimum_in_rotated_sorted_array_ii)| Hard | Array, Binary_Search | 1 | 77.09
-| 0528 |[Random Pick with Weight](src/main/java/g0501_0600/s0528_random_pick_with_weight)| Medium | Math, Binary_Search, Prefix_Sum, Randomized | 29 | 83.26
+| 0528 |[Random Pick with Weight](src/main/java/g0501_0600/s0528_random_pick_with_weight)| Medium | Math, Binary_Search, Prefix_Sum, Randomized | 42 | 50.90
 
 #### Day 14
 
@@ -1552,7 +1552,7 @@
 | 0442 |[Find All Duplicates in an Array](src/main/java/g0401_0500/s0442_find_all_duplicates_in_an_array)| Medium | Array, Hash_Table | 5 | 98.83
 | 0041 |[First Missing Positive](src/main/java/g0001_0100/s0041_first_missing_positive)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table | 5 | 50.34
 | 0697 |[Degree of an Array](src/main/java/g0601_0700/s0697_degree_of_an_array)| Easy | Array, Hash_Table | 14 | 93.19
-| 0532 |[K-diff Pairs in an Array](src/main/java/g0501_0600/s0532_k_diff_pairs_in_an_array)| Medium | Array, Hash_Table, Sorting, Binary_Search, Two_Pointers | 14 | 49.69
+| 0532 |[K-diff Pairs in an Array](src/main/java/g0501_0600/s0532_k_diff_pairs_in_an_array)| Medium | Array, Hash_Table, Sorting, Binary_Search, Two_Pointers | 13 | 58.23
 | 0713 |[Subarray Product Less Than K](src/main/java/g0701_0800/s0713_subarray_product_less_than_k)| Medium | Array, Sliding_Window | 8 | 39.00
 | 1007 |[Minimum Domino Rotations For Equal Row](src/main/java/g1001_1100/s1007_minimum_domino_rotations_for_equal_row)| Medium | Array, Greedy | 5 | 79.64
 | 1306 |[Jump Game III](src/main/java/g1301_1400/s1306_jump_game_iii)| Medium | Array, Depth_First_Search, Breadth_First_Search | 2 | 96.23
@@ -1816,6 +1816,9 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2350 |[Shortest Impossible Sequence of Rolls](src/main/java/g2301_2400/s2350_shortest_impossible_sequence_of_rolls)| Hard | Array, Hash_Table, Greedy | 12 | 87.73
+| 2349 |[Design a Number Container System](src/main/java/g2301_2400/s2349_design_a_number_container_system)| Medium | Hash_Table, Design, Heap_Priority_Queue, Ordered_Set | 208 | 54.57
+| 2348 |[Number of Zero-Filled Subarrays](src/main/java/g2301_2400/s2348_number_of_zero_filled_subarrays)| Medium | Array, Math | 3 | 99.90
 | 2347 |[Best Poker Hand](src/main/java/g2301_2400/s2347_best_poker_hand)| Easy | Array, Hash_Table, Counting | 1 | 76.92
 | 2344 |[Minimum Deletions to Make Array Divisible](src/main/java/g2301_2400/s2344_minimum_deletions_to_make_array_divisible)| Hard | Array, Math, Sorting, Heap_Priority_Queue, Number_Theory | 13 | 88.89
 | 2343 |[Query Kth Smallest Trimmed Number](src/main/java/g2301_2400/s2343_query_kth_smallest_trimmed_number)| Medium | Array, String, Divide_and_Conquer, Sorting, Heap_Priority_Queue, Radix_Sort, Quickselect | 52 | 75.00
@@ -3231,15 +3234,15 @@
 | 0538 |[Convert BST to Greater Tree](src/main/java/g0501_0600/s0538_convert_bst_to_greater_tree)| Medium | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 1 | 83.78
 | 0537 |[Complex Number Multiplication](src/main/java/g0501_0600/s0537_complex_number_multiplication)| Medium | String, Math, Simulation | 7 | 62.22
 | 0535 |[Encode and Decode TinyURL](src/main/java/g0501_0600/s0535_encode_and_decode_tinyurl)| Medium | String, Hash_Table, Design, Hash_Function | 4 | 65.42
-| 0532 |[K-diff Pairs in an Array](src/main/java/g0501_0600/s0532_k_diff_pairs_in_an_array)| Medium | Array, Hash_Table, Sorting, Binary_Search, Two_Pointers, Udemy_Arrays | 14 | 49.69
-| 0530 |[Minimum Absolute Difference in BST](src/main/java/g0501_0600/s0530_minimum_absolute_difference_in_bst)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 0 | 100.00
+| 0532 |[K-diff Pairs in an Array](src/main/java/g0501_0600/s0532_k_diff_pairs_in_an_array)| Medium | Array, Hash_Table, Sorting, Binary_Search, Two_Pointers, Udemy_Arrays | 13 | 58.23
+| 0530 |[Minimum Absolute Difference in BST](src/main/java/g0501_0600/s0530_minimum_absolute_difference_in_bst)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 1 | 92.05
 | 0529 |[Minesweeper](src/main/java/g0501_0600/s0529_minesweeper)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix | 0 | 100.00
-| 0528 |[Random Pick with Weight](src/main/java/g0501_0600/s0528_random_pick_with_weight)| Medium | Math, Binary_Search, Prefix_Sum, Randomized, Binary_Search_II_Day_13 | 29 | 83.26
-| 0526 |[Beautiful Arrangement](src/main/java/g0501_0600/s0526_beautiful_arrangement)| Medium | Array, Dynamic_Programming, Bit_Manipulation, Backtracking, Bitmask | 3 | 98.99
-| 0525 |[Contiguous Array](src/main/java/g0501_0600/s0525_contiguous_array)| Medium | Array, Hash_Table, Prefix_Sum | 17 | 92.02
-| 0524 |[Longest Word in Dictionary through Deleting](src/main/java/g0501_0600/s0524_longest_word_in_dictionary_through_deleting)| Medium | Array, String, Sorting, Two_Pointers | 10 | 97.43
-| 0523 |[Continuous Subarray Sum](src/main/java/g0501_0600/s0523_continuous_subarray_sum)| Medium | Array, Hash_Table, Math, Prefix_Sum | 25 | 78.40
-| 0522 |[Longest Uncommon Subsequence II](src/main/java/g0501_0600/s0522_longest_uncommon_subsequence_ii)| Medium | Array, String, Hash_Table, Sorting, Two_Pointers | 1 | 100.00
+| 0528 |[Random Pick with Weight](src/main/java/g0501_0600/s0528_random_pick_with_weight)| Medium | Math, Binary_Search, Prefix_Sum, Randomized, Binary_Search_II_Day_13 | 42 | 50.90
+| 0526 |[Beautiful Arrangement](src/main/java/g0501_0600/s0526_beautiful_arrangement)| Medium | Array, Dynamic_Programming, Bit_Manipulation, Backtracking, Bitmask | 3 | 98.66
+| 0525 |[Contiguous Array](src/main/java/g0501_0600/s0525_contiguous_array)| Medium | Array, Hash_Table, Prefix_Sum | 31 | 80.05
+| 0524 |[Longest Word in Dictionary through Deleting](src/main/java/g0501_0600/s0524_longest_word_in_dictionary_through_deleting)| Medium | Array, String, Sorting, Two_Pointers | 19 | 89.67
+| 0523 |[Continuous Subarray Sum](src/main/java/g0501_0600/s0523_continuous_subarray_sum)| Medium | Array, Hash_Table, Math, Prefix_Sum | 37 | 41.45
+| 0522 |[Longest Uncommon Subsequence II](src/main/java/g0501_0600/s0522_longest_uncommon_subsequence_ii)| Medium | Array, String, Hash_Table, Sorting, Two_Pointers | 1 | 99.61
 | 0521 |[Longest Uncommon Subsequence I](src/main/java/g0501_0600/s0521_longest_uncommon_subsequence_i)| Easy | String | 0 | 100.00
 | 0520 |[Detect Capital](src/main/java/g0501_0600/s0520_detect_capital)| Easy | String | 2 | 65.95
 | 0519 |[Random Flip Matrix](src/main/java/g0501_0600/s0519_random_flip_matrix)| Medium | Hash_Table, Math, Randomized, Reservoir_Sampling | 38 | 79.28
