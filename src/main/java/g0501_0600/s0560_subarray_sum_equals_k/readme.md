@@ -48,7 +48,6 @@ public class Solution {
                 sumCount.put(tempSum, 1);
             }
         }
-
         return ret;
     }
 }

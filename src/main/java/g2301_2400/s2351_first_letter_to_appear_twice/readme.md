@@ -1,0 +1,69 @@
+[![](https://img.shields.io/github/stars/javadev/LeetCode-in-Java?label=Stars&style=flat-square)](https://github.com/javadev/LeetCode-in-Java)
+[![](https://img.shields.io/github/forks/javadev/LeetCode-in-Java?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/javadev/LeetCode-in-Java/fork)
+
+## 2351\. First Letter to Appear Twice
+
+Easy
+
+Given a string `s` consisting of lowercase English letters, return _the first letter to appear **twice**_.
+
+**Note**:
+
+*   A letter `a` appears twice before another letter `b` if the **second** occurrence of `a` is before the **second** occurrence of `b`.
+*   `s` will contain at least one letter that appears twice.
+
+**Example 1:**
+
+**Input:** s = "abccbaacz"
+
+**Output:** "c"
+
+**Explanation:**
+
+The letter 'a' appears on the indexes 0, 5 and 6.
+
+The letter 'b' appears on the indexes 1 and 4.
+
+The letter 'c' appears on the indexes 2, 3 and 7.
+
+The letter 'z' appears on the index 8.
+
+The letter 'c' is the first letter to appear twice, because out of all the letters the index of its second occurrence is the smallest.
+
+**Example 2:**
+
+**Input:** s = "abcdd"
+
+**Output:** "d"
+
+**Explanation:**
+
+The only letter that appears twice is 'd' so we return 'd'. 
+
+**Constraints:**
+
+*   `2 <= s.length <= 100`
+*   `s` consists of lowercase English letters.
+*   `s` has at least one repeated letter.
+
+## Solution
+
+```java
+import java.util.HashMap;
+
+public class Solution {
+    public char repeatedCharacter(String s) {
+        HashMap<Character, Integer> map = new HashMap<>();
+        for (int i = 0; i < s.length(); i++) {
+            if (map.containsKey(s.charAt(i))) {
+                if (map.get(s.charAt(i)) >= 1) {
+                    return s.charAt(i);
+                }
+            } else {
+                map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);
+            }
+        }
+        return 'c';
+    }
+}
+```
