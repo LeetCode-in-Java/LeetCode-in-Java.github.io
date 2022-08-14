@@ -53,7 +53,6 @@ public class Solution {
         if (first + second == 2 * num) {
             return first < second ? String.valueOf(first) : String.valueOf(second);
         }
-
         return Math.abs(num - first) > Math.abs(num - second)
                 ? String.valueOf(second)
                 : String.valueOf(first);
@@ -69,7 +68,6 @@ public class Solution {
         } else if (numOfDigits < length) {
             return ((long) Math.pow(10, numOfDigits) - 1);
         }
-
         num = num - num % (long) Math.pow(10, numOfDigits / 2);
         long temp = num;
         for (int j = 0; j < numOfDigits / 2; j++) {
