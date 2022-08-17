@@ -1816,6 +1816,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2370 |[Longest Ideal Subsequence](src/main/java/g2301_2400/s2370_longest_ideal_subsequence)| Medium | String, Hash_Table, Dynamic_Programming | 28 | 85.71
+| 2369 |[Check if There is a Valid Partition For The Array](src/main/java/g2301_2400/s2369_check_if_there_is_a_valid_partition_for_the_array)| Medium | Array, Dynamic_Programming | 7 | 81.82
+| 2368 |[Reachable Nodes With Restrictions](src/main/java/g2301_2400/s2368_reachable_nodes_with_restrictions)| Medium | Array, Tree, Graph, Hash_Table, Depth_First_Search, Breadth_First_Search | 59 | 85.71
+| 2367 |[Number of Arithmetic Triplets](src/main/java/g2301_2400/s2367_number_of_arithmetic_triplets)| Easy | Array, Enumeration, Hash_Table, Two_Pointers | 3 | 66.67
+| 2366 |[Minimum Replacements to Sort the Array](src/main/java/g2301_2400/s2366_minimum_replacements_to_sort_the_array)| Hard | Array, Math, Greedy | 10 | 28.57
+| 2365 |[Task Scheduler II](src/main/java/g2301_2400/s2365_task_scheduler_ii)| Medium | Array, Simulation, Hash_Table | 70 | 55.56
+| 2364 |[Count Number of Bad Pairs](src/main/java/g2301_2400/s2364_count_number_of_bad_pairs)| Medium | Array, Hash_Table | 44 | 80.00
+| 2363 |[Merge Similar Items](src/main/java/g2301_2400/s2363_merge_similar_items)| Easy | Array, Sorting, Hash_Table, Ordered_Set | 3 | 100.00
 | 2360 |[Longest Cycle in a Graph](src/main/java/g2301_2400/s2360_longest_cycle_in_a_graph)| Hard | Depth_First_Search, Graph, Topological_Sort | 37 | 90.19
 | 2359 |[Find Closest Node to Given Two Nodes](src/main/java/g2301_2400/s2359_find_closest_node_to_given_two_nodes)| Medium | Depth_First_Search, Graph | 18 | 89.33
 | 2358 |[Maximum Number of Groups Entering a Competition](src/main/java/g2301_2400/s2358_maximum_number_of_groups_entering_a_competition)| Medium | Array, Math, Binary_Search, Greedy | 0 | 100.00
@@ -1823,7 +1831,7 @@
 | 2354 |[Number of Excellent Pairs](src/main/java/g2301_2400/s2354_number_of_excellent_pairs)| Hard | Array, Hash_Table, Binary_Search, Bit_Manipulation | 80 | 86.77
 | 2353 |[Design a Food Rating System](src/main/java/g2301_2400/s2353_design_a_food_rating_system)| Medium | Hash_Table, Design, Heap_Priority_Queue, Ordered_Set | 364 | 83.35
 | 2352 |[Equal Row and Column Pairs](src/main/java/g2301_2400/s2352_equal_row_and_column_pairs)| Medium | Array, Hash_Table, Matrix, Simulation | 7 | 98.94
-| 2351 |[First Letter to Appear Twice](src/main/java/g2301_2400/s2351_first_letter_to_appear_twice)| Easy | Hash_Table, String, Counting | 1 | 63.38
+| 2351 |[First Letter to Appear Twice](src/main/java/g2301_2400/s2351_first_letter_to_appear_twice)| Easy | Hash_Table, String, Counting | 0 | 100.00
 | 2350 |[Shortest Impossible Sequence of Rolls](src/main/java/g2301_2400/s2350_shortest_impossible_sequence_of_rolls)| Hard | Array, Hash_Table, Greedy | 12 | 87.73
 | 2349 |[Design a Number Container System](src/main/java/g2301_2400/s2349_design_a_number_container_system)| Medium | Hash_Table, Design, Heap_Priority_Queue, Ordered_Set | 208 | 54.57
 | 2348 |[Number of Zero-Filled Subarrays](src/main/java/g2301_2400/s2348_number_of_zero_filled_subarrays)| Medium | Array, Math | 3 | 99.90

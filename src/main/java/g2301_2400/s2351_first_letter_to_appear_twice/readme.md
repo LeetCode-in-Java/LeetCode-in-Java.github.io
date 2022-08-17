@@ -49,21 +49,18 @@ The only letter that appears twice is 'd' so we return 'd'.
 ## Solution
 
 ```java
-import java.util.HashMap;
-
 public class Solution {
     public char repeatedCharacter(String s) {
-        HashMap<Character, Integer> map = new HashMap<>();
-        for (int i = 0; i < s.length(); i++) {
-            if (map.containsKey(s.charAt(i))) {
-                if (map.get(s.charAt(i)) >= 1) {
-                    return s.charAt(i);
-                }
-            } else {
-                map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);
+        int n = s.length();
+        int[] hm = new int[26];
+        for (int i = 0; i < n; i++) {
+            char c = s.charAt(i);
+            hm[c - 'a']++;
+            if (hm[c - 'a'] > 1) {
+                return c;
             }
         }
-        return 'c';
+        return '0';
     }
 }
 ```
