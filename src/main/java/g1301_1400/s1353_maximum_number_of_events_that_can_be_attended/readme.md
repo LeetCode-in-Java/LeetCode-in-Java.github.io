@@ -45,27 +45,31 @@ Attend the third event on day 3.
 
 ```java
 import java.util.Arrays;
-import java.util.PriorityQueue;
+import java.util.Comparator;
 
 public class Solution {
     public int maxEvents(int[][] events) {
-        Arrays.sort(events, (a, b) -> a[0] != b[0] ? a[0] - b[0] : a[1] - b[1]);
-        PriorityQueue<Integer> heap = new PriorityQueue<>();
-        int maxEvents = 0;
-        int i = 0;
-        for (int day = 1; day <= 100000; day++) {
-            while (i < events.length && events[i][0] == day) {
-                heap.offer(events[i++][1]);
-            }
-            while (!heap.isEmpty() && heap.peek() < day) {
-                heap.poll();
-            }
-            if (!heap.isEmpty()) {
-                heap.poll();
-                maxEvents++;
+        Arrays.sort(events, Comparator.comparingInt(e -> e[1]));
+        int[] root = new int[events[events.length - 1][1] + 2];
+        for (int i = 1; i < root.length; i++) {
+            root[i] = i;
+        }
+        int res = 0;
+        for (int[] e : events) {
+            int nxtAvailable = find(root, e[0]);
+            if (nxtAvailable <= e[1]) {
+                res++;
+                root[nxtAvailable] = find(root, nxtAvailable + 1);
             }
         }
-        return maxEvents;
+        return res;
+    }
+
+    private int find(int[] root, int i) {
+        if (root[i] != i) {
+            return root[i] = find(root, root[i]);
+        }
+        return i;
     }
 }
 ```

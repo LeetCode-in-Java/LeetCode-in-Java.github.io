@@ -1816,6 +1816,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2376 |[Count Special Integers](src/main/java/g2301_2400/s2376_count_special_integers)| Hard | Math, Dynamic_Programming | 0 | 100.00
+| 2375 |[Construct Smallest Number From DI String](src/main/java/g2301_2400/s2375_construct_smallest_number_from_di_string)| Medium | String, Greedy, Stack, Backtracking | 0 | 100.00
+| 2374 |[Node With Highest Edge Score](src/main/java/g2301_2400/s2374_node_with_highest_edge_score)| Medium | Graph, Hash_Table | 4 | 97.68
+| 2373 |[Largest Local Values in a Matrix](src/main/java/g2301_2400/s2373_largest_local_values_in_a_matrix)| Easy | Array, Matrix | 2 | 99.97
 | 2370 |[Longest Ideal Subsequence](src/main/java/g2301_2400/s2370_longest_ideal_subsequence)| Medium | String, Hash_Table, Dynamic_Programming | 28 | 85.71
 | 2369 |[Check if There is a Valid Partition For The Array](src/main/java/g2301_2400/s2369_check_if_there_is_a_valid_partition_for_the_array)| Medium | Array, Dynamic_Programming | 7 | 81.82
 | 2368 |[Reachable Nodes With Restrictions](src/main/java/g2301_2400/s2368_reachable_nodes_with_restrictions)| Medium | Array, Tree, Graph, Hash_Table, Depth_First_Search, Breadth_First_Search | 59 | 85.71
@@ -2358,7 +2362,7 @@
 | 1679 |[Max Number of K-Sum Pairs](src/main/java/g1601_1700/s1679_max_number_of_k_sum_pairs)| Medium | Array, Hash_Table, Sorting, Two_Pointers | 20 | 91.22
 | 1678 |[Goal Parser Interpretation](src/main/java/g1601_1700/s1678_goal_parser_interpretation)| Easy | String, Programming_Skills_I_Day_8_String | 0 | 100.00
 | 1675 |[Minimize Deviation in Array](src/main/java/g1601_1700/s1675_minimize_deviation_in_array)| Hard | Array, Greedy, Heap_Priority_Queue, Ordered_Set | 104 | 88.83
-| 1674 |[Minimum Moves to Make Array Complementary](src/main/java/g1601_1700/s1674_minimum_moves_to_make_array_complementary)| Medium | Array, Hash_Table, Prefix_Sum | 29 | 22.22
+| 1674 |[Minimum Moves to Make Array Complementary](src/main/java/g1601_1700/s1674_minimum_moves_to_make_array_complementary)| Medium | Array, Hash_Table, Prefix_Sum | 12 | 80.39
 | 1673 |[Find the Most Competitive Subsequence](src/main/java/g1601_1700/s1673_find_the_most_competitive_subsequence)| Medium | Array, Greedy, Stack, Monotonic_Stack | 7 | 96.82
 | 1672 |[Richest Customer Wealth](src/main/java/g1601_1700/s1672_richest_customer_wealth)| Easy | Array, Matrix, Programming_Skills_I_Day_6_Array | 0 | 100.00
 | 1671 |[Minimum Number of Removals to Make Mountain Array](src/main/java/g1601_1700/s1671_minimum_number_of_removals_to_make_mountain_array)| Hard | Array, Dynamic_Programming, Greedy, Binary_Search | 19 | 81.23
@@ -2614,7 +2618,7 @@
 | 1357 |[Apply Discount Every n Orders](src/main/java/g1301_1400/s1357_apply_discount_every_n_orders)| Medium | Array, Hash_Table, Design | 174 | 58.82
 | 1356 |[Sort Integers by The Number of 1 Bits](src/main/java/g1301_1400/s1356_sort_integers_by_the_number_of_1_bits)| Easy | Array, Sorting, Bit_Manipulation, Counting, Programming_Skills_I_Day_11_Containers_and_Libraries | 10 | 65.50
 | 1354 |[Construct Target Array With Multiple Sums](src/main/java/g1301_1400/s1354_construct_target_array_with_multiple_sums)| Hard | Array, Heap_Priority_Queue | 2 | 100.00
-| 1353 |[Maximum Number of Events That Can Be Attended](src/main/java/g1301_1400/s1353_maximum_number_of_events_that_can_be_attended)| Medium | Array, Greedy, Heap_Priority_Queue | 70 | 21.66
+| 1353 |[Maximum Number of Events That Can Be Attended](src/main/java/g1301_1400/s1353_maximum_number_of_events_that_can_be_attended)| Medium | Array, Greedy, Heap_Priority_Queue | 53 | 99.53
 | 1352 |[Product of the Last K Numbers](src/main/java/g1301_1400/s1352_product_of_the_last_k_numbers)| Medium | Array, Math, Design, Queue, Data_Stream | 24 | 60.43
 | 1351 |[Count Negative Numbers in a Sorted Matrix](src/main/java/g1301_1400/s1351_count_negative_numbers_in_a_sorted_matrix)| Easy | Array, Binary_Search, Matrix, Binary_Search_I_Day_8 | 1 | 49.66
 | 1349 |[Maximum Students Taking Exam](src/main/java/g1301_1400/s1349_maximum_students_taking_exam)| Hard | Array, Dynamic_Programming, Matrix, Bit_Manipulation, Bitmask | 4 | 76.98
@@ -3046,7 +3050,7 @@
 | 0808 |[Soup Servings](src/main/java/g0801_0900/s0808_soup_servings)| Medium | Dynamic_Programming, Math, Probability_and_Statistics | 1 | 96.04
 | 0807 |[Max Increase to Keep City Skyline](src/main/java/g0801_0900/s0807_max_increase_to_keep_city_skyline)| Medium | Array, Greedy, Matrix | 2 | 23.49
 | 0806 |[Number of Lines To Write String](src/main/java/g0801_0900/s0806_number_of_lines_to_write_string)| Easy | Array, String | 1 | 65.23
-| 0805 |[Split Array With Same Average](src/main/java/g0801_0900/s0805_split_array_with_same_average)| Hard | Array, Dynamic_Programming, Math, Bit_Manipulation, Bitmask | 1323 | 22.41
+| 0805 |[Split Array With Same Average](src/main/java/g0801_0900/s0805_split_array_with_same_average)| Hard | Array, Dynamic_Programming, Math, Bit_Manipulation, Bitmask | 1 | 100.00
 | 0804 |[Unique Morse Code Words](src/main/java/g0801_0900/s0804_unique_morse_code_words)| Easy | Array, String, Hash_Table | 2 | 89.27
 | 0803 |[Bricks Falling When Hit](src/main/java/g0801_0900/s0803_bricks_falling_when_hit)| Hard | Array, Matrix, Union_Find | 12 | 94.92
 | 0802 |[Find Eventual Safe States](src/main/java/g0801_0900/s0802_find_eventual_safe_states)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Graph_Theory_I_Day_9_Standard_Traversal | 7 | 74.93
@@ -3286,7 +3290,7 @@
 | 0493 |[Reverse Pairs](src/main/java/g0401_0500/s0493_reverse_pairs)| Hard | Array, Binary_Search, Ordered_Set, Divide_and_Conquer, Segment_Tree, Binary_Indexed_Tree, Merge_Sort | 92 | 52.08
 | 0492 |[Construct the Rectangle](src/main/java/g0401_0500/s0492_construct_the_rectangle)| Easy | Math | 1 | 74.88
 | 0491 |[Increasing Subsequences](src/main/java/g0401_0500/s0491_increasing_subsequences)| Medium | Array, Hash_Table, Bit_Manipulation, Backtracking | 24 | 38.30
-| 0488 |[Zuma Game](src/main/java/g0401_0500/s0488_zuma_game)| Hard | String, Dynamic_Programming, Breadth_First_Search, Memoization | 1593 | 37.71
+| 0488 |[Zuma Game](src/main/java/g0401_0500/s0488_zuma_game)| Hard | String, Dynamic_Programming, Breadth_First_Search, Memoization | 370 | 90.36
 | 0486 |[Predict the Winner](src/main/java/g0401_0500/s0486_predict_the_winner)| Medium | Array, Dynamic_Programming, Math, Recursion, Game_Theory | 1 | 85.17
 | 0485 |[Max Consecutive Ones](src/main/java/g0401_0500/s0485_max_consecutive_ones)| Easy | Array | 1 | 100.00
 | 0483 |[Smallest Good Base](src/main/java/g0401_0500/s0483_smallest_good_base)| Hard | Math, Binary_Search | 2 | 96.00
