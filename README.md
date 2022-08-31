@@ -62,21 +62,21 @@
 | 0003 |[Longest Substring Without Repeating Characters](src/main/java/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window | 5 | 91.03
 | 0567 |[Permutation in String](src/main/java/g0501_0600/s0567_permutation_in_string)| Medium | String, Hash_Table, Two_Pointers, Sliding_Window | 5 | 93.93
 
-#### Day 7 Breadth-First Search Depth-First Search
+#### Day 7 Breadth First Search Depth First Search
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0733 |[Flood Fill](src/main/java/g0701_0800/s0733_flood_fill)| Easy | Array, Depth_First_Search, Breadth_First_Search, Matrix | 1 | 85.36
 | 0695 |[Max Area of Island](src/main/java/g0601_0700/s0695_max_area_of_island)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 3 | 76.79
 
-#### Day 8 Breadth-First Search Depth-First Search
+#### Day 8 Breadth First Search Depth First Search
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0617 |[Merge Two Binary Trees](src/main/java/g0601_0700/s0617_merge_two_binary_trees)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 1 | 72.47
 | 0116 |[Populating Next Right Pointers in Each Node](src/main/java/g0101_0200/s0116_populating_next_right_pointers_in_each_node)| Medium | Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Linked_List | 0 | 100.00
 
-#### Day 9 Breadth-First Search Depth-First Search
+#### Day 9 Breadth First Search Depth First Search
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
@@ -690,7 +690,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0589 |[N-ary Tree Preorder Traversal](src/main/java/g0501_0600/s0589_n_ary_tree_preorder_traversal)| Easy | Depth_First_Search, Tree, Stack | 2 | 54.35
+| 0589 |[N-ary Tree Preorder Traversal](src/main/java/g0501_0600/s0589_n_ary_tree_preorder_traversal)| Easy | Depth_First_Search, Tree, Stack | 1 | 90.98
 | 0496 |[Next Greater Element I](src/main/java/g0401_0500/s0496_next_greater_element_i)| Easy | Array, Hash_Table, Stack, Monotonic_Stack | 4 | 81.18
 | 1232 |[Check If It Is a Straight Line](src/main/java/g1201_1300/s1232_check_if_it_is_a_straight_line)| Easy | Array, Math, Geometry | 0 | 100.00
 
@@ -1003,7 +1003,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0595 |[Big Countries](src/main/java/g0501_0600/s0595_big_countries)| Easy | Database | 241 | 92.61
+| 0595 |[Big Countries](src/main/java/g0501_0600/s0595_big_countries)| Easy | Database | 262 | 84.64
 | 1757 |[Recyclable and Low Fat Products](src/main/java/g1701_1800/s1757_recyclable_and_low_fat_products)| Easy | Database | 475 | 71.54
 | 0584 |[Find Customer Referee](src/main/java/g0501_0600/s0584_find_customer_referee)| Easy | Database | 531 | 58.63
 | 0183 |[Customers Who Never Order](src/main/java/g0101_0200/s0183_customers_who_never_order)| Easy | Database | 376 | 98.73
@@ -1123,7 +1123,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0589 |[N-ary Tree Preorder Traversal](src/main/java/g0501_0600/s0589_n_ary_tree_preorder_traversal)| Easy | Depth_First_Search, Tree, Stack | 2 | 54.35
+| 0589 |[N-ary Tree Preorder Traversal](src/main/java/g0501_0600/s0589_n_ary_tree_preorder_traversal)| Easy | Depth_First_Search, Tree, Stack | 1 | 90.98
 | 0102 |[Binary Tree Level Order Traversal](src/main/java/g0101_0200/s0102_binary_tree_level_order_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 1 | 91.09
 
 #### Day 7 Binary Search
@@ -1816,6 +1816,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2386 |[Find the K-Sum of an Array](src/main/java/g2301_2400/s2386_find_the_k_sum_of_an_array)| Hard | Array, Sorting, Heap_Priority_Queue | 75 | 100.00
+| 2385 |[Amount of Time for Binary Tree to Be Infected](src/main/java/g2301_2400/s2385_amount_of_time_for_binary_tree_to_be_infected)| Medium | Tree, Binary_Tree, Depth_First_Search, Breadth_First_Search | 20 | 100.00
+| 2384 |[Largest Palindromic Number](src/main/java/g2301_2400/s2384_largest_palindromic_number)| Medium | String, Hash_Table, Greedy | 26 | 100.00
+| 2383 |[Minimum Hours of Training to Win a Competition](src/main/java/g2301_2400/s2383_minimum_hours_of_training_to_win_a_competition)| Easy | Array, Greedy | 0 | 100.00
+| 2382 |[Maximum Segment Sum After Removals](src/main/java/g2301_2400/s2382_maximum_segment_sum_after_removals)| Hard | Array, Prefix_Sum, Union_Find, Ordered_Set | 28 | 100.00
+| 2381 |[Shifting Letters II](src/main/java/g2301_2400/s2381_shifting_letters_ii)| Medium | Array, String, Prefix_Sum | 10 | 75.00
+| 2380 |[Time Needed to Rearrange a Binary String](src/main/java/g2301_2400/s2380_time_needed_to_rearrange_a_binary_string)| Medium | String, Dynamic_Programming, Simulation | 3 | 70.00
+| 2379 |[Minimum Recolors to Get K Consecutive Black Blocks](src/main/java/g2301_2400/s2379_minimum_recolors_to_get_k_consecutive_black_blocks)| Easy | String, Sliding_Window | 1 | 80.00
 | 2376 |[Count Special Integers](src/main/java/g2301_2400/s2376_count_special_integers)| Hard | Dynamic_Programming, Math | 0 | 100.00
 | 2375 |[Construct Smallest Number From DI String](src/main/java/g2301_2400/s2375_construct_smallest_number_from_di_string)| Medium | String, Greedy, Stack, Backtracking | 0 | 100.00
 | 2374 |[Node With Highest Edge Score](src/main/java/g2301_2400/s2374_node_with_highest_edge_score)| Medium | Hash_Table, Graph | 4 | 97.68
@@ -2081,7 +2089,7 @@
 | 2040 |[Kth Smallest Product of Two Sorted Arrays](src/main/java/g2001_2100/s2040_kth_smallest_product_of_two_sorted_arrays)| Hard | Array, Binary_Search | 635 | 75.24
 | 2039 |[The Time When the Network Becomes Idle](src/main/java/g2001_2100/s2039_the_time_when_the_network_becomes_idle)| Medium | Array, Breadth_First_Search, Graph | 134 | 72.29
 | 2038 |[Remove Colored Pieces if Both Neighbors are the Same Color](src/main/java/g2001_2100/s2038_remove_colored_pieces_if_both_neighbors_are_the_same_color)| Medium | String, Math, Greedy, Game_Theory | 22 | 47.78
-| 2037 |[Minimum Number of Moves to Seat Everyone](src/main/java/g2001_2100/s2037_minimum_number_of_moves_to_seat_everyone)| Easy | Array, Sorting | 5 | 22.01
+| 2037 |[Minimum Number of Moves to Seat Everyone](src/main/java/g2001_2100/s2037_minimum_number_of_moves_to_seat_everyone)| Easy | Array, Sorting | 2 | 99.31
 | 2035 |[Partition Array Into Two Arrays to Minimize Sum Difference](src/main/java/g2001_2100/s2035_partition_array_into_two_arrays_to_minimize_sum_difference)| Hard | Array, Dynamic_Programming, Binary_Search, Two_Pointers, Bit_Manipulation, Ordered_Set, Bitmask | 1336 | 39.36
 | 2034 |[Stock Price Fluctuation](src/main/java/g2001_2100/s2034_stock_price_fluctuation)| Medium | Hash_Table, Design, Heap_Priority_Queue, Ordered_Set, Data_Stream | 163 | 65.51
 | 2033 |[Minimum Operations to Make a Uni-Value Grid](src/main/java/g2001_2100/s2033_minimum_operations_to_make_a_uni_value_grid)| Medium | Array, Math, Sorting, Matrix | 41 | 87.53
@@ -3213,15 +3221,15 @@
 | 0600 |[Non-negative Integers without Consecutive Ones](src/main/java/g0501_0600/s0600_non_negative_integers_without_consecutive_ones)| Hard | Dynamic_Programming | 2 | 74.62
 | 0599 |[Minimum Index Sum of Two Lists](src/main/java/g0501_0600/s0599_minimum_index_sum_of_two_lists)| Easy | Array, String, Hash_Table | 7 | 93.97
 | 0598 |[Range Addition II](src/main/java/g0501_0600/s0598_range_addition_ii)| Easy | Array, Math | 0 | 100.00
-| 0596 |[Classes More Than 5 Students](src/main/java/g0501_0600/s0596_classes_more_than_5_students)| Easy | Database | 243 | 92.65
-| 0595 |[Big Countries](src/main/java/g0501_0600/s0595_big_countries)| Easy | Database, SQL_I_Day_1_Select | 241 | 92.61
-| 0594 |[Longest Harmonious Subsequence](src/main/java/g0501_0600/s0594_longest_harmonious_subsequence)| Easy | Array, Hash_Table, Sorting | 11 | 99.77
-| 0593 |[Valid Square](src/main/java/g0501_0600/s0593_valid_square)| Medium | Math, Geometry | 1 | 97.14
-| 0592 |[Fraction Addition and Subtraction](src/main/java/g0501_0600/s0592_fraction_addition_and_subtraction)| Medium | String, Math, Simulation | 4 | 98.58
-| 0591 |[Tag Validator](src/main/java/g0501_0600/s0591_tag_validator)| Hard | String, Stack | 3 | 70.89
-| 0590 |[N-ary Tree Postorder Traversal](src/main/java/g0501_0600/s0590_n_ary_tree_postorder_traversal)| Easy | Depth_First_Search, Tree, Stack | 0 | 100.00
-| 0589 |[N-ary Tree Preorder Traversal](src/main/java/g0501_0600/s0589_n_ary_tree_preorder_traversal)| Easy | Depth_First_Search, Tree, Stack, Programming_Skills_I_Day_5_Function, Level_1_Day_6_Tree | 2 | 54.35
-| 0587 |[Erect the Fence](src/main/java/g0501_0600/s0587_erect_the_fence)| Hard | Array, Math, Geometry | 10 | 87.50
+| 0596 |[Classes More Than 5 Students](src/main/java/g0501_0600/s0596_classes_more_than_5_students)| Easy | Database | 290 | 74.62
+| 0595 |[Big Countries](src/main/java/g0501_0600/s0595_big_countries)| Easy | Database, SQL_I_Day_1_Select | 262 | 84.64
+| 0594 |[Longest Harmonious Subsequence](src/main/java/g0501_0600/s0594_longest_harmonious_subsequence)| Easy | Array, Hash_Table, Sorting | 16 | 95.95
+| 0593 |[Valid Square](src/main/java/g0501_0600/s0593_valid_square)| Medium | Math, Geometry | 1 | 97.24
+| 0592 |[Fraction Addition and Subtraction](src/main/java/g0501_0600/s0592_fraction_addition_and_subtraction)| Medium | String, Math, Simulation | 6 | 91.33
+| 0591 |[Tag Validator](src/main/java/g0501_0600/s0591_tag_validator)| Hard | String, Stack | 2 | 94.35
+| 0590 |[N-ary Tree Postorder Traversal](src/main/java/g0501_0600/s0590_n_ary_tree_postorder_traversal)| Easy | Depth_First_Search, Tree, Stack | 1 | 90.45
+| 0589 |[N-ary Tree Preorder Traversal](src/main/java/g0501_0600/s0589_n_ary_tree_preorder_traversal)| Easy | Depth_First_Search, Tree, Stack, Programming_Skills_I_Day_5_Function, Level_1_Day_6_Tree | 1 | 90.98
+| 0587 |[Erect the Fence](src/main/java/g0501_0600/s0587_erect_the_fence)| Hard | Array, Math, Geometry | 12 | 90.91
 | 0586 |[Customer Placing the Largest Number of Orders](src/main/java/g0501_0600/s0586_customer_placing_the_largest_number_of_orders)| Easy | LeetCode_Curated_SQL_70, Database, SQL_I_Day_8_Function | 484 | 66.42
 | 0584 |[Find Customer Referee](src/main/java/g0501_0600/s0584_find_customer_referee)| Easy | Database, SQL_I_Day_1_Select | 531 | 58.63
 | 0583 |[Delete Operation for Two Strings](src/main/java/g0501_0600/s0583_delete_operation_for_two_strings)| Medium | String, Dynamic_Programming, Algorithm_II_Day_17_Dynamic_Programming | 12 | 79.10
