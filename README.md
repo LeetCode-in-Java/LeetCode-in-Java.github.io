@@ -1816,6 +1816,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2392 |[Build a Matrix With Conditions](src/main/java/g2301_2400/s2392_build_a_matrix_with_conditions)| Hard | Array, Matrix, Graph, Topological_Sort | 9 | 97.22
+| 2391 |[Minimum Amount of Time to Collect Garbage](src/main/java/g2301_2400/s2391_minimum_amount_of_time_to_collect_garbage)| Medium | Array, String, Prefix_Sum | 7 | 98.86
+| 2390 |[Removing Stars From a String](src/main/java/g2301_2400/s2390_removing_stars_from_a_string)| Medium | String, Stack, Simulation | 31 | 90.55
+| 2389 |[Longest Subsequence With Limited Sum](src/main/java/g2301_2400/s2389_longest_subsequence_with_limited_sum)| Easy | Array, Sorting, Greedy, Binary_Search, Prefix_Sum | 4 | 99.97
 | 2386 |[Find the K-Sum of an Array](src/main/java/g2301_2400/s2386_find_the_k_sum_of_an_array)| Hard | Array, Sorting, Heap_Priority_Queue | 75 | 100.00
 | 2385 |[Amount of Time for Binary Tree to Be Infected](src/main/java/g2301_2400/s2385_amount_of_time_for_binary_tree_to_be_infected)| Medium | Tree, Binary_Tree, Depth_First_Search, Breadth_First_Search | 20 | 100.00
 | 2384 |[Largest Palindromic Number](src/main/java/g2301_2400/s2384_largest_palindromic_number)| Medium | String, Hash_Table, Greedy | 26 | 100.00
