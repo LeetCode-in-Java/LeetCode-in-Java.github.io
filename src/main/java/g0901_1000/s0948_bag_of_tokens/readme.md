@@ -62,7 +62,6 @@ public class Solution {
         int score = 0;
         int l = 0;
         int r = tokens.length - 1;
-
         while (l <= r) {
             if (tokens[l] <= power) {
                 power -= tokens[l];
