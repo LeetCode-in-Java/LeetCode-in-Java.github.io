@@ -41,6 +41,10 @@ You are given an API `bool isBadVersion(version)` which returns whether `version
 boolean isBadVersion(int version); */
 
 public class Solution extends VersionControl {
+    public Solution(int bad) {
+        super(bad);
+    }
+
     public int firstBadVersion(int n) {
         int start = 1;
         int end = n;
