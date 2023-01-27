@@ -1816,6 +1816,33 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2496 |[Maximum Value of a String in an Array](src/main/java/g2401_2500/s2496_maximum_value_of_a_string_in_an_array)| Easy | Array, String | 1 | 92.00
+| 2493 |[Divide Nodes Into the Maximum Number of Groups](src/main/java/g2401_2500/s2493_divide_nodes_into_the_maximum_number_of_groups)| Hard | Graph, Union_Find, Breadth_First_Search | 443 | 77.02
+| 2492 |[Minimum Score of a Path Between Two Cities](src/main/java/g2401_2500/s2492_minimum_score_of_a_path_between_two_cities)| Medium | Graph, Union_Find, Depth_First_Search, Breadth_First_Search | 13 | 92.82
+| 2491 |[Divide Players Into Teams of Equal Skill](src/main/java/g2401_2500/s2491_divide_players_into_teams_of_equal_skill)| Medium | Array, Hash_Table, Sorting, Two_Pointers | 21 | 70.31
+| 2490 |[Circular Sentence](src/main/java/g2401_2500/s2490_circular_sentence)| Easy | String | 1 | 99.85
+| 2488 |[Count Subarrays With Median K](src/main/java/g2401_2500/s2488_count_subarrays_with_median_k)| Hard | Array, Hash_Table, Prefix_Sum | 24 | 72.25
+| 2487 |[Remove Nodes From Linked List](src/main/java/g2401_2500/s2487_remove_nodes_from_linked_list)| Medium | Stack, Linked_List, Monotonic_Stack, Recursion | 5 | 99.79
+| 2486 |[Append Characters to String to Make Subsequence](src/main/java/g2401_2500/s2486_append_characters_to_string_to_make_subsequence)| Medium | String, Greedy, Two_Pointers | 2 | 99.89
+| 2485 |[Find the Pivot Integer](src/main/java/g2401_2500/s2485_find_the_pivot_integer)| Easy | Math, Prefix_Sum | 1 | 95.67
+| 2484 |[Count Palindromic Subsequences](src/main/java/g2401_2500/s2484_count_palindromic_subsequences)| Hard | String, Dynamic_Programming | 93 | 76.16
+| 2483 |[Minimum Penalty for a Shop](src/main/java/g2401_2500/s2483_minimum_penalty_for_a_shop)| Medium | String, Prefix_Sum | 17 | 69.62
+| 2482 |[Difference Between Ones and Zeros in Row and Column](src/main/java/g2401_2500/s2482_difference_between_ones_and_zeros_in_row_and_column)| Medium | Array, Matrix, Simulation | 9 | 94.05
+| 2481 |[Minimum Cuts to Divide a Circle](src/main/java/g2401_2500/s2481_minimum_cuts_to_divide_a_circle)| Easy | Math, Geometry | 0 | 100.00
+| 2478 |[Number of Beautiful Partitions](src/main/java/g2401_2500/s2478_number_of_beautiful_partitions)| Hard | String, Dynamic_Programming | 44 | 90.08
+| 2477 |[Minimum Fuel Cost to Report to the Capital](src/main/java/g2401_2500/s2477_minimum_fuel_cost_to_report_to_the_capital)| Medium | Tree, Graph, Breadth_First_Search, Depth_First_Search | 70 | 72.49
+| 2476 |[Closest Nodes Queries in a Binary Search Tree](src/main/java/g2401_2500/s2476_closest_nodes_queries_in_a_binary_search_tree)| Medium | Array, Tree, Binary_Search, Binary_Tree, Depth_First_Search | 185 | 51.92
+| 2475 |[Number of Unequal Triplets in Array](src/main/java/g2401_2500/s2475_number_of_unequal_triplets_in_array)| Easy | Array, Hash_Table | 1 | 97.49
+| 2472 |[Maximum Number of Non-overlapping Palindrome Substrings](src/main/java/g2401_2500/s2472_maximum_number_of_non_overlapping_palindrome_substrings)| Hard | String, Dynamic_Programming | 2 | 91.04
+| 2471 |[Minimum Number of Operations to Sort a Binary Tree by Level](src/main/java/g2401_2500/s2471_minimum_number_of_operations_to_sort_a_binary_tree_by_level)| Medium | Tree, Binary_Tree, Breadth_First_Search | 76 | 76.46
+| 2470 |[Number of Subarrays With LCM Equal to K](src/main/java/g2401_2500/s2470_number_of_subarrays_with_lcm_equal_to_k)| Medium | Array, Math, Number_Theory | 23 | 62.35
+| 2469 |[Convert the Temperature](src/main/java/g2401_2500/s2469_convert_the_temperature)| Easy | Math | 0 | 100.00
+| 2468 |[Split Message Based on Limit](src/main/java/g2401_2500/s2468_split_message_based_on_limit)| Hard | String, Binary_Search | 27 | 99.08
+| 2467 |[Most Profitable Path in a Tree](src/main/java/g2401_2500/s2467_most_profitable_path_in_a_tree)| Medium | Array, Tree, Graph, Depth_First_Search, Breadth_First_Search | 20 | 100.00
+| 2466 |[Count Ways To Build Good Strings](src/main/java/g2401_2500/s2466_count_ways_to_build_good_strings)| Medium | Dynamic_Programming | 8 | 99.59
+| 2465 |[Number of Distinct Averages](src/main/java/g2401_2500/s2465_number_of_distinct_averages)| Easy | Array, Hash_Table, Sorting, Two_Pointers | 1 | 99.48
+| 2463 |[Minimum Total Distance Traveled](src/main/java/g2401_2500/s2463_minimum_total_distance_traveled)| Hard | Array, Dynamic_Programming, Sorting | 2 | 100.00
+| 2462 |[Total Cost to Hire K Workers](src/main/java/g2401_2500/s2462_total_cost_to_hire_k_workers)| Medium | Array, Two_Pointers, Heap_Priority_Queue, Simulation | 57 | 96.24
 | 2461 |[Maximum Sum of Distinct Subarrays With Length K](src/main/java/g2401_2500/s2461_maximum_sum_of_distinct_subarrays_with_length_k)| Medium | Array, Hash_Table, Sliding_Window | 40 | 93.40
 | 2460 |[Apply Operations to an Array](src/main/java/g2401_2500/s2460_apply_operations_to_an_array)| Easy | Array, Simulation | 1 | 87.93
 | 2458 |[Height of Binary Tree After Subtree Removal Queries](src/main/java/g2401_2500/s2458_height_of_binary_tree_after_subtree_removal_queries)| Hard | Array, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 52 | 87.45
@@ -3560,7 +3587,7 @@
 | 0214 |[Shortest Palindrome](src/main/java/g0201_0300/s0214_shortest_palindrome)| Hard | String, Hash_Function, String_Matching, Rolling_Hash | 3 | 96.59
 | 0213 |[House Robber II](src/main/java/g0201_0300/s0213_house_robber_ii)| Medium | Array, Dynamic_Programming, Algorithm_II_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_3, Udemy_Dynamic_Programming | 0 | 100.00
 | 0212 |[Word Search II](src/main/java/g0201_0300/s0212_word_search_ii)| Hard | Top_Interview_Questions, Array, String, Matrix, Backtracking, Trie | 21 | 99.42
-| 0211 |[Design Add and Search Words Data Structure](src/main/java/g0201_0300/s0211_design_add_and_search_words_data_structure)| Medium | String, Depth_First_Search, Design, Trie | 445 | 96.00
+| 0211 |[Design Add and Search Words Data Structure](src/main/java/g0201_0300/s0211_design_add_and_search_words_data_structure)| Medium | String, Depth_First_Search, Design, Trie | 308 | 99.46
 | 0210 |[Course Schedule II](src/main/java/g0201_0300/s0210_course_schedule_ii)| Medium | Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Level_2_Day_11_Graph/BFS/DFS | 13 | 35.17
 | 0209 |[Minimum Size Subarray Sum](src/main/java/g0201_0300/s0209_minimum_size_subarray_sum)| Medium | Array, Binary_Search, Prefix_Sum, Sliding_Window, Algorithm_II_Day_5_Sliding_Window, Binary_Search_II_Day_1 | 1 | 100.00
 | 0208 |[Implement Trie (Prefix Tree)](src/main/java/g0201_0300/s0208_implement_trie_prefix_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Design, Trie, Level_2_Day_16_Design, Udemy_Trie_and_Heap | 34 | 99.90
