@@ -1816,6 +1816,18 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2515 |[Shortest Distance to Target String in a Circular Array](src/main/java/g2501_2600/s2515_shortest_distance_to_target_string_in_a_circular_array)| Easy | Array, String | 1 | 62.21
+| 2514 |[Count Anagrams](src/main/java/g2501_2600/s2514_count_anagrams)| Hard | String, Hash_Table, Math, Counting, Combinatorics | 22 | 100.00
+| 2513 |[Minimize the Maximum of Two Arrays](src/main/java/g2501_2600/s2513_minimize_the_maximum_of_two_arrays)| Medium | Math, Binary_Search, Number_Theory | 0 | 100.00
+| 2512 |[Reward Top K Students](src/main/java/g2501_2600/s2512_reward_top_k_students)| Medium | Array, String, Hash_Table, Sorting, Heap_Priority_Queue | 72 | 94.76
+| 2511 |[Maximum Enemy Forts That Can Be Captured](src/main/java/g2501_2600/s2511_maximum_enemy_forts_that_can_be_captured)| Easy | Array, Two_Pointers | 0 | 100.00
+| 2509 |[Cycle Length Queries in a Tree](src/main/java/g2501_2600/s2509_cycle_length_queries_in_a_tree)| Hard | Tree, Binary_Tree | 12 | 99.26
+| 2508 |[Add Edges to Make Degrees of All Nodes Even](src/main/java/g2501_2600/s2508_add_edges_to_make_degrees_of_all_nodes_even)| Hard | Hash_Table, Graph | 33 | 100.00
+| 2507 |[Smallest Value After Replacing With Sum of Prime Factors](src/main/java/g2501_2600/s2507_smallest_value_after_replacing_with_sum_of_prime_factors)| Medium | Math, Number_Theory | 1 | 84.27
+| 2506 |[Count Pairs Of Similar Strings](src/main/java/g2501_2600/s2506_count_pairs_of_similar_strings)| Easy | Array, String, Hash_Table | 6 | 85.15
+| 2503 |[Maximum Number of Points From Grid Queries](src/main/java/g2501_2600/s2503_maximum_number_of_points_from_grid_queries)| Hard | Array, Sorting, Breadth_First_Search, Heap_Priority_Queue, Union_Find | 47 | 96.38
+| 2502 |[Design Memory Allocator](src/main/java/g2501_2600/s2502_design_memory_allocator)| Medium | Array, Hash_Table, Design, Simulation | 9 | 100.00
+| 2501 |[Longest Square Streak in an Array](src/main/java/g2501_2600/s2501_longest_square_streak_in_an_array)| Medium | Array, Hash_Table, Dynamic_Programming, Sorting, Binary_Search | 4 | 99.73
 | 2500 |[Delete Greatest Value in Each Row](src/main/java/g2401_2500/s2500_delete_greatest_value_in_each_row)| Easy | Array, Sorting, Matrix | 3 | 98.16
 | 2499 |[Minimum Total Cost to Make Arrays Unequal](src/main/java/g2401_2500/s2499_minimum_total_cost_to_make_arrays_unequal)| Hard | Array, Hash_Table, Greedy, Counting | 3 | 100.00
 | 2498 |[Frog Jump II](src/main/java/g2401_2500/s2498_frog_jump_ii)| Medium | Array, Greedy, Binary_Search | 1 | 100.00
@@ -3776,7 +3788,7 @@
 | 0021 |[Merge Two Sorted Lists](src/main/java/g0001_0100/s0021_merge_two_sorted_lists)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Data_Structure_I_Day_7_Linked_List, Algorithm_I_Day_10_Recursion_Backtracking, Level_1_Day_3_Linked_List, Udemy_Linked_List | 1 | 69.17
 | 0020 |[Valid Parentheses](src/main/java/g0001_0100/s0020_valid_parentheses)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String, Stack, Data_Structure_I_Day_9_Stack_Queue, Udemy_Strings | 3 | 51.72
 | 0019 |[Remove Nth Node From End of List](src/main/java/g0001_0100/s0019_remove_nth_node_from_end_of_list)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Two_Pointers, Linked_List, Algorithm_I_Day_5_Two_Pointers, Level_2_Day_3_Linked_List | 1 | 59.72
-| 0018 |[4Sum](src/main/java/g0001_0100/s0018_4sum)| Medium | Array, Sorting, Two_Pointers | 6 | 96.23
+| 0018 |[4Sum](src/main/java/g0001_0100/s0018_4sum)| Medium | Array, Sorting, Two_Pointers | 3 | 99.47
 | 0017 |[Letter Combinations of a Phone Number](src/main/java/g0001_0100/s0017_letter_combinations_of_a_phone_number)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Backtracking, Algorithm_II_Day_11_Recursion_Backtracking, Udemy_Backtracking/Recursion | 0 | 100.00
 | 0016 |[3Sum Closest](src/main/java/g0001_0100/s0016_3sum_closest)| Medium | Array, Sorting, Two_Pointers, Level_2_Day_14_Sliding_Window/Two_Pointer | 3 | 99.98
 | 0015 |[3Sum](src/main/java/g0001_0100/s0015_3sum)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Data_Structure_II_Day_1_Array, Algorithm_II_Day_3_Two_Pointers, Udemy_Two_Pointers | 28 | 71.04
