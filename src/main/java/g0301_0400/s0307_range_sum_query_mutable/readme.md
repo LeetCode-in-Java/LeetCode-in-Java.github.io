@@ -1,5 +1,6 @@
 [![](https://img.shields.io/github/stars/javadev/LeetCode-in-Java?label=Stars&style=flat-square)](https://github.com/javadev/LeetCode-in-Java)
 [![](https://img.shields.io/github/forks/javadev/LeetCode-in-Java?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/javadev/LeetCode-in-Java/fork)
+[![](https://img.shields.io/badge/-LeetCode%20in%20Kotlin-blue?style=flat-square)](https://github.com/javadev/LeetCode-in-Kotlin)
 
 ## 307\. Range Sum Query - Mutable
 
@@ -45,41 +46,50 @@ Implement the `NumArray` class:
 
 ```java
 public class NumArray {
+    private int[] tree;
     private int[] nums;
-    private int sum;
 
     public NumArray(int[] nums) {
+        tree = new int[nums.length + 1];
         this.nums = nums;
-        sum = 0;
-        for (int num : nums) {
-            sum += num;
+        // copy the array into the tree
+        System.arraycopy(nums, 0, tree, 1, nums.length);
+        for (int i = 1; i < tree.length; i++) {
+            int parent = i + (i & -i);
+            if (parent < tree.length) {
+                tree[parent] += tree[i];
+            }
         }
     }
 
     public void update(int index, int val) {
-        sum -= nums[index] - val;
+        int currValue = nums[index];
         nums[index] = val;
+        index++;
+        while (index < tree.length) {
+            tree[index] = tree[index] - currValue + val;
+            index = index + (index & -index);
+        }
+    }
+
+    private int sum(int i) {
+        int sum = 0;
+        while (i > 0) {
+            sum += tree[i];
+            i -= (i & -i);
+        }
+        return sum;
     }
 
     public int sumRange(int left, int right) {
-        int sumRange = 0;
-        if ((right - left) < nums.length / 2) {
-            // Array to sum is less than half
-            for (int i = left; i <= right; i++) {
-                sumRange += nums[i];
-            }
-        } else {
-            // Array to sum is more than half
-            // Better to take total sum and substract the numbers not in range
-            sumRange = sum;
-            for (int i = 0; i < left; i++) {
-                sumRange -= nums[i];
-            }
-            for (int i = right + 1; i < nums.length; i++) {
-                sumRange -= nums[i];
-            }
-        }
-        return sumRange;
+        return sum(right + 1) - sum(left);
     }
 }
+
+/*
+ * Your NumArray object will be instantiated and called as such:
+ * NumArray obj = new NumArray(nums);
+ * obj.update(index,val);
+ * int param_2 = obj.sumRange(left,right);
+ */
 ```
