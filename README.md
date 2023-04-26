@@ -1816,6 +1816,26 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2541 |[Minimum Operations to Make Array Equal II](src/main/java/g2501_2600/s2541_minimum_operations_to_make_array_equal_ii)| Medium | Array, Math, Greedy | 3 | 100.00
+| 2540 |[Minimum Common Value](src/main/java/g2501_2600/s2540_minimum_common_value)| Easy | Array, Hash_Table, Binary_Search, Two_Pointers | 0 | 100.00
+| 2538 |[Difference Between Maximum and Minimum Price Sum](src/main/java/g2501_2600/s2538_difference_between_maximum_and_minimum_price_sum)| Hard | Array, Dynamic_Programming, Tree, Depth_First_Search | 43 | 95.19
+| 2537 |[Count the Number of Good Subarrays](src/main/java/g2501_2600/s2537_count_the_number_of_good_subarrays)| Medium | Array, Hash_Table, Sliding_Window | 38 | 99.07
+| 2536 |[Increment Submatrices by One](src/main/java/g2501_2600/s2536_increment_submatrices_by_one)| Medium | Array, Matrix, Prefix_Sum | 12 | 88.15
+| 2535 |[Difference Between Element Sum and Digit Sum of an Array](src/main/java/g2501_2600/s2535_difference_between_element_sum_and_digit_sum_of_an_array)| Easy | Array, Math | 3 | 77.42
+| 2532 |[Time to Cross a Bridge](src/main/java/g2501_2600/s2532_time_to_cross_a_bridge)| Hard | Array, Heap_Priority_Queue, Simulation | 67 | 72.50
+| 2531 |[Make Number of Distinct Characters Equal](src/main/java/g2501_2600/s2531_make_number_of_distinct_characters_equal)| Medium | String, Hash_Table, Counting | 7 | 100.00
+| 2530 |[Maximal Score After Applying K Operations](src/main/java/g2501_2600/s2530_maximal_score_after_applying_k_operations)| Medium | Array, Greedy, Heap_Priority_Queue | 168 | 67.97
+| 2529 |[Maximum Count of Positive Integer and Negative Integer](src/main/java/g2501_2600/s2529_maximum_count_of_positive_integer_and_negative_integer)| Easy | Array, Binary_Search, Counting | 0 | 100.00
+| 2528 |[Maximize the Minimum Powered City](src/main/java/g2501_2600/s2528_maximize_the_minimum_powered_city)| Hard | Array, Greedy, Binary_Search, Prefix_Sum, Sliding_Window, Queue | 51 | 77.59
+| 2527 |[Find Xor-Beauty of Array](src/main/java/g2501_2600/s2527_find_xor_beauty_of_array)| Medium | Array, Math, Bit_Manipulation | 1 | 100.00
+| 2526 |[Find Consecutive Integers from a Data Stream](src/main/java/g2501_2600/s2526_find_consecutive_integers_from_a_data_stream)| Medium | Hash_Table, Design, Counting, Queue, Data_Stream | 32 | 94.65
+| 2525 |[Categorize Box According to Criteria](src/main/java/g2501_2600/s2525_categorize_box_according_to_criteria)| Easy | Math | 0 | 100.00
+| 2523 |[Closest Prime Numbers in Range](src/main/java/g2501_2600/s2523_closest_prime_numbers_in_range)| Medium | Math, Number_Theory | 1 | 100.00
+| 2522 |[Partition String Into Substrings With Values at Most K](src/main/java/g2501_2600/s2522_partition_string_into_substrings_with_values_at_most_k)| Medium | String, Dynamic_Programming, Greedy | 6 | 84.66
+| 2521 |[Distinct Prime Factors of Product of Array](src/main/java/g2501_2600/s2521_distinct_prime_factors_of_product_of_array)| Medium | Array, Hash_Table, Math, Number_Theory | 2 | 100.00
+| 2520 |[Count the Digits That Divide a Number](src/main/java/g2501_2600/s2520_count_the_digits_that_divide_a_number)| Easy | Math | 0 | 100.00
+| 2518 |[Number of Great Partitions](src/main/java/g2501_2600/s2518_number_of_great_partitions)| Hard | Array, Dynamic_Programming | 4 | 100.00
+| 2517 |[Maximum Tastiness of Candy Basket](src/main/java/g2501_2600/s2517_maximum_tastiness_of_candy_basket)| Medium | Array, Sorting, Binary_Search | 38 | 100.00
 | 2516 |[Take K of Each Character From Left and Right](src/main/java/g2501_2600/s2516_take_k_of_each_character_from_left_and_right)| Medium | String, Hash_Table, Sliding_Window | 6 | 94.24
 | 2515 |[Shortest Distance to Target String in a Circular Array](src/main/java/g2501_2600/s2515_shortest_distance_to_target_string_in_a_circular_array)| Easy | Array, String | 1 | 62.21
 | 2514 |[Count Anagrams](src/main/java/g2501_2600/s2514_count_anagrams)| Hard | String, Hash_Table, Math, Counting, Combinatorics | 22 | 100.00
@@ -1823,7 +1843,7 @@
 | 2512 |[Reward Top K Students](src/main/java/g2501_2600/s2512_reward_top_k_students)| Medium | Array, String, Hash_Table, Sorting, Heap_Priority_Queue | 72 | 94.76
 | 2511 |[Maximum Enemy Forts That Can Be Captured](src/main/java/g2501_2600/s2511_maximum_enemy_forts_that_can_be_captured)| Easy | Array, Two_Pointers | 0 | 100.00
 | 2509 |[Cycle Length Queries in a Tree](src/main/java/g2501_2600/s2509_cycle_length_queries_in_a_tree)| Hard | Tree, Binary_Tree | 12 | 99.26
-| 2508 |[Add Edges to Make Degrees of All Nodes Even](src/main/java/g2501_2600/s2508_add_edges_to_make_degrees_of_all_nodes_even)| Hard | Hash_Table, Graph | 33 | 100.00
+| 2508 |[Add Edges to Make Degrees of All Nodes Even](src/main/java/g2501_2600/s2508_add_edges_to_make_degrees_of_all_nodes_even)| Hard | Hash_Table, Graph | 36 | 95.00
 | 2507 |[Smallest Value After Replacing With Sum of Prime Factors](src/main/java/g2501_2600/s2507_smallest_value_after_replacing_with_sum_of_prime_factors)| Medium | Math, Number_Theory | 1 | 84.27
 | 2506 |[Count Pairs Of Similar Strings](src/main/java/g2501_2600/s2506_count_pairs_of_similar_strings)| Easy | Array, String, Hash_Table | 6 | 85.15
 | 2503 |[Maximum Number of Points From Grid Queries](src/main/java/g2501_2600/s2503_maximum_number_of_points_from_grid_queries)| Hard | Array, Sorting, Breadth_First_Search, Heap_Priority_Queue, Union_Find | 47 | 96.38
