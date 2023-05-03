@@ -50,7 +50,6 @@ public class Solution {
         int n = nums1.length;
         long pcnt = 0;
         long ncnt = 0;
-
         if (k == 0) {
             if (Arrays.equals(nums1, nums2)) {
                 return 0;
@@ -58,7 +57,6 @@ public class Solution {
                 return -1;
             }
         }
-
         for (int i = 0; i < n; i++) {
             int tp = nums1[i] - nums2[i];
             if (tp % k != 0) {

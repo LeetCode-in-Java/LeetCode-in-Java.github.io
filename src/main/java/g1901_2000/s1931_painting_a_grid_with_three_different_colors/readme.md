@@ -46,6 +46,7 @@ Return _the number of ways to color the grid with **no two adjacent cells having
 import java.util.HashMap;
 import java.util.Map;
 
+@SuppressWarnings("java:S3824")
 public class Solution {
     public static final int P = 1_000_000_007;
 
@@ -69,34 +70,14 @@ public class Solution {
         long[][] templateEdgeCount = new long[totalTemplates][totalTemplates];
         Map<Integer, Integer> templateToIndex = new HashMap<>(1 << (m - 2));
         int templateCounter = 0;
-        for (int i = 0; i < totalPaintings; i++) {
-            int type = getType(i, m);
-            if (type == -1) {
-                paintingToTemplate[i] = -1;
-                continue;
-            }
-            Integer templateIndex = templateToIndex.get(type);
-            if (templateIndex == null) {
-                templateToIndex.put(type, templateCounter);
-                templateIndex = templateCounter++;
-            }
-            paintingToTemplate[i] = templateIndex;
-            paintingCountForTemplate[templateIndex]++;
-        }
-        for (int i = 0; i < totalPaintings; i++) {
-            if (paintingToTemplate[i] == -1) {
-                continue;
-            }
-            for (int j = i + 1; j < totalPaintings; j++) {
-                if (paintingToTemplate[j] == -1) {
-                    continue;
-                }
-                if (checkAllowance(i, j, m)) {
-                    templateEdgeCount[paintingToTemplate[i]][paintingToTemplate[j]]++;
-                    templateEdgeCount[paintingToTemplate[j]][paintingToTemplate[i]]++;
-                }
-            }
-        }
+        extracted(
+                m,
+                totalPaintings,
+                paintingToTemplate,
+                paintingCountForTemplate,
+                templateToIndex,
+                templateCounter);
+        extracted(m, totalPaintings, paintingToTemplate, templateEdgeCount);
         for (int i = 0; i < totalTemplates; i++) {
             long c = paintingCountForTemplate[i];
             for (int j = 0; j < totalTemplates; j++) {
@@ -116,7 +97,48 @@ public class Solution {
         return (int) (ans % P);
     }
 
-    private static boolean checkAllowance(int a, int b, int m) {
+    private void extracted(
+            int m, int totalPaintings, int[] paintingToTemplate, long[][] templateEdgeCount) {
+        for (int i = 0; i < totalPaintings; i++) {
+            if (paintingToTemplate[i] == -1) {
+                continue;
+            }
+            for (int j = i + 1; j < totalPaintings; j++) {
+                if (paintingToTemplate[j] == -1) {
+                    continue;
+                }
+                if (checkAllowance(i, j, m)) {
+                    templateEdgeCount[paintingToTemplate[i]][paintingToTemplate[j]]++;
+                    templateEdgeCount[paintingToTemplate[j]][paintingToTemplate[i]]++;
+                }
+            }
+        }
+    }
+
+    private void extracted(
+            int m,
+            int totalPaintings,
+            int[] paintingToTemplate,
+            long[] paintingCountForTemplate,
+            Map<Integer, Integer> templateToIndex,
+            int templateCounter) {
+        for (int i = 0; i < totalPaintings; i++) {
+            int type = getType(i, m);
+            if (type == -1) {
+                paintingToTemplate[i] = -1;
+                continue;
+            }
+            Integer templateIndex = templateToIndex.get(type);
+            if (templateIndex == null) {
+                templateToIndex.put(type, templateCounter);
+                templateIndex = templateCounter++;
+            }
+            paintingToTemplate[i] = templateIndex;
+            paintingCountForTemplate[templateIndex]++;
+        }
+    }
+
+    private boolean checkAllowance(int a, int b, int m) {
         for (int i = 0; i < m; i++) {
             if (a % 3 == b % 3) {
                 return false;
@@ -127,7 +149,7 @@ public class Solution {
         return true;
     }
 
-    private static int getType(int a, int m) {
+    private int getType(int a, int m) {
         int[] digits = new int[3];
         int first = a % 3;
         int second = a % 9 / 3;
@@ -152,7 +174,7 @@ public class Solution {
         return type;
     }
 
-    private static int powMod(int a, int b) {
+    private int powMod(int a, int b) {
         long res = 1;
         while (b != 0) {
             if ((b & 1) != 0) {
@@ -166,7 +188,7 @@ public class Solution {
         return (int) res;
     }
 
-    private static int binPow(int a, int n) {
+    private int binPow(int a, int n) {
         int res = 1;
         int tmp = a;
         while (n != 0) {
@@ -179,7 +201,7 @@ public class Solution {
         return res;
     }
 
-    private static long[][] matrixPower(long[][] base, long pow) {
+    private long[][] matrixPower(long[][] base, long pow) {
         int n = base.length;
         long[][] res = new long[n][n];
         for (int i = 0; i < n; i++) {
@@ -197,7 +219,7 @@ public class Solution {
         return res;
     }
 
-    private static long[][] multiplyMatrix(long[][] a, long[][] b) {
+    private long[][] multiplyMatrix(long[][] a, long[][] b) {
         int n = a.length;
         long[][] ans = new long[n][n];
         for (int i = 0; i < n; i++) {
