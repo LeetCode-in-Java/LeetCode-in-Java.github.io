@@ -30,29 +30,25 @@ Given a string `s`, return _the last substring of_ `s` _in lexicographical order
 
 ```java
 public class Solution {
-    public String lastSubstring(String str) {
-        char[] s = str.toCharArray();
+    public String lastSubstring(String s) {
         int i = 0;
-        int j = i + 1;
-        int l = 0;
-        int n = s.length;
-        while (j + l < n) {
-            if (s[i + l] == s[j + l]) {
-                l++;
+        int j = 1;
+        int k = 0;
+        int n = s.length();
+        char[] ca = s.toCharArray();
+        while (j + k < n) {
+            if (ca[i + k] == ca[j + k]) {
+                k++;
+            } else if (ca[i + k] > ca[j + k]) {
+                j = j + k + 1;
+                k = 0;
             } else {
-                if (s[i + l] <= s[j + l]) {
-                    if (s[j + l] > s[i]) {
-                        i = j + l;
-                    } else {
-                        int p = j - i;
-                        i = j + (l / p) * p;
-                    }
-                }
-                j = j + l + 1;
-                l = 0;
+                i = Math.max(i + k + 1, j);
+                j = i + 1;
+                k = 0;
             }
         }
-        return str.substring(i);
+        return s.substring(i);
     }
 }
 ```
