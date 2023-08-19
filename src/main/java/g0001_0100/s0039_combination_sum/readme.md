@@ -77,13 +77,11 @@ public class Solution {
             }
             return;
         }
-
         if (amount - coins[n - 1] >= 0) {
             subList.add(coins[n - 1]);
             combinationSumRec(n, coins, amount - coins[n - 1], subList, ans);
             subList.remove(subList.size() - 1);
         }
-
         combinationSumRec(n - 1, coins, amount, subList, ans);
     }
 }

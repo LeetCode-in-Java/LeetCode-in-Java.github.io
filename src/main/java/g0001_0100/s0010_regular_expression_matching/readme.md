@@ -73,15 +73,11 @@ public class Solution {
         if (j == p.length()) {
             return i == s.length();
         }
-
         boolean result;
-
         if (cache[i][j] != null) {
             return cache[i][j];
         }
-
         boolean firstMatch = i < s.length() && (s.charAt(i) == p.charAt(j) || p.charAt(j) == '.');
-
         if ((j + 1) < p.length() && p.charAt(j + 1) == '*') {
             result = (firstMatch && isMatch(s, p, i + 1, j)) || isMatch(s, p, i, j + 2);
         } else {
