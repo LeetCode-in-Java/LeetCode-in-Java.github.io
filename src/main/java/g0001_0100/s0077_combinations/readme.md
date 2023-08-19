@@ -29,9 +29,9 @@ You may return the answer in **any order**.
 ## Solution
 
 ```java
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 @SuppressWarnings("java:S1149")
 public class Solution {
@@ -41,11 +41,12 @@ public class Solution {
         if (n > 20 || k < 1 || k > n) {
             return ans;
         }
-        backtrack(ans, n, k, 1, new Stack<>());
+        backtrack(ans, n, k, 1, new ArrayDeque<>());
         return ans;
     }
 
-    private void backtrack(List<List<Integer>> ans, int n, int k, int s, Stack<Integer> stack) {
+    private void backtrack(
+            List<List<Integer>> ans, int n, int k, int s, ArrayDeque<Integer> stack) {
         // Base case
         // If k becomes 0
         if (k == 0) {

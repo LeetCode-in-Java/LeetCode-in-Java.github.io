@@ -47,7 +47,6 @@ public class Solution {
         int mid;
         int lo = 0;
         int hi = nums.length - 1;
-
         while (lo <= hi) {
             mid = ((hi - lo) >> 1) + lo;
             if (target == nums[mid]) {

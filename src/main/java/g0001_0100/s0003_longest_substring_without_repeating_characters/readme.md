@@ -51,7 +51,6 @@ public class Solution {
         for (int i = 0; i < 256; i++) {
             lastIndices[i] = -1;
         }
-
         int maxLen = 0;
         int curLen = 0;
         int start = 0;
@@ -66,12 +65,10 @@ public class Solution {
                 curLen = i - start + 1;
                 lastIndices[cur] = i;
             }
-
             if (curLen > maxLen) {
                 maxLen = curLen;
             }
         }
-
         return maxLen;
     }
 }

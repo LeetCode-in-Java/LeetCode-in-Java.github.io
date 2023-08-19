@@ -71,7 +71,6 @@ public class Solution {
         if (len < 2) {
             return head;
         }
-
         ListNode curr = head;
         ListNode prev = null;
         ListNode next;
@@ -82,7 +81,6 @@ public class Solution {
             prev = curr;
             curr = next;
         }
-
         head.next = reverse(curr, len - 2);
         return prev;
     }

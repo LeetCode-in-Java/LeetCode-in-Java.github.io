@@ -43,10 +43,10 @@ A **word** is a maximal substring consisting of non-space characters only.
 
 ```java
 public class Solution {
-    public int lengthOfLastWord(String str) {
+    public int lengthOfLastWord(String s) {
         int len = 0;
-        for (int i = str.length() - 1; i >= 0; i--) {
-            char ch = str.charAt(i);
+        for (int i = s.length() - 1; i >= 0; i--) {
+            char ch = s.charAt(i);
             if (ch == ' ' && len > 0) {
                 break;
             } else if (ch != ' ') {
