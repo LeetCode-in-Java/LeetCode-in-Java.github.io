@@ -1816,6 +1816,41 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2595 |[Number of Even and Odd Bits](src/main/java/g2501_2600/s2595_number_of_even_and_odd_bits)| Easy | Bit_Manipulation | 1 | 100.00
+| 2594 |[Minimum Time to Repair Cars](src/main/java/g2501_2600/s2594_minimum_time_to_repair_cars)| Medium | Array, Binary_Search | 15 | 97.28
+| 2593 |[Find Score of an Array After Marking All Elements](src/main/java/g2501_2600/s2593_find_score_of_an_array_after_marking_all_elements)| Medium | Array, Sorting, Heap_Priority_Queue, Simulation | 159 | 96.76
+| 2592 |[Maximize Greatness of an Array](src/main/java/g2501_2600/s2592_maximize_greatness_of_an_array)| Medium | Array, Sorting, Greedy, Two_Pointers | 8 | 100.00
+| 2591 |[Distribute Money to Maximum Children](src/main/java/g2501_2600/s2591_distribute_money_to_maximum_children)| Easy | Math, Greedy | 1 | 100.00
+| 2589 |[Minimum Time to Complete All Tasks](src/main/java/g2501_2600/s2589_minimum_time_to_complete_all_tasks)| Hard | Array, Sorting, Greedy, Binary_Search, Stack | 19 | 97.26
+| 2588 |[Count the Number of Beautiful Subarrays](src/main/java/g2501_2600/s2588_count_the_number_of_beautiful_subarrays)| Medium | Array, Hash_Table, Bit_Manipulation, Prefix_Sum | 38 | 96.52
+| 2587 |[Rearrange Array to Maximize Prefix Score](src/main/java/g2501_2600/s2587_rearrange_array_to_maximize_prefix_score)| Medium | Array, Sorting, Greedy, Prefix_Sum | 28 | 92.55
+| 2586 |[Count the Number of Vowel Strings in Range](src/main/java/g2501_2600/s2586_count_the_number_of_vowel_strings_in_range)| Easy | Array, String | 1 | 100.00
+| 2585 |[Number of Ways to Earn Points](src/main/java/g2501_2600/s2585_number_of_ways_to_earn_points)| Hard | Array, Dynamic_Programming | 56 | 76.40
+| 2584 |[Split the Array to Make Coprime Products](src/main/java/g2501_2600/s2584_split_the_array_to_make_coprime_products)| Medium | Breadth_First_Search, Tree, Binary_Search | 13 | 99.83
+| 2583 |[Kth Largest Sum in a Binary Tree](src/main/java/g2501_2600/s2583_kth_largest_sum_in_a_binary_tree)| Medium | Breadth_First_Search, Tree, Binary_Search | 13 | 99.83
+| 2582 |[Pass the Pillow](src/main/java/g2501_2600/s2582_pass_the_pillow)| Easy | Math, Simulation | 0 | 100.00
+| 2581 |[Count Number of Possible Root Nodes](src/main/java/g2501_2600/s2581_count_number_of_possible_root_nodes)| Hard | Hash_Table, Dynamic_Programming, Depth_First_Search, Tree | 38 | 100.00
+| 2580 |[Count Ways to Group Overlapping Ranges](src/main/java/g2501_2600/s2580_count_ways_to_group_overlapping_ranges)| Medium | Array, Sorting | 16 | 98.28
+| 2579 |[Count Total Number of Colored Cells](src/main/java/g2501_2600/s2579_count_total_number_of_colored_cells)| Medium | Math | 0 | 100.00
+| 2578 |[Split With Minimum Sum](src/main/java/g2501_2600/s2578_split_with_minimum_sum)| Easy | Math, Sorting, Greedy | 0 | 100.00
+| 2577 |[Minimum Time to Visit a Cell In a Grid](src/main/java/g2501_2600/s2577_minimum_time_to_visit_a_cell_in_a_grid)| Hard | Array, Breadth_First_Search, Matrix, Heap_Priority_Queue, Graph, Shortest_Path | 132 | 85.82
+| 2576 |[Find the Maximum Number of Marked Indices](src/main/java/g2501_2600/s2576_find_the_maximum_number_of_marked_indices)| Medium | Array, Sorting, Greedy, Binary_Search, Two_Pointers | 27 | 95.36
+| 2575 |[Find the Divisibility Array of a String](src/main/java/g2501_2600/s2575_find_the_divisibility_array_of_a_string)| Medium | Array, String, Math | 6 | 100.00
+| 2574 |[Left and Right Sum Differences](src/main/java/g2501_2600/s2574_left_and_right_sum_differences)| Easy | Array, Prefix_Sum | 2 | 74.57
+| 2573 |[Find the String with LCP](src/main/java/g2501_2600/s2573_find_the_string_with_lcp)| Hard | String, Dynamic_Programming, Greedy, Union_Find | 5 | 100.00
+| 2572 |[Count the Number of Square-Free Subsets](src/main/java/g2501_2600/s2572_count_the_number_of_square_free_subsets)| Medium | Array, Dynamic_Programming, Math, Bit_Manipulation, Bitmask | 1 | 100.00
+| 2571 |[Minimum Operations to Reduce an Integer to 0](src/main/java/g2501_2600/s2571_minimum_operations_to_reduce_an_integer_to_0)| Medium | Dynamic_Programming, Greedy, Bit_Manipulation | 0 | 100.00
+| 2570 |[Merge Two 2D Arrays by Summing Values](src/main/java/g2501_2600/s2570_merge_two_2d_arrays_by_summing_values)| Easy | Array, Hash_Table, Two_Pointers | 0 | 100.00
+| 2569 |[Handling Sum Queries After Update](src/main/java/g2501_2600/s2569_handling_sum_queries_after_update)| Hard | Array, Segment_Tree | 27 | 94.87
+| 2568 |[Minimum Impossible OR](src/main/java/g2501_2600/s2568_minimum_impossible_or)| Medium | Array, Bit_Manipulation, Brainteaser | 14 | 81.48
+| 2567 |[Minimum Score by Changing Two Elements](src/main/java/g2501_2600/s2567_minimum_score_by_changing_two_elements)| Medium | Array, Sorting, Greedy | 15 | 98.21
+| 2566 |[Maximum Difference by Remapping a Digit](src/main/java/g2501_2600/s2566_maximum_difference_by_remapping_a_digit)| Easy | Math, Greedy | 1 | 98.06
+| 2565 |[Subsequence With the Minimum Score](src/main/java/g2501_2600/s2565_subsequence_with_the_minimum_score)| Hard | String, Binary_Search, Two_Pointers | 7 | 92.54
+| 2564 |[Substring XOR Queries](src/main/java/g2501_2600/s2564_substring_xor_queries)| Medium | Array, String, Hash_Table, Bit_Manipulation | 26 | 95.83
+| 2563 |[Count the Number of Fair Pairs](src/main/java/g2501_2600/s2563_count_the_number_of_fair_pairs)| Medium | Array, Sorting, Binary_Search, Two_Pointers | 23 | 100.00
+| 2562 |[Find the Array Concatenation Value](src/main/java/g2501_2600/s2562_find_the_array_concatenation_value)| Easy | Array, Two_Pointers, Simulation | 0 | 100.00
+| 2561 |[Rearranging Fruits](src/main/java/g2501_2600/s2561_rearranging_fruits)| Hard | Array, Hash_Table, Greedy | 36 | 96.81
+| 2560 |[House Robber IV](src/main/java/g2501_2600/s2560_house_robber_iv)| Medium | Array, Binary_Search | 16 | 98.78
 | 2559 |[Count Vowel Strings in Ranges](src/main/java/g2501_2600/s2559_count_vowel_strings_in_ranges)| Medium | Array, String, Prefix_Sum | 4 | 99.59
 | 2558 |[Take Gifts From the Richest Pile](src/main/java/g2501_2600/s2558_take_gifts_from_the_richest_pile)| Easy | Array, Heap_Priority_Queue, Simulation | 5 | 97.80
 | 2556 |[Disconnect Path in a Binary Matrix by at Most One Flip](src/main/java/g2501_2600/s2556_disconnect_path_in_a_binary_matrix_by_at_most_one_flip)| Medium | Array, Dynamic_Programming, Depth_First_Search, Breadth_First_Search, Matrix | 0 | 100.00
