@@ -2,7 +2,6 @@
 [![](https://img.shields.io/github/forks/javadev/LeetCode-in-Java?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/javadev/LeetCode-in-Java/fork)
 > ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
 
-* [Data Structure I](#data-structure-i)
 * [Data Structure II](#data-structure-ii)
 * [Algorithm I](#algorithm-i)
 * [Algorithm II](#algorithm-ii)
@@ -16,111 +15,7 @@
 * [Level 1](#level-1)
 * [Level 2](#level-2)
 * [Udemy](#udemy)
-
-### Data Structure I
-
-#### Day 1 Array
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0217 |[Contains Duplicate](src/main/java/g0201_0300/s0217_contains_duplicate)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting | 6 | 96.68
-| 0053 |[Maximum Subarray](src/main/java/g0001_0100/s0053_maximum_subarray)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer | 1 | 100.00
-
-#### Day 2 Array
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0001 |[Two Sum](src/main/java/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table | 1 | 99.37
-| 0088 |[Merge Sorted Array](src/main/java/g0001_0100/s0088_merge_sorted_array)| Easy | Top_Interview_Questions, Array, Sorting, Two_Pointers | 0 | 100.00
-
-#### Day 3 Array
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0350 |[Intersection of Two Arrays II](src/main/java/g0301_0400/s0350_intersection_of_two_arrays_ii)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting, Binary_Search, Two_Pointers | 4 | 69.62
-| 0121 |[Best Time to Buy and Sell Stock](src/main/java/g0101_0200/s0121_best_time_to_buy_and_sell_stock)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming | 1 | 100.00
-
-#### Day 4 Array
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0566 |[Reshape the Matrix](src/main/java/g0501_0600/s0566_reshape_the_matrix)| Easy | Array, Matrix, Simulation | 1 | 90.08
-| 0118 |[Pascal's Triangle](src/main/java/g0101_0200/s0118_pascals_triangle)| Easy | Top_Interview_Questions, Array, Dynamic_Programming | 1 | 67.08
-
-#### Day 5 Array
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0036 |[Valid Sudoku](src/main/java/g0001_0100/s0036_valid_sudoku)| Medium | Top_Interview_Questions, Array, Hash_Table, Matrix | 1 | 100.00
-| 0074 |[Search a 2D Matrix](src/main/java/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix | 0 | 100.00
-
-#### Day 6 String
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0387 |[First Unique Character in a String](src/main/java/g0301_0400/s0387_first_unique_character_in_a_string)| Easy | Top_Interview_Questions, String, Hash_Table, Counting, Queue | 1 | 100.00
-| 0383 |[Ransom Note](src/main/java/g0301_0400/s0383_ransom_note)| Easy | String, Hash_Table, Counting | 1 | 99.97
-| 0242 |[Valid Anagram](src/main/java/g0201_0300/s0242_valid_anagram)| Easy | Top_Interview_Questions, String, Hash_Table, Sorting | 2 | 99.01
-
-#### Day 7 Linked List
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0141 |[Linked List Cycle](src/main/java/g0101_0200/s0141_linked_list_cycle)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List | 0 | 100.00
-| 0021 |[Merge Two Sorted Lists](src/main/java/g0001_0100/s0021_merge_two_sorted_lists)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion | 0 | 100.00
-| 0203 |[Remove Linked List Elements](src/main/java/g0201_0300/s0203_remove_linked_list_elements)| Easy | Linked_List, Recursion | 1 | 98.82
-
-#### Day 8 Linked List
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0206 |[Reverse Linked List](src/main/java/g0201_0300/s0206_reverse_linked_list)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion | 0 | 100.00
-| 0083 |[Remove Duplicates from Sorted List](src/main/java/g0001_0100/s0083_remove_duplicates_from_sorted_list)| Easy | Linked_List | 0 | 100.00
-
-#### Day 9 Stack Queue
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0020 |[Valid Parentheses](src/main/java/g0001_0100/s0020_valid_parentheses)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String, Stack | 2 | 90.49
-| 0232 |[Implement Queue using Stacks](src/main/java/g0201_0300/s0232_implement_queue_using_stacks)| Easy | Stack, Design, Queue | 1 | 67.21
-
-#### Day 10 Tree
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0144 |[Binary Tree Preorder Traversal](src/main/java/g0101_0200/s0144_binary_tree_preorder_traversal)| Easy | Depth_First_Search, Tree, Binary_Tree, Stack | 1 | 48.38
-| 0094 |[Binary Tree Inorder Traversal](src/main/java/g0001_0100/s0094_binary_tree_inorder_traversal)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Stack | 0 | 100.00
-| 0145 |[Binary Tree Postorder Traversal](src/main/java/g0101_0200/s0145_binary_tree_postorder_traversal)| Easy | Depth_First_Search, Tree, Binary_Tree, Stack | 1 | 49.11
-
-#### Day 11 Tree
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0102 |[Binary Tree Level Order Traversal](src/main/java/g0101_0200/s0102_binary_tree_level_order_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 1 | 91.09
-| 0104 |[Maximum Depth of Binary Tree](src/main/java/g0101_0200/s0104_maximum_depth_of_binary_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
-| 0101 |[Symmetric Tree](src/main/java/g0101_0200/s0101_symmetric_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
-
-#### Day 12 Tree
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0226 |[Invert Binary Tree](src/main/java/g0201_0300/s0226_invert_binary_tree)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
-| 0112 |[Path Sum](src/main/java/g0101_0200/s0112_path_sum)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
-
-#### Day 13 Tree
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0700 |[Search in a Binary Search Tree](src/main/java/g0601_0700/s0700_search_in_a_binary_search_tree)| Easy | Tree, Binary_Tree, Binary_Search_Tree | 0 | 100.00
-| 0701 |[Insert into a Binary Search Tree](src/main/java/g0701_0800/s0701_insert_into_a_binary_search_tree)| Medium | Tree, Binary_Tree, Binary_Search_Tree | 0 | 100.00
-
-#### Day 14 Tree
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0098 |[Validate Binary Search Tree](src/main/java/g0001_0100/s0098_validate_binary_search_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 0 | 100.00
-| 0653 |[Two Sum IV - Input is a BST](src/main/java/g0601_0700/s0653_two_sum_iv_input_is_a_bst)| Easy | Hash_Table, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Two_Pointers, Binary_Search_Tree | 5 | 74.23
-| 0235 |[Lowest Common Ancestor of a Binary Search Tree](src/main/java/g0201_0300/s0235_lowest_common_ancestor_of_a_binary_search_tree)| Easy | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 4 | 100.00
+* [Data Structure I](#data-structure-i)
 
 ### Data Structure II
 
@@ -1812,10 +1707,150 @@
 |-|-|-|-|-|-
 | 0155 |[Min Stack](src/main/java/g0101_0200/s0155_min_stack)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design | 3 | 100.00
 
+### Data Structure I
+
+#### Day 1 Array
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0217 |[Contains Duplicate](src/main/java/g0201_0300/s0217_contains_duplicate)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting | 6 | 96.68
+| 0053 |[Maximum Subarray](src/main/java/g0001_0100/s0053_maximum_subarray)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer | 1 | 100.00
+
+#### Day 2 Array
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0001 |[Two Sum](src/main/java/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table | 1 | 99.37
+| 0088 |[Merge Sorted Array](src/main/java/g0001_0100/s0088_merge_sorted_array)| Easy | Top_Interview_Questions, Array, Sorting, Two_Pointers | 0 | 100.00
+
+#### Day 3 Array
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0350 |[Intersection of Two Arrays II](src/main/java/g0301_0400/s0350_intersection_of_two_arrays_ii)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting, Binary_Search, Two_Pointers | 4 | 69.62
+| 0121 |[Best Time to Buy and Sell Stock](src/main/java/g0101_0200/s0121_best_time_to_buy_and_sell_stock)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming | 1 | 100.00
+
+#### Day 4 Array
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0566 |[Reshape the Matrix](src/main/java/g0501_0600/s0566_reshape_the_matrix)| Easy | Array, Matrix, Simulation | 1 | 90.08
+| 0118 |[Pascal's Triangle](src/main/java/g0101_0200/s0118_pascals_triangle)| Easy | Top_Interview_Questions, Array, Dynamic_Programming | 1 | 67.08
+
+#### Day 5 Array
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0036 |[Valid Sudoku](src/main/java/g0001_0100/s0036_valid_sudoku)| Medium | Top_Interview_Questions, Array, Hash_Table, Matrix | 1 | 100.00
+| 0074 |[Search a 2D Matrix](src/main/java/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix | 0 | 100.00
+
+#### Day 6 String
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0387 |[First Unique Character in a String](src/main/java/g0301_0400/s0387_first_unique_character_in_a_string)| Easy | Top_Interview_Questions, String, Hash_Table, Counting, Queue | 1 | 100.00
+| 0383 |[Ransom Note](src/main/java/g0301_0400/s0383_ransom_note)| Easy | String, Hash_Table, Counting | 1 | 99.97
+| 0242 |[Valid Anagram](src/main/java/g0201_0300/s0242_valid_anagram)| Easy | Top_Interview_Questions, String, Hash_Table, Sorting | 2 | 99.01
+
+#### Day 7 Linked List
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0141 |[Linked List Cycle](src/main/java/g0101_0200/s0141_linked_list_cycle)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List | 0 | 100.00
+| 0021 |[Merge Two Sorted Lists](src/main/java/g0001_0100/s0021_merge_two_sorted_lists)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion | 0 | 100.00
+| 0203 |[Remove Linked List Elements](src/main/java/g0201_0300/s0203_remove_linked_list_elements)| Easy | Linked_List, Recursion | 1 | 98.82
+
+#### Day 8 Linked List
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0206 |[Reverse Linked List](src/main/java/g0201_0300/s0206_reverse_linked_list)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion | 0 | 100.00
+| 0083 |[Remove Duplicates from Sorted List](src/main/java/g0001_0100/s0083_remove_duplicates_from_sorted_list)| Easy | Linked_List | 0 | 100.00
+
+#### Day 9 Stack Queue
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0020 |[Valid Parentheses](src/main/java/g0001_0100/s0020_valid_parentheses)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String, Stack | 2 | 90.49
+| 0232 |[Implement Queue using Stacks](src/main/java/g0201_0300/s0232_implement_queue_using_stacks)| Easy | Stack, Design, Queue | 1 | 67.21
+
+#### Day 10 Tree
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0144 |[Binary Tree Preorder Traversal](src/main/java/g0101_0200/s0144_binary_tree_preorder_traversal)| Easy | Depth_First_Search, Tree, Binary_Tree, Stack | 1 | 48.38
+| 0094 |[Binary Tree Inorder Traversal](src/main/java/g0001_0100/s0094_binary_tree_inorder_traversal)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Stack | 0 | 100.00
+| 0145 |[Binary Tree Postorder Traversal](src/main/java/g0101_0200/s0145_binary_tree_postorder_traversal)| Easy | Depth_First_Search, Tree, Binary_Tree, Stack | 1 | 49.11
+
+#### Day 11 Tree
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0102 |[Binary Tree Level Order Traversal](src/main/java/g0101_0200/s0102_binary_tree_level_order_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 1 | 91.09
+| 0104 |[Maximum Depth of Binary Tree](src/main/java/g0101_0200/s0104_maximum_depth_of_binary_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
+| 0101 |[Symmetric Tree](src/main/java/g0101_0200/s0101_symmetric_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
+
+#### Day 12 Tree
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0226 |[Invert Binary Tree](src/main/java/g0201_0300/s0226_invert_binary_tree)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
+| 0112 |[Path Sum](src/main/java/g0101_0200/s0112_path_sum)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
+
+#### Day 13 Tree
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0700 |[Search in a Binary Search Tree](src/main/java/g0601_0700/s0700_search_in_a_binary_search_tree)| Easy | Tree, Binary_Tree, Binary_Search_Tree | 0 | 100.00
+| 0701 |[Insert into a Binary Search Tree](src/main/java/g0701_0800/s0701_insert_into_a_binary_search_tree)| Medium | Tree, Binary_Tree, Binary_Search_Tree | 0 | 100.00
+
+#### Day 14 Tree
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0098 |[Validate Binary Search Tree](src/main/java/g0001_0100/s0098_validate_binary_search_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 0 | 100.00
+| 0653 |[Two Sum IV - Input is a BST](src/main/java/g0601_0700/s0653_two_sum_iv_input_is_a_bst)| Easy | Hash_Table, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Two_Pointers, Binary_Search_Tree | 5 | 74.23
+| 0235 |[Lowest Common Ancestor of a Binary Search Tree](src/main/java/g0201_0300/s0235_lowest_common_ancestor_of_a_binary_search_tree)| Easy | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 4 | 100.00
+
 ## Algorithms
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2637 |[Promise Time Limit](src/main/java/g2601_2700/s2637_promise_time_limit)| Easy | Medium | 53 | 93.41
+| 2635 |[Apply Transform Over Each Element in Array](src/main/java/g2601_2700/s2635_apply_transform_over_each_element_in_array)| Easy || 43 | 98.46
+| 2634 |[Filter Elements from Array](src/main/java/g2601_2700/s2634_filter_elements_from_array)| Easy || 44 | 98.04
+| 2631 |[Group By](src/main/java/g2601_2700/s2631_group_by)| Medium || 101 | 99.50
+| 2630 |[Memoize II](src/main/java/g2601_2700/s2630_memoize_ii)| Hard || 264 | 98.86
+| 2629 |[Function Composition](src/main/java/g2601_2700/s2629_function_composition)| Easy || 58 | 95.63
+| 2627 |[Debounce](src/main/java/g2601_2700/s2627_debounce)| Medium || 50 | 98.23
+| 2626 |[Array Reduce Transformation](src/main/java/g2601_2700/s2626_array_reduce_transformation)| Easy || 52 | 91.40
+| 2625 |[Flatten Deeply Nested Array](src/main/java/g2601_2700/s2625_flatten_deeply_nested_array)| Medium || 84 | 98.71
+| 2624 |[Snail Traversal](src/main/java/g2601_2700/s2624_snail_traversal)| Medium || 175 | 92.96
+| 2623 |[Memoize](src/main/java/g2601_2700/s2623_memoize)| Medium || 264 | 97.20
+| 2622 |[Cache With Time Limit](src/main/java/g2601_2700/s2622_cache_with_time_limit)| Medium || 51 | 94.82
+| 2621 |[Sleep](src/main/java/g2601_2700/s2621_sleep)| Easy || 40 | 99.59
+| 2620 |[Counter](src/main/java/g2601_2700/s2620_counter)| Easy || 43 | 98.60
+| 2619 |[Array Prototype Last](src/main/java/g2601_2700/s2619_array_prototype_last)| Easy || 41 | 98.99
+| 2618 |[Check if Object Instance of Class](src/main/java/g2601_2700/s2618_check_if_object_instance_of_class)| Medium || 82 | 99.55
+| 2617 |[Minimum Number of Visited Cells in a Grid](src/main/java/g2601_2700/s2617_minimum_number_of_visited_cells_in_a_grid)| Hard | Array, Dynamic_Programming, Binary_Search, Stack, Union_Find, Segment_Tree, Binary_Indexed_Tree | 34 | 100.00
+| 2616 |[Minimize the Maximum Difference of Pairs](src/main/java/g2601_2700/s2616_minimize_the_maximum_difference_of_pairs)| Medium | Array, Greedy, Binary_Search | 16 | 91.77
+| 2615 |[Sum of Distances](src/main/java/g2601_2700/s2615_sum_of_distances)| Medium | Array, Hash_Table, Prefix_Sum | 13 | 100.00
+| 2614 |[Prime In Diagonal](src/main/java/g2601_2700/s2614_prime_in_diagonal)| Easy | Array, Math, Matrix, Number_Theory | 0 | 100.00
+| 2612 |[Minimum Reverse Operations](src/main/java/g2601_2700/s2612_minimum_reverse_operations)| Hard | Array, Breadth_First_Search, Ordered_Set | 19 | 100.00
+| 2611 |[Mice and Cheese](src/main/java/g2601_2700/s2611_mice_and_cheese)| Medium | Array, Sorting, Greedy, Heap_Priority_Queue | 11 | 99.56
+| 2610 |[Convert an Array Into a 2D Array With Conditions](src/main/java/g2601_2700/s2610_convert_an_array_into_a_2d_array_with_conditions)| Medium | Array, Hash_Table | 2 | 97.24
+| 2609 |[Find the Longest Balanced Substring of a Binary String](src/main/java/g2601_2700/s2609_find_the_longest_balanced_substring_of_a_binary_string)| Easy | String | 1 | 100.00
+| 2608 |[Shortest Cycle in a Graph](src/main/java/g2601_2700/s2608_shortest_cycle_in_a_graph)| Hard | Breadth_First_Search, Graph | 11 | 100.00
+| 2607 |[Make K-Subarray Sums Equal](src/main/java/g2601_2700/s2607_make_k_subarray_sums_equal)| Medium | Array, Math, Sorting, Number_Theory | 24 | 99.15
+| 2606 |[Find the Substring With Maximum Cost](src/main/java/g2601_2700/s2606_find_the_substring_with_maximum_cost)| Medium | Array, String, Hash_Table, Dynamic_Programming | 3 | 100.00
+| 2605 |[Form Smallest Number From Two Digit Arrays](src/main/java/g2601_2700/s2605_form_smallest_number_from_two_digit_arrays)| Easy | Array, Hash_Table, Enumeration | 1 | 95.34
+| 2603 |[Collect Coins in a Tree](src/main/java/g2601_2700/s2603_collect_coins_in_a_tree)| Hard | Array, Tree, Graph, Topological_Sort | 26 | 100.00
+| 2602 |[Minimum Operations to Make All Array Elements Equal](src/main/java/g2601_2700/s2602_minimum_operations_to_make_all_array_elements_equal)| Medium | Array, Sorting, Binary_Search, Prefix_Sum | 41 | 97.39
+| 2601 |[Prime Subtraction Operation](src/main/java/g2601_2700/s2601_prime_subtraction_operation)| Medium | Array, Math, Greedy, Binary_Search, Number_Theory | 2 | 100.00
+| 2600 |[K Items With the Maximum Sum](src/main/java/g2501_2600/s2600_k_items_with_the_maximum_sum)| Easy | Math, Greedy | 1 | 100.00
+| 2598 |[Smallest Missing Non-negative Integer After Operations](src/main/java/g2501_2600/s2598_smallest_missing_non_negative_integer_after_operations)| Medium | Array, Hash_Table, Math, Greedy | 4 | 99.19
+| 2597 |[The Number of Beautiful Subsets](src/main/java/g2501_2600/s2597_the_number_of_beautiful_subsets)| Medium | Array, Dynamic_Programming, Backtracking | 4 | 100.00
+| 2596 |[Check Knight Tour Configuration](src/main/java/g2501_2600/s2596_check_knight_tour_configuration)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Simulation | 1 | 100.00
 | 2595 |[Number of Even and Odd Bits](src/main/java/g2501_2600/s2595_number_of_even_and_odd_bits)| Easy | Bit_Manipulation | 1 | 100.00
 | 2594 |[Minimum Time to Repair Cars](src/main/java/g2501_2600/s2594_minimum_time_to_repair_cars)| Medium | Array, Binary_Search | 15 | 97.28
 | 2593 |[Find Score of an Array After Marking All Elements](src/main/java/g2501_2600/s2593_find_score_of_an_array_after_marking_all_elements)| Medium | Array, Sorting, Heap_Priority_Queue, Simulation | 159 | 96.76
@@ -1826,7 +1861,7 @@
 | 2587 |[Rearrange Array to Maximize Prefix Score](src/main/java/g2501_2600/s2587_rearrange_array_to_maximize_prefix_score)| Medium | Array, Sorting, Greedy, Prefix_Sum | 28 | 92.55
 | 2586 |[Count the Number of Vowel Strings in Range](src/main/java/g2501_2600/s2586_count_the_number_of_vowel_strings_in_range)| Easy | Array, String | 1 | 100.00
 | 2585 |[Number of Ways to Earn Points](src/main/java/g2501_2600/s2585_number_of_ways_to_earn_points)| Hard | Array, Dynamic_Programming | 56 | 76.40
-| 2584 |[Split the Array to Make Coprime Products](src/main/java/g2501_2600/s2584_split_the_array_to_make_coprime_products)| Medium | Breadth_First_Search, Tree, Binary_Search | 13 | 99.83
+| 2584 |[Split the Array to Make Coprime Products](src/main/java/g2501_2600/s2584_split_the_array_to_make_coprime_products)| Hard | Array, Hash_Table, Math, Number_Theory | 236 | 58.73
 | 2583 |[Kth Largest Sum in a Binary Tree](src/main/java/g2501_2600/s2583_kth_largest_sum_in_a_binary_tree)| Medium | Breadth_First_Search, Tree, Binary_Search | 13 | 99.83
 | 2582 |[Pass the Pillow](src/main/java/g2501_2600/s2582_pass_the_pillow)| Easy | Math, Simulation | 0 | 100.00
 | 2581 |[Count Number of Possible Root Nodes](src/main/java/g2501_2600/s2581_count_number_of_possible_root_nodes)| Hard | Hash_Table, Dynamic_Programming, Depth_First_Search, Tree | 38 | 100.00
