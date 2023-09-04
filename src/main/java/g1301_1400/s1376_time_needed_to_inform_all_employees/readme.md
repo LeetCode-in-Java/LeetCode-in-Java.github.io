@@ -50,49 +50,28 @@ The tree structure of the employees in the company is shown.
 ## Solution
 
 ```java
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Queue;
-
 @SuppressWarnings("java:S1172")
 public class Solution {
-    private static class Pair {
-        int emp;
-        int time;
-
-        Pair(int emp, int time) {
-            this.emp = emp;
-            this.time = time;
+    private int numMinsDFS(int index, int[] manager, int[] informTime) {
+        if (manager[index] != -1) {
+            informTime[index] += numMinsDFS(manager[index], manager, informTime);
+            manager[index] = -1;
         }
+        return informTime[index];
     }
 
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
-        HashMap<Integer, List<Integer>> map = new HashMap<>();
-        int head = -1;
-        for (int i = 0; i < manager.length; i++) {
-            if (manager[i] == -1) {
-                head = i;
+        int time = informTime[headID];
+        for (int i = 0; i < n; i++) {
+            if (informTime[i] == 0) {
                 continue;
             }
-            int man = manager[i];
-            map.putIfAbsent(man, new ArrayList<>());
-            map.get(man).add(i);
-        }
-        int maxtime = 0;
-        Queue<Pair> que = new ArrayDeque<>();
-        que.add(new Pair(head, informTime[head]));
-        while (!que.isEmpty()) {
-            Pair rem = que.remove();
-            maxtime = Math.max(rem.time, maxtime);
-            if (map.containsKey(rem.emp)) {
-                for (int under : map.get(rem.emp)) {
-                    que.add(new Pair(under, rem.time + informTime[under]));
-                }
+            int timei = numMinsDFS(i, manager, informTime);
+            if (timei > time) {
+                time = timei;
             }
         }
-        return maxtime;
+        return time;
     }
 }
 ```
