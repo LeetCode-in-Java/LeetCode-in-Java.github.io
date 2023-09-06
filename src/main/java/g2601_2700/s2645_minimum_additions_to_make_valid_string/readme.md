@@ -42,8 +42,21 @@ A string is called **valid** if it can be formed by concatenating the string "ab
 
 ```java
 public class Solution {
-    public String decode(String value) {
-        return value;
+    public int addMinimum(String word) {
+        int res = 0;
+        char last = word.charAt(0);
+        res += word.charAt(0) - 'a';
+        for (int i = 1; i < word.length(); i++) {
+            char curr = word.charAt(i);
+            if (curr > last) {
+                res += curr - last - 1;
+            } else {
+                res += curr - last + 2;
+            }
+            last = curr;
+        }
+        res += 'c' - last;
+        return res;
     }
 }
 ```

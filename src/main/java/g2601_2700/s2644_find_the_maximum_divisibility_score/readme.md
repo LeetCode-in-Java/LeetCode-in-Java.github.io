@@ -66,8 +66,25 @@ Since divisors[0] and divisors[1] both have the maximum divisibility score, we r
 
 ```java
 public class Solution {
-    public String decode(String value) {
-        return value;
+    public int maxDivScore(int[] nums, int[] divisors) {
+        int maxDivisor = divisors[0];
+        int maxDividedNums = 0;
+        for (int divisor : divisors) {
+            int dividedNums = 0;
+            for (int num : nums) {
+                if (num % divisor == 0) {
+                    dividedNums++;
+                }
+            }
+            if (dividedNums > maxDividedNums) {
+                maxDividedNums = dividedNums;
+                maxDivisor = divisor;
+            }
+            if (dividedNums == maxDividedNums && divisor < maxDivisor) {
+                maxDivisor = divisor;
+            }
+        }
+        return maxDivisor;
     }
 }
 ```
