@@ -46,6 +46,7 @@ A cycle is a path that starts and ends at the same node, and each edge in the pa
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unchecked")
 public class Solution {
     private int output = 1001;
 

@@ -45,7 +45,7 @@ Only include the sum of all the elements on the primary diagonal and all the ele
 ## Solution
 
 ```java
-class Solution {
+public class Solution {
     public int diagonalSum(int[][] mat) {
         int len = mat.length;
         int sum = 0;

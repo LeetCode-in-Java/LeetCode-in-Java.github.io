@@ -53,6 +53,7 @@ Note that if you pass an edge several times, you need to count it into the answe
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unchecked")
 public class Solution {
     private int[] coins;
     private List<Integer>[] graph;
