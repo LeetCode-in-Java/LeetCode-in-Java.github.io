@@ -82,40 +82,39 @@ Your `EventEmitter` class should have the following two methods:
 ## Solution
 
 ```typescript
-type Callback = (...args: any[]) => any;
+type Callback = (...args: any[]) => any
 type Subscription = {
     unsubscribe: () => void
 }
 
 class EventEmitter {
-    eventMap: Map<string, Set<Callback>>;
+    eventMap: Map<string, Set<Callback>>
 
     constructor() {
-        this.eventMap = new Map();
+        this.eventMap = new Map()
     }
-        
+
     subscribe(eventName: string, callback: Callback): Subscription {
         if (this.eventMap.has(eventName)) {
             const set = this.eventMap.get(eventName)!
             set.add(callback)
             this.eventMap.set(eventName, set)
-        }
-        else { 
-            const set = new Set<Callback>();
+        } else {
+            const set = new Set<Callback>()
             set.add(callback)
             this.eventMap.set(eventName, set)
-             }
+        }
 
         return {
             unsubscribe: () => {
                 this.eventMap.get(eventName).delete(callback)
-            }
-        };
+            },
+        }
     }
 
     emit(eventName: string, args: any[] = []): any[] {
         const res = []
-        this.eventMap.get(eventName)?.forEach(cb => res.push(cb(...args)))
+        this.eventMap.get(eventName)?.forEach((cb) => res.push(cb(...args)))
         return res
     }
 }
