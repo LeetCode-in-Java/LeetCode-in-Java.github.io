@@ -1816,6 +1816,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2808 |[Minimum Seconds to Equalize a Circular Array](src/main/java/g2801_2900/s2808_minimum_seconds_to_equalize_a_circular_array)| Medium | Array, Hash_Table, Greedy | 59 | 88.86
+| 2807 |[Insert Greatest Common Divisors in Linked List](src/main/java/g2801_2900/s2807_insert_greatest_common_divisors_in_linked_list)| Medium | Array, Math, Linked_List | 1 | 100.00
+| 2806 |[Account Balance After Rounded Purchase](src/main/java/g2801_2900/s2806_account_balance_after_rounded_purchase)| Easy | Math | 0 | 100.00
+| 2801 |[Count Stepping Numbers in Range](src/main/java/g2801_2900/s2801_count_stepping_numbers_in_range)| Hard | String, Dynamic_Programming | 22 | 74.37
 | 2800 |[Shortest String That Contains Three Strings](src/main/java/g2701_2800/s2800_shortest_string_that_contains_three_strings)| Medium | String, Greedy, Enumeration | 12 | 100.00
 | 2799 |[Count Complete Subarrays in an Array](src/main/java/g2701_2800/s2799_count_complete_subarrays_in_an_array)| Medium | Array, Hash_Table, Sliding_Window | 3 | 99.82
 | 2798 |[Number of Employees Who Met the Target](src/main/java/g2701_2800/s2798_number_of_employees_who_met_the_target)| Easy | Array, Enumeration | 0 | 100.00
@@ -1841,6 +1845,12 @@
 | 2765 |[Longest Alternating Subarray](src/main/java/g2701_2800/s2765_longest_alternating_subarray)| Easy | Array, Enumeration | 2 | 82.60
 | 2763 |[Sum of Imbalance Numbers of All Subarrays](src/main/java/g2701_2800/s2763_sum_of_imbalance_numbers_of_all_subarrays)| Hard | Array, Hash_Table, Ordered_Set | 1 | 100.00
 | 2762 |[Continuous Subarrays](src/main/java/g2701_2800/s2762_continuous_subarrays)| Medium | Array, Heap_Priority_Queue, Sliding_Window, Ordered_Set, Queue, Monotonic_Queue | 3 | 98.28
+| 2761 |[Prime Pairs With Target Sum](src/main/java/g2701_2800/s2761_prime_pairs_with_target_sum)| Medium | Array, Math, Enumeration, Number_Theory | 57 | 99.24
+| 2760 |[Longest Even Odd Subarray With Threshold](src/main/java/g2701_2800/s2760_longest_even_odd_subarray_with_threshold)| Easy | Array, Sliding_Window | 4 | 96.92
+| 2751 |[Robot Collisions](src/main/java/g2701_2800/s2751_robot_collisions)| Hard | Array, Sorting, Stack, Simulation | 29 | 98.29
+| 2750 |[Ways to Split Array Into Good Subarrays](src/main/java/g2701_2800/s2750_ways_to_split_array_into_good_subarrays)| Medium | Array, Dynamic_Programming, Math | 7 | 96.36
+| 2749 |[Minimum Operations to Make the Integer Zero](src/main/java/g2701_2800/s2749_minimum_operations_to_make_the_integer_zero)| Medium | Bit_Manipulation, Brainteaser | 1 | 91.11
+| 2748 |[Number of Beautiful Pairs](src/main/java/g2701_2800/s2748_number_of_beautiful_pairs)| Easy | Array, Math, Number_Theory | 11 | 91.00
 | 2747 |[Count Zero Request Servers](src/main/java/g2701_2800/s2747_count_zero_request_servers)| Medium | Array, Hash_Table, Sorting, Sliding_Window | 43 | 76.92
 | 2746 |[Decremental String Concatenation](src/main/java/g2701_2800/s2746_decremental_string_concatenation)| Medium | Array, String, Dynamic_Programming | 34 | 85.89
 | 2745 |[Construct the Longest New String](src/main/java/g2701_2800/s2745_construct_the_longest_new_string)| Medium | Math, Greedy, Brainteaser | 1 | 100.00
