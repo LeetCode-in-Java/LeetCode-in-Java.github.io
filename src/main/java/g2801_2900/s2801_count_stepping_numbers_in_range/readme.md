@@ -75,7 +75,6 @@ public class Solution {
                 count = (count + solve(s, i + 1, digit, nextHasBound, nextIsZero)) % MOD;
             }
         }
-
         dp[i][prevDigit][hasBound][curIsZero] = count;
         return dp[i][prevDigit][hasBound][curIsZero];
     }

@@ -81,6 +81,7 @@ Considering any node as root will give at least 1 correct guess.
 import java.util.LinkedList;
 import java.util.List;
 
+@SuppressWarnings("unchecked")
 public class Solution {
     public int rootCount(int[][] eg, int[][] gu, int k) {
         int n = eg.length + 1;
