@@ -1816,6 +1816,16 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2824 |[Count Pairs Whose Sum is Less than Target](src/main/java/g2801_2900/s2824_count_pairs_whose_sum_is_less_than_target)| Easy | Array, Sorting, Two_Pointers | 2 | 98.16
+| 2818 |[Apply Operations to Maximize Score](src/main/java/g2801_2900/s2818_apply_operations_to_maximize_score)| Hard | Array, Math, Greedy, Stack, Monotonic_Stack, Number_Theory | 94 | 100.00
+| 2817 |[Minimum Absolute Difference Between Elements With Constraint](src/main/java/g2801_2900/s2817_minimum_absolute_difference_between_elements_with_constraint)| Medium | Array, Binary_Search, Ordered_Set | 104 | 96.69
+| 2816 |[Double a Number Represented as a Linked List](src/main/java/g2801_2900/s2816_double_a_number_represented_as_a_linked_list)| Medium | Math, Stack, Linked_List | 4 | 81.41
+| 2815 |[Max Pair Sum in an Array](src/main/java/g2801_2900/s2815_max_pair_sum_in_an_array)| Easy | Array, Hash_Table | 8 | 67.30
+| 2813 |[Maximum Elegance of a K-Length Subsequence](src/main/java/g2801_2900/s2813_maximum_elegance_of_a_k_length_subsequence)| Hard | Array, Hash_Table, Sorting, Greedy, Heap_Priority_Queue | 35 | 100.00
+| 2812 |[Find the Safest Path in a Grid](src/main/java/g2801_2900/s2812_find_the_safest_path_in_a_grid)| Medium | Array, Binary_Search, Matrix, Union_Find, Breadth_First_Search | 57 | 100.00
+| 2811 |[Check if it is Possible to Split Array](src/main/java/g2801_2900/s2811_check_if_it_is_possible_to_split_array)| Medium | Array, Dynamic_Programming, Greedy | 1 | 98.31
+| 2810 |[Faulty Keyboard](src/main/java/g2801_2900/s2810_faulty_keyboard)| Easy | String, Simulation | 3 | 96.04
+| 2809 |[Minimum Time to Make Array Sum At Most x](src/main/java/g2801_2900/s2809_minimum_time_to_make_array_sum_at_most_x)| Hard | Array, Dynamic_Programming, Sorting | 14 | 100.00
 | 2808 |[Minimum Seconds to Equalize a Circular Array](src/main/java/g2801_2900/s2808_minimum_seconds_to_equalize_a_circular_array)| Medium | Array, Hash_Table, Greedy | 59 | 88.86
 | 2807 |[Insert Greatest Common Divisors in Linked List](src/main/java/g2801_2900/s2807_insert_greatest_common_divisors_in_linked_list)| Medium | Array, Math, Linked_List | 1 | 100.00
 | 2806 |[Account Balance After Rounded Purchase](src/main/java/g2801_2900/s2806_account_balance_after_rounded_purchase)| Easy | Math | 0 | 100.00
