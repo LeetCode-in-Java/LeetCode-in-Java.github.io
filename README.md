@@ -1816,6 +1816,21 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2842 |[Count K-Subsequences of a String With Maximum Beauty](src/main/java/g2801_2900/s2842_count_k_subsequences_of_a_string_with_maximum_beauty)| Hard | String, Hash_Table, Math, Greedy, Combinatorics | 5 | 80.91
+| 2841 |[Maximum Sum of Almost Unique Subarray](src/main/java/g2801_2900/s2841_maximum_sum_of_almost_unique_subarray)| Medium | Array, Hash_Table, Sliding_Window | 18 | 97.37
+| 2840 |[Check if Strings Can be Made Equal With Operations II](src/main/java/g2801_2900/s2840_check_if_strings_can_be_made_equal_with_operations_ii)| Medium | String, Hash_Table, Sorting | 4 | 100.00
+| 2839 |[Check if Strings Can be Made Equal With Operations I](src/main/java/g2801_2900/s2839_check_if_strings_can_be_made_equal_with_operations_i)| Easy | String | 1 | 99.09
+| 2836 |[Maximize Value of Function in a Ball Passing Game](src/main/java/g2801_2900/s2836_maximize_value_of_function_in_a_ball_passing_game)| Hard | Array, Dynamic_Programming, Bit_Manipulation | 235 | 45.00
+| 2835 |[Minimum Operations to Form Subsequence With Target Sum](src/main/java/g2801_2900/s2835_minimum_operations_to_form_subsequence_with_target_sum)| Hard | Array, Greedy, Bit_Manipulation | 2 | 94.66
+| 2834 |[Find the Minimum Possible Sum of a Beautiful Array](src/main/java/g2801_2900/s2834_find_the_minimum_possible_sum_of_a_beautiful_array)| Medium | Math, Greedy | 0 | 100.00
+| 2833 |[Furthest Point From Origin](src/main/java/g2801_2900/s2833_furthest_point_from_origin)| Easy | Array, Counting | 1 | 100.00
+| 2831 |[Find the Longest Equal Subarray](src/main/java/g2801_2900/s2831_find_the_longest_equal_subarray)| Medium | Array, Hash_Table, Binary_Search, Sliding_Window | 15 | 96.81
+| 2830 |[Maximize the Profit as the Salesman](src/main/java/g2801_2900/s2830_maximize_the_profit_as_the_salesman)| Medium | Array, Dynamic_Programming, Sorting, Binary_Search | 36 | 80.00
+| 2829 |[Determine the Minimum Sum of a k-avoiding Array](src/main/java/g2801_2900/s2829_determine_the_minimum_sum_of_a_k_avoiding_array)| Medium | Math, Greedy | 1 | 100.00
+| 2828 |[Check if a String Is an Acronym of Words](src/main/java/g2801_2900/s2828_check_if_a_string_is_an_acronym_of_words)| Easy | Array, String | 1 | 100.00
+| 2827 |[Number of Beautiful Integers in the Range](src/main/java/g2801_2900/s2827_number_of_beautiful_integers_in_the_range)| Hard | Dynamic_Programming, Math | 7 | 96.77
+| 2826 |[Sorting Three Groups](src/main/java/g2801_2900/s2826_sorting_three_groups)| Medium | Array, Dynamic_Programming | 4 | 100.00
+| 2825 |[Make String a Subsequence Using Cyclic Increments](src/main/java/g2801_2900/s2825_make_string_a_subsequence_using_cyclic_increments)| Medium | String, Two_Pointers | 5 | 99.69
 | 2824 |[Count Pairs Whose Sum is Less than Target](src/main/java/g2801_2900/s2824_count_pairs_whose_sum_is_less_than_target)| Easy | Array, Sorting, Two_Pointers | 2 | 98.16
 | 2818 |[Apply Operations to Maximize Score](src/main/java/g2801_2900/s2818_apply_operations_to_maximize_score)| Hard | Array, Math, Greedy, Stack, Monotonic_Stack, Number_Theory | 94 | 100.00
 | 2817 |[Minimum Absolute Difference Between Elements With Constraint](src/main/java/g2801_2900/s2817_minimum_absolute_difference_between_elements_with_constraint)| Medium | Array, Binary_Search, Ordered_Set | 104 | 96.69
