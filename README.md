@@ -1816,6 +1816,36 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2900 |[Longest Unequal Adjacent Groups Subsequence I](src/main/java/g2801_2900/s2900_longest_unequal_adjacent_groups_subsequence_i)| Medium | Array, String, Dynamic_Programming, Greedy | 1 | 100.00
+| 2899 |[Last Visited Integers](src/main/java/g2801_2900/s2899_last_visited_integers)| Easy | Array, String, Simulation | 2 | 96.41
+| 2897 |[Apply Operations on Array to Maximize Sum of Squares](src/main/java/g2801_2900/s2897_apply_operations_on_array_to_maximize_sum_of_squares)| Hard | Array, Hash_Table, Greedy, Bit_Manipulation | 29 | 98.00
+| 2896 |[Apply Operations to Make Two Strings Equal](src/main/java/g2801_2900/s2896_apply_operations_to_make_two_strings_equal)| Medium | String, Dynamic_Programming | 1 | 100.00
+| 2895 |[Minimum Processing Time](src/main/java/g2801_2900/s2895_minimum_processing_time)| Medium | Array, Sorting, Greedy | 23 | 99.30
+| 2873 |[Maximum Value of an Ordered Triplet I](src/main/java/g2801_2900/s2873_maximum_value_of_an_ordered_triplet_i)| Easy | Array | 0 | 100.00
+| 2872 |[Maximum Number of K-Divisible Components](src/main/java/g2801_2900/s2872_maximum_number_of_k_divisible_components)| Hard | Dynamic_Programming, Depth_First_Search, Tree | 24 | 93.51
+| 2871 |[Split Array Into Maximum Number of Subarrays](src/main/java/g2801_2900/s2871_split_array_into_maximum_number_of_subarrays)| Medium | Array, Greedy, Bit_Manipulation | 3 | 100.00
+| 2870 |[Minimum Number of Operations to Make Array Empty](src/main/java/g2801_2900/s2870_minimum_number_of_operations_to_make_array_empty)| Medium | Array, Hash_Table, Greedy, Counting | 6 | 98.16
+| 2869 |[Minimum Operations to Collect Elements](src/main/java/g2801_2900/s2869_minimum_operations_to_collect_elements)| Easy | Array, Hash_Table | 1 | 100.00
+| 2867 |[Count Valid Paths in a Tree](src/main/java/g2801_2900/s2867_count_valid_paths_in_a_tree)| Hard | Dynamic_Programming, Math, Depth_First_Search, Tree, Number_Theory | 26 | 97.33
+| 2866 |[Beautiful Towers II](src/main/java/g2801_2900/s2866_beautiful_towers_ii)| Medium | Array, Stack, Monotonic_Stack | 35 | 89.02
+| 2865 |[Beautiful Towers I](src/main/java/g2801_2900/s2865_beautiful_towers_i)| Medium | Array, Stack, Monotonic_Stack | 13 | 74.26
+| 2864 |[Maximum Odd Binary Number](src/main/java/g2801_2900/s2864_maximum_odd_binary_number)| Easy | String, Math, Greedy | 1 | 100.00
+| 2862 |[Maximum Element-Sum of a Complete Subset of Indices](src/main/java/g2801_2900/s2862_maximum_element_sum_of_a_complete_subset_of_indices)| Hard | Array, Math, Number_Theory | 3 | 78.95
+| 2861 |[Maximum Number of Alloys](src/main/java/g2801_2900/s2861_maximum_number_of_alloys)| Medium | Array, Binary_Search | 16 | 91.51
+| 2860 |[Happy Students](src/main/java/g2801_2900/s2860_happy_students)| Medium | Array, Sorting, Enumeration | 33 | 91.76
+| 2859 |[Sum of Values at Indices With K Set Bits](src/main/java/g2801_2900/s2859_sum_of_values_at_indices_with_k_set_bits)| Easy | Array, Bit_Manipulation | 1 | 100.00
+| 2858 |[Minimum Edge Reversals So Every Node Is Reachable](src/main/java/g2801_2900/s2858_minimum_edge_reversals_so_every_node_is_reachable)| Hard | Dynamic_Programming, Depth_First_Search, Breadth_First_Search, Graph | 52 | 92.31
+| 2857 |[Count Pairs of Points With Distance k](src/main/java/g2801_2900/s2857_count_pairs_of_points_with_distance_k)| Medium | Array, Hash_Table, Bit_Manipulation | 250 | 84.21
+| 2856 |[Minimum Array Length After Pair Removals](src/main/java/g2801_2900/s2856_minimum_array_length_after_pair_removals)| Medium | Array, Hash_Table, Greedy, Binary_Search, Two_Pointers, Counting | 5 | 97.63
+| 2855 |[Minimum Right Shifts to Sort the Array](src/main/java/g2801_2900/s2855_minimum_right_shifts_to_sort_the_array)| Easy | Array | 1 | 100.00
+| 2851 |[String Transformation](src/main/java/g2801_2900/s2851_string_transformation)| Hard | String, Dynamic_Programming, Math, String_Matching | 54 | 78.45
+| 2850 |[Minimum Moves to Spread Stones Over Grid](src/main/java/g2801_2900/s2850_minimum_moves_to_spread_stones_over_grid)| Medium | Array, Dynamic_Programming, Breadth_First_Search, Matrix | 1 | 100.00
+| 2849 |[Determine if a Cell Is Reachable at a Given Time](src/main/java/g2801_2900/s2849_determine_if_a_cell_is_reachable_at_a_given_time)| Medium | Math | 1 | 91.15
+| 2848 |[Points That Intersect With Cars](src/main/java/g2801_2900/s2848_points_that_intersect_with_cars)| Easy | Hash_Table, Math, Prefix_Sum | 1 | 100.00
+| 2846 |[Minimum Edge Weight Equilibrium Queries in a Tree](src/main/java/g2801_2900/s2846_minimum_edge_weight_equilibrium_queries_in_a_tree)| Hard | Array, Tree, Graph, Strongly_Connected_Component | 74 | 66.04
+| 2845 |[Count of Interesting Subarrays](src/main/java/g2801_2900/s2845_count_of_interesting_subarrays)| Medium | Array, Hash_Table, Prefix_Sum | 27 | 97.76
+| 2844 |[Minimum Operations to Make a Special Number](src/main/java/g2801_2900/s2844_minimum_operations_to_make_a_special_number)| Medium | String, Math, Greedy, Enumeration | 1 | 100.00
+| 2843 |[Count Symmetric Integers](src/main/java/g2801_2900/s2843_count_symmetric_integers)| Easy | Math, Enumeration | 26 | 80.87
 | 2842 |[Count K-Subsequences of a String With Maximum Beauty](src/main/java/g2801_2900/s2842_count_k_subsequences_of_a_string_with_maximum_beauty)| Hard | String, Hash_Table, Math, Greedy, Combinatorics | 5 | 80.91
 | 2841 |[Maximum Sum of Almost Unique Subarray](src/main/java/g2801_2900/s2841_maximum_sum_of_almost_unique_subarray)| Medium | Array, Hash_Table, Sliding_Window | 18 | 97.37
 | 2840 |[Check if Strings Can be Made Equal With Operations II](src/main/java/g2801_2900/s2840_check_if_strings_can_be_made_equal_with_operations_ii)| Medium | String, Hash_Table, Sorting | 4 | 100.00
@@ -1837,7 +1867,7 @@
 | 2816 |[Double a Number Represented as a Linked List](src/main/java/g2801_2900/s2816_double_a_number_represented_as_a_linked_list)| Medium | Math, Stack, Linked_List | 4 | 81.41
 | 2815 |[Max Pair Sum in an Array](src/main/java/g2801_2900/s2815_max_pair_sum_in_an_array)| Easy | Array, Hash_Table | 8 | 67.30
 | 2813 |[Maximum Elegance of a K-Length Subsequence](src/main/java/g2801_2900/s2813_maximum_elegance_of_a_k_length_subsequence)| Hard | Array, Hash_Table, Sorting, Greedy, Heap_Priority_Queue | 35 | 100.00
-| 2812 |[Find the Safest Path in a Grid](src/main/java/g2801_2900/s2812_find_the_safest_path_in_a_grid)| Medium | Array, Binary_Search, Matrix, Union_Find, Breadth_First_Search | 57 | 100.00
+| 2812 |[Find the Safest Path in a Grid](src/main/java/g2801_2900/s2812_find_the_safest_path_in_a_grid)| Medium | Array, Breadth_First_Search, Binary_Search, Matrix, Union_Find | 57 | 100.00
 | 2811 |[Check if it is Possible to Split Array](src/main/java/g2801_2900/s2811_check_if_it_is_possible_to_split_array)| Medium | Array, Dynamic_Programming, Greedy | 1 | 98.31
 | 2810 |[Faulty Keyboard](src/main/java/g2801_2900/s2810_faulty_keyboard)| Easy | String, Simulation | 3 | 96.04
 | 2809 |[Minimum Time to Make Array Sum At Most x](src/main/java/g2801_2900/s2809_minimum_time_to_make_array_sum_at_most_x)| Hard | Array, Dynamic_Programming, Sorting | 14 | 100.00
