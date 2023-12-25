@@ -1816,11 +1816,31 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2901 |[Longest Unequal Adjacent Groups Subsequence II](src/main/java/g2901_3000/s2901_longest_unequal_adjacent_groups_subsequence_ii)| Medium | Array, String, Dynamic_Programming | 40 | 92.26
 | 2900 |[Longest Unequal Adjacent Groups Subsequence I](src/main/java/g2801_2900/s2900_longest_unequal_adjacent_groups_subsequence_i)| Medium | Array, String, Dynamic_Programming, Greedy | 1 | 100.00
 | 2899 |[Last Visited Integers](src/main/java/g2801_2900/s2899_last_visited_integers)| Easy | Array, String, Simulation | 2 | 96.41
 | 2897 |[Apply Operations on Array to Maximize Sum of Squares](src/main/java/g2801_2900/s2897_apply_operations_on_array_to_maximize_sum_of_squares)| Hard | Array, Hash_Table, Greedy, Bit_Manipulation | 29 | 98.00
 | 2896 |[Apply Operations to Make Two Strings Equal](src/main/java/g2801_2900/s2896_apply_operations_to_make_two_strings_equal)| Medium | String, Dynamic_Programming | 1 | 100.00
 | 2895 |[Minimum Processing Time](src/main/java/g2801_2900/s2895_minimum_processing_time)| Medium | Array, Sorting, Greedy | 23 | 99.30
+| 2894 |[Divisible and Non-divisible Sums Difference](src/main/java/g2801_2900/s2894_divisible_and_non_divisible_sums_difference)| Easy | Math | 1 | 92.30
+| 2891 |[Method Chaining](src/main/java/g2801_2900/s2891_method_chaining)| Easy || 412 | 99.23
+| 2890 |[Reshape Data: Melt](src/main/java/g2801_2900/s2890_reshape_data_melt)| Easy || 446 | 97.89
+| 2889 |[Reshape Data: Pivot](src/main/java/g2801_2900/s2889_reshape_data_pivot)| Easy || 416 | 99.87
+| 2888 |[Reshape Data: Concatenate](src/main/java/g2801_2900/s2888_reshape_data_concatenate)| Easy || 441 | 96.26
+| 2887 |[Fill Missing Data](src/main/java/g2801_2900/s2887_fill_missing_data)| Easy || 404 | 97.11
+| 2886 |[Change Data Type](src/main/java/g2801_2900/s2886_change_data_type)| Easy || 421 | 94.57
+| 2885 |[Rename Columns](src/main/java/g2801_2900/s2885_rename_columns)| Easy || 467 | 68.13
+| 2884 |[Modify Columns](src/main/java/g2801_2900/s2884_modify_columns)| Easy || 401 | 96.35
+| 2883 |[Drop Missing Data](src/main/java/g2801_2900/s2883_drop_missing_data)| Easy || 429 | 94.97
+| 2882 |[Drop Duplicate Rows](src/main/java/g2801_2900/s2882_drop_duplicate_rows)| Easy || 405 | 97.36
+| 2881 |[Create a New Column](src/main/java/g2801_2900/s2881_create_a_new_column)| Easy || 437 | 81.98
+| 2880 |[Select Data](src/main/java/g2801_2900/s2880_select_data)| Easy || 428 | 94.99
+| 2879 |[Display the First Three Rows](src/main/java/g2801_2900/s2879_display_the_first_three_rows)| Easy || 406 | 96.44
+| 2878 |[Get the Size of a DataFrame](src/main/java/g2801_2900/s2878_get_the_size_of_a_dataframe)| Easy || 413 | 94.68
+| 2877 |[Create a DataFrame from List](src/main/java/g2801_2900/s2877_create_a_dataframe_from_list)| Easy || 406 | 82.57
+| 2876 |[Count Visited Nodes in a Directed Graph](src/main/java/g2801_2900/s2876_count_visited_nodes_in_a_directed_graph)| Hard | Dynamic_Programming, Graph, Memoization | 36 | 93.33
+| 2875 |[Minimum Size Subarray in Infinite Array](src/main/java/g2801_2900/s2875_minimum_size_subarray_in_infinite_array)| Medium | Array, Hash_Table, Prefix_Sum, Sliding_Window | 6 | 87.63
+| 2874 |[Maximum Value of an Ordered Triplet II](src/main/java/g2801_2900/s2874_maximum_value_of_an_ordered_triplet_ii)| Medium | Array | 2 | 99.67
 | 2873 |[Maximum Value of an Ordered Triplet I](src/main/java/g2801_2900/s2873_maximum_value_of_an_ordered_triplet_i)| Easy | Array | 0 | 100.00
 | 2872 |[Maximum Number of K-Divisible Components](src/main/java/g2801_2900/s2872_maximum_number_of_k_divisible_components)| Hard | Dynamic_Programming, Depth_First_Search, Tree | 24 | 93.51
 | 2871 |[Split Array Into Maximum Number of Subarrays](src/main/java/g2801_2900/s2871_split_array_into_maximum_number_of_subarrays)| Medium | Array, Greedy, Bit_Manipulation | 3 | 100.00
