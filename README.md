@@ -1816,6 +1816,34 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2949 |[Count Beautiful Substrings II](src/main/java/g2901_3000/s2949_count_beautiful_substrings_ii)| Hard | String, Hash_Table, Math, Prefix_Sum, Number_Theory | 29 | 92.10
+| 2948 |[Make Lexicographically Smallest Array by Swapping Elements](src/main/java/g2901_3000/s2948_make_lexicographically_smallest_array_by_swapping_elements)| Medium | Array, Sorting, Union_Find | 41 | 99.61
+| 2947 |[Count Beautiful Substrings I](src/main/java/g2901_3000/s2947_count_beautiful_substrings_i)| Medium | String, Prefix_Sum, Enumeration | 2 | 100.00
+| 2946 |[Matrix Similarity After Cyclic Shifts](src/main/java/g2901_3000/s2946_matrix_similarity_after_cyclic_shifts)| Easy | Array, Math, Matrix, Simulation | 1 | 100.00
+| 2945 |[Find Maximum Non-decreasing Array Length](src/main/java/g2901_3000/s2945_find_maximum_non_decreasing_array_length)| Hard | Array, Dynamic_Programming, Binary_Search, Stack, Monotonic_Stack, Queue, Monotonic_Queue | 11 | 98.10
+| 2929 |[Distribute Candies Among Children II](src/main/java/g2901_3000/s2929_distribute_candies_among_children_ii)| Medium | Math, Enumeration, Combinatorics | 0 | 100.00
+| 2928 |[Distribute Candies Among Children I](src/main/java/g2901_3000/s2928_distribute_candies_among_children_i)| Easy | Math, Enumeration, Combinatorics | 1 | 98.72
+| 2926 |[Maximum Balanced Subsequence Sum](src/main/java/g2901_3000/s2926_maximum_balanced_subsequence_sum)| Hard | Array, Dynamic_Programming, Binary_Search, Segment_Tree, Binary_Indexed_Tree | 37 | 99.23
+| 2925 |[Maximum Score After Applying Operations on a Tree](src/main/java/g2901_3000/s2925_maximum_score_after_applying_operations_on_a_tree)| Medium | Dynamic_Programming, Tree, Depth_First_Search | 22 | 79.74
+| 2924 |[Find Champion II](src/main/java/g2901_3000/s2924_find_champion_ii)| Medium | Graph | 1 | 100.00
+| 2923 |[Find Champion I](src/main/java/g2901_3000/s2923_find_champion_i)| Easy | Array, Matrix | 1 | 96.00
+| 2920 |[Maximum Points After Collecting Coins From All Nodes](src/main/java/g2901_3000/s2920_maximum_points_after_collecting_coins_from_all_nodes)| Hard | Array, Dynamic_Programming, Tree, Bit_Manipulation, Depth_First_Search | 113 | 77.94
+| 2919 |[Minimum Increment Operations to Make Array Beautiful](src/main/java/g2901_3000/s2919_minimum_increment_operations_to_make_array_beautiful)| Medium | Array, Dynamic_Programming | 4 | 64.62
+| 2918 |[Minimum Equal Sum of Two Arrays After Replacing Zeros](src/main/java/g2901_3000/s2918_minimum_equal_sum_of_two_arrays_after_replacing_zeros)| Medium | Array, Greedy | 3 | 98.52
+| 2917 |[Find the K-or of an Array](src/main/java/g2901_3000/s2917_find_the_k_or_of_an_array)| Easy | Array, Bit_Manipulation | 2 | 96.79
+| 2916 |[Subarrays Distinct Element Sum of Squares II](src/main/java/g2901_3000/s2916_subarrays_distinct_element_sum_of_squares_ii)| Hard | Array, Dynamic_Programming, Segment_Tree, Binary_Indexed_Tree | 77 | 83.65
+| 2915 |[Length of the Longest Subsequence That Sums to Target](src/main/java/g2901_3000/s2915_length_of_the_longest_subsequence_that_sums_to_target)| Medium | Array, Dynamic_Programming | 23 | 91.30
+| 2914 |[Minimum Number of Changes to Make Binary String Beautiful](src/main/java/g2901_3000/s2914_minimum_number_of_changes_to_make_binary_string_beautiful)| Medium | String | 3 | 99.56
+| 2913 |[Subarrays Distinct Element Sum of Squares I](src/main/java/g2901_3000/s2913_subarrays_distinct_element_sum_of_squares_i)| Easy | Array, Hash_Table | 1 | 100.00
+| 2911 |[Minimum Changes to Make K Semi-palindromes](src/main/java/g2901_3000/s2911_minimum_changes_to_make_k_semi_palindromes)| Hard | String, Dynamic_Programming, Two_Pointers | 15 | 98.23
+| 2910 |[Minimum Number of Groups to Create a Valid Assignment](src/main/java/g2901_3000/s2910_minimum_number_of_groups_to_create_a_valid_assignment)| Medium | Array, Hash_Table, Greedy | 36 | 68.99
+| 2909 |[Minimum Sum of Mountain Triplets II](src/main/java/g2901_3000/s2909_minimum_sum_of_mountain_triplets_ii)| Medium | Array | 2 | 99.79
+| 2908 |[Minimum Sum of Mountain Triplets I](src/main/java/g2901_3000/s2908_minimum_sum_of_mountain_triplets_i)| Easy | Array | 1 | 99.90
+| 2906 |[Construct Product Matrix](src/main/java/g2901_3000/s2906_construct_product_matrix)| Medium | Array, Matrix, Prefix_Sum | 11 | 84.62
+| 2905 |[Find Indices With Index and Value Difference II](src/main/java/g2901_3000/s2905_find_indices_with_index_and_value_difference_ii)| Medium | Array | 1 | 100.00
+| 2904 |[Shortest and Lexicographically Smallest Beautiful String](src/main/java/g2901_3000/s2904_shortest_and_lexicographically_smallest_beautiful_string)| Medium | String, Sliding_Window | 1 | 100.00
+| 2903 |[Find Indices With Index and Value Difference I](src/main/java/g2901_3000/s2903_find_indices_with_index_and_value_difference_i)| Easy | Array | 1 | 99.89
+| 2902 |[Count of Sub-Multisets With Bounded Sum](src/main/java/g2901_3000/s2902_count_of_sub_multisets_with_bounded_sum)| Hard | Array, Hash_Table, Dynamic_Programming, Sliding_Window | 2146 | 5.39
 | 2901 |[Longest Unequal Adjacent Groups Subsequence II](src/main/java/g2901_3000/s2901_longest_unequal_adjacent_groups_subsequence_ii)| Medium | Array, String, Dynamic_Programming | 40 | 92.26
 | 2900 |[Longest Unequal Adjacent Groups Subsequence I](src/main/java/g2801_2900/s2900_longest_unequal_adjacent_groups_subsequence_i)| Medium | Array, String, Dynamic_Programming, Greedy | 1 | 100.00
 | 2899 |[Last Visited Integers](src/main/java/g2801_2900/s2899_last_visited_integers)| Easy | Array, String, Simulation | 2 | 96.41
