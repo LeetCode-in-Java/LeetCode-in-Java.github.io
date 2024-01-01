@@ -61,6 +61,7 @@ It can be shown that the maximum points we can get after collecting coins from a
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unchecked")
 public class Solution {
     private List<Integer>[] adjList;
     private int[] coins;
