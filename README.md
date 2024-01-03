@@ -1821,6 +1821,16 @@
 | 2947 |[Count Beautiful Substrings I](src/main/java/g2901_3000/s2947_count_beautiful_substrings_i)| Medium | String, Prefix_Sum, Enumeration | 2 | 100.00
 | 2946 |[Matrix Similarity After Cyclic Shifts](src/main/java/g2901_3000/s2946_matrix_similarity_after_cyclic_shifts)| Easy | Array, Math, Matrix, Simulation | 1 | 100.00
 | 2945 |[Find Maximum Non-decreasing Array Length](src/main/java/g2901_3000/s2945_find_maximum_non_decreasing_array_length)| Hard | Array, Dynamic_Programming, Binary_Search, Stack, Monotonic_Stack, Queue, Monotonic_Queue | 11 | 98.10
+| 2940 |[Find Building Where Alice and Bob Can Meet](src/main/java/g2901_3000/s2940_find_building_where_alice_and_bob_can_meet)| Hard | Array, Binary_Search, Stack, Heap_Priority_Queue, Monotonic_Stack, Segment_Tree, Binary_Indexed_Tree | 19 | 94.91
+| 2939 |[Maximum Xor Product](src/main/java/g2901_3000/s2939_maximum_xor_product)| Medium | Math, Greedy, Bit_Manipulation | 1 | 100.00
+| 2938 |[Separate Black and White Balls](src/main/java/g2901_3000/s2938_separate_black_and_white_balls)| Medium | String, Greedy, Two_Pointers | 7 | 99.65
+| 2937 |[Make Three Strings Equal](src/main/java/g2901_3000/s2937_make_three_strings_equal)| Easy | String | 1 | 100.00
+| 2935 |[Maximum Strong Pair XOR II](src/main/java/g2901_3000/s2935_maximum_strong_pair_xor_ii)| Hard | Array, Hash_Table, Bit_Manipulation, Sliding_Window, Trie | 126 | 76.94
+| 2934 |[Minimum Operations to Maximize Last Elements in Arrays](src/main/java/g2901_3000/s2934_minimum_operations_to_maximize_last_elements_in_arrays)| Medium | Array, Greedy | 1 | 100.00
+| 2933 |[High-Access Employees](src/main/java/g2901_3000/s2933_high_access_employees)| Medium | Array, String, Hash_Table, Sorting | 9 | 87.94
+| 2932 |[Maximum Strong Pair XOR I](src/main/java/g2901_3000/s2932_maximum_strong_pair_xor_i)| Easy | Array, Hash_Table, Bit_Manipulation, Sliding_Window, Trie | 2 | 98.64
+| 2931 |[Maximum Spending After Buying Items](src/main/java/g2901_3000/s2931_maximum_spending_after_buying_items)| Hard | Array, Sorting, Greedy, Matrix, Heap_Priority_Queue | 18 | 79.00
+| 2930 |[Number of Strings Which Can Be Rearranged to Contain Substring](src/main/java/g2901_3000/s2930_number_of_strings_which_can_be_rearranged_to_contain_substring)| Medium | Dynamic_Programming, Math, Combinatorics | 1 | 80.56
 | 2929 |[Distribute Candies Among Children II](src/main/java/g2901_3000/s2929_distribute_candies_among_children_ii)| Medium | Math, Enumeration, Combinatorics | 0 | 100.00
 | 2928 |[Distribute Candies Among Children I](src/main/java/g2901_3000/s2928_distribute_candies_among_children_i)| Easy | Math, Enumeration, Combinatorics | 1 | 98.72
 | 2926 |[Maximum Balanced Subsequence Sum](src/main/java/g2901_3000/s2926_maximum_balanced_subsequence_sum)| Hard | Array, Dynamic_Programming, Binary_Search, Segment_Tree, Binary_Indexed_Tree | 37 | 99.23
