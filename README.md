@@ -1821,6 +1821,9 @@
 | 2947 |[Count Beautiful Substrings I](src/main/java/g2901_3000/s2947_count_beautiful_substrings_i)| Medium | String, Prefix_Sum, Enumeration | 2 | 100.00
 | 2946 |[Matrix Similarity After Cyclic Shifts](src/main/java/g2901_3000/s2946_matrix_similarity_after_cyclic_shifts)| Easy | Array, Math, Matrix, Simulation | 1 | 100.00
 | 2945 |[Find Maximum Non-decreasing Array Length](src/main/java/g2901_3000/s2945_find_maximum_non_decreasing_array_length)| Hard | Array, Dynamic_Programming, Binary_Search, Stack, Monotonic_Stack, Queue, Monotonic_Queue | 11 | 98.10
+| 2944 |[Minimum Number of Coins for Fruits](src/main/java/g2901_3000/s2944_minimum_number_of_coins_for_fruits)| Medium | Array, Dynamic_Programming, Heap_Priority_Queue, Queue, Monotonic_Queue | 2 | 99.43
+| 2943 |[Maximize Area of Square Hole in Grid](src/main/java/g2901_3000/s2943_maximize_area_of_square_hole_in_grid)| Medium | Array, Sorting | 2 | 100.00
+| 2942 |[Find Words Containing Character](src/main/java/g2901_3000/s2942_find_words_containing_character)| Easy | Array, String | 2 | 72.65
 | 2940 |[Find Building Where Alice and Bob Can Meet](src/main/java/g2901_3000/s2940_find_building_where_alice_and_bob_can_meet)| Hard | Array, Binary_Search, Stack, Heap_Priority_Queue, Monotonic_Stack, Segment_Tree, Binary_Indexed_Tree | 19 | 94.91
 | 2939 |[Maximum Xor Product](src/main/java/g2901_3000/s2939_maximum_xor_product)| Medium | Math, Greedy, Bit_Manipulation | 1 | 100.00
 | 2938 |[Separate Black and White Balls](src/main/java/g2901_3000/s2938_separate_black_and_white_balls)| Medium | String, Greedy, Two_Pointers | 7 | 99.65
