@@ -39,46 +39,38 @@ Return _the **minimum** equal sum you can obtain, or_ `-1` _if it is impossible_
 ```java
 public class Solution {
     public long minSum(int[] nums1, int[] nums2) {
-        long s1 = 0;
-        long s2 = 0;
-        long l = 0;
-        long r = 0;
-        for (int i : nums1) {
-            s1 += i;
-            if (i == 0) {
-                l++;
-            }
+        long zero1Count = 0;
+        long sum1 = 0;
+        long zero2Count = 0;
+        long sum2 = 0;
+        for (int num : nums1) {
+            zero1Count += num == 0 ? 1 : 0;
+            sum1 += num;
         }
-        for (int i : nums2) {
-            s2 += i;
-            if (i == 0) {
-                r++;
-            }
+        for (int num : nums2) {
+            zero2Count += num == 0 ? 1 : 0;
+            sum2 += num;
         }
-        if (s1 == s2 && l == 0 && r == 0) {
-            return s1;
+        if (zero1Count == 0 && zero2Count == 0) {
+            return sum1 == sum2 ? sum1 : -1;
         }
-        long x = Math.abs(s1 - s2);
-        if (s1 > s2) {
-            if (r == 0 || (l == 0 && r > x)) {
-                return -1;
-            }
-            if (l == 0) {
-                return s1;
-            }
-            return s1 + Math.max(l, r - x);
-        } else {
-            if (l == 0 || (r == 0 && l > x)) {
-                return -1;
-            }
-            if (s1 == s2) {
-                return s1 + Math.max(l, r);
-            }
-            if (r == 0) {
-                return s2;
-            }
-            return s2 + Math.max(r, l - x);
+        if (zero1Count == 0) {
+            return (sum1 - sum2 >= zero2Count) ? sum1 : -1;
         }
+        if (zero2Count == 0) {
+            return (sum2 - sum1 >= zero1Count) ? sum2 : -1;
+        }
+        long ans = Long.MAX_VALUE;
+        long p1 = zero1Count;
+        long p2 = zero1Count - (sum2 - sum1);
+        if (p2 >= zero2Count) {
+            ans = Math.min(ans, sum1 + p1);
+        }
+        p1 = (sum2 - sum1) + zero2Count;
+        if (p1 >= zero1Count) {
+            ans = Math.min(ans, sum1 + p1);
+        }
+        return ans != Long.MAX_VALUE ? ans : -1;
     }
 }
 ```
