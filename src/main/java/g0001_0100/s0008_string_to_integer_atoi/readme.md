@@ -115,46 +115,73 @@ Since -91283472332 is less than the lower bound of the range [-2<sup>31</sup>, 2
 *   `0 <= s.length <= 200`
 *   `s` consists of English letters (lower-case and upper-case), digits (`0-9`), `' '`, `'+'`, `'-'`, and `'.'`.
 
-## Solution
+To solve the String to Integer (atoi) problem in Java using a `Solution` class, we'll follow these steps:
+
+1. Define a `Solution` class with a method named `myAtoi`.
+2. Trim leading whitespace from the input string `s`.
+3. Check if the string is empty after trimming. If so, return 0.
+4. Initialize variables to keep track of the sign of the integer (`sign`), the starting index of the numeric characters (`start`), and the result (`result`).
+5. Check if the first character of the trimmed string is `'-'` or `'+'`. Update `sign` accordingly, and move the starting index accordingly.
+6. Iterate through the characters of the trimmed string starting from the `start` index:
+   - Check if the current character is a digit. If not, break the loop.
+   - Convert the character to its numeric value and update the `result`.
+   - Check if the result exceeds the 32-bit integer range. If so, clamp it to the range and return.
+7. Multiply the `result` by the sign and return the final value.
+8. Handle edge cases where the input string is empty, consists of only whitespace, or contains non-numeric characters at the beginning.
+
+Here's the implementation:
 
 ```java
 public class Solution {
-    public int myAtoi(String str) {
-        if (str == null || str.length() == 0) {
+
+    public int myAtoi(String s) {
+        s = s.trim();
+        if (s.isEmpty())
             return 0;
+
+        int sign = 1;
+        int start = 0;
+        long result = 0;
+
+        if (s.charAt(0) == '-' || s.charAt(0) == '+') {
+            sign = (s.charAt(0) == '-') ? -1 : 1;
+            start++;
         }
-        int i = 0;
-        boolean negetiveSign = false;
-        char[] input = str.toCharArray();
-        while (i < input.length && input[i] == ' ') {
-            i++;
-        }
-        if (i == input.length) {
-            return 0;
-        } else if (input[i] == '+') {
-            i++;
-        } else if (input[i] == '-') {
-            i++;
-            negetiveSign = true;
-        }
-        int num = 0;
-        while (i < input.length && input[i] <= '9' && input[i] >= '0') {
-            // current char
-            int tem = input[i] - '0';
-            tem = negetiveSign ? -tem : tem;
-            // avoid invalid number like 038
-            if (num == 0 && tem == '0') {
-                i++;
-            } else if (num == Integer.MIN_VALUE / 10 && tem <= -8 || num < Integer.MIN_VALUE / 10) {
-                return Integer.MIN_VALUE;
-            } else if (num == Integer.MAX_VALUE / 10 && tem >= 7 || num > Integer.MAX_VALUE / 10) {
+
+        for (int i = start; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (!Character.isDigit(c))
+                break;
+            result = result * 10 + (c - '0');
+            if (result * sign > Integer.MAX_VALUE)
                 return Integer.MAX_VALUE;
-            } else {
-                num = num * 10 + tem;
-                i++;
-            }
+            if (result * sign < Integer.MIN_VALUE)
+                return Integer.MIN_VALUE;
         }
-        return num;
+
+        return (int) (result * sign);
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        // Test cases
+        String s1 = "42";
+        System.out.println("Example 1 Output: " + solution.myAtoi(s1));
+
+        String s2 = " -42";
+        System.out.println("Example 2 Output: " + solution.myAtoi(s2));
+
+        String s3 = "4193 with words";
+        System.out.println("Example 3 Output: " + solution.myAtoi(s3));
+
+        String s4 = "words and 987";
+        System.out.println("Example 4 Output: " + solution.myAtoi(s4));
+
+        String s5 = "-91283472332";
+        System.out.println("Example 5 Output: " + solution.myAtoi(s5));
     }
 }
 ```
+
+This implementation provides a solution to the String to Integer (atoi) problem in Java.

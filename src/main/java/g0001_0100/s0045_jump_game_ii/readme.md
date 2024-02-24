@@ -32,43 +32,36 @@ You can assume that you can always reach the last index.
 *   <code>1 <= nums.length <= 10<sup>4</sup></code>
 *   `0 <= nums[i] <= 1000`
 
-## Solution
+To solve the "Jump Game II" problem in Java with a `Solution` class, we can follow these steps:
+
+1. Define a `Solution` class.
+2. Define a method named `jump` that takes an array of non-negative integers `nums` as input and returns the minimum number of jumps required to reach the last index.
+3. Initialize variables `maxReach`, `steps`, and `end` to keep track of the maximum reachable position, the number of steps taken, and the end position respectively. Initialize `maxReach` to 0 and `end` to 0.
+4. Iterate through the array from index 0 to `nums.length - 2`:
+   - Update `maxReach` as the maximum of `maxReach` and `i + nums[i]`.
+   - If the current index `i` equals `end`, update `end` to `maxReach` and increment `steps`.
+5. Return `steps`.
+
+Here's the implementation:
 
 ```java
 public class Solution {
     public int jump(int[] nums) {
-        int length = 0;
-        int maxLength = 0;
-        int minJump = 0;
-        for (int i = 0; i < nums.length - 1; ++i) {
-            length--;
-            maxLength--;
-            maxLength = Math.max(maxLength, nums[i]);
-            if (length <= 0) {
-                length = maxLength;
-                minJump++;
-            }
-            if (length >= nums.length - i - 1) {
-                return minJump;
+        int maxReach = 0;
+        int steps = 0;
+        int end = 0;
+
+        for (int i = 0; i < nums.length - 1; i++) {
+            maxReach = Math.max(maxReach, i + nums[i]);
+            if (i == end) {
+                end = maxReach;
+                steps++;
             }
         }
-        return minJump;
+
+        return steps;
     }
 }
 ```
 
-﻿**Time Complexity (Big O Time):**
-
-1. The program uses a single loop that iterates through the elements of the `nums` array from left to right.
-
-2. In each iteration, it performs constant time operations such as arithmetic, comparisons, and calls to `Math.max`. These operations do not depend on the size of the input array.
-
-3. The loop runs until the second-to-last element of the array (i.e., `i < nums.length - 1`), so the number of iterations is at most `n - 1`, where `n` is the number of elements in the input array.
-
-4. Therefore, the overall time complexity of the program is O(n), where `n` is the number of elements in the input array `nums`.
-
-**Space Complexity (Big O Space):**
-
-1. The space complexity of the program is O(1), which means it uses a constant amount of additional space regardless of the size of the input array `nums`. The program only uses a few integer variables (`length`, `maxLength`, `minJump`, and `i`) and does not use any additional data structures or memory that scales with the input size.
-
-In summary, the time complexity of the provided program is O(n), and the space complexity is O(1), where `n` is the number of elements in the input array `nums`.
+This implementation provides a solution to the "Jump Game II" problem in Java. It calculates the minimum number of jumps required to reach the last index by iterating through the array and updating the maximum reachable position and the end position accordingly.

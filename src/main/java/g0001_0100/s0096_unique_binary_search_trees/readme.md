@@ -25,38 +25,32 @@ Given an integer `n`, return _the number of structurally unique **BST'**s (binar
 
 *   `1 <= n <= 19`
 
-## Solution
+To solve the "Unique Binary Search Trees" problem in Java with the Solution class, follow these steps:
+
+1. Define a method `numTrees` in the `Solution` class that takes an integer `n` as input and returns the number of structurally unique BSTs (binary search trees) with exactly `n` nodes.
+2. Implement a dynamic programming approach to solve the problem:
+   - Create an array `dp` of size `n + 1` to store the number of unique BSTs for each number of nodes from 0 to `n`.
+   - Initialize `dp[0] = 1` and `dp[1] = 1`, as there is only one unique BST for 0 and 1 node(s).
+   - Use a nested loop to calculate `dp[i]` for each `i` from 2 to `n`.
+   - For each `i`, calculate `dp[i]` by summing up the products of `dp[j]` and `dp[i - j - 1]` for all possible values of `j` from 0 to `i - 1`.
+   - Return `dp[n]`, which represents the number of unique BSTs with `n` nodes.
+
+Here's the implementation of the `numTrees` method in Java:
 
 ```java
-public class Solution {
+class Solution {
     public int numTrees(int n) {
-        long result = 1;
-        for (int i = 0; i < n; i++) {
-            result *= 2L * n - i;
-            result /= i + 1;
+        int[] dp = new int[n + 1];
+        dp[0] = 1;
+        dp[1] = 1;
+        for (int i = 2; i <= n; i++) {
+            for (int j = 0; j < i; j++) {
+                dp[i] += dp[j] * dp[i - j - 1];
+            }
         }
-        result /= n + 1;
-        return (int) result;
+        return dp[n];
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-The program uses a loop that iterates from 0 to 'n' to calculate the number of unique binary search trees. Inside the loop, basic arithmetic operations (multiplication and division) are performed.
-
-- The loop runs 'n' times, so the time complexity of the loop itself is O(n).
-
-- Inside the loop, there are simple arithmetic operations involving long integers (multiplication and division), which are constant-time operations.
-
-- Therefore, the overall time complexity of the program is O(n), where 'n' is the input value.
-
-**Space Complexity (Big O Space):**
-
-The program uses a single long variable (`result`) to store the intermediate and final results. It does not use any data structures that depend on the input size 'n'.
-
-- Regardless of the input value 'n', the space used by the program remains constant.
-
-- Therefore, the space complexity of the program is O(1), indicating constant space usage.
-
-In summary, the time complexity of the program is O(n), and the space complexity is O(1), where 'n' is the input value. The time complexity is determined by the loop that runs 'n' times, and the space complexity is constant because the program uses only a fixed amount of memory regardless of the input size.
+This implementation uses dynamic programming to compute the number of structurally unique BSTs with `n` nodes in O(n^2) time complexity.

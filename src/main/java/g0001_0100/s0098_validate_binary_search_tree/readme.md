@@ -36,65 +36,39 @@ A **valid BST** is defined as follows:
 *   The number of nodes in the tree is in the range <code>[1, 10<sup>4</sup>]</code>.
 *   <code>-2<sup>31</sup> <= Node.val <= 2<sup>31</sup> - 1</code>
 
-## Solution
+To solve the "Validate Binary Search Tree" problem in Java with the Solution class, follow these steps:
+
+1. Define a method `isValidBST` in the `Solution` class that takes the root of a binary tree as input and returns true if the tree is a valid binary search tree (BST), and false otherwise.
+2. Implement a recursive approach to validate if the given binary tree is a valid BST:
+   - Define a helper method `isValidBSTHelper` that takes the root node, a lower bound, and an upper bound as input parameters.
+   - In the `isValidBSTHelper` method, recursively traverse the binary tree nodes.
+   - At each node, check if its value is within the specified bounds (lower bound and upper bound) for a valid BST.
+   - If the node's value violates the BST property, return false.
+   - Otherwise, recursively validate the left and right subtrees by updating the bounds accordingly.
+   - If both the left and right subtrees are valid BSTs, return true.
+3. Call the `isValidBSTHelper` method with the root node and appropriate initial bounds to start the validation process.
+
+Here's the implementation of the `isValidBST` method in Java:
 
 ```java
-import com_github_leetcode.TreeNode;
-
-/*
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-public class Solution {
+class Solution {
     public boolean isValidBST(TreeNode root) {
-        return solve(root, Long.MIN_VALUE, Long.MAX_VALUE);
+        return isValidBSTHelper(root, null, null);
     }
-
-    // we will send a valid range and check whether the root lies in the range
-    // and update the range for the subtrees
-    private boolean solve(TreeNode root, long left, long right) {
-        if (root == null) {
+    
+    private boolean isValidBSTHelper(TreeNode node, Integer lower, Integer upper) {
+        if (node == null) {
             return true;
         }
-        if (root.val <= left || root.val >= right) {
+        
+        int val = node.val;
+        if ((lower != null && val <= lower) || (upper != null && val >= upper)) {
             return false;
         }
-        return solve(root.left, left, root.val) && solve(root.right, root.val, right);
+        
+        return isValidBSTHelper(node.left, lower, val) && isValidBSTHelper(node.right, val, upper);
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-The program uses a recursive approach to traverse the binary tree. In each recursive call, it checks whether the current node's value falls within a specified range (represented by `left` and `right`). Here's the analysis of time complexity:
-
-- In the worst case, the program visits each node once. This happens when the tree is a valid BST, and the program checks every node.
-
-- Therefore, the time complexity of this program is O(N), where N is the number of nodes in the binary tree.
-
-**Space Complexity (Big O Space):**
-
-The space complexity of the program is determined by the space required for the recursive call stack and the space needed for the function arguments and variables. Here's the analysis of space complexity:
-
-- The main function `isValidBST` has a constant amount of space overhead. It doesn't use any additional data structures or arrays that depend on the input size.
-
-- The recursive function `solve` is called recursively for each node in the binary tree. In the worst case, when the binary tree is a valid BST, the maximum depth of the call stack is equal to the height of the tree. In a balanced BST, this height is log(N), where N is the number of nodes.
-
-- Therefore, the space complexity due to the call stack is O(log(N)) in the best-case scenario (balanced tree) and O(N) in the worst-case scenario (skewed tree).
-
-- The space used for function arguments and variables (e.g., `left`, `right`, and `root`) is constant and does not depend on the input size.
-
-- Overall, the space complexity of the program is O(log(N)) in the best-case scenario and O(N) in the worst-case scenario.
-
-In summary, the time complexity of the program is O(N), where N is the number of nodes in the binary tree, and the space complexity is O(log(N)) in the best-case scenario and O(N) in the worst-case scenario. The space complexity is mainly determined by the depth of the call stack when checking a skewed tree.
+This implementation recursively validates whether the given binary tree is a valid BST in O(n) time complexity, where n is the number of nodes in the tree.

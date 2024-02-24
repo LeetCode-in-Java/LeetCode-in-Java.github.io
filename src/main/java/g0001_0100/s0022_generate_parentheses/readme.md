@@ -23,7 +23,19 @@ Given `n` pairs of parentheses, write a function to _generate all combinations o
 
 *   `1 <= n <= 8`
 
-## Solution
+To solve the "Generate Parentheses" problem in Java with a `Solution` class, we can use a backtracking approach. Here are the steps:
+
+1. Define a `Solution` class.
+2. Define a method named `generateParenthesis` that takes an integer `n` as input and returns a list of strings representing all combinations of well-formed parentheses.
+3. Create an empty list to store the result.
+4. Call the recursive helper function `generateParenthesisHelper` with the empty string `""`, counts of open and close parentheses set to `0`, the value of `n`, and the result list.
+5. In the `generateParenthesisHelper` function:
+   - If the length of the current string is equal to `2 * n`, add it to the result list.
+   - If the count of open parentheses is less than `n`, append an open parenthesis to the current string and call the function recursively with increased open count.
+   - If the count of close parentheses is less than the count of open parentheses, append a close parenthesis to the current string and call the function recursively with increased close count.
+6. Return the result list.
+
+Here's the implementation:
 
 ```java
 import java.util.ArrayList;
@@ -31,37 +43,39 @@ import java.util.List;
 
 public class Solution {
     public List<String> generateParenthesis(int n) {
-        StringBuilder sb = new StringBuilder();
-        List<String> ans = new ArrayList<>();
-        return generate(sb, ans, n, n);
+        List<String> result = new ArrayList<>();
+        generateParenthesisHelper("", 0, 0, n, result);
+        return result;
     }
 
-    private List<String> generate(StringBuilder sb, List<String> str, int open, int close) {
-        if (open == 0 && close == 0) {
-            str.add(sb.toString());
-            return str;
+    private void generateParenthesisHelper(String current, int open, int close, int n, List<String> result) {
+        if (current.length() == 2 * n) {
+            result.add(current);
+            return;
         }
-        if (open > 0) {
-            sb.append('(');
-            generate(sb, str, open - 1, close);
-            sb.deleteCharAt(sb.length() - 1);
+
+        if (open < n) {
+            generateParenthesisHelper(current + "(", open + 1, close, n, result);
         }
-        if (close > 0 && open < close) {
-            sb.append(')');
-            generate(sb, str, open, close - 1);
-            sb.deleteCharAt(sb.length() - 1);
+
+        if (close < open) {
+            generateParenthesisHelper(current + ")", open, close + 1, n, result);
         }
-        return str;
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        // Test cases
+        int n1 = 3;
+        System.out.println("Parentheses combinations for n = " + n1 + ":");
+        System.out.println(solution.generateParenthesis(n1));
+
+        int n2 = 1;
+        System.out.println("\nParentheses combinations for n = " + n2 + ":");
+        System.out.println(solution.generateParenthesis(n2));
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-The time complexity of this program can be described as O(2^n), where n is the input value. This is because, in the worst case, the program generates all possible combinations of parentheses for a given value of `n`. For each position, it can either add an open parenthesis '(' or a close parenthesis ')'. Since there are 2 choices (open or close) for each position, and there are a total of 2n positions, the total number of combinations is 2^(2n), which simplifies to O(2^n) in big O notation.
-
-**Space Complexity (Big O Space):**
-
-The space complexity of this program is O(n), where n is the input value. This space is used for storing the current combination of parentheses in the `StringBuilder` `sb` and also for storing the final list of valid combinations in the `List<String> str`. In each recursive call to the `generate` method, a new character is appended to the `StringBuilder`, and the `StringBuilder` is modified. However, the space used for the `StringBuilder` is not accumulated across recursive calls because characters are added and removed. Therefore, the space complexity is mainly determined by the depth of the recursion, which is proportional to the value of `n`.
-
-In summary, the time complexity of the provided program is O(2^n), and the space complexity is O(n), where n is the input value representing the number of pairs of parentheses to generate.
+This implementation provides a solution to the "Generate Parentheses" problem in Java using a backtracking approach.

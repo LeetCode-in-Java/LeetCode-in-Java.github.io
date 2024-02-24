@@ -30,95 +30,46 @@ Given an array of integers `heights` representing the histogram's bar height whe
 *   <code>1 <= heights.length <= 10<sup>5</sup></code>
 *   <code>0 <= heights[i] <= 10<sup>4</sup></code>
 
-## Solution
+To solve the "Largest Rectangle in Histogram" problem in Java with the Solution class, follow these steps:
+
+1. Define a method `largestRectangleArea` in the `Solution` class that takes an array of integers `heights` as input and returns the area of the largest rectangle in the histogram.
+2. Implement a stack-based algorithm to find the largest rectangle:
+   - Initialize a stack to store indices of bars in the histogram.
+   - Iterate through each bar in the histogram:
+     - If the stack is empty or the current bar's height is greater than or equal to the height of the bar at the top of the stack, push the current bar's index onto the stack.
+     - If the current bar's height is less than the height of the bar at the top of the stack, keep popping bars from the stack until either the stack is empty or the height of the bar at the top of the stack is less than the height of the current bar.
+       - Calculate the area of the rectangle formed by the popped bar using its height and width (the difference between the current index and the index of the previous bar in the stack or -1 if the stack is empty).
+       - Update the maximum area if the calculated area is greater.
+   - After iterating through all bars, pop the remaining bars from the stack and calculate the area of rectangles formed by them using the same method as above.
+3. Return the maximum area calculated.
+
+Here's the implementation of the `largestRectangleArea` method in Java:
 
 ```java
-public class Solution {
+import java.util.Stack;
+
+class Solution {
     public int largestRectangleArea(int[] heights) {
-        return largestArea(heights, 0, heights.length);
-    }
-
-    private int largestArea(int[] a, int start, int limit) {
-        if (a == null || a.length == 0) {
-            return 0;
-        }
-        if (start == limit) {
-            return 0;
-        }
-        if (limit - start == 1) {
-            return a[start];
-        }
-        if (limit - start == 2) {
-            int maxOfTwoBars = Math.max(a[start], a[start + 1]);
-            int areaFromTwo = Math.min(a[start], a[start + 1]) * 2;
-            return Math.max(maxOfTwoBars, areaFromTwo);
-        }
-        if (checkIfSorted(a, start, limit)) {
-            int maxWhenSorted = 0;
-            for (int i = start; i < limit; i++) {
-                if (a[i] * (limit - i) > maxWhenSorted) {
-                    maxWhenSorted = a[i] * (limit - i);
-                }
-            }
-            return maxWhenSorted;
-        } else {
-            int minInd = findMinInArray(a, start, limit);
-            return maxOfThreeNums(
-                    largestArea(a, start, minInd),
-                    a[minInd] * (limit - start),
-                    largestArea(a, minInd + 1, limit));
-        }
-    }
-
-    private int findMinInArray(int[] a, int start, int limit) {
-        int min = Integer.MAX_VALUE;
-        int minIndex = -1;
-        for (int index = start; index < limit; index++) {
-            if (a[index] < min) {
-                min = a[index];
-                minIndex = index;
+        Stack<Integer> stack = new Stack<>();
+        int maxArea = 0;
+        int i = 0;
+        while (i < heights.length) {
+            if (stack.isEmpty() || heights[i] >= heights[stack.peek()]) {
+                stack.push(i++);
+            } else {
+                int top = stack.pop();
+                int width = stack.isEmpty() ? i : i - stack.peek() - 1;
+                maxArea = Math.max(maxArea, heights[top] * width);
             }
         }
-        return minIndex;
-    }
-
-    private boolean checkIfSorted(int[] a, int start, int limit) {
-        for (int i = start + 1; i < limit; i++) {
-            if (a[i] < a[i - 1]) {
-                return false;
-            }
+        while (!stack.isEmpty()) {
+            int top = stack.pop();
+            int width = stack.isEmpty() ? i : i - stack.peek() - 1;
+            maxArea = Math.max(maxArea, heights[top] * width);
         }
-        return true;
-    }
-
-    private int maxOfThreeNums(int a, int b, int c) {
-        return Math.max(Math.max(a, b), c);
+        return maxArea;
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-The program uses a divide-and-conquer approach to calculate the largest rectangle area. Here's the analysis of the time complexity:
-
-1. The `largestRectangleArea` function is called initially with the entire array of heights, so the initial function call has a time complexity of O(n), where 'n' is the length of the `heights` array.
-
-2. The `largestArea` function is called recursively to calculate the largest rectangle area. In each recursive call, it divides the problem into smaller subproblems. The subproblem is divided into two parts or processed linearly based on whether the array is sorted.
-
-3. In the worst case, the `largestArea` function may make recursive calls on both the left and right halves of the input array, effectively dividing it in half each time. This results in a recursive call tree with a height of log₂(n).
-
-4. Within each recursive call, there are loops and conditional checks. The loop that finds the minimum value in a subarray has a time complexity of O(n), where 'n' is the size of the subarray. In the worst case, this loop can run for each level of recursion.
-
-5. Overall, the time complexity can be represented as O(n log n) in the worst case. This is because at each level of recursion, you perform a linear scan of the array, and there are log₂(n) levels of recursion.
-
-**Space Complexity (Big O Space):**
-
-The space complexity of the program is primarily determined by the call stack due to recursion and some additional variables. Here's the analysis of space complexity:
-
-1. The primary space usage is due to the recursive call stack. In the worst case, the maximum depth of the call stack can be log₂(n), where 'n' is the length of the `heights` array. Therefore, the space complexity due to the call stack is O(log n).
-
-2. The program uses a few additional variables for loop indices and temporary values, but their space usage is constant and does not depend on the size of the input. Therefore, their contribution to space complexity is negligible.
-
-3. Overall, the dominant factor in space complexity is the recursive call stack, so the space complexity is O(log n) in the worst case.
-
-In summary, the time complexity of the program is O(n log n) in the worst case, and the space complexity is O(log n) due to the recursive call stack.
+This implementation uses a stack-based approach to find the largest rectangle in the histogram, with a time complexity of O(N), where N is the number of bars in the histogram.

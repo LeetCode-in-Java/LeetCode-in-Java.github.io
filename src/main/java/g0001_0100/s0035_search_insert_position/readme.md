@@ -46,38 +46,41 @@ You must write an algorithm with `O(log n)` runtime complexity.
 *   `nums` contains **distinct** values sorted in **ascending** order.
 *   <code>-10<sup>4</sup> <= target <= 10<sup>4</sup></code>
 
-## Solution
+To solve the "Search Insert Position" problem in Java with a `Solution` class, we can follow these steps:
+
+1. Define a `Solution` class.
+2. Define a method named `searchInsert` that takes an integer array `nums` and an integer `target` as input and returns an integer representing the index where `target` would be inserted in order.
+3. Implement binary search to find the insertion position of `target`.
+4. Set the left pointer `left` to 0 and the right pointer `right` to the length of `nums` minus 1.
+5. While `left` is less than or equal to `right`:
+   - Calculate the middle index `mid` as `(left + right) / 2`.
+   - If `nums[mid]` is equal to `target`, return `mid`.
+   - If `target` is less than `nums[mid]`, update `right = mid - 1`.
+   - If `target` is greater than `nums[mid]`, update `left = mid + 1`.
+6. If `target` is not found in `nums`, return the value of `left`, which represents the index where `target` would be inserted in order.
+
+Here's the implementation:
 
 ```java
 public class Solution {
     public int searchInsert(int[] nums, int target) {
-        int lo = 0;
-        int hi = nums.length - 1;
-        while (lo <= hi) {
-            int mid = lo + (hi - lo) / 2;
-            if (target == nums[mid]) {
+        int left = 0;
+        int right = nums.length - 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
                 return mid;
             } else if (target < nums[mid]) {
-                hi = mid - 1;
-            } else if (target > nums[mid]) {
-                lo = mid + 1;
+                right = mid - 1;
+            } else {
+                left = mid + 1;
             }
         }
-        return lo;
+
+        return left;
     }
 }
 ```
 
-﻿**Time Complexity (Big O Time):**
-
-1. The program performs a binary search on a sorted array of length n. In each step of the binary search, it reduces the search range by half.
-
-2. The while loop runs until the `lo` pointer is less than or equal to the `hi` pointer, and in each iteration, it reduces the search range by half.
-
-3. Therefore, the number of iterations in the binary search is proportional to log2(n), where n is the number of elements in the input array. This gives us the time complexity of O(log n).
-
-**Space Complexity (Big O Space):**
-
-The space complexity of the program is O(1), which means it uses a constant amount of additional space regardless of the size of the input array `nums`. The program only uses a few integer variables (`lo`, `hi`, `mid`) and does not use any additional data structures or memory that scales with the input size.
-
-In summary, the time complexity of the provided program is O(log n), and the space complexity is O(1), where n is the number of elements in the input array `nums`.
+This implementation provides a solution to the "Search Insert Position" problem in Java. It returns the index where `target` would be inserted in `nums` using binary search, with a time complexity of O(log n).

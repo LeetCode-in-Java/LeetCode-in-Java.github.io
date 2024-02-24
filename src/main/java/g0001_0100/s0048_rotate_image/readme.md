@@ -44,43 +44,48 @@ You have to rotate the image [**in-place**](https://en.wikipedia.org/wiki/In-pla
 *   `1 <= n <= 20`
 *   `-1000 <= matrix[i][j] <= 1000`
 
-## Solution
+To solve the "Rotate Image" problem in Java with a `Solution` class, we can follow these steps:
+
+1. Define a `Solution` class.
+2. Define a method named `rotate` that takes a 2D array `matrix` representing an image as input and rotates the image by 90 degrees clockwise.
+3. Determine the number of layers in the matrix, which is equal to half of the matrix's size.
+4. Iterate through each layer from outer to inner layers.
+5. For each layer:
+   - Iterate through each element in the current layer.
+   - Swap the elements of the current layer in a clockwise manner.
+6. Return the rotated matrix.
+
+Here's the implementation:
 
 ```java
 public class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
-        for (int i = 0; i < n / 2; i++) {
-            for (int j = i; j < n - i - 1; j++) {
-                int[][] pos =
-                        new int[][] {
-                            {i, j}, {j, n - 1 - i}, {n - 1 - i, n - 1 - j}, {n - 1 - j, i}
-                        };
-                int t = matrix[pos[0][0]][pos[0][1]];
-                for (int k = 1; k < pos.length; k++) {
-                    int temp = matrix[pos[k][0]][pos[k][1]];
-                    matrix[pos[k][0]][pos[k][1]] = t;
-                    t = temp;
-                }
-                matrix[pos[0][0]][pos[0][1]] = t;
+        int layers = n / 2;
+
+        for (int layer = 0; layer < layers; layer++) {
+            int first = layer;
+            int last = n - 1 - layer;
+            
+            for (int i = first; i < last; i++) {
+                int offset = i - first;
+                int top = matrix[first][i];
+                
+                // Move left to top
+                matrix[first][i] = matrix[last - offset][first];
+                
+                // Move bottom to left
+                matrix[last - offset][first] = matrix[last][last - offset];
+                
+                // Move right to bottom
+                matrix[last][last - offset] = matrix[i][last];
+                
+                // Move top to right
+                matrix[i][last] = top;
             }
         }
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program uses two nested loops, where `i` and `j` iterate from 0 to `n/2-1`, where `n` is the number of rows (and columns) in the square matrix.
-
-2. The innermost loop, represented by `k`, runs four times for each element (corner) in the matrix. The innermost loop contains constant-time operations.
-
-3. Therefore, the time complexity of the program is O(n^2), where `n` is the number of rows (and columns) in the square matrix. This is because we perform constant-time operations for each element in the matrix.
-
-**Space Complexity (Big O Space):**
-
-1. The space complexity of the program is O(1), which means it uses a constant amount of additional space regardless of the size of the input matrix.
-
-2. The program uses a few integer variables (`n`, `i`, `j`, `k`, `t`, `temp`, `pos` array), but the space required for these variables remains constant as the input matrix size increases. The space complexity does not depend on the size of the input matrix.
-
-In summary, the time complexity of the provided program is O(n^2), and the space complexity is O(1), where `n` is the number of rows (and columns) in the square matrix.
+This implementation provides a solution to the "Rotate Image" problem in Java. It rotates the given 2D matrix representing an image by 90 degrees clockwise in-place.

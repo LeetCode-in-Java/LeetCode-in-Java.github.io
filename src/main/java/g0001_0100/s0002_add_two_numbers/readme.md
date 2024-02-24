@@ -37,65 +37,100 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 *   `0 <= Node.val <= 9`
 *   It is guaranteed that the list represents a number that does not have leading zeros.
 
-## Solution
+To solve the Add Two Numbers problem in Java using a `Solution` class, we'll follow these steps:
+
+1. Define a `ListNode` class to represent nodes in a linked list.
+2. Define a `Solution` class with a method named `addTwoNumbers`.
+3. Inside the `addTwoNumbers` method, traverse both input linked lists simultaneously:
+   - Keep track of a carry variable to handle cases where the sum of two digits exceeds 9.
+   - Calculate the sum of the current nodes' values along with the carry.
+   - Update the carry for the next iteration.
+   - Create a new node with the sum % 10 and attach it to the result linked list.
+   - Move to the next nodes in both input lists.
+4. After finishing the traversal, check if there is any remaining carry. If so, add a new node with the carry to the result.
+5. Return the head of the result linked list.
+
+Here's the implementation:
 
 ```java
-import com_github_leetcode.ListNode;
+class ListNode {
+    int val;
+    ListNode next;
+    
+    ListNode() {}
+    
+    ListNode(int val) {
+        this.val = val;
+    }
+    
+    ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
+}
 
-/*
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
 public class Solution {
+    
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode dummyHead = new ListNode(0);
-        ListNode p = l1;
-        ListNode q = l2;
+        ListNode dummyHead = new ListNode();
         ListNode curr = dummyHead;
         int carry = 0;
-        while (p != null || q != null) {
-            int x = (p != null) ? p.val : 0;
-            int y = (q != null) ? q.val : 0;
-            int sum = carry + x + y;
-            carry = sum / 10;
+        
+        while (l1 != null || l2 != null) {
+            int sum = carry;
+            if (l1 != null) {
+                sum += l1.val;
+                l1 = l1.next;
+            }
+            if (l2 != null) {
+                sum += l2.val;
+                l2 = l2.next;
+            }
             curr.next = new ListNode(sum % 10);
             curr = curr.next;
-            if (p != null) {
-                p = p.next;
-            }
-            if (q != null) {
-                q = q.next;
-            }
+            carry = sum / 10;
         }
+        
         if (carry > 0) {
             curr.next = new ListNode(carry);
         }
+        
         return dummyHead.next;
+    }
+
+    // Helper method to print a linked list
+    public void printList(ListNode head) {
+        ListNode curr = head;
+        while (curr != null) {
+            System.out.print(curr.val + " ");
+            curr = curr.next;
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        // Test cases
+        ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
+        ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
+        ListNode result1 = solution.addTwoNumbers(l1, l2);
+        System.out.print("Example 1 Output: ");
+        solution.printList(result1);
+
+        ListNode l3 = new ListNode(0);
+        ListNode l4 = new ListNode(0);
+        ListNode result2 = solution.addTwoNumbers(l3, l4);
+        System.out.print("Example 2 Output: ");
+        solution.printList(result2);
+
+        ListNode l5 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))))));
+        ListNode l6 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))));
+        ListNode result3 = solution.addTwoNumbers(l5, l6);
+        System.out.print("Example 3 Output: ");
+        solution.printList(result3);
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-The time complexity of this program is O(max(N, M)), where "N" and "M" represent the lengths of the input linked lists `l1` and `l2`, respectively. Here's the breakdown:
-
-1. The program iterates through both linked lists `l1` and `l2` simultaneously using a `while` loop. The loop runs as long as either of the two lists has elements to process.
-2. Inside the loop, it performs constant-time operations for each node:
-   - It calculates the sum of three integer values (constant time).
-   - It creates a new node (constant time).
-   - It updates pointers and variables (constant time).
-
-Since the loop runs until the end of the longer of the two input linked lists, the overall time complexity is O(max(N, M)), where "N" and "M" are the lengths of `l1` and `l2`, respectively.
-
-**Space Complexity (Big O Space):**
-
-The space complexity of this program is O(max(N, M)), which is primarily determined by the space used for the output linked list. Here's why:
-
-1. The program creates a new linked list to store the result, and the length of this linked list can be at most max(N, M) + 1 (where +1 is for the potential carry at the end).
-2. Other than the output linked list, the program uses a constant amount of space for variables like `dummyHead`, `p`, `q`, `curr`, and `carry`.
-
-Therefore, the space complexity is O(max(N, M)).
+This implementation provides a solution to the Add Two Numbers problem using linked lists in Java.

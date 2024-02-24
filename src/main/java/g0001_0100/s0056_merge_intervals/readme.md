@@ -29,52 +29,35 @@ Given an array of `intervals` where <code>intervals[i] = [start<sub>i</sub>, end
 *   `intervals[i].length == 2`
 *   <code>0 <= start<sub>i</sub> <= end<sub>i</sub> <= 10<sup>4</sup></code>
 
-## Solution
+To solve the "Merge Intervals" problem in Java with the Solution class, follow these steps:
+
+1. Define a method `merge` in the `Solution` class that takes an array of integer arrays `intervals` as input and returns an array of the non-overlapping intervals that cover all the intervals in the input.
+2. Sort the intervals based on the start times.
+3. Initialize an ArrayList to store the merged intervals.
+4. Iterate through the sorted intervals:
+   - If the list of merged intervals is empty or the current interval's start time is greater than the end time of the last merged interval, add the current interval to the list of merged intervals.
+   - Otherwise, merge the current interval with the last merged interval by updating its end time if needed.
+5. Convert the ArrayList of merged intervals into an array and return it as the result.
+
+Here's the implementation of the `merge` method in Java:
 
 ```java
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
-public class Solution {
+class Solution {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
-        List<int[]> list = new ArrayList<>();
-        int[] current = intervals[0];
-        list.add(current);
-        for (int[] next : intervals) {
-            if (current[1] >= next[0]) {
-                current[1] = Math.max(current[1], next[1]);
+        List<int[]> merged = new ArrayList<>();
+        for (int[] interval : intervals) {
+            if (merged.isEmpty() || interval[0] > merged.get(merged.size() - 1)[1]) {
+                merged.add(interval);
             } else {
-                current = next;
-                list.add(current);
+                merged.get(merged.size() - 1)[1] = Math.max(merged.get(merged.size() - 1)[1], interval[1]);
             }
         }
-        return list.toArray(new int[list.size()][]);
+        return merged.toArray(new int[merged.size()][]);
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program first sorts the `intervals` array based on the start values of each interval. Sorting takes O(n log n) time, where 'n' is the number of intervals in the array.
-
-2. After sorting, it iterates through the sorted intervals exactly once.
-
-3. In the loop, it performs constant time operations for each interval, such as comparisons and updates.
-
-4. Therefore, the overall time complexity is dominated by the sorting step and is O(n log n), where 'n' is the number of intervals in the input array `intervals`.
-
-**Space Complexity (Big O Space):**
-
-1. The space complexity of the program is determined by the additional data structures used.
-
-2. It uses a `List<int[]>` called `list` to store the merged intervals. In the worst case, where there are no overlapping intervals, this list could contain all 'n' intervals. Therefore, the space complexity of this list is O(n).
-
-3. The `current` array of size 2 is used to keep track of the current merged interval. This array requires constant space.
-
-4. The `int[][]` array returned at the end of the program is created based on the size of the `list`. In the worst case, it would have 'n' subarrays, each with two elements.
-
-5. Therefore, the overall space complexity is dominated by the `list` and is O(n).
-
-In summary, the time complexity of the provided program is O(n log n) due to the sorting step, and the space complexity is O(n) due to the `list` used to store merged intervals. The program efficiently merges overlapping intervals and returns a new array of merged intervals.
+This implementation efficiently merges overlapping intervals in the given array `intervals` using sorting and iteration, with a time complexity of O(n log n) due to sorting.

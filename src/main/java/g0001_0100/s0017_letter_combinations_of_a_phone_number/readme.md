@@ -34,64 +34,75 @@ A mapping of digit to letters (just like on the telephone buttons) is given belo
 *   `0 <= digits.length <= 4`
 *   `digits[i]` is a digit in the range `['2', '9']`.
 
-## Solution
+To solve the Letter Combinations of a Phone Number problem in Java using a `Solution` class, we'll follow these steps:
+
+1. Define a `Solution` class with a method named `letterCombinations` that takes a string `digits` as input and returns a list of all possible letter combinations.
+2. Create a mapping of digits to letters using a hashmap or an array.
+3. Initialize an empty list `result` to store the combinations.
+4. If the input string `digits` is empty, return an empty list `result`.
+5. Call a recursive function `generateCombinations` to generate combinations for each digit.
+6. Within the recursive function:
+   - Base case: If the current combination length equals the length of the input `digits`, add the combination to the `result` list.
+   - Recursive step: For the current digit, iterate over its corresponding letters and append each letter to the current combination, then recursively call the function with the next digit.
+7. Return the `result` list containing all possible combinations.
+
+Here's the implementation:
 
 ```java
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Solution {
-    public List<String> letterCombinations(String digits) {
-        if (digits.isEmpty()) {
-            return Collections.emptyList();
-        }
-        String[] letters = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-        List<String> ans = new ArrayList<>();
-        StringBuilder sb = new StringBuilder();
-        findCombinations(0, digits, letters, sb, ans);
-        return ans;
+    private static final Map<Character, String> digitToLetters = new HashMap<>();
+    static {
+        digitToLetters.put('2', "abc");
+        digitToLetters.put('3', "def");
+        digitToLetters.put('4', "ghi");
+        digitToLetters.put('5', "jkl");
+        digitToLetters.put('6', "mno");
+        digitToLetters.put('7', "pqrs");
+        digitToLetters.put('8', "tuv");
+        digitToLetters.put('9', "wxyz");
     }
 
-    private void findCombinations(
-            int start, String nums, String[] letters, StringBuilder curr, List<String> ans) {
-        if (curr.length() == nums.length()) {
-            ans.add(curr.toString());
+    public List<String> letterCombinations(String digits) {
+        List<String> result = new ArrayList<>();
+        if (digits.length() == 0) {
+            return result;
+        }
+        generateCombinations(result, digits, "", 0);
+        return result;
+    }
+
+    private void generateCombinations(List<String> result, String digits, String combination, int index) {
+        if (index == digits.length()) {
+            result.add(combination);
             return;
         }
-        for (int i = start; i < nums.length(); i++) {
-            int n = Character.getNumericValue(nums.charAt(i));
-            for (int j = 0; j < letters[n].length(); j++) {
-                char ch = letters[n].charAt(j);
-                curr.append(ch);
-                findCombinations(i + 1, nums, letters, curr, ans);
-                curr.deleteCharAt(curr.length() - 1);
-            }
+
+        char digit = digits.charAt(index);
+        String letters = digitToLetters.get(digit);
+        for (char letter : letters.toCharArray()) {
+            generateCombinations(result, digits, combination + letter, index + 1);
         }
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        // Test cases
+        String digits1 = "23";
+        System.out.println("Example 1 Output: " + solution.letterCombinations(digits1));
+
+        String digits2 = "";
+        System.out.println("Example 2 Output: " + solution.letterCombinations(digits2));
+
+        String digits3 = "2";
+        System.out.println("Example 3 Output: " + solution.letterCombinations(digits3));
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-The time complexity of this program is O(4^n), where "n" is the number of digits in the input string `digits`. Here's the breakdown:
-
-1. The program uses a recursive approach to generate all possible letter combinations for the input digits.
-
-2. The `findCombinations` method is called recursively for each digit in the input string `digits`. For each digit, it generates multiple combinations by iterating through the corresponding letters (e.g., "abc" for digit 2).
-
-3. The number of recursive calls made by the program is exponential in nature. For each digit, there are typically 3 or 4 letters associated with it (except for "0" and "1" with no associated letters). Therefore, in the worst case, the number of recursive calls per digit can be considered constant.
-
-4. Since there are "n" digits in the input string, and for each digit, there are a constant number of recursive calls (3 or 4), the overall time complexity is exponential, specifically O(4^n).
-
-**Space Complexity (Big O Space):**
-
-The space complexity of this program is O(n), where "n" is the number of digits in the input string `digits`. Here's why:
-
-1. The program uses a `StringBuilder` (`curr`) to build the current combination of letters. The maximum length of this `StringBuilder` is equal to the number of digits in the input string `digits`.
-
-2. The program uses a list (`ans`) to store the final letter combinations, but the space used by this list is proportional to the number of valid combinations, which is less than or equal to 4^n.
-
-3. Other than the `curr` and `ans` variables, the program uses a few integer variables and arrays (e.g., `start`, `nums`, `letters`) with constant space requirements.
-
-Therefore, the overall space complexity is O(n), primarily due to the `curr` `StringBuilder` and the list `ans`.
+This implementation provides a solution to the Letter Combinations of a Phone Number problem in Java.

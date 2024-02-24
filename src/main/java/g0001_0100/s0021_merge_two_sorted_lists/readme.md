@@ -33,54 +33,69 @@ Merge two sorted linked lists and return it as a **sorted** list. The list shoul
 *   `-100 <= Node.val <= 100`
 *   Both `l1` and `l2` are sorted in **non-decreasing** order.
 
-## Solution
+To solve the Merge Two Sorted Lists problem in Java with a `Solution` class, we'll implement a recursive approach. Here are the steps:
+
+1. Define a `ListNode` class to represent a node in the linked list.
+2. Define a `Solution` class with a method named `mergeTwoLists` that takes two linked lists `l1` and `l2` as input and returns a merged sorted list.
+3. The base case for the recursion is when either `l1` or `l2` is null. In this case, return the non-null list because it's already sorted.
+4. Compare the values of the heads of `l1` and `l2`. Let `head` be the smaller value of the two heads.
+5. Recursively call `mergeTwoLists` with the next node of the smaller head and the other list that remained unchanged.
+6. Update the `next` pointer of the smaller head to point to the result of the recursive call.
+7. Return the smaller head, which is the merged sorted list.
+
+Here's the implementation:
 
 ```java
-import com_github_leetcode.ListNode;
-
-/*
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 public class Solution {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode list = new ListNode(-1);
-        ListNode head = list;
-        while (l1 != null || l2 != null) {
-            if (l1 != null && l2 != null) {
-                if (l1.val <= l2.val) {
-                    list.next = new ListNode(l1.val);
-                    l1 = l1.next;
-                } else {
-                    list.next = new ListNode(l2.val);
-                    l2 = l2.next;
-                }
-            } else if (l1 != null) {
-                list.next = new ListNode(l1.val);
-                l1 = l1.next;
-            } else {
-                list.next = new ListNode(l2.val);
-                l2 = l2.next;
-            }
-            list = list.next;
+    static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int val) {
+            this.val = val;
         }
-        return head.next;
+    }
+
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        if (l1 == null) {
+            return l2;
+        }
+        if (l2 == null) {
+            return l1;
+        }
+
+        ListNode head;
+        if (l1.val < l2.val) {
+            head = l1;
+            head.next = mergeTwoLists(l1.next, l2);
+        } else {
+            head = l2;
+            head.next = mergeTwoLists(l1, l2.next);
+        }
+
+        return head;
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        // Test cases
+        ListNode l1 = new ListNode(1);
+        l1.next = new ListNode(2);
+        l1.next.next = new ListNode(4);
+
+        ListNode l2 = new ListNode(1);
+        l2.next = new ListNode(3);
+        l2.next.next = new ListNode(4);
+
+        ListNode mergedList = solution.mergeTwoLists(l1, l2);
+        while (mergedList != null) {
+            System.out.print(mergedList.val + " ");
+            mergedList = mergedList.next;
+        }
+        System.out.println(); // newline
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-The time complexity of this program is O(m + n), where m and n are the lengths of the input linked lists `l1` and `l2`. This is because the program iterates through both lists once, and the time complexity of each iteration is linear in the size of the input lists. In each iteration, it compares the values of the current nodes from `l1` and `l2` and adds the smaller value to the merged list. The loop will run until both `l1` and `l2` reach the end of their respective lists.
-
-**Space Complexity (Big O Space):**
-
-The space complexity of this program is O(m + n), where m and n are the lengths of the input linked lists `l1` and `l2`. This space is mainly used for creating a new linked list that stores the merged result. In each iteration of the loop, a new node is created for the merged list, which consumes additional space. The space complexity is directly proportional to the size of the input lists because the merged list will have m + n nodes in the worst case.
-
-Overall, the time and space complexity of the provided Java program is O(m + n), where m and n are the lengths of the input linked lists `l1` and `l2`.
+This implementation provides a solution to the Merge Two Sorted Lists problem in Java using a recursive approach.

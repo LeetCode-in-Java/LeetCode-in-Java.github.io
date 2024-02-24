@@ -43,69 +43,53 @@ The word can be constructed from letters of sequentially adjacent cells, where a
 
 **Follow up:** Could you use search pruning to make your solution faster with a larger `board`?
 
-## Solution
+To solve the "Word Search" problem in Java with the Solution class, follow these steps:
+
+1. Define a method `exist` in the `Solution` class that takes a 2D character array `board` and a string `word` as input and returns `true` if the `word` exists in the `board`.
+2. Implement a backtracking algorithm to search for the `word` in the `board`.
+3. Iterate through each cell in the `board`:
+   - For each cell, call a recursive helper function `search` to check if the `word` can be found starting from that cell.
+   - If `search` returns `true`, return `true` immediately.
+4. Define the `search` method to perform the recursive backtracking:
+   - Check if the current cell is out of bounds or if the current character in the `board` does not match the corresponding character in the `word`.
+   - If any of the conditions are met, return `false`.
+   - Mark the current cell as visited by changing its value to a special character (e.g., `#`) to avoid revisiting it.
+   - Recursively call `search` on neighboring cells (up, down, left, right) with the next character in the `word`.
+   - After exploring all possible paths from the current cell, backtrack by restoring the original value of the current cell.
+5. If the `search` method reaches the end of the `word`, return `true`.
+6. If no match is found after exploring all cells, return `false`.
+
+Here's the implementation of the `exist` method in Java:
 
 ```java
-public class Solution {
-    private boolean backtrace(
-            char[][] board, boolean[][] visited, String word, int index, int x, int y) {
-        if (index == word.length()) {
-            return true;
-        }
-        if (x < 0 || x >= board.length || y < 0 || y >= board[0].length || visited[x][y]) {
-            return false;
-        }
-        visited[x][y] = true;
-        if (word.charAt(index) == board[x][y]) {
-            boolean res =
-                    backtrace(board, visited, word, index + 1, x, y + 1)
-                            || backtrace(board, visited, word, index + 1, x, y - 1)
-                            || backtrace(board, visited, word, index + 1, x + 1, y)
-                            || backtrace(board, visited, word, index + 1, x - 1, y);
-            if (!res) {
-                visited[x][y] = false;
-            }
-            return res;
-        } else {
-            visited[x][y] = false;
-            return false;
-        }
-    }
-
+class Solution {
     public boolean exist(char[][] board, String word) {
-        boolean[][] visited = new boolean[board.length][board[0].length];
-        for (int i = 0; i < board.length; ++i) {
-            for (int j = 0; j < board[0].length; ++j) {
-                if (backtrace(board, visited, word, 0, i, j)) {
+        int m = board.length;
+        int n = board[0].length;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (search(board, word, i, j, 0))
                     return true;
-                }
             }
         }
         return false;
     }
+    
+    private boolean search(char[][] board, String word, int i, int j, int index) {
+        if (index == word.length())
+            return true;
+        if (i < 0 || i >= board.length || j < 0 || j >= board[0].length || board[i][j] != word.charAt(index))
+            return false;
+        char temp = board[i][j];
+        board[i][j] = '#'; // Mark as visited
+        boolean found = search(board, word, i + 1, j, index + 1) ||
+                        search(board, word, i - 1, j, index + 1) ||
+                        search(board, word, i, j + 1, index + 1) ||
+                        search(board, word, i, j - 1, index + 1);
+        board[i][j] = temp; // Restore original value
+        return found;
+    }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program uses a backtracking approach to explore all possible paths in the 2D board while searching for the target word.
-
-2. The `exist` function iterates over all cells in the board, and for each cell, it invokes the `backtrace` function to start the backtracking process.
-
-3. The `backtrace` function explores all four possible directions (up, down, left, right) from the current cell.
-
-4. In the worst case, the `backtrace` function explores all possible paths in the board until it either finds the target word or determines that it cannot be formed.
-
-5. The time complexity depends on the number of cells in the board (m * n), where 'm' is the number of rows, and 'n' is the number of columns. For each cell, the `backtrace` function explores four possible directions. Therefore, the overall time complexity is O(4^(m*n)), where 'm' and 'n' are the dimensions of the board.
-
-**Space Complexity (Big O Space):**
-
-1. The primary space usage in the program comes from the recursive call stack and the `visited` array.
-
-2. The recursive call stack's maximum depth depends on the number of cells explored during backtracking. In the worst case, where the entire board is explored, the depth can be as large as 'm * n'. Therefore, the space complexity due to the call stack is O(m * n).
-
-3. The `visited` array is used to keep track of visited cells to avoid revisiting them during the backtracking process. Its size is equal to the number of cells in the board, which is 'm * n'. Therefore, the space complexity due to the `visited` array is also O(m * n).
-
-4. Combining the space complexities of the call stack and the `visited` array, the overall space complexity is O(m * n).
-
-In summary, the time complexity of the program is O(4^(m*n)), and the space complexity is O(m * n), where 'm' and 'n' are the dimensions of the board. This program efficiently explores all possible paths in the board to search for the target word using a backtracking approach.
+This implementation uses backtracking to search for the word in the board, with a time complexity of O(M * N * 4^L), where M and N are the dimensions of the board and L is the length of the word.

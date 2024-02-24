@@ -34,54 +34,51 @@ You have the following three operations permitted on a word:
 *   `0 <= word1.length, word2.length <= 500`
 *   `word1` and `word2` consist of lowercase English letters.
 
-## Solution
+To solve the "Edit Distance" problem in Java with the Solution class, follow these steps:
+
+1. Define a method `minDistance` in the `Solution` class that takes two strings `word1` and `word2` as input and returns the minimum number of operations required to convert `word1` to `word2`.
+2. Initialize a 2D array `dp` of size `(m+1) x (n+1)`, where `m` is the length of `word1` and `n` is the length of `word2`.
+3. Set `dp[i][0] = i` for all `i` from `0` to `m`, as the minimum number of operations to convert a string of length `i` to an empty string is `i` deletions.
+4. Set `dp[0][j] = j` for all `j` from `0` to `n`, as the minimum number of operations to convert an empty string to a string of length `j` is `j` insertions.
+5. Iterate over the characters of `word1` and `word2`:
+   - If `word1.charAt(i-1)` is equal to `word2.charAt(j-1)`, set `dp[i][j] = dp[i-1][j-1]`, as no operation is required to match these characters.
+   - Otherwise, set `dp[i][j]` to the minimum of the following three options:
+     - `dp[i-1][j] + 1`: Delete the character at position `i` from `word1`.
+     - `dp[i][j-1] + 1`: Insert the character at position `j` from `word2` into `word1`.
+     - `dp[i-1][j-1] + 1`: Replace the character at position `i` in `word1` with the character at position `j` in `word2`.
+6. Return `dp[m][n]`, which represents the minimum number of operations required to convert `word1` to `word2`.
+
+Here's the implementation of the `minDistance` method in Java:
 
 ```java
-@SuppressWarnings("java:S2234")
-public class Solution {
-    public int minDistance(String w1, String w2) {
-        int n1 = w1.length();
-        int n2 = w2.length();
-        if (n2 > n1) {
-            return minDistance(w2, w1);
+class Solution {
+    public int minDistance(String word1, String word2) {
+        int m = word1.length();
+        int n = word2.length();
+        
+        int[][] dp = new int[m + 1][n + 1];
+        
+        for (int i = 0; i <= m; i++) {
+            dp[i][0] = i;
         }
-        int[] dp = new int[n2 + 1];
-        for (int j = 0; j <= n2; j++) {
-            dp[j] = j;
+        
+        for (int j = 0; j <= n; j++) {
+            dp[0][j] = j;
         }
-        for (int i = 1; i <= n1; i++) {
-            int pre = dp[0];
-            dp[0] = i;
-            for (int j = 1; j <= n2; j++) {
-                int tmp = dp[j];
-                dp[j] =
-                        w1.charAt(i - 1) != w2.charAt(j - 1)
-                                ? 1 + Math.min(pre, Math.min(dp[j], dp[j - 1]))
-                                : pre;
-                pre = tmp;
+        
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else {
+                    dp[i][j] = Math.min(dp[i - 1][j], Math.min(dp[i][j - 1], dp[i - 1][j - 1])) + 1;
+                }
             }
         }
-        return dp[n2];
+        
+        return dp[m][n];
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program uses dynamic programming with a nested loop structure. The outer loop runs from 1 to `n1`, and the inner loop runs from 1 to `n2`, where `n1` and `n2` are the lengths of the input words `w1` and `w2`.
-
-2. Inside the inner loop, there are constant-time operations like array indexing, character comparisons, and mathematical operations (addition and minimum calculations). These operations do not depend on the size of the input words.
-
-3. Therefore, the dominant factor in the time complexity is the nested loops. The outer loop runs for `n1` iterations, and the inner loop runs for `n2` iterations. As a result, the time complexity is O(n1 * n2).
-
-4. In the worst case, `n1` and `n2` can be equal to the lengths of the input words, so the time complexity can be represented as O(n^2), where 'n' is the maximum of the lengths of `w1` and `w2`.
-
-**Space Complexity (Big O Space):**
-
-1. The program uses an integer array `dp` of size `n2 + 1`, where `n2` is the length of the shorter word `w2`. Additionally, there are some integer variables used for temporary storage.
-
-2. Therefore, the space complexity is O(n2) because the space usage is directly proportional to the length of the shorter input word `w2`.
-
-3. The space complexity does not depend on the length of the longer word `w1` because the program is designed to handle the shorter word as the outer loop variable.
-
-In summary, the time complexity of the provided program is O(n^2), where 'n' is the maximum of the lengths of `w1` and `w2`. The space complexity is O(n2), where `n2` is the length of the shorter word `w2`. The program efficiently calculates the minimum edit distance between two words using dynamic programming.
+This implementation efficiently calculates the minimum edit distance between two strings using dynamic programming, with a time complexity of O(m * n) and a space complexity of O(m * n), where m is the length of `word1` and n is the length of `word2`.

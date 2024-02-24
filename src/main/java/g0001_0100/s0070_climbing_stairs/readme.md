@@ -29,50 +29,34 @@ Each time you can either climb `1` or `2` steps. In how many distinct ways can y
 
 *   `1 <= n <= 45`
 
-## Solution
+To solve the "Climbing Stairs" problem in Java with the Solution class, follow these steps:
+
+1. Define a method `climbStairs` in the `Solution` class that takes an integer `n` as input and returns the number of distinct ways to climb to the top of the staircase with `n` steps.
+2. Initialize an array `dp` of size `n+1` to store the number of distinct ways to reach each step.
+3. Set `dp[0] = 1` and `dp[1] = 1` since there is only one way to reach the first and second steps.
+4. Iterate over the steps from `2` to `n`:
+   - At each step `i`, the number of distinct ways to reach step `i` is the sum of the number of ways to reach steps `i-1` and `i-2`.
+   - Store this sum in `dp[i]`.
+5. Return `dp[n]`, which represents the number of distinct ways to climb to the top of the staircase with `n` steps.
+
+Here's the implementation of the `climbStairs` method in Java:
 
 ```java
-public class Solution {
+class Solution {
     public int climbStairs(int n) {
-        if (n < 2) {
-            return n;
+        if (n == 1) return 1;
+        
+        int[] dp = new int[n + 1];
+        dp[0] = 1;
+        dp[1] = 1;
+        
+        for (int i = 2; i <= n; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
         }
-        int[] cache = new int[n];
-        // creating a cache or DP to store the result
-        // so that we dont have to iterate multiple times
-        // for the same values;
-
-        // for 0 and 1 the result array i.e cache values would be 1 and 2
-        // in loop we are just getting ith values i.e 5th step values from
-        // i-1 and i-2 which are 4th step and 3rd step values.
-        cache[0] = 1;
-        cache[1] = 2;
-        for (int i = 2; i < n; i++) {
-            cache[i] = cache[i - 1] + cache[i - 2];
-        }
-        return cache[n - 1];
+        
+        return dp[n];
     }
 }
 ```
 
-﻿**Time Complexity (Big O Time):**
-
-1. The program uses dynamic programming with a loop that runs from 2 to `n-1` to fill in the `cache` array.
-
-2. The loop iterates through all steps from 2 to `n-1`, and for each step `i`, it calculates the number of distinct ways by summing the values from the previous two steps (`cache[i-1]` and `cache[i-2]`).
-
-3. Therefore, the loop runs in O(n) time because it iterates through all `n` steps once.
-
-4. The other operations in the program, such as array assignments and comparisons, are constant time operations and do not depend on the input value `n`.
-
-5. Overall, the time complexity of the program is O(n), where 'n' is the number of steps in the staircase.
-
-**Space Complexity (Big O Space):**
-
-1. The program uses an integer array `cache` of size `n` to store the intermediate results of the number of distinct ways to climb each step.
-
-2. Therefore, the space complexity is O(n) because the space usage is directly proportional to the input value `n`.
-
-3. The space complexity is dominated by the `cache` array, and it scales linearly with the size of the input staircase.
-
-In summary, the time complexity of the provided program is O(n), and the space complexity is also O(n), where 'n' is the number of steps in the staircase. The program efficiently calculates the number of distinct ways to climb the staircase using dynamic programming with memoization.
+This implementation efficiently calculates the number of distinct ways to climb the stairs using dynamic programming, with a time complexity of O(n) and a space complexity of O(n).

@@ -36,47 +36,70 @@ You must write an algorithm with `O(log n)` runtime complexity.
 *   `nums` is a non-decreasing array.
 *   <code>-10<sup>9</sup> <= target <= 10<sup>9</sup></code>
 
-## Solution
+To solve the "Find First and Last Position of Element in Sorted Array" problem in Java with a `Solution` class, we can follow these steps:
+
+1. Define a `Solution` class.
+2. Define a method named `searchRange` that takes an integer array `nums` and an integer `target` as input and returns an integer array representing the starting and ending positions of `target` in `nums`. If `target` is not found, return `[-1, -1]`.
+3. Implement binary search to find the first and last occurrences of `target`.
+4. Set the left pointer `left` to 0 and the right pointer `right` to the length of `nums` minus 1.
+5. Initialize two variables `firstOccurrence` and `lastOccurrence` to -1.
+6. Perform two binary search operations:
+   - First, find the first occurrence of `target`:
+     - While `left` is less than or equal to `right`:
+       - Calculate the middle index `mid` as `(left + right) / 2`.
+       - If `nums[mid]` is equal to `target`, update `firstOccurrence = mid` and continue searching on the left half by updating `right = mid - 1`.
+       - Otherwise, if `target` is less than `nums[mid]`, update `right = mid - 1`.
+       - Otherwise, update `left = mid + 1`.
+   - Second, find the last occurrence of `target`:
+     - Reset `left` to 0 and `right` to the length of `nums` minus 1.
+     - While `left` is less than or equal to `right`:
+       - Calculate the middle index `mid` as `(left + right) / 2`.
+       - If `nums[mid]` is equal to `target`, update `lastOccurrence = mid` and continue searching on the right half by updating `left = mid + 1`.
+       - Otherwise, if `target` is greater than `nums[mid]`, update `left = mid + 1`.
+       - Otherwise, update `right = mid - 1`.
+7. Return the array `[firstOccurrence, lastOccurrence]`.
+
+Here's the implementation:
 
 ```java
 public class Solution {
     public int[] searchRange(int[] nums, int target) {
-        int[] ans = new int[2];
-        ans[0] = helper(nums, target, false);
-        ans[1] = helper(nums, target, true);
-        return ans;
-    }
+        int left = 0;
+        int right = nums.length - 1;
+        int firstOccurrence = -1;
+        int lastOccurrence = -1;
 
-    private int helper(int[] nums, int target, boolean equals) {
-        int l = 0;
-        int r = nums.length - 1;
-        int result = -1;
-        while (l <= r) {
-            int mid = l + (r - l) / 2;
+        // Find first occurrence
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
             if (nums[mid] == target) {
-                result = mid;
-            }
-            if (nums[mid] < target || (nums[mid] == target && equals)) {
-                l = mid + 1;
+                firstOccurrence = mid;
+                right = mid - 1;
+            } else if (target < nums[mid]) {
+                right = mid - 1;
             } else {
-                r = mid - 1;
+                left = mid + 1;
             }
         }
-        return result;
+
+        // Find last occurrence
+        left = 0;
+        right = nums.length - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
+                lastOccurrence = mid;
+                left = mid + 1;
+            } else if (target < nums[mid]) {
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+
+        return new int[]{firstOccurrence, lastOccurrence};
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program performs two binary searches, one to find the leftmost occurrence of the target value and another to find the rightmost occurrence.
-
-2. Each binary search operates on a sorted array of length n, and in each step, it reduces the search range by half.
-
-3. Therefore, the time complexity of each binary search is O(log n), and since the program performs two binary searches sequentially, the overall time complexity is still O(log n).
-
-**Space Complexity (Big O Space):**
-
-The space complexity of the program is O(1), which means it uses a constant amount of additional space regardless of the size of the input array `nums`. The program only uses a few integer variables (`l`, `r`, `result`, `mid`) and an integer array of constant size to store the result.
-
-In summary, the time complexity of the provided program is O(log n), and the space complexity is O(1), where n is the number of elements in the input array `nums`.
+This implementation provides a solution to the "Find First and Last Position of Element in Sorted Array" problem in Java. It returns the starting and ending positions of `target` in `nums` using binary search, with a time complexity of O(log n).

@@ -42,54 +42,65 @@ Given a string `s`, find the length of the **longest substring** without repeati
 *   <code>0 <= s.length <= 5 * 10<sup>4</sup></code>
 *   `s` consists of English letters, digits, symbols and spaces.
 
-## Solution
+To solve the Longest Substring Without Repeating Characters problem in Java using a `Solution` class, we'll follow these steps:
+
+1. Define a `Solution` class with a method named `lengthOfLongestSubstring`.
+2. Initialize variables to keep track of the starting index of the substring (`start`), the maximum length (`maxLen`), and a hashmap to store characters and their indices.
+3. Iterate through the string `s`, and for each character:
+   - Check if the character exists in the hashmap and its index is greater than or equal to the `start` index.
+   - If found, update the `start` index to the index after the last occurrence of the character.
+   - Update the maximum length if necessary.
+   - Update the index of the current character in the hashmap.
+4. Return the maximum length found.
+5. Handle the edge case where the input string is empty.
+
+Here's the implementation:
 
 ```java
+import java.util.HashMap;
+
 public class Solution {
+    
     public int lengthOfLongestSubstring(String s) {
-        int[] lastIndices = new int[256];
-        for (int i = 0; i < 256; i++) {
-            lastIndices[i] = -1;
-        }
-        int maxLen = 0;
-        int curLen = 0;
+        // Initialize variables
         int start = 0;
-        for (int i = 0; i < s.length(); i++) {
-            char cur = s.charAt(i);
-            if (lastIndices[cur] < start) {
-                lastIndices[cur] = i;
-                curLen++;
-            } else {
-                int lastIndex = lastIndices[cur];
-                start = lastIndex + 1;
-                curLen = i - start + 1;
-                lastIndices[cur] = i;
+        int maxLen = 0;
+        HashMap<Character, Integer> map = new HashMap<>();
+        
+        // Iterate through the string
+        for (int end = 0; end < s.length(); end++) {
+            char ch = s.charAt(end);
+            // If the character exists in the hashmap and its index is greater than or equal to the start index
+            if (map.containsKey(ch) && map.get(ch) >= start) {
+                // Update the start index to the index after the last occurrence of the character
+                start = map.get(ch) + 1;
             }
-            if (curLen > maxLen) {
-                maxLen = curLen;
-            }
+            // Update the maximum length if necessary
+            maxLen = Math.max(maxLen, end - start + 1);
+            // Update the index of the current character in the hashmap
+            map.put(ch, end);
         }
+        
         return maxLen;
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        // Test cases
+        String s1 = "abcabcbb";
+        System.out.println("Example 1 Output: " + solution.lengthOfLongestSubstring(s1));
+
+        String s2 = "bbbbb";
+        System.out.println("Example 2 Output: " + solution.lengthOfLongestSubstring(s2));
+
+        String s3 = "pwwkew";
+        System.out.println("Example 3 Output: " + solution.lengthOfLongestSubstring(s3));
+
+        String s4 = "";
+        System.out.println("Example 4 Output: " + solution.lengthOfLongestSubstring(s4));
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-The time complexity of this program is O(n), where "n" represents the length of the input string `s`. Here's the breakdown:
-
-1. The program iterates through the characters of the input string `s` using a `for` loop, and this loop runs for "n" iterations, where "n" is the length of `s`.
-2. Inside the loop, it performs constant-time operations:
-   - Initializing the `lastIndices` array (constant time).
-   - Updating values in the `lastIndices` array (constant time).
-   - Updating variables like `maxLen`, `curLen`, `start`, and `lastIndices[cur]` (constant time).
-
-Since the loop runs for "n" iterations, and all operations inside the loop are constant time, the overall time complexity is O(n).
-
-**Space Complexity (Big O Space):**
-
-The space complexity of this program is O(256) = O(1), as it uses a fixed-size array `lastIndices` of length 256 to store the last indices of characters. This array's size does not depend on the input size and remains constant.
-
-Additionally, the program uses a few integer variables and constant space to store the result. The space used for these variables does not depend on the input size and is also considered constant.
-
-Therefore, the space complexity is O(1), or more precisely, O(256), which is still considered constant because it doesn't grow with the input size.
+This implementation provides a solution to the Longest Substring Without Repeating Characters problem in Java.

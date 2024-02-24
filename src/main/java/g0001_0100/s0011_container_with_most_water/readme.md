@@ -43,42 +43,58 @@ Given `n` non-negative integers <code>a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n
 *   <code>2 <= n <= 10<sup>5</sup></code>
 *   <code>0 <= height[i] <= 10<sup>4</sup></code>
 
-## Solution
+To solve the Container With Most Water problem in Java using a `Solution` class, we'll follow these steps:
+
+1. Define a `Solution` class with a method named `maxArea` that takes an array of integers `height` as input and returns the maximum area of water that can be contained.
+2. Initialize two pointers, `left` pointing to the start of the array and `right` pointing to the end of the array.
+3. Initialize a variable `maxArea` to store the maximum area encountered so far, initially set to 0.
+4. Iterate while `left` is less than `right`.
+5. Calculate the current area using the formula: `(right - left) * min(height[left], height[right])`.
+6. Update `maxArea` if the current area is greater than `maxArea`.
+7. Move the pointer pointing to the smaller height towards the other pointer. If `height[left] < height[right]`, increment `left`, otherwise decrement `right`.
+8. Continue the iteration until `left` becomes greater than or equal to `right`.
+9. Return `maxArea`.
+
+Here's the implementation:
 
 ```java
 public class Solution {
     public int maxArea(int[] height) {
-        int maxArea = -1;
         int left = 0;
         int right = height.length - 1;
+        int maxArea = 0;
+
         while (left < right) {
+            int currentArea = (right - left) * Math.min(height[left], height[right]);
+            maxArea = Math.max(maxArea, currentArea);
+
             if (height[left] < height[right]) {
-                maxArea = Math.max(maxArea, height[left] * (right - left));
                 left++;
             } else {
-                maxArea = Math.max(maxArea, height[right] * (right - left));
                 right--;
             }
         }
+
         return maxArea;
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        // Test cases
+        int[] height1 = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+        System.out.println("Example 1 Output: " + solution.maxArea(height1));
+
+        int[] height2 = {1, 1};
+        System.out.println("Example 2 Output: " + solution.maxArea(height2));
+
+        int[] height3 = {4, 3, 2, 1, 4};
+        System.out.println("Example 3 Output: " + solution.maxArea(height3));
+
+        int[] height4 = {1, 2, 1};
+        System.out.println("Example 4 Output: " + solution.maxArea(height4));
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-The time complexity of this program is O(n), where "n" represents the number of elements in the `height` array. Here's the breakdown:
-
-1. The program uses a two-pointer approach with `left` and `right` pointers initialized at the beginning and end of the `height` array.
-2. It iterates through the array using a `while` loop, and in each iteration, it performs constant-time operations:
-   - It calculates the area as the product of the heights at the current `left` and `right` pointers and the distance between them (constant time).
-   - It updates the `maxArea` variable by taking the maximum of the current `maxArea` and the calculated area (constant time).
-   - It moves either the `left` or `right` pointer toward the center of the array based on the condition `height[left] < height[right]` or `height[left] >= height[right]`.
-
-Since the `while` loop runs until the `left` and `right` pointers meet in the middle, and each iteration performs constant-time operations, the overall time complexity is O(n), where "n" is the number of elements in the `height` array.
-
-**Space Complexity (Big O Space):**
-
-The space complexity of this program is O(1), which means it uses a constant amount of extra space that does not depend on the input size. The program uses only a few integer variables (`maxArea`, `left`, and `right`) to keep track of the maximum area and the positions of the two pointers. The space used by these variables remains constant regardless of the input size.
-
-Therefore, the overall space complexity is O(1).
+This implementation provides a solution to the Container With Most Water problem in Java.

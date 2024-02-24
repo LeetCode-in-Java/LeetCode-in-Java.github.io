@@ -34,63 +34,49 @@ Given a string containing just the characters `'('` and `')'`, find the length o
 *   <code>0 <= s.length <= 3 * 10<sup>4</sup></code>
 *   `s[i]` is `'('`, or `')'`.
 
-## Solution
+To solve the "Longest Valid Parentheses" problem in Java with a `Solution` class, we can follow these steps:
+
+1. Define a `Solution` class.
+2. Define a method named `longestValidParentheses` that takes a string `s` as input and returns an integer representing the length of the longest valid parentheses substring.
+3. Initialize a stack to store the indices of characters.
+4. Initialize a variable `maxLen` to store the maximum length of valid parentheses found so far.
+5. Push `-1` onto the stack to mark the starting point of a potential valid substring.
+6. Iterate through each character of the string:
+   - If the character is `'('`, push its index onto the stack.
+   - If the character is `')'`:
+     - Pop the top index from the stack.
+     - If the stack is empty after popping, push the current index onto the stack to mark the starting point of the next potential valid substring.
+     - Otherwise, update `maxLen` with the maximum of the current `maxLen` and `i - stack.peek()`, where `i` is the current index and `stack.peek()` is the index at the top of the stack.
+7. Return `maxLen`.
+
+Here's the implementation:
 
 ```java
+import java.util.Stack;
+
 public class Solution {
     public int longestValidParentheses(String s) {
-        int max = 0;
-        int left = 0;
-        int right = 0;
-        int n = s.length();
-        char ch;
-        for (int i = 0; i < n; i++) {
-            ch = s.charAt(i);
-            if (ch == '(') {
-                left++;
-            } else {
-                right++;
-            }
-            if (right > left) {
-                left = 0;
-                right = 0;
-            }
-            if (left == right) {
-                max = Math.max(max, left + right);
+        int maxLen = 0;
+        Stack<Integer> stack = new Stack<>();
+        stack.push(-1); // Mark the starting point of a potential valid substring
+        
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == '(') {
+                stack.push(i);
+            } else { // c == ')'
+                stack.pop();
+                if (stack.isEmpty()) {
+                    stack.push(i); // Mark the starting point of the next potential valid substring
+                } else {
+                    maxLen = Math.max(maxLen, i - stack.peek());
+                }
             }
         }
-        left = 0;
-        right = 0;
-        for (int i = n - 1; i >= 0; i--) {
-            ch = s.charAt(i);
-            if (ch == '(') {
-                left++;
-            } else {
-                right++;
-            }
-            if (left > right) {
-                left = 0;
-                right = 0;
-            }
-            if (left == right) {
-                max = Math.max(max, left + right);
-            }
-        }
-        return max;
+        
+        return maxLen;
     }
 }
 ```
 
-﻿**Time Complexity (Big O Time):**
-
-1. The program iterates through the input string `s` twice. In the first loop, it goes from left to right, and in the second loop, it goes from right to left. Each loop has a linear time complexity of O(n), where n is the length of the input string.
-
-2. Within each loop, there are constant time operations like character comparisons and arithmetic calculations. These operations do not depend on the size of the input string and can be considered O(1).
-
-Combining these factors, the overall time complexity of the program is O(n), where n is the length of the input string `s`. The two passes through the string do not make it O(2n) because constant factors are ignored in big O notation.
-
-**Space Complexity (Big O Space):**
-
-The space complexity of the program is O(1), which means it uses a constant amount of additional space regardless of the size of the input string `s`. The variables `max`, `left`, `right`, `n`, and `ch` all occupy constant space, and the program does not use any additional data structures or memory that scales with the input size.
-
-In summary, the time complexity of the provided program is O(n), and the space complexity is O(1), where n is the length of the input string `s`.
+This implementation provides a solution to the "Longest Valid Parentheses" problem in Java. It finds the length of the longest valid parentheses substring in the given string `s`.
