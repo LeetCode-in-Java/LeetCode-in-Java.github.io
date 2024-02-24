@@ -47,54 +47,54 @@ An input string is valid if:
 *   <code>1 <= s.length <= 10<sup>4</sup></code>
 *   `s` consists of parentheses only `'()[]{}'`.
 
-## Solution
+To solve the Valid Parentheses problem in Java with a `Solution` class, we'll use a stack data structure. Here are the steps:
+
+1. Define a `Solution` class with a method named `isValid` that takes a string `s` as input and returns a boolean indicating whether the string contains valid parentheses.
+2. Create a stack to store opening parentheses.
+3. Iterate through each character in the input string `s`.
+4. If the current character is an opening parenthesis (`'('`, `'{'`, or `'['`), push it onto the stack.
+5. If the current character is a closing parenthesis (`')'`, `'}'`, or `']'`), check if the stack is empty. If it is, return `false` because there's no matching opening parenthesis for the current closing parenthesis.
+6. If the stack is not empty, pop the top element from the stack and check if it matches the current closing parenthesis. If it doesn't match, return `false`.
+7. After iterating through all characters in `s`, check if the stack is empty. If it's not empty, return `false` because there are unmatched opening parentheses remaining.
+8. If the stack is empty after processing all characters, return `true` because all parentheses are valid.
+
+Here's the implementation:
 
 ```java
 import java.util.Stack;
 
-@SuppressWarnings("java:S1149")
 public class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            if (c == '(' || c == '[' || c == '{') {
+
+        for (char c : s.toCharArray()) {
+            if (c == '(' || c == '{' || c == '[') {
                 stack.push(c);
-            } else if (c == ')' && !stack.isEmpty() && stack.peek() == '(') {
-                stack.pop();
-            } else if (c == '}' && !stack.isEmpty() && stack.peek() == '{') {
-                stack.pop();
-            } else if (c == ']' && !stack.isEmpty() && stack.peek() == '[') {
-                stack.pop();
             } else {
-                return false;
+                if (stack.isEmpty()) {
+                    return false;
+                }
+                char top = stack.pop();
+                if ((c == ')' && top != '(') || (c == '}' && top != '{') || (c == ']' && top != '[')) {
+                    return false;
+                }
             }
         }
+
         return stack.isEmpty();
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        // Test cases
+        System.out.println(solution.isValid("()")); // true
+        System.out.println(solution.isValid("()[]{}")); // true
+        System.out.println(solution.isValid("(]")); // false
+        System.out.println(solution.isValid("([)]")); // false
+        System.out.println(solution.isValid("{[]}")); // true
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-The time complexity of this program is O(n), where "n" represents the length of the input string `s`. Here's the breakdown:
-
-1. The program iterates through each character of the input string `s` using a `for` loop. This loop runs for "n" iterations, where "n" is the length of the string.
-
-2. Inside the loop, the program performs constant-time operations for each character:
-   - It checks if the character is one of the opening parentheses (`(`, `[`, or `{`) and pushes it onto the stack (constant time).
-   - It checks if the character is one of the closing parentheses (`)`, `]`, or `}`) and verifies if it matches the corresponding opening parenthesis on the top of the stack. If they match, it pops the opening parenthesis from the stack (constant time).
-
-3. If any character other than parentheses is encountered, the program returns `false` immediately, so the worst-case scenario is iterating through the entire string.
-
-Since the loop runs for "n" iterations, and all operations inside the loop are constant time, the overall time complexity is O(n).
-
-**Space Complexity (Big O Space):**
-
-The space complexity of this program is O(n), where "n" represents the length of the input string `s`. Here's why:
-
-1. The program uses a stack (`stack`) to keep track of the opening parentheses encountered while iterating through the string. In the worst case, when the input string contains only opening parentheses, the stack can grow to have a maximum of "n" elements, where "n" is the length of the input string.
-
-2. Other than the stack, the program uses a few integer variables and character variables (`c`) that consume constant space relative to the input size.
-
-Therefore, the dominant factor in terms of space complexity is the stack, which has a space complexity of O(n).
+This implementation provides a solution to the Valid Parentheses problem in Java using a stack data structure.

@@ -44,57 +44,73 @@ A **substring** is a contiguous sequence of characters within the string.
 
 **Follow up:** Could you find an algorithm that runs in `O(m + n)` time?
 
-## Solution
+To solve the "Minimum Window Substring" problem in Java with the Solution class, follow these steps:
+
+1. Define a method `minWindow` in the `Solution` class that takes two strings `s` and `t` as input and returns the minimum window substring of `s` containing all characters from `t`.
+2. Create two frequency maps: `tFreqMap` to store the frequency of characters in string `t`, and `sFreqMap` to store the frequency of characters in the current window of string `s`.
+3. Initialize two pointers `left` and `right` to track the window boundaries. Initialize a variable `minLength` to store the minimum window length found so far.
+4. Iterate over string `s` using the `right` pointer until the end of the string:
+   - Update the frequency map `sFreqMap` for the character at index `right`.
+   - Check if the current window contains all characters from `t`. If it does, move the `left` pointer to minimize the window while maintaining the condition.
+   - Update the `minLength` if the current window length is smaller.
+   - Move the `right` pointer to expand the window.
+5. Return the minimum window substring found, or an empty string if no such substring exists.
+
+Here's the implementation of the `minWindow` method in Java:
 
 ```java
-public class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+class Solution {
     public String minWindow(String s, String t) {
-        int[] map = new int[128];
-        for (int i = 0; i < t.length(); i++) {
-            map[t.charAt(i) - 'A']++;
+        Map<Character, Integer> tFreqMap = new HashMap<>();
+        Map<Character, Integer> sFreqMap = new HashMap<>();
+        
+        // Initialize tFreqMap with character frequencies from string t
+        for (char ch : t.toCharArray()) {
+            tFreqMap.put(ch, tFreqMap.getOrDefault(ch, 0) + 1);
         }
-        int count = t.length();
-        int begin = 0;
-        int end = 0;
-        int d = Integer.MAX_VALUE;
-        int head = 0;
-        while (end < s.length()) {
-            if (map[s.charAt(end++) - 'A']-- > 0) {
-                count--;
-            }
-            while (count == 0) {
-                if (end - begin < d) {
-                    d = end - begin;
-                    head = begin;
+        
+        int left = 0;
+        int right = 0;
+        int minLength = Integer.MAX_VALUE;
+        int minStart = 0;
+        
+        while (right < s.length()) {
+            char rightChar = s.charAt(right);
+            sFreqMap.put(rightChar, sFreqMap.getOrDefault(rightChar, 0) + 1);
+            right++;
+            
+            // Check if the current window contains all characters from t
+            while (containsAllChars(sFreqMap, tFreqMap)) {
+                // Update the minimum window length
+                if (right - left < minLength) {
+                    minLength = right - left;
+                    minStart = left;
                 }
-                if (map[s.charAt(begin++) - 'A']++ == 0) {
-                    count++;
-                }
+                
+                char leftChar = s.charAt(left);
+                sFreqMap.put(leftChar, sFreqMap.get(leftChar) - 1);
+                left++;
             }
         }
-        return d == Integer.MAX_VALUE ? "" : s.substring(head, head + d);
+        
+        return minLength == Integer.MAX_VALUE ? "" : s.substring(minStart, minStart + minLength);
+    }
+    
+    // Helper method to check if sFreqMap contains all characters from tFreqMap
+    private boolean containsAllChars(Map<Character, Integer> sFreqMap, Map<Character, Integer> tFreqMap) {
+        for (Map.Entry<Character, Integer> entry : tFreqMap.entrySet()) {
+            char ch = entry.getKey();
+            int count = entry.getValue();
+            if (sFreqMap.getOrDefault(ch, 0) < count) {
+                return false;
+            }
+        }
+        return true;
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program begins by creating an integer array `map` of size 128 to store character frequencies. It iterates through the characters in string `t` once, incrementing the corresponding count in the `map`. This initialization step runs in O(t.length()) time.
-
-2. The main part of the program uses two pointers, `begin` and `end`, to slide through string `s`. This part contains a while loop that iterates through the entire string `s`. In the worst case, the loop can iterate over each character in `s` twice (once for `end` and once for `begin`), so it runs in O(2 * s.length()) time.
-
-3. Within the loop, there is a nested while loop that adjusts the `begin` pointer and updates the minimum window. The number of iterations of this inner loop depends on the length of the window and the contents of string `s` and string `t`. In the worst case, this inner loop can iterate through the entire string `s` once. Therefore, the inner loop's time complexity is O(s.length()).
-
-4. The overall time complexity of the program is dominated by the two iterations over `s`. Therefore, the time complexity is O(s.length()).
-
-**Space Complexity (Big O Space):**
-
-1. The program uses additional space for the integer array `map`, which has a fixed size of 128 characters (assuming ASCII characters). This space complexity is constant, O(1), because the size of `map` does not depend on the input strings `s` and `t`.
-
-2. The program uses several integer variables (`count`, `begin`, `end`, `d`, `head`) to keep track of indices and counts. These variables consume a constant amount of space, which is also O(1).
-
-3. The program does not use additional data structures or arrays that scale with the size of the input strings.
-
-4. Therefore, the space complexity of the program is O(1), or constant space.
-
-In summary, the time complexity of the provided program is O(s.length()), and the space complexity is O(1). The program efficiently finds the minimum window in string `s` containing all characters from string `t`.
+This implementation finds the minimum window substring in `O(m + n)` time complexity, where `m` is the length of string `s` and `n` is the length of string `t`. It uses two frequency maps to keep track of character frequencies and adjusts the window boundaries to find the minimum window containing all characters from `t`.

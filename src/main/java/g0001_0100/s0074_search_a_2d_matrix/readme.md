@@ -33,48 +33,40 @@ Write an efficient algorithm that searches for a value in an `m x n` matrix. Thi
 *   `1 <= m, n <= 100`
 *   <code>-10<sup>4</sup> <= matrix[i][j], target <= 10<sup>4</sup></code>
 
-## Solution
+To solve the "Search a 2D Matrix" problem in Java with the Solution class, follow these steps:
+
+1. Define a method `searchMatrix` in the `Solution` class that takes a 2D integer matrix `matrix` and an integer `target` as input and returns `true` if the target value is found in the matrix, otherwise returns `false`.
+2. Initialize two pointers `row` and `col` to start at the top-right corner of the matrix. `row` starts from 0 and `col` starts from the last column.
+3. Loop until `row` is less than the number of rows in the matrix and `col` is greater than or equal to 0:
+   - If `matrix[row][col]` is equal to the target, return `true`.
+   - If `matrix[row][col]` is greater than the target, decrement `col`.
+   - If `matrix[row][col]` is less than the target, increment `row`.
+4. If the target is not found after the loop, return `false`.
+
+Here's the implementation of the `searchMatrix` method in Java:
 
 ```java
-public class Solution {
+class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        int endRow = matrix.length;
-        int endCol = matrix[0].length;
-        int targetRow = 0;
-        boolean result = false;
-        for (int i = 0; i < endRow; i++) {
-            if (matrix[i][endCol - 1] >= target) {
-                targetRow = i;
-                break;
+        int m = matrix.length;
+        int n = matrix[0].length;
+        
+        int row = 0;
+        int col = n - 1;
+        
+        while (row < m && col >= 0) {
+            if (matrix[row][col] == target) {
+                return true;
+            } else if (matrix[row][col] > target) {
+                col--;
+            } else {
+                row++;
             }
         }
-        for (int i = 0; i < endCol; i++) {
-            if (matrix[targetRow][i] == target) {
-                result = true;
-                break;
-            }
-        }
-        return result;
+        
+        return false;
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program first determines the number of rows (`endRow`) and columns (`endCol`) in the matrix, which takes O(1) time.
-
-2. It then iterates through the rows once to find the target row where the last element of each row is greater than or equal to the target. This loop runs in O(endRow) time, where `endRow` is the number of rows in the matrix.
-
-3. Once the target row is identified, the program iterates through the elements in that row to check if the target exists in that row. This loop runs in O(endCol) time, where `endCol` is the number of columns in the matrix.
-
-4. Therefore, the overall time complexity of the program is O(endRow + endCol), where `endRow` is the number of rows and `endCol` is the number of columns in the matrix.
-
-**Space Complexity (Big O Space):**
-
-1. The program uses a few integer variables (such as `endRow`, `endCol`, and `targetRow`) and a boolean variable (`result`) to store intermediate values. These variables consume constant space, which does not depend on the size of the input matrix.
-
-2. The program does not use any additional data structures or arrays that scale with the size of the input matrix.
-
-3. Therefore, the space complexity of the program is O(1) or constant space.
-
-In summary, the time complexity of the provided program is O(endRow + endCol), and the space complexity is O(1). The program efficiently searches for a target element in a 2D matrix, considering the properties of the matrix, without using additional memory for data structures.
+This implementation searches for the target value efficiently in the given matrix by starting from the top-right corner and moving either left or down based on the comparison with the target value. The time complexity of this solution is O(m + n), where m is the number of rows and n is the number of columns in the matrix.

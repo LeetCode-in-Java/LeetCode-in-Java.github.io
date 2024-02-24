@@ -32,58 +32,45 @@ You must implement an algorithm that runs in `O(n)` time and uses constant extra
 *   <code>1 <= nums.length <= 5 * 10<sup>5</sup></code>
 *   <code>-2<sup>31</sup> <= nums[i] <= 2<sup>31</sup> - 1</code>
 
-## Solution
+To solve the "First Missing Positive" problem in Java with a `Solution` class, we can follow these steps:
+
+1. Define a `Solution` class.
+2. Define a method named `firstMissingPositive` that takes an array of integers `nums` as input and returns the smallest missing positive integer.
+3. Iterate through the array and mark the positive integers found by negating the value at the corresponding index.
+4. Iterate through the modified array again and return the index of the first positive number (which is the smallest missing positive integer).
+5. If no positive number is found, return `nums.length + 1`.
+
+Here's the implementation:
 
 ```java
 public class Solution {
     public int firstMissingPositive(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] <= 0 || nums[i] > nums.length || nums[i] == i + 1) {
-                continue;
+        int n = nums.length;
+
+        // Mark positive integers found by negating the value at the corresponding index
+        for (int i = 0; i < n; i++) {
+            if (nums[i] > 0 && nums[i] <= n) {
+                int pos = nums[i] - 1;
+                if (nums[pos] != nums[i]) {
+                    int temp = nums[pos];
+                    nums[pos] = nums[i];
+                    nums[i] = temp;
+                    i--; // Revisit the swapped number
+                }
             }
-            dfs(nums, nums[i]);
         }
-        for (int i = 0; i < nums.length; i++) {
+
+        // Find the first positive number (smallest missing positive integer)
+        for (int i = 0; i < n; i++) {
             if (nums[i] != i + 1) {
                 return i + 1;
             }
         }
-        return nums.length + 1;
-    }
 
-    private void dfs(int[] nums, int val) {
-        if (val <= 0 || val > nums.length || val == nums[val - 1]) {
-            return;
-        }
-        int temp = nums[val - 1];
-        nums[val - 1] = val;
-        dfs(nums, temp);
+        // If no positive number is found, return nums.length + 1
+        return n + 1;
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program contains two loops:
-   - The first loop iterates through the array `nums` once to perform a depth-first search (DFS) on the elements.
-   - The second loop iterates through the modified `nums` array once to find the first missing positive integer.
-
-2. In the worst case, the first loop may visit every element in the `nums` array, which has a length of n (the number of elements in the array).
-
-3. The DFS recursion also runs in the worst case for every element in the array. In the worst case, the recursion depth could be n (for example, if the array contains all positive integers from 1 to n).
-
-4. The second loop always iterates through the entire array once.
-
-5. Therefore, the overall time complexity of the program is O(n), where n is the length of the input array `nums`.
-
-**Space Complexity (Big O Space):**
-
-1. The space complexity of the program is determined by the space used for the call stack during the DFS recursion and the constant space used for variables.
-
-2. The maximum depth of the DFS recursion is bounded by n in the worst case (when the array contains all positive integers from 1 to n). Therefore, the space used for the call stack is O(n).
-
-3. The program uses a few integer variables (`i`, `val`, `temp`) and does not use any additional data structures that scale with the input size.
-
-4. Therefore, the overall space complexity of the program is O(n) due to the space used for the call stack, where n is the length of the input array `nums`.
-
-In summary, the time complexity of the provided program is O(n), and the space complexity is O(n), where n is the number of elements in the input array `nums`.
+This implementation provides a solution to the "First Missing Positive" problem in Java. It marks positive integers found by negating the value at the corresponding index and then iterates through the modified array to find the smallest missing positive integer. If no positive number is found, it returns `nums.length + 1`.

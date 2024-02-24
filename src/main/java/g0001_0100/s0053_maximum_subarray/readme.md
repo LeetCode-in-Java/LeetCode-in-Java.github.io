@@ -36,41 +36,32 @@ A **subarray** is a **contiguous** part of an array.
 
 **Follow up:** If you have figured out the `O(n)` solution, try coding another solution using the **divide and conquer** approach, which is more subtle.
 
-## Solution
+To solve the "Maximum Subarray" problem in Java with the Solution class, follow these steps:
+
+1. Define a method `maxSubArray` in the `Solution` class that takes an integer array `nums` as input and returns an integer representing the largest sum of a contiguous subarray.
+2. Initialize two variables `maxSum` and `currentSum` to store the maximum sum found so far and the sum of the current subarray being considered, respectively. Set both to the value of the first element in `nums`.
+3. Iterate through the array `nums` from index `1` to `nums.length - 1`:
+   - Update `currentSum` as the maximum of the current element and the sum of the current element plus `currentSum`.
+   - Update `maxSum` as the maximum of `maxSum` and `currentSum`.
+4. After iterating through all elements in `nums`, return `maxSum`.
+
+Here's the implementation of the `maxSubArray` method in Java:
 
 ```java
-public class Solution {
+class Solution {
     public int maxSubArray(int[] nums) {
-        int maxi = Integer.MIN_VALUE;
-        int sum = 0;
-        for (int num : nums) {
-            // calculating sub-array sum
-            sum += num;
-            maxi = Math.max(sum, maxi);
-            if (sum < 0) {
-                // there is no point to carry a -ve subarray sum. hence setting to 0
-                sum = 0;
-            }
+        if (nums == null || nums.length == 0) {
+            return 0;
         }
-        return maxi;
+        int maxSum = nums[0];
+        int currentSum = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            currentSum = Math.max(nums[i], currentSum + nums[i]);
+            maxSum = Math.max(maxSum, currentSum);
+        }
+        return maxSum;
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program uses a single loop to iterate through the elements of the `nums` array. Let's assume there are 'n' elements in the array.
-
-2. In each iteration of the loop, the program performs constant time operations such as addition, comparison, and calls to `Math.max`.
-
-3. Therefore, the time complexity of the program is O(n), where 'n' is the number of elements in the input array `nums`.
-
-**Space Complexity (Big O Space):**
-
-1. The space complexity of the program is O(1), which means it uses a constant amount of additional space regardless of the size of the input array.
-
-2. The program uses a few integer variables (`maxi` and `sum`) to keep track of the maximum subarray sum and the current subarray sum, respectively. These variables require constant space.
-
-3. The space complexity does not depend on the size of the input array `nums`.
-
-In summary, the time complexity of the provided program is O(n), and the space complexity is O(1), where 'n' is the number of elements in the input array `nums`. The program efficiently finds the maximum subarray sum using a single pass through the array.
+This implementation efficiently finds the largest sum of a contiguous subarray in the given array `nums` using the Kadane's algorithm, which has a time complexity of O(n).

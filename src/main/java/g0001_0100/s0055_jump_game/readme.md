@@ -30,65 +30,36 @@ Return `true` _if you can reach the last index, or_ `false` _otherwise_.
 *   <code>1 <= nums.length <= 10<sup>4</sup></code>
 *   <code>0 <= nums[i] <= 10<sup>5</sup></code>
 
-## Solution
+To solve the "Jump Game" problem in Java with the Solution class, follow these steps:
+
+1. Define a method `canJump` in the `Solution` class that takes an integer array `nums` as input and returns a boolean indicating whether it's possible to reach the last index.
+2. Initialize a variable `maxReach` to keep track of the maximum index that can be reached.
+3. Iterate through the array `nums` from index `0` to `nums.length - 1`:
+   - Check if the current index `i` is greater than `maxReach`. If it is, return `false` as it's not possible to reach the last index.
+   - Update `maxReach` as the maximum of `maxReach` and `i + nums[i]`, which represents the furthest index that can be reached from the current position.
+4. After iterating through all elements in `nums`, return `true` as it's possible to reach the last index.
+
+Here's the implementation of the `canJump` method in Java:
 
 ```java
-public class Solution {
+class Solution {
     public boolean canJump(int[] nums) {
-        int sz = nums.length;
-        // we set 1 so it won't break on the first iteration
-        int tmp = 1;
-        for (int i = 0; i < sz; i++) {
-            // we always deduct tmp for every iteration
-            tmp--;
-            if (tmp < 0) {
-                // if from previous iteration tmp is already 0, it will be <0 here
-                // leading to false value
+        if (nums == null || nums.length == 0) {
+            return false;
+        }
+        int maxReach = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (i > maxReach) {
                 return false;
             }
-            // we get the maximum value because this value is supposed
-            // to be our iterator, if both values are 0, then the next
-            // iteration we will return false
-            // if either both or one of them are not 0 then we will keep doing this and check.
-
-            // We can stop the whole iteration with this condition. without this condition the code
-            // runs in 2ms 79.6%, adding this condition improves the performance into 1ms 100%
-            // because if the test case jump value is quite large, instead of just iterate, we can
-            // just check using this condition
-            // example: [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] -> we can just jump to the end without
-            // iterating whole array
-            tmp = Math.max(tmp, nums[i]);
-            if (i + tmp >= sz - 1) {
+            maxReach = Math.max(maxReach, i + nums[i]);
+            if (maxReach >= nums.length - 1) {
                 return true;
             }
         }
-        // we can just return true at the end, because if tmp is 0 on previous
-        // iteration,
-        // even though the next iteration index is the last one, it will return false under the
-        // tmp<0 condition
-        return true;
+        return false;
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program uses a single loop that iterates through the elements of the `nums` array. Let's assume there are 'n' elements in the array.
-
-2. In each iteration of the loop, the program performs constant time operations such as subtraction, comparison, and taking the maximum value.
-
-3. The loop iterates until the end of the array or until it determines that it's not possible to jump further.
-
-4. In the worst case, the loop may iterate through all 'n' elements of the array.
-
-5. Therefore, the time complexity of the program is O(n), where 'n' is the number of elements in the input array `nums`.
-
-**Space Complexity (Big O Space):**
-
-1. The space complexity of the program is O(1), which means it uses a constant amount of additional space regardless of the size of the input array.
-
-2. The program uses a few integer variables (`sz` and `tmp`) to keep track of the array size and the jump value. These variables require constant space.
-
-3. The space complexity does not depend on the size of the input array `nums`.
-
-In summary, the time complexity of the provided program is O(n), and the space complexity is O(1), where 'n' is the number of elements in the input array `nums`. The program efficiently checks if it's possible to jump to the end of the array using a single pass through the array.
+This implementation efficiently determines whether it's possible to reach the last index in the given array `nums` using a greedy approach, with a time complexity of O(n).

@@ -32,73 +32,51 @@ Given a linked list, swap every two adjacent nodes and return its head. You must
 *   The number of nodes in the list is in the range `[0, 100]`.
 *   `0 <= Node.val <= 100`
 
-## Solution
+To solve the "Swap Nodes in Pairs" problem in Java with a `Solution` class, we can traverse the linked list while swapping pairs of nodes. Here are the steps:
+
+1. Define a `Solution` class.
+2. Define a method named `swapPairs` that takes the head of a linked list as input and returns the head of the modified list.
+3. Create a dummy ListNode object and set its `next` pointer to the head of the input list. This dummy node will serve as the new head of the modified list.
+4. Initialize three pointers: `prev`, `first`, and `second`.
+5. Iterate through the list while `first` and `second` are not null:
+   - Assign `first` to the `next` pointer of `prev`.
+   - Assign `second` to the `next` pointer of `first`.
+   - Assign the `next` pointer of `prev` to the `next` pointer of `second`.
+   - Assign the `next` pointer of `second` to `first`.
+   - Move `prev` to `first`.
+   - Move `first` to `first.next` (which is the next pair of nodes).
+6. Return the `next` pointer of the dummy node, which points to the head of the modified list.
+
+Here's the implementation:
 
 ```java
-import com_github_leetcode.ListNode;
-
-/*
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 public class Solution {
     public ListNode swapPairs(ListNode head) {
-        if (head == null) {
-            return null;
+        // Create a dummy node and point its next to the head
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        
+        // Initialize pointers
+        ListNode prev = dummy;
+        ListNode first, second;
+        
+        // Swap pairs of nodes
+        while (prev.next != null && prev.next.next != null) {
+            first = prev.next;
+            second = first.next;
+            
+            // Swap nodes
+            prev.next = second;
+            first.next = second.next;
+            second.next = first;
+            
+            // Move prev to the next pair of nodes
+            prev = first;
         }
-        int len = getLength(head);
-        return reverse(head, len);
-    }
-
-    private int getLength(ListNode curr) {
-        int cnt = 0;
-        while (curr != null) {
-            cnt++;
-            curr = curr.next;
-        }
-        return cnt;
-    }
-
-    // Recursive function to reverse in groups
-    private ListNode reverse(ListNode head, int len) {
-        // base case
-        if (len < 2) {
-            return head;
-        }
-        ListNode curr = head;
-        ListNode prev = null;
-        ListNode next;
-        for (int i = 0; i < 2; i++) {
-            // reverse linked list code
-            next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
-        }
-        head.next = reverse(curr, len - 2);
-        return prev;
+        
+        return dummy.next;
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The `getLength` function iterates through the linked list once to determine its length, which takes O(n) time, where n is the number of nodes in the list.
-
-2. The `reverse` function is a recursive function that processes the linked list in pairs of 2 nodes. In each recursive call, it reverses two nodes, which takes constant time O(1). The number of recursive calls is proportional to the length of the list divided by 2 (len / 2).
-
-Combining these factors, the overall time complexity of the program is O(n), where n is the number of nodes in the input linked list. This is because the dominant factor is the iteration through the list to compute its length.
-
-**Space Complexity (Big O Space):**
-
-1. The space complexity of the program is O(1) because it uses a constant amount of additional space for variables like `curr`, `prev`, and `next`. Regardless of the size of the input linked list, the space used for these variables remains constant.
-
-2. The program does use a call stack for the recursive calls to the `reverse` function, but the maximum depth of the recursion is bounded by the length of the list divided by 2. Therefore, the space used for the call stack is O(n/2), which simplifies to O(n) in big O notation. However, this is still considered O(1) in terms of space complexity because it's not dependent on the input size.
-
-In summary, the time complexity of the provided program is O(n), and the space complexity is O(1), where n is the number of nodes in the input linked list.
+This implementation provides a solution to the "Swap Nodes in Pairs" problem in Java without modifying the values in the list's nodes.

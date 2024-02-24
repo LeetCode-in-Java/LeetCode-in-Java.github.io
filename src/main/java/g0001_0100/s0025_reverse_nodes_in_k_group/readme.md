@@ -48,71 +48,68 @@ You may not alter the values in the list's nodes, only nodes themselves may be c
 
 **Follow-up:** Can you solve the problem in O(1) extra memory space?
 
-## Solution
+To solve the "Reverse Nodes in k-Group" problem in Java with a `Solution` class, we can reverse the nodes in groups of k using a recursive approach. Here are the steps:
+
+1. Define a `Solution` class.
+2. Define a method named `reverseKGroup` that takes the head of a linked list and an integer k as input and returns the head of the modified list.
+3. Define a helper method named `reverse` that takes the head and tail of a sublist as input and reverses the sublist in place. This method returns the new head of the sublist.
+4. Create a dummy ListNode object and set its `next` pointer to the head of the input list. This dummy node will serve as the new head of the modified list.
+5. Initialize pointers `prev`, `curr`, `next`, and `tail`. Set `prev` and `tail` to the dummy node, and `curr` to the head of the input list.
+6. Iterate through the list:
+   - Move `curr` k steps forward. If it's not possible (i.e., there are less than k nodes left), break the loop.
+   - Set `next` to the `next` pointer of `curr`.
+   - Reverse the sublist from `curr` to `next` using the `reverse` method. Update `prev` and `tail` accordingly.
+   - Move `prev` and `tail` k steps forward to the last node of the reversed sublist.
+   - Move `curr` to `next`.
+7. Return the `next` pointer of the dummy node, which points to the head of the modified list.
+
+Here's the implementation:
 
 ```java
-import com_github_leetcode.ListNode;
-
-/*
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 public class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
-        if (head == null || head.next == null || k == 1) {
-            return head;
-        }
-        int j = 0;
-        ListNode len = head;
-        // loop for checking the length of the linklist, if the linklist is less than k, then return
-        // as it is.
-        while (j < k) {
-            if (len == null) {
-                return head;
+        // Create a dummy node and point its next to the head
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        
+        // Initialize pointers
+        ListNode prev = dummy, curr = head, next, tail;
+        
+        // Iterate through the list and reverse in groups of k
+        while (true) {
+            // Move curr k steps forward
+            tail = prev;
+            for (int i = 0; i < k; i++) {
+                tail = tail.next;
+                if (tail == null) return dummy.next; // Less than k nodes left
             }
-            len = len.next;
-            j++;
+            
+            next = tail.next; // Save the next pointer of the sublist
+            tail.next = null; // Disconnect the sublist from the rest of the list
+            
+            // Reverse the sublist and update prev and tail pointers
+            prev.next = reverse(curr, tail);
+            tail.next = next; // Connect the reversed sublist back to the rest of the list
+            
+            // Move prev, tail, and curr to the next group
+            prev = curr;
+            curr = next;
         }
-        // Reverse linked list logic applied here.
-        ListNode c = head;
-        ListNode n = null;
-        ListNode prev = null;
-        int i = 0;
-        // Traverse the while loop for K times to reverse the node in K groups.
-        while (i != k) {
-            n = c.next;
-            c.next = prev;
-            prev = c;
-            c = n;
-            i++;
+    }
+    
+    // Helper method to reverse a sublist from head to tail
+    private ListNode reverse(ListNode head, ListNode tail) {
+        ListNode prev = null, curr = head, next;
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+            if (prev == tail) break;
         }
-        // C1 is pointing to 1st node of K group, which is now going to point to the next K group
-        // linklist.
-        // recursion, for futher remaining linked list.
-        head.next = reverseKGroup(n, k);
-        return prev;
+        return prev; // Return the new head of the reversed sublist
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program first checks if the length of the linked list is less than k by iterating through the list. This operation takes O(k) time.
-
-2. The main logic of reversing the linked list is contained in a loop that iterates k times (for each group of k nodes). Inside this loop, the reversal of the k nodes takes constant time, O(k). This is because regardless of the size of the input linked list, you are reversing a fixed number of nodes (k) in each iteration.
-
-3. The program uses recursion to reverse the remaining part of the linked list, which will also be done in groups of k nodes. The depth of the recursion will depend on the length of the input linked list, but each level of recursion deals with a sublist of the original list, which is a fraction of the size. Therefore, the overall time complexity of the recursion can be expressed as O(n), where n is the number of nodes in the input linked list.
-
-Combining these factors, the overall time complexity of the program is O(n), where n is the number of nodes in the input linked list. The O(k) part is overshadowed by the O(n) complexity.
-
-**Space Complexity (Big O Space):**
-
-1. The space complexity of the program is O(k), where k is the group size. This is because in each iteration of the reversal loop, a constant amount of additional space is used for variables like `c`, `n`, `prev`, and `i`. The recursion also consumes space on the call stack, but the maximum depth of the recursion is bounded by the length of the list divided by k, so the space used for the call stack can be considered O(n/k), which simplifies to O(n) when analyzing in big O notation.
-
-In summary, the time complexity of the provided program is O(n), and the space complexity is O(k) for the reversal logic within each group of k nodes, and O(n) for the space used on the call stack during recursion, where n is the number of nodes in the input linked list and k is the group size.
+This implementation provides a solution to the "Reverse Nodes in k-Group" problem in Java without modifying the values in the list's nodes. It recursively reverses the nodes in groups of k.

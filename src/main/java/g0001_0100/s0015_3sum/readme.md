@@ -32,77 +32,81 @@ Notice that the solution set must not contain duplicate triplets.
 *   `0 <= nums.length <= 3000`
 *   <code>-10<sup>5</sup> <= nums[i] <= 10<sup>5</sup></code>
 
-## Solution
+To solve the 3Sum problem in Java using a `Solution` class, we'll follow these steps:
+
+1. Define a `Solution` class with a method named `threeSum` that takes an array of integers `nums` as input and returns a list of lists representing the triplets that sum up to zero.
+2. Sort the input array `nums` to ensure that duplicate triplets are avoided.
+3. Initialize an empty list `result` to store the triplets.
+4. Iterate over the elements of the sorted array `nums` up to the second to last element.
+5. Within the outer loop, initialize two pointers, `left` and `right`, where `left` starts at the next element after the current element and `right` starts at the last element of the array.
+6. While `left` is less than `right`, check if the sum of the current element (`nums[i]`), `nums[left]`, and `nums[right]` equals zero.
+7. If the sum is zero, add `[nums[i], nums[left], nums[right]]` to the `result` list.
+8. Move the `left` pointer to the right (increment `left`) and the `right` pointer to the left (decrement `right`).
+9. If the sum is less than zero, increment `left`.
+10. If the sum is greater than zero, decrement `right`.
+11. After the inner loop finishes, increment the outer loop index while skipping duplicates.
+12. Return the `result` list containing all the valid triplets.
+
+Here's the implementation:
 
 ```java
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@SuppressWarnings("java:S127")
 public class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
-        final int len = nums.length;
         List<List<Integer>> result = new ArrayList<>();
-        int l;
-        int r;
-        for (int i = 0; i < len - 2; i++) {
-            l = i + 1;
-            r = len - 1;
-            while (r > l) {
-                int sum = nums[i] + nums[l] + nums[r];
-                if (sum < 0) {
-                    l++;
-                } else if (sum > 0) {
-                    r--;
+
+        for (int i = 0; i < nums.length - 2; i++) {
+            if (i > 0 && nums[i] == nums[i - 1]) {
+                continue; // Skip duplicates
+            }
+
+            int left = i + 1;
+            int right = nums.length - 1;
+
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
+                if (sum == 0) {
+                    result.add(Arrays.asList(nums[i], nums[left], nums[right]));
+
+                    // Skip duplicates
+                    while (left < right && nums[left] == nums[left + 1]) {
+                        left++;
+                    }
+                    while (left < right && nums[right] == nums[right - 1]) {
+                        right--;
+                    }
+
+                    left++;
+                    right--;
+                } else if (sum < 0) {
+                    left++;
                 } else {
-                    List<Integer> list = new ArrayList<>();
-                    list.add(nums[i]);
-                    list.add(nums[l]);
-                    list.add(nums[r]);
-                    result.add(list);
-                    while (l < r && nums[l + 1] == nums[l]) {
-                        l++;
-                    }
-                    while (r > l && nums[r - 1] == nums[r]) {
-                        r--;
-                    }
-                    l++;
-                    r--;
+                    right--;
                 }
             }
-            while (i < len - 1 && nums[i + 1] == nums[i]) {
-                i++;
-            }
         }
+
         return result;
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        // Test cases
+        int[] nums1 = {-1, 0, 1, 2, -1, -4};
+        System.out.println("Example 1 Output: " + solution.threeSum(nums1));
+
+        int[] nums2 = {};
+        System.out.println("Example 2 Output: " + solution.threeSum(nums2));
+
+        int[] nums3 = {0};
+        System.out.println("Example 3 Output: " + solution.threeSum(nums3));
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. Sorting: The program sorts the input array `nums`. Sorting typically takes O(n * log(n)) time complexity, where 'n' is the length of the array.
-
-2. Main Loop: The program uses nested loops. The outer loop runs from 0 to `len - 2`, where `len` is the length of the sorted array `nums`. The inner while loop has two pointers (`l` and `r`) that move towards each other. In the worst case, the inner loop can go through the entire array, so its time complexity is O(n).
-
-3. The code inside the inner loop contains constant-time operations, such as addition, comparison, and list creation.
-
-Overall, the dominant time complexity is determined by the sorting step, which is O(n * log(n)). The loop inside the sorting step has a complexity of O(n), but it doesn't dominate the overall complexity.
-
-So, the total time complexity of the program is O(n * log(n)) due to the sorting step.
-
-**Space Complexity (Big O Space):**
-
-The space complexity of the program is determined by the space used for the output list `result`. In the worst case, when there are many unique triplets that sum to zero, the size of `result` can be significant.
-
-1. The input array `nums` and the variables `len`, `l`, and `r` all use constant space.
-
-2. The `result` list stores the triplets, and its size can be at most O(n^2) when there are many unique triplets.
-
-3. Other variables and temporary lists used inside the loops use constant space.
-
-So, the space complexity of the program is O(n^2) for the `result` list when considering the worst case.
-
-In summary, the provided program has a time complexity of O(n * log(n)) due to sorting and a space complexity of O(n^2) for the `result` list when considering the worst-case scenario.
+This implementation provides a solution to the 3Sum problem in Java.

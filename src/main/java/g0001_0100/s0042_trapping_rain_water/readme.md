@@ -29,57 +29,44 @@ Given `n` non-negative integers representing an elevation map where the width of
 *   <code>1 <= n <= 2 * 10<sup>4</sup></code>
 *   <code>0 <= height[i] <= 10<sup>5</sup></code>
 
-## Solution
+To solve the "Trapping Rain Water" problem in Java with a `Solution` class, we can follow these steps:
+
+1. Define a `Solution` class.
+2. Define a method named `trap` that takes an array of integers `height` as input and returns the amount of water it can trap after raining.
+3. Initialize two pointers `left` and `right` at the beginning and end of the array respectively.
+4. Initialize two variables `leftMax` and `rightMax` to keep track of the maximum height of bars encountered from the left and right directions respectively.
+5. Iterate through the array using the two pointers:
+   - Update `leftMax` as the maximum of `leftMax` and `height[left]`.
+   - Update `rightMax` as the maximum of `rightMax` and `height[right]`.
+   - If `height[left] < height[right]`, calculate the water trapped at the current position using `leftMax` and subtract the height of the current bar. Move `left` pointer to the right.
+   - Otherwise, calculate the water trapped at the current position using `rightMax` and subtract the height of the current bar. Move `right` pointer to the left.
+6. Continue this process until the two pointers meet.
+7. Return the total amount of water trapped.
+
+Here's the implementation:
 
 ```java
 public class Solution {
     public int trap(int[] height) {
-        int l = 0;
-        int r = height.length - 1;
-        int res = 0;
-        int lowerWall = 0;
-        while (l < r) {
-            int lVal = height[l];
-            int rVal = height[r];
-            // If left is smaller than right ptr, make the lower wall the bigger of lVal and its
-            // current size
-            if (lVal < rVal) {
-                // If lVal has gone up, move the lowerWall upp
-                lowerWall = Math.max(lVal, lowerWall);
-                // Add the water level at current point
-                // Calculate this by taking the current value and subtracting it from the lower wall
-                // size
-                // We know that this is the lower wall because we've already determined that lVal <
-                // rVal
-                res += lowerWall - lVal;
-                // Move left ptr along
-                l++;
+        int left = 0, right = height.length - 1;
+        int leftMax = 0, rightMax = 0;
+        int trappedWater = 0;
+
+        while (left < right) {
+            if (height[left] < height[right]) {
+                leftMax = Math.max(leftMax, height[left]);
+                trappedWater += leftMax - height[left];
+                left++;
             } else {
-                // Do the same thing, except now we know that the lowerWall is the right side.
-                lowerWall = Math.max(rVal, lowerWall);
-                res += lowerWall - rVal;
-                r--;
+                rightMax = Math.max(rightMax, height[right]);
+                trappedWater += rightMax - height[right];
+                right--;
             }
         }
-        return res;
+
+        return trappedWater;
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program uses two pointers, `l` (left) and `r` (right), that initially start at the leftmost and rightmost elements of the input `height` array. The pointers move towards each other until they meet.
-
-2. In each step of the loop, the program computes the trapped rainwater at the current position based on the lower wall (the smaller of the heights at `height[l]` and `height[r]`).
-
-3. The loop runs until the `l` pointer is less than the `r` pointer, and in each iteration, it either increments `l` or decrements `r`. Since the pointers move towards each other and never move backward, the loop executes at most `n` times, where `n` is the number of elements in the input `height` array.
-
-4. The operations within the loop, including comparisons, arithmetic, and mathematical operations (e.g., `Math.max`), are all constant time operations, so they do not significantly impact the overall time complexity.
-
-5. Therefore, the time complexity of the program is O(n), where `n` is the number of elements in the input array `height`.
-
-**Space Complexity (Big O Space):**
-
-The space complexity of the program is O(1), which means it uses a constant amount of additional space regardless of the size of the input array `height`. The program only uses a few integer variables (`l`, `r`, `res`, `lowerWall`, `lVal`, and `rVal`) and does not use any additional data structures or memory that scales with the input size.
-
-In summary, the time complexity of the provided program is O(n), and the space complexity is O(1), where `n` is the number of elements in the input array `height`.
+This implementation provides a solution to the "Trapping Rain Water" problem in Java. It calculates the amount of water that can be trapped between bars by using two pointers to track the left and right boundaries and two variables to track the maximum heights of bars encountered from the left and right directions.

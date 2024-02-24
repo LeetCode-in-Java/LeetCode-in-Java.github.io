@@ -39,55 +39,56 @@ You must write an algorithm with `O(log n)` runtime complexity.
 *   `nums` is an ascending array that is possibly rotated.
 *   <code>-10<sup>4</sup> <= target <= 10<sup>4</sup></code>
 
-## Solution
+To solve the "Search in Rotated Sorted Array" problem in Java with a `Solution` class, we can follow these steps:
+
+1. Define a `Solution` class.
+2. Define a method named `search` that takes an integer array `nums` and an integer `target` as input and returns an integer representing the index of `target` in `nums`. If `target` is not found, return `-1`.
+3. Implement the binary search algorithm to find the index of `target` in the rotated sorted array.
+4. Set the left pointer `left` to 0 and the right pointer `right` to the length of `nums` minus 1.
+5. While `left` is less than or equal to `right`:
+   - Calculate the middle index `mid` as `(left + right) / 2`.
+   - If `nums[mid]` is equal to `target`, return `mid`.
+   - Check if the left half of the array (`nums[left]` to `nums[mid]`) is sorted:
+     - If `nums[left] <= nums[mid]` and `nums[left] <= target < nums[mid]`, update `right = mid - 1`.
+     - Otherwise, update `left = mid + 1`.
+   - Otherwise, check if the right half of the array (`nums[mid]` to `nums[right]`) is sorted:
+     - If `nums[mid] <= nums[right]` and `nums[mid] < target <= nums[right]`, update `left = mid + 1`.
+     - Otherwise, update `right = mid - 1`.
+6. If `target` is not found, return `-1`.
+
+Here's the implementation:
 
 ```java
 public class Solution {
     public int search(int[] nums, int target) {
-        int mid;
-        int lo = 0;
-        int hi = nums.length - 1;
-        while (lo <= hi) {
-            mid = ((hi - lo) >> 1) + lo;
-            if (target == nums[mid]) {
+        int left = 0;
+        int right = nums.length - 1;
+        
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            
+            if (nums[mid] == target) {
                 return mid;
             }
-            // if this is true, then the possible rotation can only be in the second half
-            if (nums[lo] <= nums[mid]) {
-                // the target is in the first half only if it's
-                if (nums[lo] <= target && target <= nums[mid]) {
-                    // included
-                    hi = mid - 1;
+            
+            if (nums[left] <= nums[mid]) {
+                if (nums[left] <= target && target < nums[mid]) {
+                    right = mid - 1;
                 } else {
-                    // between nums[lo] and nums[mid]
-                    lo = mid + 1;
+                    left = mid + 1;
                 }
-                // otherwise, the possible rotation can only be in the first half
-            } else if (nums[mid] <= target && target <= nums[hi]) {
-                // the target is in the second half only if it's included
-                lo = mid + 1;
             } else {
-                // between nums[hi] and nums[mid]
-                hi = mid - 1;
+                if (nums[mid] < target && target <= nums[right]) {
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+                }
             }
         }
+        
         return -1;
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-The time complexity of this program is O(log n), where n is the number of elements in the input `nums` array. Here's why:
-
-1. The program performs a binary search to find the target element. In each step of the binary search, it reduces the search range by half.
-
-2. The while loop runs until the `lo` pointer is less than or equal to the `hi` pointer, and in each iteration, it reduces the search range by half.
-
-3. Therefore, the number of iterations in the binary search is proportional to log2(n), where n is the number of elements in the input array. This gives us the time complexity of O(log n).
-
-**Space Complexity (Big O Space):**
-
-The space complexity of this program is O(1), which means it uses a constant amount of additional space regardless of the size of the input array `nums`. The program only uses a few integer variables (`mid`, `lo`, `hi`) and does not use any additional data structures or memory that scales with the input size.
-
-In summary, the time complexity of the provided program is O(log n), and the space complexity is O(1), where n is the number of elements in the input array `nums`.
+This implementation provides a solution to the "Search in Rotated Sorted Array" problem in Java. It searches for the index of `target` in the rotated sorted array `nums`. The algorithm has a time complexity of O(log n).

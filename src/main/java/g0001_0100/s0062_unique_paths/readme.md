@@ -49,42 +49,35 @@ How many possible unique paths are there?
 *   `1 <= m, n <= 100`
 *   It's guaranteed that the answer will be less than or equal to <code>2 * 10<sup>9</sup></code>.
 
-## Solution
+To solve the "Unique Paths" problem in Java with the Solution class, follow these steps:
+
+1. Define a method `uniquePaths` in the `Solution` class that takes two integers `m` and `n` as input and returns the number of unique paths from the top-left corner to the bottom-right corner of an `m x n` grid.
+2. Initialize a 2D array `dp` of size `m x n` to store the number of unique paths for each position in the grid.
+3. Initialize the first row and first column of `dp` to 1 since there is only one way to reach any position in the first row or column (by moving only right or down).
+4. Iterate over each position `(i, j)` in the grid, starting from the second row and second column:
+   - Update `dp[i][j]` by adding the number of unique paths from the cell above `(i-1, j)` and the cell to the left `(i, j-1)`.
+5. Return the value of `dp[m-1][n-1]`, which represents the number of unique paths to reach the bottom-right corner of the grid.
+
+Here's the implementation of the `uniquePaths` method in Java:
 
 ```java
-public class Solution {
+class Solution {
     public int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];
         for (int i = 0; i < m; i++) {
-            dp[i][0] = 1;
+            dp[i][0] = 1; // Initialize first column to 1
         }
         for (int j = 0; j < n; j++) {
-            dp[0][j] = 1;
+            dp[0][j] = 1; // Initialize first row to 1
         }
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
-                dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
+                dp[i][j] = dp[i-1][j] + dp[i][j-1]; // Calculate number of paths for current cell
             }
         }
-        return dp[m - 1][n - 1];
+        return dp[m-1][n-1]; // Return number of unique paths for bottom-right corner
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program uses a dynamic programming approach to fill in a 2D array `dp` of size `m`x`n` with values.
-
-2. The first two loops (two separate loops, one for setting the values in the first column and one for setting the values in the first row) each run in O(max(m, n)) time because they iterate through the entire first column and first row.
-
-3. The nested loops, which fill in the remaining cells of the `dp` array, run in O(m * n) time because they iterate through all the rows and columns.
-
-4. Therefore, the overall time complexity of the program is O(m * n), where 'm' is the number of rows, and 'n' is the number of columns in the grid.
-
-**Space Complexity (Big O Space):**
-
-1. The program uses a 2D array `dp` of size `m`x`n` to store the intermediate results. Therefore, the space complexity is O(m * n), where 'm' is the number of rows, and 'n' is the number of columns in the grid.
-
-2. The space complexity is dominated by the `dp` array, and it does not depend on the input values of 'm' and 'n' but only on the grid size.
-
-In summary, the time complexity of the provided program is O(m * n), and the space complexity is also O(m * n), where 'm' is the number of rows, and 'n' is the number of columns in the grid. The program efficiently calculates the number of unique paths in the grid using dynamic programming.
+This implementation efficiently calculates the number of unique paths using dynamic programming, with a time complexity of O(m * n) and a space complexity of O(m * n).
