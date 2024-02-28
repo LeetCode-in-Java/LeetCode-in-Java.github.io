@@ -1816,6 +1816,22 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3019 |[Number of Changing Keys](src/main/java/g3001_3100/s3019_number_of_changing_keys)| Easy | String, Graph, Prefix_Sum, Breadth_First_Search | 1 | 99.99
+| 3017 |[Count the Number of Houses at a Certain Distance II](src/main/java/g3001_3100/s3017_count_the_number_of_houses_at_a_certain_distance_ii)| Hard | Graph, Prefix_Sum, Breadth_First_Search | 6 | 93.62
+| 3016 |[Minimum Number of Pushes to Type Word II](src/main/java/g3001_3100/s3016_minimum_number_of_pushes_to_type_word_ii)| Medium | String, Hash_Table, Sorting, Greedy, Graph, Prefix_Sum, Counting, Breadth_First_Search | 7 | 100.00
+| 3015 |[Count the Number of Houses at a Certain Distance I](src/main/java/g3001_3100/s3015_count_the_number_of_houses_at_a_certain_distance_i)| Medium | Graph, Prefix_Sum, Breadth_First_Search | 2 | 98.98
+| 3014 |[Minimum Number of Pushes to Type Word I](src/main/java/g3001_3100/s3014_minimum_number_of_pushes_to_type_word_i)| Easy | String, Math, Greedy | 0 | 100.00
+| 3013 |[Divide an Array Into Subarrays With Minimum Cost II](src/main/java/g3001_3100/s3013_divide_an_array_into_subarrays_with_minimum_cost_ii)| Hard | Array, Hash_Table, Heap_Priority_Queue, Sliding_Window | 276 | 90.86
+| 3012 |[Minimize Length of Array Using Operations](src/main/java/g3001_3100/s3012_minimize_length_of_array_using_operations)| Medium | Array, Math, Greedy, Number_Theory | 2 | 96.82
+| 3011 |[Find if Array Can Be Sorted](src/main/java/g3001_3100/s3011_find_if_array_can_be_sorted)| Medium | Array, Sorting, Bit_Manipulation | 1 | 100.00
+| 3010 |[Divide an Array Into Subarrays With Minimum Cost I](src/main/java/g3001_3100/s3010_divide_an_array_into_subarrays_with_minimum_cost_i)| Easy | Array, Sorting, Enumeration | 1 | 99.09
+| 3008 |[Find Beautiful Indices in the Given Array II](src/main/java/g3001_3100/s3008_find_beautiful_indices_in_the_given_array_ii)| Hard | String, Binary_Search, Two_Pointers, Hash_Function, String_Matching, Rolling_Hash | 36 | 99.66
+| 3007 |[Maximum Number That Sum of the Prices Is Less Than or Equal to K](src/main/java/g3001_3100/s3007_maximum_number_that_sum_of_the_prices_is_less_than_or_equal_to_k)| Medium | Dynamic_Programming, Binary_Search, Bit_Manipulation | 1 | 100.00
+| 3006 |[Find Beautiful Indices in the Given Array I](src/main/java/g3001_3100/s3006_find_beautiful_indices_in_the_given_array_i)| Medium | String, Binary_Search, Two_Pointers, Hash_Function, String_Matching, Rolling_Hash | 8 | 95.86
+| 3005 |[Count Elements With Maximum Frequency](src/main/java/g3001_3100/s3005_count_elements_with_maximum_frequency)| Easy | Array, Hash_Table, Counting | 1 | 99.76
+| 3003 |[Maximize the Number of Partitions After Operations](src/main/java/g3001_3100/s3003_maximize_the_number_of_partitions_after_operations)| Hard | String, Dynamic_Programming, Bit_Manipulation, Bitmask | 1 | 100.00
+| 3002 |[Maximum Size of a Set After Removals](src/main/java/g3001_3100/s3002_maximum_size_of_a_set_after_removals)| Medium | Array, Hash_Table, Greedy | 26 | 94.01
+| 3001 |[Minimum Moves to Capture The Queen](src/main/java/g3001_3100/s3001_minimum_moves_to_capture_the_queen)| Medium | Array, Enumeration | 0 | 100.00
 | 3000 |[Maximum Area of Longest Diagonal Rectangle](src/main/java/g2901_3000/s3000_maximum_area_of_longest_diagonal_rectangle)| Easy | Array | 1 | 99.67
 | 2999 |[Count the Number of Powerful Integers](src/main/java/g2901_3000/s2999_count_the_number_of_powerful_integers)| Hard | String, Dynamic_Programming, Math | 1 | 100.00
 | 2998 |[Minimum Number of Operations to Make X and Y Equal](src/main/java/g2901_3000/s2998_minimum_number_of_operations_to_make_x_and_y_equal)| Medium | Dynamic_Programming, Breadth_First_Search, Memoization | 0 | 100.00
