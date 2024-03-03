@@ -2,7 +2,6 @@
 [![](https://img.shields.io/github/forks/javadev/LeetCode-in-Java?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/javadev/LeetCode-in-Java/fork)
 > ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
 
-* [Dynamic Programming I](#dynamic-programming-i)
 * [Programming Skills I](#programming-skills-i)
 * [Programming Skills II](#programming-skills-ii)
 * [Graph Theory I](#graph-theory-i)
@@ -16,159 +15,7 @@
 * [Algorithm II](#algorithm-ii)
 * [Binary Search I](#binary-search-i)
 * [Binary Search II](#binary-search-ii)
-
-### Dynamic Programming I
-
-#### Day 1
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0509 |[Fibonacci Number](src/main/java/g0501_0600/s0509_fibonacci_number)| Easy | Dynamic_Programming, Math, Recursion, Memoization | 0 | 100.00
-| 1137 |[N-th Tribonacci Number](src/main/java/g1101_1200/s1137_n_th_tribonacci_number)| Easy | Dynamic_Programming, Math, Memoization | 0 | 100.00
-
-#### Day 2
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0070 |[Climbing Stairs](src/main/java/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
-| 0746 |[Min Cost Climbing Stairs](src/main/java/g0701_0800/s0746_min_cost_climbing_stairs)| Easy | Array, Dynamic_Programming | 1 | 86.38
-
-#### Day 3
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0198 |[House Robber](src/main/java/g0101_0200/s0198_house_robber)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
-| 0213 |[House Robber II](src/main/java/g0201_0300/s0213_house_robber_ii)| Medium | Array, Dynamic_Programming | 0 | 100.00
-| 0740 |[Delete and Earn](src/main/java/g0701_0800/s0740_delete_and_earn)| Medium | Array, Hash_Table, Dynamic_Programming | 4 | 77.68
-
-#### Day 4
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0055 |[Jump Game](src/main/java/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy, Big_O_Time_O(n)_Space_O(1) | 2 | 79.47
-| 0045 |[Jump Game II](src/main/java/g0001_0100/s0045_jump_game_ii)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Greedy, Big_O_Time_O(n)_Space_O(1) | 2 | 49.02
-
-#### Day 5
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0053 |[Maximum Subarray](src/main/java/g0001_0100/s0053_maximum_subarray)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 1 | 100.00
-| 0918 |[Maximum Sum Circular Subarray](src/main/java/g0901_1000/s0918_maximum_sum_circular_subarray)| Medium | Array, Dynamic_Programming, Divide_and_Conquer, Queue, Monotonic_Queue | 3 | 92.86
-
-#### Day 6
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0152 |[Maximum Product Subarray](src/main/java/g0101_0200/s0152_maximum_product_subarray)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
-| 1567 |[Maximum Length of Subarray With Positive Product](src/main/java/g1501_1600/s1567_maximum_length_of_subarray_with_positive_product)| Medium | Array, Dynamic_Programming, Greedy | 4 | 80.86
-
-#### Day 7
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1014 |[Best Sightseeing Pair](src/main/java/g1001_1100/s1014_best_sightseeing_pair)| Medium | Array, Dynamic_Programming | 2 | 99.86
-| 0121 |[Best Time to Buy and Sell Stock](src/main/java/g0101_0200/s0121_best_time_to_buy_and_sell_stock)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 100.00
-| 0122 |[Best Time to Buy and Sell Stock II](src/main/java/g0101_0200/s0122_best_time_to_buy_and_sell_stock_ii)| Medium | Top_Interview_Questions, Array, Dynamic_Programming, Greedy | 1 | 96.82
-
-#### Day 8
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0309 |[Best Time to Buy and Sell Stock with Cooldown](src/main/java/g0301_0400/s0309_best_time_to_buy_and_sell_stock_with_cooldown)| Medium | Array, Dynamic_Programming | 0 | 100.00
-| 0714 |[Best Time to Buy and Sell Stock with Transaction Fee](src/main/java/g0701_0800/s0714_best_time_to_buy_and_sell_stock_with_transaction_fee)| Medium | Array, Dynamic_Programming, Greedy | 4 | 78.57
-
-#### Day 9
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0139 |[Word Break](src/main/java/g0101_0200/s0139_word_break)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 2 | 97.08
-| 0042 |[Trapping Rain Water](src/main/java/g0001_0100/s0042_trapping_rain_water)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Two_Pointers, Stack, Monotonic_Stack, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
-
-#### Day 10
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0413 |[Arithmetic Slices](src/main/java/g0401_0500/s0413_arithmetic_slices)| Medium | Array, Dynamic_Programming | 0 | 100.00
-| 0091 |[Decode Ways](src/main/java/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming | 2 | 66.37
-
-#### Day 11
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0264 |[Ugly Number II](src/main/java/g0201_0300/s0264_ugly_number_ii)| Medium | Hash_Table, Dynamic_Programming, Math, Heap_Priority_Queue | 2 | 99.91
-| 0096 |[Unique Binary Search Trees](src/main/java/g0001_0100/s0096_unique_binary_search_trees)| Medium | Top_100_Liked_Questions, Dynamic_Programming, Math, Tree, Binary_Tree, Binary_Search_Tree, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
-
-#### Day 12
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0118 |[Pascal's Triangle](src/main/java/g0101_0200/s0118_pascals_triangle)| Easy | Top_Interview_Questions, Array, Dynamic_Programming | 1 | 67.08
-| 0119 |[Pascal's Triangle II](src/main/java/g0101_0200/s0119_pascals_triangle_ii)| Easy | Array, Dynamic_Programming | 0 | 100.00
-
-#### Day 13
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0931 |[Minimum Falling Path Sum](src/main/java/g0901_1000/s0931_minimum_falling_path_sum)| Medium | Array, Dynamic_Programming, Matrix | 4 | 72.19
-| 0120 |[Triangle](src/main/java/g0101_0200/s0120_triangle)| Medium | Array, Dynamic_Programming | 2 | 94.63
-
-#### Day 14
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1314 |[Matrix Block Sum](src/main/java/g1301_1400/s1314_matrix_block_sum)| Medium | Array, Matrix, Prefix_Sum | 5 | 67.46
-| 0304 |[Range Sum Query 2D - Immutable](src/main/java/g0301_0400/s0304_range_sum_query_2d_immutable)| Medium | Array, Matrix, Design, Prefix_Sum | 153 | 87.51
-
-#### Day 15
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0062 |[Unique Paths](src/main/java/g0001_0100/s0062_unique_paths)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Combinatorics, Big_O_Time_O(m\*n)_Space_O(m\*n) | 0 | 100.00
-| 0063 |[Unique Paths II](src/main/java/g0001_0100/s0063_unique_paths_ii)| Medium | Array, Dynamic_Programming, Matrix | 0 | 100.00
-
-#### Day 16
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0064 |[Minimum Path Sum](src/main/java/g0001_0100/s0064_minimum_path_sum)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Big_O_Time_O(m\*n)_Space_O(m\*n) | 0 | 100.00
-| 0221 |[Maximal Square](src/main/java/g0201_0300/s0221_maximal_square)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Big_O_Time_O(m\*n)_Space_O(m\*n) | 7 | 72.35
-
-#### Day 17
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0005 |[Longest Palindromic Substring](src/main/java/g0001_0100/s0005_longest_palindromic_substring)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 7 | 96.96
-| 0516 |[Longest Palindromic Subsequence](src/main/java/g0501_0600/s0516_longest_palindromic_subsequence)| Medium | String, Dynamic_Programming | 88 | 58.87
-
-#### Day 18
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0300 |[Longest Increasing Subsequence](src/main/java/g0201_0300/s0300_longest_increasing_subsequence)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Binary_Search, Big_O_Time_O(n\*log_n)_Space_O(n) | 3 | 98.63
-| 0376 |[Wiggle Subsequence](src/main/java/g0301_0400/s0376_wiggle_subsequence)| Medium | Array, Dynamic_Programming, Greedy | 0 | 100.00
-
-#### Day 19
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0392 |[Is Subsequence](src/main/java/g0301_0400/s0392_is_subsequence)| Easy | String, Dynamic_Programming, Two_Pointers | 1 | 93.01
-| 1143 |[Longest Common Subsequence](src/main/java/g1101_1200/s1143_longest_common_subsequence)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n\*m)_Space_O(n\*m) | 33 | 46.23
-| 0072 |[Edit Distance](src/main/java/g0001_0100/s0072_edit_distance)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 4 | 90.13
-
-#### Day 20
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0322 |[Coin Change](src/main/java/g0301_0400/s0322_coin_change)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Breadth_First_Search, Big_O_Time_O(m\*n)_Space_O(amount) | 17 | 91.77
-| 0518 |[Coin Change 2](src/main/java/g0501_0600/s0518_coin_change_2)| Medium | Array, Dynamic_Programming | 4 | 84.67
-
-#### Day 21
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0377 |[Combination Sum IV](src/main/java/g0301_0400/s0377_combination_sum_iv)| Medium | Array, Dynamic_Programming | 1 | 92.54
-| 0343 |[Integer Break](src/main/java/g0301_0400/s0343_integer_break)| Medium | Dynamic_Programming, Math | 0 | 100.00
-| 0279 |[Perfect Squares](src/main/java/g0201_0300/s0279_perfect_squares)| Medium | Top_Interview_Questions, Dynamic_Programming, Math, Breadth_First_Search | 1 | 100.00
+* [Dynamic Programming I](#dynamic-programming-i)
 
 ### Programming Skills I
 
@@ -1812,14 +1659,187 @@
 | 1201 |[Ugly Number III](src/main/java/g1201_1300/s1201_ugly_number_iii)| Medium | Math, Binary_Search, Number_Theory | 0 | 100.00
 | 0911 |[Online Election](src/main/java/g0901_1000/s0911_online_election)| Medium | Array, Hash_Table, Binary_Search, Design | 63 | 98.81
 
+### Dynamic Programming I
+
+#### Day 1
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0509 |[Fibonacci Number](src/main/java/g0501_0600/s0509_fibonacci_number)| Easy | Dynamic_Programming, Math, Recursion, Memoization | 0 | 100.00
+| 1137 |[N-th Tribonacci Number](src/main/java/g1101_1200/s1137_n_th_tribonacci_number)| Easy | Dynamic_Programming, Math, Memoization | 0 | 100.00
+
+#### Day 2
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0070 |[Climbing Stairs](src/main/java/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0746 |[Min Cost Climbing Stairs](src/main/java/g0701_0800/s0746_min_cost_climbing_stairs)| Easy | Array, Dynamic_Programming | 1 | 86.38
+
+#### Day 3
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0198 |[House Robber](src/main/java/g0101_0200/s0198_house_robber)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0213 |[House Robber II](src/main/java/g0201_0300/s0213_house_robber_ii)| Medium | Array, Dynamic_Programming | 0 | 100.00
+| 0740 |[Delete and Earn](src/main/java/g0701_0800/s0740_delete_and_earn)| Medium | Array, Hash_Table, Dynamic_Programming | 4 | 77.68
+
+#### Day 4
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0055 |[Jump Game](src/main/java/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy, Big_O_Time_O(n)_Space_O(1) | 2 | 79.47
+| 0045 |[Jump Game II](src/main/java/g0001_0100/s0045_jump_game_ii)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Greedy, Big_O_Time_O(n)_Space_O(1) | 2 | 49.02
+
+#### Day 5
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0053 |[Maximum Subarray](src/main/java/g0001_0100/s0053_maximum_subarray)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 1 | 100.00
+| 0918 |[Maximum Sum Circular Subarray](src/main/java/g0901_1000/s0918_maximum_sum_circular_subarray)| Medium | Array, Dynamic_Programming, Divide_and_Conquer, Queue, Monotonic_Queue | 3 | 92.86
+
+#### Day 6
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0152 |[Maximum Product Subarray](src/main/java/g0101_0200/s0152_maximum_product_subarray)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
+| 1567 |[Maximum Length of Subarray With Positive Product](src/main/java/g1501_1600/s1567_maximum_length_of_subarray_with_positive_product)| Medium | Array, Dynamic_Programming, Greedy | 4 | 80.86
+
+#### Day 7
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1014 |[Best Sightseeing Pair](src/main/java/g1001_1100/s1014_best_sightseeing_pair)| Medium | Array, Dynamic_Programming | 2 | 99.86
+| 0121 |[Best Time to Buy and Sell Stock](src/main/java/g0101_0200/s0121_best_time_to_buy_and_sell_stock)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 100.00
+| 0122 |[Best Time to Buy and Sell Stock II](src/main/java/g0101_0200/s0122_best_time_to_buy_and_sell_stock_ii)| Medium | Top_Interview_Questions, Array, Dynamic_Programming, Greedy | 1 | 96.82
+
+#### Day 8
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0309 |[Best Time to Buy and Sell Stock with Cooldown](src/main/java/g0301_0400/s0309_best_time_to_buy_and_sell_stock_with_cooldown)| Medium | Array, Dynamic_Programming | 0 | 100.00
+| 0714 |[Best Time to Buy and Sell Stock with Transaction Fee](src/main/java/g0701_0800/s0714_best_time_to_buy_and_sell_stock_with_transaction_fee)| Medium | Array, Dynamic_Programming, Greedy | 4 | 78.57
+
+#### Day 9
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0139 |[Word Break](src/main/java/g0101_0200/s0139_word_break)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 2 | 97.08
+| 0042 |[Trapping Rain Water](src/main/java/g0001_0100/s0042_trapping_rain_water)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Two_Pointers, Stack, Monotonic_Stack, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
+
+#### Day 10
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0413 |[Arithmetic Slices](src/main/java/g0401_0500/s0413_arithmetic_slices)| Medium | Array, Dynamic_Programming | 0 | 100.00
+| 0091 |[Decode Ways](src/main/java/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming | 2 | 66.37
+
+#### Day 11
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0264 |[Ugly Number II](src/main/java/g0201_0300/s0264_ugly_number_ii)| Medium | Hash_Table, Dynamic_Programming, Math, Heap_Priority_Queue | 2 | 99.91
+| 0096 |[Unique Binary Search Trees](src/main/java/g0001_0100/s0096_unique_binary_search_trees)| Medium | Top_100_Liked_Questions, Dynamic_Programming, Math, Tree, Binary_Tree, Binary_Search_Tree, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
+
+#### Day 12
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0118 |[Pascal's Triangle](src/main/java/g0101_0200/s0118_pascals_triangle)| Easy | Top_Interview_Questions, Array, Dynamic_Programming | 1 | 67.08
+| 0119 |[Pascal's Triangle II](src/main/java/g0101_0200/s0119_pascals_triangle_ii)| Easy | Array, Dynamic_Programming | 0 | 100.00
+
+#### Day 13
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0931 |[Minimum Falling Path Sum](src/main/java/g0901_1000/s0931_minimum_falling_path_sum)| Medium | Array, Dynamic_Programming, Matrix | 4 | 72.19
+| 0120 |[Triangle](src/main/java/g0101_0200/s0120_triangle)| Medium | Array, Dynamic_Programming | 2 | 94.63
+
+#### Day 14
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1314 |[Matrix Block Sum](src/main/java/g1301_1400/s1314_matrix_block_sum)| Medium | Array, Matrix, Prefix_Sum | 5 | 67.46
+| 0304 |[Range Sum Query 2D - Immutable](src/main/java/g0301_0400/s0304_range_sum_query_2d_immutable)| Medium | Array, Matrix, Design, Prefix_Sum | 153 | 87.51
+
+#### Day 15
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0062 |[Unique Paths](src/main/java/g0001_0100/s0062_unique_paths)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Combinatorics, Big_O_Time_O(m\*n)_Space_O(m\*n) | 0 | 100.00
+| 0063 |[Unique Paths II](src/main/java/g0001_0100/s0063_unique_paths_ii)| Medium | Array, Dynamic_Programming, Matrix | 0 | 100.00
+
+#### Day 16
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0064 |[Minimum Path Sum](src/main/java/g0001_0100/s0064_minimum_path_sum)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Big_O_Time_O(m\*n)_Space_O(m\*n) | 0 | 100.00
+| 0221 |[Maximal Square](src/main/java/g0201_0300/s0221_maximal_square)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Big_O_Time_O(m\*n)_Space_O(m\*n) | 7 | 72.35
+
+#### Day 17
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0005 |[Longest Palindromic Substring](src/main/java/g0001_0100/s0005_longest_palindromic_substring)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 7 | 96.96
+| 0516 |[Longest Palindromic Subsequence](src/main/java/g0501_0600/s0516_longest_palindromic_subsequence)| Medium | String, Dynamic_Programming | 88 | 58.87
+
+#### Day 18
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0300 |[Longest Increasing Subsequence](src/main/java/g0201_0300/s0300_longest_increasing_subsequence)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Binary_Search, Big_O_Time_O(n\*log_n)_Space_O(n) | 3 | 98.63
+| 0376 |[Wiggle Subsequence](src/main/java/g0301_0400/s0376_wiggle_subsequence)| Medium | Array, Dynamic_Programming, Greedy | 0 | 100.00
+
+#### Day 19
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0392 |[Is Subsequence](src/main/java/g0301_0400/s0392_is_subsequence)| Easy | String, Dynamic_Programming, Two_Pointers | 1 | 93.01
+| 1143 |[Longest Common Subsequence](src/main/java/g1101_1200/s1143_longest_common_subsequence)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n\*m)_Space_O(n\*m) | 33 | 46.23
+| 0072 |[Edit Distance](src/main/java/g0001_0100/s0072_edit_distance)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 4 | 90.13
+
+#### Day 20
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0322 |[Coin Change](src/main/java/g0301_0400/s0322_coin_change)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Breadth_First_Search, Big_O_Time_O(m\*n)_Space_O(amount) | 17 | 91.77
+| 0518 |[Coin Change 2](src/main/java/g0501_0600/s0518_coin_change_2)| Medium | Array, Dynamic_Programming | 4 | 84.67
+
+#### Day 21
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0377 |[Combination Sum IV](src/main/java/g0301_0400/s0377_combination_sum_iv)| Medium | Array, Dynamic_Programming | 1 | 92.54
+| 0343 |[Integer Break](src/main/java/g0301_0400/s0343_integer_break)| Medium | Dynamic_Programming, Math | 0 | 100.00
+| 0279 |[Perfect Squares](src/main/java/g0201_0300/s0279_perfect_squares)| Medium | Top_Interview_Questions, Dynamic_Programming, Math, Breadth_First_Search | 1 | 100.00
+
 ## Algorithms
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
-| 3019 |[Number of Changing Keys](src/main/java/g3001_3100/s3019_number_of_changing_keys)| Easy | String, Graph, Prefix_Sum, Breadth_First_Search | 1 | 99.99
-| 3017 |[Count the Number of Houses at a Certain Distance II](src/main/java/g3001_3100/s3017_count_the_number_of_houses_at_a_certain_distance_ii)| Hard | Graph, Prefix_Sum, Breadth_First_Search | 6 | 93.62
-| 3016 |[Minimum Number of Pushes to Type Word II](src/main/java/g3001_3100/s3016_minimum_number_of_pushes_to_type_word_ii)| Medium | String, Hash_Table, Sorting, Greedy, Graph, Prefix_Sum, Counting, Breadth_First_Search | 7 | 100.00
-| 3015 |[Count the Number of Houses at a Certain Distance I](src/main/java/g3001_3100/s3015_count_the_number_of_houses_at_a_certain_distance_i)| Medium | Graph, Prefix_Sum, Breadth_First_Search | 2 | 98.98
+| 3046 |[Split the Array](src/main/java/g3001_3100/s3046_split_the_array)| Easy | Array, Hash_Table, Counting | 1 | 98.82
+| 3045 |[Count Prefix and Suffix Pairs II](src/main/java/g3001_3100/s3045_count_prefix_and_suffix_pairs_ii)| Hard | Array, String, Trie, Hash_Function, String_Matching, Rolling_Hash | 19 | 100.00
+| 3044 |[Most Frequent Prime](src/main/java/g3001_3100/s3044_most_frequent_prime)| Medium | Array, Hash_Table, Math, Matrix, Counting, Enumeration, Number_Theory | 6 | 100.00
+| 3043 |[Find the Length of the Longest Common Prefix](src/main/java/g3001_3100/s3043_find_the_length_of_the_longest_common_prefix)| Medium | Array, String, Hash_Table, Trie | 27 | 99.94
+| 3042 |[Count Prefix and Suffix Pairs I](src/main/java/g3001_3100/s3042_count_prefix_and_suffix_pairs_i)| Easy | Array, String, Trie, Hash_Function, String_Matching, Rolling_Hash | 2 | 99.56
+| 3036 |[Number of Subarrays That Match a Pattern II](src/main/java/g3001_3100/s3036_number_of_subarrays_that_match_a_pattern_ii)| Hard | Array, Hash_Function, String_Matching, Rolling_Hash | 5 | 98.27
+| 3035 |[Maximum Palindromes After Operations](src/main/java/g3001_3100/s3035_maximum_palindromes_after_operations)| Medium | Array, String, Hash_Table, Sorting, Greedy, Counting | 4 | 99.13
+| 3034 |[Number of Subarrays That Match a Pattern I](src/main/java/g3001_3100/s3034_number_of_subarrays_that_match_a_pattern_i)| Medium | Array, Hash_Function, String_Matching, Rolling_Hash | 1 | 100.00
+| 3033 |[Modify the Matrix](src/main/java/g3001_3100/s3033_modify_the_matrix)| Easy | Array, Matrix | 1 | 100.00
+| 3031 |[Minimum Time to Revert Word to Initial State II](src/main/java/g3001_3100/s3031_minimum_time_to_revert_word_to_initial_state_ii)| Hard | String, Hash_Function, String_Matching, Rolling_Hash | 24 | 74.98
+| 3030 |[Find the Grid of Region Average](src/main/java/g3001_3100/s3030_find_the_grid_of_region_average)| Medium | Array, Matrix | 53 | 98.79
+| 3029 |[Minimum Time to Revert Word to Initial State I](src/main/java/g3001_3100/s3029_minimum_time_to_revert_word_to_initial_state_i)| Medium | String, Hash_Function, String_Matching, Rolling_Hash | 1 | 99.70
+| 3028 |[Ant on the Boundary](src/main/java/g3001_3100/s3028_ant_on_the_boundary)| Easy | Array, Simulation, Prefix_Sum | 0 | 100.00
+| 3027 |[Find the Number of Ways to Place People II](src/main/java/g3001_3100/s3027_find_the_number_of_ways_to_place_people_ii)| Hard | Array, Math, Sorting, Enumeration, Geometry | 59 | 69.95
+| 3026 |[Maximum Good Subarray Sum](src/main/java/g3001_3100/s3026_maximum_good_subarray_sum)| Medium | Array, Hash_Table, Prefix_Sum | 62 | 93.52
+| 3025 |[Find the Number of Ways to Place People I](src/main/java/g3001_3100/s3025_find_the_number_of_ways_to_place_people_i)| Medium | Array, Math, Sorting, Enumeration, Geometry | 5 | 99.84
+| 3024 |[Type of Triangle](src/main/java/g3001_3100/s3024_type_of_triangle)| Easy | Array, Math, Sorting | 0 | 100.00
+| 3022 |[Minimize OR of Remaining Elements Using Operations](src/main/java/g3001_3100/s3022_minimize_or_of_remaining_elements_using_operations)| Hard | Array, Greedy, Bit_Manipulation | 43 | 78.48
+| 3021 |[Alice and Bob Playing Flower Game](src/main/java/g3001_3100/s3021_alice_and_bob_playing_flower_game)| Medium | Math | 0 | 100.00
+| 3020 |[Find the Maximum Number of Elements in Subset](src/main/java/g3001_3100/s3020_find_the_maximum_number_of_elements_in_subset)| Medium | Array, Hash_Table, Enumeration | 51 | 94.80
+| 3019 |[Number of Changing Keys](src/main/java/g3001_3100/s3019_number_of_changing_keys)| Easy | String, Breadth_First_Search, Graph, Prefix_Sum | 1 | 99.99
+| 3017 |[Count the Number of Houses at a Certain Distance II](src/main/java/g3001_3100/s3017_count_the_number_of_houses_at_a_certain_distance_ii)| Hard | Breadth_First_Search, Graph, Prefix_Sum | 6 | 93.62
+| 3016 |[Minimum Number of Pushes to Type Word II](src/main/java/g3001_3100/s3016_minimum_number_of_pushes_to_type_word_ii)| Medium | String, Hash_Table, Sorting, Greedy, Breadth_First_Search, Graph, Prefix_Sum, Counting | 7 | 100.00
+| 3015 |[Count the Number of Houses at a Certain Distance I](src/main/java/g3001_3100/s3015_count_the_number_of_houses_at_a_certain_distance_i)| Medium | Breadth_First_Search, Graph, Prefix_Sum | 2 | 98.98
 | 3014 |[Minimum Number of Pushes to Type Word I](src/main/java/g3001_3100/s3014_minimum_number_of_pushes_to_type_word_i)| Easy | String, Math, Greedy | 0 | 100.00
 | 3013 |[Divide an Array Into Subarrays With Minimum Cost II](src/main/java/g3001_3100/s3013_divide_an_array_into_subarrays_with_minimum_cost_ii)| Hard | Array, Hash_Table, Heap_Priority_Queue, Sliding_Window | 276 | 90.86
 | 3012 |[Minimize Length of Array Using Operations](src/main/java/g3001_3100/s3012_minimize_length_of_array_using_operations)| Medium | Array, Math, Greedy, Number_Theory | 2 | 96.82
