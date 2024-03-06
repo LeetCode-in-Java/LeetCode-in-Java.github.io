@@ -1816,11 +1816,18 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3049 |[Earliest Second to Mark Indices II](src/main/java/g3001_3100/s3049_earliest_second_to_mark_indices_ii)| Hard | Array, Greedy, Binary_Search, Heap_Priority_Queue | 5 | 92.03
+| 3048 |[Earliest Second to Mark Indices I](src/main/java/g3001_3100/s3048_earliest_second_to_mark_indices_i)| Medium | Array, Binary_Search | 2 | 91.18
+| 3047 |[Find the Largest Area of Square Inside Two Rectangles](src/main/java/g3001_3100/s3047_find_the_largest_area_of_square_inside_two_rectangles)| Medium | Array, Math, Geometry | 50 | 97.63
 | 3046 |[Split the Array](src/main/java/g3001_3100/s3046_split_the_array)| Easy | Array, Hash_Table, Counting | 1 | 98.82
 | 3045 |[Count Prefix and Suffix Pairs II](src/main/java/g3001_3100/s3045_count_prefix_and_suffix_pairs_ii)| Hard | Array, String, Trie, Hash_Function, String_Matching, Rolling_Hash | 19 | 100.00
 | 3044 |[Most Frequent Prime](src/main/java/g3001_3100/s3044_most_frequent_prime)| Medium | Array, Hash_Table, Math, Matrix, Counting, Enumeration, Number_Theory | 6 | 100.00
 | 3043 |[Find the Length of the Longest Common Prefix](src/main/java/g3001_3100/s3043_find_the_length_of_the_longest_common_prefix)| Medium | Array, String, Hash_Table, Trie | 27 | 99.94
 | 3042 |[Count Prefix and Suffix Pairs I](src/main/java/g3001_3100/s3042_count_prefix_and_suffix_pairs_i)| Easy | Array, String, Trie, Hash_Function, String_Matching, Rolling_Hash | 2 | 99.56
+| 3041 |[Maximize Consecutive Elements in an Array After Modification](src/main/java/g3001_3100/s3041_maximize_consecutive_elements_in_an_array_after_modification)| Hard | Array, Dynamic_Programming, Sorting | 13 | 100.00
+| 3040 |[Maximum Number of Operations With the Same Score II](src/main/java/g3001_3100/s3040_maximum_number_of_operations_with_the_same_score_ii)| Medium | Array, Dynamic_Programming, Memoization | 3 | 99.75
+| 3039 |[Apply Operations to Make String Empty](src/main/java/g3001_3100/s3039_apply_operations_to_make_string_empty)| Medium | Array, Hash_Table, Sorting, Counting | 18 | 93.00
+| 3038 |[Maximum Number of Operations With the Same Score I](src/main/java/g3001_3100/s3038_maximum_number_of_operations_with_the_same_score_i)| Easy | Array, Simulation | 0 | 100.00
 | 3036 |[Number of Subarrays That Match a Pattern II](src/main/java/g3001_3100/s3036_number_of_subarrays_that_match_a_pattern_ii)| Hard | Array, Hash_Function, String_Matching, Rolling_Hash | 5 | 98.27
 | 3035 |[Maximum Palindromes After Operations](src/main/java/g3001_3100/s3035_maximum_palindromes_after_operations)| Medium | Array, String, Hash_Table, Sorting, Greedy, Counting | 4 | 99.13
 | 3034 |[Number of Subarrays That Match a Pattern I](src/main/java/g3001_3100/s3034_number_of_subarrays_that_match_a_pattern_i)| Medium | Array, Hash_Function, String_Matching, Rolling_Hash | 1 | 100.00
