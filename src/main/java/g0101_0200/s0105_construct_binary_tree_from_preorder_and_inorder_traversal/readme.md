@@ -31,82 +31,78 @@ Given two integer arrays `preorder` and `inorder` where `preorder` is the preord
 *   `preorder` is **guaranteed** to be the preorder traversal of the tree.
 *   `inorder` is **guaranteed** to be the inorder traversal of the tree.
 
-## Solution
+To solve the "Construct Binary Tree from Preorder and Inorder Traversal" problem in Java with a `Solution` class, we'll use a recursive approach. Below are the steps:
+
+1. **Create a `Solution` class**: Define a class named `Solution` to encapsulate our solution methods.
+
+2. **Create a `buildTree` method**: This method takes two integer arrays, `preorder` and `inorder`, as input and returns the constructed binary tree.
+
+3. **Check for empty arrays**: Check if either of the arrays `preorder` or `inorder` is empty. If so, return null, as there's no tree to construct.
+
+4. **Define a helper method**: Define a recursive helper method `build` to construct the binary tree.
+   - The method should take the indices representing the current subtree in both `preorder` and `inorder`.
+   - The start and end indices in `preorder` represent the current subtree's preorder traversal.
+   - The start and end indices in `inorder` represent the current subtree's inorder traversal.
+   
+5. **Base case**: If the start index of `preorder` is greater than the end index or if the start index of `inorder` is greater than the end index, return null.
+
+6. **Find the root node**: The root node is the first element in the `preorder` array.
+
+7. **Find the root's position in `inorder`**: Iterate through the `inorder` array to find the root's position.
+
+8. **Recursively build left and right subtrees**: 
+   - Recursively call the `build` method for the left subtree with updated indices.
+   - Recursively call the `build` method for the right subtree with updated indices.
+   
+9. **Return the root node**: After constructing the left and right subtrees, return the root node.
+
+Here's the Java implementation:
 
 ```java
-import com_github_leetcode.TreeNode;
-import java.util.HashMap;
-import java.util.Map;
-
-/*
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-public class Solution {
-    private int j;
-    private Map<Integer, Integer> map = new HashMap<>();
-
-    public int get(int key) {
-        return map.get(key);
-    }
-
-    private TreeNode answer(int[] preorder, int[] inorder, int start, int end) {
-        if (start > end || j > preorder.length) {
-            return null;
-        }
-        int value = preorder[j++];
-        int index = get(value);
-        TreeNode node = new TreeNode(value);
-        node.left = answer(preorder, inorder, start, index - 1);
-        node.right = answer(preorder, inorder, index + 1, end);
-        return node;
-    }
-
+class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        j = 0;
-        for (int i = 0; i < preorder.length; i++) {
-            map.put(inorder[i], i);
+        if (preorder.length == 0 || inorder.length == 0) return null; // Check for empty arrays
+        return build(preorder, inorder, 0, preorder.length - 1, 0, inorder.length - 1); // Construct binary tree
+    }
+    
+    // Recursive helper method to construct binary tree
+    private TreeNode build(int[] preorder, int[] inorder, int preStart, preEnd, int inStart, int inEnd) {
+        if (preStart > preEnd || inStart > inEnd) return null; // Base case
+        
+        int rootValue = preorder[preStart]; // Root node value
+        TreeNode root = new TreeNode(rootValue); // Create root node
+        
+        // Find root node's position in inorder array
+        int rootIndex = 0;
+        for (int i = inStart; i <= inEnd; i++) {
+            if (inorder[i] == rootValue) {
+                rootIndex = i;
+                break;
+            }
         }
-        return answer(preorder, inorder, 0, preorder.length - 1);
+        
+        // Recursively build left and right subtrees
+        root.left = build(preorder, inorder, preStart + 1, preStart + rootIndex - inStart, inStart, rootIndex - 1);
+        root.right = build(preorder, inorder, preStart + rootIndex - inStart + 1, preEnd, rootIndex + 1, inEnd);
+        
+        return root; // Return root node
+    }
+    
+    // TreeNode definition
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-The time complexity of the program can be analyzed as follows:
-
-- The `buildTree` function initializes a map (`map`) and populates it with values from the `inorder` array. The population process takes O(N) time, where N is the number of nodes in the binary tree.
-
-- The `answer` function is a recursive function that constructs the binary tree. It uses the `preorder` array to determine the root of the current subtree. For each subtree, it finds the index of the root value in the `inorder` array using the `map`. This operation takes O(1) time.
-
-- In each recursive call, the program divides the problem into two subproblems: constructing the left subtree and constructing the right subtree. The division and recursive calls are performed for each node in the tree.
-
-- Since each node is processed once in the recursive calls, and there are N nodes in the binary tree, the overall time complexity of the program is O(N).
-
-**Space Complexity (Big O Space):**
-
-The space complexity of the program is determined by the space required for data structures and the call stack. Here's the analysis of space complexity:
-
-- The `map` data structure is used to store mappings between values and their indices in the `inorder` array. The space used by this map is proportional to the number of nodes in the binary tree, which is O(N).
-
-- The recursive function `answer` utilizes the call stack to keep track of the recursive calls. In the worst case, when the binary tree is completely unbalanced (e.g., a skewed tree), the maximum depth of the call stack can be equal to the height of the tree, which is N in the worst case.
-
-- Therefore, the space complexity due to the call stack is O(N) in the worst case.
-
-- Additionally, there are a few integer variables and temporary variables used in the program. However, the space used by these variables is constant and does not depend on the input size.
-
-- Overall, the space complexity of the program is O(N) due to the map and the call stack.
-
-In summary, the time complexity of the program is O(N), and the space complexity is O(N) in the worst case. The space complexity is primarily determined by the map and the maximum depth of the call stack during the recursive construction of the binary tree.
+This implementation follows the steps outlined above and efficiently constructs the binary tree from preorder and inorder traversals in Java.

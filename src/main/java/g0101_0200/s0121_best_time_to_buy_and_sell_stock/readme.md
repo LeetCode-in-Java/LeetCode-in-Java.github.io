@@ -32,45 +32,40 @@ Return _the maximum profit you can achieve from this transaction_. If you cannot
 *   <code>1 <= prices.length <= 10<sup>5</sup></code>
 *   <code>0 <= prices[i] <= 10<sup>4</sup></code>
 
-## Solution
+To solve the "Best Time to Buy and Sell Stock" problem in Java with a `Solution` class, we'll use a greedy algorithm. Below are the steps:
+
+1. **Create a `Solution` class**: Define a class named `Solution` to encapsulate our solution methods.
+
+2. **Create a `maxProfit` method**: This method takes an array `prices` as input and returns the maximum profit that can be achieved by buying and selling the stock.
+
+3. **Initialize variables**: Initialize two variables, `minPrice` to store the minimum price seen so far and `maxProfit` to store the maximum profit seen so far. Initialize `maxProfit` to 0.
+
+4. **Iterate through the prices array**:
+   - For each price in the array:
+     - Update `minPrice` to the minimum of the current price and `minPrice`.
+     - Update `maxProfit` to the maximum of the current profit (price - `minPrice`) and `maxProfit`.
+
+5. **Return the maximum profit**: After iterating through the entire array, return `maxProfit`.
+
+Here's the Java implementation:
 
 ```java
-public class Solution {
+class Solution {
     public int maxProfit(int[] prices) {
-        int maxProfit = 0;
-        int min = prices[0];
+        if (prices == null || prices.length <= 1) return 0; // Check for empty array or single element
+        
+        int minPrice = prices[0]; // Initialize minPrice to the first price
+        int maxProfit = 0; // Initialize maxProfit to 0
+        
+        // Iterate through the prices array
         for (int i = 1; i < prices.length; i++) {
-            if (prices[i] > min) {
-                maxProfit = Math.max(maxProfit, prices[i] - min);
-            } else {
-                min = prices[i];
-            }
+            minPrice = Math.min(minPrice, prices[i]); // Update minPrice
+            maxProfit = Math.max(maxProfit, prices[i] - minPrice); // Update maxProfit
         }
-        return maxProfit;
+        
+        return maxProfit; // Return the maximum profit
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-The time complexity of the program is determined by the loop that iterates through the array of stock prices. Here's the breakdown:
-
-- The loop starts from the second element (index 1) and goes up to the last element (index `prices.length - 1`).
-
-- Inside the loop, there are constant-time operations such as comparisons and arithmetic operations.
-
-- The key operation is the `Math.max` function, which calculates the maximum of two values. This operation is also considered a constant-time operation.
-
-- Therefore, the overall time complexity of the program is O(N), where N is the number of elements in the `prices` array. It needs to iterate through the array once.
-
-**Space Complexity (Big O Space):**
-
-The space complexity of the program is relatively low because it doesn't use any additional data structures that grow with the input size. Here's the analysis:
-
-- The program uses a fixed number of integer variables (`maxProfit` and `min`) that occupy constant space, regardless of the input size.
-
-- It doesn't use any dynamically allocated memory or data structures that depend on the input size.
-
-- Therefore, the space complexity of the program is O(1), indicating constant space usage.
-
-In summary, the time complexity of the program is O(N), where N is the number of stock prices, and the space complexity is O(1), indicating constant space usage. The program efficiently finds the maximum profit by iterating through the stock prices array once.
+This implementation follows the steps outlined above and efficiently calculates the maximum profit that can be achieved by buying and selling the stock in Java.

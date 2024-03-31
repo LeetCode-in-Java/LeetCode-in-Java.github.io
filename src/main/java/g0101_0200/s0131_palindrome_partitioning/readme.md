@@ -26,76 +26,70 @@ A **palindrome** string is a string that reads the same backward as forward.
 *   `1 <= s.length <= 16`
 *   `s` contains only lowercase English letters.
 
-## Solution
+To solve the "Palindrome Partitioning" problem in Java with a `Solution` class, we'll use backtracking. Below are the steps:
+
+1. **Create a `Solution` class**: Define a class named `Solution` to encapsulate our solution methods.
+
+2. **Create a `partition` method**: This method takes a string `s` as input and returns all possible palindrome partitioning of `s`.
+
+3. **Define a recursive helper method**: Define a recursive helper method `backtrack` to find all possible palindrome partitions.
+   - The method should take the current index `start`, the current partition `partition`, and the list to store all partitions `result`.
+   - Base case: If `start` reaches the end of the string `s`, add the current partition to the result list and return.
+   - Iterate from `start` to the end of the string:
+     - Check if the substring from `start` to `i` is a palindrome.
+     - If it is a palindrome, add the substring to the current partition and recursively call the `backtrack` method with the updated index and partition.
+     - After the recursive call, remove the last substring added to the partition to backtrack and explore other partitions.
+
+4. **Initialize a list to store all partitions**: Create an ArrayList named `result` to store all possible palindrome partitions.
+
+5. **Call the helper method**: Call the `backtrack` method with the initial index, an empty partition list, and the result list.
+
+6. **Return the result list**: After exploring all possible partitions, return the list containing all palindrome partitions.
+
+Here's the Java implementation:
 
 ```java
 import java.util.ArrayList;
 import java.util.List;
 
-@SuppressWarnings("java:S5413")
-public class Solution {
+class Solution {
     public List<List<String>> partition(String s) {
-        List<List<String>> res = new ArrayList<>();
-        backtracking(res, new ArrayList<>(), s, 0);
-        return res;
+        List<List<String>> result = new ArrayList<>();
+        backtrack(s, 0, new ArrayList<>(), result);
+        return result;
     }
-
-    private void backtracking(List<List<String>> res, List<String> currArr, String s, int start) {
+    
+    // Recursive helper method to find all possible palindrome partitions
+    private void backtrack(String s, int start, List<String> partition, List<List<String>> result) {
         if (start == s.length()) {
-            res.add(new ArrayList<>(currArr));
+            result.add(new ArrayList<>(partition));
+            return;
         }
-        for (int end = start; end < s.length(); end++) {
-            if (!isPanlindrome(s, start, end)) {
-                continue;
+        
+        for (int i = start; i < s.length(); i++) {
+            String substring = s.substring(start, i + 1);
+            if (isPalindrome(substring)) {
+                partition.add(substring);
+                backtrack(s, i + 1, partition, result);
+                partition.remove(partition.size() - 1); // Backtrack
             }
-            currArr.add(s.substring(start, end + 1));
-            backtracking(res, currArr, s, end + 1);
-            currArr.remove(currArr.size() - 1);
         }
     }
-
-    private boolean isPanlindrome(String s, int start, int end) {
-        while (start < end && s.charAt(start) == s.charAt(end)) {
-            start++;
-            end--;
+    
+    // Helper method to check if a string is a palindrome
+    private boolean isPalindrome(String s) {
+        int left = 0;
+        int right = s.length() - 1;
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
         }
-        return start >= end;
+        return true;
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program starts by initializing an empty result list `res` and calling the `backtracking` function, which is the main recursive function. This initial call is done once.
-
-2. Inside the `backtracking` function, there is a loop that iterates from `start` to `s.length() - 1`. In the worst case, this loop can run from `start = 0` to `start = s.length() - 1`, leading to a linear pass over the characters of the string `s`.
-
-3. Within each iteration of the loop, the program checks if the substring from `start` to `end` is a palindrome using the `isPalindrome` function. This check is done in constant time, as it involves comparing characters.
-
-4. If the substring is a palindrome, the program proceeds to add it to the `currArr` list, a constant-time operation. Then, it makes a recursive call to the `backtracking` function with an updated `start` value.
-
-5. The recursion tree explores all possible combinations of palindrome partitions, and the work done at each level of the recursion tree is proportional to the size of the string `s`.
-
-6. The `backtracking` function can be called multiple times, but the total number of recursive calls is bounded by the number of valid palindrome partitions.
-
-Therefore, the overall time complexity of the program can be analyzed as follows:
-
-- The loop in the `backtracking` function runs in O(N), where N is the length of the input string `s`.
-- Within each iteration of the loop, there is a constant amount of work.
-- The recursion tree explores all possible palindrome partitions, but the depth of the recursion tree is limited by the length of the string.
-
-As a result, the time complexity of the program is O(N * 2^N), where N is the length of the input string `s`. This is because there can be 2^N possible palindrome partitions, and for each partition, the program performs work linear in the length of `s`.
-
-**Space Complexity (Big O Space):**
-
-1. The space complexity of the program is determined by the space required for the result list `res`, the `currArr` list, and the recursion stack.
-
-2. The `res` list stores all valid palindrome partition combinations. In the worst case, there can be 2^N such combinations, each containing a substring of length up to N. Therefore, the space complexity for `res` is O(2^N * N).
-
-3. The `currArr` list stores the current partition being constructed during the recursion. Its size is bounded by the length of the input string `s`, and each recursive call creates a new instance of `currArr`. Therefore, the space complexity for `currArr` is O(N) in the worst case.
-
-4. The recursion stack stores information about the recursive calls. In the worst case, the recursion depth can go up to N, leading to a space complexity of O(N).
-
-5. Overall, the dominant factor in space complexity is the `res` list. Therefore, the total space complexity of the program is O(2^N * N).
-
-In summary, the program has a time complexity of O(N * 2^N) and a space complexity of O(2^N * N), where N is the length of the input string `s`.
+This implementation follows the steps outlined above and efficiently finds all possible palindrome partitions of the given string in Java.
