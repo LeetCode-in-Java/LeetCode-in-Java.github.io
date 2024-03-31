@@ -1816,6 +1816,11 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3069 |[Distribute Elements Into Two Arrays I](src/main/java/g3001_3100/s3069_distribute_elements_into_two_arrays_i)| Easy | Array, Simulation | 0 | 100.00
+| 3068 |[Find the Maximum Sum of Node Values](src/main/java/g3001_3100/s3068_find_the_maximum_sum_of_node_values)| Hard | Array, Dynamic_Programming, Sorting, Greedy, Tree, Bit_Manipulation | 1 | 100.00
+| 3067 |[Count Pairs of Connectable Servers in a Weighted Tree Network](src/main/java/g3001_3100/s3067_count_pairs_of_connectable_servers_in_a_weighted_tree_network)| Medium | Array, Depth_First_Search, Tree | 69 | 99.83
+| 3066 |[Minimum Operations to Exceed Threshold Value II](src/main/java/g3001_3100/s3066_minimum_operations_to_exceed_threshold_value_ii)| Medium | Array, Heap_Priority_Queue, Simulation | 26 | 99.91
+| 3065 |[Minimum Operations to Exceed Threshold Value I](src/main/java/g3001_3100/s3065_minimum_operations_to_exceed_threshold_value_i)| Easy | Array | 0 | 100.00
 | 3049 |[Earliest Second to Mark Indices II](src/main/java/g3001_3100/s3049_earliest_second_to_mark_indices_ii)| Hard | Array, Greedy, Binary_Search, Heap_Priority_Queue | 5 | 92.03
 | 3048 |[Earliest Second to Mark Indices I](src/main/java/g3001_3100/s3048_earliest_second_to_mark_indices_i)| Medium | Array, Binary_Search | 2 | 91.18
 | 3047 |[Find the Largest Area of Square Inside Two Rectangles](src/main/java/g3001_3100/s3047_find_the_largest_area_of_square_inside_two_rectangles)| Medium | Array, Math, Geometry | 50 | 97.63
@@ -2429,7 +2434,7 @@
 | 2275 |[Largest Combination With Bitwise AND Greater Than Zero](src/main/java/g2201_2300/s2275_largest_combination_with_bitwise_and_greater_than_zero)| Medium | Array, Hash_Table, Bit_Manipulation, Counting | 19 | 96.92
 | 2274 |[Maximum Consecutive Floors Without Special Floors](src/main/java/g2201_2300/s2274_maximum_consecutive_floors_without_special_floors)| Medium | Array, Sorting | 33 | 99.36
 | 2273 |[Find Resultant Array After Removing Anagrams](src/main/java/g2201_2300/s2273_find_resultant_array_after_removing_anagrams)| Easy | Array, String, Hash_Table, Sorting | 2 | 99.10
-| 2272 |[Substring With Largest Variance](src/main/java/g2201_2300/s2272_substring_with_largest_variance)| Hard | Array, Dynamic_Programming | 469 | 23.66
+| 2272 |[Substring With Largest Variance](src/main/java/g2201_2300/s2272_substring_with_largest_variance)| Hard | Array, Dynamic_Programming | 159 | 39.25
 | 2271 |[Maximum White Tiles Covered by a Carpet](src/main/java/g2201_2300/s2271_maximum_white_tiles_covered_by_a_carpet)| Medium | Array, Sorting, Greedy, Binary_Search, Prefix_Sum | 74 | 71.51
 | 2270 |[Number of Ways to Split Array](src/main/java/g2201_2300/s2270_number_of_ways_to_split_array)| Medium | Array, Prefix_Sum | 4 | 77.55
 | 2269 |[Find the K-Beauty of a Number](src/main/java/g2201_2300/s2269_find_the_k_beauty_of_a_number)| Easy | String, Math, Sliding_Window | 2 | 38.88
@@ -2555,7 +2560,7 @@
 | 2116 |[Check if a Parentheses String Can Be Valid](src/main/java/g2101_2200/s2116_check_if_a_parentheses_string_can_be_valid)| Medium | String, Greedy, Stack | 19 | 85.53
 | 2115 |[Find All Possible Recipes from Given Supplies](src/main/java/g2101_2200/s2115_find_all_possible_recipes_from_given_supplies)| Medium | Array, String, Hash_Table, Graph, Topological_Sort | 43 | 85.86
 | 2114 |[Maximum Number of Words Found in Sentences](src/main/java/g2101_2200/s2114_maximum_number_of_words_found_in_sentences)| Easy | Array, String | 4 | 69.59
-| 2111 |[Minimum Operations to Make the Array K-Increasing](src/main/java/g2101_2200/s2111_minimum_operations_to_make_the_array_k_increasing)| Hard | Array, Binary_Search | 97 | 22.90
+| 2111 |[Minimum Operations to Make the Array K-Increasing](src/main/java/g2101_2200/s2111_minimum_operations_to_make_the_array_k_increasing)| Hard | Array, Binary_Search | 12 | 100.00
 | 2110 |[Number of Smooth Descent Periods of a Stock](src/main/java/g2101_2200/s2110_number_of_smooth_descent_periods_of_a_stock)| Medium | Array, Dynamic_Programming, Math | 3 | 77.27
 | 2109 |[Adding Spaces to a String](src/main/java/g2101_2200/s2109_adding_spaces_to_a_string)| Medium | Array, String, Simulation | 24 | 89.33
 | 2108 |[Find First Palindromic String in the Array](src/main/java/g2101_2200/s2108_find_first_palindromic_string_in_the_array)| Easy | Array, String, Two_Pointers | 3 | 84.92
@@ -2594,7 +2599,7 @@
 | 2065 |[Maximum Path Quality of a Graph](src/main/java/g2001_2100/s2065_maximum_path_quality_of_a_graph)| Hard | Array, Graph, Backtracking | 94 | 95.34
 | 2064 |[Minimized Maximum of Products Distributed to Any Store](src/main/java/g2001_2100/s2064_minimized_maximum_of_products_distributed_to_any_store)| Medium | Array, Binary_Search | 65 | 70.18
 | 2063 |[Vowels of All Substrings](src/main/java/g2001_2100/s2063_vowels_of_all_substrings)| Medium | String, Dynamic_Programming, Math, Combinatorics | 21 | 34.49
-| 2062 |[Count Vowel Substrings of a String](src/main/java/g2001_2100/s2062_count_vowel_substrings_of_a_string)| Easy | String, Hash_Table | 34 | 23.83
+| 2062 |[Count Vowel Substrings of a String](src/main/java/g2001_2100/s2062_count_vowel_substrings_of_a_string)| Easy | String, Hash_Table | 1 | 99.82
 | 2060 |[Check if an Original String Exists Given Two Encoded Strings](src/main/java/g2001_2100/s2060_check_if_an_original_string_exists_given_two_encoded_strings)| Hard | String, Dynamic_Programming | 354 | 69.39
 | 2059 |[Minimum Operations to Convert Number](src/main/java/g2001_2100/s2059_minimum_operations_to_convert_number)| Medium | Array, Breadth_First_Search | 97 | 64.14
 | 2058 |[Find the Minimum and Maximum Number of Nodes Between Critical Points](src/main/java/g2001_2100/s2058_find_the_minimum_and_maximum_number_of_nodes_between_critical_points)| Medium | Linked_List | 4 | 100.00
@@ -2648,7 +2653,7 @@
 | 1996 |[The Number of Weak Characters in the Game](src/main/java/g1901_2000/s1996_the_number_of_weak_characters_in_the_game)| Medium | Array, Sorting, Greedy, Stack, Monotonic_Stack | 121 | 81.46
 | 1995 |[Count Special Quadruplets](src/main/java/g1901_2000/s1995_count_special_quadruplets)| Easy | Array, Enumeration | 2 | 99.20
 | 1994 |[The Number of Good Subsets](src/main/java/g1901_2000/s1994_the_number_of_good_subsets)| Hard | Array, Dynamic_Programming, Math, Bit_Manipulation, Bitmask | 15 | 94.29
-| 1993 |[Operations on Tree](src/main/java/g1901_2000/s1993_operations_on_tree)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Tree, Design | 394 | 23.03
+| 1993 |[Operations on Tree](src/main/java/g1901_2000/s1993_operations_on_tree)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Tree, Design | 58 | 99.38
 | 1992 |[Find All Groups of Farmland](src/main/java/g1901_2000/s1992_find_all_groups_of_farmland)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix | 7 | 89.08
 | 1991 |[Find the Middle Index in Array](src/main/java/g1901_2000/s1991_find_the_middle_index_in_array)| Easy | Array, Prefix_Sum | 0 | 100.00
 | 1987 |[Number of Unique Good Subsequences](src/main/java/g1901_2000/s1987_number_of_unique_good_subsequences)| Hard | String, Dynamic_Programming | 19 | 53.78
@@ -2719,7 +2724,7 @@
 | 1906 |[Minimum Absolute Difference Queries](src/main/java/g1901_2000/s1906_minimum_absolute_difference_queries)| Medium | Array, Hash_Table | 176 | 71.61
 | 1905 |[Count Sub Islands](src/main/java/g1901_2000/s1905_count_sub_islands)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Graph_Theory_I_Day_3_Matrix_Related_Problems | 24 | 85.54
 | 1904 |[The Number of Full Rounds You Have Played](src/main/java/g1901_2000/s1904_the_number_of_full_rounds_you_have_played)| Medium | String, Math | 0 | 100.00
-| 1903 |[Largest Odd Number in String](src/main/java/g1901_2000/s1903_largest_odd_number_in_string)| Easy | String, Math, Greedy | 6 | 23.18
+| 1903 |[Largest Odd Number in String](src/main/java/g1901_2000/s1903_largest_odd_number_in_string)| Easy | String, Math, Greedy | 1 | 100.00
 | 1901 |[Find a Peak Element II](src/main/java/g1901_2000/s1901_find_a_peak_element_ii)| Medium | Array, Binary_Search, Matrix, Divide_and_Conquer, Binary_Search_II_Day_17 | 0 | 100.00
 | 1900 |[The Earliest and Latest Rounds Where Players Compete](src/main/java/g1801_1900/s1900_the_earliest_and_latest_rounds_where_players_compete)| Hard | Dynamic_Programming, Memoization | 1 | 92.68
 | 1899 |[Merge Triplets to Form Target Triplet](src/main/java/g1801_1900/s1899_merge_triplets_to_form_target_triplet)| Medium | Array, Greedy | 1 | 98.96

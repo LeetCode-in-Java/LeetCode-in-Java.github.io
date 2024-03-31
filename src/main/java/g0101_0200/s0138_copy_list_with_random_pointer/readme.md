@@ -58,96 +58,66 @@ Your code will **only** be given the `head` of the original linked list.
 *   `-10000 <= Node.val <= 10000`
 *   `Node.random` is `null` or is pointing to some node in the linked list.
 
-## Solution
+To solve the "Copy List with Random Pointer" problem in Java with a `Solution` class, we'll use a HashMap to maintain a mapping between the original nodes and their corresponding copied nodes. Below are the steps:
+
+1. **Create a `Solution` class**: Define a class named `Solution` to encapsulate our solution methods.
+
+2. **Create a `copyRandomList` method**: This method takes the head node of the original linked list as input and returns the head node of the copied linked list.
+
+3. **Initialize a HashMap**: Create a HashMap named `nodeMap` to store the mapping between original nodes and their corresponding copied nodes.
+
+4. **Create a deep copy of the list**: Iterate through the original linked list and create a deep copy of each node. For each node `originalNode` in the original linked list:
+   - Create a new node `copyNode` with the same value as `originalNode`.
+   - Put the mapping between `originalNode` and `copyNode` in the `nodeMap`.
+   - Set the `copyNode`'s `next` and `random` pointers accordingly.
+   - Attach the `copyNode` to the copied linked list.
+
+5. **Return the head of the copied linked list**: After creating the deep copy of the entire list, return the head node of the copied linked list.
+
+Here's the Java implementation:
 
 ```java
-import com_github_leetcode.random.Node;
+import java.util.HashMap;
+import java.util.Map;
 
-/*
-// Definition for a Node.
-class Node {
-    public int val;
-    public Node next;
-    public Node random;
-
-    public Node() {}
-
-    public Node(int _val,Node _next,Node _random) {
-        val = _val;
-        next = _next;
-        random = _random;
-    }
-};
-*/
-public class Solution {
+class Solution {
     public Node copyRandomList(Node head) {
-        if (head == null) {
-            return null;
+        if (head == null) return null; // Check for empty list
+        
+        Map<Node, Node> nodeMap = new HashMap<>(); // Initialize HashMap to store mapping between original and copied nodes
+        
+        // Create a deep copy of each node in the list
+        Node current = head;
+        while (current != null) {
+            Node copyNode = new Node(current.val); // Create a new copy node
+            nodeMap.put(current, copyNode); // Put mapping between original and copied nodes in the map
+            current = current.next; // Move to the next node
         }
-        // first pass to have a clone node point to the next node. ie A->B becomes A->clonedNode->B
-        Node curr = head;
-        while (curr != null) {
-            Node clonedNode = new Node(curr.val);
-            clonedNode.next = curr.next;
-            curr.next = clonedNode;
-            curr = clonedNode.next;
+        
+        // Set the next and random pointers of copied nodes
+        current = head;
+        while (current != null) {
+            Node copyNode = nodeMap.get(current); // Get copied node
+            copyNode.next = nodeMap.getOrDefault(current.next, null); // Set next pointer
+            copyNode.random = nodeMap.getOrDefault(current.random, null); // Set random pointer
+            current = current.next; // Move to the next node
         }
-        curr = head;
-        // second pass to make the cloned node's random pointer point to the orginal node's randome
-        // pointer.
-        // ie. A's random pointer becomes ClonedNode's random pointer
-        while (curr != null) {
-            if (curr.random != null) {
-                curr.next.random = curr.random.next;
-            } else {
-                curr.next.random = null;
-            }
-            curr = curr.next.next;
+        
+        return nodeMap.get(head); // Return the head of the copied linked list
+    }
+    
+    // Definition for a Node
+    class Node {
+        int val;
+        Node next, random;
+        
+        Node(int val) {
+            this.val = val;
+            this.next = null;
+            this.random = null;
         }
-        curr = head;
-        // third pass to restore the links and return the head of the cloned nodes' list.
-        Node newHead = null;
-        while (curr != null) {
-            Node clonedNode;
-            if (newHead == null) {
-                clonedNode = curr.next;
-                newHead = clonedNode;
-            } else {
-                clonedNode = curr.next;
-            }
-            curr.next = clonedNode.next;
-            if (curr.next != null) {
-                clonedNode.next = curr.next.next;
-            } else {
-                clonedNode.next = null;
-            }
-            curr = curr.next;
-        }
-        return newHead;
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. **First Pass**: In the first pass, the program iterates through the original linked list and creates a cloned node for each node in the original list. This operation takes O(N) time, where N is the number of nodes in the original list, as it processes each node once.
-
-2. **Second Pass**: In the second pass, the program updates the random pointers of the cloned nodes based on the random pointers of the original nodes. This operation also takes O(N) time since it processes each node once.
-
-3. **Third Pass**: In the third pass, the program separates the cloned linked list from the original linked list and restores the original linked list's next pointers. This final pass also takes O(N) time, as it processes each node once.
-
-Overall, the time complexity of the program is O(N), where N is the number of nodes in the linked list. All three passes contribute linearly to the time complexity.
-
-**Space Complexity (Big O Space):**
-
-The space complexity of the program is O(N), where N is the number of nodes in the linked list. Here's how the space is allocated:
-
-1. **Cloned Nodes**: During the first pass, the program creates cloned nodes for each node in the original linked list. This results in N additional nodes, each taking constant space. Therefore, the space used for the cloned nodes is O(N).
-
-2. **Random Pointers**: No additional space is used for random pointers since the program manipulates the existing nodes in the original linked list to connect to their corresponding cloned nodes.
-
-3. **New Head Node**: A single variable `newHead` is used to store the head of the cloned linked list. This variable takes constant space.
-
-4. **Other Variables**: The program uses a few additional variables (`curr`, `clonedNode`) to traverse and manipulate the linked list. These variables take constant space.
-
-Overall, the space complexity is O(N) due to the cloned nodes created during the first pass, which directly corresponds to the number of nodes in the linked list.
+This implementation follows the steps outlined above and efficiently constructs a deep copy of the linked list with random pointers in Java.

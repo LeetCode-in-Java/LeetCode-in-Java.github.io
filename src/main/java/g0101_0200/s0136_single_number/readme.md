@@ -33,26 +33,33 @@ You must implement a solution with a linear runtime complexity and use only cons
 *   <code>-3 * 10<sup>4</sup> <= nums[i] <= 3 * 10<sup>4</sup></code>
 *   Each element in the array appears twice except for one element which appears only once.
 
-## Solution
+To solve the "Single Number" problem in Java with a `Solution` class, we'll use bitwise XOR operation. Below are the steps:
+
+1. **Create a `Solution` class**: Define a class named `Solution` to encapsulate our solution methods.
+
+2. **Create a `singleNumber` method**: This method takes an array `nums` as input and returns the single number that appears only once.
+
+3. **Initialize a variable to store the result**: Initialize a variable `singleNumber` to 0.
+
+4. **Iterate through the array and perform bitwise XOR operation**: Iterate through the array `nums`. For each number `num` in the array, perform bitwise XOR operation with the `singleNumber`.
+
+5. **Return the result**: After iterating through the entire array, the `singleNumber` variable will store the single number that appears only once. Return `singleNumber`.
+
+Here's the Java implementation:
 
 ```java
-public class Solution {
+class Solution {
     public int singleNumber(int[] nums) {
-        int res = 0;
+        int singleNumber = 0; // Initialize variable to store result
+        
+        // Perform bitwise XOR operation on all elements in the array
         for (int num : nums) {
-            res ^= num;
+            singleNumber ^= num;
         }
-        return res;
+        
+        return singleNumber; // Return the single number
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-The program uses a single loop that iterates through all the elements of the `nums` array. Within each iteration, it performs a constant-time operation (XOR) on the current element and the result variable `res`. Therefore, the time complexity of this program is O(N), where N is the number of elements in the `nums` array. In other words, it has a linear time complexity because it processes each element once.
-
-**Space Complexity (Big O Space):**
-
-The program has a very low space complexity because it uses a constant amount of additional memory that doesn't depend on the size of the input `nums` array. It only uses a single integer variable `res` to store the result. Therefore, the space complexity of this program is O(1), indicating constant space usage.
-
-In summary, the program has a time complexity of O(N), where N is the number of elements in the input array `nums`, and a space complexity of O(1), indicating that it uses a fixed amount of memory regardless of the size of the input.
+This implementation follows the steps outlined above and efficiently finds the single number that appears only once in the given array using bitwise XOR operation in Java.

@@ -43,12 +43,15 @@ A **substring** is a contiguous sequence of characters within a string.
 ```java
 public class Solution {
     public String largestOddNumber(String num) {
+        String str = "";
         for (int i = num.length() - 1; i >= 0; i--) {
-            if (Integer.parseInt("" + num.charAt(i)) % 2 == 1) {
-                return num.substring(0, i + 1);
+            char c = num.charAt(i);
+            if (c % 2 == 1) {
+                str = num.substring(0, i + 1);
+                break;
             }
         }
-        return "";
+        return str;
     }
 }
 ```

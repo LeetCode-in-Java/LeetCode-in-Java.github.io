@@ -28,53 +28,52 @@ You must write an algorithm that runs in `O(n)` time.
 *   <code>0 <= nums.length <= 10<sup>5</sup></code>
 *   <code>-10<sup>9</sup> <= nums[i] <= 10<sup>9</sup></code>
 
-## Solution
+To solve the "Longest Consecutive Sequence" problem in Java with a `Solution` class, we'll use a HashSet and a greedy approach. Below are the steps:
+
+1. **Create a `Solution` class**: Define a class named `Solution` to encapsulate our solution methods.
+
+2. **Create a `longestConsecutive` method**: This method takes an array `nums` as input and returns the length of the longest consecutive elements sequence.
+
+3. **Initialize a HashSet**: Create a HashSet named `numSet` to store all the numbers in the array `nums`.
+
+4. **Iterate through the array**: Add all the numbers from the array `nums` to the `numSet`.
+
+5. **Find the longest sequence**: Iterate through the array `nums` again. For each number `num` in the array:
+   - Check if `num - 1` exists in the `numSet`. If it does not, `num` could be the start of a new sequence.
+   - If `num - 1` does not exist, start a new sequence from `num`. Increment `currentNum` by 1 and check if `currentNum` exists in the `numSet`. Keep incrementing `currentNum` until it does not exist in the `numSet`. Update the maximum length of the sequence accordingly.
+
+6. **Return the maximum length**: After iterating through the entire array, return the maximum length of the consecutive sequence.
+
+Here's the Java implementation:
 
 ```java
-import java.util.Arrays;
+import java.util.HashSet;
 
-@SuppressWarnings("java:S135")
-public class Solution {
+class Solution {
     public int longestConsecutive(int[] nums) {
-        if (nums.length == 0) {
-            return 0;
+        HashSet<Integer> numSet = new HashSet<>();
+        for (int num : nums) {
+            numSet.add(num); // Add all numbers to HashSet
         }
-        Arrays.sort(nums);
-        int max = Integer.MIN_VALUE;
-        int thsMax = 1;
-        for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i + 1] == nums[i] + 1) {
-                thsMax += 1;
-                continue;
+        
+        int maxLength = 0;
+        for (int num : nums) {
+            if (!numSet.contains(num - 1)) { // Check if num - 1 exists in numSet
+                int currentNum = num;
+                int currentLength = 1;
+                
+                while (numSet.contains(currentNum + 1)) { // Increment currentNum until it does not exist in numSet
+                    currentNum++;
+                    currentLength++;
+                }
+                
+                maxLength = Math.max(maxLength, currentLength); // Update maximum length
             }
-            if (nums[i + 1] == nums[i]) {
-                continue;
-            }
-            // Start of a new Sequene
-            max = Math.max(max, thsMax);
-            thsMax = 1;
         }
-        return Math.max(max, thsMax);
+        
+        return maxLength; // Return the maximum length of the consecutive sequence
     }
 }
 ```
 
-**Time Complexity (Big O Time):**
-
-1. The program begins by checking if the input array `nums` is empty. This operation is done in constant time and does not depend on the size of the array. Therefore, it can be considered O(1).
-
-2. The program then sorts the `nums` array using `Arrays.sort()`. The time complexity of the sorting operation is O(N log N), where N is the number of elements in the array. This is the most time-consuming operation in the program.
-
-3. After sorting, the program iterates through the sorted array once, comparing adjacent elements. The loop runs from `i = 0` to `i < nums.length - 1`. In each iteration, it checks if `nums[i + 1]` is consecutive to `nums[i]` and updates the `thsMax` variable accordingly. This loop is a linear pass over the sorted array and runs in O(N) time.
-
-4. The program uses a few constant-time operations such as comparisons and updates within the loop.
-
-5. Finally, the program returns the maximum of `max` and `thsMax`. This operation is done in constant time.
-
-Therefore, the overall time complexity of the program is dominated by the sorting step, which is O(N log N) due to the use of `Arrays.sort()`.
-
-**Space Complexity (Big O Space):**
-
-1. The space complexity of the program is determined by the space required for the input `nums` array and a few integer variables (`max` and `thsMax`) that occupy constant space regardless of the input size. Therefore, the space complexity is O(1), as it does not depend on the size of the input array.
-
-In summary, the time complexity of the program is O(N log N) due to the sorting operation, and the space complexity is O(1) because it uses only a constant amount of additional space.
+This implementation follows the steps outlined above and efficiently calculates the length of the longest consecutive elements sequence in Java.
