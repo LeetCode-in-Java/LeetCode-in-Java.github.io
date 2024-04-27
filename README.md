@@ -1816,6 +1816,18 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3123 |[Find Edges in Shortest Paths](src/main/java/g3101_3200/s3123_find_edges_in_shortest_paths)| Hard | Depth_First_Search, Breadth_First_Search, Heap_Priority_Queue, Graph, Shortest_Path | 24 | 100.00
+| 3122 |[Minimum Number of Operations to Satisfy Conditions](src/main/java/g3101_3200/s3122_minimum_number_of_operations_to_satisfy_conditions)| Medium | Array, Dynamic_Programming, Matrix | 6 | 100.00
+| 3121 |[Count the Number of Special Characters II](src/main/java/g3101_3200/s3121_count_the_number_of_special_characters_ii)| Medium | String, Hash_Table | 6 | 100.00
+| 3120 |[Count the Number of Special Characters I](src/main/java/g3101_3200/s3120_count_the_number_of_special_characters_i)| Easy | String, Hash_Table | 1 | 100.00
+| 3117 |[Minimum Sum of Values by Dividing Array](src/main/java/g3101_3200/s3117_minimum_sum_of_values_by_dividing_array)| Hard | Array, Dynamic_Programming, Binary_Search, Bit_Manipulation, Queue, Segment_Tree | 6 | 100.00
+| 3116 |[Kth Smallest Amount With Single Denomination Combination](src/main/java/g3101_3200/s3116_kth_smallest_amount_with_single_denomination_combination)| Hard | Array, Math, Binary_Search, Bit_Manipulation, Number_Theory, Combinatorics | 2 | 100.00
+| 3115 |[Maximum Prime Difference](src/main/java/g3101_3200/s3115_maximum_prime_difference)| Medium | Array, Math, Number_Theory | 1 | 99.91
+| 3114 |[Latest Time You Can Obtain After Replacing Characters](src/main/java/g3101_3200/s3114_latest_time_you_can_obtain_after_replacing_characters)| Easy | String, Enumeration | 1 | 100.00
+| 3113 |[Find the Number of Subarrays Where Boundary Elements Are Maximum](src/main/java/g3101_3200/s3113_find_the_number_of_subarrays_where_boundary_elements_are_maximum)| Hard | Array, Binary_Search, Stack, Monotonic_Stack | 13 | 98.83
+| 3112 |[Minimum Time to Visit Disappearing Nodes](src/main/java/g3101_3200/s3112_minimum_time_to_visit_disappearing_nodes)| Medium | Array, Heap_Priority_Queue, Graph, Shortest_Path | 10 | 100.00
+| 3111 |[Minimum Rectangles to Cover Points](src/main/java/g3101_3200/s3111_minimum_rectangles_to_cover_points)| Medium | Array, Sorting, Greedy | 4 | 99.55
+| 3110 |[Score of a String](src/main/java/g3101_3200/s3110_score_of_a_string)| Easy | String | 1 | 99.93
 | 3108 |[Minimum Cost Walk in Weighted Graph](src/main/java/g3101_3200/s3108_minimum_cost_walk_in_weighted_graph)| Hard | Array, Bit_Manipulation, Graph, Union_Find | 3 | 100.00
 | 3107 |[Minimum Operations to Make Median of Array Equal to K](src/main/java/g3101_3200/s3107_minimum_operations_to_make_median_of_array_equal_to_k)| Medium | Array, Sorting, Greedy | 28 | 98.49
 | 3106 |[Lexicographically Smallest String After Operations With Constraint](src/main/java/g3101_3200/s3106_lexicographically_smallest_string_after_operations_with_constraint)| Medium | String, Greedy | 1 | 100.00
