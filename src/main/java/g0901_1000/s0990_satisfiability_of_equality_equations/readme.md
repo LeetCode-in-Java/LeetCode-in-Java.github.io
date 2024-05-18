@@ -39,59 +39,32 @@ There is no way to assign the variables to satisfy both equations.
 ## Solution
 
 ```java
-import java.util.HashMap;
-
 public class Solution {
-    private int[] par;
+    private int[] parent = new int[26];
+
+    private int find(int x) {
+        if (parent[x] == x) {
+            return x;
+        }
+        parent[x] = find(parent[x]);
+        return parent[x];
+    }
 
     public boolean equationsPossible(String[] equations) {
-        int counter = 0;
-        HashMap<Character, Integer> map = new HashMap<>();
-        for (String str : equations) {
-            char ch = str.charAt(0);
-            if (!map.containsKey(ch)) {
-                map.put(ch, counter);
-                counter++;
-            }
-            ch = str.charAt(3);
-            if (!map.containsKey(ch)) {
-                map.put(ch, counter);
-                counter++;
+        for (int i = 0; i < 26; i++) {
+            parent[i] = i;
+        }
+        for (String e : equations) {
+            if (e.charAt(1) == '=') {
+                parent[find(e.charAt(0) - 'a')] = find(e.charAt(3) - 'a');
             }
         }
-        par = new int[counter];
-        for (int i = 0; i < par.length; i++) {
-            par[i] = i;
-        }
-        for (String str : equations) {
-            String oper = str.substring(1, 3);
-            if (oper.equals("==")) {
-                int px = find(map.get(str.charAt(0)));
-                int py = find(map.get(str.charAt(3)));
-                if (px != py) {
-                    par[px] = py;
-                }
-            }
-        }
-        for (String str : equations) {
-            String oper = str.substring(1, 3);
-            if (oper.equals("!=")) {
-                int px = find(map.get(str.charAt(0)));
-                int py = find(map.get(str.charAt(3)));
-                if (px == py) {
-                    return false;
-                }
+        for (String e : equations) {
+            if (e.charAt(1) == '!' && find(e.charAt(0) - 'a') == find(e.charAt(3) - 'a')) {
+                return false;
             }
         }
         return true;
-    }
-
-    private int find(int x) {
-        if (par[x] == x) {
-            return x;
-        }
-        par[x] = find(par[x]);
-        return par[x];
     }
 }
 ```
