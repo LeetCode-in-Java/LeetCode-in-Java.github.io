@@ -1816,6 +1816,15 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3162 |[Find the Number of Good Pairs I](src/main/java/g3101_3200/s3162_find_the_number_of_good_pairs_i)| Easy | Array, Hash_Table | 1 | 99.96
+| 3161 |[Block Placement Queries](src/main/java/g3101_3200/s3161_block_placement_queries)| Hard | Array, Binary_Search, Segment_Tree, Binary_Indexed_Tree | 137 | 99.38
+| 3160 |[Find the Number of Distinct Colors Among the Balls](src/main/java/g3101_3200/s3160_find_the_number_of_distinct_colors_among_the_balls)| Medium | Array, Hash_Table, Simulation | 36 | 98.82
+| 3159 |[Find Occurrences of an Element in an Array](src/main/java/g3101_3200/s3159_find_occurrences_of_an_element_in_an_array)| Medium | Array, Hash_Table | 4 | 96.74
+| 3158 |[Find the XOR of Numbers Which Appear Twice](src/main/java/g3101_3200/s3158_find_the_xor_of_numbers_which_appear_twice)| Easy | Array, Hash_Table, Bit_Manipulation | 1 | 99.87
+| 3154 |[Find Number of Ways to Reach the K-th Stair](src/main/java/g3101_3200/s3154_find_number_of_ways_to_reach_the_k_th_stair)| Hard | Dynamic_Programming, Math, Bit_Manipulation, Memoization, Combinatorics | 0 | 100.00
+| 3153 |[Sum of Digit Differences of All Pairs](src/main/java/g3101_3200/s3153_sum_of_digit_differences_of_all_pairs)| Medium | Array, Hash_Table, Math, Counting | 12 | 100.00
+| 3152 |[Special Array II](src/main/java/g3101_3200/s3152_special_array_ii)| Medium | Array, Binary_Search, Prefix_Sum | 2 | 99.93
+| 3151 |[Special Array I](src/main/java/g3101_3200/s3151_special_array_i)| Easy | Array | 0 | 100.00
 | 3149 |[Find the Minimum Cost Array Permutation](src/main/java/g3101_3200/s3149_find_the_minimum_cost_array_permutation)| Hard | Array, Dynamic_Programming, Bit_Manipulation, Bitmask | 105 | 88.11
 | 3148 |[Maximum Difference Score in a Grid](src/main/java/g3101_3200/s3148_maximum_difference_score_in_a_grid)| Medium | Array, Dynamic_Programming, Matrix | 5 | 100.00
 | 3147 |[Taking Maximum Energy From the Mystic Dungeon](src/main/java/g3101_3200/s3147_taking_maximum_energy_from_the_mystic_dungeon)| Medium | Array, Prefix_Sum | 2 | 97.58
