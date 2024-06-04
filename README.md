@@ -2,7 +2,6 @@
 [![](https://img.shields.io/github/forks/javadev/LeetCode-in-Java?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/javadev/LeetCode-in-Java/fork)
 > ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
 
-* [Graph Theory I](#graph-theory-i)
 * [SQL I](#sql-i)
 * [Level 1](#level-1)
 * [Level 2](#level-2)
@@ -16,110 +15,7 @@
 * [Dynamic Programming I](#dynamic-programming-i)
 * [Programming Skills I](#programming-skills-i)
 * [Programming Skills II](#programming-skills-ii)
-
-### Graph Theory I
-
-#### Day 1 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0733 |[Flood Fill](src/main/java/g0701_0800/s0733_flood_fill)| Easy | Array, Depth_First_Search, Breadth_First_Search, Matrix | 1 | 85.36
-| 0200 |[Number of Islands](src/main/java/g0101_0200/s0200_number_of_islands)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 3 | 97.76
-
-#### Day 2 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0695 |[Max Area of Island](src/main/java/g0601_0700/s0695_max_area_of_island)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 3 | 76.79
-| 1254 |[Number of Closed Islands](src/main/java/g1201_1300/s1254_number_of_closed_islands)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 3 | 55.59
-
-#### Day 3 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1020 |[Number of Enclaves](src/main/java/g1001_1100/s1020_number_of_enclaves)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 6 | 68.24
-| 1905 |[Count Sub Islands](src/main/java/g1901_2000/s1905_count_sub_islands)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 24 | 85.54
-
-#### Day 4 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1162 |[As Far from Land as Possible](src/main/java/g1101_1200/s1162_as_far_from_land_as_possible)| Medium | Array, Dynamic_Programming, Breadth_First_Search, Matrix | 16 | 62.40
-| 0417 |[Pacific Atlantic Water Flow](src/main/java/g0401_0500/s0417_pacific_atlantic_water_flow)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix | 5 | 92.62
-
-#### Day 5 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1091 |[Shortest Path in Binary Matrix](src/main/java/g1001_1100/s1091_shortest_path_in_binary_matrix)| Medium | Array, Breadth_First_Search, Matrix | 22 | 69.99
-| 0542 |[01 Matrix](src/main/java/g0501_0600/s0542_01_matrix)| Medium | Array, Dynamic_Programming, Breadth_First_Search, Matrix | 7 | 95.83
-
-#### Day 6 Matrix Related Problems
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0934 |[Shortest Bridge](src/main/java/g0901_1000/s0934_shortest_bridge)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix | 6 | 97.87
-| 1926 |[Nearest Exit from Entrance in Maze](src/main/java/g1901_2000/s1926_nearest_exit_from_entrance_in_maze)| Medium | Array, Breadth_First_Search, Matrix | 12 | 40.55
-
-#### Day 7 Standard Traversal
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0797 |[All Paths From Source to Target](src/main/java/g0701_0800/s0797_all_paths_from_source_to_target)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Backtracking | 2 | 90.53
-| 0841 |[Keys and Rooms](src/main/java/g0801_0900/s0841_keys_and_rooms)| Medium | Depth_First_Search, Breadth_First_Search, Graph | 3 | 51.54
-
-#### Day 8 Standard Traversal
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0547 |[Number of Provinces](src/main/java/g0501_0600/s0547_number_of_provinces)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 2 | 69.51
-| 1319 |[Number of Operations to Make Network Connected](src/main/java/g1301_1400/s1319_number_of_operations_to_make_network_connected)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 9 | 67.64
-
-#### Day 9 Standard Traversal
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1376 |[Time Needed to Inform All Employees](src/main/java/g1301_1400/s1376_time_needed_to_inform_all_employees)| Medium | Depth_First_Search, Breadth_First_Search, Tree | 8 | 99.85
-| 0802 |[Find Eventual Safe States](src/main/java/g0801_0900/s0802_find_eventual_safe_states)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort | 7 | 74.93
-
-#### Day 10 Standard Traversal
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1129 |[Shortest Path with Alternating Colors](src/main/java/g1101_1200/s1129_shortest_path_with_alternating_colors)| Medium | Breadth_First_Search, Graph | 4 | 96.63
-| 1466 |[Reorder Routes to Make All Paths Lead to the City Zero](src/main/java/g1401_1500/s1466_reorder_routes_to_make_all_paths_lead_to_the_city_zero)| Medium | Depth_First_Search, Breadth_First_Search, Graph | 39 | 97.71
-| 0847 |[Shortest Path Visiting All Nodes](src/main/java/g0801_0900/s0847_shortest_path_visiting_all_nodes)| Hard | Dynamic_Programming, Breadth_First_Search, Bit_Manipulation, Graph, Bitmask | 14 | 78.72
-
-#### Day 11 Breadth First Search
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1306 |[Jump Game III](src/main/java/g1301_1400/s1306_jump_game_iii)| Medium | Array, Depth_First_Search, Breadth_First_Search | 2 | 96.23
-| 1654 |[Minimum Jumps to Reach Home](src/main/java/g1601_1700/s1654_minimum_jumps_to_reach_home)| Medium | Array, Dynamic_Programming, Breadth_First_Search | 6 | 99.87
-| 0365 |[Water and Jug Problem](src/main/java/g0301_0400/s0365_water_and_jug_problem)| Medium | Math, Depth_First_Search, Breadth_First_Search | 0 | 100.00
-
-#### Day 12 Breadth First Search
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0433 |[Minimum Genetic Mutation](src/main/java/g0401_0500/s0433_minimum_genetic_mutation)| Medium | String, Hash_Table, Breadth_First_Search | 1 | 90.95
-| 0752 |[Open the Lock](src/main/java/g0701_0800/s0752_open_the_lock)| Medium | Array, String, Hash_Table, Breadth_First_Search | 72 | 91.06
-| 0127 |[Word Ladder](src/main/java/g0101_0200/s0127_word_ladder)| Hard | Top_Interview_Questions, String, Hash_Table, Breadth_First_Search | 37 | 94.58
-
-#### Day 13 Graph Theory
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0997 |[Find the Town Judge](src/main/java/g0901_1000/s0997_find_the_town_judge)| Easy | Array, Hash_Table, Graph | 3 | 80.64
-| 1557 |[Minimum Number of Vertices to Reach All Nodes](src/main/java/g1501_1600/s1557_minimum_number_of_vertices_to_reach_all_nodes)| Medium | Graph | 8 | 99.94
-
-#### Day 14 Graph Theory
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1615 |[Maximal Network Rank](src/main/java/g1601_1700/s1615_maximal_network_rank)| Medium | Graph | 3 | 97.34
-| 0886 |[Possible Bipartition](src/main/java/g0801_0900/s0886_possible_bipartition)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 20 | 80.12
-| 0785 |[Is Graph Bipartite?](src/main/java/g0701_0800/s0785_is_graph_bipartite)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 0 | 100.00
+* [Graph Theory I](#graph-theory-i)
 
 ### SQL I
 
@@ -1812,10 +1708,117 @@
 | 0622 |[Design Circular Queue](src/main/java/g0601_0700/s0622_design_circular_queue)| Medium | Array, Design, Linked_List, Queue | 3 | 100.00
 | 0729 |[My Calendar I](src/main/java/g0701_0800/s0729_my_calendar_i)| Medium | Binary_Search, Design, Ordered_Set, Segment_Tree | 17 | 97.23
 
+### Graph Theory I
+
+#### Day 1 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0733 |[Flood Fill](src/main/java/g0701_0800/s0733_flood_fill)| Easy | Array, Depth_First_Search, Breadth_First_Search, Matrix | 1 | 85.36
+| 0200 |[Number of Islands](src/main/java/g0101_0200/s0200_number_of_islands)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 3 | 97.76
+
+#### Day 2 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0695 |[Max Area of Island](src/main/java/g0601_0700/s0695_max_area_of_island)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 3 | 76.79
+| 1254 |[Number of Closed Islands](src/main/java/g1201_1300/s1254_number_of_closed_islands)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 3 | 55.59
+
+#### Day 3 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1020 |[Number of Enclaves](src/main/java/g1001_1100/s1020_number_of_enclaves)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 6 | 68.24
+| 1905 |[Count Sub Islands](src/main/java/g1901_2000/s1905_count_sub_islands)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 24 | 85.54
+
+#### Day 4 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1162 |[As Far from Land as Possible](src/main/java/g1101_1200/s1162_as_far_from_land_as_possible)| Medium | Array, Dynamic_Programming, Breadth_First_Search, Matrix | 16 | 62.40
+| 0417 |[Pacific Atlantic Water Flow](src/main/java/g0401_0500/s0417_pacific_atlantic_water_flow)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix | 5 | 92.62
+
+#### Day 5 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1091 |[Shortest Path in Binary Matrix](src/main/java/g1001_1100/s1091_shortest_path_in_binary_matrix)| Medium | Array, Breadth_First_Search, Matrix | 22 | 69.99
+| 0542 |[01 Matrix](src/main/java/g0501_0600/s0542_01_matrix)| Medium | Array, Dynamic_Programming, Breadth_First_Search, Matrix | 7 | 95.83
+
+#### Day 6 Matrix Related Problems
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0934 |[Shortest Bridge](src/main/java/g0901_1000/s0934_shortest_bridge)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix | 6 | 97.87
+| 1926 |[Nearest Exit from Entrance in Maze](src/main/java/g1901_2000/s1926_nearest_exit_from_entrance_in_maze)| Medium | Array, Breadth_First_Search, Matrix | 12 | 40.55
+
+#### Day 7 Standard Traversal
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0797 |[All Paths From Source to Target](src/main/java/g0701_0800/s0797_all_paths_from_source_to_target)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Backtracking | 2 | 90.53
+| 0841 |[Keys and Rooms](src/main/java/g0801_0900/s0841_keys_and_rooms)| Medium | Depth_First_Search, Breadth_First_Search, Graph | 3 | 51.54
+
+#### Day 8 Standard Traversal
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0547 |[Number of Provinces](src/main/java/g0501_0600/s0547_number_of_provinces)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 2 | 69.51
+| 1319 |[Number of Operations to Make Network Connected](src/main/java/g1301_1400/s1319_number_of_operations_to_make_network_connected)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 9 | 67.64
+
+#### Day 9 Standard Traversal
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1376 |[Time Needed to Inform All Employees](src/main/java/g1301_1400/s1376_time_needed_to_inform_all_employees)| Medium | Depth_First_Search, Breadth_First_Search, Tree | 8 | 99.85
+| 0802 |[Find Eventual Safe States](src/main/java/g0801_0900/s0802_find_eventual_safe_states)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort | 7 | 74.93
+
+#### Day 10 Standard Traversal
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1129 |[Shortest Path with Alternating Colors](src/main/java/g1101_1200/s1129_shortest_path_with_alternating_colors)| Medium | Breadth_First_Search, Graph | 4 | 96.63
+| 1466 |[Reorder Routes to Make All Paths Lead to the City Zero](src/main/java/g1401_1500/s1466_reorder_routes_to_make_all_paths_lead_to_the_city_zero)| Medium | Depth_First_Search, Breadth_First_Search, Graph | 39 | 97.71
+| 0847 |[Shortest Path Visiting All Nodes](src/main/java/g0801_0900/s0847_shortest_path_visiting_all_nodes)| Hard | Dynamic_Programming, Breadth_First_Search, Bit_Manipulation, Graph, Bitmask | 14 | 78.72
+
+#### Day 11 Breadth First Search
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1306 |[Jump Game III](src/main/java/g1301_1400/s1306_jump_game_iii)| Medium | Array, Depth_First_Search, Breadth_First_Search | 2 | 96.23
+| 1654 |[Minimum Jumps to Reach Home](src/main/java/g1601_1700/s1654_minimum_jumps_to_reach_home)| Medium | Array, Dynamic_Programming, Breadth_First_Search | 6 | 99.87
+| 0365 |[Water and Jug Problem](src/main/java/g0301_0400/s0365_water_and_jug_problem)| Medium | Math, Depth_First_Search, Breadth_First_Search | 0 | 100.00
+
+#### Day 12 Breadth First Search
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0433 |[Minimum Genetic Mutation](src/main/java/g0401_0500/s0433_minimum_genetic_mutation)| Medium | String, Hash_Table, Breadth_First_Search | 1 | 90.95
+| 0752 |[Open the Lock](src/main/java/g0701_0800/s0752_open_the_lock)| Medium | Array, String, Hash_Table, Breadth_First_Search | 72 | 91.06
+| 0127 |[Word Ladder](src/main/java/g0101_0200/s0127_word_ladder)| Hard | Top_Interview_Questions, String, Hash_Table, Breadth_First_Search | 37 | 94.58
+
+#### Day 13 Graph Theory
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0997 |[Find the Town Judge](src/main/java/g0901_1000/s0997_find_the_town_judge)| Easy | Array, Hash_Table, Graph | 3 | 80.64
+| 1557 |[Minimum Number of Vertices to Reach All Nodes](src/main/java/g1501_1600/s1557_minimum_number_of_vertices_to_reach_all_nodes)| Medium | Graph | 8 | 99.94
+
+#### Day 14 Graph Theory
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1615 |[Maximal Network Rank](src/main/java/g1601_1700/s1615_maximal_network_rank)| Medium | Graph | 3 | 97.34
+| 0886 |[Possible Bipartition](src/main/java/g0801_0900/s0886_possible_bipartition)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 20 | 80.12
+| 0785 |[Is Graph Bipartite?](src/main/java/g0701_0800/s0785_is_graph_bipartite)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 0 | 100.00
+
 ## Algorithms
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3165 |[Maximum Sum of Subsequence With Non-adjacent Elements](src/main/java/g3101_3200/s3165_maximum_sum_of_subsequence_with_non_adjacent_elements)| Hard | Array, Dynamic_Programming, Divide_and_Conquer, Segment_Tree | 1927 | 87.75
+| 3164 |[Find the Number of Good Pairs II](src/main/java/g3101_3200/s3164_find_the_number_of_good_pairs_ii)| Medium | Array, Hash_Table | 407 | 75.28
+| 3163 |[String Compression III](src/main/java/g3101_3200/s3163_string_compression_iii)| Medium | String | 17 | 88.10
 | 3162 |[Find the Number of Good Pairs I](src/main/java/g3101_3200/s3162_find_the_number_of_good_pairs_i)| Easy | Array, Hash_Table | 1 | 99.96
 | 3161 |[Block Placement Queries](src/main/java/g3101_3200/s3161_block_placement_queries)| Hard | Array, Binary_Search, Segment_Tree, Binary_Indexed_Tree | 137 | 99.38
 | 3160 |[Find the Number of Distinct Colors Among the Balls](src/main/java/g3101_3200/s3160_find_the_number_of_distinct_colors_among_the_balls)| Medium | Array, Hash_Table, Simulation | 36 | 98.82
