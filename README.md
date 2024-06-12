@@ -1816,6 +1816,15 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3178 |[Find the Child Who Has the Ball After K Seconds](src/main/java/g3101_3200/s3178_find_the_child_who_has_the_ball_after_k_seconds)| Easy | Math, Simulation | 0 | 100.00
+| 3177 |[Find the Maximum Length of a Good Subsequence II](src/main/java/g3101_3200/s3177_find_the_maximum_length_of_a_good_subsequence_ii)| Hard | Array, Hash_Table, Dynamic_Programming | 11 | 100.00
+| 3176 |[Find the Maximum Length of a Good Subsequence I](src/main/java/g3101_3200/s3176_find_the_maximum_length_of_a_good_subsequence_i)| Medium | Array, Hash_Table, Dynamic_Programming | 4 | 99.70
+| 3175 |[Find The First Player to win K Games in a Row](src/main/java/g3101_3200/s3175_find_the_first_player_to_win_k_games_in_a_row)| Medium | Array, Simulation | 1 | 100.00
+| 3174 |[Clear Digits](src/main/java/g3101_3200/s3174_clear_digits)| Easy | String, Hash_Table, Simulation | 1 | 100.00
+| 3171 |[Find Subarray With Bitwise AND Closest to K](src/main/java/g3101_3200/s3171_find_subarray_with_bitwise_and_closest_to_k)| Hard | Array, Binary_Search, Bit_Manipulation, Segment_Tree | 10 | 98.04
+| 3170 |[Lexicographically Minimum String After Removing Stars](src/main/java/g3101_3200/s3170_lexicographically_minimum_string_after_removing_stars)| Medium | String, Hash_Table, Greedy, Stack, Heap_Priority_Queue | 29 | 99.93
+| 3169 |[Count Days Without Meetings](src/main/java/g3101_3200/s3169_count_days_without_meetings)| Medium | Array, Sorting | 11 | 99.96
+| 3168 |[Minimum Number of Chairs in a Waiting Room](src/main/java/g3101_3200/s3168_minimum_number_of_chairs_in_a_waiting_room)| Easy | String, Simulation | 1 | 100.00
 | 3165 |[Maximum Sum of Subsequence With Non-adjacent Elements](src/main/java/g3101_3200/s3165_maximum_sum_of_subsequence_with_non_adjacent_elements)| Hard | Array, Dynamic_Programming, Divide_and_Conquer, Segment_Tree | 1927 | 87.75
 | 3164 |[Find the Number of Good Pairs II](src/main/java/g3101_3200/s3164_find_the_number_of_good_pairs_ii)| Medium | Array, Hash_Table | 407 | 75.28
 | 3163 |[String Compression III](src/main/java/g3101_3200/s3163_string_compression_iii)| Medium | String | 17 | 88.10
