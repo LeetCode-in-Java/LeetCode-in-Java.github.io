@@ -32,15 +32,15 @@ After each second, a person enters the waiting room and no person leaves it. The
 
 Let's consider that there are 2 chairs in the waiting room. The table below shows the state of the waiting room at each second.
 
-\| Second \| Event \| People in the Waiting Room \| Available Chairs \|
-\|--------\|-------\|----------------------------\|------------------\|
-\| 0      \| Enter \| 1                          \| 1                \|
-\| 1      \| Leave \| 0                          \| 2                \|
-\| 2      \| Enter \| 1                          \| 1                \|
-\| 3      \| Leave \| 0                          \| 2                \|
-\| 4      \| Enter \| 1                          \| 1                \|
-\| 5      \| Enter \| 2                          \| 0                \|
-\| 6      \| Leave \| 1                          \| 1                \|
+| Second | Event | People in the Waiting Room | Available Chairs |
+|--------|-------|----------------------------|------------------|
+| 0      | Enter | 1                          | 1                |
+| 1      | Leave | 0                          | 2                |
+| 2      | Enter | 1                          | 1                |
+| 3      | Leave | 0                          | 2                |
+| 4      | Enter | 1                          | 1                |
+| 5      | Enter | 2                          | 0                |
+| 6      | Leave | 1                          | 1                |
 
 **Example 3:**
 
@@ -52,18 +52,18 @@ Let's consider that there are 2 chairs in the waiting room. The table below show
 
 Let's consider that there are 3 chairs in the waiting room. The table below shows the state of the waiting room at each second.
 
-\| Second \| Event \| People in the Waiting Room \| Available Chairs \|
-\|--------\|-------\|----------------------------\|------------------\|
-\| 0      \| Enter \| 1                          \| 2                \|
-\| 1      \| Leave \| 0                          \| 3                \|
-\| 2      \| Enter \| 1                          \| 2                \|
-\| 3      \| Enter \| 2                          \| 1                \|
-\| 4      \| Leave \| 1                          \| 2                \|
-\| 5      \| Enter \| 2                          \| 1                \|
-\| 6      \| Enter \| 3                          \| 0                \|
-\| 7      \| Leave \| 2                          \| 1                \|
-\| 8      \| Leave \| 1                          \| 2                \|
-\| 9      \| Leave \| 0                          \| 3                \|
+| Second | Event | People in the Waiting Room | Available Chairs |
+|--------|-------|----------------------------|------------------|
+| 0      | Enter | 1                          | 2                |
+| 1      | Leave | 0                          | 3                |
+| 2      | Enter | 1                          | 2                |
+| 3      | Enter | 2                          | 1                |
+| 4      | Leave | 1                          | 2                |
+| 5      | Enter | 2                          | 1                |
+| 6      | Enter | 3                          | 0                |
+| 7      | Leave | 2                          | 1                |
+| 8      | Leave | 1                          | 2                |
+| 9      | Leave | 0                          | 3                |
 
 **Constraints:**
 
