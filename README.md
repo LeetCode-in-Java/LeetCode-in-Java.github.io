@@ -1816,6 +1816,9 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3181 |[Maximum Total Reward Using Operations II](src/main/java/g3101_3200/s3181_maximum_total_reward_using_operations_ii)| Hard | Array, Dynamic_Programming, Bit_Manipulation | 2 | 100.00
+| 3180 |[Maximum Total Reward Using Operations I](src/main/java/g3101_3200/s3180_maximum_total_reward_using_operations_i)| Medium | Array, Dynamic_Programming | 1 | 100.00
+| 3179 |[Find the N-th Value After K Seconds](src/main/java/g3101_3200/s3179_find_the_n_th_value_after_k_seconds)| Medium | Array, Math, Simulation, Prefix_Sum, Combinatorics | 2 | 99.86
 | 3178 |[Find the Child Who Has the Ball After K Seconds](src/main/java/g3101_3200/s3178_find_the_child_who_has_the_ball_after_k_seconds)| Easy | Math, Simulation | 0 | 100.00
 | 3177 |[Find the Maximum Length of a Good Subsequence II](src/main/java/g3101_3200/s3177_find_the_maximum_length_of_a_good_subsequence_ii)| Hard | Array, Hash_Table, Dynamic_Programming | 11 | 100.00
 | 3176 |[Find the Maximum Length of a Good Subsequence I](src/main/java/g3101_3200/s3176_find_the_maximum_length_of_a_good_subsequence_i)| Medium | Array, Hash_Table, Dynamic_Programming | 4 | 99.70
