@@ -2,7 +2,6 @@
 [![](https://img.shields.io/github/forks/javadev/LeetCode-in-Java?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/javadev/LeetCode-in-Java/fork)
 > ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
 
-* [SQL I](#sql-i)
 * [Level 1](#level-1)
 * [Level 2](#level-2)
 * [Udemy](#udemy)
@@ -16,91 +15,7 @@
 * [Programming Skills I](#programming-skills-i)
 * [Programming Skills II](#programming-skills-ii)
 * [Graph Theory I](#graph-theory-i)
-
-### SQL I
-
-#### Day 1 Select
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0595 |[Big Countries](src/main/java/g0501_0600/s0595_big_countries)| Easy | Database | 262 | 84.64
-| 1757 |[Recyclable and Low Fat Products](src/main/java/g1701_1800/s1757_recyclable_and_low_fat_products)| Easy | Database | 475 | 71.54
-| 0584 |[Find Customer Referee](src/main/java/g0501_0600/s0584_find_customer_referee)| Easy | Database | 531 | 58.63
-| 0183 |[Customers Who Never Order](src/main/java/g0101_0200/s0183_customers_who_never_order)| Easy | Database | 376 | 98.73
-
-#### Day 2 Select and Order
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1873 |[Calculate Special Bonus](src/main/java/g1801_1900/s1873_calculate_special_bonus)| Easy | Database | 543 | 71.60
-| 0627 |[Swap Salary](src/main/java/g0601_0700/s0627_swap_salary)| Easy | Database | 191 | 96.89
-| 0196 |[Delete Duplicate Emails](src/main/java/g0101_0200/s0196_delete_duplicate_emails)| Easy | Database | 903 | 48.10
-
-#### Day 3 String Processing Functions
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1667 |[Fix Names in a Table](src/main/java/g1601_1700/s1667_fix_names_in_a_table)| Easy | Database | 559 | 80.29
-| 1484 |[Group Sold Products By The Date](src/main/java/g1401_1500/s1484_group_sold_products_by_the_date)| Easy | LeetCode_Curated_SQL_70, Database | 395 | 77.20
-| 1527 |[Patients With a Condition](src/main/java/g1501_1600/s1527_patients_with_a_condition)| Easy | Database | 308 | 66.93
-
-#### Day 4 Union and Select
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1965 |[Employees With Missing Information](src/main/java/g1901_2000/s1965_employees_with_missing_information)| Easy | Database | 617 | 30.40
-| 1795 |[Rearrange Products Table](src/main/java/g1701_1800/s1795_rearrange_products_table)| Easy | Database | 497 | 64.83
-| 0608 |[Tree Node](src/main/java/g0601_0700/s0608_tree_node)| Medium | LeetCode_Curated_SQL_70, Database | 347 | 95.17
-| 0176 |[Second Highest Salary](src/main/java/g0101_0200/s0176_second_highest_salary)| Medium | Database | 225 | 73.10
-
-#### Day 5 Union
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0175 |[Combine Two Tables](src/main/java/g0101_0200/s0175_combine_two_tables)| Easy | Database | 491 | 32.30
-| 1581 |[Customer Who Visited but Did Not Make Any Transactions](src/main/java/g1501_1600/s1581_customer_who_visited_but_did_not_make_any_transactions)| Easy | Database | 1039 | 76.99
-| 1148 |[Article Views I](src/main/java/g1101_1200/s1148_article_views_i)| Easy | LeetCode_Curated_SQL_70, Database | 783 | 64.09
-
-#### Day 6 Union
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0197 |[Rising Temperature](src/main/java/g0101_0200/s0197_rising_temperature)| Easy | Database | 342 | 93.76
-| 0607 |[Sales Person](src/main/java/g0601_0700/s0607_sales_person)| Easy | LeetCode_Curated_SQL_70, Database | 1046 | 86.04
-
-#### Day 7 Function
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1141 |[User Activity for the Past 30 Days I](src/main/java/g1101_1200/s1141_user_activity_for_the_past_30_days_i)| Easy | LeetCode_Curated_SQL_70, Database | 849 | 72.54
-| 1693 |[Daily Leads and Partners](src/main/java/g1601_1700/s1693_daily_leads_and_partners)| Easy | Database | 463 | 78.98
-| 1729 |[Find Followers Count](src/main/java/g1701_1800/s1729_find_followers_count)| Easy | Database | 456 | 88.39
-
-#### Day 8 Function
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0586 |[Customer Placing the Largest Number of Orders](src/main/java/g0501_0600/s0586_customer_placing_the_largest_number_of_orders)| Easy | LeetCode_Curated_SQL_70, Database | 484 | 66.42
-| 0511 |[Game Play Analysis I](src/main/java/g0501_0600/s0511_game_play_analysis_i)| Easy | LeetCode_Curated_SQL_70, Database | 586 | 56.94
-| 1890 |[The Latest Login in 2020](src/main/java/g1801_1900/s1890_the_latest_login_in_2020)| Easy | Database | 571 | 73.59
-| 1741 |[Find Total Time Spent by Each Employee](src/main/java/g1701_1800/s1741_find_total_time_spent_by_each_employee)| Easy | Database | 414 | 93.27
-
-#### Day 9 Control of Flow
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1393 |[Capital Gain/Loss](src/main/java/g1301_1400/s1393_capital_gainloss)| Medium | LeetCode_Curated_SQL_70, Database | 428 | 92.01
-| 1407 |[Top Travellers](src/main/java/g1401_1500/s1407_top_travellers)| Easy | LeetCode_Curated_SQL_70, Database | 682 | 70.16
-| 1158 |[Market Analysis I](src/main/java/g1101_1200/s1158_market_analysis_i)| Medium | Database | 2511 | 78.92
-
-#### Day 10 Where
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0182 |[Duplicate Emails](src/main/java/g0101_0200/s0182_duplicate_emails)| Easy | Database | 303 | 92.08
-| 1050 |[Actors and Directors Who Cooperated At Least Three Times](src/main/java/g1001_1100/s1050_actors_and_directors_who_cooperated_at_least_three_times)| Easy | LeetCode_Curated_SQL_70, Database | 344 | 76.48
-| 1587 |[Bank Account Summary II](src/main/java/g1501_1600/s1587_bank_account_summary_ii)| Easy | Database | 630 | 60.32
-| 1084 |[Sales Analysis III](src/main/java/g1001_1100/s1084_sales_analysis_iii)| Easy | LeetCode_Curated_SQL_70, Database | 1066 | 69.71
+* [SQL I](#sql-i)
 
 ### Level 1
 
@@ -302,7 +217,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0416 |[Partition Equal Subset Sum](src/main/java/g0401_0500/s0416_partition_equal_subset_sum)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Big_O_Time_O(n\*sums)_Space_O(n\*sums) | 27 | 94.53
-| 0152 |[Maximum Product Subarray](src/main/java/g0101_0200/s0152_maximum_product_subarray)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
+| 0152 |[Maximum Product Subarray](src/main/java/g0101_0200/s0152_maximum_product_subarray)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 92.31
 
 #### Day 14 Sliding Window/Two Pointer
 
@@ -528,7 +443,7 @@
 | 0118 |[Pascal's Triangle](src/main/java/g0101_0200/s0118_pascals_triangle)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming | 1 | 67.08
 | 0119 |[Pascal's Triangle II](src/main/java/g0101_0200/s0119_pascals_triangle_ii)| Easy | Array, Dynamic_Programming | 0 | 100.00
 | 0139 |[Word Break](src/main/java/g0101_0200/s0139_word_break)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 2 | 97.08
-| 0152 |[Maximum Product Subarray](src/main/java/g0101_0200/s0152_maximum_product_subarray)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
+| 0152 |[Maximum Product Subarray](src/main/java/g0101_0200/s0152_maximum_product_subarray)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 92.31
 | 0198 |[House Robber](src/main/java/g0101_0200/s0198_house_robber)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0213 |[House Robber II](src/main/java/g0201_0300/s0213_house_robber_ii)| Medium | Array, Dynamic_Programming | 0 | 100.00
 | 0509 |[Fibonacci Number](src/main/java/g0501_0600/s0509_fibonacci_number)| Easy | Dynamic_Programming, Math, Recursion, Memoization | 0 | 100.00
@@ -1358,7 +1273,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0152 |[Maximum Product Subarray](src/main/java/g0101_0200/s0152_maximum_product_subarray)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
+| 0152 |[Maximum Product Subarray](src/main/java/g0101_0200/s0152_maximum_product_subarray)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 92.31
 | 1567 |[Maximum Length of Subarray With Positive Product](src/main/java/g1501_1600/s1567_maximum_length_of_subarray_with_positive_product)| Medium | Array, Dynamic_Programming, Greedy | 4 | 80.86
 
 #### Day 7
@@ -1812,10 +1727,119 @@
 | 0886 |[Possible Bipartition](src/main/java/g0801_0900/s0886_possible_bipartition)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 20 | 80.12
 | 0785 |[Is Graph Bipartite?](src/main/java/g0701_0800/s0785_is_graph_bipartite)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 0 | 100.00
 
+### SQL I
+
+#### Day 1 Select
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0595 |[Big Countries](src/main/java/g0501_0600/s0595_big_countries)| Easy | Database | 262 | 84.64
+| 1757 |[Recyclable and Low Fat Products](src/main/java/g1701_1800/s1757_recyclable_and_low_fat_products)| Easy | Database | 475 | 71.54
+| 0584 |[Find Customer Referee](src/main/java/g0501_0600/s0584_find_customer_referee)| Easy | Database | 531 | 58.63
+| 0183 |[Customers Who Never Order](src/main/java/g0101_0200/s0183_customers_who_never_order)| Easy | Database | 376 | 98.73
+
+#### Day 2 Select and Order
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1873 |[Calculate Special Bonus](src/main/java/g1801_1900/s1873_calculate_special_bonus)| Easy | Database | 543 | 71.60
+| 0627 |[Swap Salary](src/main/java/g0601_0700/s0627_swap_salary)| Easy | Database | 191 | 96.89
+| 0196 |[Delete Duplicate Emails](src/main/java/g0101_0200/s0196_delete_duplicate_emails)| Easy | Database | 903 | 48.10
+
+#### Day 3 String Processing Functions
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1667 |[Fix Names in a Table](src/main/java/g1601_1700/s1667_fix_names_in_a_table)| Easy | Database | 559 | 80.29
+| 1484 |[Group Sold Products By The Date](src/main/java/g1401_1500/s1484_group_sold_products_by_the_date)| Easy | LeetCode_Curated_SQL_70, Database | 395 | 77.20
+| 1527 |[Patients With a Condition](src/main/java/g1501_1600/s1527_patients_with_a_condition)| Easy | Database | 308 | 66.93
+
+#### Day 4 Union and Select
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1965 |[Employees With Missing Information](src/main/java/g1901_2000/s1965_employees_with_missing_information)| Easy | Database | 617 | 30.40
+| 1795 |[Rearrange Products Table](src/main/java/g1701_1800/s1795_rearrange_products_table)| Easy | Database | 497 | 64.83
+| 0608 |[Tree Node](src/main/java/g0601_0700/s0608_tree_node)| Medium | LeetCode_Curated_SQL_70, Database | 347 | 95.17
+| 0176 |[Second Highest Salary](src/main/java/g0101_0200/s0176_second_highest_salary)| Medium | Database | 225 | 73.10
+
+#### Day 5 Union
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0175 |[Combine Two Tables](src/main/java/g0101_0200/s0175_combine_two_tables)| Easy | Database | 491 | 32.30
+| 1581 |[Customer Who Visited but Did Not Make Any Transactions](src/main/java/g1501_1600/s1581_customer_who_visited_but_did_not_make_any_transactions)| Easy | Database | 1039 | 76.99
+| 1148 |[Article Views I](src/main/java/g1101_1200/s1148_article_views_i)| Easy | LeetCode_Curated_SQL_70, Database | 783 | 64.09
+
+#### Day 6 Union
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0197 |[Rising Temperature](src/main/java/g0101_0200/s0197_rising_temperature)| Easy | Database | 342 | 93.76
+| 0607 |[Sales Person](src/main/java/g0601_0700/s0607_sales_person)| Easy | LeetCode_Curated_SQL_70, Database | 1046 | 86.04
+
+#### Day 7 Function
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1141 |[User Activity for the Past 30 Days I](src/main/java/g1101_1200/s1141_user_activity_for_the_past_30_days_i)| Easy | LeetCode_Curated_SQL_70, Database | 849 | 72.54
+| 1693 |[Daily Leads and Partners](src/main/java/g1601_1700/s1693_daily_leads_and_partners)| Easy | Database | 463 | 78.98
+| 1729 |[Find Followers Count](src/main/java/g1701_1800/s1729_find_followers_count)| Easy | Database | 456 | 88.39
+
+#### Day 8 Function
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0586 |[Customer Placing the Largest Number of Orders](src/main/java/g0501_0600/s0586_customer_placing_the_largest_number_of_orders)| Easy | LeetCode_Curated_SQL_70, Database | 484 | 66.42
+| 0511 |[Game Play Analysis I](src/main/java/g0501_0600/s0511_game_play_analysis_i)| Easy | LeetCode_Curated_SQL_70, Database | 586 | 56.94
+| 1890 |[The Latest Login in 2020](src/main/java/g1801_1900/s1890_the_latest_login_in_2020)| Easy | Database | 571 | 73.59
+| 1741 |[Find Total Time Spent by Each Employee](src/main/java/g1701_1800/s1741_find_total_time_spent_by_each_employee)| Easy | Database | 414 | 93.27
+
+#### Day 9 Control of Flow
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1393 |[Capital Gain/Loss](src/main/java/g1301_1400/s1393_capital_gainloss)| Medium | LeetCode_Curated_SQL_70, Database | 428 | 92.01
+| 1407 |[Top Travellers](src/main/java/g1401_1500/s1407_top_travellers)| Easy | LeetCode_Curated_SQL_70, Database | 682 | 70.16
+| 1158 |[Market Analysis I](src/main/java/g1101_1200/s1158_market_analysis_i)| Medium | Database | 2511 | 78.92
+
+#### Day 10 Where
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0182 |[Duplicate Emails](src/main/java/g0101_0200/s0182_duplicate_emails)| Easy | Database | 303 | 92.08
+| 1050 |[Actors and Directors Who Cooperated At Least Three Times](src/main/java/g1001_1100/s1050_actors_and_directors_who_cooperated_at_least_three_times)| Easy | LeetCode_Curated_SQL_70, Database | 344 | 76.48
+| 1587 |[Bank Account Summary II](src/main/java/g1501_1600/s1587_bank_account_summary_ii)| Easy | Database | 630 | 60.32
+| 1084 |[Sales Analysis III](src/main/java/g1001_1100/s1084_sales_analysis_iii)| Easy | LeetCode_Curated_SQL_70, Database | 1066 | 69.71
+
 ## Algorithms
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3213 |[Construct String with Minimum Cost](src/main/java/g3201_3300/s3213_construct_string_with_minimum_cost)| Hard | Array, String, Dynamic_Programming, Suffix_Array | 261 | 88.55
+| 3212 |[Count Submatrices With Equal Frequency of X and Y](src/main/java/g3201_3300/s3212_count_submatrices_with_equal_frequency_of_x_and_y)| Medium | Array, Matrix, Prefix_Sum | 15 | 100.00
+| 3211 |[Generate Binary Strings Without Adjacent Zeros](src/main/java/g3201_3300/s3211_generate_binary_strings_without_adjacent_zeros)| Medium | String, Bit_Manipulation, Recursion | 1 | 100.00
+| 3210 |[Find the Encrypted String](src/main/java/g3201_3300/s3210_find_the_encrypted_string)| Easy | String | 1 | 100.00
+| 3209 |[Number of Subarrays With AND Value of K](src/main/java/g3201_3300/s3209_number_of_subarrays_with_and_value_of_k)| Hard | Array, Binary_Search, Bit_Manipulation, Segment_Tree | 7 | 100.00
+| 3208 |[Alternating Groups II](src/main/java/g3201_3300/s3208_alternating_groups_ii)| Medium | Array, Sliding_Window | 2 | 99.02
+| 3207 |[Maximum Points After Enemy Battles](src/main/java/g3201_3300/s3207_maximum_points_after_enemy_battles)| Medium | Array, Greedy | 1 | 100.00
+| 3206 |[Alternating Groups I](src/main/java/g3201_3300/s3206_alternating_groups_i)| Easy | Array, Sliding_Window | 1 | 97.24
+| 3203 |[Find Minimum Diameter After Merging Two Trees](src/main/java/g3201_3300/s3203_find_minimum_diameter_after_merging_two_trees)| Hard | Depth_First_Search, Breadth_First_Search, Tree, Graph | 29 | 99.83
+| 3202 |[Find the Maximum Length of Valid Subsequence II](src/main/java/g3201_3300/s3202_find_the_maximum_length_of_valid_subsequence_ii)| Medium | Array, Dynamic_Programming | 34 | 92.46
+| 3201 |[Find the Maximum Length of Valid Subsequence I](src/main/java/g3201_3300/s3201_find_the_maximum_length_of_valid_subsequence_i)| Medium | Array, Dynamic_Programming | 5 | 82.23
+| 3200 |[Maximum Height of a Triangle](src/main/java/g3101_3200/s3200_maximum_height_of_a_triangle)| Easy | Array, Enumeration | 1 | 86.34
+| 3197 |[Find the Minimum Area to Cover All Ones II](src/main/java/g3101_3200/s3197_find_the_minimum_area_to_cover_all_ones_ii)| Hard | Array, Matrix, Enumeration | 10 | 99.66
+| 3196 |[Maximize Total Cost of Alternating Subarrays](src/main/java/g3101_3200/s3196_maximize_total_cost_of_alternating_subarrays)| Medium | Array, Dynamic_Programming | 1 | 100.00
+| 3195 |[Find the Minimum Area to Cover All Ones I](src/main/java/g3101_3200/s3195_find_the_minimum_area_to_cover_all_ones_i)| Medium | Array, Matrix | 5 | 94.40
+| 3194 |[Minimum Average of Smallest and Largest Elements](src/main/java/g3101_3200/s3194_minimum_average_of_smallest_and_largest_elements)| Easy | Array, Sorting, Two_Pointers | 2 | 98.88
+| 3193 |[Count the Number of Inversions](src/main/java/g3101_3200/s3193_count_the_number_of_inversions)| Hard | Array, Dynamic_Programming | 11 | 96.54
+| 3192 |[Minimum Operations to Make Binary Array Elements Equal to One II](src/main/java/g3101_3200/s3192_minimum_operations_to_make_binary_array_elements_equal_to_one_ii)| Medium | Array, Dynamic_Programming, Greedy | 6 | 99.64
+| 3191 |[Minimum Operations to Make Binary Array Elements Equal to One I](src/main/java/g3101_3200/s3191_minimum_operations_to_make_binary_array_elements_equal_to_one_i)| Medium | Array, Bit_Manipulation, Prefix_Sum, Sliding_Window, Queue | 6 | 99.99
+| 3190 |[Find Minimum Operations to Make All Elements Divisible by Three](src/main/java/g3101_3200/s3190_find_minimum_operations_to_make_all_elements_divisible_by_three)| Easy | Array, Math | 0 | 100.00
+| 3187 |[Peaks in Array](src/main/java/g3101_3200/s3187_peaks_in_array)| Hard | Array, Segment_Tree, Binary_Indexed_Tree | 18 | 100.00
+| 3186 |[Maximum Total Damage With Spell Casting](src/main/java/g3101_3200/s3186_maximum_total_damage_with_spell_casting)| Medium | Array, Hash_Table, Dynamic_Programming, Sorting, Binary_Search, Two_Pointers, Counting | 51 | 99.29
+| 3185 |[Count Pairs That Form a Complete Day II](src/main/java/g3101_3200/s3185_count_pairs_that_form_a_complete_day_ii)| Medium | Array, Hash_Table, Counting | 3 | 97.60
+| 3184 |[Count Pairs That Form a Complete Day I](src/main/java/g3101_3200/s3184_count_pairs_that_form_a_complete_day_i)| Easy | Array, Hash_Table, Counting | 1 | 98.20
 | 3181 |[Maximum Total Reward Using Operations II](src/main/java/g3101_3200/s3181_maximum_total_reward_using_operations_ii)| Hard | Array, Dynamic_Programming, Bit_Manipulation | 2 | 100.00
 | 3180 |[Maximum Total Reward Using Operations I](src/main/java/g3101_3200/s3180_maximum_total_reward_using_operations_i)| Medium | Array, Dynamic_Programming | 1 | 100.00
 | 3179 |[Find the N-th Value After K Seconds](src/main/java/g3101_3200/s3179_find_the_n_th_value_after_k_seconds)| Medium | Array, Math, Simulation, Prefix_Sum, Combinatorics | 2 | 99.86
@@ -4177,7 +4201,7 @@
 | 0183 |[Customers Who Never Order](src/main/java/g0101_0200/s0183_customers_who_never_order)| Easy | Database, SQL_I_Day_1_Select | 376 | 98.73
 | 0182 |[Duplicate Emails](src/main/java/g0101_0200/s0182_duplicate_emails)| Easy | Database, SQL_I_Day_10_Where | 303 | 92.08
 | 0181 |[Employees Earning More Than Their Managers](src/main/java/g0101_0200/s0181_employees_earning_more_than_their_managers)| Easy | Database | 315 | 94.44
-| 0180 |[Consecutive Numbers](src/main/java/g0101_0200/s0180_consecutive_numbers)| Medium | Database | 550 | 48.44
+| 0180 |[Consecutive Numbers](src/main/java/g0101_0200/s0180_consecutive_numbers)| Medium | Database | 469 | 89.19
 | 0179 |[Largest Number](src/main/java/g0101_0200/s0179_largest_number)| Medium | Top_Interview_Questions, String, Sorting, Greedy | 10 | 54.50
 | 0178 |[Rank Scores](src/main/java/g0101_0200/s0178_rank_scores)| Medium | Database | 290 | 66.73
 | 0177 |[Nth Highest Salary](src/main/java/g0101_0200/s0177_nth_highest_salary)| Medium | Database | 342 | 71.87
@@ -4198,7 +4222,7 @@
 | 0155 |[Min Stack](src/main/java/g0101_0200/s0155_min_stack)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Data_Structure_II_Day_14_Stack_Queue, Programming_Skills_II_Day_18, Level_2_Day_16_Design, Udemy_Design, Big_O_Time_O(1)_Space_O(N) | 3 | 100.00
 | 0154 |[Find Minimum in Rotated Sorted Array II](src/main/java/g0101_0200/s0154_find_minimum_in_rotated_sorted_array_ii)| Hard | Array, Binary_Search, Binary_Search_II_Day_13 | 1 | 77.09
 | 0153 |[Find Minimum in Rotated Sorted Array](src/main/java/g0101_0200/s0153_find_minimum_in_rotated_sorted_array)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Algorithm_II_Day_2_Binary_Search, Binary_Search_I_Day_12, Udemy_Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 0 | 100.00
-| 0152 |[Maximum Product Subarray](src/main/java/g0101_0200/s0152_maximum_product_subarray)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Dynamic_Programming_I_Day_6, Level_2_Day_13_Dynamic_Programming, Udemy_Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
+| 0152 |[Maximum Product Subarray](src/main/java/g0101_0200/s0152_maximum_product_subarray)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Dynamic_Programming_I_Day_6, Level_2_Day_13_Dynamic_Programming, Udemy_Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 92.31
 | 0151 |[Reverse Words in a String](src/main/java/g0101_0200/s0151_reverse_words_in_a_string)| Medium | String, Two_Pointers, Udemy_Strings | 2 | 99.94
 | 0150 |[Evaluate Reverse Polish Notation](src/main/java/g0101_0200/s0150_evaluate_reverse_polish_notation)| Medium | Top_Interview_Questions, Array, Math, Stack, Programming_Skills_II_Day_3 | 9 | 51.23
 | 0149 |[Max Points on a Line](src/main/java/g0101_0200/s0149_max_points_on_a_line)| Hard | Top_Interview_Questions, Array, Hash_Table, Math, Geometry, Algorithm_II_Day_21_Others | 11 | 99.21
