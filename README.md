@@ -1816,15 +1816,27 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3261 |[Count Substrings That Satisfy K-Constraint II](src/main/java/g3201_3300/s3261_count_substrings_that_satisfy_k_constraint_ii)| Hard | Array, String, Binary_Search, Prefix_Sum, Sliding_Window | 8 | 100.00
+| 3260 |[Find the Largest Palindrome Divisible by K](src/main/java/g3201_3300/s3260_find_the_largest_palindrome_divisible_by_k)| Hard | String, Dynamic_Programming, Math, Greedy, Number_Theory | 4 | 97.21
+| 3259 |[Maximum Energy Boost From Two Drinks](src/main/java/g3201_3300/s3259_maximum_energy_boost_from_two_drinks)| Medium | Array, Dynamic_Programming | 3 | 100.00
+| 3258 |[Count Substrings That Satisfy K-Constraint I](src/main/java/g3201_3300/s3258_count_substrings_that_satisfy_k_constraint_i)| Easy | String, Sliding_Window | 1 | 100.00
+| 3257 |[Maximum Value Sum by Placing Three Rooks II](src/main/java/g3201_3300/s3257_maximum_value_sum_by_placing_three_rooks_ii)| Hard | Array, Dynamic_Programming, Matrix, Enumeration | 18 | 99.59
+| 3256 |[Maximum Value Sum by Placing Three Rooks I](src/main/java/g3201_3300/s3256_maximum_value_sum_by_placing_three_rooks_i)| Hard | Array, Dynamic_Programming, Matrix, Enumeration | 7 | 100.00
+| 3255 |[Find the Power of K-Size Subarrays II](src/main/java/g3201_3300/s3255_find_the_power_of_k_size_subarrays_ii)| Medium | Array, Sliding_Window | 3 | 99.24
+| 3254 |[Find the Power of K-Size Subarrays I](src/main/java/g3201_3300/s3254_find_the_power_of_k_size_subarrays_i)| Medium | Array, Sliding_Window | 1 | 100.00
+| 3251 |[Find the Count of Monotonic Pairs II](src/main/java/g3201_3300/s3251_find_the_count_of_monotonic_pairs_ii)| Hard | Array, Dynamic_Programming, Math, Prefix_Sum, Combinatorics | 24 | 100.00
+| 3250 |[Find the Count of Monotonic Pairs I](src/main/java/g3201_3300/s3250_find_the_count_of_monotonic_pairs_i)| Hard | Array, Dynamic_Programming, Math, Prefix_Sum, Combinatorics | 3 | 100.00
+| 3249 |[Count the Number of Good Nodes](src/main/java/g3201_3300/s3249_count_the_number_of_good_nodes)| Medium | Depth_First_Search, Tree | 34 | 100.00
+| 3248 |[Snake in Matrix](src/main/java/g3201_3300/s3248_snake_in_matrix)| Easy | Array, String, Simulation | 2 | 98.05
 | 3245 |[Alternating Groups III](src/main/java/g3201_3300/s3245_alternating_groups_iii)| Hard | Array, Binary_Indexed_Tree | 36 | 82.22
 | 3244 |[Shortest Distance After Road Addition Queries II](src/main/java/g3201_3300/s3244_shortest_distance_after_road_addition_queries_ii)| Hard | Array, Greedy, Graph, Ordered_Set | 5 | 97.43
-| 3243 |[Shortest Distance After Road Addition Queries I](src/main/java/g3201_3300/s3243_shortest_distance_after_road_addition_queries_i)| Medium | Array, Graph, Breadth_First_Search | 6 | 100.00
+| 3243 |[Shortest Distance After Road Addition Queries I](src/main/java/g3201_3300/s3243_shortest_distance_after_road_addition_queries_i)| Medium | Array, Breadth_First_Search, Graph | 6 | 100.00
 | 3242 |[Design Neighbor Sum Service](src/main/java/g3201_3300/s3242_design_neighbor_sum_service)| Easy | Array, Hash_Table, Matrix, Design, Simulation | 14 | 100.00
-| 3241 |[Time Taken to Mark All Nodes](src/main/java/g3201_3300/s3241_time_taken_to_mark_all_nodes)| Hard | Dynamic_Programming, Tree, Graph, Depth_First_Search | 39 | 100.00
+| 3241 |[Time Taken to Mark All Nodes](src/main/java/g3201_3300/s3241_time_taken_to_mark_all_nodes)| Hard | Dynamic_Programming, Depth_First_Search, Tree, Graph | 39 | 100.00
 | 3240 |[Minimum Number of Flips to Make Binary Grid Palindromic II](src/main/java/g3201_3300/s3240_minimum_number_of_flips_to_make_binary_grid_palindromic_ii)| Medium | Array, Matrix, Two_Pointers | 3 | 96.90
 | 3239 |[Minimum Number of Flips to Make Binary Grid Palindromic I](src/main/java/g3201_3300/s3239_minimum_number_of_flips_to_make_binary_grid_palindromic_i)| Medium | Array, Matrix, Two_Pointers | 3 | 100.00
 | 3238 |[Find the Number of Winning Players](src/main/java/g3201_3300/s3238_find_the_number_of_winning_players)| Easy | Array, Hash_Table, Counting | 1 | 100.00
-| 3235 |[Check if the Rectangle Corner Is Reachable](src/main/java/g3201_3300/s3235_check_if_the_rectangle_corner_is_reachable)| Hard | Array, Math, Union_Find, Geometry, Depth_First_Search, Breadth_First_Search | 95 | 59.46
+| 3235 |[Check if the Rectangle Corner Is Reachable](src/main/java/g3201_3300/s3235_check_if_the_rectangle_corner_is_reachable)| Hard | Array, Math, Depth_First_Search, Breadth_First_Search, Union_Find, Geometry | 95 | 59.46
 | 3234 |[Count the Number of Substrings With Dominant Ones](src/main/java/g3201_3300/s3234_count_the_number_of_substrings_with_dominant_ones)| Medium | String, Sliding_Window, Enumeration | 163 | 93.90
 | 3233 |[Find the Count of Numbers Which Are Not Special](src/main/java/g3201_3300/s3233_find_the_count_of_numbers_which_are_not_special)| Medium | Array, Math, Number_Theory | 20 | 70.12
 | 3232 |[Find if Digit Game Can Be Won](src/main/java/g3201_3300/s3232_find_if_digit_game_can_be_won)| Easy | Array, Math | 0 | 100.00
