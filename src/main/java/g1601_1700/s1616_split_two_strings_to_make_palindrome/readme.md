@@ -55,25 +55,29 @@ Then, a<sub>prefix</sub> + b<sub>suffix</sub> = "ula" + "alu" = "ulaalu", which 
 @SuppressWarnings("java:S2234")
 public class Solution {
     public boolean checkPalindromeFormation(String a, String b) {
-        return check(a, b) || check(b, a);
+        int n = a.length();
+        int s = 0;
+        int e = n - 1;
+        if (isPalindrome(a, b, s, e, true)) {
+            return true;
+        } else {
+            return isPalindrome(b, a, s, e, true);
+        }
     }
 
-    private boolean check(String a, String b) {
-        int i = 0;
-        int j = b.length() - 1;
-        while (j > i && a.charAt(i) == b.charAt(j)) {
-            ++i;
-            --j;
+    private boolean isPalindrome(String a, String b, int s, int e, boolean check) {
+        if (s == e) {
+            return true;
         }
-        return isPalindrome(a, i, j) || isPalindrome(b, i, j);
-    }
-
-    private boolean isPalindrome(String s, int i, int j) {
-        while (j > i && s.charAt(i) == s.charAt(j)) {
-            ++i;
-            --j;
+        while (s < e) {
+            if (a.charAt(s) != b.charAt(e)) {
+                return check
+                        && (isPalindrome(a, a, s, e, false) || isPalindrome(b, b, s, e, false));
+            }
+            s++;
+            e--;
         }
-        return i >= j;
+        return true;
     }
 }
 ```
