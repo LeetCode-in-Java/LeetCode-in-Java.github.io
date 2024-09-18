@@ -60,7 +60,7 @@
 |-|-|-|-|-|-
 | 0121 |[Best Time to Buy and Sell Stock](src/main/java/g0101_0200/s0121_best_time_to_buy_and_sell_stock)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 100.00
 | 0283 |[Move Zeroes](src/main/java/g0201_0300/s0283_move_zeroes)| Easy | Top_100_Liked_Questions, Array, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 2 | 79.54
-| 0001 |[Two Sum](src/main/java/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n) | 2 | 85.97
+| 0001 |[Two Sum](src/main/java/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n), AI_can_be_used_to_solve_the_task | 2 | 85.97
 | 0217 |[Contains Duplicate](src/main/java/g0201_0300/s0217_contains_duplicate)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting | 6 | 96.68
 | 0058 |[Length of Last Word](src/main/java/g0001_0100/s0058_length_of_last_word)| Easy | String | 0 | 100.00
 | 0605 |[Can Place Flowers](src/main/java/g0601_0700/s0605_can_place_flowers)| Easy | Array, Greedy | 1 | 96.77
@@ -244,7 +244,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0001 |[Two Sum](src/main/java/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n) | 2 | 85.97
+| 0001 |[Two Sum](src/main/java/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n), AI_can_be_used_to_solve_the_task | 2 | 85.97
 | 0088 |[Merge Sorted Array](src/main/java/g0001_0100/s0088_merge_sorted_array)| Easy | Top_Interview_Questions, Array, Sorting, Two_Pointers | 0 | 100.00
 
 #### Day 3 Array
@@ -409,7 +409,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0002 |[Add Two Numbers](src/main/java/g0001_0100/s0002_add_two_numbers)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Big_O_Time_O(max(N,M))_Space_O(max(N,M)) | 1 | 100.00
+| 0002 |[Add Two Numbers](src/main/java/g0001_0100/s0002_add_two_numbers)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Big_O_Time_O(max(N,M))_Space_O(max(N,M)), AI_can_be_used_to_solve_the_task | 1 | 100.00
 | 0142 |[Linked List Cycle II](src/main/java/g0101_0200/s0142_linked_list_cycle_ii)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
 
 #### Day 11 Linked List
@@ -1330,7 +1330,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0002 |[Add Two Numbers](src/main/java/g0001_0100/s0002_add_two_numbers)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Big_O_Time_O(max(N,M))_Space_O(max(N,M)) | 1 | 100.00
+| 0002 |[Add Two Numbers](src/main/java/g0001_0100/s0002_add_two_numbers)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Big_O_Time_O(max(N,M))_Space_O(max(N,M)), AI_can_be_used_to_solve_the_task | 1 | 100.00
 | 0445 |[Add Two Numbers II](src/main/java/g0401_0500/s0445_add_two_numbers_ii)| Medium | Math, Stack, Linked_List | 3 | 90.38
 
 #### Day 16
@@ -1648,7 +1648,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0001 |[Two Sum](src/main/java/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n) | 2 | 85.97
+| 0001 |[Two Sum](src/main/java/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n), AI_can_be_used_to_solve_the_task | 2 | 85.97
 | 0299 |[Bulls and Cows](src/main/java/g0201_0300/s0299_bulls_and_cows)| Medium | String, Hash_Table, Counting | 6 | 86.69
 
 #### Day 14 Stack
@@ -1816,6 +1816,18 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3292 |[Minimum Number of Valid Strings to Form Target II](src/main/java/g3201_3300/s3292_minimum_number_of_valid_strings_to_form_target_ii)| Hard | Array, String, Dynamic_Programming, Binary_Search, Segment_Tree, Hash_Function, String_Matching, Rolling_Hash | 103 | 100.00
+| 3291 |[Minimum Number of Valid Strings to Form Target I](src/main/java/g3201_3300/s3291_minimum_number_of_valid_strings_to_form_target_i)| Medium | Array, String, Dynamic_Programming, Binary_Search, Trie, Segment_Tree, Hash_Function, String_Matching, Rolling_Hash | 263 | 60.00
+| 3290 |[Maximum Multiplication Score](src/main/java/g3201_3300/s3290_maximum_multiplication_score)| Medium | Array, Dynamic_Programming | 8 | 100.00
+| 3289 |[The Two Sneaky Numbers of Digitville](src/main/java/g3201_3300/s3289_the_two_sneaky_numbers_of_digitville)| Easy | Array, Hash_Table, Math | 3 | 100.00
+| 3288 |[Length of the Longest Increasing Path](src/main/java/g3201_3300/s3288_length_of_the_longest_increasing_path)| Hard | Array, Sorting, Binary_Search | 34 | 100.00
+| 3287 |[Find the Maximum Sequence Value of Array](src/main/java/g3201_3300/s3287_find_the_maximum_sequence_value_of_array)| Hard | Array, Dynamic_Programming, Bit_Manipulation | 1140 | 100.00
+| 3286 |[Find a Safe Walk Through a Grid](src/main/java/g3201_3300/s3286_find_a_safe_walk_through_a_grid)| Medium | Array, Matrix, Heap_Priority_Queue, Graph, Shortest_Path, Breadth_First_Search | 90 | 100.00
+| 3285 |[Find Indices of Stable Mountains](src/main/java/g3201_3300/s3285_find_indices_of_stable_mountains)| Easy | Array | 1 | 100.00
+| 3283 |[Maximum Number of Moves to Kill All Pawns](src/main/java/g3201_3300/s3283_maximum_number_of_moves_to_kill_all_pawns)| Hard | Array, Math, Breadth_First_Search, Bit_Manipulation, Bitmask, Game_Theory | 250 | 98.43
+| 3282 |[Reach End of Array With Max Score](src/main/java/g3201_3300/s3282_reach_end_of_array_with_max_score)| Medium | Array, Greedy | 9 | 100.00
+| 3281 |[Maximize Score of Numbers in Ranges](src/main/java/g3201_3300/s3281_maximize_score_of_numbers_in_ranges)| Medium | Array, Sorting, Greedy, Binary_Search | 47 | 100.00
+| 3280 |[Convert Date to Binary](src/main/java/g3201_3300/s3280_convert_date_to_binary)| Easy | String, Math | 3 | 100.00
 | 3277 |[Maximum XOR Score Subarray Queries](src/main/java/g3201_3300/s3277_maximum_xor_score_subarray_queries)| Hard | Array, Dynamic_Programming | 29 | 98.87
 | 3276 |[Select Cells in Grid With Maximum Score](src/main/java/g3201_3300/s3276_select_cells_in_grid_with_maximum_score)| Hard | Array, Dynamic_Programming, Matrix, Bit_Manipulation, Bitmask | 6 | 99.82
 | 3275 |[K-th Nearest Obstacle Queries](src/main/java/g3201_3300/s3275_k_th_nearest_obstacle_queries)| Medium | Array, Heap_Priority_Queue | 33 | 100.00
@@ -4421,6 +4433,6 @@
 | 0005 |[Longest Palindromic Substring](src/main/java/g0001_0100/s0005_longest_palindromic_substring)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Data_Structure_II_Day_9_String, Algorithm_II_Day_14_Dynamic_Programming, Dynamic_Programming_I_Day_17, Udemy_Strings, Big_O_Time_O(n)_Space_O(n) | 7 | 96.96
 | 0004 |[Median of Two Sorted Arrays](src/main/java/g0001_0100/s0004_median_of_two_sorted_arrays)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Divide_and_Conquer, Big_O_Time_O(log(min(N,M)))_Space_O(1) | 1 | 100.00
 | 0003 |[Longest Substring Without Repeating Characters](src/main/java/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Algorithm_I_Day_6_Sliding_Window, Level_2_Day_14_Sliding_Window/Two_Pointer, Udemy_Strings, Big_O_Time_O(n)_Space_O(1) | 2 | 99.52
-| 0002 |[Add Two Numbers](src/main/java/g0001_0100/s0002_add_two_numbers)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Data_Structure_II_Day_10_Linked_List, Programming_Skills_II_Day_15, Big_O_Time_O(max(N,M))_Space_O(max(N,M)) | 1 | 100.00
-| 0001 |[Two Sum](src/main/java/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Data_Structure_I_Day_2_Array, Level_1_Day_13_Hashmap, Udemy_Arrays, Big_O_Time_O(n)_Space_O(n) | 2 | 85.97
+| 0002 |[Add Two Numbers](src/main/java/g0001_0100/s0002_add_two_numbers)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Data_Structure_II_Day_10_Linked_List, Programming_Skills_II_Day_15, Big_O_Time_O(max(N,M))_Space_O(max(N,M)), AI_can_be_used_to_solve_the_task | 1 | 100.00
+| 0001 |[Two Sum](src/main/java/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Data_Structure_I_Day_2_Array, Level_1_Day_13_Hashmap, Udemy_Arrays, Big_O_Time_O(n)_Space_O(n), AI_can_be_used_to_solve_the_task | 2 | 85.97
 
