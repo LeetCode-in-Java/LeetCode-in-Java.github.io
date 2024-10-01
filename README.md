@@ -2,7 +2,6 @@
 [![](https://img.shields.io/github/forks/javadev/LeetCode-in-Java?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/javadev/LeetCode-in-Java/fork)
 > ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
 
-* [Udemy](#udemy)
 * [Data Structure I](#data-structure-i)
 * [Data Structure II](#data-structure-ii)
 * [Algorithm I](#algorithm-i)
@@ -16,220 +15,7 @@
 * [SQL I](#sql-i)
 * [Level 1](#level-1)
 * [Level 2](#level-2)
-
-### Udemy
-
-#### Udemy Integers
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0412 |[Fizz Buzz](src/main/java/g0401_0500/s0412_fizz_buzz)| Easy | String, Math, Simulation | 1 | 100.00
-| 0136 |[Single Number](src/main/java/g0101_0200/s0136_single_number)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 1 | 99.97
-| 0007 |[Reverse Integer](src/main/java/g0001_0100/s0007_reverse_integer)| Medium | Top_Interview_Questions, Math | 1 | 96.61
-| 0009 |[Palindrome Number](src/main/java/g0001_0100/s0009_palindrome_number)| Easy | Math | 5 | 77.91
-| 0172 |[Factorial Trailing Zeroes](src/main/java/g0101_0200/s0172_factorial_trailing_zeroes)| Medium | Top_Interview_Questions, Math | 1 | 85.61
-| 0050 |[Pow(x, n)](src/main/java/g0001_0100/s0050_powx_n)| Medium | Top_Interview_Questions, Math, Recursion | 0 | 100.00
-
-#### Udemy Strings
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0344 |[Reverse String](src/main/java/g0301_0400/s0344_reverse_string)| Easy | String, Two_Pointers, Recursion | 1 | 99.91
-| 0014 |[Longest Common Prefix](src/main/java/g0001_0100/s0014_longest_common_prefix)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String | 0 | 100.00
-| 0187 |[Repeated DNA Sequences](src/main/java/g0101_0200/s0187_repeated_dna_sequences)| Medium | String, Hash_Table, Bit_Manipulation, Sliding_Window, Hash_Function, Rolling_Hash | 29 | 77.11
-| 0003 |[Longest Substring Without Repeating Characters](src/main/java/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1) | 2 | 99.52
-| 0020 |[Valid Parentheses](src/main/java/g0001_0100/s0020_valid_parentheses)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String, Stack, Big_O_Time_O(n)_Space_O(n) | 1 | 98.78
-| 0005 |[Longest Palindromic Substring](src/main/java/g0001_0100/s0005_longest_palindromic_substring)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 7 | 96.96
-| 0394 |[Decode String](src/main/java/g0301_0400/s0394_decode_string)| Medium | Top_100_Liked_Questions, String, Stack, Recursion, Big_O_Time_O(n)_Space_O(n) | 1 | 87.68
-| 0242 |[Valid Anagram](src/main/java/g0201_0300/s0242_valid_anagram)| Easy | String, Hash_Table, Sorting | 2 | 99.01
-| 0049 |[Group Anagrams](src/main/java/g0001_0100/s0049_group_anagrams)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, String, Hash_Table, Sorting, Big_O_Time_O(n\*k_log_k)_Space_O(n) | 6 | 92.28
-| 0151 |[Reverse Words in a String](src/main/java/g0101_0200/s0151_reverse_words_in_a_string)| Medium | String, Two_Pointers | 2 | 99.94
-| 0273 |[Integer to English Words](src/main/java/g0201_0300/s0273_integer_to_english_words)| Hard | String, Math, Recursion | 3 | 95.67
-
-#### Udemy Binary Search
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0704 |[Binary Search](src/main/java/g0701_0800/s0704_binary_search)| Easy | Top_100_Liked_Questions, Array, Binary_Search | 0 | 100.00
-| 0033 |[Search in Rotated Sorted Array](src/main/java/g0001_0100/s0033_search_in_rotated_sorted_array)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 0 | 100.00
-| 0153 |[Find Minimum in Rotated Sorted Array](src/main/java/g0101_0200/s0153_find_minimum_in_rotated_sorted_array)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 0 | 100.00
-
-#### Udemy Arrays
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0121 |[Best Time to Buy and Sell Stock](src/main/java/g0101_0200/s0121_best_time_to_buy_and_sell_stock)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 100.00
-| 0283 |[Move Zeroes](src/main/java/g0201_0300/s0283_move_zeroes)| Easy | Top_100_Liked_Questions, Array, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 2 | 79.54
-| 0001 |[Two Sum](src/main/java/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n), AI_can_be_used_to_solve_the_task | 2 | 85.97
-| 0217 |[Contains Duplicate](src/main/java/g0201_0300/s0217_contains_duplicate)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting | 6 | 96.68
-| 0058 |[Length of Last Word](src/main/java/g0001_0100/s0058_length_of_last_word)| Easy | String | 0 | 100.00
-| 0605 |[Can Place Flowers](src/main/java/g0601_0700/s0605_can_place_flowers)| Easy | Array, Greedy | 1 | 96.77
-| 0122 |[Best Time to Buy and Sell Stock II](src/main/java/g0101_0200/s0122_best_time_to_buy_and_sell_stock_ii)| Medium | Top_Interview_Questions, Array, Dynamic_Programming, Greedy | 1 | 96.82
-| 0080 |[Remove Duplicates from Sorted Array II](src/main/java/g0001_0100/s0080_remove_duplicates_from_sorted_array_ii)| Medium | Array, Two_Pointers | 0 | 100.00
-| 0189 |[Rotate Array](src/main/java/g0101_0200/s0189_rotate_array)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
-| 0055 |[Jump Game](src/main/java/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy, Big_O_Time_O(n)_Space_O(1) | 2 | 79.47
-| 0075 |[Sort Colors](src/main/java/g0001_0100/s0075_sort_colors)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
-| 0066 |[Plus One](src/main/java/g0001_0100/s0066_plus_one)| Easy | Top_Interview_Questions, Array, Math | 0 | 100.00
-| 0238 |[Product of Array Except Self](src/main/java/g0201_0300/s0238_product_of_array_except_self)| Medium | Top_100_Liked_Questions, Array, Prefix_Sum, Big_O_Time_O(n^2)_Space_O(n) | 1 | 100.00
-| 1291 |[Sequential Digits](src/main/java/g1201_1300/s1291_sequential_digits)| Medium | Enumeration | 0 | 100.00
-| 0448 |[Find All Numbers Disappeared in an Array](src/main/java/g0401_0500/s0448_find_all_numbers_disappeared_in_an_array)| Easy | Array, Hash_Table | 3 | 100.00
-| 0442 |[Find All Duplicates in an Array](src/main/java/g0401_0500/s0442_find_all_duplicates_in_an_array)| Medium | Array, Hash_Table | 5 | 98.83
-| 0041 |[First Missing Positive](src/main/java/g0001_0100/s0041_first_missing_positive)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n) | 2 | 57.59
-| 0697 |[Degree of an Array](src/main/java/g0601_0700/s0697_degree_of_an_array)| Easy | Array, Hash_Table | 14 | 93.19
-| 0532 |[K-diff Pairs in an Array](src/main/java/g0501_0600/s0532_k_diff_pairs_in_an_array)| Medium | Array, Hash_Table, Sorting, Binary_Search, Two_Pointers | 13 | 58.23
-| 0713 |[Subarray Product Less Than K](src/main/java/g0701_0800/s0713_subarray_product_less_than_k)| Medium | Array, Sliding_Window | 8 | 39.00
-| 1007 |[Minimum Domino Rotations For Equal Row](src/main/java/g1001_1100/s1007_minimum_domino_rotations_for_equal_row)| Medium | Array, Greedy | 5 | 79.64
-| 1306 |[Jump Game III](src/main/java/g1301_1400/s1306_jump_game_iii)| Medium | Array, Depth_First_Search, Breadth_First_Search | 2 | 96.23
-| 0456 |[132 Pattern](src/main/java/g0401_0500/s0456_132_pattern)| Medium | Array, Binary_Search, Stack, Ordered_Set, Monotonic_Stack | 16 | 82.41
-| 0239 |[Sliding Window Maximum](src/main/java/g0201_0300/s0239_sliding_window_maximum)| Hard | Top_100_Liked_Questions, Array, Heap_Priority_Queue, Sliding_Window, Queue, Monotonic_Queue, Big_O_Time_O(n\*k)_Space_O(n+k) | 58 | 52.28
-
-#### Udemy Two Pointers
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0392 |[Is Subsequence](src/main/java/g0301_0400/s0392_is_subsequence)| Easy | String, Dynamic_Programming, Two_Pointers | 1 | 93.01
-| 0125 |[Valid Palindrome](src/main/java/g0101_0200/s0125_valid_palindrome)| Easy | Top_Interview_Questions, String, Two_Pointers | 3 | 98.64
-| 0977 |[Squares of a Sorted Array](src/main/java/g0901_1000/s0977_squares_of_a_sorted_array)| Easy | Array, Sorting, Two_Pointers | 1 | 100.00
-| 0026 |[Remove Duplicates from Sorted Array](src/main/java/g0001_0100/s0026_remove_duplicates_from_sorted_array)| Easy | Top_Interview_Questions, Array, Two_Pointers | 1 | 98.56
-| 0042 |[Trapping Rain Water](src/main/java/g0001_0100/s0042_trapping_rain_water)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Two_Pointers, Stack, Monotonic_Stack, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
-| 0015 |[3Sum](src/main/java/g0001_0100/s0015_3sum)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n\*log(n))_Space_O(n^2) | 29 | 82.24
-
-#### Udemy Famous Algorithm
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0053 |[Maximum Subarray](src/main/java/g0001_0100/s0053_maximum_subarray)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 1 | 100.00
-| 0169 |[Majority Element](src/main/java/g0101_0200/s0169_majority_element)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 1 | 100.00
-
-#### Udemy Sorting Algorithms
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0912 |[Sort an Array](src/main/java/g0901_1000/s0912_sort_an_array)| Medium | Array, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Merge_Sort, Bucket_Sort, Counting_Sort, Radix_Sort | 25 | 38.15
-
-#### Udemy 2D Arrays/Matrix
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0304 |[Range Sum Query 2D - Immutable](src/main/java/g0301_0400/s0304_range_sum_query_2d_immutable)| Medium | Array, Matrix, Design, Prefix_Sum | 153 | 87.51
-| 0074 |[Search a 2D Matrix](src/main/java/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 0 | 100.00
-| 0054 |[Spiral Matrix](src/main/java/g0001_0100/s0054_spiral_matrix)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Matrix, Simulation | 0 | 100.00
-| 0048 |[Rotate Image](src/main/java/g0001_0100/s0048_rotate_image)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Matrix, Big_O_Time_O(n^2)_Space_O(1) | 0 | 100.00
-| 1572 |[Matrix Diagonal Sum](src/main/java/g1501_1600/s1572_matrix_diagonal_sum)| Easy | Array, Matrix | 0 | 100.00
-| 0073 |[Set Matrix Zeroes](src/main/java/g0001_0100/s0073_set_matrix_zeroes)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Matrix, Big_O_Time_O(m\*n)_Space_O(1) | 1 | 79.07
-| 0056 |[Merge Intervals](src/main/java/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Big_O_Time_O(n_log_n)_Space_O(n) | 8 | 96.27
-
-#### Udemy Linked List
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0114 |[Flatten Binary Tree to Linked List](src/main/java/g0101_0200/s0114_flatten_binary_tree_to_linked_list)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Linked_List, Big_O_Time_O(N)_Space_O(N) | 1 | 75.27
-| 0445 |[Add Two Numbers II](src/main/java/g0401_0500/s0445_add_two_numbers_ii)| Medium | Math, Stack, Linked_List | 3 | 90.38
-| 0328 |[Odd Even Linked List](src/main/java/g0301_0400/s0328_odd_even_linked_list)| Medium | Linked_List | 0 | 100.00
-| 0061 |[Rotate List](src/main/java/g0001_0100/s0061_rotate_list)| Medium | Two_Pointers, Linked_List | 0 | 100.00
-| 0024 |[Swap Nodes in Pairs](src/main/java/g0001_0100/s0024_swap_nodes_in_pairs)| Medium | Top_100_Liked_Questions, Linked_List, Recursion, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
-| 0876 |[Middle of the Linked List](src/main/java/g0801_0900/s0876_middle_of_the_linked_list)| Easy | Two_Pointers, Linked_List | 0 | 100.00
-| 0142 |[Linked List Cycle II](src/main/java/g0101_0200/s0142_linked_list_cycle_ii)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
-| 0141 |[Linked List Cycle](src/main/java/g0101_0200/s0141_linked_list_cycle)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
-| 0206 |[Reverse Linked List](src/main/java/g0201_0300/s0206_reverse_linked_list)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
-| 0021 |[Merge Two Sorted Lists](src/main/java/g0001_0100/s0021_merge_two_sorted_lists)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 0 | 100.00
-| 0160 |[Intersection of Two Linked Lists](src/main/java/g0101_0200/s0160_intersection_of_two_linked_lists)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(M+N)_Space_O(1) | 1 | 99.68
-| 0234 |[Palindrome Linked List](src/main/java/g0201_0300/s0234_palindrome_linked_list)| Easy | Top_100_Liked_Questions, Two_Pointers, Stack, Linked_List, Recursion, Big_O_Time_O(n)_Space_O(1) | 6 | 76.07
-| 0138 |[Copy List with Random Pointer](src/main/java/g0101_0200/s0138_copy_list_with_random_pointer)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
-| 0025 |[Reverse Nodes in k-Group](src/main/java/g0001_0100/s0025_reverse_nodes_in_k_group)| Hard | Top_100_Liked_Questions, Linked_List, Recursion, Big_O_Time_O(n)_Space_O(k) | 0 | 100.00
-| 0146 |[LRU Cache](src/main/java/g0101_0200/s0146_lru_cache)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Design, Linked_List, Doubly_Linked_List, Big_O_Time_O(1)_Space_O(capacity) | 87 | 50.80
-| 0707 |[Design Linked List](src/main/java/g0701_0800/s0707_design_linked_list)| Medium | Design, Linked_List | 10 | 70.60
-
-#### Udemy Tree Stack Queue
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0144 |[Binary Tree Preorder Traversal](src/main/java/g0101_0200/s0144_binary_tree_preorder_traversal)| Easy | Depth_First_Search, Tree, Binary_Tree, Stack | 1 | 48.38
-| 0094 |[Binary Tree Inorder Traversal](src/main/java/g0001_0100/s0094_binary_tree_inorder_traversal)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
-| 0145 |[Binary Tree Postorder Traversal](src/main/java/g0101_0200/s0145_binary_tree_postorder_traversal)| Easy | Depth_First_Search, Tree, Binary_Tree, Stack | 1 | 49.11
-| 0102 |[Binary Tree Level Order Traversal](src/main/java/g0101_0200/s0102_binary_tree_level_order_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 1 | 91.09
-| 0103 |[Binary Tree Zigzag Level Order Traversal](src/main/java/g0101_0200/s0103_binary_tree_zigzag_level_order_traversal)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 1 | 95.00
-| 0108 |[Convert Sorted Array to Binary Search Tree](src/main/java/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 0 | 100.00
-| 1008 |[Construct Binary Search Tree from Preorder Traversal](src/main/java/g1001_1100/s1008_construct_binary_search_tree_from_preorder_traversal)| Medium | Array, Tree, Binary_Tree, Stack, Monotonic_Stack, Binary_Search_Tree | 0 | 100.00
-| 0543 |[Diameter of Binary Tree](src/main/java/g0501_0600/s0543_diameter_of_binary_tree)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 1 | 65.86
-| 0938 |[Range Sum of BST](src/main/java/g0901_1000/s0938_range_sum_of_bst)| Easy | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 0 | 100.00
-| 0100 |[Same Tree](src/main/java/g0001_0100/s0100_same_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
-| 0226 |[Invert Binary Tree](src/main/java/g0201_0300/s0226_invert_binary_tree)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
-| 0111 |[Minimum Depth of Binary Tree](src/main/java/g0101_0200/s0111_minimum_depth_of_binary_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 1 | 97.49
-| 0104 |[Maximum Depth of Binary Tree](src/main/java/g0101_0200/s0104_maximum_depth_of_binary_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(H) | 0 | 100.00
-| 0110 |[Balanced Binary Tree](src/main/java/g0101_0200/s0110_balanced_binary_tree)| Easy | Depth_First_Search, Tree, Binary_Tree | 1 | 98.82
-| 0701 |[Insert into a Binary Search Tree](src/main/java/g0701_0800/s0701_insert_into_a_binary_search_tree)| Medium | Tree, Binary_Tree, Binary_Search_Tree | 0 | 100.00
-| 0297 |[Serialize and Deserialize Binary Tree](src/main/java/g0201_0300/s0297_serialize_and_deserialize_binary_tree)| Hard | String, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Design | 7 | 98.13
-| 0124 |[Binary Tree Maximum Path Sum](src/main/java/g0101_0200/s0124_binary_tree_maximum_path_sum)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 1 | 99.46
-| 0098 |[Validate Binary Search Tree](src/main/java/g0001_0100/s0098_validate_binary_search_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Big_O_Time_O(N)_Space_O(log(N)) | 0 | 100.00
-| 0337 |[House Robber III](src/main/java/g0301_0400/s0337_house_robber_iii)| Medium | Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree | 1 | 91.77
-| 0236 |[Lowest Common Ancestor of a Binary Tree](src/main/java/g0201_0300/s0236_lowest_common_ancestor_of_a_binary_tree)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 10 | 56.51
-| 0968 |[Binary Tree Cameras](src/main/java/g0901_1000/s0968_binary_tree_cameras)| Hard | Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree | 0 | 100.00
-
-#### Udemy Trie and Heap
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0208 |[Implement Trie (Prefix Tree)](src/main/java/g0201_0300/s0208_implement_trie_prefix_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Design, Trie, Big_O_Time_O(word.length())_or_O(prefix.length())_Space_O(N) | 34 | 99.90
-| 0745 |[Prefix and Suffix Search](src/main/java/g0701_0800/s0745_prefix_and_suffix_search)| Hard | String, Design, Trie | 366 | 76.15
-
-#### Udemy Graph
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0200 |[Number of Islands](src/main/java/g0101_0200/s0200_number_of_islands)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 3 | 97.76
-| 0133 |[Clone Graph](src/main/java/g0101_0200/s0133_clone_graph)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Graph | 45 | 29.80
-| 0417 |[Pacific Atlantic Water Flow](src/main/java/g0401_0500/s0417_pacific_atlantic_water_flow)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix | 5 | 92.62
-
-#### Udemy Dynamic Programming
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0120 |[Triangle](src/main/java/g0101_0200/s0120_triangle)| Medium | Array, Dynamic_Programming | 2 | 94.63
-| 0118 |[Pascal's Triangle](src/main/java/g0101_0200/s0118_pascals_triangle)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming | 1 | 67.08
-| 0119 |[Pascal's Triangle II](src/main/java/g0101_0200/s0119_pascals_triangle_ii)| Easy | Array, Dynamic_Programming | 0 | 100.00
-| 0139 |[Word Break](src/main/java/g0101_0200/s0139_word_break)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 2 | 97.08
-| 0152 |[Maximum Product Subarray](src/main/java/g0101_0200/s0152_maximum_product_subarray)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 92.31
-| 0198 |[House Robber](src/main/java/g0101_0200/s0198_house_robber)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
-| 0213 |[House Robber II](src/main/java/g0201_0300/s0213_house_robber_ii)| Medium | Array, Dynamic_Programming | 0 | 100.00
-| 0509 |[Fibonacci Number](src/main/java/g0501_0600/s0509_fibonacci_number)| Easy | Dynamic_Programming, Math, Recursion, Memoization | 0 | 100.00
-| 0070 |[Climbing Stairs](src/main/java/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
-| 0064 |[Minimum Path Sum](src/main/java/g0001_0100/s0064_minimum_path_sum)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Big_O_Time_O(m\*n)_Space_O(m\*n) | 0 | 100.00
-| 0300 |[Longest Increasing Subsequence](src/main/java/g0201_0300/s0300_longest_increasing_subsequence)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Binary_Search, Big_O_Time_O(n\*log_n)_Space_O(n) | 3 | 98.63
-| 1143 |[Longest Common Subsequence](src/main/java/g1101_1200/s1143_longest_common_subsequence)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n\*m)_Space_O(n\*m) | 33 | 46.23
-| 0072 |[Edit Distance](src/main/java/g0001_0100/s0072_edit_distance)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 4 | 90.13
-| 0044 |[Wildcard Matching](src/main/java/g0001_0100/s0044_wildcard_matching)| Hard | Top_Interview_Questions, String, Dynamic_Programming, Greedy, Recursion | 2 | 99.87
-| 0010 |[Regular Expression Matching](src/main/java/g0001_0100/s0010_regular_expression_matching)| Hard | Top_Interview_Questions, String, Dynamic_Programming, Recursion, Big_O_Time_O(m\*n)_Space_O(m\*n) | 1 | 100.00
-
-#### Udemy Backtracking/Recursion
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0022 |[Generate Parentheses](src/main/java/g0001_0100/s0022_generate_parentheses)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Backtracking, Big_O_Time_O(2^n)_Space_O(n) | 0 | 100.00
-| 0039 |[Combination Sum](src/main/java/g0001_0100/s0039_combination_sum)| Medium | Top_100_Liked_Questions, Array, Backtracking, Big_O_Time_O(2^n)_Space_O(n+2^n) | 1 | 100.00
-| 0216 |[Combination Sum III](src/main/java/g0201_0300/s0216_combination_sum_iii)| Medium | Array, Backtracking | 1 | 81.35
-| 0078 |[Subsets](src/main/java/g0001_0100/s0078_subsets)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Backtracking, Big_O_Time_O(2^n)_Space_O(n\*2^n) | 1 | 70.60
-| 0017 |[Letter Combinations of a Phone Number](src/main/java/g0001_0100/s0017_letter_combinations_of_a_phone_number)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Backtracking, Big_O_Time_O(4^n)_Space_O(n) | 0 | 100.00
-| 0046 |[Permutations](src/main/java/g0001_0100/s0046_permutations)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Backtracking, Big_O_Time_O(n\*n!)_Space_O(n+n!) | 1 | 95.07
-
-#### Udemy Bit Manipulation
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0191 |[Number of 1 Bits](src/main/java/g0101_0200/s0191_number_of_1_bits)| Easy | Top_Interview_Questions, Bit_Manipulation | 1 | 84.87
-| 0389 |[Find the Difference](src/main/java/g0301_0400/s0389_find_the_difference)| Easy | String, Hash_Table, Sorting, Bit_Manipulation | 1 | 100.00
-| 0190 |[Reverse Bits](src/main/java/g0101_0200/s0190_reverse_bits)| Easy | Top_Interview_Questions, Bit_Manipulation, Divide_and_Conquer | 1 | 98.66
-| 0461 |[Hamming Distance](src/main/java/g0401_0500/s0461_hamming_distance)| Easy | Bit_Manipulation | 0 | 100.00
-| 1009 |[Complement of Base 10 Integer](src/main/java/g1001_1100/s1009_complement_of_base_10_integer)| Easy | Bit_Manipulation | 1 | 41.56
-| 0338 |[Counting Bits](src/main/java/g0301_0400/s0338_counting_bits)| Easy | Dynamic_Programming, Bit_Manipulation, Big_O_Time_O(num)_Space_O(num) | 2 | 86.73
-| 0371 |[Sum of Two Integers](src/main/java/g0301_0400/s0371_sum_of_two_integers)| Medium | Math, Bit_Manipulation | 0 | 100.00
-| 0029 |[Divide Two Integers](src/main/java/g0001_0100/s0029_divide_two_integers)| Medium | Top_Interview_Questions, Math, Bit_Manipulation | 1 | 97.44
-
-#### Udemy Design
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0155 |[Min Stack](src/main/java/g0101_0200/s0155_min_stack)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 3 | 100.00
+* [Udemy](#udemy)
 
 ### Data Structure I
 
@@ -1812,17 +1598,243 @@
 | 0039 |[Combination Sum](src/main/java/g0001_0100/s0039_combination_sum)| Medium | Top_100_Liked_Questions, Array, Backtracking, Big_O_Time_O(2^n)_Space_O(n+2^n) | 1 | 100.00
 | 0046 |[Permutations](src/main/java/g0001_0100/s0046_permutations)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Backtracking, Big_O_Time_O(n\*n!)_Space_O(n+n!) | 1 | 95.07
 
+### Udemy
+
+#### Udemy Integers
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0412 |[Fizz Buzz](src/main/java/g0401_0500/s0412_fizz_buzz)| Easy | String, Math, Simulation | 1 | 100.00
+| 0136 |[Single Number](src/main/java/g0101_0200/s0136_single_number)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 1 | 99.97
+| 0007 |[Reverse Integer](src/main/java/g0001_0100/s0007_reverse_integer)| Medium | Top_Interview_Questions, Math | 1 | 96.61
+| 0009 |[Palindrome Number](src/main/java/g0001_0100/s0009_palindrome_number)| Easy | Math | 5 | 77.91
+| 0172 |[Factorial Trailing Zeroes](src/main/java/g0101_0200/s0172_factorial_trailing_zeroes)| Medium | Top_Interview_Questions, Math | 1 | 85.61
+| 0050 |[Pow(x, n)](src/main/java/g0001_0100/s0050_powx_n)| Medium | Top_Interview_Questions, Math, Recursion | 0 | 100.00
+
+#### Udemy Strings
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0344 |[Reverse String](src/main/java/g0301_0400/s0344_reverse_string)| Easy | String, Two_Pointers, Recursion | 1 | 99.91
+| 0014 |[Longest Common Prefix](src/main/java/g0001_0100/s0014_longest_common_prefix)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String | 0 | 100.00
+| 0187 |[Repeated DNA Sequences](src/main/java/g0101_0200/s0187_repeated_dna_sequences)| Medium | String, Hash_Table, Bit_Manipulation, Sliding_Window, Hash_Function, Rolling_Hash | 29 | 77.11
+| 0003 |[Longest Substring Without Repeating Characters](src/main/java/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1) | 2 | 99.52
+| 0020 |[Valid Parentheses](src/main/java/g0001_0100/s0020_valid_parentheses)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String, Stack, Big_O_Time_O(n)_Space_O(n) | 1 | 98.78
+| 0005 |[Longest Palindromic Substring](src/main/java/g0001_0100/s0005_longest_palindromic_substring)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 7 | 96.96
+| 0394 |[Decode String](src/main/java/g0301_0400/s0394_decode_string)| Medium | Top_100_Liked_Questions, String, Stack, Recursion, Big_O_Time_O(n)_Space_O(n) | 1 | 87.68
+| 0242 |[Valid Anagram](src/main/java/g0201_0300/s0242_valid_anagram)| Easy | String, Hash_Table, Sorting | 2 | 99.01
+| 0049 |[Group Anagrams](src/main/java/g0001_0100/s0049_group_anagrams)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, String, Hash_Table, Sorting, Big_O_Time_O(n\*k_log_k)_Space_O(n) | 6 | 92.28
+| 0151 |[Reverse Words in a String](src/main/java/g0101_0200/s0151_reverse_words_in_a_string)| Medium | String, Two_Pointers | 2 | 99.94
+| 0273 |[Integer to English Words](src/main/java/g0201_0300/s0273_integer_to_english_words)| Hard | String, Math, Recursion | 3 | 95.67
+
+#### Udemy Binary Search
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0704 |[Binary Search](src/main/java/g0701_0800/s0704_binary_search)| Easy | Top_100_Liked_Questions, Array, Binary_Search | 0 | 100.00
+| 0033 |[Search in Rotated Sorted Array](src/main/java/g0001_0100/s0033_search_in_rotated_sorted_array)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 0 | 100.00
+| 0153 |[Find Minimum in Rotated Sorted Array](src/main/java/g0101_0200/s0153_find_minimum_in_rotated_sorted_array)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 0 | 100.00
+
+#### Udemy Arrays
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0121 |[Best Time to Buy and Sell Stock](src/main/java/g0101_0200/s0121_best_time_to_buy_and_sell_stock)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 100.00
+| 0283 |[Move Zeroes](src/main/java/g0201_0300/s0283_move_zeroes)| Easy | Top_100_Liked_Questions, Array, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 2 | 79.54
+| 0001 |[Two Sum](src/main/java/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n), AI_can_be_used_to_solve_the_task | 2 | 85.97
+| 0217 |[Contains Duplicate](src/main/java/g0201_0300/s0217_contains_duplicate)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting | 6 | 96.68
+| 0058 |[Length of Last Word](src/main/java/g0001_0100/s0058_length_of_last_word)| Easy | String | 0 | 100.00
+| 0605 |[Can Place Flowers](src/main/java/g0601_0700/s0605_can_place_flowers)| Easy | Array, Greedy | 1 | 96.77
+| 0122 |[Best Time to Buy and Sell Stock II](src/main/java/g0101_0200/s0122_best_time_to_buy_and_sell_stock_ii)| Medium | Top_Interview_Questions, Array, Dynamic_Programming, Greedy | 1 | 96.82
+| 0080 |[Remove Duplicates from Sorted Array II](src/main/java/g0001_0100/s0080_remove_duplicates_from_sorted_array_ii)| Medium | Array, Two_Pointers | 0 | 100.00
+| 0189 |[Rotate Array](src/main/java/g0101_0200/s0189_rotate_array)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
+| 0055 |[Jump Game](src/main/java/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy, Big_O_Time_O(n)_Space_O(1) | 2 | 79.47
+| 0075 |[Sort Colors](src/main/java/g0001_0100/s0075_sort_colors)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
+| 0066 |[Plus One](src/main/java/g0001_0100/s0066_plus_one)| Easy | Top_Interview_Questions, Array, Math | 0 | 100.00
+| 0238 |[Product of Array Except Self](src/main/java/g0201_0300/s0238_product_of_array_except_self)| Medium | Top_100_Liked_Questions, Array, Prefix_Sum, Big_O_Time_O(n^2)_Space_O(n) | 1 | 100.00
+| 1291 |[Sequential Digits](src/main/java/g1201_1300/s1291_sequential_digits)| Medium | Enumeration | 0 | 100.00
+| 0448 |[Find All Numbers Disappeared in an Array](src/main/java/g0401_0500/s0448_find_all_numbers_disappeared_in_an_array)| Easy | Array, Hash_Table | 3 | 100.00
+| 0442 |[Find All Duplicates in an Array](src/main/java/g0401_0500/s0442_find_all_duplicates_in_an_array)| Medium | Array, Hash_Table | 5 | 98.83
+| 0041 |[First Missing Positive](src/main/java/g0001_0100/s0041_first_missing_positive)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n) | 2 | 57.59
+| 0697 |[Degree of an Array](src/main/java/g0601_0700/s0697_degree_of_an_array)| Easy | Array, Hash_Table | 14 | 93.19
+| 0532 |[K-diff Pairs in an Array](src/main/java/g0501_0600/s0532_k_diff_pairs_in_an_array)| Medium | Array, Hash_Table, Sorting, Binary_Search, Two_Pointers | 13 | 58.23
+| 0713 |[Subarray Product Less Than K](src/main/java/g0701_0800/s0713_subarray_product_less_than_k)| Medium | Array, Sliding_Window | 8 | 39.00
+| 1007 |[Minimum Domino Rotations For Equal Row](src/main/java/g1001_1100/s1007_minimum_domino_rotations_for_equal_row)| Medium | Array, Greedy | 5 | 79.64
+| 1306 |[Jump Game III](src/main/java/g1301_1400/s1306_jump_game_iii)| Medium | Array, Depth_First_Search, Breadth_First_Search | 2 | 96.23
+| 0456 |[132 Pattern](src/main/java/g0401_0500/s0456_132_pattern)| Medium | Array, Binary_Search, Stack, Ordered_Set, Monotonic_Stack | 16 | 82.41
+| 0239 |[Sliding Window Maximum](src/main/java/g0201_0300/s0239_sliding_window_maximum)| Hard | Top_100_Liked_Questions, Array, Heap_Priority_Queue, Sliding_Window, Queue, Monotonic_Queue, Big_O_Time_O(n\*k)_Space_O(n+k) | 58 | 52.28
+
+#### Udemy Two Pointers
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0392 |[Is Subsequence](src/main/java/g0301_0400/s0392_is_subsequence)| Easy | String, Dynamic_Programming, Two_Pointers | 1 | 93.01
+| 0125 |[Valid Palindrome](src/main/java/g0101_0200/s0125_valid_palindrome)| Easy | Top_Interview_Questions, String, Two_Pointers | 3 | 98.64
+| 0977 |[Squares of a Sorted Array](src/main/java/g0901_1000/s0977_squares_of_a_sorted_array)| Easy | Array, Sorting, Two_Pointers | 1 | 100.00
+| 0026 |[Remove Duplicates from Sorted Array](src/main/java/g0001_0100/s0026_remove_duplicates_from_sorted_array)| Easy | Top_Interview_Questions, Array, Two_Pointers | 1 | 98.56
+| 0042 |[Trapping Rain Water](src/main/java/g0001_0100/s0042_trapping_rain_water)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Two_Pointers, Stack, Monotonic_Stack, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
+| 0015 |[3Sum](src/main/java/g0001_0100/s0015_3sum)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n\*log(n))_Space_O(n^2) | 29 | 82.24
+
+#### Udemy Famous Algorithm
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0053 |[Maximum Subarray](src/main/java/g0001_0100/s0053_maximum_subarray)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 1 | 100.00
+| 0169 |[Majority Element](src/main/java/g0101_0200/s0169_majority_element)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 1 | 100.00
+
+#### Udemy Sorting Algorithms
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0912 |[Sort an Array](src/main/java/g0901_1000/s0912_sort_an_array)| Medium | Array, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Merge_Sort, Bucket_Sort, Counting_Sort, Radix_Sort | 25 | 38.15
+
+#### Udemy 2D Arrays/Matrix
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0304 |[Range Sum Query 2D - Immutable](src/main/java/g0301_0400/s0304_range_sum_query_2d_immutable)| Medium | Array, Matrix, Design, Prefix_Sum | 153 | 87.51
+| 0074 |[Search a 2D Matrix](src/main/java/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 0 | 100.00
+| 0054 |[Spiral Matrix](src/main/java/g0001_0100/s0054_spiral_matrix)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Matrix, Simulation | 0 | 100.00
+| 0048 |[Rotate Image](src/main/java/g0001_0100/s0048_rotate_image)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Matrix, Big_O_Time_O(n^2)_Space_O(1) | 0 | 100.00
+| 1572 |[Matrix Diagonal Sum](src/main/java/g1501_1600/s1572_matrix_diagonal_sum)| Easy | Array, Matrix | 0 | 100.00
+| 0073 |[Set Matrix Zeroes](src/main/java/g0001_0100/s0073_set_matrix_zeroes)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Matrix, Big_O_Time_O(m\*n)_Space_O(1) | 1 | 79.07
+| 0056 |[Merge Intervals](src/main/java/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Big_O_Time_O(n_log_n)_Space_O(n) | 8 | 96.27
+
+#### Udemy Linked List
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0114 |[Flatten Binary Tree to Linked List](src/main/java/g0101_0200/s0114_flatten_binary_tree_to_linked_list)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Linked_List, Big_O_Time_O(N)_Space_O(N) | 1 | 75.27
+| 0445 |[Add Two Numbers II](src/main/java/g0401_0500/s0445_add_two_numbers_ii)| Medium | Math, Stack, Linked_List | 3 | 90.38
+| 0328 |[Odd Even Linked List](src/main/java/g0301_0400/s0328_odd_even_linked_list)| Medium | Linked_List | 0 | 100.00
+| 0061 |[Rotate List](src/main/java/g0001_0100/s0061_rotate_list)| Medium | Two_Pointers, Linked_List | 0 | 100.00
+| 0024 |[Swap Nodes in Pairs](src/main/java/g0001_0100/s0024_swap_nodes_in_pairs)| Medium | Top_100_Liked_Questions, Linked_List, Recursion, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
+| 0876 |[Middle of the Linked List](src/main/java/g0801_0900/s0876_middle_of_the_linked_list)| Easy | Two_Pointers, Linked_List | 0 | 100.00
+| 0142 |[Linked List Cycle II](src/main/java/g0101_0200/s0142_linked_list_cycle_ii)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
+| 0141 |[Linked List Cycle](src/main/java/g0101_0200/s0141_linked_list_cycle)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
+| 0206 |[Reverse Linked List](src/main/java/g0201_0300/s0206_reverse_linked_list)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
+| 0021 |[Merge Two Sorted Lists](src/main/java/g0001_0100/s0021_merge_two_sorted_lists)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 0 | 100.00
+| 0160 |[Intersection of Two Linked Lists](src/main/java/g0101_0200/s0160_intersection_of_two_linked_lists)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(M+N)_Space_O(1) | 1 | 99.68
+| 0234 |[Palindrome Linked List](src/main/java/g0201_0300/s0234_palindrome_linked_list)| Easy | Top_100_Liked_Questions, Two_Pointers, Stack, Linked_List, Recursion, Big_O_Time_O(n)_Space_O(1) | 6 | 76.07
+| 0138 |[Copy List with Random Pointer](src/main/java/g0101_0200/s0138_copy_list_with_random_pointer)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
+| 0025 |[Reverse Nodes in k-Group](src/main/java/g0001_0100/s0025_reverse_nodes_in_k_group)| Hard | Top_100_Liked_Questions, Linked_List, Recursion, Big_O_Time_O(n)_Space_O(k) | 0 | 100.00
+| 0146 |[LRU Cache](src/main/java/g0101_0200/s0146_lru_cache)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Design, Linked_List, Doubly_Linked_List, Big_O_Time_O(1)_Space_O(capacity) | 87 | 50.80
+| 0707 |[Design Linked List](src/main/java/g0701_0800/s0707_design_linked_list)| Medium | Design, Linked_List | 10 | 70.60
+
+#### Udemy Tree Stack Queue
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0144 |[Binary Tree Preorder Traversal](src/main/java/g0101_0200/s0144_binary_tree_preorder_traversal)| Easy | Depth_First_Search, Tree, Binary_Tree, Stack | 1 | 48.38
+| 0094 |[Binary Tree Inorder Traversal](src/main/java/g0001_0100/s0094_binary_tree_inorder_traversal)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0145 |[Binary Tree Postorder Traversal](src/main/java/g0101_0200/s0145_binary_tree_postorder_traversal)| Easy | Depth_First_Search, Tree, Binary_Tree, Stack | 1 | 49.11
+| 0102 |[Binary Tree Level Order Traversal](src/main/java/g0101_0200/s0102_binary_tree_level_order_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 1 | 91.09
+| 0103 |[Binary Tree Zigzag Level Order Traversal](src/main/java/g0101_0200/s0103_binary_tree_zigzag_level_order_traversal)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 1 | 95.00
+| 0108 |[Convert Sorted Array to Binary Search Tree](src/main/java/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 0 | 100.00
+| 1008 |[Construct Binary Search Tree from Preorder Traversal](src/main/java/g1001_1100/s1008_construct_binary_search_tree_from_preorder_traversal)| Medium | Array, Tree, Binary_Tree, Stack, Monotonic_Stack, Binary_Search_Tree | 0 | 100.00
+| 0543 |[Diameter of Binary Tree](src/main/java/g0501_0600/s0543_diameter_of_binary_tree)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 1 | 65.86
+| 0938 |[Range Sum of BST](src/main/java/g0901_1000/s0938_range_sum_of_bst)| Easy | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 0 | 100.00
+| 0100 |[Same Tree](src/main/java/g0001_0100/s0100_same_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
+| 0226 |[Invert Binary Tree](src/main/java/g0201_0300/s0226_invert_binary_tree)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0111 |[Minimum Depth of Binary Tree](src/main/java/g0101_0200/s0111_minimum_depth_of_binary_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 1 | 97.49
+| 0104 |[Maximum Depth of Binary Tree](src/main/java/g0101_0200/s0104_maximum_depth_of_binary_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(H) | 0 | 100.00
+| 0110 |[Balanced Binary Tree](src/main/java/g0101_0200/s0110_balanced_binary_tree)| Easy | Depth_First_Search, Tree, Binary_Tree | 1 | 98.82
+| 0701 |[Insert into a Binary Search Tree](src/main/java/g0701_0800/s0701_insert_into_a_binary_search_tree)| Medium | Tree, Binary_Tree, Binary_Search_Tree | 0 | 100.00
+| 0297 |[Serialize and Deserialize Binary Tree](src/main/java/g0201_0300/s0297_serialize_and_deserialize_binary_tree)| Hard | String, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Design | 7 | 98.13
+| 0124 |[Binary Tree Maximum Path Sum](src/main/java/g0101_0200/s0124_binary_tree_maximum_path_sum)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 1 | 99.46
+| 0098 |[Validate Binary Search Tree](src/main/java/g0001_0100/s0098_validate_binary_search_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Big_O_Time_O(N)_Space_O(log(N)) | 0 | 100.00
+| 0337 |[House Robber III](src/main/java/g0301_0400/s0337_house_robber_iii)| Medium | Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree | 1 | 91.77
+| 0236 |[Lowest Common Ancestor of a Binary Tree](src/main/java/g0201_0300/s0236_lowest_common_ancestor_of_a_binary_tree)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 10 | 56.51
+| 0968 |[Binary Tree Cameras](src/main/java/g0901_1000/s0968_binary_tree_cameras)| Hard | Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree | 0 | 100.00
+
+#### Udemy Trie and Heap
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0208 |[Implement Trie (Prefix Tree)](src/main/java/g0201_0300/s0208_implement_trie_prefix_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Design, Trie, Big_O_Time_O(word.length())_or_O(prefix.length())_Space_O(N) | 34 | 99.90
+| 0745 |[Prefix and Suffix Search](src/main/java/g0701_0800/s0745_prefix_and_suffix_search)| Hard | String, Design, Trie | 366 | 76.15
+
+#### Udemy Graph
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0200 |[Number of Islands](src/main/java/g0101_0200/s0200_number_of_islands)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 3 | 97.76
+| 0133 |[Clone Graph](src/main/java/g0101_0200/s0133_clone_graph)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Graph | 45 | 29.80
+| 0417 |[Pacific Atlantic Water Flow](src/main/java/g0401_0500/s0417_pacific_atlantic_water_flow)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix | 5 | 92.62
+
+#### Udemy Dynamic Programming
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0120 |[Triangle](src/main/java/g0101_0200/s0120_triangle)| Medium | Array, Dynamic_Programming | 2 | 94.63
+| 0118 |[Pascal's Triangle](src/main/java/g0101_0200/s0118_pascals_triangle)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming | 1 | 67.08
+| 0119 |[Pascal's Triangle II](src/main/java/g0101_0200/s0119_pascals_triangle_ii)| Easy | Array, Dynamic_Programming | 0 | 100.00
+| 0139 |[Word Break](src/main/java/g0101_0200/s0139_word_break)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 2 | 97.08
+| 0152 |[Maximum Product Subarray](src/main/java/g0101_0200/s0152_maximum_product_subarray)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 92.31
+| 0198 |[House Robber](src/main/java/g0101_0200/s0198_house_robber)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0213 |[House Robber II](src/main/java/g0201_0300/s0213_house_robber_ii)| Medium | Array, Dynamic_Programming | 0 | 100.00
+| 0509 |[Fibonacci Number](src/main/java/g0501_0600/s0509_fibonacci_number)| Easy | Dynamic_Programming, Math, Recursion, Memoization | 0 | 100.00
+| 0070 |[Climbing Stairs](src/main/java/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0064 |[Minimum Path Sum](src/main/java/g0001_0100/s0064_minimum_path_sum)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Big_O_Time_O(m\*n)_Space_O(m\*n) | 0 | 100.00
+| 0300 |[Longest Increasing Subsequence](src/main/java/g0201_0300/s0300_longest_increasing_subsequence)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Binary_Search, Big_O_Time_O(n\*log_n)_Space_O(n) | 3 | 98.63
+| 1143 |[Longest Common Subsequence](src/main/java/g1101_1200/s1143_longest_common_subsequence)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n\*m)_Space_O(n\*m) | 33 | 46.23
+| 0072 |[Edit Distance](src/main/java/g0001_0100/s0072_edit_distance)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 4 | 90.13
+| 0044 |[Wildcard Matching](src/main/java/g0001_0100/s0044_wildcard_matching)| Hard | Top_Interview_Questions, String, Dynamic_Programming, Greedy, Recursion | 2 | 99.87
+| 0010 |[Regular Expression Matching](src/main/java/g0001_0100/s0010_regular_expression_matching)| Hard | Top_Interview_Questions, String, Dynamic_Programming, Recursion, Big_O_Time_O(m\*n)_Space_O(m\*n) | 1 | 100.00
+
+#### Udemy Backtracking/Recursion
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0022 |[Generate Parentheses](src/main/java/g0001_0100/s0022_generate_parentheses)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Backtracking, Big_O_Time_O(2^n)_Space_O(n) | 0 | 100.00
+| 0039 |[Combination Sum](src/main/java/g0001_0100/s0039_combination_sum)| Medium | Top_100_Liked_Questions, Array, Backtracking, Big_O_Time_O(2^n)_Space_O(n+2^n) | 1 | 100.00
+| 0216 |[Combination Sum III](src/main/java/g0201_0300/s0216_combination_sum_iii)| Medium | Array, Backtracking | 1 | 81.35
+| 0078 |[Subsets](src/main/java/g0001_0100/s0078_subsets)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Backtracking, Big_O_Time_O(2^n)_Space_O(n\*2^n) | 1 | 70.60
+| 0017 |[Letter Combinations of a Phone Number](src/main/java/g0001_0100/s0017_letter_combinations_of_a_phone_number)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Backtracking, Big_O_Time_O(4^n)_Space_O(n) | 0 | 100.00
+| 0046 |[Permutations](src/main/java/g0001_0100/s0046_permutations)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Backtracking, Big_O_Time_O(n\*n!)_Space_O(n+n!) | 1 | 95.07
+
+#### Udemy Bit Manipulation
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0191 |[Number of 1 Bits](src/main/java/g0101_0200/s0191_number_of_1_bits)| Easy | Top_Interview_Questions, Bit_Manipulation | 1 | 84.87
+| 0389 |[Find the Difference](src/main/java/g0301_0400/s0389_find_the_difference)| Easy | String, Hash_Table, Sorting, Bit_Manipulation | 1 | 100.00
+| 0190 |[Reverse Bits](src/main/java/g0101_0200/s0190_reverse_bits)| Easy | Top_Interview_Questions, Bit_Manipulation, Divide_and_Conquer | 1 | 98.66
+| 0461 |[Hamming Distance](src/main/java/g0401_0500/s0461_hamming_distance)| Easy | Bit_Manipulation | 0 | 100.00
+| 1009 |[Complement of Base 10 Integer](src/main/java/g1001_1100/s1009_complement_of_base_10_integer)| Easy | Bit_Manipulation | 1 | 41.56
+| 0338 |[Counting Bits](src/main/java/g0301_0400/s0338_counting_bits)| Easy | Dynamic_Programming, Bit_Manipulation, Big_O_Time_O(num)_Space_O(num) | 2 | 86.73
+| 0371 |[Sum of Two Integers](src/main/java/g0301_0400/s0371_sum_of_two_integers)| Medium | Math, Bit_Manipulation | 0 | 100.00
+| 0029 |[Divide Two Integers](src/main/java/g0001_0100/s0029_divide_two_integers)| Medium | Top_Interview_Questions, Math, Bit_Manipulation | 1 | 97.44
+
+#### Udemy Design
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0155 |[Min Stack](src/main/java/g0101_0200/s0155_min_stack)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 3 | 100.00
+
 ## Algorithms
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3307 |[Find the K-th Character in String Game II](src/main/java/g3301_3400/s3307_find_the_k_th_character_in_string_game_ii)| Hard | Math, Bit_Manipulation, Recursion | 1 | 99.65
+| 3306 |[Count of Substrings Containing Every Vowel and K Consonants II](src/main/java/g3301_3400/s3306_count_of_substrings_containing_every_vowel_and_k_consonants_ii)| Medium | String, Hash_Table, Sliding_Window | 340 | 44.09
+| 3305 |[Count of Substrings Containing Every Vowel and K Consonants I](src/main/java/g3301_3400/s3305_count_of_substrings_containing_every_vowel_and_k_consonants_i)| Medium | String, Hash_Table, Sliding_Window | 2 | 99.72
+| 3304 |[Find the K-th Character in String Game I](src/main/java/g3301_3400/s3304_find_the_k_th_character_in_string_game_i)| Easy | Math, Bit_Manipulation, Simulation, Recursion | 0 | 100.00
+| 3303 |[Find the Occurrence of First Almost Equal Substring](src/main/java/g3301_3400/s3303_find_the_occurrence_of_first_almost_equal_substring)| Hard | String, String_Matching | 39 | 100.00
+| 3302 |[Find the Lexicographically Smallest Valid Sequence](src/main/java/g3301_3400/s3302_find_the_lexicographically_smallest_valid_sequence)| Medium | String, Dynamic_Programming, Greedy, Two_Pointers | 21 | 97.32
+| 3301 |[Maximize the Total Height of Unique Towers](src/main/java/g3301_3400/s3301_maximize_the_total_height_of_unique_towers)| Medium | Array, Sorting, Greedy | 49 | 92.39
+| 3300 |[Minimum Element After Replacement With Digit Sum](src/main/java/g3201_3300/s3300_minimum_element_after_replacement_with_digit_sum)| Easy | Array, Math | 1 | 100.00
+| 3298 |[Count Substrings That Can Be Rearranged to Contain a String II](src/main/java/g3201_3300/s3298_count_substrings_that_can_be_rearranged_to_contain_a_string_ii)| Hard | String, Hash_Table, Sliding_Window | 31 | 100.00
+| 3297 |[Count Substrings That Can Be Rearranged to Contain a String I](src/main/java/g3201_3300/s3297_count_substrings_that_can_be_rearranged_to_contain_a_string_i)| Medium | String, Hash_Table, Sliding_Window | 5 | 99.40
+| 3296 |[Minimum Number of Seconds to Make Mountain Height Zero](src/main/java/g3201_3300/s3296_minimum_number_of_seconds_to_make_mountain_height_zero)| Medium | Array, Math, Binary_Search | 6 | 100.00
+| 3295 |[Report Spam Message](src/main/java/g3201_3300/s3295_report_spam_message)| Medium | Array, String, Hash_Table | 39 | 98.87
 | 3292 |[Minimum Number of Valid Strings to Form Target II](src/main/java/g3201_3300/s3292_minimum_number_of_valid_strings_to_form_target_ii)| Hard | Array, String, Dynamic_Programming, Binary_Search, Segment_Tree, Hash_Function, String_Matching, Rolling_Hash | 103 | 100.00
 | 3291 |[Minimum Number of Valid Strings to Form Target I](src/main/java/g3201_3300/s3291_minimum_number_of_valid_strings_to_form_target_i)| Medium | Array, String, Dynamic_Programming, Binary_Search, Trie, Segment_Tree, Hash_Function, String_Matching, Rolling_Hash | 263 | 60.00
 | 3290 |[Maximum Multiplication Score](src/main/java/g3201_3300/s3290_maximum_multiplication_score)| Medium | Array, Dynamic_Programming | 8 | 100.00
 | 3289 |[The Two Sneaky Numbers of Digitville](src/main/java/g3201_3300/s3289_the_two_sneaky_numbers_of_digitville)| Easy | Array, Hash_Table, Math | 3 | 100.00
 | 3288 |[Length of the Longest Increasing Path](src/main/java/g3201_3300/s3288_length_of_the_longest_increasing_path)| Hard | Array, Sorting, Binary_Search | 34 | 100.00
 | 3287 |[Find the Maximum Sequence Value of Array](src/main/java/g3201_3300/s3287_find_the_maximum_sequence_value_of_array)| Hard | Array, Dynamic_Programming, Bit_Manipulation | 1140 | 100.00
-| 3286 |[Find a Safe Walk Through a Grid](src/main/java/g3201_3300/s3286_find_a_safe_walk_through_a_grid)| Medium | Array, Matrix, Heap_Priority_Queue, Graph, Shortest_Path, Breadth_First_Search | 90 | 100.00
+| 3286 |[Find a Safe Walk Through a Grid](src/main/java/g3201_3300/s3286_find_a_safe_walk_through_a_grid)| Medium | Array, Breadth_First_Search, Matrix, Heap_Priority_Queue, Graph, Shortest_Path | 90 | 100.00
 | 3285 |[Find Indices of Stable Mountains](src/main/java/g3201_3300/s3285_find_indices_of_stable_mountains)| Easy | Array | 1 | 100.00
 | 3283 |[Maximum Number of Moves to Kill All Pawns](src/main/java/g3201_3300/s3283_maximum_number_of_moves_to_kill_all_pawns)| Hard | Array, Math, Breadth_First_Search, Bit_Manipulation, Bitmask, Game_Theory | 250 | 98.43
 | 3282 |[Reach End of Array With Max Score](src/main/java/g3201_3300/s3282_reach_end_of_array_with_max_score)| Medium | Array, Greedy | 9 | 100.00
