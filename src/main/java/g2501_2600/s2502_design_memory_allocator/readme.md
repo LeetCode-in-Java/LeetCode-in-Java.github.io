@@ -62,7 +62,7 @@ loc.free(7); // Free all memory units with mID 7. The memory array remains the s
 
 ```java
 public class Allocator {
-    Node root;
+    private final Node root;
 
     public Allocator(int n) {
         root = new Node(0, n, -1);
@@ -94,7 +94,7 @@ public class Allocator {
         return collapse(root, mID);
     }
 
-    public int collapse(Node cur, int id) {
+    private int collapse(Node cur, int id) {
         // base case
         if (cur == null) {
             return 0;

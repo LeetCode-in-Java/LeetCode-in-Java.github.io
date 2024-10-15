@@ -45,7 +45,7 @@ It can be proven that no other way is possible, so we return 3.
 
 ```java
 public class Solution {
-    private int mod = 1000000007;
+    private static final int MOD = 1000000007;
 
     public int numberOfWays(int startPos, int endPos, int k) {
         if (Math.abs(endPos - startPos) > k) {
@@ -64,9 +64,9 @@ public class Solution {
         rev[1] = 1;
         int ans = k;
         for (int i = 2; i <= min; i++) {
-            rev[i] = (int) ((long) (mod - mod / i) * (long) rev[mod % i] % mod);
-            ans = (int) ((long) ans * (long) (k - i + 1) % mod);
-            ans = (int) ((long) ans * (long) rev[i] % mod);
+            rev[i] = (int) ((long) (MOD - MOD / i) * (long) rev[MOD % i] % MOD);
+            ans = (int) ((long) ans * (long) (k - i + 1) % MOD);
+            ans = (int) ((long) ans * (long) rev[i] % MOD);
         }
         return ans;
     }

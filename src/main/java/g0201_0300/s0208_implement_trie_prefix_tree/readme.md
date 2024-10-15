@@ -43,7 +43,7 @@ Implement the Trie class:
 ```java
 @SuppressWarnings("java:S1104")
 public class Trie {
-    private TrieNode root;
+    private final TrieNode root;
     private boolean startWith;
 
     private static class TrieNode {
@@ -82,7 +82,7 @@ public class Trie {
         return search(word, root, 0);
     }
 
-    public boolean search(String word, TrieNode root, int idx) {
+    private boolean search(String word, TrieNode root, int idx) {
         if (idx == word.length()) {
             startWith = true;
             return root.isWord;
