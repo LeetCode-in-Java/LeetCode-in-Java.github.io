@@ -59,14 +59,13 @@ In this case the 1 is initially at position 0, so the answer for that position i
 
 ```java
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Solution {
     public int[] minReverseOperations(int n, int p, int[] banned, int k) {
         int[] out = new int[n];
-        for (int i = 0; i < n; i++) {
-            out[i] = -1;
-        }
+        Arrays.fill(out, -1);
         for (int node : banned) {
             out[node] = -2;
         }

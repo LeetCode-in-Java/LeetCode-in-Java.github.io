@@ -77,6 +77,7 @@ So, answer[2] = 1.
 
 ```java
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -95,9 +96,7 @@ public class Solution {
             nexts[v].add(new int[] {-1, u});
         }
         int[] res = new int[n];
-        for (int i = 0; i < n; i++) {
-            res[i] = -1;
-        }
+        Arrays.fill(res, -1);
         res[0] = dfs(nexts, 0, -1);
         Queue<Integer> queue = new LinkedList<>();
         queue.add(0);

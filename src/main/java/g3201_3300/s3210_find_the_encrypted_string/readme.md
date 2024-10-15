@@ -46,10 +46,8 @@ As all the characters are the same, the encrypted string will also be the same.
 public class Solution {
     public String getEncryptedString(String s, int k) {
         int n = s.length();
-        k = k % n;
-        StringBuilder str = new StringBuilder(s.substring(k, n));
-        str.append(s.substring(0, k));
-        return str.toString();
+        int localK = k % n;
+        return s.substring(localK, n) + s.substring(0, localK);
     }
 }
 ```

@@ -434,7 +434,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0117 |[Populating Next Right Pointers in Each Node II](src/main/java/g0101_0200/s0117_populating_next_right_pointers_in_each_node_ii)| Medium | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Linked_List | 0 | 100.00
-| 0572 |[Subtree of Another Tree](src/main/java/g0501_0600/s0572_subtree_of_another_tree)| Easy | Depth_First_Search, Tree, Binary_Tree, Hash_Function, String_Matching | 1 | 100.00
+| 0572 |[Subtree of Another Tree](src/main/java/g0501_0600/s0572_subtree_of_another_tree)| Easy | Depth_First_Search, Tree, Binary_Tree, Hash_Function, String_Matching | 2 | 97.06
 
 #### Day 8 Breadth First Search Depth First Search
 
@@ -1816,6 +1816,18 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3321 |[Find X-Sum of All K-Long Subarrays II](src/main/java/g3301_3400/s3321_find_x_sum_of_all_k_long_subarrays_ii)| Hard | Array, Hash_Table, Heap_Priority_Queue, Sliding_Window | 410 | 94.03
+| 3320 |[Count The Number of Winning Sequences](src/main/java/g3301_3400/s3320_count_the_number_of_winning_sequences)| Hard | String, Dynamic_Programming | 43 | 99.76
+| 3319 |[K-th Largest Perfect Subtree Size in Binary Tree](src/main/java/g3301_3400/s3319_k_th_largest_perfect_subtree_size_in_binary_tree)| Medium | Sorting, Tree, Binary_Tree, Depth_First_Search | 10 | 87.48
+| 3318 |[Find X-Sum of All K-Long Subarrays I](src/main/java/g3301_3400/s3318_find_x_sum_of_all_k_long_subarrays_i)| Easy | Array, Hash_Table, Heap_Priority_Queue, Sliding_Window | 11 | 77.35
+| 3317 |[Find the Number of Possible Ways for an Event](src/main/java/g3301_3400/s3317_find_the_number_of_possible_ways_for_an_event)| Hard | Dynamic_Programming, Math, Combinatorics | 20 | 97.08
+| 3316 |[Find Maximum Removals From Source String](src/main/java/g3301_3400/s3316_find_maximum_removals_from_source_string)| Medium | Array, String, Hash_Table, Dynamic_Programming, Two_Pointers | 10 | 100.00
+| 3315 |[Construct the Minimum Bitwise Array II](src/main/java/g3301_3400/s3315_construct_the_minimum_bitwise_array_ii)| Medium | Array, Bit_Manipulation | 1 | 100.00
+| 3314 |[Construct the Minimum Bitwise Array I](src/main/java/g3301_3400/s3314_construct_the_minimum_bitwise_array_i)| Easy | Array, Bit_Manipulation | 3 | 92.32
+| 3312 |[Sorted GCD Pair Queries](src/main/java/g3301_3400/s3312_sorted_gcd_pair_queries)| Hard | Array, Hash_Table, Math, Binary_Search, Prefix_Sum, Counting, Number_Theory, Combinatorics | 29 | 94.69
+| 3311 |[Construct 2D Grid Matching Graph Layout](src/main/java/g3301_3400/s3311_construct_2d_grid_matching_graph_layout)| Hard | Array, Hash_Table, Matrix, Graph | 43 | 94.34
+| 3310 |[Remove Methods From Project](src/main/java/g3301_3400/s3310_remove_methods_from_project)| Medium | Graph, Depth_First_Search, Breadth_First_Search | 41 | 99.76
+| 3309 |[Maximum Possible Number by Binary Concatenation](src/main/java/g3301_3400/s3309_maximum_possible_number_by_binary_concatenation)| Medium | Array, Bit_Manipulation, Enumeration | 3 | 97.01
 | 3307 |[Find the K-th Character in String Game II](src/main/java/g3301_3400/s3307_find_the_k_th_character_in_string_game_ii)| Hard | Math, Bit_Manipulation, Recursion | 1 | 99.65
 | 3306 |[Count of Substrings Containing Every Vowel and K Consonants II](src/main/java/g3301_3400/s3306_count_of_substrings_containing_every_vowel_and_k_consonants_ii)| Medium | String, Hash_Table, Sliding_Window | 340 | 44.09
 | 3305 |[Count of Substrings Containing Every Vowel and K Consonants I](src/main/java/g3301_3400/s3305_count_of_substrings_containing_every_vowel_and_k_consonants_i)| Medium | String, Hash_Table, Sliding_Window | 2 | 99.72
@@ -3980,7 +3992,7 @@
 | 0577 |[Employee Bonus](src/main/java/g0501_0600/s0577_employee_bonus)| Easy | Database | 1473 | 95.83
 | 0576 |[Out of Boundary Paths](src/main/java/g0501_0600/s0576_out_of_boundary_paths)| Medium | Dynamic_Programming | 5 | 92.95
 | 0575 |[Distribute Candies](src/main/java/g0501_0600/s0575_distribute_candies)| Easy | Array, Hash_Table | 67 | 42.81
-| 0572 |[Subtree of Another Tree](src/main/java/g0501_0600/s0572_subtree_of_another_tree)| Easy | Depth_First_Search, Tree, Binary_Tree, Hash_Function, String_Matching, Algorithm_II_Day_7_Breadth_First_Search_Depth_First_Search | 1 | 100.00
+| 0572 |[Subtree of Another Tree](src/main/java/g0501_0600/s0572_subtree_of_another_tree)| Easy | Depth_First_Search, Tree, Binary_Tree, Hash_Function, String_Matching, Algorithm_II_Day_7_Breadth_First_Search_Depth_First_Search | 2 | 97.06
 | 0570 |[Managers with at Least 5 Direct Reports](src/main/java/g0501_0600/s0570_managers_with_at_least_5_direct_reports)| Medium | Database | 503 | 69.79
 | 0567 |[Permutation in String](src/main/java/g0501_0600/s0567_permutation_in_string)| Medium | Top_100_Liked_Questions, String, Hash_Table, Two_Pointers, Sliding_Window, Algorithm_I_Day_6_Sliding_Window | 5 | 93.93
 | 0566 |[Reshape the Matrix](src/main/java/g0501_0600/s0566_reshape_the_matrix)| Easy | Array, Matrix, Simulation, Data_Structure_I_Day_4_Array, Programming_Skills_I_Day_7_Array | 1 | 90.08

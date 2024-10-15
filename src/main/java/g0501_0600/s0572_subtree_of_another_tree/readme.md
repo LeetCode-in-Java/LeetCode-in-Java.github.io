@@ -53,30 +53,30 @@ import com_github_leetcode.TreeNode;
  * }
  */
 public class Solution {
-    private boolean isSubtreeFound(TreeNode root, TreeNode subRoot) {
-        if (root == null && subRoot == null) {
+    public boolean isSubtree(TreeNode root, TreeNode subRoot) {
+        if (root == null) {
+            return false;
+        }
+        if (traverse(root, subRoot)) {
             return true;
         }
-        if (root == null || subRoot == null) {
-            return false;
-        }
-        if (root.val == subRoot.val) {
-            return isSubtreeFound(root.left, subRoot.left) && isSubtree(root.right, subRoot.right);
-        } else {
-            return false;
-        }
+        return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
     }
 
-    public boolean isSubtree(TreeNode root, TreeNode subRoot) {
-        if (root == null && subRoot == null) {
-            return true;
-        }
-        if (root == null || subRoot == null) {
+    private boolean traverse(TreeNode root, TreeNode subRoot) {
+        if (root == null && subRoot != null) {
             return false;
         }
-        return isSubtreeFound(root, subRoot)
-                || isSubtree(root.left, subRoot)
-                || isSubtree(root.right, subRoot);
+        if (root != null && subRoot == null) {
+            return false;
+        }
+        if (root == null) {
+            return true;
+        }
+        if (root.val != subRoot.val) {
+            return false;
+        }
+        return traverse(root.left, subRoot.left) && traverse(root.right, subRoot.right);
     }
 }
 ```
