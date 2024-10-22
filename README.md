@@ -1816,6 +1816,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3327 |[Check if DFS Strings Are Palindromes](src/main/java/g3301_3400/s3327_check_if_dfs_strings_are_palindromes)| Hard | Array, String, Hash_Table, Tree, Hash_Function, Depth_First_Search | 159 | 90.40
+| 3326 |[Minimum Division Operations to Make Array Non Decreasing](src/main/java/g3301_3400/s3326_minimum_division_operations_to_make_array_non_decreasing)| Medium | Array, Math, Greedy, Number_Theory | 20 | 97.34
+| 3325 |[Count Substrings With K-Frequency Characters I](src/main/java/g3301_3400/s3325_count_substrings_with_k_frequency_characters_i)| Medium | String, Hash_Table, Sliding_Window | 1 | 100.00
+| 3324 |[Find the Sequence of Strings Appeared on the Screen](src/main/java/g3301_3400/s3324_find_the_sequence_of_strings_appeared_on_the_screen)| Medium | String, Simulation | 6 | 92.04
 | 3321 |[Find X-Sum of All K-Long Subarrays II](src/main/java/g3301_3400/s3321_find_x_sum_of_all_k_long_subarrays_ii)| Hard | Array, Hash_Table, Heap_Priority_Queue, Sliding_Window | 410 | 94.03
 | 3320 |[Count The Number of Winning Sequences](src/main/java/g3301_3400/s3320_count_the_number_of_winning_sequences)| Hard | String, Dynamic_Programming | 43 | 99.76
 | 3319 |[K-th Largest Perfect Subtree Size in Binary Tree](src/main/java/g3301_3400/s3319_k_th_largest_perfect_subtree_size_in_binary_tree)| Medium | Sorting, Tree, Binary_Tree, Depth_First_Search | 10 | 87.48
