@@ -66,7 +66,7 @@ At t=250, count() returns 0 because the cache is empty.
 
 ```typescript
 class TimeLimitedCache {
-    private keyMap: Map<number, any>
+    private readonly keyMap: Map<number, any>
     constructor() {
         this.keyMap = new Map<number, any>()
     }
