@@ -38,18 +38,20 @@ A **subarray** is a contiguous subsequence of the array.
 ```java
 public class Solution {
     public int maxProduct(int[] nums) {
-        int currentMaxProd = nums[0];
-        int currentMinProd = nums[0];
-        int overAllMaxProd = nums[0];
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] < 0) {
-                int temp = currentMaxProd;
-                currentMaxProd = currentMinProd;
-                currentMinProd = temp;
+        int overAllMaxProd = Integer.MIN_VALUE;
+        int n = nums.length;
+        int start = 1;
+        int end = 1;
+        for (int i = 0; i < n; i++) {
+            if (start == 0) {
+                start = 1;
             }
-            currentMaxProd = Math.max(nums[i], nums[i] * currentMaxProd);
-            currentMinProd = Math.min(nums[i], nums[i] * currentMinProd);
-            overAllMaxProd = Math.max(overAllMaxProd, currentMaxProd);
+            if (end == 0) {
+                end = 1;
+            }
+            start = start * nums[i];
+            end = end * nums[n - i - 1];
+            overAllMaxProd = Math.max(overAllMaxProd, Math.max(start, end));
         }
         return overAllMaxProd;
     }
