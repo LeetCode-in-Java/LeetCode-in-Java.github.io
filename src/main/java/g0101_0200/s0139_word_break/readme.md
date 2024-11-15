@@ -42,41 +42,34 @@ Given a string `s` and a dictionary of strings `wordDict`, return `true` if `s` 
 ## Solution
 
 ```java
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class Solution {
+    private Boolean[] memo;
+
     public boolean wordBreak(String s, List<String> wordDict) {
-        Set<String> set = new HashSet<>();
-        int max = 0;
-        boolean[] flag = new boolean[s.length() + 1];
-        for (String st : wordDict) {
-            set.add(st);
-            if (max < st.length()) {
-                max = st.length();
-            }
-        }
-        for (int i = 1; i <= max; i++) {
-            if (dfs(s, 0, i, max, set, flag)) {
-                return true;
-            }
-        }
-        return false;
+        memo = new Boolean[s.length() + 1];
+        return dp(s, 0, wordDict);
     }
 
-    private boolean dfs(String s, int start, int end, int max, Set<String> set, boolean[] flag) {
-        if (!flag[end] && set.contains(s.substring(start, end))) {
-            flag[end] = true;
-            if (end == s.length()) {
+    public boolean dp(String s, int i, List<String> wordDict) {
+        if (i == s.length()) {
+            return true;
+        }
+        if (memo[i] != null) {
+            return memo[i];
+        }
+        for (String word : wordDict) {
+            int len = word.length();
+            if (i + len > s.length() || !s.substring(i, i + len).equals(word)) {
+                continue;
+            }
+            if (dp(s, i + len, wordDict)) {
+                memo[i] = true;
                 return true;
             }
-            for (int i = 1; i <= max; i++) {
-                if (end + i <= s.length() && dfs(s, end, end + i, max, set, flag)) {
-                    return true;
-                }
-            }
         }
+        memo[i] = false;
         return false;
     }
 }
