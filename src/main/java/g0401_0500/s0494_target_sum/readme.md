@@ -45,35 +45,43 @@ Return the number of different **expressions** that you can build, which evaluat
 
 ```java
 public class Solution {
-    public int findTargetSumWays(int[] nums, int s) {
-        int sum = 0;
-        s = Math.abs(s);
-        for (int num : nums) {
-            sum += num;
+    public int findTargetSumWays(int[] nums, int target) {
+        int totalSum = 0;
+        int n = nums.length;
+        for (int i = 0; i < n; i++) {
+            totalSum += nums[i];
         }
-        // Invalid s, just return 0
-        if (s > sum || (sum + s) % 2 != 0) {
+        int sum = totalSum - target;
+        if (sum < 0 || sum % 2 == 1) {
             return 0;
         }
-        int[][] dp = new int[(sum + s) / 2 + 1][nums.length + 1];
-        dp[0][0] = 1;
-        // empty knapsack must be processed specially
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == 0) {
-                dp[0][i + 1] = dp[0][i] * 2;
-            } else {
-                dp[0][i + 1] = dp[0][i];
-            }
+        return solve(nums, sum / 2);
+    }
+
+    private int solve(int[] nums, int target) {
+        int[] prev = new int[target + 1];
+        if (nums[0] == 0) {
+            prev[0] = 2;
+        } else {
+            prev[0] = 1;
         }
-        for (int i = 1; i < dp.length; i++) {
-            for (int j = 0; j < nums.length; j++) {
-                dp[i][j + 1] += dp[i][j];
-                if (nums[j] <= i) {
-                    dp[i][j + 1] += dp[i - nums[j]][j];
+        if (nums[0] != 0 && nums[0] <= target) {
+            prev[nums[0]] = 1;
+        }
+        int n = nums.length;
+        for (int i = 1; i < n; i++) {
+            int[] curr = new int[target + 1];
+            for (int j = 0; j <= target; j++) {
+                int taken = 0;
+                if (j >= nums[i]) {
+                    taken = prev[j - nums[i]];
                 }
+                int nonTaken = prev[j];
+                curr[j] = taken + nonTaken;
             }
+            prev = curr;
         }
-        return dp[(sum + s) / 2][nums.length];
+        return prev[target];
     }
 }
 ```

@@ -33,22 +33,30 @@ Given a **non-empty** array `nums` containing **only positive integers**, find i
 ```java
 public class Solution {
     public boolean canPartition(int[] nums) {
-        int sums = 0;
-        for (int num : nums) {
-            sums += num;
+        int sum = 0;
+        for (int val : nums) {
+            sum += val;
         }
-        if (sums % 2 == 1) {
+        if (sum % 2 != 0) {
             return false;
         }
-        sums /= 2;
-        boolean[] dp = new boolean[sums + 1];
-        dp[0] = true;
-        for (int num : nums) {
-            for (int sum = sums; sum >= num; sum--) {
-                dp[sum] = dp[sum] || dp[sum - num];
+        sum /= 2;
+        boolean[] set = new boolean[sum + 1];
+        int[] arr = new int[sum + 2];
+        int top = 0;
+        for (int val : nums) {
+            for (int i = top; i > -1; i--) {
+                int tempSum = val + arr[i];
+                if (tempSum <= sum && !set[tempSum]) {
+                    if (tempSum == sum) {
+                        return true;
+                    }
+                    set[tempSum] = true;
+                    arr[++top] = tempSum;
+                }
             }
         }
-        return dp[sums];
+        return false;
     }
 }
 ```
