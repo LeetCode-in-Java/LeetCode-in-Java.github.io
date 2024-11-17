@@ -36,25 +36,18 @@ You must write an algorithm that runs in `O(n)` time and without using the divis
 ```java
 public class Solution {
     public int[] productExceptSelf(int[] nums) {
-        int product = 1;
-        int[] ans = new int[nums.length];
-        for (int num : nums) {
-            product = product * num;
-        }
+        int[] res = new int[nums.length];
+        int prefixProduct = 1;
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != 0) {
-                ans[i] = product / nums[i];
-            } else {
-                int p = 1;
-                for (int j = 0; j < nums.length; j++) {
-                    if (j != i) {
-                        p = p * nums[j];
-                    }
-                }
-                ans[i] = p;
-            }
+            res[i] = prefixProduct;
+            prefixProduct *= nums[i];
         }
-        return ans;
+        int suffixProduct = 1;
+        for (int i = nums.length - 1; i >= 0; i--) {
+            res[i] *= suffixProduct;
+            suffixProduct *= nums[i];
+        }
+        return res;
     }
 }
 ```

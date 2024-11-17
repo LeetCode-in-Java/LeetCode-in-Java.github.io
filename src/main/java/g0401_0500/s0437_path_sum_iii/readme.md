@@ -35,6 +35,7 @@ The path does not need to start or end at the root or a leaf, but it must go dow
 
 ```java
 import com_github_leetcode.TreeNode;
+import java.util.HashMap;
 
 /*
  * Definition for a binary tree node.
@@ -52,29 +53,28 @@ import com_github_leetcode.TreeNode;
  * }
  */
 public class Solution {
-    private int count = 0;
-
     public int pathSum(TreeNode root, int targetSum) {
+        HashMap<Long, Integer> h = new HashMap<>();
+        return dfs(root, targetSum, h, 0L);
+    }
+
+    int dfs(TreeNode root, int t, HashMap<Long, Integer> h, Long cs) {
+        int s = 0;
         if (root == null) {
             return 0;
         }
-        helper(root, targetSum, 0);
-        pathSum(root.left, targetSum);
-        pathSum(root.right, targetSum);
-        return count;
-    }
-
-    public void helper(TreeNode node, int targetSum, long currSum) {
-        currSum += node.val;
-        if (targetSum == currSum) {
-            count++;
+        Long k = cs + root.val;
+        if (k == t) {
+            s += 1;
         }
-        if (node.left != null) {
-            helper(node.left, targetSum, currSum);
+        if (h.getOrDefault(k - t, 0) > 0) {
+            s += h.get(k - t);
         }
-        if (node.right != null) {
-            helper(node.right, targetSum, currSum);
-        }
+        h.put(k, h.getOrDefault(k, 0) + 1);
+        s += dfs(root.left, t, h, k);
+        s += dfs(root.right, t, h, k);
+        h.put(k, h.getOrDefault(k, 0) - 1);
+        return s;
     }
 }
 ```
