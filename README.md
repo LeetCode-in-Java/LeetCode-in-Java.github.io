@@ -1816,6 +1816,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3357 |[Minimize the Maximum Adjacent Element Difference](src/main/java/g3301_3400/s3357_minimize_the_maximum_adjacent_element_difference)| Hard | Array, Greedy, Binary_Search | 5 | 100.00
+| 3356 |[Zero Array Transformation II](src/main/java/g3301_3400/s3356_zero_array_transformation_ii)| Medium | Array, Binary_Search, Prefix_Sum | 4 | 93.46
+| 3355 |[Zero Array Transformation I](src/main/java/g3301_3400/s3355_zero_array_transformation_i)| Medium | Array, Prefix_Sum | 3 | 91.34
+| 3354 |[Make Array Elements Equal to Zero](src/main/java/g3301_3400/s3354_make_array_elements_equal_to_zero)| Easy | Array, Simulation, Prefix_Sum | 1 | 95.09
 | 3352 |[Count K-Reducible Numbers Less Than N](src/main/java/g3301_3400/s3352_count_k_reducible_numbers_less_than_n)| Hard | String, Dynamic_Programming, Math, Combinatorics | 11 | 99.58
 | 3351 |[Sum of Good Subsequences](src/main/java/g3301_3400/s3351_sum_of_good_subsequences)| Hard | Array, Hash_Table, Dynamic_Programming | 13 | 99.09
 | 3350 |[Adjacent Increasing Subarrays Detection II](src/main/java/g3301_3400/s3350_adjacent_increasing_subarrays_detection_ii)| Medium | Array, Binary_Search | 10 | 99.76
