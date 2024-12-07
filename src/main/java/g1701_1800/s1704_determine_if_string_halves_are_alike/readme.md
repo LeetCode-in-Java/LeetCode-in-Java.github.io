@@ -38,7 +38,7 @@ Return `true` _if_ `a` _and_ `b` _are **alike**_. Otherwise, return `false`.
 ```java
 public class Solution {
     public boolean halvesAreAlike(String s) {
-        if (s.length() < 1) {
+        if (s.isEmpty()) {
             return false;
         }
         return countVowel(0, s.length() / 2, s) == countVowel(s.length() / 2, s.length(), s);

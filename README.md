@@ -1816,6 +1816,7 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3374 |[First Letter Capitalization II](src/main/java/g3301_3400/s3374_first_letter_capitalization_ii)| Hard | Database | 261 | 84.21
 | 3373 |[Maximize the Number of Target Nodes After Connecting Trees II](src/main/java/g3301_3400/s3373_maximize_the_number_of_target_nodes_after_connecting_trees_ii)| Hard | Depth_First_Search, Breadth_First_Search, Tree | 26 | 98.75
 | 3372 |[Maximize the Number of Target Nodes After Connecting Trees I](src/main/java/g3301_3400/s3372_maximize_the_number_of_target_nodes_after_connecting_trees_i)| Medium | Depth_First_Search, Breadth_First_Search, Tree | 50 | 99.49
 | 3371 |[Identify the Largest Outlier in an Array](src/main/java/g3301_3400/s3371_identify_the_largest_outlier_in_an_array)| Medium | Array, Hash_Table, Counting, Enumeration | 5 | 100.00
