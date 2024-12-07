@@ -45,7 +45,7 @@ Return a sequence of moves that makes our answer equal to `target` in the minimu
 ```java
 public class Solution {
     public String alphabetBoardPath(String target) {
-        if (target.length() == 0) {
+        if (target.isEmpty()) {
             return "";
         }
         int sourceRow = 0;

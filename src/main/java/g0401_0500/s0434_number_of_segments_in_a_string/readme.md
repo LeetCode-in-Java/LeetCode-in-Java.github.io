@@ -35,13 +35,13 @@ A **segment** is defined to be a contiguous sequence of **non-space characters**
 public class Solution {
     public int countSegments(String s) {
         s = s.trim();
-        if (s.length() == 0) {
+        if (s.isEmpty()) {
             return 0;
         }
         String[] splitted = s.split(" ");
         int result = 0;
         for (String value : splitted) {
-            if (value.length() > 0) {
+            if (!value.isEmpty()) {
                 result++;
             }
         }

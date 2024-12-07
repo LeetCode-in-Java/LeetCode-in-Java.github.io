@@ -38,7 +38,7 @@ Given a string `s`, return _the minimum number of turns the printer needed to pr
 ```java
 public class Solution {
     public int strangePrinter(String s) {
-        if (s.length() == 0) {
+        if (s.isEmpty()) {
             return 0;
         }
         int[][] dp = new int[s.length()][s.length()];

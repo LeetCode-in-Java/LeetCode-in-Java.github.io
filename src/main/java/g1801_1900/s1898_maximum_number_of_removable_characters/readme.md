@@ -59,7 +59,7 @@ Hence, the maximum k is 2.
 ```java
 public class Solution {
     public int maximumRemovals(String s, String p, int[] removable) {
-        if (s == null || s.length() == 0) {
+        if (s == null || s.isEmpty()) {
             return 0;
         }
         // binary search for the k which need to be removed

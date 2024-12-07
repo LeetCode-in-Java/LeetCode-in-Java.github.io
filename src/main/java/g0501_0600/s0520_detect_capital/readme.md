@@ -35,7 +35,7 @@ Given a string `word`, return `true` if the usage of capitals in it is right.
 ```java
 public class Solution {
     public boolean detectCapitalUse(String word) {
-        if (word == null || word.length() == 0) {
+        if (word == null || word.isEmpty()) {
             return false;
         }
         int upper = 0;

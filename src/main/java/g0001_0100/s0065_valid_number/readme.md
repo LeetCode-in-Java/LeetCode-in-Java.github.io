@@ -61,7 +61,7 @@ Given a string `s`, return `true` _if_ `s` _is a **valid number**_.
 ```java
 public class Solution {
     public boolean isNumber(String s) {
-        if (s == null || s.length() == 0) {
+        if (s == null || s.isEmpty()) {
             return false;
         }
         boolean eSeen = false;
