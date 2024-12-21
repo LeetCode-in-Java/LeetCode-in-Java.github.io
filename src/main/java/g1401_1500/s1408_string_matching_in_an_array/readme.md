@@ -42,21 +42,30 @@ String `words[i]` is substring of `words[j]`, if can be obtained removing some c
 
 ```java
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class Solution {
     public List<String> stringMatching(String[] words) {
-        Set<String> set = new HashSet<>();
-        for (String word : words) {
-            for (String s : words) {
-                if (!word.equals(s) && word.length() < s.length() && s.contains(word)) {
-                    set.add(word);
-                }
+        List<String> matchedStrings = new ArrayList<>();
+        for (int i = 0; i < words.length; i++) {
+            boolean containsSubstring = checkContains(words, i);
+            if (containsSubstring) {
+                matchedStrings.add(words[i]);
             }
         }
-        return new ArrayList<>(set);
+        return matchedStrings;
+    }
+
+    private boolean checkContains(String[] words, int index) {
+        for (int j = 0; j < words.length; j++) {
+            if (index == j) {
+                continue;
+            }
+            if (words[j].contains(words[index])) {
+                return true;
+            }
+        }
+        return false;
     }
 }
 ```
