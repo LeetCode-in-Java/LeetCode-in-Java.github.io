@@ -674,7 +674,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0976 |[Largest Perimeter Triangle](src/main/java/g0901_1000/s0976_largest_perimeter_triangle)| Easy | Array, Math, Sorting, Greedy | 12 | 26.01
+| 0976 |[Largest Perimeter Triangle](src/main/java/g0901_1000/s0976_largest_perimeter_triangle)| Easy | Array, Math, Sorting, Greedy | 7 | 99.33
 | 1779 |[Find Nearest Point That Has the Same X or Y Coordinate](src/main/java/g1701_1800/s1779_find_nearest_point_that_has_the_same_x_or_y_coordinate)| Easy | Array | 1 | 100.00
 
 #### Day 4 Loop
@@ -1816,6 +1816,18 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3389 |[Minimum Operations to Make Character Frequencies Equal](src/main/java/g3301_3400/s3389_minimum_operations_to_make_character_frequencies_equal)| Hard | String, Hash_Table, Dynamic_Programming, Counting, Enumeration | 4 | 100.00
+| 3388 |[Count Beautiful Splits in an Array](src/main/java/g3301_3400/s3388_count_beautiful_splits_in_an_array)| Medium | Array, Dynamic_Programming | 167 | 70.49
+| 3387 |[Maximize Amount After Two Days of Conversions](src/main/java/g3301_3400/s3387_maximize_amount_after_two_days_of_conversions)| |||
+| 3386 |[Button with Longest Push Time](src/main/java/g3301_3400/s3386_button_with_longest_push_time)| Easy | Array | 0 | 100.00
+| 3382 |[Maximum Area Rectangle With Point Constraints II](src/main/java/g3301_3400/s3382_maximum_area_rectangle_with_point_constraints_ii)| Hard | Array, Math, Sorting, Geometry, Segment_Tree, Binary_Indexed_Tree | 320 | 95.35
+| 3381 |[Maximum Subarray Sum With Length Divisible by K](src/main/java/g3301_3400/s3381_maximum_subarray_sum_with_length_divisible_by_k)| Medium | Array, Hash_Table, Prefix_Sum | 4 | 100.00
+| 3380 |[Maximum Area Rectangle With Point Constraints I](src/main/java/g3301_3400/s3380_maximum_area_rectangle_with_point_constraints_i)| Medium | Array, Math, Sorting, Enumeration, Geometry, Segment_Tree, Binary_Indexed_Tree | 8 | 81.05
+| 3379 |[Transformed Array](src/main/java/g3301_3400/s3379_transformed_array)| Easy | Array, Simulation | 1 | 99.87
+| 3378 |[Count Connected Components in LCM Graph](src/main/java/g3301_3400/s3378_count_connected_components_in_lcm_graph)| Hard | Array, Hash_Table, Math, Union_Find, Number_Theory | 68 | 67.83
+| 3377 |[Digit Operations to Make Two Integers Equal](src/main/java/g3301_3400/s3377_digit_operations_to_make_two_integers_equal)| Medium | Math, Heap_Priority_Queue, Graph, Shortest_Path, Number_Theory | 246 | 38.59
+| 3376 |[Minimum Time to Break Locks I](src/main/java/g3301_3400/s3376_minimum_time_to_break_locks_i)| Medium | Array, Dynamic_Programming, Bit_Manipulation, Backtracking, Bitmask | 3 | 99.63
+| 3375 |[Minimum Operations to Make Array Values Equal to K](src/main/java/g3301_3400/s3375_minimum_operations_to_make_array_values_equal_to_k)| Easy | Array, Hash_Table | 3 | 78.92
 | 3374 |[First Letter Capitalization II](src/main/java/g3301_3400/s3374_first_letter_capitalization_ii)| Hard | Database | 261 | 84.21
 | 3373 |[Maximize the Number of Target Nodes After Connecting Trees II](src/main/java/g3301_3400/s3373_maximize_the_number_of_target_nodes_after_connecting_trees_ii)| Hard | Depth_First_Search, Breadth_First_Search, Tree | 26 | 98.75
 | 3372 |[Maximize the Number of Target Nodes After Connecting Trees I](src/main/java/g3301_3400/s3372_maximize_the_number_of_target_nodes_after_connecting_trees_i)| Medium | Depth_First_Search, Breadth_First_Search, Tree | 50 | 99.49
@@ -3353,7 +3365,7 @@
 | 1411 |[Number of Ways to Paint N × 3 Grid](src/main/java/g1401_1500/s1411_number_of_ways_to_paint_n_3_grid)| Hard | Dynamic_Programming | 14 | 34.91
 | 1410 |[HTML Entity Parser](src/main/java/g1401_1500/s1410_html_entity_parser)| Medium | String, Hash_Table | 19 | 98.92
 | 1409 |[Queries on a Permutation With Key](src/main/java/g1401_1500/s1409_queries_on_a_permutation_with_key)| Medium | Array, Simulation, Binary_Indexed_Tree | 15 | 38.43
-| 1408 |[String Matching in an Array](src/main/java/g1401_1500/s1408_string_matching_in_an_array)| Easy | String, String_Matching | 8 | 24.88
+| 1408 |[String Matching in an Array](src/main/java/g1401_1500/s1408_string_matching_in_an_array)| Easy | String, String_Matching | 1 | 100.00
 | 1407 |[Top Travellers](src/main/java/g1401_1500/s1407_top_travellers)| Easy | LeetCode_Curated_SQL_70, Database, SQL_I_Day_9_Control_of_Flow | 682 | 70.16
 | 1406 |[Stone Game III](src/main/java/g1401_1500/s1406_stone_game_iii)| Hard | Array, Dynamic_Programming, Math, Game_Theory | 14 | 82.02
 | 1405 |[Longest Happy String](src/main/java/g1401_1500/s1405_longest_happy_string)| Medium | String, Greedy, Heap_Priority_Queue | 0 | 100.00
@@ -3425,7 +3437,7 @@
 | 1332 |[Remove Palindromic Subsequences](src/main/java/g1301_1400/s1332_remove_palindromic_subsequences)| Easy | String, Two_Pointers | 0 | 100.00
 | 1331 |[Rank Transform of an Array](src/main/java/g1301_1400/s1331_rank_transform_of_an_array)| Easy | Array, Hash_Table, Sorting | 22 | 98.50
 | 1330 |[Reverse Subarray To Maximize Array Value](src/main/java/g1301_1400/s1330_reverse_subarray_to_maximize_array_value)| Hard | Array, Math, Greedy | 9 | 88.00
-| 1329 |[Sort the Matrix Diagonally](src/main/java/g1301_1400/s1329_sort_the_matrix_diagonally)| Medium | Array, Sorting, Matrix | 15 | 26.03
+| 1329 |[Sort the Matrix Diagonally](src/main/java/g1301_1400/s1329_sort_the_matrix_diagonally)| Medium | Array, Sorting, Matrix | 0 | 100.00
 | 1328 |[Break a Palindrome](src/main/java/g1301_1400/s1328_break_a_palindrome)| Medium | String, Greedy | 0 | 100.00
 | 1327 |[List the Products Ordered in a Period](src/main/java/g1301_1400/s1327_list_the_products_ordered_in_a_period)| Easy | Database | 1374 | 80.18
 | 1326 |[Minimum Number of Taps to Open to Water a Garden](src/main/java/g1301_1400/s1326_minimum_number_of_taps_to_open_to_water_a_garden)| Hard | Array, Dynamic_Programming, Greedy | 3 | 90.04
@@ -3679,7 +3691,7 @@
 | 0979 |[Distribute Coins in Binary Tree](src/main/java/g0901_1000/s0979_distribute_coins_in_binary_tree)| Medium | Depth_First_Search, Tree, Binary_Tree | 0 | 100.00
 | 0978 |[Longest Turbulent Subarray](src/main/java/g0901_1000/s0978_longest_turbulent_subarray)| Medium | Array, Dynamic_Programming, Sliding_Window | 7 | 48.10
 | 0977 |[Squares of a Sorted Array](src/main/java/g0901_1000/s0977_squares_of_a_sorted_array)| Easy | Array, Sorting, Two_Pointers, Algorithm_I_Day_2_Two_Pointers, Udemy_Two_Pointers | 1 | 100.00
-| 0976 |[Largest Perimeter Triangle](src/main/java/g0901_1000/s0976_largest_perimeter_triangle)| Easy | Array, Math, Sorting, Greedy, Programming_Skills_I_Day_3_Conditional_Statements | 12 | 26.01
+| 0976 |[Largest Perimeter Triangle](src/main/java/g0901_1000/s0976_largest_perimeter_triangle)| Easy | Array, Math, Sorting, Greedy, Programming_Skills_I_Day_3_Conditional_Statements | 7 | 99.33
 | 0975 |[Odd Even Jump](src/main/java/g0901_1000/s0975_odd_even_jump)| Hard | Array, Dynamic_Programming, Stack, Ordered_Set, Monotonic_Stack | 49 | 98.38
 | 0974 |[Subarray Sums Divisible by K](src/main/java/g0901_1000/s0974_subarray_sums_divisible_by_k)| Medium | Array, Hash_Table, Prefix_Sum | 3 | 99.95
 | 0973 |[K Closest Points to Origin](src/main/java/g0901_1000/s0973_k_closest_points_to_origin)| Medium | Array, Math, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Geometry, Quickselect, Data_Structure_II_Day_21_Heap_Priority_Queue, Programming_Skills_II_Day_8 | 4 | 98.26
@@ -3785,8 +3797,8 @@
 | 0873 |[Length of Longest Fibonacci Subsequence](src/main/java/g0801_0900/s0873_length_of_longest_fibonacci_subsequence)| Medium | Array, Hash_Table, Dynamic_Programming | 120 | 92.64
 | 0872 |[Leaf-Similar Trees](src/main/java/g0801_0900/s0872_leaf_similar_trees)| Easy | Depth_First_Search, Tree, Binary_Tree | 0 | 100.00
 | 0871 |[Minimum Number of Refueling Stops](src/main/java/g0801_0900/s0871_minimum_number_of_refueling_stops)| Hard | Array, Dynamic_Programming, Greedy, Heap_Priority_Queue | 3 | 88.52
-| 0870 |[Advantage Shuffle](src/main/java/g0801_0900/s0870_advantage_shuffle)| Medium | Array, Sorting, Greedy | 188 | 28.01
-| 0869 |[Reordered Power of 2](src/main/java/g0801_0900/s0869_reordered_power_of_2)| Medium | Math, Sorting, Counting, Enumeration | 9 | 25.97
+| 0870 |[Advantage Shuffle](src/main/java/g0801_0900/s0870_advantage_shuffle)| Medium | Array, Sorting, Greedy | 42 | 99.16
+| 0869 |[Reordered Power of 2](src/main/java/g0801_0900/s0869_reordered_power_of_2)| Medium | Math, Sorting, Counting, Enumeration | 1 | 89.02
 | 0868 |[Binary Gap](src/main/java/g0801_0900/s0868_binary_gap)| Easy | Bit_Manipulation | 1 | 82.94
 | 0867 |[Transpose Matrix](src/main/java/g0801_0900/s0867_transpose_matrix)| Easy | Array, Matrix, Simulation | 1 | 60.83
 | 0866 |[Prime Palindrome](src/main/java/g0801_0900/s0866_prime_palindrome)| Medium | Math | 2 | 84.68
