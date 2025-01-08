@@ -1816,18 +1816,26 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
-| 3405 |[Count the Number of Arrays with K Matching Adjacent Elements](src/main/java/g3401_3500/s3405_count_the_number_of_arrays_with_k_matching_adjacent_elements)| Hard || 57 | 100.00
-| 3404 |[Count Special Subsequences](src/main/java/g3401_3500/s3404_count_special_subsequences)| Medium || 331 | 100.00
-| 3403 |[Find the Lexicographically Largest String From the Box I](src/main/java/g3401_3500/s3403_find_the_lexicographically_largest_string_from_the_box_i)| Medium || 5 | 100.00
-| 3402 |[Minimum Operations to Make Columns Strictly Increasing](src/main/java/g3401_3500/s3402_minimum_operations_to_make_columns_strictly_increasing)| Easy || 1 | 100.00
-| 3399 |[Smallest Substring With Identical Characters II](src/main/java/g3301_3400/s3399_smallest_substring_with_identical_characters_ii)| Hard || 15 | 99.39
-| 3398 |[Smallest Substring With Identical Characters I](src/main/java/g3301_3400/s3398_smallest_substring_with_identical_characters_i)| Hard || 1 | 100.00
-| 3397 |[Maximum Number of Distinct Elements After Operations](src/main/java/g3301_3400/s3397_maximum_number_of_distinct_elements_after_operations)| Medium || 19 | 100.00
-| 3396 |[Minimum Number of Operations to Make Elements in Array Distinct](src/main/java/g3301_3400/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct)| Easy || 4 | 100.00
-| 3395 |[Subsequences with a Unique Middle Mode I](src/main/java/g3301_3400/s3395_subsequences_with_a_unique_middle_mode_i)| Hard || 1115 | 100.00
-| 3394 |[Check if Grid can be Cut into Sections](src/main/java/g3301_3400/s3394_check_if_grid_can_be_cut_into_sections)| Medium || 136 | 100.00
-| 3393 |[Count Paths With the Given XOR Value](src/main/java/g3301_3400/s3393_count_paths_with_the_given_xor_value)| Medium || 83 | 100.00
-| 3392 |[Count Subarrays of Length Three With a Condition](src/main/java/g3301_3400/s3392_count_subarrays_of_length_three_with_a_condition)| Easy || 1 | 100.00
+| 3414 |[Maximum Score of Non-overlapping Intervals](src/main/java/g3401_3500/s3414_maximum_score_of_non_overlapping_intervals)| Hard | Array, Dynamic_Programming, Sorting, Binary_Search | 64 | 95.65
+| 3413 |[Maximum Coins From K Consecutive Bags](src/main/java/g3401_3500/s3413_maximum_coins_from_k_consecutive_bags)| Medium | Array, Sorting, Greedy, Binary_Search, Prefix_Sum, Sliding_Window | 82 | 92.23
+| 3412 |[Find Mirror Score of a String](src/main/java/g3401_3500/s3412_find_mirror_score_of_a_string)| Medium | String, Hash_Table, Stack, Simulation | 12 | 99.54
+| 3411 |[Maximum Subarray With Equal Products](src/main/java/g3401_3500/s3411_maximum_subarray_with_equal_products)| Easy | Array, Math, Sliding_Window, Enumeration, Number_Theory | 3 | 91.26
+| 3410 |[Maximize Subarray Sum After Removing All Occurrences of One Element](src/main/java/g3401_3500/s3410_maximize_subarray_sum_after_removing_all_occurrences_of_one_element)| Hard | Array, Dynamic_Programming, Segment_Tree | 51 | 97.96
+| 3409 |[Longest Subsequence With Decreasing Adjacent Difference](src/main/java/g3401_3500/s3409_longest_subsequence_with_decreasing_adjacent_difference)| Medium | Array, Dynamic_Programming | 68 | 99.55
+| 3408 |[Design Task Manager](src/main/java/g3401_3500/s3408_design_task_manager)| Medium | Hash_Table, Design, Heap_Priority_Queue, Ordered_Set | 349 | 100.00
+| 3407 |[Substring Matching Pattern](src/main/java/g3401_3500/s3407_substring_matching_pattern)| Easy | String, String_Matching | 1 | 100.00
+| 3405 |[Count the Number of Arrays with K Matching Adjacent Elements](src/main/java/g3401_3500/s3405_count_the_number_of_arrays_with_k_matching_adjacent_elements)| Hard | Math, Combinatorics | 55 | 52.53
+| 3404 |[Count Special Subsequences](src/main/java/g3401_3500/s3404_count_special_subsequences)| Medium | Array, Hash_Table, Math, Enumeration | 342 | 73.58
+| 3403 |[Find the Lexicographically Largest String From the Box I](src/main/java/g3401_3500/s3403_find_the_lexicographically_largest_string_from_the_box_i)| Medium | String, Two_Pointers, Enumeration | 5 | 89.70
+| 3402 |[Minimum Operations to Make Columns Strictly Increasing](src/main/java/g3401_3500/s3402_minimum_operations_to_make_columns_strictly_increasing)| Easy | Matrix, Simulation | 1 | 99.95
+| 3399 |[Smallest Substring With Identical Characters II](src/main/java/g3301_3400/s3399_smallest_substring_with_identical_characters_ii)| Hard | Bit_Manipulation, Sliding_Window | 15 | 98.93
+| 3398 |[Smallest Substring With Identical Characters I](src/main/java/g3301_3400/s3398_smallest_substring_with_identical_characters_i)| Hard | Array, Binary_Search, Enumeration | 1 | 100.00
+| 3397 |[Maximum Number of Distinct Elements After Operations](src/main/java/g3301_3400/s3397_maximum_number_of_distinct_elements_after_operations)| Medium | Array, Sorting, Greedy | 19 | 84.32
+| 3396 |[Minimum Number of Operations to Make Elements in Array Distinct](src/main/java/g3301_3400/s3396_minimum_number_of_operations_to_make_elements_in_array_distinct)| Easy | Array, Greedy, Simulation | 3 | 60.47
+| 3395 |[Subsequences with a Unique Middle Mode I](src/main/java/g3301_3400/s3395_subsequences_with_a_unique_middle_mode_i)| Hard | Array, Hash_Table, Math, Combinatorics | 27 | 99.29
+| 3394 |[Check if Grid can be Cut into Sections](src/main/java/g3301_3400/s3394_check_if_grid_can_be_cut_into_sections)| Medium | Geometry, Line_Sweep | 35 | 99.66
+| 3393 |[Count Paths With the Given XOR Value](src/main/java/g3301_3400/s3393_count_paths_with_the_given_xor_value)| Medium | Array, Dynamic_Programming, Math, Matrix, Bit_Manipulation | 76 | 62.72
+| 3392 |[Count Subarrays of Length Three With a Condition](src/main/java/g3301_3400/s3392_count_subarrays_of_length_three_with_a_condition)| Easy | Array | 1 | 100.00
 | 3389 |[Minimum Operations to Make Character Frequencies Equal](src/main/java/g3301_3400/s3389_minimum_operations_to_make_character_frequencies_equal)| Hard | String, Hash_Table, Dynamic_Programming, Counting, Enumeration | 4 | 100.00
 | 3388 |[Count Beautiful Splits in an Array](src/main/java/g3301_3400/s3388_count_beautiful_splits_in_an_array)| Medium | Array, Dynamic_Programming | 167 | 70.49
 | 3387 |[Maximize Amount After Two Days of Conversions](src/main/java/g3301_3400/s3387_maximize_amount_after_two_days_of_conversions)| Medium | Array, String, Depth_First_Search, Breadth_First_Search, Graph | 7 | 87.88
