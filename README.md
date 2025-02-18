@@ -1,3 +1,7 @@
+<head>
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+</head>
+
 [![](https://img.shields.io/github/stars/javadev/LeetCode-in-Java?label=Stars&style=flat-square)](https://github.com/javadev/LeetCode-in-Java)
 [![](https://img.shields.io/github/forks/javadev/LeetCode-in-Java?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/javadev/LeetCode-in-Java/fork)
 > ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
@@ -2084,6 +2088,15 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3459 |[Length of Longest V-Shaped Diagonal Segment](src/main/java/g3401_3500/s3459_length_of_longest_v_shaped_diagonal_segment)| Hard | Array, Dynamic_Programming, Matrix, Memoization | 461 | 36.09
+| 3458 |[Select K Disjoint Special Substrings](src/main/java/g3401_3500/s3458_select_k_disjoint_special_substrings)| Medium | String, Hash_Table, Dynamic_Programming, Sorting, Greedy | 7 | 95.31
+| 3457 |[Eat Pizzas!](src/main/java/g3401_3500/s3457_eat_pizzas)| Medium | Array, Sorting, Greedy | 63 | 40.14
+| 3456 |[Find Special Substring of Length K](src/main/java/g3401_3500/s3456_find_special_substring_of_length_k)| Easy | String | 0 | 100.00
+| 3455 |[Shortest Matching Substring](src/main/java/g3401_3500/s3455_shortest_matching_substring)| Hard | String, Binary_Search, Two_Pointers, String_Matching | 116 | 81.44
+| 3454 |[Separate Squares II](src/main/java/g3401_3500/s3454_separate_squares_ii)| Hard | Array, Binary_Search, Segment_Tree, Line_Sweep | 156 | 80.18
+| 3453 |[Separate Squares I](src/main/java/g3401_3500/s3453_separate_squares_i)| Medium | Array, Binary_Search | 60 | 99.96
+| 3452 |[Sum of Good Numbers](src/main/java/g3401_3500/s3452_sum_of_good_numbers)| Easy | Array | 1 | 99.99
+| 3451 |[Find Invalid IP Addresses](src/main/java/g3401_3500/s3451_find_invalid_ip_addresses)| Hard | Database | 393 | 79.56
 | 3449 |[Maximize the Minimum Game Score](src/main/java/g3401_3500/s3449_maximize_the_minimum_game_score)| Hard | Array, Greedy, Binary_Search | 188 | 100.00
 | 3448 |[Count Substrings Divisible By Last Digit](src/main/java/g3401_3500/s3448_count_substrings_divisible_by_last_digit)| Hard | String, Dynamic_Programming | 23 | 83.08
 | 3447 |[Assign Elements to Groups with Constraints](src/main/java/g3401_3500/s3447_assign_elements_to_groups_with_constraints)| Medium | Array, Hash_Table | 7 | 99.06
