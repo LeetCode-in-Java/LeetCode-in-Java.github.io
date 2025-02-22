@@ -2088,9 +2088,9 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
-| 3459 |[Length of Longest V-Shaped Diagonal Segment](src/main/java/g3401_3500/s3459_length_of_longest_v_shaped_diagonal_segment)| Hard | Array, Dynamic_Programming, Matrix, Memoization | 461 | 36.09
+| 3459 |[Length of Longest V-Shaped Diagonal Segment](src/main/java/g3401_3500/s3459_length_of_longest_v_shaped_diagonal_segment)| Hard | Array, Dynamic_Programming, Matrix, Memoization | 56 | 72.97
 | 3458 |[Select K Disjoint Special Substrings](src/main/java/g3401_3500/s3458_select_k_disjoint_special_substrings)| Medium | String, Hash_Table, Dynamic_Programming, Sorting, Greedy | 7 | 95.31
-| 3457 |[Eat Pizzas!](src/main/java/g3401_3500/s3457_eat_pizzas)| Medium | Array, Sorting, Greedy | 63 | 40.14
+| 3457 |[Eat Pizzas!](src/main/java/g3401_3500/s3457_eat_pizzas)| Medium | Array, Sorting, Greedy | 16 | 100.00
 | 3456 |[Find Special Substring of Length K](src/main/java/g3401_3500/s3456_find_special_substring_of_length_k)| Easy | String | 0 | 100.00
 | 3455 |[Shortest Matching Substring](src/main/java/g3401_3500/s3455_shortest_matching_substring)| Hard | String, Binary_Search, Two_Pointers, String_Matching | 116 | 81.44
 | 3454 |[Separate Squares II](src/main/java/g3401_3500/s3454_separate_squares_ii)| Hard | Array, Binary_Search, Segment_Tree, Line_Sweep | 156 | 80.18
@@ -3373,7 +3373,7 @@
 | 1818 |[Minimum Absolute Sum Difference](src/main/java/g1801_1900/s1818_minimum_absolute_sum_difference)| Medium | Array, Sorting, Binary_Search, Ordered_Set, Binary_Search_II_Day_7 | 13 | 99.44
 | 1817 |[Finding the Users Active Minutes](src/main/java/g1801_1900/s1817_finding_the_users_active_minutes)| Medium | Array, Hash_Table | 16 | 91.64
 | 1816 |[Truncate Sentence](src/main/java/g1801_1900/s1816_truncate_sentence)| Easy | Array, String | 2 | 65.71
-| 1815 |[Maximum Number of Groups Getting Fresh Donuts](src/main/java/g1801_1900/s1815_maximum_number_of_groups_getting_fresh_donuts)| Hard | Array, Dynamic_Programming, Bit_Manipulation, Bitmask, Memoization | 7 | 86.67
+| 1815 |[Maximum Number of Groups Getting Fresh Donuts](src/main/java/g1801_1900/s1815_maximum_number_of_groups_getting_fresh_donuts)| Hard | Array, Dynamic_Programming, Bit_Manipulation, Bitmask, Memoization | 2 | 100.00
 | 1814 |[Count Nice Pairs in an Array](src/main/java/g1801_1900/s1814_count_nice_pairs_in_an_array)| Medium | Array, Hash_Table, Math, Counting | 47 | 83.12
 | 1813 |[Sentence Similarity III](src/main/java/g1801_1900/s1813_sentence_similarity_iii)| Medium | Array, String, Two_Pointers | 3 | 41.38
 | 1812 |[Determine Color of a Chessboard Square](src/main/java/g1801_1900/s1812_determine_color_of_a_chessboard_square)| Easy | String, Math | 1 | 49.36

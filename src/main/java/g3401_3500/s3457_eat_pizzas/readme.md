@@ -49,26 +49,39 @@ The total weight gained after eating all the pizzas is `2 + 1 = 3.`
 ## Solution
 
 ```java
-import java.util.Arrays;
-
-public class Solution {
+class Solution {
     public long maxWeight(int[] pizzas) {
-        int n = pizzas.length;
-        int m = n / 4;
-        int z = (m + 1) / 2;
-        int y = m / 2;
-        int j = 0;
-        Arrays.sort(pizzas);
-        long res = 0;
-        for (int i = 0; i < z; ++i) {
-            res += pizzas[n - 1 - j];
-            j += 1;
+        int max = 0;
+        for (int x : pizzas) {
+            max = Math.max(max, x);
         }
-        for (int i = 0; i < y; ++i) {
-            res += pizzas[n - 1 - j - 1];
-            j += 2;
+        int[] count = new int[max + 1];
+        for (int x : pizzas) {
+            count[x]++;
         }
-        return res;
+        int m = pizzas.length;
+        int n = m / 4;
+        int index = 0;
+        for (int x = max; x > 0; --x) {
+            if (count[x] != 0) {
+                int c = count[x];
+                while (c-- > 0) {
+                    pizzas[index++] = x;
+                }
+                if (index >= m / 2) {
+                    break;
+                }
+            }
+        }
+        long ans = 0;
+        for (int i = 0; i < (n + 1) / 2; ++i) {
+            ans += pizzas[i];
+        }
+        int k = n - (n + 1) / 2;
+        for (int i = (n + 1) / 2 + 1; k > 0; i += 2, k--) {
+            ans += pizzas[i];
+        }
+        return ans;
     }
 }
 ```
