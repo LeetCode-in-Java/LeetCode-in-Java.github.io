@@ -2628,7 +2628,7 @@
 | 2750 |[Ways to Split Array Into Good Subarrays](src/main/java/g2701_2800/s2750_ways_to_split_array_into_good_subarrays)| Medium | Array, Dynamic_Programming, Math | 7 | 96.36
 | 2749 |[Minimum Operations to Make the Integer Zero](src/main/java/g2701_2800/s2749_minimum_operations_to_make_the_integer_zero)| Medium | Bit_Manipulation, Brainteaser | 1 | 91.11
 | 2748 |[Number of Beautiful Pairs](src/main/java/g2701_2800/s2748_number_of_beautiful_pairs)| Easy | Array, Math, Number_Theory | 11 | 91.00
-| 2747 |[Count Zero Request Servers](src/main/java/g2701_2800/s2747_count_zero_request_servers)| Medium | Array, Hash_Table, Sorting, Sliding_Window | 43 | 76.92
+| 2747 |[Count Zero Request Servers](src/main/java/g2701_2800/s2747_count_zero_request_servers)| Medium | Array, Hash_Table, Sorting, Sliding_Window | 22 | 100.00
 | 2746 |[Decremental String Concatenation](src/main/java/g2701_2800/s2746_decremental_string_concatenation)| Medium | Array, String, Dynamic_Programming | 34 | 85.89
 | 2745 |[Construct the Longest New String](src/main/java/g2701_2800/s2745_construct_the_longest_new_string)| Medium | Math, Greedy, Brainteaser | 1 | 100.00
 | 2744 |[Find Maximum Number of String Pairs](src/main/java/g2701_2800/s2744_find_maximum_number_of_string_pairs)| Easy | Array, String, Hash_Table, Simulation | 1 | 100.00
@@ -3356,7 +3356,7 @@
 | 1840 |[Maximum Building Height](src/main/java/g1801_1900/s1840_maximum_building_height)| Hard | Array, Math | 59 | 94.64
 | 1839 |[Longest Substring Of All Vowels in Order](src/main/java/g1801_1900/s1839_longest_substring_of_all_vowels_in_order)| Medium | String, Sliding_Window | 24 | 86.13
 | 1838 |[Frequency of the Most Frequent Element](src/main/java/g1801_1900/s1838_frequency_of_the_most_frequent_element)| Medium | Array, Sorting, Greedy, Binary_Search, Prefix_Sum, Sliding_Window, Binary_Search_II_Day_9 | 11 | 100.00
-| 1837 |[Sum of Digits in Base K](src/main/java/g1801_1900/s1837_sum_of_digits_in_base_k)| Easy | Math | 1 | 10.42
+| 1837 |[Sum of Digits in Base K](src/main/java/g1801_1900/s1837_sum_of_digits_in_base_k)| Easy | Math | 0 | 100.00
 | 1835 |[Find XOR Sum of All Pairs Bitwise AND](src/main/java/g1801_1900/s1835_find_xor_sum_of_all_pairs_bitwise_and)| Hard | Array, Math, Bit_Manipulation | 1 | 100.00
 | 1834 |[Single-Threaded CPU](src/main/java/g1801_1900/s1834_single_threaded_cpu)| Medium | Array, Sorting, Heap_Priority_Queue | 134 | 83.22
 | 1833 |[Maximum Ice Cream Bars](src/main/java/g1801_1900/s1833_maximum_ice_cream_bars)| Medium | Array, Sorting, Greedy | 39 | 84.49

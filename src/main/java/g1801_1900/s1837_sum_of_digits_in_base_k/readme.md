@@ -35,10 +35,14 @@ After converting, each digit should be interpreted as a base `10` number, and th
 ```java
 public class Solution {
     public int sumBase(int n, int k) {
-        String str = Integer.toString(Integer.parseInt(n + "", 10), k);
+        int a = 0;
         int sum = 0;
-        for (char c : str.toCharArray()) {
-            sum += Character.getNumericValue(c);
+        int b = 0;
+        while (n != 0) {
+            a = n % k;
+            b = n / k;
+            sum += a;
+            n = b;
         }
         return sum;
     }
