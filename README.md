@@ -2088,6 +2088,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3464 |[Maximize the Distance Between Points on a Square](src/main/java/g3401_3500/s3464_maximize_the_distance_between_points_on_a_square)| Hard | Array, Greedy, Binary_Search | 18 | 98.51
+| 3463 |[Check If Digits Are Equal in String After Operations II](src/main/java/g3401_3500/s3463_check_if_digits_are_equal_in_string_after_operations_ii)| Hard | String, Math, Number_Theory, Combinatorics | 43 | 99.64
+| 3462 |[Maximum Sum With at Most K Elements](src/main/java/g3401_3500/s3462_maximum_sum_with_at_most_k_elements)| Medium | Array, Sorting, Greedy, Matrix, Heap_(Priority_Queue) | 62 | 99.82
+| 3461 |[Check If Digits Are Equal in String After Operations I](src/main/java/g3401_3500/s3461_check_if_digits_are_equal_in_string_after_operations_i)| Easy | String, Math, Simulation, Number_Theory, Combinatorics | 2 | 96.71
 | 3459 |[Length of Longest V-Shaped Diagonal Segment](src/main/java/g3401_3500/s3459_length_of_longest_v_shaped_diagonal_segment)| Hard | Array, Dynamic_Programming, Matrix, Memoization | 56 | 72.97
 | 3458 |[Select K Disjoint Special Substrings](src/main/java/g3401_3500/s3458_select_k_disjoint_special_substrings)| Medium | String, Hash_Table, Dynamic_Programming, Sorting, Greedy | 7 | 95.31
 | 3457 |[Eat Pizzas!](src/main/java/g3401_3500/s3457_eat_pizzas)| Medium | Array, Sorting, Greedy | 16 | 100.00
@@ -2640,7 +2644,7 @@
 | 2735 |[Collecting Chocolates](src/main/java/g2701_2800/s2735_collecting_chocolates)| Medium | Array, Enumeration | 24 | 96.97
 | 2734 |[Lexicographically Smallest String After Substring Operation](src/main/java/g2701_2800/s2734_lexicographically_smallest_string_after_substring_operation)| Medium | String, Greedy | 12 | 86.26
 | 2733 |[Neither Minimum nor Maximum](src/main/java/g2701_2800/s2733_neither_minimum_nor_maximum)| Easy | Array, Sorting | 4 | 99.76
-| 2732 |[Find a Good Subset of the Matrix](src/main/java/g2701_2800/s2732_find_a_good_subset_of_the_matrix)| Hard | Array, Greedy, Matrix, Bit_Manipulation | 7 | 70.65
+| 2732 |[Find a Good Subset of the Matrix](src/main/java/g2701_2800/s2732_find_a_good_subset_of_the_matrix)| Hard | Array, Greedy, Matrix, Bit_Manipulation | 2 | 100.00
 | 2731 |[Movement of Robots](src/main/java/g2701_2800/s2731_movement_of_robots)| Medium | Array, Sorting, Prefix_Sum, Brainteaser | 9 | 100.00
 | 2730 |[Find the Longest Semi-Repetitive Substring](src/main/java/g2701_2800/s2730_find_the_longest_semi_repetitive_substring)| Medium | String, Sliding_Window | 5 | 100.00
 | 2729 |[Check if The Number is Fascinating](src/main/java/g2701_2800/s2729_check_if_the_number_is_fascinating)| Easy | Hash_Table, Math | 1 | 96.07
@@ -2692,7 +2696,7 @@
 | 2665 |[Counter II](src/main/java/g2601_2700/s2665_counter_ii)| Easy || 54 | 94.09
 | 2663 |[Lexicographically Smallest Beautiful String](src/main/java/g2601_2700/s2663_lexicographically_smallest_beautiful_string)| Hard | String, Greedy | 8 | 90.48
 | 2662 |[Minimum Cost of a Path With Special Roads](src/main/java/g2601_2700/s2662_minimum_cost_of_a_path_with_special_roads)| Medium | Array, Heap_Priority_Queue, Graph, Shortest_Path | 3 | 100.00
-| 2661 |[First Completely Painted Row or Column](src/main/java/g2601_2700/s2661_first_completely_painted_row_or_column)| Medium | Array, Hash_Table, Matrix | 22 | 85.61
+| 2661 |[First Completely Painted Row or Column](src/main/java/g2601_2700/s2661_first_completely_painted_row_or_column)| Medium | Array, Hash_Table, Matrix | 2 | 100.00
 | 2660 |[Determine the Winner of a Bowling Game](src/main/java/g2601_2700/s2660_determine_the_winner_of_a_bowling_game)| Easy | Array, Simulation | 1 | 100.00
 | 2659 |[Make Array Empty](src/main/java/g2601_2700/s2659_make_array_empty)| Hard | Array, Sorting, Greedy, Binary_Search, Ordered_Set, Segment_Tree, Binary_Indexed_Tree | 42 | 98.92
 | 2658 |[Maximum Number of Fish in a Grid](src/main/java/g2601_2700/s2658_maximum_number_of_fish_in_a_grid)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 3 | 100.00
@@ -2735,7 +2739,7 @@
 | 2614 |[Prime In Diagonal](src/main/java/g2601_2700/s2614_prime_in_diagonal)| Easy | Array, Math, Matrix, Number_Theory | 0 | 100.00
 | 2612 |[Minimum Reverse Operations](src/main/java/g2601_2700/s2612_minimum_reverse_operations)| Hard | Array, Breadth_First_Search, Ordered_Set | 19 | 100.00
 | 2611 |[Mice and Cheese](src/main/java/g2601_2700/s2611_mice_and_cheese)| Medium | Array, Sorting, Greedy, Heap_Priority_Queue | 11 | 99.56
-| 2610 |[Convert an Array Into a 2D Array With Conditions](src/main/java/g2601_2700/s2610_convert_an_array_into_a_2d_array_with_conditions)| Medium | Array, Hash_Table | 2 | 97.24
+| 2610 |[Convert an Array Into a 2D Array With Conditions](src/main/java/g2601_2700/s2610_convert_an_array_into_a_2d_array_with_conditions)| Medium | Array, Hash_Table | 1 | 100.00
 | 2609 |[Find the Longest Balanced Substring of a Binary String](src/main/java/g2601_2700/s2609_find_the_longest_balanced_substring_of_a_binary_string)| Easy | String | 1 | 100.00
 | 2608 |[Shortest Cycle in a Graph](src/main/java/g2601_2700/s2608_shortest_cycle_in_a_graph)| Hard | Breadth_First_Search, Graph | 11 | 100.00
 | 2607 |[Make K-Subarray Sums Equal](src/main/java/g2601_2700/s2607_make_k_subarray_sums_equal)| Medium | Array, Math, Sorting, Number_Theory | 24 | 99.15
