@@ -2089,7 +2089,7 @@
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
 | 3465 |[Find Products with Valid Serial Numbers](src/main/java/g3401_3500/s3465_find_products_with_valid_serial_numbers)| Easy | Database | 292 | 90.91
-| 3464 |[Maximize the Distance Between Points on a Square](src/main/java/g3401_3500/s3464_maximize_the_distance_between_points_on_a_square)| Hard | Array, Greedy, Binary_Search | 18 | 98.51
+| 3464 |[Maximize the Distance Between Points on a Square](src/main/java/g3401_3500/s3464_maximize_the_distance_between_points_on_a_square)| Hard | Array, Greedy, Binary_Search | 17 | 98.18
 | 3463 |[Check If Digits Are Equal in String After Operations II](src/main/java/g3401_3500/s3463_check_if_digits_are_equal_in_string_after_operations_ii)| Hard | String, Math, Number_Theory, Combinatorics | 43 | 99.64
 | 3462 |[Maximum Sum With at Most K Elements](src/main/java/g3401_3500/s3462_maximum_sum_with_at_most_k_elements)| Medium | Array, Sorting, Greedy, Matrix, Heap_(Priority_Queue) | 62 | 99.82
 | 3461 |[Check If Digits Are Equal in String After Operations I](src/main/java/g3401_3500/s3461_check_if_digits_are_equal_in_string_after_operations_i)| Easy | String, Math, Simulation, Number_Theory, Combinatorics | 2 | 96.71

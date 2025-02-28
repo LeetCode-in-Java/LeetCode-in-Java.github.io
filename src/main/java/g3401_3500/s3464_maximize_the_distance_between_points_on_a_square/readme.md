@@ -67,12 +67,12 @@ Select the points `(0, 0)`, `(0, 1)`, `(0, 2)`, `(1, 2)`, and `(2, 2)`.
 import java.util.Arrays;
 
 public class Solution {
-    public int maxDistance(int side, int[][] pts, int k) {
-        int n = pts.length;
+    public int maxDistance(int side, int[][] points, int k) {
+        int n = points.length;
         long[] p = new long[n];
         for (int i = 0; i < n; i++) {
-            int x = pts[i][0];
-            int y = pts[i][1];
+            int x = points[i][0];
+            int y = points[i][1];
             long c;
             if (y == 0) {
                 c = x;
