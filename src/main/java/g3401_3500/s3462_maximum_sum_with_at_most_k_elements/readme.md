@@ -52,8 +52,8 @@ import java.util.Arrays;
 public class Solution {
     public long maxSum(int[][] grid, int[] limits, int k) {
         int l = 0;
-        for (int i = 0; i < limits.length; i++) {
-            l += limits[i];
+        for (int limit : limits) {
+            l += limit;
         }
         int[] dp = new int[l];
         int a = 0;

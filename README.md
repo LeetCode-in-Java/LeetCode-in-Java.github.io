@@ -2088,10 +2088,19 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3475 |[DNA Pattern Recognition](src/main/java/g3401_3500/s3475_dna_pattern_recognition)| Medium | Database | 362 | 83.49
+| 3474 |[Lexicographically Smallest Generated String](src/main/java/g3401_3500/s3474_lexicographically_smallest_generated_string)| Hard | String, Greedy, String_Matching | 17 | 64.86
+| 3473 |[Sum of K Subarrays With Length at Least M](src/main/java/g3401_3500/s3473_sum_of_k_subarrays_with_length_at_least_m)| Medium | Array, Dynamic_Programming, Prefix_Sum | 191 | 52.16
+| 3472 |[Longest Palindromic Subsequence After at Most K Operations](src/main/java/g3401_3500/s3472_longest_palindromic_subsequence_after_at_most_k_operations)| Medium | String, Dynamic_Programming | 153 | 85.01
+| 3471 |[Find the Largest Almost Missing Integer](src/main/java/g3401_3500/s3471_find_the_largest_almost_missing_integer)| Easy | Array, Hash_Table | 4 | 73.95
+| 3470 |[Permutations IV](src/main/java/g3401_3500/s3470_permutations_iv)| Hard | Array, Math, Enumeration, Combinatorics | 11 | 59.56
+| 3469 |[Find Minimum Cost to Remove Array Elements](src/main/java/g3401_3500/s3469_find_minimum_cost_to_remove_array_elements)| Medium | Array, Dynamic_Programming | 12 | 100.00
+| 3468 |[Find the Number of Copy Arrays](src/main/java/g3401_3500/s3468_find_the_number_of_copy_arrays)| Medium | Array, Math | 2 | 100.00
+| 3467 |[Transform Array by Parity](src/main/java/g3401_3500/s3467_transform_array_by_parity)| Easy | Array, Sorting, Counting | 1 | 100.00
 | 3465 |[Find Products with Valid Serial Numbers](src/main/java/g3401_3500/s3465_find_products_with_valid_serial_numbers)| Easy | Database | 292 | 90.91
 | 3464 |[Maximize the Distance Between Points on a Square](src/main/java/g3401_3500/s3464_maximize_the_distance_between_points_on_a_square)| Hard | Array, Greedy, Binary_Search | 17 | 98.18
 | 3463 |[Check If Digits Are Equal in String After Operations II](src/main/java/g3401_3500/s3463_check_if_digits_are_equal_in_string_after_operations_ii)| Hard | String, Math, Number_Theory, Combinatorics | 43 | 99.64
-| 3462 |[Maximum Sum With at Most K Elements](src/main/java/g3401_3500/s3462_maximum_sum_with_at_most_k_elements)| Medium | Array, Sorting, Greedy, Matrix, Heap_(Priority_Queue) | 62 | 99.82
+| 3462 |[Maximum Sum With at Most K Elements](src/main/java/g3401_3500/s3462_maximum_sum_with_at_most_k_elements)| Medium | Array, Sorting, Greedy, Matrix, Heap_Priority_Queue | 62 | 99.82
 | 3461 |[Check If Digits Are Equal in String After Operations I](src/main/java/g3401_3500/s3461_check_if_digits_are_equal_in_string_after_operations_i)| Easy | String, Math, Simulation, Number_Theory, Combinatorics | 2 | 96.71
 | 3459 |[Length of Longest V-Shaped Diagonal Segment](src/main/java/g3401_3500/s3459_length_of_longest_v_shaped_diagonal_segment)| Hard | Array, Dynamic_Programming, Matrix, Memoization | 56 | 72.97
 | 3458 |[Select K Disjoint Special Substrings](src/main/java/g3401_3500/s3458_select_k_disjoint_special_substrings)| Medium | String, Hash_Table, Dynamic_Programming, Sorting, Greedy | 7 | 95.31
