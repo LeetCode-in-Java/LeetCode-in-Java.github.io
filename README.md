@@ -2088,6 +2088,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3480 |[Maximize Subarrays After Removing One Conflicting Pair](src/main/java/g3401_3500/s3480_maximize_subarrays_after_removing_one_conflicting_pair)| Hard | Array, Prefix_Sum, Enumeration, Segment_Tree | 20 | 98.86
+| 3479 |[Fruits Into Baskets III](src/main/java/g3401_3500/s3479_fruits_into_baskets_iii)| Medium | Array, Binary_Search, Ordered_Set, Segment_Tree | 38 | 97.76
+| 3478 |[Choose K Elements With Maximum Sum](src/main/java/g3401_3500/s3478_choose_k_elements_with_maximum_sum)| Medium | Array, Sorting, Heap_Priority_Queue | 105 | 98.60
+| 3477 |[Fruits Into Baskets II](src/main/java/g3401_3500/s3477_fruits_into_baskets_ii)| Easy | Array, Binary_Search, Simulation, Segment_Tree | 1 | 100.00
 | 3475 |[DNA Pattern Recognition](src/main/java/g3401_3500/s3475_dna_pattern_recognition)| Medium | Database | 362 | 83.49
 | 3474 |[Lexicographically Smallest Generated String](src/main/java/g3401_3500/s3474_lexicographically_smallest_generated_string)| Hard | String, Greedy, String_Matching | 17 | 64.86
 | 3473 |[Sum of K Subarrays With Length at Least M](src/main/java/g3401_3500/s3473_sum_of_k_subarrays_with_length_at_least_m)| Medium | Array, Dynamic_Programming, Prefix_Sum | 191 | 52.16
