@@ -2138,7 +2138,7 @@
 | 3428 |[Maximum and Minimum Sums of at Most Size K Subsequences](src/main/java/g3401_3500/s3428_maximum_and_minimum_sums_of_at_most_size_k_subsequences)| Medium | Array, Dynamic_Programming, Math, Sorting, Combinatorics | 28 | 99.74
 | 3427 |[Sum of Variable Length Subarrays](src/main/java/g3401_3500/s3427_sum_of_variable_length_subarrays)| Easy | Array, Prefix_Sum | 0 | 100.00
 | 3426 |[Manhattan Distances of All Arrangements of Pieces](src/main/java/g3401_3500/s3426_manhattan_distances_of_all_arrangements_of_pieces)| Hard | Math, Combinatorics | 20 | 87.92
-| 3425 |[Longest Special Path](src/main/java/g3401_3500/s3425_longest_special_path)| Hard | Array, Hash_Table, Depth_First_Search, Tree, Sliding_Window | 49 | 74.66
+| 3425 |[Longest Special Path](src/main/java/g3401_3500/s3425_longest_special_path)| Hard | Array, Hash_Table, Depth_First_Search, Tree, Sliding_Window | 48 | 81.52
 | 3424 |[Minimum Cost to Make Arrays Identical](src/main/java/g3401_3500/s3424_minimum_cost_to_make_arrays_identical)| Medium | Array, Sorting, Greedy | 20 | 98.92
 | 3423 |[Maximum Difference Between Adjacent Elements in a Circular Array](src/main/java/g3401_3500/s3423_maximum_difference_between_adjacent_elements_in_a_circular_array)| Easy | Array | 1 | 99.86
 | 3421 |[Find Students Who Improved](src/main/java/g3401_3500/s3421_find_students_who_improved)| Medium | Database | 466 | 74.56
@@ -3384,7 +3384,7 @@
 | 1829 |[Maximum XOR for Each Query](src/main/java/g1801_1900/s1829_maximum_xor_for_each_query)| Medium | Array, Bit_Manipulation, Prefix_Sum | 5 | 61.24
 | 1828 |[Queries on Number of Points Inside a Circle](src/main/java/g1801_1900/s1828_queries_on_number_of_points_inside_a_circle)| Medium | Array, Math, Geometry | 23 | 75.03
 | 1827 |[Minimum Operations to Make the Array Increasing](src/main/java/g1801_1900/s1827_minimum_operations_to_make_the_array_increasing)| Easy | Array, Greedy | 4 | 35.67
-| 1825 |[Finding MK Average](src/main/java/g1801_1900/s1825_finding_mk_average)| Hard | Design, Heap_Priority_Queue, Ordered_Set, Queue | 83 | 60.59
+| 1825 |[Finding MK Average](src/main/java/g1801_1900/s1825_finding_mk_average)| Hard | Design, Heap_Priority_Queue, Ordered_Set, Queue | 37 | 100.00
 | 1824 |[Minimum Sideway Jumps](src/main/java/g1801_1900/s1824_minimum_sideway_jumps)| Medium | Array, Dynamic_Programming, Greedy | 17 | 96.34
 | 1823 |[Find the Winner of the Circular Game](src/main/java/g1801_1900/s1823_find_the_winner_of_the_circular_game)| Medium | Array, Math, Simulation, Recursion, Queue, Data_Structure_II_Day_14_Stack_Queue | 3 | 64.85
 | 1822 |[Sign of the Product of an Array](src/main/java/g1801_1900/s1822_sign_of_the_product_of_an_array)| Easy | Array, Math, Programming_Skills_I_Day_4_Loop | 1 | 58.05
