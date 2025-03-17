@@ -2088,6 +2088,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3490 |[Count Beautiful Numbers](src/main/java/g3401_3500/s3490_count_beautiful_numbers)| Hard | Dynamic_Programming | 523 | 100.00
+| 3489 |[Zero Array Transformation IV](src/main/java/g3401_3500/s3489_zero_array_transformation_iv)| Medium | Array, Dynamic_Programming | 142 | 100.00
+| 3488 |[Closest Equal Element Queries](src/main/java/g3401_3500/s3488_closest_equal_element_queries)| Medium | Array, Hash_Table, Binary_Search | 50 | 100.00
+| 3487 |[Maximum Unique Subarray Sum After Deletion](src/main/java/g3401_3500/s3487_maximum_unique_subarray_sum_after_deletion)| Easy | Array, Hash_Table, Greedy | 2 | 100.00
+| 3486 |[Longest Special Path II](src/main/java/g3401_3500/s3486_longest_special_path_ii)| Hard | Array, Hash_Table, Tree, Prefix_Sum, Depth_First_Search | 166 | 166 ms ( %)
+| 3485 |[Longest Common Prefix of K Strings After Removal](src/main/java/g3401_3500/s3485_longest_common_prefix_of_k_strings_after_removal)| Hard | Array, String, Trie | 333 | 100.00
+| 3484 |[Design Spreadsheet](src/main/java/g3401_3500/s3484_design_spreadsheet)| Medium | Array, String, Hash_Table, Matrix, Design | 117 | 100.00
+| 3483 |[Unique 3-Digit Even Numbers](src/main/java/g3401_3500/s3483_unique_3_digit_even_numbers)| Easy | Array, Hash_Table, Recursion, Enumeration | 5 | 100.00
 | 3482 |[Analyze Organization Hierarchy](src/main/java/g3401_3500/s3482_analyze_organization_hierarchy)| Hard | Database | 712 | 100.00
 | 3480 |[Maximize Subarrays After Removing One Conflicting Pair](src/main/java/g3401_3500/s3480_maximize_subarrays_after_removing_one_conflicting_pair)| Hard | Array, Prefix_Sum, Enumeration, Segment_Tree | 20 | 98.86
 | 3479 |[Fruits Into Baskets III](src/main/java/g3401_3500/s3479_fruits_into_baskets_iii)| Medium | Array, Binary_Search, Ordered_Set, Segment_Tree | 38 | 97.76
@@ -2124,7 +2132,7 @@
 | 3444 |[Minimum Increments for Target Multiples in an Array](src/main/java/g3401_3500/s3444_minimum_increments_for_target_multiples_in_an_array)| Hard | Array, Dynamic_Programming, Math, Bit_Manipulation, Bitmask, Number_Theory | 47 | 95.85
 | 3443 |[Maximum Manhattan Distance After K Changes](src/main/java/g3401_3500/s3443_maximum_manhattan_distance_after_k_changes)| Medium | String, Hash_Table, Math, Counting | 50 | 96.94
 | 3442 |[Maximum Difference Between Even and Odd Frequency I](src/main/java/g3401_3500/s3442_maximum_difference_between_even_and_odd_frequency_i)| Easy | String, Hash_Table, Counting | 1 | 100.00
-| 3441 |[Minimum Cost Good Caption](src/main/java/g3401_3500/s3441_minimum_cost_good_caption)| Hard | String, Dynamic_Programming | 48 | 96.00
+| 3441 |[Minimum Cost Good Caption](src/main/java/g3401_3500/s3441_minimum_cost_good_caption)| Hard | String, Dynamic_Programming | 20 | 100.00
 | 3440 |[Reschedule Meetings for Maximum Free Time II](src/main/java/g3401_3500/s3440_reschedule_meetings_for_maximum_free_time_ii)| Medium | Array, Greedy, Enumeration | 3 | 100.00
 | 3439 |[Reschedule Meetings for Maximum Free Time I](src/main/java/g3401_3500/s3439_reschedule_meetings_for_maximum_free_time_i)| Medium | Array, Greedy, Sliding_Window | 2 | 83.15
 | 3438 |[Find Valid Pair of Adjacent Digits in String](src/main/java/g3401_3500/s3438_find_valid_pair_of_adjacent_digits_in_string)| Easy | String, Hash_Table, Counting | 1 | 100.00
@@ -2215,7 +2223,7 @@
 | 3332 |[Maximum Points Tourist Can Earn](src/main/java/g3301_3400/s3332_maximum_points_tourist_can_earn)| Medium | Array, Dynamic_Programming, Matrix | 53 | 100.00
 | 3331 |[Find Subtree Sizes After Changes](src/main/java/g3301_3400/s3331_find_subtree_sizes_after_changes)| Medium | Array, String, Hash_Table, Depth_First_Search, Tree | 166 | 52.73
 | 3330 |[Find the Original Typed String I](src/main/java/g3301_3400/s3330_find_the_original_typed_string_i)| Easy | String | 1 | 96.13
-| 3327 |[Check if DFS Strings Are Palindromes](src/main/java/g3301_3400/s3327_check_if_dfs_strings_are_palindromes)| Hard | Array, String, Hash_Table, Depth_First_Search, Tree, Hash_Function | 159 | 90.40
+| 3327 |[Check if DFS Strings Are Palindromes](src/main/java/g3301_3400/s3327_check_if_dfs_strings_are_palindromes)| Hard | Array, String, Hash_Table, Depth_First_Search, Tree, Hash_Function | 70 | 100.00
 | 3326 |[Minimum Division Operations to Make Array Non Decreasing](src/main/java/g3301_3400/s3326_minimum_division_operations_to_make_array_non_decreasing)| Medium | Array, Math, Greedy, Number_Theory | 20 | 97.34
 | 3325 |[Count Substrings With K-Frequency Characters I](src/main/java/g3301_3400/s3325_count_substrings_with_k_frequency_characters_i)| Medium | String, Hash_Table, Sliding_Window | 1 | 100.00
 | 3324 |[Find the Sequence of Strings Appeared on the Screen](src/main/java/g3301_3400/s3324_find_the_sequence_of_strings_appeared_on_the_screen)| Medium | String, Simulation | 6 | 92.04
@@ -2279,7 +2287,7 @@
 | 3250 |[Find the Count of Monotonic Pairs I](src/main/java/g3201_3300/s3250_find_the_count_of_monotonic_pairs_i)| Hard | Array, Dynamic_Programming, Math, Prefix_Sum, Combinatorics | 3 | 100.00
 | 3249 |[Count the Number of Good Nodes](src/main/java/g3201_3300/s3249_count_the_number_of_good_nodes)| Medium | Depth_First_Search, Tree | 34 | 100.00
 | 3248 |[Snake in Matrix](src/main/java/g3201_3300/s3248_snake_in_matrix)| Easy | Array, String, Simulation | 2 | 98.05
-| 3245 |[Alternating Groups III](src/main/java/g3201_3300/s3245_alternating_groups_iii)| Hard | Array, Binary_Indexed_Tree | 135 | 86.36
+| 3245 |[Alternating Groups III](src/main/java/g3201_3300/s3245_alternating_groups_iii)| Hard | Array, Binary_Indexed_Tree | 38 | 91.84
 | 3244 |[Shortest Distance After Road Addition Queries II](src/main/java/g3201_3300/s3244_shortest_distance_after_road_addition_queries_ii)| Hard | Array, Greedy, Graph, Ordered_Set | 5 | 97.43
 | 3243 |[Shortest Distance After Road Addition Queries I](src/main/java/g3201_3300/s3243_shortest_distance_after_road_addition_queries_i)| Medium | Array, Breadth_First_Search, Graph | 6 | 100.00
 | 3242 |[Design Neighbor Sum Service](src/main/java/g3201_3300/s3242_design_neighbor_sum_service)| Easy | Array, Hash_Table, Matrix, Design, Simulation | 14 | 100.00
@@ -2344,7 +2352,7 @@
 | 3164 |[Find the Number of Good Pairs II](src/main/java/g3101_3200/s3164_find_the_number_of_good_pairs_ii)| Medium | Array, Hash_Table | 407 | 75.28
 | 3163 |[String Compression III](src/main/java/g3101_3200/s3163_string_compression_iii)| Medium | String | 17 | 88.10
 | 3162 |[Find the Number of Good Pairs I](src/main/java/g3101_3200/s3162_find_the_number_of_good_pairs_i)| Easy | Array, Hash_Table | 1 | 99.96
-| 3161 |[Block Placement Queries](src/main/java/g3101_3200/s3161_block_placement_queries)| Hard | Array, Binary_Search, Segment_Tree, Binary_Indexed_Tree | 137 | 99.38
+| 3161 |[Block Placement Queries](src/main/java/g3101_3200/s3161_block_placement_queries)| Hard | Array, Binary_Search, Segment_Tree, Binary_Indexed_Tree | 47 | 100.00
 | 3160 |[Find the Number of Distinct Colors Among the Balls](src/main/java/g3101_3200/s3160_find_the_number_of_distinct_colors_among_the_balls)| Medium | Array, Hash_Table, Simulation | 36 | 98.82
 | 3159 |[Find Occurrences of an Element in an Array](src/main/java/g3101_3200/s3159_find_occurrences_of_an_element_in_an_array)| Medium | Array, Hash_Table | 4 | 96.74
 | 3158 |[Find the XOR of Numbers Which Appear Twice](src/main/java/g3101_3200/s3158_find_the_xor_of_numbers_which_appear_twice)| Easy | Array, Hash_Table, Bit_Manipulation | 1 | 99.87
