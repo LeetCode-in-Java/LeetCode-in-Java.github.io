@@ -2088,11 +2088,15 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3495 |[Minimum Operations to Make Array Elements Zero](src/main/java/g3401_3500/s3495_minimum_operations_to_make_array_elements_zero)| Hard | Array, Math, Bit_Manipulation | 9 | 99.71
+| 3494 |[Find the Minimum Amount of Time to Brew Potions](src/main/java/g3401_3500/s3494_find_the_minimum_amount_of_time_to_brew_potions)| Medium | Array, Simulation, Prefix_Sum | 113 | 90.95
+| 3493 |[Properties Graph](src/main/java/g3401_3500/s3493_properties_graph)| Medium | Array, Hash_Table, Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 27 | 99.82
+| 3492 |[Maximum Containers on a Ship](src/main/java/g3401_3500/s3492_maximum_containers_on_a_ship)| Easy | Math | 0 | 100.00
 | 3490 |[Count Beautiful Numbers](src/main/java/g3401_3500/s3490_count_beautiful_numbers)| Hard | Dynamic_Programming | 523 | 100.00
 | 3489 |[Zero Array Transformation IV](src/main/java/g3401_3500/s3489_zero_array_transformation_iv)| Medium | Array, Dynamic_Programming | 142 | 100.00
 | 3488 |[Closest Equal Element Queries](src/main/java/g3401_3500/s3488_closest_equal_element_queries)| Medium | Array, Hash_Table, Binary_Search | 50 | 100.00
 | 3487 |[Maximum Unique Subarray Sum After Deletion](src/main/java/g3401_3500/s3487_maximum_unique_subarray_sum_after_deletion)| Easy | Array, Hash_Table, Greedy | 2 | 100.00
-| 3486 |[Longest Special Path II](src/main/java/g3401_3500/s3486_longest_special_path_ii)| Hard | Array, Hash_Table, Tree, Prefix_Sum, Depth_First_Search | 166 | 166 ms ( %)
+| 3486 |[Longest Special Path II](src/main/java/g3401_3500/s3486_longest_special_path_ii)| Hard | Array, Hash_Table, Depth_First_Search, Tree, Prefix_Sum | 166 | 100.00
 | 3485 |[Longest Common Prefix of K Strings After Removal](src/main/java/g3401_3500/s3485_longest_common_prefix_of_k_strings_after_removal)| Hard | Array, String, Trie | 333 | 100.00
 | 3484 |[Design Spreadsheet](src/main/java/g3401_3500/s3484_design_spreadsheet)| Medium | Array, String, Hash_Table, Matrix, Design | 117 | 100.00
 | 3483 |[Unique 3-Digit Even Numbers](src/main/java/g3401_3500/s3483_unique_3_digit_even_numbers)| Easy | Array, Hash_Table, Recursion, Enumeration | 5 | 100.00
@@ -2259,7 +2263,7 @@
 | 3287 |[Find the Maximum Sequence Value of Array](src/main/java/g3201_3300/s3287_find_the_maximum_sequence_value_of_array)| Hard | Array, Dynamic_Programming, Bit_Manipulation | 1140 | 100.00
 | 3286 |[Find a Safe Walk Through a Grid](src/main/java/g3201_3300/s3286_find_a_safe_walk_through_a_grid)| Medium | Array, Breadth_First_Search, Matrix, Heap_Priority_Queue, Graph, Shortest_Path | 90 | 100.00
 | 3285 |[Find Indices of Stable Mountains](src/main/java/g3201_3300/s3285_find_indices_of_stable_mountains)| Easy | Array | 1 | 100.00
-| 3283 |[Maximum Number of Moves to Kill All Pawns](src/main/java/g3201_3300/s3283_maximum_number_of_moves_to_kill_all_pawns)| Hard | Array, Math, Breadth_First_Search, Bit_Manipulation, Bitmask, Game_Theory | 250 | 98.43
+| 3283 |[Maximum Number of Moves to Kill All Pawns](src/main/java/g3201_3300/s3283_maximum_number_of_moves_to_kill_all_pawns)| Hard | Array, Math, Breadth_First_Search, Bit_Manipulation, Bitmask, Game_Theory | 126 | 100.00
 | 3282 |[Reach End of Array With Max Score](src/main/java/g3201_3300/s3282_reach_end_of_array_with_max_score)| Medium | Array, Greedy | 9 | 100.00
 | 3281 |[Maximize Score of Numbers in Ranges](src/main/java/g3201_3300/s3281_maximize_score_of_numbers_in_ranges)| Medium | Array, Sorting, Greedy, Binary_Search | 47 | 100.00
 | 3280 |[Convert Date to Binary](src/main/java/g3201_3300/s3280_convert_date_to_binary)| Easy | String, Math | 3 | 100.00
@@ -3087,7 +3091,7 @@
 | 2217 |[Find Palindrome With Fixed Length](src/main/java/g2201_2300/s2217_find_palindrome_with_fixed_length)| Medium | Array, Math | 37 | 88.60
 | 2216 |[Minimum Deletions to Make Array Beautiful](src/main/java/g2201_2300/s2216_minimum_deletions_to_make_array_beautiful)| Medium | Array, Greedy, Stack | 7 | 39.24
 | 2215 |[Find the Difference of Two Arrays](src/main/java/g2201_2300/s2215_find_the_difference_of_two_arrays)| Easy | Array, Hash_Table | 11 | 87.39
-| 2213 |[Longest Substring of One Repeating Character](src/main/java/g2201_2300/s2213_longest_substring_of_one_repeating_character)| Hard | Array, String, Ordered_Set, Segment_Tree | 141 | 86.81
+| 2213 |[Longest Substring of One Repeating Character](src/main/java/g2201_2300/s2213_longest_substring_of_one_repeating_character)| Hard | Array, String, Ordered_Set, Segment_Tree | 79 | 89.74
 | 2212 |[Maximum Points in an Archery Competition](src/main/java/g2201_2300/s2212_maximum_points_in_an_archery_competition)| Medium | Array, Bit_Manipulation, Recursion, Enumeration | 7 | 78.16
 | 2211 |[Count Collisions on a Road](src/main/java/g2201_2300/s2211_count_collisions_on_a_road)| Medium | String, Stack | 113 | 45.96
 | 2210 |[Count Hills and Valleys in an Array](src/main/java/g2201_2300/s2210_count_hills_and_valleys_in_an_array)| Easy | Array | 0 | 100.00
