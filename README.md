@@ -2088,6 +2088,7 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3497 |[Analyze Subscription Conversion](src/main/java/g3401_3500/s3497_analyze_subscription_conversion)| Medium | Database | 347 | 100.00
 | 3495 |[Minimum Operations to Make Array Elements Zero](src/main/java/g3401_3500/s3495_minimum_operations_to_make_array_elements_zero)| Hard | Array, Math, Bit_Manipulation | 9 | 99.71
 | 3494 |[Find the Minimum Amount of Time to Brew Potions](src/main/java/g3401_3500/s3494_find_the_minimum_amount_of_time_to_brew_potions)| Medium | Array, Simulation, Prefix_Sum | 113 | 90.95
 | 3493 |[Properties Graph](src/main/java/g3401_3500/s3493_properties_graph)| Medium | Array, Hash_Table, Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 27 | 99.82
