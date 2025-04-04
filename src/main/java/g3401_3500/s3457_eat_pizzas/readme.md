@@ -49,7 +49,7 @@ The total weight gained after eating all the pizzas is `2 + 1 = 3.`
 ## Solution
 
 ```java
-class Solution {
+public class Solution {
     public long maxWeight(int[] pizzas) {
         int max = 0;
         for (int x : pizzas) {
