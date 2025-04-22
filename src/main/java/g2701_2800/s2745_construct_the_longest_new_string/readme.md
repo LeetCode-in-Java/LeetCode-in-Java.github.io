@@ -39,7 +39,7 @@ A **substring** is a contiguous **non-empty** sequence of characters within a st
 public class Solution {
     public int longestString(int x, int y, int z) {
         int min = Math.min(x, y);
-        int res = 0;
+        int res;
         if (x == y) {
             res = 2 * min + z;
         } else {

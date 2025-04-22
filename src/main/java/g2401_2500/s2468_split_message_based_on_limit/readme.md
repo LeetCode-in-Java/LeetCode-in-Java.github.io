@@ -55,7 +55,7 @@ Under the given constraints, the string can be split into two parts:
 @SuppressWarnings("java:S3518")
 public class Solution {
     public String[] splitMessage(String message, int limit) {
-        int total = 0;
+        int total;
         int running = 0;
         int count;
         int totalReq;

@@ -50,7 +50,7 @@ Return _the **maximum**_ `XOR` _value out of all possible strong pairs in the ar
 public class Solution {
     public int maximumStrongPairXor(int[] nums) {
         int max = 0;
-        int pair = 0;
+        int pair;
         for (int i = 0; i < nums.length; i++) {
             for (int j = i; j < nums.length; j++) {
                 if (Math.abs(nums[i] - nums[j]) <= Math.min(nums[i], nums[j])) {

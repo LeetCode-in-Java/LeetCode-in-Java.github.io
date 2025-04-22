@@ -48,7 +48,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings("unchecked")
 public class MyHashMap {
-    private ArrayList[] arr = null;
+    private final ArrayList[] arr;
 
     public MyHashMap() {
         arr = new ArrayList[1000];

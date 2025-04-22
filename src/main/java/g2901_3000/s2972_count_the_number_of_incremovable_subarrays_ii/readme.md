@@ -49,7 +49,7 @@ A **subarray** is a contiguous non-empty sequence of elements within an array.
 ```java
 public class Solution {
     public long incremovableSubarrayCount(int[] nums) {
-        long ans = 0;
+        long ans;
         int n = nums.length;
         int l = 0;
         int r = n - 1;

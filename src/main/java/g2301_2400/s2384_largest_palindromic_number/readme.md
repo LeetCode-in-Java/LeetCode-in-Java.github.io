@@ -55,17 +55,17 @@ public class Solution {
         for (char c : num.toCharArray()) {
             count[c - '0']++;
         }
-        int c = 0;
+        int c;
         for (int i = 9; i >= 0; i--) {
             c = 0;
             if (count[i] % 2 == 1 && center == -1) {
                 center = i;
             }
-            if (first.length() == 0 && i == 0) {
+            if (first.isEmpty() && i == 0) {
                 continue;
             }
             while (c < count[i] / 2) {
-                first.append(String.valueOf(i));
+                first.append(i);
                 c++;
             }
         }
@@ -73,8 +73,8 @@ public class Solution {
         if (center != -1) {
             first.append(center);
         }
-        first.append(second.reverse().toString());
-        return first.length() == 0 ? "0" : first.toString();
+        first.append(second.reverse());
+        return first.isEmpty() ? "0" : first.toString();
     }
 }
 ```

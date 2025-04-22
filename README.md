@@ -2088,6 +2088,11 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3525 |[Find X Value of Array II](src/main/java/g3501_3600/s3525_find_x_value_of_array_ii)| Hard | Array, Math, Segment_Tree | 177 | 79.87
+| 3524 |[Find X Value of Array I](src/main/java/g3501_3600/s3524_find_x_value_of_array_i)| Medium | Array, Dynamic_Programming, Math | 12 | 95.54
+| 3523 |[Make Array Non-decreasing](src/main/java/g3501_3600/s3523_make_array_non_decreasing)| Medium | Array, Greedy, Stack, Monotonic_Stack | 3 | 63.29
+| 3522 |[Calculate Score After Performing Instructions](src/main/java/g3501_3600/s3522_calculate_score_after_performing_instructions)| Medium | Array, String, Hash_Table, Simulation | 1 | 100.00
+| 3521 |[Find Product Recommendation Pairs](src/main/java/g3501_3600/s3521_find_product_recommendation_pairs)| Medium | Database | 611 | 70.71
 | 3519 |[Count Numbers with Non-Decreasing Digits](src/main/java/g3501_3600/s3519_count_numbers_with_non_decreasing_digits)| Hard | String, Dynamic_Programming, Math | 19 | 100.00
 | 3518 |[Smallest Palindromic Rearrangement II](src/main/java/g3501_3600/s3518_smallest_palindromic_rearrangement_ii)| Hard | String, Hash_Table, Math, Counting, Combinatorics | 34 | 100.00
 | 3517 |[Smallest Palindromic Rearrangement I](src/main/java/g3501_3600/s3517_smallest_palindromic_rearrangement_i)| Medium | String, Sorting, Counting_Sort | 33 | 100.00
@@ -4276,7 +4281,7 @@
 | 0775 |[Global and Local Inversions](src/main/java/g0701_0800/s0775_global_and_local_inversions)| Medium | Array, Math | 1 | 99.74
 | 0773 |[Sliding Puzzle](src/main/java/g0701_0800/s0773_sliding_puzzle)| Hard | Array, Breadth_First_Search, Matrix | 9 | 81.80
 | 0771 |[Jewels and Stones](src/main/java/g0701_0800/s0771_jewels_and_stones)| Easy | String, Hash_Table | 1 | 91.74
-| 0770 |[Basic Calculator IV](src/main/java/g0701_0800/s0770_basic_calculator_iv)| Hard | String, Hash_Table, Math, Stack, Recursion | 8 | 96.92
+| 0770 |[Basic Calculator IV](src/main/java/g0701_0800/s0770_basic_calculator_iv)| Hard | String, Hash_Table, Math, Stack, Recursion | 8 | 95.70
 | 0769 |[Max Chunks To Make Sorted](src/main/java/g0701_0800/s0769_max_chunks_to_make_sorted)| Medium | Array, Sorting, Greedy, Stack, Monotonic_Stack | 0 | 100.00
 | 0768 |[Max Chunks To Make Sorted II](src/main/java/g0701_0800/s0768_max_chunks_to_make_sorted_ii)| Hard | Array, Sorting, Greedy, Stack, Monotonic_Stack | 1 | 87.58
 | 0767 |[Reorganize String](src/main/java/g0701_0800/s0767_reorganize_string)| Medium | String, Hash_Table, Sorting, Greedy, Heap_Priority_Queue, Counting | 1 | 94.60

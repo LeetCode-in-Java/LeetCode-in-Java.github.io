@@ -76,7 +76,7 @@ public class Solution {
 
     private ListNode revList(ListNode head) {
         ListNode prev = null;
-        ListNode nxt = null;
+        ListNode nxt;
         ListNode current = head;
         while (current != null) {
             nxt = current.next;
