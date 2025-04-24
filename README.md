@@ -470,7 +470,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0709 |[To Lower Case](src/main/java/g0701_0800/s0709_to_lower_case)| Easy | String | 1 | 71.74
-| 1309 |[Decrypt String from Alphabet to Integer Mapping](src/main/java/g1301_1400/s1309_decrypt_string_from_alphabet_to_integer_mapping)| Easy | String | 6 | 28.25
+| 1309 |[Decrypt String from Alphabet to Integer Mapping](src/main/java/g1301_1400/s1309_decrypt_string_from_alphabet_to_integer_mapping)| Easy | String | 0 | 100.00
 | 0953 |[Verifying an Alien Dictionary](src/main/java/g0901_1000/s0953_verifying_an_alien_dictionary)| Easy | Array, String, Hash_Table | 0 | 100.00
 
 #### Day 10 Linked List and Tree
@@ -3768,7 +3768,7 @@
 | 1395 |[Count Number of Teams](src/main/java/g1301_1400/s1395_count_number_of_teams)| Medium | Array, Dynamic_Programming, Binary_Indexed_Tree | 18 | 91.75
 | 1394 |[Find Lucky Integer in an Array](src/main/java/g1301_1400/s1394_find_lucky_integer_in_an_array)| Easy | Array, Hash_Table, Counting | 2 | 82.56
 | 1393 |[Capital Gain/Loss](src/main/java/g1301_1400/s1393_capital_gainloss)| Medium | LeetCode_Curated_SQL_70, Database, SQL_I_Day_9_Control_of_Flow | 428 | 92.01
-| 1392 |[Longest Happy Prefix](src/main/java/g1301_1400/s1392_longest_happy_prefix)| Hard | String, Hash_Function, String_Matching, Rolling_Hash | 39 | 28.37
+| 1392 |[Longest Happy Prefix](src/main/java/g1301_1400/s1392_longest_happy_prefix)| Hard | String, Hash_Function, String_Matching, Rolling_Hash | 5 | 100.00
 | 1391 |[Check if There is a Valid Path in a Grid](src/main/java/g1301_1400/s1391_check_if_there_is_a_valid_path_in_a_grid)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 14 | 85.37
 | 1390 |[Four Divisors](src/main/java/g1301_1400/s1390_four_divisors)| Medium | Array, Math | 13 | 97.25
 | 1389 |[Create Target Array in the Given Order](src/main/java/g1301_1400/s1389_create_target_array_in_the_given_order)| Easy | Array, Simulation | 0 | 100.00
@@ -3844,7 +3844,7 @@
 | 1312 |[Minimum Insertion Steps to Make a String Palindrome](src/main/java/g1301_1400/s1312_minimum_insertion_steps_to_make_a_string_palindrome)| Hard | String, Dynamic_Programming | 25 | 85.70
 | 1311 |[Get Watched Videos by Your Friends](src/main/java/g1301_1400/s1311_get_watched_videos_by_your_friends)| Medium | Array, Hash_Table, Sorting, Breadth_First_Search | 39 | 73.81
 | 1310 |[XOR Queries of a Subarray](src/main/java/g1301_1400/s1310_xor_queries_of_a_subarray)| Medium | Array, Bit_Manipulation, Prefix_Sum | 3 | 68.91
-| 1309 |[Decrypt String from Alphabet to Integer Mapping](src/main/java/g1301_1400/s1309_decrypt_string_from_alphabet_to_integer_mapping)| Easy | String, Programming_Skills_I_Day_9_String | 6 | 28.25
+| 1309 |[Decrypt String from Alphabet to Integer Mapping](src/main/java/g1301_1400/s1309_decrypt_string_from_alphabet_to_integer_mapping)| Easy | String, Programming_Skills_I_Day_9_String | 0 | 100.00
 | 1307 |[Verbal Arithmetic Puzzle](src/main/java/g1301_1400/s1307_verbal_arithmetic_puzzle)| Hard | Array, String, Math, Backtracking | 6 | 95.74
 | 1306 |[Jump Game III](src/main/java/g1301_1400/s1306_jump_game_iii)| Medium | Array, Depth_First_Search, Breadth_First_Search, Graph_Theory_I_Day_11_Breadth_First_Search, Udemy_Arrays | 2 | 96.23
 | 1305 |[All Elements in Two Binary Search Trees](src/main/java/g1301_1400/s1305_all_elements_in_two_binary_search_trees)| Medium | Sorting, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 25 | 63.82
@@ -4043,7 +4043,7 @@
 | 1015 |[Smallest Integer Divisible by K](src/main/java/g1001_1100/s1015_smallest_integer_divisible_by_k)| Medium | Hash_Table, Math | 2 | 90.67
 | 1014 |[Best Sightseeing Pair](src/main/java/g1001_1100/s1014_best_sightseeing_pair)| Medium | Array, Dynamic_Programming, Dynamic_Programming_I_Day_7 | 2 | 99.86
 | 1013 |[Partition Array Into Three Parts With Equal Sum](src/main/java/g1001_1100/s1013_partition_array_into_three_parts_with_equal_sum)| Easy | Array, Greedy | 1 | 100.00
-| 1012 |[Numbers With Repeated Digits](src/main/java/g1001_1100/s1012_numbers_with_repeated_digits)| Hard | Dynamic_Programming, Math | 3 | 28.17
+| 1012 |[Numbers With Repeated Digits](src/main/java/g1001_1100/s1012_numbers_with_repeated_digits)| Hard | Dynamic_Programming, Math | 2 | 50.64
 | 1011 |[Capacity To Ship Packages Within D Days](src/main/java/g1001_1100/s1011_capacity_to_ship_packages_within_d_days)| Medium | Array, Binary_Search | 10 | 75.31
 | 1010 |[Pairs of Songs With Total Durations Divisible by 60](src/main/java/g1001_1100/s1010_pairs_of_songs_with_total_durations_divisible_by_60)| Medium | Array, Hash_Table, Counting | 4 | 64.39
 | 1009 |[Complement of Base 10 Integer](src/main/java/g1001_1100/s1009_complement_of_base_10_integer)| Easy | Bit_Manipulation, Udemy_Bit_Manipulation | 1 | 41.56
@@ -4401,7 +4401,7 @@
 | 0623 |[Add One Row to Tree](src/main/java/g0601_0700/s0623_add_one_row_to_tree)| Medium | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
 | 0622 |[Design Circular Queue](src/main/java/g0601_0700/s0622_design_circular_queue)| Medium | Array, Design, Linked_List, Queue, Programming_Skills_II_Day_20 | 3 | 100.00
 | 0621 |[Task Scheduler](src/main/java/g0601_0700/s0621_task_scheduler)| Medium | Array, Hash_Table, Sorting, Greedy, Heap_Priority_Queue, Counting, Level_2_Day_5_Greedy | 3 | 84.32
-| 0620 |[Not Boring Movies](src/main/java/g0601_0700/s0620_not_boring_movies)| Easy | Database | 258 | 28.33
+| 0620 |[Not Boring Movies](src/main/java/g0601_0700/s0620_not_boring_movies)| Easy | Database | 259 | 64.69
 | 0619 |[Biggest Single Number](src/main/java/g0601_0700/s0619_biggest_single_number)| Easy | Database | 779 | 66.08
 | 0617 |[Merge Two Binary Trees](src/main/java/g0601_0700/s0617_merge_two_binary_trees)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Algorithm_I_Day_8_Breadth_First_Search_Depth_First_Search | 1 | 72.47
 | 0611 |[Valid Triangle Number](src/main/java/g0601_0700/s0611_valid_triangle_number)| Medium | Array, Sorting, Greedy, Binary_Search, Two_Pointers, Binary_Search_II_Day_1 | 10 | 100.00

@@ -59,9 +59,8 @@ The query result format is in the following example.
 
 ```sql
 # Write your MySQL query statement below
-SELECT *
-FROM cinema
-WHERE description != 'boring'
-AND ID % 2 = 1
-ORDER BY rating desc;
+SELECT id, movie, description, rating
+FROM Cinema
+WHERE description != 'boring' AND id % 2 != 0
+ORDER BY rating DESC;
 ```
