@@ -1160,7 +1160,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0200 |[Number of Islands](src/main/java/g0101_0200/s0200_number_of_islands)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 3 | 87.24
-| 0133 |[Clone Graph](src/main/java/g0101_0200/s0133_clone_graph)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Graph | 45 | 29.80
+| 0133 |[Clone Graph](src/main/java/g0101_0200/s0133_clone_graph)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Graph | 25 | 68.87
 | 0417 |[Pacific Atlantic Water Flow](src/main/java/g0401_0500/s0417_pacific_atlantic_water_flow)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix | 5 | 92.62
 
 #### Udemy Dynamic Programming
@@ -1364,7 +1364,7 @@
 |-|-|-|-|-|-
 | 0200 |[Number of Islands](src/main/java/g0101_0200/s0200_number_of_islands)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 3 | 87.24
 | 0130 |[Surrounded Regions](src/main/java/g0101_0200/s0130_surrounded_regions)| Medium | Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 2 | 84.66
-| 0133 |[Clone Graph](src/main/java/g0101_0200/s0133_clone_graph)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Graph | 45 | 29.80
+| 0133 |[Clone Graph](src/main/java/g0101_0200/s0133_clone_graph)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Graph | 25 | 68.87
 | 0399 |[Evaluate Division](src/main/java/g0301_0400/s0399_evaluate_division)| Medium | Array, Depth_First_Search, Breadth_First_Search, Graph, Union_Find, Shortest_Path, LeetCode_75_Graphs/DFS | 1 | 99.52
 | 0207 |[Course Schedule](src/main/java/g0201_0300/s0207_course_schedule)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Big_O_Time_O(N)_Space_O(N) | 3 | 99.99
 | 0210 |[Course Schedule II](src/main/java/g0201_0300/s0210_course_schedule_ii)| Medium | Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort | 4 | 91.07
@@ -2088,6 +2088,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3539 |[Find Sum of Array Product of Magical Sequences](src/main/java/g3501_3600/s3539_find_sum_of_array_product_of_magical_sequences)| Hard | Array, Dynamic_Programming, Math, Bit_Manipulation, Bitmask, Combinatorics | 39 | 95.71
+| 3538 |[Merge Operations for Minimum Travel Time](src/main/java/g3501_3600/s3538_merge_operations_for_minimum_travel_time)| Hard | Array, Dynamic_Programming, Prefix_Sum | 7 | 99.32
+| 3537 |[Fill a Special Grid](src/main/java/g3501_3600/s3537_fill_a_special_grid)| Medium | Array, Matrix, Divide_and_Conquer | 2 | 100.00
+| 3536 |[Maximum Product of Two Digits](src/main/java/g3501_3600/s3536_maximum_product_of_two_digits)| Easy | Math, Sorting | 1 | 95.82
 | 3534 |[Path Existence Queries in a Graph II](src/main/java/g3501_3600/s3534_path_existence_queries_in_a_graph_ii)| Hard | Array, Sorting, Greedy, Binary_Search, Graph | 84 | 100.00
 | 3533 |[Concatenated Divisibility](src/main/java/g3501_3600/s3533_concatenated_divisibility)| Hard | Array, Dynamic_Programming, Bit_Manipulation, Bitmask | 14 | 100.00
 | 3532 |[Path Existence Queries in a Graph I](src/main/java/g3501_3600/s3532_path_existence_queries_in_a_graph_i)| Medium | Array, Binary_Search, Graph, Union_Find | 3 | 100.00
@@ -3006,7 +3010,7 @@
 | 2369 |[Check if There is a Valid Partition For The Array](src/main/java/g2301_2400/s2369_check_if_there_is_a_valid_partition_for_the_array)| Medium | Array, Dynamic_Programming | 7 | 81.82
 | 2368 |[Reachable Nodes With Restrictions](src/main/java/g2301_2400/s2368_reachable_nodes_with_restrictions)| Medium | Array, Hash_Table, Depth_First_Search, Breadth_First_Search, Tree, Graph | 59 | 85.71
 | 2367 |[Number of Arithmetic Triplets](src/main/java/g2301_2400/s2367_number_of_arithmetic_triplets)| Easy | Array, Hash_Table, Two_Pointers, Enumeration | 3 | 66.67
-| 2366 |[Minimum Replacements to Sort the Array](src/main/java/g2301_2400/s2366_minimum_replacements_to_sort_the_array)| Hard | Array, Math, Greedy | 10 | 28.57
+| 2366 |[Minimum Replacements to Sort the Array](src/main/java/g2301_2400/s2366_minimum_replacements_to_sort_the_array)| Hard | Array, Math, Greedy | 3 | 98.58
 | 2365 |[Task Scheduler II](src/main/java/g2301_2400/s2365_task_scheduler_ii)| Medium | Array, Hash_Table, Simulation | 70 | 55.56
 | 2364 |[Count Number of Bad Pairs](src/main/java/g2301_2400/s2364_count_number_of_bad_pairs)| Medium | Array, Hash_Table | 44 | 80.00
 | 2363 |[Merge Similar Items](src/main/java/g2301_2400/s2363_merge_similar_items)| Easy | Array, Hash_Table, Sorting, Ordered_Set | 3 | 100.00
@@ -4041,7 +4045,7 @@
 | 1025 |[Divisor Game](src/main/java/g1001_1100/s1025_divisor_game)| Easy | Dynamic_Programming, Math, Game_Theory, Brainteaser | 0 | 100.00
 | 1024 |[Video Stitching](src/main/java/g1001_1100/s1024_video_stitching)| Medium | Array, Dynamic_Programming, Greedy | 1 | 88.78
 | 1023 |[Camelcase Matching](src/main/java/g1001_1100/s1023_camelcase_matching)| Medium | String, Two_Pointers, Trie, String_Matching | 1 | 73.86
-| 1022 |[Sum of Root To Leaf Binary Numbers](src/main/java/g1001_1100/s1022_sum_of_root_to_leaf_binary_numbers)| Easy | Depth_First_Search, Tree, Binary_Tree | 3 | 28.58
+| 1022 |[Sum of Root To Leaf Binary Numbers](src/main/java/g1001_1100/s1022_sum_of_root_to_leaf_binary_numbers)| Easy | Depth_First_Search, Tree, Binary_Tree | 0 | 100.00
 | 1021 |[Remove Outermost Parentheses](src/main/java/g1001_1100/s1021_remove_outermost_parentheses)| Easy | String, Stack | 4 | 75.39
 | 1020 |[Number of Enclaves](src/main/java/g1001_1100/s1020_number_of_enclaves)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Graph_Theory_I_Day_3_Matrix_Related_Problems | 6 | 68.24
 | 1019 |[Next Greater Node In Linked List](src/main/java/g1001_1100/s1019_next_greater_node_in_linked_list)| Medium | Array, Stack, Linked_List, Monotonic_Stack | 11 | 96.35
@@ -4722,7 +4726,7 @@
 | 0197 |[Rising Temperature](src/main/java/g0101_0200/s0197_rising_temperature)| Easy | Database, SQL_I_Day_6_Union | 342 | 93.76
 | 0196 |[Delete Duplicate Emails](src/main/java/g0101_0200/s0196_delete_duplicate_emails)| Easy | Database, SQL_I_Day_2_Select_and_Order | 903 | 48.10
 | 0195 |[Tenth Line](src/main/java/g0101_0200/s0195_tenth_line)| Easy | Shell | 26 | 99.36
-| 0194 |[Transpose File](src/main/java/g0101_0200/s0194_transpose_file)| Medium | Shell | 630 | 28.43
+| 0194 |[Transpose File](src/main/java/g0101_0200/s0194_transpose_file)| Medium | Shell | 61 | 88.19
 | 0193 |[Valid Phone Numbers](src/main/java/g0101_0200/s0193_valid_phone_numbers)| Easy | Shell | 112 | 75.54
 | 0192 |[Word Frequency](src/main/java/g0101_0200/s0192_word_frequency)| Medium | Shell | 143 | 54.55
 | 0191 |[Number of 1 Bits](src/main/java/g0101_0200/s0191_number_of_1_bits)| Easy | Top_Interview_Questions, Bit_Manipulation, Algorithm_I_Day_13_Bit_Manipulation, Programming_Skills_I_Day_2_Operator, Udemy_Bit_Manipulation, Top_Interview_150_Bit_Manipulation | 0 | 100.00
@@ -4775,7 +4779,7 @@
 | 0136 |[Single Number](src/main/java/g0101_0200/s0136_single_number)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, LeetCode_75_Bit_Manipulation, Data_Structure_II_Day_1_Array, Algorithm_I_Day_14_Bit_Manipulation, Udemy_Integers, Top_Interview_150_Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 1 | 99.86
 | 0135 |[Candy](src/main/java/g0101_0200/s0135_candy)| Hard | Array, Greedy, Top_Interview_150_Array/String | 3 | 83.95
 | 0134 |[Gas Station](src/main/java/g0101_0200/s0134_gas_station)| Medium | Top_Interview_Questions, Array, Greedy, Top_Interview_150_Array/String | 2 | 97.52
-| 0133 |[Clone Graph](src/main/java/g0101_0200/s0133_clone_graph)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Graph, Udemy_Graph, Top_Interview_150_Graph_General | 45 | 29.80
+| 0133 |[Clone Graph](src/main/java/g0101_0200/s0133_clone_graph)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Graph, Udemy_Graph, Top_Interview_150_Graph_General | 25 | 68.87
 | 0132 |[Palindrome Partitioning II](src/main/java/g0101_0200/s0132_palindrome_partitioning_ii)| Hard | String, Dynamic_Programming | 2 | 99.89
 | 0131 |[Palindrome Partitioning](src/main/java/g0101_0200/s0131_palindrome_partitioning)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Backtracking, Big_O_Time_O(N\*2^N)_Space_O(2^N\*N) | 7 | 98.55
 | 0130 |[Surrounded Regions](src/main/java/g0101_0200/s0130_surrounded_regions)| Medium | Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Algorithm_II_Day_8_Breadth_First_Search_Depth_First_Search, Top_Interview_150_Graph_General | 2 | 84.66

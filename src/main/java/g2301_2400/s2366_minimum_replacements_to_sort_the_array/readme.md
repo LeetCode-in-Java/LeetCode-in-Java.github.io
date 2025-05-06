@@ -43,15 +43,16 @@ There are 2 steps to sort the array in non-decreasing order. Therefore, we retur
 ```java
 public class Solution {
     public long minimumReplacement(int[] nums) {
-        int limit = nums[nums.length - 1];
+        int n = nums.length;
+        int prev = nums[n - 1];
         long ans = 0;
-        for (int i = nums.length - 2; i >= 0; i--) {
-            int replacements = nums[i] / limit - 1;
-            if (nums[i] % limit != 0) {
-                replacements++;
+        for (int i = n - 2; i >= 0; i--) {
+            int noOfTime = nums[i] / prev;
+            if (nums[i] % prev != 0) {
+                noOfTime++;
+                prev = nums[i] / noOfTime;
             }
-            ans += replacements;
-            limit = nums[i] / (replacements + 1);
+            ans += noOfTime - 1;
         }
         return ans;
     }
