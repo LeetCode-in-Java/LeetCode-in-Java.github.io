@@ -2088,6 +2088,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3548 |[Equal Sum Grid Partition II](src/main/java/g3501_3600/s3548_equal_sum_grid_partition_ii)| Hard | Array, Hash_Table, Matrix, Prefix_Sum, Enumeration | 46 | 85.24
+| 3547 |[Maximum Sum of Edge Values in a Graph](src/main/java/g3501_3600/s3547_maximum_sum_of_edge_values_in_a_graph)| Hard | Sorting, Depth_First_Search, Greedy, Graph | 32 | 95.35
+| 3546 |[Equal Sum Grid Partition I](src/main/java/g3501_3600/s3546_equal_sum_grid_partition_i)| Medium | Array, Matrix, Prefix_Sum, Enumeration | 3 | 99.93
+| 3545 |[Minimum Deletions for At Most K Distinct Characters](src/main/java/g3501_3600/s3545_minimum_deletions_for_at_most_k_distinct_characters)| Easy | String, Hash_Table, Sorting, Greedy, Counting | 1 | 100.00
+| 3544 |[Subtree Inversion Sum](src/main/java/g3501_3600/s3544_subtree_inversion_sum)| Hard | Array, Dynamic_Programming, Depth_First_Search, Tree | 159 | 89.47
+| 3543 |[Maximum Weighted K-Edge Path](src/main/java/g3501_3600/s3543_maximum_weighted_k_edge_path)| Medium | Hash_Table, Dynamic_Programming, Graph | 12 | 100.00
+| 3542 |[Minimum Operations to Convert All Elements to Zero](src/main/java/g3501_3600/s3542_minimum_operations_to_convert_all_elements_to_zero)| Medium | Array, Hash_Table, Greedy, Stack, Monotonic_Stack | 11 | 100.00
+| 3541 |[Find Most Frequent Vowel and Consonant](src/main/java/g3501_3600/s3541_find_most_frequent_vowel_and_consonant)| Easy | String, Hash_Table, Counting | 1 | 100.00
 | 3539 |[Find Sum of Array Product of Magical Sequences](src/main/java/g3501_3600/s3539_find_sum_of_array_product_of_magical_sequences)| Hard | Array, Dynamic_Programming, Math, Bit_Manipulation, Bitmask, Combinatorics | 39 | 95.71
 | 3538 |[Merge Operations for Minimum Travel Time](src/main/java/g3501_3600/s3538_merge_operations_for_minimum_travel_time)| Hard | Array, Dynamic_Programming, Prefix_Sum | 7 | 99.32
 | 3537 |[Fill a Special Grid](src/main/java/g3501_3600/s3537_fill_a_special_grid)| Medium | Array, Matrix, Divide_and_Conquer | 2 | 100.00
