@@ -2265,7 +2265,7 @@
 | 3342 |[Find Minimum Time to Reach Last Room II](src/main/java/g3301_3400/s3342_find_minimum_time_to_reach_last_room_ii)| Medium | Array, Matrix, Heap_Priority_Queue, Graph, Shortest_Path | 495 | 37.48
 | 3341 |[Find Minimum Time to Reach Last Room I](src/main/java/g3301_3400/s3341_find_minimum_time_to_reach_last_room_i)| Medium | Array, Matrix, Heap_Priority_Queue, Graph, Shortest_Path | 8 | 67.58
 | 3340 |[Check Balanced String](src/main/java/g3301_3400/s3340_check_balanced_string)| Easy | String | 1 | 99.60
-| 3337 |[Total Characters in String After Transformations II](src/main/java/g3301_3400/s3337_total_characters_in_string_after_transformations_ii)| Hard | String, Hash_Table, Dynamic_Programming, Math, Counting | 67 | 99.31
+| 3337 |[Total Characters in String After Transformations II](src/main/java/g3301_3400/s3337_total_characters_in_string_after_transformations_ii)| Hard | String, Hash_Table, Dynamic_Programming, Math, Counting | 80 | 72.97
 | 3336 |[Find the Number of Subsequences With Equal GCD](src/main/java/g3301_3400/s3336_find_the_number_of_subsequences_with_equal_gcd)| Hard | Array, Dynamic_Programming, Math, Number_Theory | 408 | 50.28
 | 3335 |[Total Characters in String After Transformations I](src/main/java/g3301_3400/s3335_total_characters_in_string_after_transformations_i)| Medium | String, Hash_Table, Dynamic_Programming, Math, Counting | 77 | 77.83
 | 3334 |[Find the Maximum Factor Score of Array](src/main/java/g3301_3400/s3334_find_the_maximum_factor_score_of_array)| Medium | Array, Math, Number_Theory | 5 | 95.93

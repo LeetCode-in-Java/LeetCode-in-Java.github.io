@@ -75,83 +75,68 @@ Since the answer may be very large, return it **modulo** <code>10<sup>9</sup> + 
 import java.util.List;
 
 public class Solution {
-    public static final int MOD = 1000000007;
-    public static final long M2 = (long) MOD * MOD;
-    public static final long BIG = 8L * M2;
+    private static final int MOD = 1_000_000_007;
 
-    public int lengthAfterTransformations(String s, int t, List<Integer> nums) {
-        int[][] m = new int[26][26];
-        for (int i = 0; i < 26; i++) {
-            for (int j = 1; j <= nums.get(i); j++) {
-                m[(i + j) % 26][i]++;
-            }
-        }
-        int[] v = new int[26];
+    public int lengthAfterTransformations(String s, int t, List<Integer> numsList) {
+        int[][] localT = buildTransformationMatrix(numsList);
+        int[][] tPower = matrixPower(localT, t);
+        int[] freq = new int[26];
         for (char c : s.toCharArray()) {
-            v[c - 'a']++;
+            freq[c - 'a']++;
         }
-        v = pow(m, v, t);
-        long ans = 0;
-        for (int x : v) {
-            ans += x;
-        }
-        return (int) (ans % MOD);
-    }
-
-    // A^e*v
-    private int[] pow(int[][] a, int[] v, long e) {
-        for (int i = 0; i < v.length; i++) {
-            if (v[i] >= MOD) {
-                v[i] %= MOD;
-            }
-        }
-        int[][] mul = a;
-        for (; e > 0; e >>>= 1) {
-            if ((e & 1) == 1) {
-                v = mul(mul, v);
-            }
-            mul = p2(mul);
-        }
-        return v;
-    }
-
-    // int matrix*int vector
-    private int[] mul(int[][] a, int[] v) {
-        int m = a.length;
-        int n = v.length;
-        int[] w = new int[m];
-        for (int i = 0; i < m; i++) {
+        long result = 0;
+        for (int i = 0; i < 26; i++) {
             long sum = 0;
-            for (int k = 0; k < n; k++) {
-                sum += (long) a[i][k] * v[k];
-                if (sum >= BIG) {
-                    sum -= BIG;
-                }
+            for (int j = 0; j < 26; j++) {
+                sum = (sum + (long) freq[j] * tPower[j][i]) % MOD;
             }
-            w[i] = (int) (sum % MOD);
+            result = (result + sum) % MOD;
         }
-        return w;
+
+        return (int) result;
     }
 
-    // int matrix^2 (be careful about negative value)
-    private int[][] p2(int[][] a) {
-        int n = a.length;
-        int[][] c = new int[n][n];
-        for (int i = 0; i < n; i++) {
-            long[] sum = new long[n];
-            for (int k = 0; k < n; k++) {
-                for (int j = 0; j < n; j++) {
-                    sum[j] += (long) a[i][k] * a[k][j];
-                    if (sum[j] >= BIG) {
-                        sum[j] -= BIG;
-                    }
-                }
-            }
-            for (int j = 0; j < n; j++) {
-                c[i][j] = (int) (sum[j] % MOD);
+    private int[][] buildTransformationMatrix(List<Integer> numsList) {
+        int[][] localT = new int[26][26];
+        for (int i = 0; i < 26; i++) {
+            int steps = numsList.get(i);
+            for (int j = 1; j <= steps; j++) {
+                localT[i][(i + j) % 26]++;
             }
         }
-        return c;
+        return localT;
+    }
+
+    private int[][] matrixPower(int[][] matrix, int power) {
+        int size = matrix.length;
+        int[][] result = new int[size][size];
+        for (int i = 0; i < size; i++) {
+            result[i][i] = 1;
+        }
+        while (power > 0) {
+            if ((power & 1) == 1) {
+                result = multiplyMatrices(result, matrix);
+            }
+            matrix = multiplyMatrices(matrix, matrix);
+            power >>= 1;
+        }
+        return result;
+    }
+
+    private int[][] multiplyMatrices(int[][] a, int[][] b) {
+        int size = a.length;
+        int[][] result = new int[size][size];
+        for (int i = 0; i < size; i++) {
+            for (int k = 0; k < size; k++) {
+                if (a[i][k] == 0) {
+                    continue;
+                }
+                for (int j = 0; j < size; j++) {
+                    result[i][j] = (int) ((result[i][j] + (long) a[i][k] * b[k][j]) % MOD);
+                }
+            }
+        }
+        return result;
     }
 }
 ```
