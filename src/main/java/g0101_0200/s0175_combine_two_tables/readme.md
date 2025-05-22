@@ -77,6 +77,14 @@ There is no address in the address table for the personId = 1 so we return null 
 
 ```sql
 # Write your MySQL query statement below
-SELECT FirstName, LastName, City, State
-FROM Person LEFT JOIN Address USING (PersonId)
+SELECT 
+    FirstName, 
+    LastName, 
+    City, 
+    State
+FROM 
+    Person
+LEFT JOIN 
+    Address
+USING (PersonId);
 ```

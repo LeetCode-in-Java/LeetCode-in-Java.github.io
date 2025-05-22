@@ -54,6 +54,12 @@ The query result format is in the following example.
 
 ```sql
 # Write your MySQL query statement below
-select a.Name as Employee from Employee a left join Employee b on a.ManagerId=b.Id
-where a.Salary > b.Salary and a.ManagerId is not null
+SELECT
+    a.Name AS Employee
+FROM
+    Employee a
+    LEFT JOIN Employee b ON a.ManagerId = b.Id
+WHERE
+    a.Salary > b.Salary
+    AND a.ManagerId IS NOT NULL;
 ```

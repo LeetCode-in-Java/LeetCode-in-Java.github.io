@@ -2088,6 +2088,7 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3554 |[Find Category Recommendation Pairs](src/main/java/g3501_3600/s3554_find_category_recommendation_pairs)| Hard | Database | 623 | 82.76
 | 3553 |[Minimum Weighted Subgraph With the Required Paths II](src/main/java/g3501_3600/s3553_minimum_weighted_subgraph_with_the_required_paths_ii)| Hard | Array, Depth_First_Search, Tree | 65 | 100.00
 | 3552 |[Grid Teleportation Traversal](src/main/java/g3501_3600/s3552_grid_teleportation_traversal)| Medium | Array, Hash_Table, Breadth_First_Search, Matrix | 146 | 98.62
 | 3551 |[Minimum Swaps to Sort by Digit Sum](src/main/java/g3501_3600/s3551_minimum_swaps_to_sort_by_digit_sum)| Medium | Array, Hash_Table, Sorting | 213 | 99.23

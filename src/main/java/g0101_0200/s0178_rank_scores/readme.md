@@ -61,5 +61,11 @@ The query result format is in the following example.
 
 ```sql
 # Write your MySQL query statement below
-select Score, DENSE_RANK() OVER(order by Score Desc) as "Rank" from Scores order by "Rank" Asc;
+SELECT
+    Score,
+    DENSE_RANK() OVER (ORDER BY Score DESC) AS Rank
+FROM
+    Scores
+ORDER BY
+    Rank ASC;
 ```
