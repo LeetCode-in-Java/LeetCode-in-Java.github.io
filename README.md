@@ -2088,6 +2088,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3563 |[Lexicographically Smallest String After Adjacent Removals](src/main/java/g3501_3600/s3563_lexicographically_smallest_string_after_adjacent_removals)| Hard | String, Dynamic_Programming | 121 | 99.09
+| 3562 |[Maximum Profit from Trading Stocks with Discounts](src/main/java/g3501_3600/s3562_maximum_profit_from_trading_stocks_with_discounts)| Hard | Array, Dynamic_Programming, Tree, Depth_First_Search | 27 | 100.00
+| 3561 |[Resulting String After Adjacent Removals](src/main/java/g3501_3600/s3561_resulting_string_after_adjacent_removals)| Medium | String, Stack, Simulation | 36 | 100.00
+| 3560 |[Find Minimum Log Transportation Cost](src/main/java/g3501_3600/s3560_find_minimum_log_transportation_cost)| Easy | Math | 0 | 100.00
+| 3559 |[Number of Ways to Assign Edge Weights II](src/main/java/g3501_3600/s3559_number_of_ways_to_assign_edge_weights_ii)| Hard | Array, Dynamic_Programming, Math, Tree, Depth_First_Search | 138 | 64.66
+| 3558 |[Number of Ways to Assign Edge Weights I](src/main/java/g3501_3600/s3558_number_of_ways_to_assign_edge_weights_i)| Medium | Math, Tree, Depth_First_Search | 12 | 100.00
+| 3557 |[Find Maximum Number of Non Intersecting Substrings](src/main/java/g3501_3600/s3557_find_maximum_number_of_non_intersecting_substrings)| Medium | String, Hash_Table, Dynamic_Programming, Greedy | 15 | 84.54
+| 3556 |[Sum of Largest Prime Substrings](src/main/java/g3501_3600/s3556_sum_of_largest_prime_substrings)| Medium | String, Hash_Table, Math, Sorting, Number_Theory | 7 | 99.93
 | 3554 |[Find Category Recommendation Pairs](src/main/java/g3501_3600/s3554_find_category_recommendation_pairs)| Hard | Database | 623 | 82.76
 | 3553 |[Minimum Weighted Subgraph With the Required Paths II](src/main/java/g3501_3600/s3553_minimum_weighted_subgraph_with_the_required_paths_ii)| Hard | Array, Depth_First_Search, Tree | 65 | 100.00
 | 3552 |[Grid Teleportation Traversal](src/main/java/g3501_3600/s3552_grid_teleportation_traversal)| Medium | Array, Hash_Table, Breadth_First_Search, Matrix | 146 | 98.62
