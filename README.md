@@ -2088,13 +2088,17 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3569 |[Maximize Count of Distinct Primes After Split](src/main/java/g3501_3600/s3569_maximize_count_of_distinct_primes_after_split)| Hard | Array, Math, Segment_Tree, Number_Theory | 280 | 97.30
+| 3568 |[Minimum Moves to Clean the Classroom](src/main/java/g3501_3600/s3568_minimum_moves_to_clean_the_classroom)| Medium | Array, Hash_Table, Breadth_First_Search, Matrix, Bit_Manipulation | 94 | 99.86
+| 3567 |[Minimum Absolute Difference in Sliding Submatrix](src/main/java/g3501_3600/s3567_minimum_absolute_difference_in_sliding_submatrix)| Medium | Array, Sorting, Matrix | 7 | 99.69
+| 3566 |[Partition Array into Two Equal Product Subsets](src/main/java/g3501_3600/s3566_partition_array_into_two_equal_product_subsets)| Medium | Array, Bit_Manipulation, Recursion, Enumeration | 0 | 100.00
 | 3564 |[Seasonal Sales Analysis](src/main/java/g3501_3600/s3564_seasonal_sales_analysis)| Medium | Database | 505 | 100.00
 | 3563 |[Lexicographically Smallest String After Adjacent Removals](src/main/java/g3501_3600/s3563_lexicographically_smallest_string_after_adjacent_removals)| Hard | String, Dynamic_Programming | 121 | 99.09
-| 3562 |[Maximum Profit from Trading Stocks with Discounts](src/main/java/g3501_3600/s3562_maximum_profit_from_trading_stocks_with_discounts)| Hard | Array, Dynamic_Programming, Tree, Depth_First_Search | 27 | 100.00
+| 3562 |[Maximum Profit from Trading Stocks with Discounts](src/main/java/g3501_3600/s3562_maximum_profit_from_trading_stocks_with_discounts)| Hard | Array, Dynamic_Programming, Depth_First_Search, Tree | 27 | 100.00
 | 3561 |[Resulting String After Adjacent Removals](src/main/java/g3501_3600/s3561_resulting_string_after_adjacent_removals)| Medium | String, Stack, Simulation | 36 | 100.00
 | 3560 |[Find Minimum Log Transportation Cost](src/main/java/g3501_3600/s3560_find_minimum_log_transportation_cost)| Easy | Math | 0 | 100.00
-| 3559 |[Number of Ways to Assign Edge Weights II](src/main/java/g3501_3600/s3559_number_of_ways_to_assign_edge_weights_ii)| Hard | Array, Dynamic_Programming, Math, Tree, Depth_First_Search | 138 | 64.66
-| 3558 |[Number of Ways to Assign Edge Weights I](src/main/java/g3501_3600/s3558_number_of_ways_to_assign_edge_weights_i)| Medium | Math, Tree, Depth_First_Search | 12 | 100.00
+| 3559 |[Number of Ways to Assign Edge Weights II](src/main/java/g3501_3600/s3559_number_of_ways_to_assign_edge_weights_ii)| Hard | Array, Dynamic_Programming, Math, Depth_First_Search, Tree | 138 | 64.66
+| 3558 |[Number of Ways to Assign Edge Weights I](src/main/java/g3501_3600/s3558_number_of_ways_to_assign_edge_weights_i)| Medium | Math, Depth_First_Search, Tree | 12 | 100.00
 | 3557 |[Find Maximum Number of Non Intersecting Substrings](src/main/java/g3501_3600/s3557_find_maximum_number_of_non_intersecting_substrings)| Medium | String, Hash_Table, Dynamic_Programming, Greedy | 15 | 84.54
 | 3556 |[Sum of Largest Prime Substrings](src/main/java/g3501_3600/s3556_sum_of_largest_prime_substrings)| Medium | String, Hash_Table, Math, Sorting, Number_Theory | 7 | 99.93
 | 3554 |[Find Category Recommendation Pairs](src/main/java/g3501_3600/s3554_find_category_recommendation_pairs)| Hard | Database | 623 | 82.76
