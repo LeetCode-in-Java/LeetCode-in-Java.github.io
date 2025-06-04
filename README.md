@@ -2088,6 +2088,7 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3570 |[Find Books with No Available Copies](src/main/java/g3501_3600/s3570_find_books_with_no_available_copies)| Easy | Database | 512 | 100.00
 | 3569 |[Maximize Count of Distinct Primes After Split](src/main/java/g3501_3600/s3569_maximize_count_of_distinct_primes_after_split)| Hard | Array, Math, Segment_Tree, Number_Theory | 280 | 97.30
 | 3568 |[Minimum Moves to Clean the Classroom](src/main/java/g3501_3600/s3568_minimum_moves_to_clean_the_classroom)| Medium | Array, Hash_Table, Breadth_First_Search, Matrix, Bit_Manipulation | 94 | 99.86
 | 3567 |[Minimum Absolute Difference in Sliding Submatrix](src/main/java/g3501_3600/s3567_minimum_absolute_difference_in_sliding_submatrix)| Medium | Array, Sorting, Matrix | 7 | 99.69
