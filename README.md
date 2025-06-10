@@ -2088,6 +2088,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3579 |[Minimum Steps to Convert String with Operations](src/main/java/g3501_3600/s3579_minimum_steps_to_convert_string_with_operations)| Hard | String, Dynamic_Programming, Greedy | 50 | 98.37
+| 3578 |[Count Partitions With Max-Min Difference at Most K](src/main/java/g3501_3600/s3578_count_partitions_with_max_min_difference_at_most_k)| Medium | Array, Dynamic_Programming, Prefix_Sum, Sliding_Window, Queue, Monotonic_Queue | 16 | 99.88
+| 3577 |[Count the Number of Computer Unlocking Permutations](src/main/java/g3501_3600/s3577_count_the_number_of_computer_unlocking_permutations)| Medium | Array, Math, Combinatorics, Brainteaser | 1 | 100.00
+| 3576 |[Transform Array to All Equal Elements](src/main/java/g3501_3600/s3576_transform_array_to_all_equal_elements)| Medium | Array, Greedy | 7 | 99.81
+| 3575 |[Maximum Good Subtree Score](src/main/java/g3501_3600/s3575_maximum_good_subtree_score)| Hard | Array, Dynamic_Programming, Depth_First_Search, Tree, Bit_Manipulation, Bitmask | 92 | 98.73
+| 3574 |[Maximize Subarray GCD Score](src/main/java/g3501_3600/s3574_maximize_subarray_gcd_score)| Hard | Array, Math, Enumeration, Number_Theory | 13 | 100.00
+| 3573 |[Best Time to Buy and Sell Stock V](src/main/java/g3501_3600/s3573_best_time_to_buy_and_sell_stock_v)| Medium | Array, Dynamic_Programming | 10 | 99.46
+| 3572 |[Maximize Y‑Sum by Picking a Triplet of Distinct X‑Values](src/main/java/g3501_3600/s3572_maximize_ysum_by_picking_a_triplet_of_distinct_xvalues)| Medium | Array, Hash_Table, Sorting, Greedy, Heap_Priority_Queue | 2 | 100.00
 | 3570 |[Find Books with No Available Copies](src/main/java/g3501_3600/s3570_find_books_with_no_available_copies)| Easy | Database | 512 | 100.00
 | 3569 |[Maximize Count of Distinct Primes After Split](src/main/java/g3501_3600/s3569_maximize_count_of_distinct_primes_after_split)| Hard | Array, Math, Segment_Tree, Number_Theory | 280 | 97.30
 | 3568 |[Minimum Moves to Clean the Classroom](src/main/java/g3501_3600/s3568_minimum_moves_to_clean_the_classroom)| Medium | Array, Hash_Table, Breadth_First_Search, Matrix, Bit_Manipulation | 94 | 99.86
