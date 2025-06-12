@@ -2088,6 +2088,7 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3580 |[Find Consistently Improving Employees](src/main/java/g3501_3600/s3580_find_consistently_improving_employees)| Medium | Database | 449 | 91.67
 | 3579 |[Minimum Steps to Convert String with Operations](src/main/java/g3501_3600/s3579_minimum_steps_to_convert_string_with_operations)| Hard | String, Dynamic_Programming, Greedy | 50 | 98.37
 | 3578 |[Count Partitions With Max-Min Difference at Most K](src/main/java/g3501_3600/s3578_count_partitions_with_max_min_difference_at_most_k)| Medium | Array, Dynamic_Programming, Prefix_Sum, Sliding_Window, Queue, Monotonic_Queue | 16 | 99.88
 | 3577 |[Count the Number of Computer Unlocking Permutations](src/main/java/g3501_3600/s3577_count_the_number_of_computer_unlocking_permutations)| Medium | Array, Math, Combinatorics, Brainteaser | 1 | 100.00
