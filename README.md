@@ -2088,6 +2088,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3585 |[Find Weighted Median Node in Tree](src/main/java/g3501_3600/s3585_find_weighted_median_node_in_tree)| Hard | Array, Dynamic_Programming, Tree, Binary_Search, Depth_First_Search | 66 | 94.96
+| 3584 |[Maximum Product of First and Last Elements of a Subsequence](src/main/java/g3501_3600/s3584_maximum_product_of_first_and_last_elements_of_a_subsequence)| Medium | Array, Two_Pointers | 4 | 86.42
+| 3583 |[Count Special Triplets](src/main/java/g3501_3600/s3583_count_special_triplets)| Medium | Array, Hash_Table, Counting | 30 | 99.81
+| 3582 |[Generate Tag for Video Caption](src/main/java/g3501_3600/s3582_generate_tag_for_video_caption)| Easy | String, Simulation | 2 | 99.93
 | 3580 |[Find Consistently Improving Employees](src/main/java/g3501_3600/s3580_find_consistently_improving_employees)| Medium | Database | 449 | 91.67
 | 3579 |[Minimum Steps to Convert String with Operations](src/main/java/g3501_3600/s3579_minimum_steps_to_convert_string_with_operations)| Hard | String, Dynamic_Programming, Greedy | 50 | 98.37
 | 3578 |[Count Partitions With Max-Min Difference at Most K](src/main/java/g3501_3600/s3578_count_partitions_with_max_min_difference_at_most_k)| Medium | Array, Dynamic_Programming, Prefix_Sum, Sliding_Window, Queue, Monotonic_Queue | 16 | 99.88
