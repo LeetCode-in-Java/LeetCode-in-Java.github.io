@@ -2088,7 +2088,16 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
-| 3585 |[Find Weighted Median Node in Tree](src/main/java/g3501_3600/s3585_find_weighted_median_node_in_tree)| Hard | Array, Dynamic_Programming, Tree, Binary_Search, Depth_First_Search | 66 | 94.96
+| 3594 |[Minimum Time to Transport All Individuals](src/main/java/g3501_3600/s3594_minimum_time_to_transport_all_individuals)| Hard | Array, Dynamic_Programming, Bit_Manipulation, Heap_Priority_Queue, Graph, Bitmask, Shortest_Path | 261 | 100.00
+| 3593 |[Minimum Increments to Equalize Leaf Paths](src/main/java/g3501_3600/s3593_minimum_increments_to_equalize_leaf_paths)| Medium | Array, Dynamic_Programming, Depth_First_Search, Tree | 18 | 100.00
+| 3592 |[Inverse Coin Change](src/main/java/g3501_3600/s3592_inverse_coin_change)| Easy | Array, Dynamic_Programming | 1 | 100.00
+| 3591 |[Check if Any Element Has Prime Frequency](src/main/java/g3501_3600/s3591_check_if_any_element_has_prime_frequency)| Easy | Array, Hash_Table, Math, Counting, Number_Theory | 1 | 100.00
+| 3590 |[Kth Smallest Path XOR Sum](src/main/java/g3501_3600/s3590_kth_smallest_path_xor_sum)| Hard | Array, Depth_First_Search, Tree, Ordered_Set | 311 | 100.00
+| 3589 |[Count Prime-Gap Balanced Subarrays](src/main/java/g3501_3600/s3589_count_prime_gap_balanced_subarrays)| Medium | Array, Math, Sliding_Window, Queue, Number_Theory, Monotonic_Queue | 407 | 100.00
+| 3588 |[Find Maximum Area of a Triangle](src/main/java/g3501_3600/s3588_find_maximum_area_of_a_triangle)| Medium | Array, Hash_Table, Math, Greedy, Enumeration, Geometry | 410 | 100.00
+| 3587 |[Minimum Adjacent Swaps to Alternate Parity](src/main/java/g3501_3600/s3587_minimum_adjacent_swaps_to_alternate_parity)| Medium | Array, Greedy | 20 | 100.00
+| 3586 |[Find COVID Recovery Patients](src/main/java/g3501_3600/s3586_find_covid_recovery_patients)| Medium | Database | 471 | 97.17
+| 3585 |[Find Weighted Median Node in Tree](src/main/java/g3501_3600/s3585_find_weighted_median_node_in_tree)| Hard | Array, Dynamic_Programming, Depth_First_Search, Tree, Binary_Search | 66 | 94.96
 | 3584 |[Maximum Product of First and Last Elements of a Subsequence](src/main/java/g3501_3600/s3584_maximum_product_of_first_and_last_elements_of_a_subsequence)| Medium | Array, Two_Pointers | 4 | 86.42
 | 3583 |[Count Special Triplets](src/main/java/g3501_3600/s3583_count_special_triplets)| Medium | Array, Hash_Table, Counting | 30 | 99.81
 | 3582 |[Generate Tag for Video Caption](src/main/java/g3501_3600/s3582_generate_tag_for_video_caption)| Easy | String, Simulation | 2 | 99.93
