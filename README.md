@@ -2088,6 +2088,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3609 |[Minimum Moves to Reach Target in Grid](src/main/java/g3601_3700/s3609_minimum_moves_to_reach_target_in_grid)| Hard | Math | 1 | 99.42
+| 3608 |[Minimum Time for K Connected Components](src/main/java/g3601_3700/s3608_minimum_time_for_k_connected_components)| Medium | Sorting, Binary_Search, Graph, Union_Find | 29 | 100.00
+| 3607 |[Power Grid Maintenance](src/main/java/g3601_3700/s3607_power_grid_maintenance)| Medium | Array, Hash_Table, Depth_First_Search, Breadth_First_Search, Heap_Priority_Queue, Graph, Union_Find, Ordered_Set | 84 | 94.64
+| 3606 |[Coupon Code Validator](src/main/java/g3601_3700/s3606_coupon_code_validator)| Easy | Array, String, Hash_Table, Sorting | 6 | 96.35
+| 3605 |[Minimum Stability Factor of Array](src/main/java/g3601_3700/s3605_minimum_stability_factor_of_array)| Hard | Array, Math, Greedy, Binary_Search, Segment_Tree, Number_Theory | 117 | 76.55
+| 3604 |[Minimum Time to Reach Destination in Directed Graph](src/main/java/g3601_3700/s3604_minimum_time_to_reach_destination_in_directed_graph)| Medium | Heap_Priority_Queue, Graph, Shortest_Path | 5 | 100.00
+| 3603 |[Minimum Cost Path with Alternating Directions II](src/main/java/g3601_3700/s3603_minimum_cost_path_with_alternating_directions_ii)| Medium | Array, Dynamic_Programming, Matrix | 6 | 100.00
+| 3602 |[Hexadecimal and Hexatrigesimal Conversion](src/main/java/g3601_3700/s3602_hexadecimal_and_hexatrigesimal_conversion)| Easy | String, Math | 2 | 100.00
 | 3601 |[Find Drivers with Improved Fuel Efficiency](src/main/java/g3601_3700/s3601_find_drivers_with_improved_fuel_efficiency)| Medium | Database | 521 | 62.61
 | 3600 |[Maximize Spanning Tree Stability with Upgrades](src/main/java/g3501_3600/s3600_maximize_spanning_tree_stability_with_upgrades)| Hard | Greedy, Binary_Search, Graph, Union_Find, Minimum_Spanning_Tree | 51 | 100.00
 | 3599 |[Partition Array to Minimize XOR](src/main/java/g3501_3600/s3599_partition_array_to_minimize_xor)| Medium | Array, Dynamic_Programming, Bit_Manipulation, Prefix_Sum | 144 | 100.00
