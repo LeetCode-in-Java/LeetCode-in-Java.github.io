@@ -40,8 +40,8 @@ All array elements can be made divisible by 3 using 3 operations:
 public class Solution {
     public int minimumOperations(int[] nums) {
         int count = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] % 3 != 0) {
+        for (int num : nums) {
+            if (num % 3 != 0) {
                 count++;
             }
         }

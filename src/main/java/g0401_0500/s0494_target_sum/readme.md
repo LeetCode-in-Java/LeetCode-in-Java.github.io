@@ -47,9 +47,8 @@ Return the number of different **expressions** that you can build, which evaluat
 public class Solution {
     public int findTargetSumWays(int[] nums, int target) {
         int totalSum = 0;
-        int n = nums.length;
-        for (int i = 0; i < n; i++) {
-            totalSum += nums[i];
+        for (int num : nums) {
+            totalSum += num;
         }
         int sum = totalSum - target;
         if (sum < 0 || sum % 2 == 1) {
