@@ -2088,6 +2088,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3615 |[Longest Palindromic Path in Graph](src/main/java/g3601_3700/s3615_longest_palindromic_path_in_graph)| Hard | String, Dynamic_Programming, Bit_Manipulation, Graph | 641 | 100.00
+| 3614 |[Process String with Special Operations II](src/main/java/g3601_3700/s3614_process_string_with_special_operations_ii)| Hard | String, Simulation | 33 | 100.00
+| 3613 |[Minimize Maximum Component Cost](src/main/java/g3601_3700/s3613_minimize_maximum_component_cost)| Medium | Binary_Search, Graph, Union_Find, Sort | 37 | 100.00
+| 3612 |[Process String with Special Operations I](src/main/java/g3601_3700/s3612_process_string_with_special_operations_i)| Medium | String, Simulation | 3 | 100.00
 | 3611 |[Find Overbooked Employees](src/main/java/g3601_3700/s3611_find_overbooked_employees)| Medium | Database | 516 | 100.00
 | 3609 |[Minimum Moves to Reach Target in Grid](src/main/java/g3601_3700/s3609_minimum_moves_to_reach_target_in_grid)| Hard | Math | 1 | 99.42
 | 3608 |[Minimum Time for K Connected Components](src/main/java/g3601_3700/s3608_minimum_time_for_k_connected_components)| Medium | Sorting, Binary_Search, Graph, Union_Find | 29 | 100.00
