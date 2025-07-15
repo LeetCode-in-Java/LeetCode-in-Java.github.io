@@ -2480,7 +2480,7 @@
 | 3139 |[Minimum Cost to Equalize Array](src/main/java/g3101_3200/s3139_minimum_cost_to_equalize_array)| Hard | Array, Greedy, Enumeration | 1 | 100.00
 | 3138 |[Minimum Length of Anagram Concatenation](src/main/java/g3101_3200/s3138_minimum_length_of_anagram_concatenation)| Medium | String, Hash_Table, Counting | 4 | 84.18
 | 3137 |[Minimum Number of Operations to Make Word K-Periodic](src/main/java/g3101_3200/s3137_minimum_number_of_operations_to_make_word_k_periodic)| Medium | String, Hash_Table, Counting | 19 | 99.53
-| 3136 |[Valid Word](src/main/java/g3101_3200/s3136_valid_word)| Easy | String | 1 | 99.39
+| 3136 |[Valid Word](src/main/java/g3101_3200/s3136_valid_word)| Easy | String | 1 | 99.12
 | 3134 |[Find the Median of the Uniqueness Array](src/main/java/g3101_3200/s3134_find_the_median_of_the_uniqueness_array)| Hard | Array, Hash_Table, Binary_Search, Sliding_Window | 47 | 100.00
 | 3133 |[Minimum Array End](src/main/java/g3101_3200/s3133_minimum_array_end)| Medium | Bit_Manipulation | 1 | 92.38
 | 3132 |[Find the Integer Added to Array II](src/main/java/g3101_3200/s3132_find_the_integer_added_to_array_ii)| Medium | Array, Sorting, Two_Pointers, Enumeration | 2 | 100.00
