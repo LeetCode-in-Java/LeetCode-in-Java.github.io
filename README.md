@@ -2088,6 +2088,7 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3617 |[Find Students with Study Spiral Pattern](src/main/java/g3601_3700/s3617_find_students_with_study_spiral_pattern)| Hard | Database | 553 | 100.00
 | 3615 |[Longest Palindromic Path in Graph](src/main/java/g3601_3700/s3615_longest_palindromic_path_in_graph)| Hard | String, Dynamic_Programming, Bit_Manipulation, Graph | 641 | 100.00
 | 3614 |[Process String with Special Operations II](src/main/java/g3601_3700/s3614_process_string_with_special_operations_ii)| Hard | String, Simulation | 33 | 100.00
 | 3613 |[Minimize Maximum Component Cost](src/main/java/g3601_3700/s3613_minimize_maximum_component_cost)| Medium | Binary_Search, Graph, Union_Find, Sort | 37 | 100.00
