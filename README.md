@@ -2088,7 +2088,7 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
-| 3626 |[Find Stores with Inventory Imbalance](src/main/java/g3601_3700/s3626_find_stores_with_inventory_imbalance)| Medium || 516 | 100.00
+| 3626 |[Find Stores with Inventory Imbalance](src/main/java/g3601_3700/s3626_find_stores_with_inventory_imbalance)| Medium | Database | 516 | 100.00
 | 3625 |[Count Number of Trapezoids II](src/main/java/g3601_3700/s3625_count_number_of_trapezoids_ii)| Hard | Array, Hash_Table, Math, Geometry, Weekly_Contest_459 | 347 | 99.10
 | 3624 |[Number of Integers With Popcount-Depth Equal to K II](src/main/java/g3601_3700/s3624_number_of_integers_with_popcount_depth_equal_to_k_ii)| Hard | Array, Segment_Tree, Weekly_Contest_459 | 27 | 96.44
 | 3623 |[Count Number of Trapezoids I](src/main/java/g3601_3700/s3623_count_number_of_trapezoids_i)| Medium | Array, Hash_Table, Math, Geometry, Weekly_Contest_459 | 30 | 99.92
