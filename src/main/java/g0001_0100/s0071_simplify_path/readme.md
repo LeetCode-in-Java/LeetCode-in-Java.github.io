@@ -87,7 +87,7 @@ public class Solution {
             ans.insert(0, stk.pop());
             ans.insert(0, "/");
         }
-        return ans.length() > 0 ? ans.toString() : "/";
+        return !ans.isEmpty() ? ans.toString() : "/";
     }
 }
 ```

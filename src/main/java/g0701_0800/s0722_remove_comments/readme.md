@@ -116,7 +116,7 @@ public class Solution {
                 }
                 index++;
             }
-            if (sb.length() > 0 && !multiComment) {
+            if (!sb.isEmpty() && !multiComment) {
                 result.add(sb.toString());
                 sb.setLength(0);
             }
