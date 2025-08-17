@@ -74,34 +74,33 @@ Even after all replacements, it is impossible to obtain `k = 4` valid substrings
 ## Solution
 
 ```java
-import java.util.TreeSet;
-
 public class Solution {
     public int minTime(String s, int[] order, int k) {
         int n = s.length();
-        // Use a TreeSet to maintain a sorted list of indices
-        TreeSet<Integer> pos = new TreeSet<>();
-        pos.add(-1);
-        pos.add(n);
-        // Iterate through the order of removal
-        int localK = k;
-        for (int t = 0; t < order.length; ++t) {
+        long total = n * (n + 1L) / 2;
+        if (total < k) {
+            return -1;
+        }
+        int[] prev = new int[n + 1];
+        int[] next = new int[n + 1];
+        for (int i = 0; i < n; ++i) {
+            prev[i] = i - 1;
+            next[i] = i + 1;
+        }
+        for (int t = n - 1; t >= 0; t--) {
             int i = order[t];
-            // Find the elements in the sorted set that bracket the current index 'i'
-            // 'r' is the smallest element >= i
-            Integer r = pos.ceiling(i);
-            // 'l' is the largest element <= i
-            Integer l = pos.floor(i);
-            // The 'cost' to remove an item is the product of the distances to its neighbors
-            localK -= (int) ((long) (i - l) * (r - i));
-            pos.add(i);
-            // If the total cost is exhausted, return the current time 't'
-            if (localK <= 0) {
+            int left = prev[i];
+            int right = next[i];
+            total -= (long) (i - left) * (right - i);
+            if (total < k) {
                 return t;
             }
+            if (left >= 0) {
+                next[left] = right;
+            }
+            prev[right] = left;
         }
-        // If all items are removed and k is not exhausted, return -1
-        return -1;
+        return 0;
     }
 }
 ```

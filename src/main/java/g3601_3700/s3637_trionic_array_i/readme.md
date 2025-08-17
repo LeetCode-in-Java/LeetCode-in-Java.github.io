@@ -49,27 +49,24 @@ There is no way to pick `p` and `q` to form the required three segments.
 ```java
 public class Solution {
     public boolean isTrionic(int[] nums) {
-        int p = 0;
-        int q = 0;
+        int i = 1;
         int n = nums.length;
-        for (int i = 1; i < n - 1; ++i) {
-            if (nums[i - 1] == nums[i]) {
-                return false;
-            }
-            if (nums[i - 1] < nums[i] && nums[i] > nums[i + 1]) {
-                if (p != 0) {
-                    return false;
-                }
-                p = i;
-            }
-            if (nums[i - 1] > nums[i] && nums[i] < nums[i + 1]) {
-                if (p == 0 || q != 0) {
-                    return false;
-                }
-                q = i;
-            }
+        while (i < n && nums[i] > nums[i - 1]) {
+            i++;
         }
-        return q > 0;
+        if (i == n || i == 1) {
+            return false;
+        }
+        while (i < n && nums[i] < nums[i - 1]) {
+            i++;
+        }
+        if (i == n) {
+            return false;
+        }
+        while (i < n && nums[i] > nums[i - 1]) {
+            i++;
+        }
+        return i == n;
     }
 }
 ```

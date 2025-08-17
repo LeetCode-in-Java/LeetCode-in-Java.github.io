@@ -2088,19 +2088,23 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3646 |[Next Special Palindrome Number](src/main/java/g3601_3700/s3646_next_special_palindrome_number)| Hard | Backtracking, Weekly_Contest_462 | 20 | 69.08
+| 3645 |[Maximum Total from Optimal Activation Order](src/main/java/g3601_3700/s3645_maximum_total_from_optimal_activation_order)| Medium | Array, Sorting, Greedy, Two_Pointers, Heap_Priority_Queue, Weekly_Contest_462 | 37 | 96.20
+| 3644 |[Maximum K to Sort a Permutation](src/main/java/g3601_3700/s3644_maximum_k_to_sort_a_permutation)| Medium | Weekly_Contest_462 | 1 | 100.00
+| 3643 |[Flip Square Submatrix Vertically](src/main/java/g3601_3700/s3643_flip_square_submatrix_vertically)| Easy | Array, Matrix, Two_Pointers, Weekly_Contest_462 | 0 | 100.00
 | 3642 |[Find Books with Polarized Opinions](src/main/java/g3601_3700/s3642_find_books_with_polarized_opinions)| Easy | Database | 490 | 100.00
-| 3640 |[Trionic Array II](src/main/java/g3601_3700/s3640_trionic_array_ii)| Hard | Weekly_Contest_461 | 4 | 100.00
-| 3639 |[Minimum Time to Activate String](src/main/java/g3601_3700/s3639_minimum_time_to_activate_string)| Medium | Weekly_Contest_461 | 122 | 100.00
-| 3638 |[Maximum Balanced Shipments](src/main/java/g3601_3700/s3638_maximum_balanced_shipments)| Medium | Weekly_Contest_461 | 3 | 100.00
-| 3637 |[Trionic Array I](src/main/java/g3601_3700/s3637_trionic_array_i)| Easy | Weekly_Contest_461 | 1 | 100.00
-| 3636 |[Threshold Majority Queries](src/main/java/g3601_3700/s3636_threshold_majority_queries)| Hard | Biweekly_Contest_162 | 82 | 98.38
-| 3635 |[Earliest Finish Time for Land and Water Rides II](src/main/java/g3601_3700/s3635_earliest_finish_time_for_land_and_water_rides_ii)| Medium | Biweekly_Contest_162 | 2 | 100.00
-| 3634 |[Minimum Removals to Balance Array](src/main/java/g3601_3700/s3634_minimum_removals_to_balance_array)| Medium | Biweekly_Contest_162 | 21 | 100.00
-| 3633 |[Earliest Finish Time for Land and Water Rides I](src/main/java/g3601_3700/s3633_earliest_finish_time_for_land_and_water_rides_i)| Easy | Biweekly_Contest_162 | 3 | 100.00
+| 3640 |[Trionic Array II](src/main/java/g3601_3700/s3640_trionic_array_ii)| Hard | Array, Dynamic_Programming, Weekly_Contest_461 | 4 | 87.79
+| 3639 |[Minimum Time to Activate String](src/main/java/g3601_3700/s3639_minimum_time_to_activate_string)| Medium | Array, Binary_Search, Weekly_Contest_461 | 6 | 99.91
+| 3638 |[Maximum Balanced Shipments](src/main/java/g3601_3700/s3638_maximum_balanced_shipments)| Medium | Array, Dynamic_Programming, Greedy, Stack, Monotonic_Stack, Weekly_Contest_461 | 2 | 100.00
+| 3637 |[Trionic Array I](src/main/java/g3601_3700/s3637_trionic_array_i)| Easy | Array, Weekly_Contest_461 | 0 | 100.00
+| 3636 |[Threshold Majority Queries](src/main/java/g3601_3700/s3636_threshold_majority_queries)| Hard | Array, Hash_Table, Binary_Search, Prefix_Sum, Counting, Divide_and_Conquer, Biweekly_Contest_162 | 83 | 96.87
+| 3635 |[Earliest Finish Time for Land and Water Rides II](src/main/java/g3601_3700/s3635_earliest_finish_time_for_land_and_water_rides_ii)| Medium | Array, Sorting, Greedy, Binary_Search, Two_Pointers, Biweekly_Contest_162 | 2 | 100.00
+| 3634 |[Minimum Removals to Balance Array](src/main/java/g3601_3700/s3634_minimum_removals_to_balance_array)| Medium | Array, Sorting, Sliding_Window, Biweekly_Contest_162 | 20 | 99.40
+| 3633 |[Earliest Finish Time for Land and Water Rides I](src/main/java/g3601_3700/s3633_earliest_finish_time_for_land_and_water_rides_i)| Easy | Array, Sorting, Greedy, Binary_Search, Two_Pointers, Biweekly_Contest_162 | 3 | 93.86
 | 3630 |[Partition Array for Maximum XOR and AND](src/main/java/g3601_3700/s3630_partition_array_for_maximum_xor_and_and)| Hard | Array, Math, Greedy, Enumeration, Weekly_Contest_460 | 82 | 96.35
-| 3629 |[Minimum Jumps to Reach End via Prime Teleportation](src/main/java/g3601_3700/s3629_minimum_jumps_to_reach_end_via_prime_teleportation)| Medium | Weekly_Contest_460 | 116 | 99.81
-| 3628 |[Maximum Number of Subsequences After One Inserting](src/main/java/g3601_3700/s3628_maximum_number_of_subsequences_after_one_inserting)| Medium | Weekly_Contest_460 | 12 | 100.00
-| 3627 |[Maximum Median Sum of Subsequences of Size 3](src/main/java/g3601_3700/s3627_maximum_median_sum_of_subsequences_of_size_3)| Medium | Weekly_Contest_460 | 22 | 100.00
+| 3629 |[Minimum Jumps to Reach End via Prime Teleportation](src/main/java/g3601_3700/s3629_minimum_jumps_to_reach_end_via_prime_teleportation)| Medium | Array, Hash_Table, Math, Breadth_First_Search, Number_Theory, Weekly_Contest_460 | 112 | 99.76
+| 3628 |[Maximum Number of Subsequences After One Inserting](src/main/java/g3601_3700/s3628_maximum_number_of_subsequences_after_one_inserting)| Medium | String, Dynamic_Programming, Greedy, Prefix_Sum, Weekly_Contest_460 | 12 | 100.00
+| 3627 |[Maximum Median Sum of Subsequences of Size 3](src/main/java/g3601_3700/s3627_maximum_median_sum_of_subsequences_of_size_3)| Medium | Array, Math, Sorting, Greedy, Game_Theory, Weekly_Contest_460 | 23 | 98.36
 | 3626 |[Find Stores with Inventory Imbalance](src/main/java/g3601_3700/s3626_find_stores_with_inventory_imbalance)| Medium | Database | 516 | 100.00
 | 3625 |[Count Number of Trapezoids II](src/main/java/g3601_3700/s3625_count_number_of_trapezoids_ii)| Hard | Array, Hash_Table, Math, Geometry, Weekly_Contest_459 | 347 | 99.10
 | 3624 |[Number of Integers With Popcount-Depth Equal to K II](src/main/java/g3601_3700/s3624_number_of_integers_with_popcount_depth_equal_to_k_ii)| Hard | Array, Segment_Tree, Weekly_Contest_459 | 27 | 96.44
