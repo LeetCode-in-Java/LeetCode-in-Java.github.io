@@ -2088,6 +2088,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3655 |[XOR After Range Multiplication Queries II](src/main/java/g3601_3700/s3655_xor_after_range_multiplication_queries_ii)| Hard | Array, Divide_and_Conquer, Weekly_Contest_463 | 22 | 94.97
+| 3654 |[Minimum Sum After Divisible Sum Deletions](src/main/java/g3601_3700/s3654_minimum_sum_after_divisible_sum_deletions)| Medium | Weekly_Contest_463 | 17 | 98.16
+| 3653 |[XOR After Range Multiplication Queries I](src/main/java/g3601_3700/s3653_xor_after_range_multiplication_queries_i)| Medium | Array, Simulation, Divide_and_Conquer, Weekly_Contest_463 | 19 | 99.95
+| 3652 |[Best Time to Buy and Sell Stock using Strategy](src/main/java/g3601_3700/s3652_best_time_to_buy_and_sell_stock_using_strategy)| Medium | Array, Prefix_Sum, Sliding_Window, Weekly_Contest_463 | 5 | 94.41
+| 3651 |[Minimum Cost Path with Teleportations](src/main/java/g3601_3700/s3651_minimum_cost_path_with_teleportations)| Hard | Biweekly_Contest_163 | 78 | 100.00
+| 3650 |[Minimum Cost Path with Edge Reversals](src/main/java/g3601_3700/s3650_minimum_cost_path_with_edge_reversals)| Medium | Biweekly_Contest_163 | 51 | 99.85
+| 3649 |[Number of Perfect Pairs](src/main/java/g3601_3700/s3649_number_of_perfect_pairs)| Medium | Biweekly_Contest_163 | 46 | 100.00
+| 3648 |[Minimum Sensors to Cover Grid](src/main/java/g3601_3700/s3648_minimum_sensors_to_cover_grid)| Medium | Biweekly_Contest_163 | 0 | 100.00
 | 3646 |[Next Special Palindrome Number](src/main/java/g3601_3700/s3646_next_special_palindrome_number)| Hard | Backtracking, Weekly_Contest_462 | 20 | 69.08
 | 3645 |[Maximum Total from Optimal Activation Order](src/main/java/g3601_3700/s3645_maximum_total_from_optimal_activation_order)| Medium | Array, Sorting, Greedy, Two_Pointers, Heap_Priority_Queue, Weekly_Contest_462 | 37 | 96.20
 | 3644 |[Maximum K to Sort a Permutation](src/main/java/g3601_3700/s3644_maximum_k_to_sort_a_permutation)| Medium | Weekly_Contest_462 | 1 | 100.00
