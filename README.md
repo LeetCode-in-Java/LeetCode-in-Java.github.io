@@ -2088,6 +2088,11 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3677 |[Count Binary Palindromic Numbers](src/main/java/g3601_3700/s3677_count_binary_palindromic_numbers)| Hard | Weekly_Contest_466 | 1 | 100.00
+| 3676 |[Count Bowl Subarrays](src/main/java/g3601_3700/s3676_count_bowl_subarrays)| Medium | Weekly_Contest_466 | 2 | 100.00
+| 3675 |[Minimum Operations to Transform String](src/main/java/g3601_3700/s3675_minimum_operations_to_transform_string)| Medium | Weekly_Contest_466 | 5 | 100.00
+| 3674 |[Minimum Operations to Equalize Array](src/main/java/g3601_3700/s3674_minimum_operations_to_equalize_array)| Easy | Weekly_Contest_466 | 1 | 100.00
+| 3673 |[Find Zombie Sessions](src/main/java/g3601_3700/s3673_find_zombie_sessions)| Hard | Database | 278 | 100.00
 | 3671 |[Sum of Beautiful Subsequences](src/main/java/g3601_3700/s3671_sum_of_beautiful_subsequences)| Hard | Weekly_Contest_465 | 233 | 96.31
 | 3670 |[Maximum Product of Two Integers With No Common Bits](src/main/java/g3601_3700/s3670_maximum_product_of_two_integers_with_no_common_bits)| Medium | Weekly_Contest_465 | 151 | 99.28
 | 3669 |[Balanced K-Factor Decomposition](src/main/java/g3601_3700/s3669_balanced_k_factor_decomposition)| Medium | Weekly_Contest_465 | 13 | 78.36
