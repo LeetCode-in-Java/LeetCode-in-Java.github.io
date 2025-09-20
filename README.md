@@ -2088,6 +2088,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3686 |[Number of Stable Subsequences](src/main/java/g3601_3700/s3686_number_of_stable_subsequences)| Hard | Weekly_Contest_467 | 9 | 99.94
+| 3685 |[Subsequence Sum After Capping Elements](src/main/java/g3601_3700/s3685_subsequence_sum_after_capping_elements)| Medium | Weekly_Contest_467 | 24 | 96.07
+| 3684 |[Maximize Sum of At Most K Distinct Elements](src/main/java/g3601_3700/s3684_maximize_sum_of_at_most_k_distinct_elements)| Easy | Weekly_Contest_467 | 2 | 100.00
+| 3683 |[Earliest Time to Finish One Task](src/main/java/g3601_3700/s3683_earliest_time_to_finish_one_task)| Easy | Weekly_Contest_467 | 0 | 100.00
+| 3681 |[Maximum XOR of Subsequences](src/main/java/g3601_3700/s3681_maximum_xor_of_subsequences)| Hard | Biweekly_Contest_165 | 27 | 99.73
+| 3680 |[Generate Schedule](src/main/java/g3601_3700/s3680_generate_schedule)| Medium | Biweekly_Contest_165 | 2 | 100.00
+| 3679 |[Minimum Discards to Balance Inventory](src/main/java/g3601_3700/s3679_minimum_discards_to_balance_inventory)| Medium | Biweekly_Contest_165 | 2 | 100.00
+| 3678 |[Smallest Absent Positive Greater Than Average](src/main/java/g3601_3700/s3678_smallest_absent_positive_greater_than_average)| Easy | Biweekly_Contest_165 | 2 | 100.00
 | 3677 |[Count Binary Palindromic Numbers](src/main/java/g3601_3700/s3677_count_binary_palindromic_numbers)| Hard | Weekly_Contest_466 | 1 | 100.00
 | 3676 |[Count Bowl Subarrays](src/main/java/g3601_3700/s3676_count_bowl_subarrays)| Medium | Weekly_Contest_466 | 2 | 100.00
 | 3675 |[Minimum Operations to Transform String](src/main/java/g3601_3700/s3675_minimum_operations_to_transform_string)| Medium | Weekly_Contest_466 | 5 | 100.00
