@@ -47,19 +47,17 @@ For every value of `x`, it is always possible to select a subsequence from the c
 ```java
 public class Solution {
     public boolean[] subsequenceSumAfterCapping(int[] nums, int k) {
-        int[] zolvarinte = nums;
-        int n = zolvarinte.length;
+        int n = nums.length;
         boolean[] answer = new boolean[n];
-        int maxV = n;
-        int[] freq = new int[maxV + 2];
-        for (int v : zolvarinte) {
-            if (v <= maxV) {
+        int[] freq = new int[n + 2];
+        for (int v : nums) {
+            if (v <= n) {
                 freq[v]++;
             }
         }
-        int[] cntGe = new int[maxV + 2];
-        cntGe[maxV] = freq[maxV];
-        for (int x = maxV - 1; x >= 1; x--) {
+        int[] cntGe = new int[n + 2];
+        cntGe[n] = freq[n];
+        for (int x = n - 1; x >= 1; x--) {
             cntGe[x] = cntGe[x + 1] + freq[x];
         }
         boolean[] dp = new boolean[k + 1];

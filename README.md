@@ -2087,44 +2087,48 @@
 ## Algorithms
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
-|------|----------------|-------------|-------------|----------|--------
-| 3686 |[Number of Stable Subsequences](src/main/java/g3601_3700/s3686_number_of_stable_subsequences)| Hard | Weekly_Contest_467 | 9 | 99.94
-| 3685 |[Subsequence Sum After Capping Elements](src/main/java/g3601_3700/s3685_subsequence_sum_after_capping_elements)| Medium | Weekly_Contest_467 | 24 | 96.07
-| 3684 |[Maximize Sum of At Most K Distinct Elements](src/main/java/g3601_3700/s3684_maximize_sum_of_at_most_k_distinct_elements)| Easy | Weekly_Contest_467 | 2 | 100.00
-| 3683 |[Earliest Time to Finish One Task](src/main/java/g3601_3700/s3683_earliest_time_to_finish_one_task)| Easy | Weekly_Contest_467 | 0 | 100.00
-| 3681 |[Maximum XOR of Subsequences](src/main/java/g3601_3700/s3681_maximum_xor_of_subsequences)| Hard | Biweekly_Contest_165 | 27 | 99.73
-| 3680 |[Generate Schedule](src/main/java/g3601_3700/s3680_generate_schedule)| Medium | Biweekly_Contest_165 | 2 | 100.00
-| 3679 |[Minimum Discards to Balance Inventory](src/main/java/g3601_3700/s3679_minimum_discards_to_balance_inventory)| Medium | Biweekly_Contest_165 | 2 | 100.00
-| 3678 |[Smallest Absent Positive Greater Than Average](src/main/java/g3601_3700/s3678_smallest_absent_positive_greater_than_average)| Easy | Biweekly_Contest_165 | 2 | 100.00
-| 3677 |[Count Binary Palindromic Numbers](src/main/java/g3601_3700/s3677_count_binary_palindromic_numbers)| Hard | Weekly_Contest_466 | 1 | 100.00
-| 3676 |[Count Bowl Subarrays](src/main/java/g3601_3700/s3676_count_bowl_subarrays)| Medium | Weekly_Contest_466 | 2 | 100.00
-| 3675 |[Minimum Operations to Transform String](src/main/java/g3601_3700/s3675_minimum_operations_to_transform_string)| Medium | Weekly_Contest_466 | 5 | 100.00
-| 3674 |[Minimum Operations to Equalize Array](src/main/java/g3601_3700/s3674_minimum_operations_to_equalize_array)| Easy | Weekly_Contest_466 | 1 | 100.00
+|------|----------------|-------------|-------------|----------|---------
+| 3691 |[Maximum Total Subarray Value II](src/main/java/g3601_3700/s3691_maximum_total_subarray_value_ii)| Hard | Array, Greedy, Heap_Priority_Queue, Segment_Tree, Weekly_Contest_468 | 89 | 80.08
+| 3690 |[Split and Merge Array Transformation](src/main/java/g3601_3700/s3690_split_and_merge_array_transformation)| Medium | Array, Hash_Table, Breadth_First_Search, Weekly_Contest_468 | 9 | 100.00
+| 3689 |[Maximum Total Subarray Value I](src/main/java/g3601_3700/s3689_maximum_total_subarray_value_i)| Medium | Array, Greedy, Weekly_Contest_468 | 1 | 100.00
+| 3688 |[Bitwise OR of Even Numbers in an Array](src/main/java/g3601_3700/s3688_bitwise_or_of_even_numbers_in_an_array)| Easy | Array, Bit_Manipulation, Simulation, Weekly_Contest_468 | 0 | 100.00
+| 3686 |[Number of Stable Subsequences](src/main/java/g3601_3700/s3686_number_of_stable_subsequences)| Hard | Array, Dynamic_Programming, Weekly_Contest_467 | 9 | 99.95
+| 3685 |[Subsequence Sum After Capping Elements](src/main/java/g3601_3700/s3685_subsequence_sum_after_capping_elements)| Medium | Array, Dynamic_Programming, Sorting, Two_Pointers, Weekly_Contest_467 | 24 | 96.44
+| 3684 |[Maximize Sum of At Most K Distinct Elements](src/main/java/g3601_3700/s3684_maximize_sum_of_at_most_k_distinct_elements)| Easy | Array, Hash_Table, Sorting, Greedy, Weekly_Contest_467 | 3 | 99.92
+| 3683 |[Earliest Time to Finish One Task](src/main/java/g3601_3700/s3683_earliest_time_to_finish_one_task)| Easy | Array, Weekly_Contest_467 | 1 | 77.01
+| 3681 |[Maximum XOR of Subsequences](src/main/java/g3601_3700/s3681_maximum_xor_of_subsequences)| Hard | Array, Math, Greedy, Bit_Manipulation, Biweekly_Contest_165 | 28 | 98.28
+| 3680 |[Generate Schedule](src/main/java/g3601_3700/s3680_generate_schedule)| Medium | Array, Math, Greedy, Biweekly_Contest_165 | 2 | 100.00
+| 3679 |[Minimum Discards to Balance Inventory](src/main/java/g3601_3700/s3679_minimum_discards_to_balance_inventory)| Medium | Array, Hash_Table, Simulation, Counting, Sliding_Window, Biweekly_Contest_165 | 2 | 100.00
+| 3678 |[Smallest Absent Positive Greater Than Average](src/main/java/g3601_3700/s3678_smallest_absent_positive_greater_than_average)| Easy | Array, Hash_Table, Biweekly_Contest_165 | 2 | 100.00
+| 3677 |[Count Binary Palindromic Numbers](src/main/java/g3601_3700/s3677_count_binary_palindromic_numbers)| Hard | Math, Bit_Manipulation, Weekly_Contest_466 | 1 | 100.00
+| 3676 |[Count Bowl Subarrays](src/main/java/g3601_3700/s3676_count_bowl_subarrays)| Medium | Array, Stack, Monotonic_Stack, Weekly_Contest_466 | 2 | 100.00
+| 3675 |[Minimum Operations to Transform String](src/main/java/g3601_3700/s3675_minimum_operations_to_transform_string)| Medium | String, Greedy, Weekly_Contest_466 | 5 | 100.00
+| 3674 |[Minimum Operations to Equalize Array](src/main/java/g3601_3700/s3674_minimum_operations_to_equalize_array)| Easy | Array, Bit_Manipulation, Brainteaser, Weekly_Contest_466 | 0 | 100.00
 | 3673 |[Find Zombie Sessions](src/main/java/g3601_3700/s3673_find_zombie_sessions)| Hard | Database | 278 | 100.00
-| 3671 |[Sum of Beautiful Subsequences](src/main/java/g3601_3700/s3671_sum_of_beautiful_subsequences)| Hard | Weekly_Contest_465 | 233 | 96.31
-| 3670 |[Maximum Product of Two Integers With No Common Bits](src/main/java/g3601_3700/s3670_maximum_product_of_two_integers_with_no_common_bits)| Medium | Weekly_Contest_465 | 151 | 99.28
-| 3669 |[Balanced K-Factor Decomposition](src/main/java/g3601_3700/s3669_balanced_k_factor_decomposition)| Medium | Weekly_Contest_465 | 13 | 78.36
-| 3668 |[Restore Finishing Order](src/main/java/g3601_3700/s3668_restore_finishing_order)| Easy | Weekly_Contest_465 | 1 | 100.00
-| 3666 |[Minimum Operations to Equalize Binary String](src/main/java/g3601_3700/s3666_minimum_operations_to_equalize_binary_string)| Hard | Biweekly_Contest_164 | 6 | 83.87
-| 3665 |[Twisted Mirror Path Count](src/main/java/g3601_3700/s3665_twisted_mirror_path_count)| Medium | Biweekly_Contest_164 | 28 | 100.00
-| 3664 |[Two-Letter Card Game](src/main/java/g3601_3700/s3664_two_letter_card_game)| Medium | Biweekly_Contest_164 | 8 | 98.82
-| 3663 |[Find The Least Frequent Digit](src/main/java/g3601_3700/s3663_find_the_least_frequent_digit)| Easy | Biweekly_Contest_164 | 1 | 97.91
-| 3661 |[Maximum Walls Destroyed by Robots](src/main/java/g3601_3700/s3661_maximum_walls_destroyed_by_robots)| Hard | Weekly_Contest_464 | 88 | 99.25
-| 3660 |[Jump Game IX](src/main/java/g3601_3700/s3660_jump_game_ix)| Medium | Weekly_Contest_464 | 3 | 100.00
-| 3659 |[Partition Array Into K-Distinct Groups](src/main/java/g3601_3700/s3659_partition_array_into_k_distinct_groups)| Medium | Weekly_Contest_464 | 2 | 100.00
-| 3658 |[GCD of Odd and Even Sums](src/main/java/g3601_3700/s3658_gcd_of_odd_and_even_sums)| Easy | Weekly_Contest_464 | 1 | 100.00
+| 3671 |[Sum of Beautiful Subsequences](src/main/java/g3601_3700/s3671_sum_of_beautiful_subsequences)| Hard | Array, Math, Tree, Number_Theory, Weekly_Contest_465 | 232 | 92.27
+| 3670 |[Maximum Product of Two Integers With No Common Bits](src/main/java/g3601_3700/s3670_maximum_product_of_two_integers_with_no_common_bits)| Medium | Array, Dynamic_Programming, Bit_Manipulation, Weekly_Contest_465 | 159 | 98.86
+| 3669 |[Balanced K-Factor Decomposition](src/main/java/g3601_3700/s3669_balanced_k_factor_decomposition)| Medium | Math, Backtracking, Number_Theory, Weekly_Contest_465 | 14 | 77.10
+| 3668 |[Restore Finishing Order](src/main/java/g3601_3700/s3668_restore_finishing_order)| Easy | Array, Hash_Table, Weekly_Contest_465 | 1 | 100.00
+| 3666 |[Minimum Operations to Equalize Binary String](src/main/java/g3601_3700/s3666_minimum_operations_to_equalize_binary_string)| Hard | String, Hash_Table, Math, Breadth_First_Search, Biweekly_Contest_164 | 6 | 85.17
+| 3665 |[Twisted Mirror Path Count](src/main/java/g3601_3700/s3665_twisted_mirror_path_count)| Medium | Array, Dynamic_Programming, Matrix, Biweekly_Contest_164 | 28 | 99.81
+| 3664 |[Two-Letter Card Game](src/main/java/g3601_3700/s3664_two_letter_card_game)| Medium | Array, String, Hash_Table, Counting, Enumeration, Biweekly_Contest_164 | 8 | 99.01
+| 3663 |[Find The Least Frequent Digit](src/main/java/g3601_3700/s3663_find_the_least_frequent_digit)| Easy | Array, Hash_Table, Math, Counting, Biweekly_Contest_164 | 1 | 97.93
+| 3661 |[Maximum Walls Destroyed by Robots](src/main/java/g3601_3700/s3661_maximum_walls_destroyed_by_robots)| Hard | Array, Dynamic_Programming, Sorting, Binary_Search, Weekly_Contest_464 | 101 | 91.89
+| 3660 |[Jump Game IX](src/main/java/g3601_3700/s3660_jump_game_ix)| Medium | Array, Dynamic_Programming, Weekly_Contest_464 | 4 | 98.97
+| 3659 |[Partition Array Into K-Distinct Groups](src/main/java/g3601_3700/s3659_partition_array_into_k_distinct_groups)| Medium | Array, Hash_Table, Counting, Weekly_Contest_464 | 3 | 99.86
+| 3658 |[GCD of Odd and Even Sums](src/main/java/g3601_3700/s3658_gcd_of_odd_and_even_sums)| Easy | Math, Number_Theory, Weekly_Contest_464 | 0 | 100.00
 | 3657 |[Find Loyal Customers](src/main/java/g3601_3700/s3657_find_loyal_customers)| Medium | Database | 297 | 100.00
 | 3655 |[XOR After Range Multiplication Queries II](src/main/java/g3601_3700/s3655_xor_after_range_multiplication_queries_ii)| Hard | Array, Divide_and_Conquer, Weekly_Contest_463 | 22 | 94.97
-| 3654 |[Minimum Sum After Divisible Sum Deletions](src/main/java/g3601_3700/s3654_minimum_sum_after_divisible_sum_deletions)| Medium | Weekly_Contest_463 | 17 | 98.16
+| 3654 |[Minimum Sum After Divisible Sum Deletions](src/main/java/g3601_3700/s3654_minimum_sum_after_divisible_sum_deletions)| Medium | Array, Hash_Table, Dynamic_Programming, Prefix_Sum, Weekly_Contest_463 | 17 | 91.65
 | 3653 |[XOR After Range Multiplication Queries I](src/main/java/g3601_3700/s3653_xor_after_range_multiplication_queries_i)| Medium | Array, Simulation, Divide_and_Conquer, Weekly_Contest_463 | 19 | 99.95
 | 3652 |[Best Time to Buy and Sell Stock using Strategy](src/main/java/g3601_3700/s3652_best_time_to_buy_and_sell_stock_using_strategy)| Medium | Array, Prefix_Sum, Sliding_Window, Weekly_Contest_463 | 5 | 94.41
-| 3651 |[Minimum Cost Path with Teleportations](src/main/java/g3601_3700/s3651_minimum_cost_path_with_teleportations)| Hard | Biweekly_Contest_163 | 78 | 100.00
-| 3650 |[Minimum Cost Path with Edge Reversals](src/main/java/g3601_3700/s3650_minimum_cost_path_with_edge_reversals)| Medium | Biweekly_Contest_163 | 51 | 99.85
-| 3649 |[Number of Perfect Pairs](src/main/java/g3601_3700/s3649_number_of_perfect_pairs)| Medium | Biweekly_Contest_163 | 46 | 100.00
-| 3648 |[Minimum Sensors to Cover Grid](src/main/java/g3601_3700/s3648_minimum_sensors_to_cover_grid)| Medium | Biweekly_Contest_163 | 0 | 100.00
+| 3651 |[Minimum Cost Path with Teleportations](src/main/java/g3601_3700/s3651_minimum_cost_path_with_teleportations)| Hard | Array, Dynamic_Programming, Matrix, Biweekly_Contest_163 | 79 | 94.66
+| 3650 |[Minimum Cost Path with Edge Reversals](src/main/java/g3601_3700/s3650_minimum_cost_path_with_edge_reversals)| Medium | Heap_Priority_Queue, Graph, Shortest_Path, Biweekly_Contest_163 | 47 | 99.80
+| 3649 |[Number of Perfect Pairs](src/main/java/g3601_3700/s3649_number_of_perfect_pairs)| Medium | Array, Math, Sorting, Two_Pointers, Biweekly_Contest_163 | 44 | 71.88
+| 3648 |[Minimum Sensors to Cover Grid](src/main/java/g3601_3700/s3648_minimum_sensors_to_cover_grid)| Medium | Math, Biweekly_Contest_163 | 0 | 100.00
 | 3646 |[Next Special Palindrome Number](src/main/java/g3601_3700/s3646_next_special_palindrome_number)| Hard | Backtracking, Weekly_Contest_462 | 20 | 69.08
 | 3645 |[Maximum Total from Optimal Activation Order](src/main/java/g3601_3700/s3645_maximum_total_from_optimal_activation_order)| Medium | Array, Sorting, Greedy, Two_Pointers, Heap_Priority_Queue, Weekly_Contest_462 | 37 | 96.20
-| 3644 |[Maximum K to Sort a Permutation](src/main/java/g3601_3700/s3644_maximum_k_to_sort_a_permutation)| Medium | Weekly_Contest_462 | 1 | 100.00
+| 3644 |[Maximum K to Sort a Permutation](src/main/java/g3601_3700/s3644_maximum_k_to_sort_a_permutation)| Medium | Array, Bit_Manipulation, Weekly_Contest_462 | 1 | 100.00
 | 3643 |[Flip Square Submatrix Vertically](src/main/java/g3601_3700/s3643_flip_square_submatrix_vertically)| Easy | Array, Matrix, Two_Pointers, Weekly_Contest_462 | 0 | 100.00
 | 3642 |[Find Books with Polarized Opinions](src/main/java/g3601_3700/s3642_find_books_with_polarized_opinions)| Easy | Database | 490 | 100.00
 | 3640 |[Trionic Array II](src/main/java/g3601_3700/s3640_trionic_array_ii)| Hard | Array, Dynamic_Programming, Weekly_Contest_461 | 4 | 87.79

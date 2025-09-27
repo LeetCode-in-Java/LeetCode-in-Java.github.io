@@ -43,9 +43,9 @@ All three tasks finish at time `100 + 100 = 200`.
 public class Solution {
     public int earliestTime(int[][] tasks) {
         int ans = 1000;
-        for (int i = 0; i < tasks.length; i++) {
-            int st = tasks[i][0];
-            int tm = tasks[i][1];
+        for (int[] task : tasks) {
+            int st = task[0];
+            int tm = task[1];
             ans = Math.min(ans, st + tm);
         }
         return ans;

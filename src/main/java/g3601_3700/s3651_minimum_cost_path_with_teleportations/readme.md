@@ -121,7 +121,6 @@ public class Solution {
                     prev[grid[i][j]] = Math.min(prev[grid[i][j]], dp[i][j]);
                 }
             }
-            // int currcost = prev[0];
             for (int i = 1; i <= max; i++) {
                 prev[i] = Math.min(prev[i], prev[i - 1]);
             }
