@@ -2088,6 +2088,19 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 3705 |[Find Golden Hour Customers](src/main/java/g3701_3800/s3705_find_golden_hour_customers)| Medium | Database | 281 | 71.26
+| 3704 |[Count No-Zero Pairs That Sum to N](src/main/java/g3701_3800/s3704_count_no_zero_pairs_that_sum_to_n)| Hard | Weekly_Contest_470 | 4 | 97.37
+| 3703 |[Remove K-Balanced Substrings](src/main/java/g3701_3800/s3703_remove_k_balanced_substrings)| Medium | Weekly_Contest_470 | 191 | 100.00
+| 3702 |[Longest Subsequence With Non-Zero Bitwise XOR](src/main/java/g3701_3800/s3702_longest_subsequence_with_non_zero_bitwise_xor)| Medium | Weekly_Contest_470 | 2 | 100.00
+| 3701 |[Compute Alternating Sum](src/main/java/g3701_3800/s3701_compute_alternating_sum)| Easy | Weekly_Contest_470 | 1 | 100.00
+| 3700 |[Number of ZigZag Arrays II](src/main/java/g3601_3700/s3700_number_of_zigzag_arrays_ii)| Hard | Dynamic_Programming, Math, Weekly_Contest_469 | 173 | 92.39
+| 3699 |[Number of ZigZag Arrays I](src/main/java/g3601_3700/s3699_number_of_zigzag_arrays_i)| Hard | Dynamic_Programming, Prefix_Sum, Weekly_Contest_469 | 197 | 97.34
+| 3698 |[Split Array With Minimum Difference](src/main/java/g3601_3700/s3698_split_array_with_minimum_difference)| Medium | Array, Prefix_Sum, Weekly_Contest_469 | 2 | 99.48
+| 3697 |[Compute Decimal Representation](src/main/java/g3601_3700/s3697_compute_decimal_representation)| Easy | Array, Math, Weekly_Contest_469 | 1 | 100.00
+| 3695 |[Maximize Alternating Sum Using Swaps](src/main/java/g3601_3700/s3695_maximize_alternating_sum_using_swaps)| Hard | Array, Sorting, Greedy, Union_Find, Biweekly_Contest_166 | 29 | 99.13
+| 3694 |[Distinct Points Reachable After Substring Removal](src/main/java/g3601_3700/s3694_distinct_points_reachable_after_substring_removal)| Medium | String, Hash_Table, Prefix_Sum, Sliding_Window, Biweekly_Contest_166 | 38 | 97.74
+| 3693 |[Climbing Stairs II](src/main/java/g3601_3700/s3693_climbing_stairs_ii)| Medium | Array, Dynamic_Programming, Biweekly_Contest_166 | 3 | 99.74
+| 3692 |[Majority Frequency Characters](src/main/java/g3601_3700/s3692_majority_frequency_characters)| Easy | String, Hash_Table, Counting, Biweekly_Contest_166 | 1 | 100.00
 | 3691 |[Maximum Total Subarray Value II](src/main/java/g3601_3700/s3691_maximum_total_subarray_value_ii)| Hard | Array, Greedy, Heap_Priority_Queue, Segment_Tree, Weekly_Contest_468 | 89 | 80.08
 | 3690 |[Split and Merge Array Transformation](src/main/java/g3601_3700/s3690_split_and_merge_array_transformation)| Medium | Array, Hash_Table, Breadth_First_Search, Weekly_Contest_468 | 9 | 100.00
 | 3689 |[Maximum Total Subarray Value I](src/main/java/g3601_3700/s3689_maximum_total_subarray_value_i)| Medium | Array, Greedy, Weekly_Contest_468 | 1 | 100.00
