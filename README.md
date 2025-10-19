@@ -2088,6 +2088,7 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 3716 |[Find Churn Risk Customers](src/main/java/g3701_3800/s3716_find_churn_risk_customers)| Medium | Database | 256 | 96.87
 | 3715 |[Sum of Perfect Square Ancestors](src/main/java/g3701_3800/s3715_sum_of_perfect_square_ancestors)| Hard | Array, Hash_Table, Math, Depth_First_Search, Tree, Counting, Number_Theory, Weekly_Contest_471 | 122 | 98.09
 | 3714 |[Longest Balanced Substring II](src/main/java/g3701_3800/s3714_longest_balanced_substring_ii)| Medium | String, Hash_Table, Prefix_Sum, Weekly_Contest_471 | 208 | 97.43
 | 3713 |[Longest Balanced Substring I](src/main/java/g3701_3800/s3713_longest_balanced_substring_i)| Medium | String, Hash_Table, Counting, Enumeration, Weekly_Contest_471 | 32 | 99.85

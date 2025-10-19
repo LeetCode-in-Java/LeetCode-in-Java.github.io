@@ -74,5 +74,5 @@ Function.prototype.callPolyfill = function (context, ...args): any { //NOSONAR
  * increment.callPolyfill({count: 1}); // 2
  */
 
-export {}
+export {} //NOSONAR
 ```
