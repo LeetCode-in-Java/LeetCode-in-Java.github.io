@@ -2088,6 +2088,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 3721 |[Longest Balanced Subarray II](src/main/java/g3701_3800/s3721_longest_balanced_subarray_ii)| Hard | Array, Hash_Table, Prefix_Sum, Divide_and_Conquer, Segment_Tree, Weekly_Contest_472 | 270 | 76.05
+| 3720 |[Lexicographically Smallest Permutation Greater Than Target](src/main/java/g3701_3800/s3720_lexicographically_smallest_permutation_greater_than_target)| Medium | String, Hash_Table, Greedy, Counting, Enumeration, Weekly_Contest_472 | 2 | 95.82
+| 3719 |[Longest Balanced Subarray I](src/main/java/g3701_3800/s3719_longest_balanced_subarray_i)| Medium | Array, Hash_Table, Prefix_Sum, Divide_and_Conquer, Segment_Tree, Weekly_Contest_472 | 10 | 100.00
+| 3718 |[Smallest Missing Multiple of K](src/main/java/g3701_3800/s3718_smallest_missing_multiple_of_k)| Easy | Array, Hash_Table, Weekly_Contest_472 | 0 | 100.00
 | 3716 |[Find Churn Risk Customers](src/main/java/g3701_3800/s3716_find_churn_risk_customers)| Medium | Database | 256 | 96.87
 | 3715 |[Sum of Perfect Square Ancestors](src/main/java/g3701_3800/s3715_sum_of_perfect_square_ancestors)| Hard | Array, Hash_Table, Math, Depth_First_Search, Tree, Counting, Number_Theory, Weekly_Contest_471 | 122 | 98.09
 | 3714 |[Longest Balanced Substring II](src/main/java/g3701_3800/s3714_longest_balanced_substring_ii)| Medium | String, Hash_Table, Prefix_Sum, Weekly_Contest_471 | 208 | 97.43
