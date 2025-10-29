@@ -5,11 +5,7 @@
 
 Medium
 
-You are given an integer array `height` of length `n`. There are `n` vertical lines drawn such that the two endpoints of the <code>i<sup>th</sup></code> line are `(i, 0)` and `(i, height[i])`.
-
-Find two lines that together with the x-axis form a container, such that the container contains the most water.
-
-Return _the maximum amount of water a container can store_.
+Given `n` non-negative integers <code>a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub></code> , where each represents a point at coordinate <code>(i, a<sub>i</sub>)</code>. `n` vertical lines are drawn such that the two endpoints of the line `i` is at <code>(i, a<sub>i</sub>)</code> and `(i, 0)`. Find two lines, which, together with the x-axis forms a container, such that the container contains the most water.
 
 **Notice** that you may not slant the container.
 
@@ -28,6 +24,18 @@ Return _the maximum amount of water a container can store_.
 **Input:** height = [1,1]
 
 **Output:** 1 
+
+**Example 3:**
+
+**Input:** height = [4,3,2,1,4]
+
+**Output:** 16 
+
+**Example 4:**
+
+**Input:** height = [1,2,1]
+
+**Output:** 2 
 
 **Constraints:**
 

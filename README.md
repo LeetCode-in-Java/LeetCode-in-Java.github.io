@@ -2088,6 +2088,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 3729 |[Count Distinct Subarrays Divisible by K in Sorted Array](src/main/java/g3701_3800/s3729_count_distinct_subarrays_divisible_by_k_in_sorted_array)| Hard | Array, Hash_Table, Prefix_Sum, Weekly_Contest_473 | 33 | 99.78
+| 3728 |[Stable Subarrays With Equal Boundary and Interior Sum](src/main/java/g3701_3800/s3728_stable_subarrays_with_equal_boundary_and_interior_sum)| Medium | Array, Hash_Table, Prefix_Sum, Weekly_Contest_473 | 71 | 98.21
+| 3727 |[Maximum Alternating Sum of Squares](src/main/java/g3701_3800/s3727_maximum_alternating_sum_of_squares)| Medium | Array, Sorting, Greedy, Weekly_Contest_473 | 9 | 100.00
+| 3726 |[Remove Zeros in Decimal Representation](src/main/java/g3701_3800/s3726_remove_zeros_in_decimal_representation)| Easy | Math, Simulation, Weekly_Contest_473 | 1 | 98.59
+| 3725 |[Count Ways to Choose Coprime Integers from Rows](src/main/java/g3701_3800/s3725_count_ways_to_choose_coprime_integers_from_rows)| Hard | Array, Dynamic_Programming, Math, Matrix, Number_Theory, Combinatorics, Biweekly_Contest_168 | 31 | 94.07
+| 3724 |[Minimum Operations to Transform Array](src/main/java/g3701_3800/s3724_minimum_operations_to_transform_array)| Medium | Array, Greedy, Biweekly_Contest_168 | 2 | 100.00
+| 3723 |[Maximize Sum of Squares of Digits](src/main/java/g3701_3800/s3723_maximize_sum_of_squares_of_digits)| Medium | Math, Greedy, Biweekly_Contest_168 | 14 | 98.69
+| 3722 |[Lexicographically Smallest String After Reverse](src/main/java/g3701_3800/s3722_lexicographically_smallest_string_after_reverse)| Medium | Binary_Search, Two_Pointers, Enumeration, Biweekly_Contest_168 | 7 | 100.00
 | 3721 |[Longest Balanced Subarray II](src/main/java/g3701_3800/s3721_longest_balanced_subarray_ii)| Hard | Array, Hash_Table, Prefix_Sum, Divide_and_Conquer, Segment_Tree, Weekly_Contest_472 | 270 | 76.05
 | 3720 |[Lexicographically Smallest Permutation Greater Than Target](src/main/java/g3701_3800/s3720_lexicographically_smallest_permutation_greater_than_target)| Medium | String, Hash_Table, Greedy, Counting, Enumeration, Weekly_Contest_472 | 2 | 95.82
 | 3719 |[Longest Balanced Subarray I](src/main/java/g3701_3800/s3719_longest_balanced_subarray_i)| Medium | Array, Hash_Table, Prefix_Sum, Divide_and_Conquer, Segment_Tree, Weekly_Contest_472 | 10 | 100.00
