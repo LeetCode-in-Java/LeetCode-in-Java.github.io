@@ -2088,6 +2088,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 3734 |[Lexicographically Smallest Palindromic Permutation Greater Than Target](src/main/java/g3701_3800/s3734_lexicographically_smallest_palindromic_permutation_greater_than_target)| Hard | String, Two_Pointers, Enumeration, Weekly_Contest_474 | 2 | 100.00
+| 3733 |[Minimum Time to Complete All Deliveries](src/main/java/g3701_3800/s3733_minimum_time_to_complete_all_deliveries)| Medium | Math, Binary_Search, Weekly_Contest_474 | 1 | 100.00
+| 3732 |[Maximum Product of Three Elements After One Replacement](src/main/java/g3701_3800/s3732_maximum_product_of_three_elements_after_one_replacement)| Medium | Array, Math, Sorting, Greedy, Weekly_Contest_474 | 4 | 95.32
+| 3731 |[Find Missing Elements](src/main/java/g3701_3800/s3731_find_missing_elements)| Easy | Array, Hash_Table, Sorting, Weekly_Contest_474 | 2 | 94.89
 | 3729 |[Count Distinct Subarrays Divisible by K in Sorted Array](src/main/java/g3701_3800/s3729_count_distinct_subarrays_divisible_by_k_in_sorted_array)| Hard | Array, Hash_Table, Prefix_Sum, Weekly_Contest_473 | 33 | 99.78
 | 3728 |[Stable Subarrays With Equal Boundary and Interior Sum](src/main/java/g3701_3800/s3728_stable_subarrays_with_equal_boundary_and_interior_sum)| Medium | Array, Hash_Table, Prefix_Sum, Weekly_Contest_473 | 71 | 98.21
 | 3727 |[Maximum Alternating Sum of Squares](src/main/java/g3701_3800/s3727_maximum_alternating_sum_of_squares)| Medium | Array, Sorting, Greedy, Weekly_Contest_473 | 9 | 100.00
