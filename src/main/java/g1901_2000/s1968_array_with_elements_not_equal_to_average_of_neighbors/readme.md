@@ -50,6 +50,7 @@ When i=3, nums[i] = 2, and the average of its neighbors is (6+0) / 2 = 3.
 import java.security.SecureRandom;
 import java.util.Random;
 
+@SuppressWarnings("java:S2119")
 public class Solution {
     public int[] rearrangeArray(int[] nums) {
         Random random = new SecureRandom();
