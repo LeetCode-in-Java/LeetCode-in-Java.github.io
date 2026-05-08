@@ -2098,6 +2098,16 @@
 | 3774 |[Absolute Difference Between Maximum and Minimum K Elements](src/main/java/g3701_3800/s3774_absolute_difference_between_maximum_and_minimum_k_elements)| Easy | Array, Sorting, Mid_Level, Weekly_Contest_480 | 5 | 96.82
 | 3772 |[Maximum Subgraph Score in a Tree](src/main/java/g3701_3800/s3772_maximum_subgraph_score_in_a_tree)| Hard | Array, Dynamic_Programming, Tree, Senior_Staff, Weekly_Contest_479, Depth_First_Search | 35 | 100.00
 | 3771 |[Total Score of Dungeon Runs](src/main/java/g3701_3800/s3771_total_score_of_dungeon_runs)| Medium | Array, Binary_Search, Prefix_Sum, Staff, Weekly_Contest_479 | 19 | 100.00
+| 3770 |[Largest Prime from Consecutive Prime Sum](src/main/java/g3701_3800/s3770_largest_prime_from_consecutive_prime_sum)| Medium | Array, Math, Number_Theory, Senior, Weekly_Contest_479 | 1 | 100.00
+| 3769 |[Sort Integers by Binary Reflection](src/main/java/g3701_3800/s3769_sort_integers_by_binary_reflection)| Easy | Array, Sorting, Mid_Level, Weekly_Contest_479 | 5 | 97.23
+| 3768 |[Minimum Inversion Count in Subarrays of Fixed Length](src/main/java/g3701_3800/s3768_minimum_inversion_count_in_subarrays_of_fixed_length)| Hard | Array, Sliding_Window, Segment_Tree, Senior_Staff, Biweekly_Contest_171 | 157 | 94.34
+| 3767 |[Maximize Points After Choosing K Tasks](src/main/java/g3701_3800/s3767_maximize_points_after_choosing_k_tasks)| Medium | Array, Sorting, Greedy, Heap_Priority_Queue, Staff, Biweekly_Contest_171 | 21 | 100.00
+| 3766 |[Minimum Operations to Make Binary Palindrome](src/main/java/g3701_3800/s3766_minimum_operations_to_make_binary_palindrome)| Medium | Array, Binary_Search, Two_Pointers, Bit_Manipulation, Staff, Biweekly_Contest_171 | 54 | 82.69
+| 3765 |[Complete Prime Number](src/main/java/g3701_3800/s3765_complete_prime_number)| Medium | Math, Enumeration, Number_Theory, Senior, Biweekly_Contest_171 | 2 | 91.62
+| 3764 |[Most Common Course Pairs](src/main/java/g3701_3800/s3764_most_common_course_pairs)| Hard || 262 | 63.61
+| 3762 |[Minimum Operations to Equalize Subarrays](src/main/java/g3701_3800/s3762_minimum_operations_to_equalize_subarrays)| Hard | Array, Math, Binary_Search, Segment_Tree, Weekly_Contest_478, Principal | 528 | 100.00
+| 3761 |[Minimum Absolute Distance Between Mirror Pairs](src/main/java/g3701_3800/s3761_minimum_absolute_distance_between_mirror_pairs)| Medium | Array, Hash_Table, Math, Staff, Weekly_Contest_478 | 49 | 84.83
+| 3760 |[Maximum Substrings With Distinct Start](src/main/java/g3701_3800/s3760_maximum_substrings_with_distinct_start)| Medium | String, Hash_Table, Senior, Weekly_Contest_478 | 5 | 98.92
 | 3759 |[Count Elements With at Least K Greater Values](src/main/java/g3701_3800/s3759_count_elements_with_at_least_k_greater_values)| Medium | Array, Sorting, Binary_Search, Divide_and_Conquer, Quickselect, Senior, Weekly_Contest_478 | 40 | 96.15
 | 3757 |[Number of Effective Subsequences](src/main/java/g3701_3800/s3757_number_of_effective_subsequences)| Hard | Array, Dynamic_Programming, Math, Bit_Manipulation, Combinatorics, Senior_Staff, Weekly_Contest_477 | 128 | 95.71
 | 3755 |[Find Maximum Balanced XOR Subarray Length](src/main/java/g3701_3800/s3755_find_maximum_balanced_xor_subarray_length)| Medium | Array, Hash_Table, Bit_Manipulation, Prefix_Sum, Senior, Weekly_Contest_477 | 91 | 98.50
