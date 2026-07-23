@@ -1,0 +1,71 @@
+[![](https://img.shields.io/github/stars/javadev/LeetCode-in-Java?label=Stars&style=flat-square)](https://github.com/javadev/LeetCode-in-Java)
+[![](https://img.shields.io/github/forks/javadev/LeetCode-in-Java?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/javadev/LeetCode-in-Java/fork)
+
+## 3784\. Minimum Deletion Cost to Make All Characters Equal
+
+Medium
+
+You are given a string `s` of length `n` and an integer array `cost` of the same length, where `cost[i]` is the cost to **delete** the <code>i<sup>th</sup></code> character of `s`.
+
+You may delete any number of characters from `s` (possibly none), such that the resulting string is **non-empty** and consists of **equal** characters.
+
+Return an integer denoting the **minimum** total deletion cost required.
+
+**Example 1:**
+
+**Input:** s = "aabaac", cost = [1,2,3,4,1,10]
+
+**Output:** 11
+
+**Explanation:**
+
+Deleting the characters at indices 0, 1, 2, 3, 4 results in the string `"c"`, which consists of equal characters, and the total cost is `cost[0] + cost[1] + cost[2] + cost[3] + cost[4] = 1 + 2 + 3 + 4 + 1 = 11`.
+
+**Example 2:**
+
+**Input:** s = "abc", cost = [10,5,8]
+
+**Output:** 13
+
+**Explanation:**
+
+Deleting the characters at indices 1 and 2 results in the string `"a"`, which consists of equal characters, and the total cost is `cost[1] + cost[2] = 5 + 8 = 13`.
+
+**Example 3:**
+
+**Input:** s = "zzzzz", cost = [67,67,67,67,67]
+
+**Output:** 0
+
+**Explanation:**
+
+All characters in `s` are equal, so the deletion cost is 0.
+
+**Constraints:**
+
+*   `n == s.length == cost.length`
+*   <code>1 <= n <= 10<sup>5</sup></code>
+*   <code>1 <= cost[i] <= 10<sup>9</sup></code>
+*   `s` consists of lowercase English letters.
+
+## Solution
+
+```java
+public class Solution {
+    public long minCost(String s, int[] cost) {
+        long[] arr = new long[26];
+        long m = Integer.MIN_VALUE;
+        long sum = 0;
+        for (int i = 0; i < s.length(); i++) {
+            arr[s.charAt(i) - 'a'] += cost[i];
+        }
+        for (long i : arr) {
+            if (i > m) {
+                m = i;
+            }
+            sum += i;
+        }
+        return sum - m;
+    }
+}
+```
