@@ -2088,6 +2088,26 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 3875 |[Construct Uniform Parity Array I](src/main/java/g3801_3900/s3875_construct_uniform_parity_array_i)| Easy | Array, Math, Mid_Level, Weekly_Contest_494 | 0 | 100.00
+| 3873 |[Maximum Points Activated with One Addition](src/main/java/g3801_3900/s3873_maximum_points_activated_with_one_addition)| Hard | Array, Hash_Table, Senior_Staff, Weekly_Contest_493, Union_Find | 36 | 97.50
+| 3872 |[Longest Arithmetic Sequence After Changing At Most One Element](src/main/java/g3801_3900/s3872_longest_arithmetic_sequence_after_changing_at_most_one_element)| Medium | Array, Enumeration, Staff, Weekly_Contest_493 | 11 | 100.00
+| 3871 |[Count Commas in Range II](src/main/java/g3801_3900/s3871_count_commas_in_range_ii)| Medium | Math, Senior, Weekly_Contest_493 | 1 | 99.11
+| 3870 |[Count Commas in Range](src/main/java/g3801_3900/s3870_count_commas_in_range)| Easy | Math, Mid_Level, Weekly_Contest_493 | 0 | 100.00
+| 3869 |[Count Fancy Numbers in a Range](src/main/java/g3801_3900/s3869_count_fancy_numbers_in_a_range)| Hard | Dynamic_Programming, Math, Senior_Staff, Biweekly_Contest_178 | 86 | 96.00
+| 3868 |[Minimum Cost to Equalize Arrays Using Swaps](src/main/java/g3801_3900/s3868_minimum_cost_to_equalize_arrays_using_swaps)| Medium | Array, Hash_Table, Greedy, Counting, Senior, Biweekly_Contest_178 | 78 | 94.70
+| 3867 |[Sum of GCD of Formed Pairs](src/main/java/g3801_3900/s3867_sum_of_gcd_of_formed_pairs)| Medium | Array, Math, Sorting, Two_Pointers, Simulation, Number_Theory, Senior, Biweekly_Contest_178 | 53 | 92.50
+| 3866 |[First Unique Even Element](src/main/java/g3801_3900/s3866_first_unique_even_element)| Easy | Array, Hash_Table, Counting, Mid_Level, Biweekly_Contest_178 | 1 | 99.26
+| 3864 |[Minimum Cost to Partition a Binary String](src/main/java/g3801_3900/s3864_minimum_cost_to_partition_a_binary_string)| Hard | String, Prefix_Sum, Divide_and_Conquer, Senior_Staff, Weekly_Contest_492 | 28 | 100.00
+| 3863 |[Minimum Operations to Sort a String](src/main/java/g3801_3900/s3863_minimum_operations_to_sort_a_string)| Medium | String, Staff, Weekly_Contest_492 | 15 | 74.44
+| 3862 |[Find the Smallest Balanced Index](src/main/java/g3801_3900/s3862_find_the_smallest_balanced_index)| Medium | Array, Prefix_Sum, Senior, Weekly_Contest_492 | 3 | 100.00
+| 3861 |[Minimum Capacity Box](src/main/java/g3801_3900/s3861_minimum_capacity_box)| Easy | Array, Mid_Level, Weekly_Contest_492 | 0 | 100.00
+| 3859 |[Count Subarrays With K Distinct Integers](src/main/java/g3801_3900/s3859_count_subarrays_with_k_distinct_integers)| Hard | Array, Hash_Table, Counting, Sliding_Window, Senior_Staff, Weekly_Contest_491 | 36 | 88.89
+| 3858 |[Minimum Bitwise OR From Grid](src/main/java/g3801_3900/s3858_minimum_bitwise_or_from_grid)| Medium | Array, Greedy, Matrix, Bit_Manipulation, Staff, Weekly_Contest_491 | 4 | 81.16
+| 3857 |[Minimum Cost to Split into Ones](src/main/java/g3801_3900/s3857_minimum_cost_to_split_into_ones)| Medium | Dynamic_Programming, Math, Senior, Weekly_Contest_491 | 0 | 100.00
+| 3856 |[Trim Trailing Vowels](src/main/java/g3801_3900/s3856_trim_trailing_vowels)| Easy | String, Mid_Level, Weekly_Contest_491 | 1 | 99.24
+| 3855 |[Sum of K-Digit Numbers in a Range](src/main/java/g3801_3900/s3855_sum_of_k_digit_numbers_in_a_range)| Hard | Math, Divide_and_Conquer, Number_Theory, Combinatorics, Senior_Staff, Biweekly_Contest_177 | 2 | 90.59
+| 3854 |[Minimum Operations to Make Array Parity Alternating](src/main/java/g3801_3900/s3854_minimum_operations_to_make_array_parity_alternating)| Medium | Array, Greedy, Staff, Biweekly_Contest_177 | 9 | 100.00
+| 3853 |[Merge Close Characters](src/main/java/g3801_3900/s3853_merge_close_characters)| Medium | String, Hash_Table, Senior, Biweekly_Contest_177 | 2 | 91.01
 | 3852 |[Smallest Pair With Different Frequencies](src/main/java/g3801_3900/s3852_smallest_pair_with_different_frequencies)| Easy | Array, Hash_Table, Counting, Mid_Level, Biweekly_Contest_177 | 1 | 100.00
 | 3850 |[Count Sequences to K](src/main/java/g3801_3900/s3850_count_sequences_to_k)| Hard | Array, Dynamic_Programming, Math, Memoization, Number_Theory, Senior_Staff, Weekly_Contest_490 | 144 | 90.24
 | 3849 |[Maximum Bitwise XOR After Rearrangement](src/main/java/g3801_3900/s3849_maximum_bitwise_xor_after_rearrangement)| Medium | String, Greedy, Bit_Manipulation, Staff, Weekly_Contest_490 | 32 | 96.39
@@ -4089,7 +4109,7 @@
 | 1352 |[Product of the Last K Numbers](src/main/java/g1301_1400/s1352_product_of_the_last_k_numbers)| Medium | Array, Math, Design, Queue, Data_Stream | 24 | 60.43
 | 1351 |[Count Negative Numbers in a Sorted Matrix](src/main/java/g1301_1400/s1351_count_negative_numbers_in_a_sorted_matrix)| Easy | Array, Binary_Search, Matrix, Binary_Search_I_Day_8 | 1 | 49.66
 | 1349 |[Maximum Students Taking Exam](src/main/java/g1301_1400/s1349_maximum_students_taking_exam)| Hard | Array, Dynamic_Programming, Matrix, Bit_Manipulation, Bitmask | 4 | 76.98
-| 1348 |[Tweet Counts Per Frequency](src/main/java/g1301_1400/s1348_tweet_counts_per_frequency)| Medium | Hash_Table, Sorting, Binary_Search, Design, Ordered_Set | 86 | 99.44
+| 1348 |[Tweet Counts Per Frequency](src/main/java/g1301_1400/s1348_tweet_counts_per_frequency)| Medium | Hash_Table, Sorting, Binary_Search, Design, Ordered_Set | 95 | 84.25
 | 1347 |[Minimum Number of Steps to Make Two Strings Anagram](src/main/java/g1301_1400/s1347_minimum_number_of_steps_to_make_two_strings_anagram)| Medium | String, Hash_Table, Counting | 13 | 76.34
 | 1346 |[Check If N and Its Double Exist](src/main/java/g1301_1400/s1346_check_if_n_and_its_double_exist)| Easy | Array, Hash_Table, Sorting, Binary_Search, Two_Pointers, Binary_Search_I_Day_9 | 1 | 99.64
 | 1345 |[Jump Game IV](src/main/java/g1301_1400/s1345_jump_game_iv)| Hard | Array, Hash_Table, Breadth_First_Search | 65 | 89.91

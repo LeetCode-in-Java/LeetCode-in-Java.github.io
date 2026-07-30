@@ -59,7 +59,7 @@ Return an integer denoting the **minimum** total time (in hours) required to com
 
 ```java
 public class Solution {
-    private boolean pos(long k, long n1, long n2, int p1, int p2, long lVal) {
+    private boolean isPossible(long k, long n1, long n2, int p1, int p2, long lVal) {
         long kP1 = k / p1;
         long kP2 = k / p2;
         long kL = k / lVal;
@@ -72,10 +72,14 @@ public class Solution {
     }
 
     private long findGcd(long a, long b) {
-        if (b == 0) {
-            return a;
+        long x = a;
+        long y = b;
+        while (y != 0) {
+            long temp = y;
+            y = x % y;
+            x = temp;
         }
-        return findGcd(b, a % b);
+        return x;
     }
 
     public long minimumTime(int[] d, int[] r) {
@@ -90,7 +94,7 @@ public class Solution {
         long res = hi;
         while (lo <= hi) {
             long mid = lo + (hi - lo) / 2;
-            if (pos(mid, n1, n2, p1, p2, l)) {
+            if (isPossible(mid, n1, n2, p1, p2, l)) {
                 res = mid;
                 hi = mid - 1;
             } else {

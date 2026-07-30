@@ -65,85 +65,80 @@ import java.util.List;
 import java.util.Map;
 
 public class TweetCounts {
-    private static final int MINUTE = 60;
-    private static final int HOUR = 3600;
-    private static final int DAY = 86400;
 
-    private final Map<String, Map<Integer, Map<Integer, Map<Integer, List<Integer>>>>> store;
+    private static class TreeNode {
+        private int val;
+        private TreeNode left;
+        private TreeNode right;
 
-    public TweetCounts() {
-        this.store = new HashMap<>();
+        private TreeNode(int data) {
+            val = data;
+            left = null;
+            right = null;
+        }
     }
 
-    public void recordTweet(String tweetName, int time) {
-        int d = time / DAY;
-        int h = (time - d * DAY) / HOUR;
-        int m = (time - d * DAY - h * HOUR) / MINUTE;
-        Map<Integer, Map<Integer, Map<Integer, List<Integer>>>> dstore =
-                store.computeIfAbsent(tweetName, k -> new HashMap<>());
-        Map<Integer, Map<Integer, List<Integer>>> hstore =
-                dstore.computeIfAbsent(d, k -> new HashMap<>());
-        Map<Integer, List<Integer>> mstore = hstore.computeIfAbsent(h, k -> new HashMap<>());
-        mstore.computeIfAbsent(m, k -> new ArrayList<>()).add(time);
+    private Map<String, TreeNode> map = new HashMap<>();
+
+    private TreeNode insert(TreeNode root, int val) {
+        if (root == null) {
+            root = new TreeNode(val);
+        } else if (root.val <= val) {
+            root.right = insert(root.right, val);
+        } else {
+            root.left = insert(root.left, val);
+        }
+        return root;
     }
 
-    public List<Integer> getTweetCountsPerFrequency(
-            String freq, String tweetName, int startTime, int endTime) {
-        int sfreq = convFreqToSecond(freq);
-        Map<Integer, Map<Integer, Map<Integer, List<Integer>>>> dstore = store.get(tweetName);
-        int[] chunks = new int[(endTime - startTime) / sfreq + 1];
-        int sd = startTime / DAY;
-        int ed = endTime / DAY;
-        for (int d = sd; d <= ed; d++) {
-            if (!dstore.containsKey(d)) {
-                continue;
-            }
-            int sh = startTime <= (d * DAY) ? 0 : ((startTime - d * DAY) / HOUR);
-            int eh = endTime > ((d + 1) * DAY) ? (DAY / HOUR) : ((endTime - d * DAY) / HOUR + 1);
-            Map<Integer, Map<Integer, List<Integer>>> hstore = dstore.get(d);
-            for (int h = sh; h < eh; h++) {
-                if (!hstore.containsKey(h)) {
-                    continue;
-                }
-                int sm =
-                        startTime <= (d * DAY + h * HOUR)
-                                ? 0
-                                : ((startTime - d * DAY - h * HOUR) / MINUTE);
-                int em =
-                        endTime > (d * DAY + (h + 1) * HOUR)
-                                ? (HOUR / MINUTE)
-                                : ((endTime - d * DAY - h * HOUR) / MINUTE + 1);
-                Map<Integer, List<Integer>> mstore = hstore.get(h);
-                for (int m = sm; m <= em; m++) {
-                    if (!mstore.containsKey(m)) {
-                        continue;
-                    }
-                    for (Integer rc : mstore.get(m)) {
-                        if (startTime <= rc && rc <= endTime) {
-                            chunks[(rc - startTime) / sfreq]++;
-                        }
-                    }
-                }
-            }
-        }
-        List<Integer> ans = new ArrayList<>();
-        for (int chunk : chunks) {
-            ans.add(chunk);
-        }
-        return ans;
+    public void recordTweet(String name, int time) {
+        TreeNode root = map.get(name);
+        root = insert(root, time);
+        map.put(name, root);
     }
 
-    private int convFreqToSecond(String freq) {
-        switch (freq) {
-            case "minute":
-                return MINUTE;
-            case "hour":
-                return HOUR;
-            case "day":
-                return DAY;
-            default:
-                return 0;
+    private int treverse(TreeNode root, int l, int r) {
+        if (root == null || l >= r) {
+            return 0;
         }
+        if (root.val <= l) {
+            int add = root.val == l ? 1 : 0;
+            return add + treverse(root.right, l, r);
+        }
+        if (root.val >= r) {
+            return treverse(root.left, l, r);
+        }
+        return 1 + treverse(root.left, l, r) + treverse(root.right, l, r);
+    }
+
+    public List<Integer> getTweetCountsPerFrequency(String freq, String name, int start, int end) {
+        int d = 0;
+        TreeNode root = map.get(name);
+        List<Integer> res = new ArrayList<>();
+        if (freq.equals("minute")) {
+            d = 60;
+        } else if (freq.equals("hour")) {
+            d = 3600;
+        } else {
+            d = 86400;
+        }
+        while (start + d <= end) {
+            int count = treverse(root, start, start + d);
+            start = start + d;
+            res.add(count);
+        }
+        if (start <= end) {
+            int count = treverse(root, start, end + 1);
+            res.add(count);
+        }
+        return res;
     }
 }
+
+/*
+ * Your TweetCounts object will be instantiated and called as such:
+ * TweetCounts obj = new TweetCounts();
+ * obj.recordTweet(tweetName,time);
+ * List<Integer> param_2 = obj.getTweetCountsPerFrequency(freq,tweetName,startTime,endTime);
+ */
 ```

@@ -77,6 +77,7 @@ The following 3 distinct sequences of choices result in `val == k`:
 import java.util.HashMap;
 import java.util.Map;
 
+@SuppressWarnings("unchecked")
 public class Solution {
 
     private Map<Double, Integer>[] dp;
