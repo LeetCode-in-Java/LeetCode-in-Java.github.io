@@ -2088,6 +2088,8 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 3898 |[Find the Degree of Each Vertex](src/main/java/g3801_3900/s3898_find_the_degree_of_each_vertex)| Easy | Array, Matrix, Mid_Level, Graph_Theory, Weekly_Contest_497 | 1 | 100.00
+| 3897 |[Maximum Value of Concatenated Binary Segments](src/main/java/g3801_3900/s3897_maximum_value_of_concatenated_binary_segments)| Hard | Array, Sorting, Greedy, Senior_Staff, Biweekly_Contest_180 | 12 | 100.00
 | 3896 |[Minimum Operations to Transform Array into Alternating Prime](src/main/java/g3801_3900/s3896_minimum_operations_to_transform_array_into_alternating_prime)| Medium | Array, Math, Sorting, Binary_Search, Two_Pointers, Number_Theory, Senior, Biweekly_Contest_180 | 18 | 97.87
 | 3895 |[Count Digit Appearances](src/main/java/g3801_3900/s3895_count_digit_appearances)| Medium | Array, Math, Senior, Biweekly_Contest_180 | 3 | 100.00
 | 3894 |[Traffic Signal Color](src/main/java/g3801_3900/s3894_traffic_signal_color)| Easy | String, Math, Simulation, Mid_Level, Biweekly_Contest_180 | 0 | 100.00
