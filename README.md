@@ -2093,6 +2093,21 @@
 | 3896 |[Minimum Operations to Transform Array into Alternating Prime](src/main/java/g3801_3900/s3896_minimum_operations_to_transform_array_into_alternating_prime)| Medium | Array, Math, Sorting, Binary_Search, Two_Pointers, Number_Theory, Senior, Biweekly_Contest_180 | 18 | 97.87
 | 3895 |[Count Digit Appearances](src/main/java/g3801_3900/s3895_count_digit_appearances)| Medium | Array, Math, Senior, Biweekly_Contest_180 | 3 | 100.00
 | 3894 |[Traffic Signal Color](src/main/java/g3801_3900/s3894_traffic_signal_color)| Easy | String, Math, Simulation, Mid_Level, Biweekly_Contest_180 | 0 | 100.00
+| 3892 |[Minimum Operations to Achieve At Least K Peaks](src/main/java/g3801_3900/s3892_minimum_operations_to_achieve_at_least_k_peaks)| Hard | Array, Dynamic_Programming, Senior_Staff, Weekly_Contest_496 | 92 | 93.75
+| 3891 |[Minimum Increase to Maximize Special Indices](src/main/java/g3801_3900/s3891_minimum_increase_to_maximize_special_indices)| Medium | Array, Dynamic_Programming, Greedy, Prefix_Sum, Staff, Weekly_Contest_496 | 2 | 100.00
+| 3890 |[Integers With Multiple Sum of Two Cubes](src/main/java/g3801_3900/s3890_integers_with_multiple_sum_of_two_cubes)| Medium | Hash_Table, Sorting, Counting, Enumeration, Staff, Weekly_Contest_496 | 169 | 93.96
+| 3889 |[Mirror Frequency Distance](src/main/java/g3801_3900/s3889_mirror_frequency_distance)| Medium | String, Hash_Table, Counting, Senior, Weekly_Contest_496 | 18 | 99.69
+| 3887 |[Incremental Even-Weighted Cycle Queries](src/main/java/g3801_3900/s3887_incremental_even_weighted_cycle_queries)| Hard | Senior_Staff, Weekly_Contest_495, Union_Find, Graph_Theory | 18 | 100.00
+| 3886 |[Sum of Sortable Integers](src/main/java/g3801_3900/s3886_sum_of_sortable_integers)| Hard | Array, Math, Sorting, Enumeration, Senior_Staff, Weekly_Contest_495 | 8 | 98.86
+| 3885 |[Design Event Manager](src/main/java/g3801_3900/s3885_design_event_manager)| Medium | Array, Hash_Table, Design, Heap_Priority_Queue, Ordered_Set, Senior, Weekly_Contest_495 | 185 | 98.91
+| 3884 |[First Matching Character From Both Ends](src/main/java/g3801_3900/s3884_first_matching_character_from_both_ends)| Easy | String, Two_Pointers, Mid_Level, Weekly_Contest_495 | 0 | 100.00
+| 3883 |[Count Non Decreasing Arrays With Given Digit Sums](src/main/java/g3801_3900/s3883_count_non_decreasing_arrays_with_given_digit_sums)| Hard | Array, Dynamic_Programming, Prefix_Sum, Senior_Staff, Biweekly_Contest_179 | 157 | 100.00
+| 3882 |[Minimum XOR Path in a Grid](src/main/java/g3801_3900/s3882_minimum_xor_path_in_a_grid)| Medium | Array, Dynamic_Programming, Matrix, Bit_Manipulation, Staff, Biweekly_Contest_179 | 8 | 100.00
+| 3881 |[Direction Assignments with Exactly K Visible People](src/main/java/g3801_3900/s3881_direction_assignments_with_exactly_k_visible_people)| Medium | Math, Combinatorics, Staff, Biweekly_Contest_179 | 4 | 100.00
+| 3880 |[Minimum Absolute Difference Between Two Values](src/main/java/g3801_3900/s3880_minimum_absolute_difference_between_two_values)| Easy | Array, Enumeration, Mid_Level, Biweekly_Contest_179 | 1 | 99.36
+| 3878 |[Count Good Subarrays](src/main/java/g3801_3900/s3878_count_good_subarrays)| Hard | Array, Bit_Manipulation, Stack, Monotonic_Stack, Senior_Staff, Weekly_Contest_494 | 6 | 100.00
+| 3877 |[Minimum Removals to Achieve Target XOR](src/main/java/g3801_3900/s3877_minimum_removals_to_achieve_target_xor)| Medium | Array, Dynamic_Programming, Bit_Manipulation, Staff, Weekly_Contest_494 | 10 | 100.00
+| 3876 |[Construct Uniform Parity Array II](src/main/java/g3801_3900/s3876_construct_uniform_parity_array_ii)| Medium | Array, Math, Senior, Weekly_Contest_494 | 2 | 100.00
 | 3875 |[Construct Uniform Parity Array I](src/main/java/g3801_3900/s3875_construct_uniform_parity_array_i)| Easy | Array, Math, Mid_Level, Weekly_Contest_494 | 0 | 100.00
 | 3873 |[Maximum Points Activated with One Addition](src/main/java/g3801_3900/s3873_maximum_points_activated_with_one_addition)| Hard | Array, Hash_Table, Senior_Staff, Weekly_Contest_493, Union_Find | 36 | 97.50
 | 3872 |[Longest Arithmetic Sequence After Changing At Most One Element](src/main/java/g3801_3900/s3872_longest_arithmetic_sequence_after_changing_at_most_one_element)| Medium | Array, Enumeration, Staff, Weekly_Contest_493 | 11 | 100.00
