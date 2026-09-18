@@ -93,7 +93,7 @@ public class SORTracker {
                 new TreeSet<>(
                         (a, b) -> {
                             if (a.score != b.score) {
-                                return b.getScore() - a.getScore();
+                                return Integer.compare(b.getScore(), a.getScore());
                             } else {
                                 return a.getName().compareTo(b.getName());
                             }
@@ -103,7 +103,7 @@ public class SORTracker {
                 new TreeSet<>(
                         (a, b) -> {
                             if (a.score != b.score) {
-                                return b.getScore() - a.getScore();
+                                return Integer.compare(b.getScore(), a.getScore());
                             } else {
                                 return a.getName().compareTo(b.getName());
                             }

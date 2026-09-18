@@ -67,7 +67,7 @@ public class Solution {
         }
 
         public int compareTo(Pair o) {
-            return this.diff - o.diff;
+            return Integer.compare(this.diff, o.diff);
         }
     }
 

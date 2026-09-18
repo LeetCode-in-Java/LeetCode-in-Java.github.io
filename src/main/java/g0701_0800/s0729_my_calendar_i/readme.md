@@ -56,7 +56,7 @@ public class MyCalendar {
 
         @Override
         public int compareTo(Meeting anotherMeeting) {
-            return this.start - anotherMeeting.start;
+            return Integer.compare(this.start, anotherMeeting.start);
         }
     }
 

@@ -6,7 +6,6 @@
 [![](https://img.shields.io/github/forks/javadev/LeetCode-in-Java?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/javadev/LeetCode-in-Java/fork)
 > ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
 
-* [Binary Search II](#binary-search-ii)
 * [Dynamic Programming I](#dynamic-programming-i)
 * [Programming Skills I](#programming-skills-i)
 * [Programming Skills II](#programming-skills-ii)
@@ -21,148 +20,7 @@
 * [Algorithm I](#algorithm-i)
 * [Algorithm II](#algorithm-ii)
 * [Binary Search I](#binary-search-i)
-
-### Binary Search II
-
-#### Day 1
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0209 |[Minimum Size Subarray Sum](src/main/java/g0201_0300/s0209_minimum_size_subarray_sum)| Medium | Array, Binary_Search, Prefix_Sum, Sliding_Window | 1 | 99.76
-| 0611 |[Valid Triangle Number](src/main/java/g0601_0700/s0611_valid_triangle_number)| Medium | Array, Sorting, Greedy, Binary_Search, Two_Pointers | 10 | 100.00
-
-#### Day 2
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0658 |[Find K Closest Elements](src/main/java/g0601_0700/s0658_find_k_closest_elements)| Medium | Array, Sorting, Binary_Search, Two_Pointers, Heap_Priority_Queue | 3 | 99.20
-| 1894 |[Find the Student that Will Replace the Chalk](src/main/java/g1801_1900/s1894_find_the_student_that_will_replace_the_chalk)| Medium | Array, Binary_Search, Simulation, Prefix_Sum | 2 | 76.67
-
-#### Day 3
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0300 |[Longest Increasing Subsequence](src/main/java/g0201_0300/s0300_longest_increasing_subsequence)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Binary_Search, Big_O_Time_O(n\*log_n)_Space_O(n) | 3 | 95.75
-| 1760 |[Minimum Limit of Balls in a Bag](src/main/java/g1701_1800/s1760_minimum_limit_of_balls_in_a_bag)| Medium | Array, Binary_Search | 44 | 78.49
-
-#### Day 4
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0875 |[Koko Eating Bananas](src/main/java/g0801_0900/s0875_koko_eating_bananas)| Medium | Array, Binary_Search, LeetCode_75_Binary_Search | 15 | 91.32
-| 1552 |[Magnetic Force Between Two Balls](src/main/java/g1501_1600/s1552_magnetic_force_between_two_balls)| Medium | Array, Sorting, Binary_Search | 39 | 99.65
-
-#### Day 5
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0287 |[Find the Duplicate Number](src/main/java/g0201_0300/s0287_find_the_duplicate_number)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Two_Pointers, Bit_Manipulation, Big_O_Time_O(n)_Space_O(n) | 2 | 97.52
-| 1283 |[Find the Smallest Divisor Given a Threshold](src/main/java/g1201_1300/s1283_find_the_smallest_divisor_given_a_threshold)| Medium | Array, Binary_Search | 9 | 95.49
-
-#### Day 6
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1898 |[Maximum Number of Removable Characters](src/main/java/g1801_1900/s1898_maximum_number_of_removable_characters)| Medium | Array, String, Binary_Search | 121 | 72.51
-| 1870 |[Minimum Speed to Arrive on Time](src/main/java/g1801_1900/s1870_minimum_speed_to_arrive_on_time)| Medium | Array, Binary_Search | 86 | 88.58
-
-#### Day 7
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1482 |[Minimum Number of Days to Make m Bouquets](src/main/java/g1401_1500/s1482_minimum_number_of_days_to_make_m_bouquets)| Medium | Array, Binary_Search | 25 | 69.18
-| 1818 |[Minimum Absolute Sum Difference](src/main/java/g1801_1900/s1818_minimum_absolute_sum_difference)| Medium | Array, Sorting, Binary_Search, Ordered_Set | 13 | 99.44
-
-#### Day 8
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0240 |[Search a 2D Matrix II](src/main/java/g0201_0300/s0240_search_a_2d_matrix_ii)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Divide_and_Conquer, Big_O_Time_O(n+m)_Space_O(1) | 5 | 99.92
-| 0275 |[H-Index II](src/main/java/g0201_0300/s0275_h_index_ii)| Medium | Array, Binary_Search | 0 | 100.00
-
-#### Day 9
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1838 |[Frequency of the Most Frequent Element](src/main/java/g1801_1900/s1838_frequency_of_the_most_frequent_element)| Medium | Array, Sorting, Greedy, Binary_Search, Prefix_Sum, Sliding_Window | 11 | 100.00
-| 0540 |[Single Element in a Sorted Array](src/main/java/g0501_0600/s0540_single_element_in_a_sorted_array)| Medium | Array, Binary_Search | 0 | 100.00
-
-#### Day 10
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0222 |[Count Complete Tree Nodes](src/main/java/g0201_0300/s0222_count_complete_tree_nodes)| Easy | Depth_First_Search, Tree, Binary_Search, Binary_Tree | 0 | 100.00
-| 1712 |[Ways to Split Array Into Three Subarrays](src/main/java/g1701_1800/s1712_ways_to_split_array_into_three_subarrays)| Medium | Array, Binary_Search, Two_Pointers, Prefix_Sum | 16 | 84.24
-
-#### Day 11
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0826 |[Most Profit Assigning Work](src/main/java/g0801_0900/s0826_most_profit_assigning_work)| Medium | Array, Sorting, Greedy, Binary_Search, Two_Pointers | 21 | 83.83
-| 0436 |[Find Right Interval](src/main/java/g0401_0500/s0436_find_right_interval)| Medium | Array, Sorting, Binary_Search | 20 | 81.51
-
-#### Day 12
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0081 |[Search in Rotated Sorted Array II](src/main/java/g0001_0100/s0081_search_in_rotated_sorted_array_ii)| Medium | Array, Binary_Search | 1 | 82.83
-| 0162 |[Find Peak Element](src/main/java/g0101_0200/s0162_find_peak_element)| Medium | Top_Interview_Questions, Array, Binary_Search, LeetCode_75_Binary_Search | 0 | 100.00
-
-#### Day 13
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0154 |[Find Minimum in Rotated Sorted Array II](src/main/java/g0101_0200/s0154_find_minimum_in_rotated_sorted_array_ii)| Hard | Array, Binary_Search | 1 | 77.09
-| 0528 |[Random Pick with Weight](src/main/java/g0501_0600/s0528_random_pick_with_weight)| Medium | Math, Binary_Search, Prefix_Sum, Randomized | 42 | 50.90
-
-#### Day 14
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1508 |[Range Sum of Sorted Subarray Sums](src/main/java/g1501_1600/s1508_range_sum_of_sorted_subarray_sums)| Medium | Array, Sorting, Binary_Search, Two_Pointers | 60 | 93.84
-| 1574 |[Shortest Subarray to be Removed to Make Array Sorted](src/main/java/g1501_1600/s1574_shortest_subarray_to_be_removed_to_make_array_sorted)| Medium | Array, Binary_Search, Two_Pointers, Stack, Monotonic_Stack | 2 | 84.97
-
-#### Day 15
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1292 |[Maximum Side Length of a Square with Sum Less than or Equal to Threshold](src/main/java/g1201_1300/s1292_maximum_side_length_of_a_square_with_sum_less_than_or_equal_to_threshold)| Medium | Array, Binary_Search, Matrix, Prefix_Sum | 23 | 32.97
-| 1498 |[Number of Subsequences That Satisfy the Given Sum Condition](src/main/java/g1401_1500/s1498_number_of_subsequences_that_satisfy_the_given_sum_condition)| Medium | Array, Sorting, Binary_Search, Two_Pointers | 27 | 99.13
-
-#### Day 16
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0981 |[Time Based Key-Value Store](src/main/java/g0901_1000/s0981_time_based_key_value_store)| Medium | String, Hash_Table, Binary_Search, Design | 239 | 72.78
-| 1300 |[Sum of Mutated Array Closest to Target](src/main/java/g1201_1300/s1300_sum_of_mutated_array_closest_to_target)| Medium | Array, Sorting, Binary_Search | 7 | 33.33
-
-#### Day 17
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1802 |[Maximum Value at a Given Index in a Bounded Array](src/main/java/g1801_1900/s1802_maximum_value_at_a_given_index_in_a_bounded_array)| Medium | Greedy, Binary_Search | 2 | 58.44
-| 1901 |[Find a Peak Element II](src/main/java/g1901_2000/s1901_find_a_peak_element_ii)| Medium | Array, Binary_Search, Matrix, Divide_and_Conquer | 0 | 100.00
-
-#### Day 18
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1146 |[Snapshot Array](src/main/java/g1101_1200/s1146_snapshot_array)| Medium | Array, Hash_Table, Binary_Search, Design | 68 | 45.86
-| 1488 |[Avoid Flood in The City](src/main/java/g1401_1500/s1488_avoid_flood_in_the_city)| Medium | Array, Hash_Table, Greedy, Binary_Search, Heap_Priority_Queue | 82 | 75.08
-
-#### Day 19
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1562 |[Find Latest Group of Size M](src/main/java/g1501_1600/s1562_find_latest_group_of_size_m)| Medium | Array, Binary_Search, Simulation | 8 | 90.00
-| 1648 |[Sell Diminishing-Valued Colored Balls](src/main/java/g1601_1700/s1648_sell_diminishing_valued_colored_balls)| Medium | Array, Math, Sorting, Greedy, Binary_Search, Heap_Priority_Queue | 27 | 80.64
-
-#### Day 20
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1201 |[Ugly Number III](src/main/java/g1201_1300/s1201_ugly_number_iii)| Medium | Math, Binary_Search, Number_Theory | 0 | 100.00
-| 0911 |[Online Election](src/main/java/g0901_1000/s0911_online_election)| Medium | Array, Hash_Table, Binary_Search, Design | 63 | 98.81
+* [Binary Search II](#binary-search-ii)
 
 ### Dynamic Programming I
 
@@ -2084,11 +1942,173 @@
 |-|-|-|-|-|-
 | 0153 |[Find Minimum in Rotated Sorted Array](src/main/java/g0101_0200/s0153_find_minimum_in_rotated_sorted_array)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 0 | 100.00
 
+### Binary Search II
+
+#### Day 1
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0209 |[Minimum Size Subarray Sum](src/main/java/g0201_0300/s0209_minimum_size_subarray_sum)| Medium | Array, Binary_Search, Prefix_Sum, Sliding_Window | 1 | 99.76
+| 0611 |[Valid Triangle Number](src/main/java/g0601_0700/s0611_valid_triangle_number)| Medium | Array, Sorting, Greedy, Binary_Search, Two_Pointers | 10 | 100.00
+
+#### Day 2
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0658 |[Find K Closest Elements](src/main/java/g0601_0700/s0658_find_k_closest_elements)| Medium | Array, Sorting, Binary_Search, Two_Pointers, Heap_Priority_Queue | 3 | 99.20
+| 1894 |[Find the Student that Will Replace the Chalk](src/main/java/g1801_1900/s1894_find_the_student_that_will_replace_the_chalk)| Medium | Array, Binary_Search, Simulation, Prefix_Sum | 2 | 76.67
+
+#### Day 3
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0300 |[Longest Increasing Subsequence](src/main/java/g0201_0300/s0300_longest_increasing_subsequence)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Binary_Search, Big_O_Time_O(n\*log_n)_Space_O(n) | 3 | 95.75
+| 1760 |[Minimum Limit of Balls in a Bag](src/main/java/g1701_1800/s1760_minimum_limit_of_balls_in_a_bag)| Medium | Array, Binary_Search | 44 | 78.49
+
+#### Day 4
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0875 |[Koko Eating Bananas](src/main/java/g0801_0900/s0875_koko_eating_bananas)| Medium | Array, Binary_Search, LeetCode_75_Binary_Search | 15 | 91.32
+| 1552 |[Magnetic Force Between Two Balls](src/main/java/g1501_1600/s1552_magnetic_force_between_two_balls)| Medium | Array, Sorting, Binary_Search | 39 | 99.65
+
+#### Day 5
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0287 |[Find the Duplicate Number](src/main/java/g0201_0300/s0287_find_the_duplicate_number)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Two_Pointers, Bit_Manipulation, Big_O_Time_O(n)_Space_O(n) | 2 | 97.52
+| 1283 |[Find the Smallest Divisor Given a Threshold](src/main/java/g1201_1300/s1283_find_the_smallest_divisor_given_a_threshold)| Medium | Array, Binary_Search | 9 | 95.49
+
+#### Day 6
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1898 |[Maximum Number of Removable Characters](src/main/java/g1801_1900/s1898_maximum_number_of_removable_characters)| Medium | Array, String, Binary_Search | 121 | 72.51
+| 1870 |[Minimum Speed to Arrive on Time](src/main/java/g1801_1900/s1870_minimum_speed_to_arrive_on_time)| Medium | Array, Binary_Search | 86 | 88.58
+
+#### Day 7
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1482 |[Minimum Number of Days to Make m Bouquets](src/main/java/g1401_1500/s1482_minimum_number_of_days_to_make_m_bouquets)| Medium | Array, Binary_Search | 25 | 69.18
+| 1818 |[Minimum Absolute Sum Difference](src/main/java/g1801_1900/s1818_minimum_absolute_sum_difference)| Medium | Array, Sorting, Binary_Search, Ordered_Set | 13 | 99.44
+
+#### Day 8
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0240 |[Search a 2D Matrix II](src/main/java/g0201_0300/s0240_search_a_2d_matrix_ii)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Divide_and_Conquer, Big_O_Time_O(n+m)_Space_O(1) | 5 | 99.92
+| 0275 |[H-Index II](src/main/java/g0201_0300/s0275_h_index_ii)| Medium | Array, Binary_Search | 0 | 100.00
+
+#### Day 9
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1838 |[Frequency of the Most Frequent Element](src/main/java/g1801_1900/s1838_frequency_of_the_most_frequent_element)| Medium | Array, Sorting, Greedy, Binary_Search, Prefix_Sum, Sliding_Window | 11 | 100.00
+| 0540 |[Single Element in a Sorted Array](src/main/java/g0501_0600/s0540_single_element_in_a_sorted_array)| Medium | Array, Binary_Search | 0 | 100.00
+
+#### Day 10
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0222 |[Count Complete Tree Nodes](src/main/java/g0201_0300/s0222_count_complete_tree_nodes)| Easy | Depth_First_Search, Tree, Binary_Search, Binary_Tree | 0 | 100.00
+| 1712 |[Ways to Split Array Into Three Subarrays](src/main/java/g1701_1800/s1712_ways_to_split_array_into_three_subarrays)| Medium | Array, Binary_Search, Two_Pointers, Prefix_Sum | 16 | 84.24
+
+#### Day 11
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0826 |[Most Profit Assigning Work](src/main/java/g0801_0900/s0826_most_profit_assigning_work)| Medium | Array, Sorting, Greedy, Binary_Search, Two_Pointers | 21 | 83.83
+| 0436 |[Find Right Interval](src/main/java/g0401_0500/s0436_find_right_interval)| Medium | Array, Sorting, Binary_Search | 20 | 81.51
+
+#### Day 12
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0081 |[Search in Rotated Sorted Array II](src/main/java/g0001_0100/s0081_search_in_rotated_sorted_array_ii)| Medium | Array, Binary_Search | 1 | 82.83
+| 0162 |[Find Peak Element](src/main/java/g0101_0200/s0162_find_peak_element)| Medium | Top_Interview_Questions, Array, Binary_Search, LeetCode_75_Binary_Search | 0 | 100.00
+
+#### Day 13
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0154 |[Find Minimum in Rotated Sorted Array II](src/main/java/g0101_0200/s0154_find_minimum_in_rotated_sorted_array_ii)| Hard | Array, Binary_Search | 1 | 77.09
+| 0528 |[Random Pick with Weight](src/main/java/g0501_0600/s0528_random_pick_with_weight)| Medium | Math, Binary_Search, Prefix_Sum, Randomized | 42 | 50.90
+
+#### Day 14
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1508 |[Range Sum of Sorted Subarray Sums](src/main/java/g1501_1600/s1508_range_sum_of_sorted_subarray_sums)| Medium | Array, Sorting, Binary_Search, Two_Pointers | 60 | 93.84
+| 1574 |[Shortest Subarray to be Removed to Make Array Sorted](src/main/java/g1501_1600/s1574_shortest_subarray_to_be_removed_to_make_array_sorted)| Medium | Array, Binary_Search, Two_Pointers, Stack, Monotonic_Stack | 2 | 84.97
+
+#### Day 15
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1292 |[Maximum Side Length of a Square with Sum Less than or Equal to Threshold](src/main/java/g1201_1300/s1292_maximum_side_length_of_a_square_with_sum_less_than_or_equal_to_threshold)| Medium | Array, Binary_Search, Matrix, Prefix_Sum | 23 | 32.97
+| 1498 |[Number of Subsequences That Satisfy the Given Sum Condition](src/main/java/g1401_1500/s1498_number_of_subsequences_that_satisfy_the_given_sum_condition)| Medium | Array, Sorting, Binary_Search, Two_Pointers | 27 | 99.13
+
+#### Day 16
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0981 |[Time Based Key-Value Store](src/main/java/g0901_1000/s0981_time_based_key_value_store)| Medium | String, Hash_Table, Binary_Search, Design | 239 | 72.78
+| 1300 |[Sum of Mutated Array Closest to Target](src/main/java/g1201_1300/s1300_sum_of_mutated_array_closest_to_target)| Medium | Array, Sorting, Binary_Search | 7 | 33.33
+
+#### Day 17
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1802 |[Maximum Value at a Given Index in a Bounded Array](src/main/java/g1801_1900/s1802_maximum_value_at_a_given_index_in_a_bounded_array)| Medium | Greedy, Binary_Search | 2 | 58.44
+| 1901 |[Find a Peak Element II](src/main/java/g1901_2000/s1901_find_a_peak_element_ii)| Medium | Array, Binary_Search, Matrix, Divide_and_Conquer | 0 | 100.00
+
+#### Day 18
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1146 |[Snapshot Array](src/main/java/g1101_1200/s1146_snapshot_array)| Medium | Array, Hash_Table, Binary_Search, Design | 68 | 45.86
+| 1488 |[Avoid Flood in The City](src/main/java/g1401_1500/s1488_avoid_flood_in_the_city)| Medium | Array, Hash_Table, Greedy, Binary_Search, Heap_Priority_Queue | 82 | 75.08
+
+#### Day 19
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1562 |[Find Latest Group of Size M](src/main/java/g1501_1600/s1562_find_latest_group_of_size_m)| Medium | Array, Binary_Search, Simulation | 8 | 90.00
+| 1648 |[Sell Diminishing-Valued Colored Balls](src/main/java/g1601_1700/s1648_sell_diminishing_valued_colored_balls)| Medium | Array, Math, Sorting, Greedy, Binary_Search, Heap_Priority_Queue | 27 | 80.64
+
+#### Day 20
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1201 |[Ugly Number III](src/main/java/g1201_1300/s1201_ugly_number_iii)| Medium | Math, Binary_Search, Number_Theory | 0 | 100.00
+| 0911 |[Online Election](src/main/java/g0901_1000/s0911_online_election)| Medium | Array, Hash_Table, Binary_Search, Design | 63 | 98.81
+
 ## Algorithms
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
-| 3898 |[Find the Degree of Each Vertex](src/main/java/g3801_3900/s3898_find_the_degree_of_each_vertex)| Easy | Array, Matrix, Mid_Level, Graph_Theory, Weekly_Contest_497 | 1 | 100.00
+| 3921 |[Score Validator](src/main/java/g3901_4000/s3921_score_validator)| Easy | Array, String, Simulation, Mid_Level, Biweekly_Contest_182 | 2 | 91.74
+| 3920 |[Maximize Fixed Points After Deletions](src/main/java/g3901_4000/s3920_maximize_fixed_points_after_deletions)| Hard | Array, Sorting, Binary_Search, Senior_Staff, Weekly_Contest_500 | 19 | 100.00
+| 3919 |[Minimum Cost to Move Between Indices](src/main/java/g3901_4000/s3919_minimum_cost_to_move_between_indices)| Medium | Array, Greedy, Prefix_Sum, Staff, Weekly_Contest_500 | 4 | 100.00
+| 3918 |[Sum of Primes Between Number and Its Reverse](src/main/java/g3901_4000/s3918_sum_of_primes_between_number_and_its_reverse)| Medium | Math, Number_Theory, Senior, Weekly_Contest_500 | 3 | 96.45
+| 3917 |[Count Indices With Opposite Parity](src/main/java/g3901_4000/s3917_count_indices_with_opposite_parity)| Easy | Array, Mid_Level, Weekly_Contest_500 | 1 | 100.00
+| 3915 |[Maximum Sum of Alternating Subsequence With Distance at Least K](src/main/java/g3901_4000/s3915_maximum_sum_of_alternating_subsequence_with_distance_at_least_k)| Hard | Array, Dynamic_Programming, Segment_Tree, Senior_Staff, Weekly_Contest_499 | 113 | 100.00
+| 3914 |[Minimum Operations to Make Array Non Decreasing](src/main/java/g3901_4000/s3914_minimum_operations_to_make_array_non_decreasing)| Medium | Array, Greedy, Staff, Weekly_Contest_499 | 2 | 100.00
+| 3913 |[Sort Vowels by Frequency](src/main/java/g3901_4000/s3913_sort_vowels_by_frequency)| Medium | String, Sorting, Counting, Senior, Weekly_Contest_499 | 9 | 100.00
+| 3912 |[Valid Elements in an Array](src/main/java/g3901_4000/s3912_valid_elements_in_an_array)| Easy | Array, Mid_Level, Weekly_Contest_499 | 1 | 100.00
+| 3911 |[K-th Smallest Remaining Even Integer in Subarray Queries](src/main/java/g3901_4000/s3911_k_th_smallest_remaining_even_integer_in_subarray_queries)| Hard | Array, Binary_Search, Senior_Staff, Biweekly_Contest_181 | 5 | 100.00
+| 3910 |[Count Connected Subgraphs with Even Node Sum](src/main/java/g3901_4000/s3910_count_connected_subgraphs_with_even_node_sum)| Hard | Array, Depth_First_Search, Breadth_First_Search, Bit_Manipulation, Union_Find, Enumeration, Senior_Staff, Graph_Theory, Biweekly_Contest_181 | 2 | 100.00
+| 3909 |[Compare Sums of Bitonic Parts](src/main/java/g3901_4000/s3909_compare_sums_of_bitonic_parts)| Medium | Array, Senior, Biweekly_Contest_181 | 1 | 100.00
+| 3908 |[Valid Digit Number](src/main/java/g3901_4000/s3908_valid_digit_number)| Easy | Math, Mid_Level, Biweekly_Contest_181 | 1 | 98.66
+| 3906 |[Count Good Integers on a Grid Path](src/main/java/g3901_4000/s3906_count_good_integers_on_a_grid_path)| Hard | Dynamic_Programming, Senior_Staff, Weekly_Contest_498 | 7 | 93.94
+| 3905 |[Multi Source Flood Fill](src/main/java/g3901_4000/s3905_multi_source_flood_fill)| Medium | Array, Breadth_First_Search, Matrix, Staff, Weekly_Contest_498 | 33 | 100.00
+| 3904 |[Smallest Stable Index II](src/main/java/g3901_4000/s3904_smallest_stable_index_ii)| Medium | Array, Prefix_Sum, Senior, Weekly_Contest_498 | 3 | 92.71
+| 3903 |[Smallest Stable Index I](src/main/java/g3901_4000/s3903_smallest_stable_index_i)| Easy | Array, Prefix_Sum, Mid_Level, Weekly_Contest_498 | 1 | 99.37
+| 3901 |[Good Subsequence Queries](src/main/java/g3901_4000/s3901_good_subsequence_queries)| Hard | Array, Math, Segment_Tree, Number_Theory, Principal, Weekly_Contest_497 | 20 | 100.00
+| 3900 |[Longest Balanced Substring After One Swap](src/main/java/g3801_3900/s3900_longest_balanced_substring_after_one_swap)| Medium | String, Hash_Table, Prefix_Sum, Staff, Weekly_Contest_497 | 15 | 100.00
+| 3899 |[Angles of a Triangle](src/main/java/g3801_3900/s3899_angles_of_a_triangle)| Medium | Array, Math, Geometry, Senior, Weekly_Contest_497 | 1 | 100.00
+| 3898 |[Find the Degree of Each Vertex](src/main/java/g3801_3900/s3898_find_the_degree_of_each_vertex)| Easy | Array, Matrix, Mid_Level, Weekly_Contest_497, Graph_Theory | 1 | 100.00
 | 3897 |[Maximum Value of Concatenated Binary Segments](src/main/java/g3801_3900/s3897_maximum_value_of_concatenated_binary_segments)| Hard | Array, Sorting, Greedy, Senior_Staff, Biweekly_Contest_180 | 12 | 100.00
 | 3896 |[Minimum Operations to Transform Array into Alternating Prime](src/main/java/g3801_3900/s3896_minimum_operations_to_transform_array_into_alternating_prime)| Medium | Array, Math, Sorting, Binary_Search, Two_Pointers, Number_Theory, Senior, Biweekly_Contest_180 | 18 | 97.87
 | 3895 |[Count Digit Appearances](src/main/java/g3801_3900/s3895_count_digit_appearances)| Medium | Array, Math, Senior, Biweekly_Contest_180 | 3 | 100.00
@@ -2097,7 +2117,7 @@
 | 3891 |[Minimum Increase to Maximize Special Indices](src/main/java/g3801_3900/s3891_minimum_increase_to_maximize_special_indices)| Medium | Array, Dynamic_Programming, Greedy, Prefix_Sum, Staff, Weekly_Contest_496 | 2 | 100.00
 | 3890 |[Integers With Multiple Sum of Two Cubes](src/main/java/g3801_3900/s3890_integers_with_multiple_sum_of_two_cubes)| Medium | Hash_Table, Sorting, Counting, Enumeration, Staff, Weekly_Contest_496 | 169 | 93.96
 | 3889 |[Mirror Frequency Distance](src/main/java/g3801_3900/s3889_mirror_frequency_distance)| Medium | String, Hash_Table, Counting, Senior, Weekly_Contest_496 | 18 | 99.69
-| 3887 |[Incremental Even-Weighted Cycle Queries](src/main/java/g3801_3900/s3887_incremental_even_weighted_cycle_queries)| Hard | Senior_Staff, Weekly_Contest_495, Union_Find, Graph_Theory | 18 | 100.00
+| 3887 |[Incremental Even-Weighted Cycle Queries](src/main/java/g3801_3900/s3887_incremental_even_weighted_cycle_queries)| Hard | Union_Find, Senior_Staff, Graph_Theory, Weekly_Contest_495 | 18 | 100.00
 | 3886 |[Sum of Sortable Integers](src/main/java/g3801_3900/s3886_sum_of_sortable_integers)| Hard | Array, Math, Sorting, Enumeration, Senior_Staff, Weekly_Contest_495 | 8 | 98.86
 | 3885 |[Design Event Manager](src/main/java/g3801_3900/s3885_design_event_manager)| Medium | Array, Hash_Table, Design, Heap_Priority_Queue, Ordered_Set, Senior, Weekly_Contest_495 | 185 | 98.91
 | 3884 |[First Matching Character From Both Ends](src/main/java/g3801_3900/s3884_first_matching_character_from_both_ends)| Easy | String, Two_Pointers, Mid_Level, Weekly_Contest_495 | 0 | 100.00
@@ -2109,7 +2129,7 @@
 | 3877 |[Minimum Removals to Achieve Target XOR](src/main/java/g3801_3900/s3877_minimum_removals_to_achieve_target_xor)| Medium | Array, Dynamic_Programming, Bit_Manipulation, Staff, Weekly_Contest_494 | 10 | 100.00
 | 3876 |[Construct Uniform Parity Array II](src/main/java/g3801_3900/s3876_construct_uniform_parity_array_ii)| Medium | Array, Math, Senior, Weekly_Contest_494 | 2 | 100.00
 | 3875 |[Construct Uniform Parity Array I](src/main/java/g3801_3900/s3875_construct_uniform_parity_array_i)| Easy | Array, Math, Mid_Level, Weekly_Contest_494 | 0 | 100.00
-| 3873 |[Maximum Points Activated with One Addition](src/main/java/g3801_3900/s3873_maximum_points_activated_with_one_addition)| Hard | Array, Hash_Table, Senior_Staff, Weekly_Contest_493, Union_Find | 36 | 97.50
+| 3873 |[Maximum Points Activated with One Addition](src/main/java/g3801_3900/s3873_maximum_points_activated_with_one_addition)| Hard | Array, Hash_Table, Union_Find, Senior_Staff, Weekly_Contest_493 | 36 | 97.50
 | 3872 |[Longest Arithmetic Sequence After Changing At Most One Element](src/main/java/g3801_3900/s3872_longest_arithmetic_sequence_after_changing_at_most_one_element)| Medium | Array, Enumeration, Staff, Weekly_Contest_493 | 11 | 100.00
 | 3871 |[Count Commas in Range II](src/main/java/g3801_3900/s3871_count_commas_in_range_ii)| Medium | Math, Senior, Weekly_Contest_493 | 1 | 99.11
 | 3870 |[Count Commas in Range](src/main/java/g3801_3900/s3870_count_commas_in_range)| Easy | Math, Mid_Level, Weekly_Contest_493 | 0 | 100.00
@@ -2137,7 +2157,7 @@
 | 3844 |[Longest Almost-Palindromic Substring](src/main/java/g3801_3900/s3844_longest_almost_palindromic_substring)| Medium | String, Dynamic_Programming, Two_Pointers, Staff, Weekly_Contest_489 | 10 | 99.05
 | 3843 |[First Element with Unique Frequency](src/main/java/g3801_3900/s3843_first_element_with_unique_frequency)| Medium | Array, Hash_Table, Counting, Senior, Weekly_Contest_489 | 96 | 93.48
 | 3842 |[Toggle Light Bulbs](src/main/java/g3801_3900/s3842_toggle_light_bulbs)| Easy | Array, Hash_Table, Sorting, Simulation, Mid_Level, Weekly_Contest_489 | 2 | 99.86
-| 3841 |[Palindromic Path Queries in a Tree](src/main/java/g3801_3900/s3841_palindromic_path_queries_in_a_tree)| Hard | Array, String, Tree, Bit_Manipulation, Divide_and_Conquer, Segment_Tree, Biweekly_Contest_176, Principal, Depth_First_Search | 65 | 100.00
+| 3841 |[Palindromic Path Queries in a Tree](src/main/java/g3801_3900/s3841_palindromic_path_queries_in_a_tree)| Hard | Array, String, Depth_First_Search, Tree, Bit_Manipulation, Divide_and_Conquer, Segment_Tree, Principal, Biweekly_Contest_176 | 65 | 100.00
 | 3840 |[House Robber V](src/main/java/g3801_3900/s3840_house_robber_v)| Medium | Array, Dynamic_Programming, Staff, Biweekly_Contest_176 | 2 | 100.00
 | 3839 |[Number of Prefix Connected Groups](src/main/java/g3801_3900/s3839_number_of_prefix_connected_groups)| Medium | Array, String, Hash_Table, Counting, Senior, Biweekly_Contest_176 | 20 | 89.73
 | 3838 |[Weighted Word Mapping](src/main/java/g3801_3900/s3838_weighted_word_mapping)| Easy | Array, String, Simulation, Mid_Level, Biweekly_Contest_176 | 2 | 93.33
@@ -2155,14 +2175,14 @@
 | 3824 |[Minimum K to Reduce Array Within Limit](src/main/java/g3801_3900/s3824_minimum_k_to_reduce_array_within_limit)| Medium | Array, Binary_Search, Staff, Biweekly_Contest_175 | 16 | 100.00
 | 3823 |[Reverse Letters Then Special Characters in a String](src/main/java/g3801_3900/s3823_reverse_letters_then_special_characters_in_a_string)| Easy | String, Two_Pointers, Simulation, Mid_Level, Biweekly_Contest_175 | 1 | 100.00
 | 3821 |[Find Nth Smallest Integer With K One Bits](src/main/java/g3801_3900/s3821_find_nth_smallest_integer_with_k_one_bits)| Hard | Math, Bit_Manipulation, Combinatorics, Senior_Staff, Weekly_Contest_486 | 2 | 98.59
-| 3820 |[Pythagorean Distance Nodes in a Tree](src/main/java/g3801_3900/s3820_pythagorean_distance_nodes_in_a_tree)| Medium | Tree, Staff, Weekly_Contest_486, Breadth_First_Search | 96 | 90.83
+| 3820 |[Pythagorean Distance Nodes in a Tree](src/main/java/g3801_3900/s3820_pythagorean_distance_nodes_in_a_tree)| Medium | Breadth_First_Search, Tree, Staff, Weekly_Contest_486 | 96 | 90.83
 | 3819 |[Rotate Non Negative Elements](src/main/java/g3801_3900/s3819_rotate_non_negative_elements)| Medium | Array, Simulation, Senior, Weekly_Contest_486 | 11 | 100.00
 | 3818 |[Minimum Prefix Removal to Make Array Strictly Increasing](src/main/java/g3801_3900/s3818_minimum_prefix_removal_to_make_array_strictly_increasing)| Medium | Array, Senior, Weekly_Contest_486 | 1 | 99.63
 | 3816 |[Lexicographically Smallest String After Deleting Duplicate Characters](src/main/java/g3801_3900/s3816_lexicographically_smallest_string_after_deleting_duplicate_characters)| Hard | String, Hash_Table, Greedy, Stack, Monotonic_Stack, Senior_Staff, Weekly_Contest_485 | 65 | 91.61
 | 3815 |[Design Auction System](src/main/java/g3801_3900/s3815_design_auction_system)| Medium | Hash_Table, Design, Heap_Priority_Queue, Ordered_Set, Staff, Weekly_Contest_485 | 96 | 93.30
 | 3814 |[Maximum Capacity Within Budget](src/main/java/g3801_3900/s3814_maximum_capacity_within_budget)| Medium | Array, Sorting, Binary_Search, Two_Pointers, Senior, Weekly_Contest_485 | 8 | 100.00
 | 3813 |[Vowel-Consonant Score](src/main/java/g3801_3900/s3813_vowel_consonant_score)| Easy | String, Simulation, Mid_Level, Weekly_Contest_485 | 1 | 100.00
-| 3812 |[Minimum Edge Toggles on a Tree](src/main/java/g3801_3900/s3812_minimum_edge_toggles_on_a_tree)| Hard | Sorting, Tree, Topological_Sort, Senior_Staff, Depth_First_Search, Biweekly_Contest_174, Graph_Theory | 89 | 86.67
+| 3812 |[Minimum Edge Toggles on a Tree](src/main/java/g3801_3900/s3812_minimum_edge_toggles_on_a_tree)| Hard | Sorting, Depth_First_Search, Tree, Topological_Sort, Senior_Staff, Graph_Theory, Biweekly_Contest_174 | 89 | 86.67
 | 3811 |[Number of Alternating XOR Partitions](src/main/java/g3801_3900/s3811_number_of_alternating_xor_partitions)| Medium | Array, Hash_Table, Dynamic_Programming, Bit_Manipulation, Staff, Biweekly_Contest_174 | 5 | 100.00
 | 3810 |[Minimum Operations to Reach Target Array](src/main/java/g3801_3900/s3810_minimum_operations_to_reach_target_array)| Medium | Array, Hash_Table, Greedy, Senior, Biweekly_Contest_174 | 24 | 89.58
 | 3809 |[Best Reachable Tower](src/main/java/g3801_3900/s3809_best_reachable_tower)| Medium | Array, Senior, Biweekly_Contest_174 | 3 | 70.30
@@ -2184,7 +2204,7 @@
 | 3790 |[Smallest All-Ones Multiple](src/main/java/g3701_3800/s3790_smallest_all_ones_multiple)| Medium | Hash_Table, Math, Staff, Weekly_Contest_482 | 8 | 100.00
 | 3789 |[Minimum Cost to Acquire Required Items](src/main/java/g3701_3800/s3789_minimum_cost_to_acquire_required_items)| Medium | Math, Greedy, Staff, Weekly_Contest_482 | 1 | 100.00
 | 3788 |[Maximum Score of a Split](src/main/java/g3701_3800/s3788_maximum_score_of_a_split)| Medium | Array, Prefix_Sum, Senior, Weekly_Contest_482 | 2 | 100.00
-| 3786 |[Total Sum of Interaction Cost in Tree Groups](src/main/java/g3701_3800/s3786_total_sum_of_interaction_cost_in_tree_groups)| Hard | Array, Tree, Senior_Staff, Weekly_Contest_481, Depth_First_Search | 82 | 90.67
+| 3786 |[Total Sum of Interaction Cost in Tree Groups](src/main/java/g3701_3800/s3786_total_sum_of_interaction_cost_in_tree_groups)| Hard | Array, Depth_First_Search, Tree, Senior_Staff, Weekly_Contest_481 | 82 | 90.67
 | 3785 |[Minimum Swaps to Avoid Forbidden Values](src/main/java/g3701_3800/s3785_minimum_swaps_to_avoid_forbidden_values)| Hard | Array, Hash_Table, Greedy, Counting, Senior_Staff, Weekly_Contest_481 | 88 | 86.89
 | 3784 |[Minimum Deletion Cost to Make All Characters Equal](src/main/java/g3701_3800/s3784_minimum_deletion_cost_to_make_all_characters_equal)| Medium | Array, String, Hash_Table, Enumeration, Senior, Weekly_Contest_481 | 3 | 94.77
 | 3783 |[Mirror Distance of an Integer](src/main/java/g3701_3800/s3783_mirror_distance_of_an_integer)| Easy | Math, Mid_Level, Weekly_Contest_481 | 1 | 99.88
@@ -2196,7 +2216,7 @@
 | 3776 |[Minimum Moves to Balance Circular Array](src/main/java/g3701_3800/s3776_minimum_moves_to_balance_circular_array)| Medium | Array, Sorting, Greedy, Staff, Weekly_Contest_480 | 2 | 100.00
 | 3775 |[Reverse Words With Same Vowel Count](src/main/java/g3701_3800/s3775_reverse_words_with_same_vowel_count)| Medium | String, Two_Pointers, Simulation, Senior, Weekly_Contest_480 | 41 | 96.14
 | 3774 |[Absolute Difference Between Maximum and Minimum K Elements](src/main/java/g3701_3800/s3774_absolute_difference_between_maximum_and_minimum_k_elements)| Easy | Array, Sorting, Mid_Level, Weekly_Contest_480 | 5 | 96.82
-| 3772 |[Maximum Subgraph Score in a Tree](src/main/java/g3701_3800/s3772_maximum_subgraph_score_in_a_tree)| Hard | Array, Dynamic_Programming, Tree, Senior_Staff, Weekly_Contest_479, Depth_First_Search | 35 | 100.00
+| 3772 |[Maximum Subgraph Score in a Tree](src/main/java/g3701_3800/s3772_maximum_subgraph_score_in_a_tree)| Hard | Array, Dynamic_Programming, Depth_First_Search, Tree, Senior_Staff, Weekly_Contest_479 | 35 | 100.00
 | 3771 |[Total Score of Dungeon Runs](src/main/java/g3701_3800/s3771_total_score_of_dungeon_runs)| Medium | Array, Binary_Search, Prefix_Sum, Staff, Weekly_Contest_479 | 19 | 100.00
 | 3770 |[Largest Prime from Consecutive Prime Sum](src/main/java/g3701_3800/s3770_largest_prime_from_consecutive_prime_sum)| Medium | Array, Math, Number_Theory, Senior, Weekly_Contest_479 | 1 | 100.00
 | 3769 |[Sort Integers by Binary Reflection](src/main/java/g3701_3800/s3769_sort_integers_by_binary_reflection)| Easy | Array, Sorting, Mid_Level, Weekly_Contest_479 | 5 | 97.23
@@ -2220,7 +2240,7 @@
 | 3747 |[Count Distinct Integers After Removing Zeros](src/main/java/g3701_3800/s3747_count_distinct_integers_after_removing_zeros)| Medium | Dynamic_Programming, Math, Staff, Weekly_Contest_476 | 1 | 100.00
 | 3746 |[Minimum String Length After Balanced Removals](src/main/java/g3701_3800/s3746_minimum_string_length_after_balanced_removals)| Medium | String, Stack, Counting, Senior, Weekly_Contest_476 | 3 | 95.94
 | 3745 |[Maximize Expression of Three Elements](src/main/java/g3701_3800/s3745_maximize_expression_of_three_elements)| Easy | Array, Sorting, Greedy, Enumeration, Mid_Level, Weekly_Contest_476 | 1 | 99.84
-| 3743 |[Maximize Cyclic Partition Score](src/main/java/g3701_3800/s3743_maximize_cyclic_partition_score)| Hard | Array, Dynamic_Programming, Weekly_Contest_475, Principal | 40 | 96.15
+| 3743 |[Maximize Cyclic Partition Score](src/main/java/g3701_3800/s3743_maximize_cyclic_partition_score)| Hard | Array, Dynamic_Programming, Principal, Weekly_Contest_475 | 40 | 96.15
 | 3742 |[Maximum Path Score in a Grid](src/main/java/g3701_3800/s3742_maximum_path_score_in_a_grid)| Medium | Array, Dynamic_Programming, Matrix, Staff, Weekly_Contest_475 | 212 | 91.38
 | 3741 |[Minimum Distance Between Three Equal Elements II](src/main/java/g3701_3800/s3741_minimum_distance_between_three_equal_elements_ii)| Medium | Array, Hash_Table, Senior, Weekly_Contest_475 | 6 | 99.60
 | 3740 |[Minimum Distance Between Three Equal Elements I](src/main/java/g3701_3800/s3740_minimum_distance_between_three_equal_elements_i)| Easy | Array, Hash_Table, Mid_Level, Weekly_Contest_475 | 1 | 99.99

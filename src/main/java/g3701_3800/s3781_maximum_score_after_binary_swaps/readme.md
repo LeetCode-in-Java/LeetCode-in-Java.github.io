@@ -53,7 +53,7 @@ import java.util.PriorityQueue;
 public class Solution {
     public long maximumScore(int[] nums, String s) {
         long sum = 0;
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> Integer.compare(b, a));
         for (int i = 0; i < nums.length; i++) {
             if (s.charAt(i) == '1') {
                 if (pq.isEmpty() || pq.peek() <= nums[i]) {

@@ -69,7 +69,7 @@ public class Solution {
         }
 
         public int compareTo(Pair o) {
-            return this.cwt - o.cwt;
+            return Integer.compare(this.cwt, o.cwt);
         }
     }
 

@@ -75,9 +75,9 @@ public class EventManager {
                 new PriorityQueue<>(
                         (a, b) -> {
                             if (a.priority != b.priority) {
-                                return b.priority - a.priority;
+                                return Integer.compare(b.priority, a.priority);
                             }
-                            return a.id - b.id;
+                            return Integer.compare(a.id, b.id);
                         });
         for (int[] event : events) {
             pq.add(new Pair(event[0], event[1]));
