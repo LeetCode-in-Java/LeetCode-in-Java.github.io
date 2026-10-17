@@ -317,7 +317,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0547 |[Number of Provinces](src/main/java/g0501_0600/s0547_number_of_provinces)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find, LeetCode_75_Graphs/DFS | 2 | 69.51
-| 1319 |[Number of Operations to Make Network Connected](src/main/java/g1301_1400/s1319_number_of_operations_to_make_network_connected)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 9 | 67.64
+| 1319 |[Number of Operations to Make Network Connected](src/main/java/g1301_1400/s1319_number_of_operations_to_make_network_connected)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 4 | 88.52
 
 #### Day 9 Standard Traversal
 
@@ -4196,7 +4196,7 @@
 | 1323 |[Maximum 69 Number](src/main/java/g1301_1400/s1323_maximum_69_number)| Easy | Math, Greedy | 3 | 32.03
 | 1321 |[Restaurant Growth](src/main/java/g1301_1400/s1321_restaurant_growth)| Medium | Database | 775 | 61.73
 | 1320 |[Minimum Distance to Type a Word Using Two Fingers](src/main/java/g1301_1400/s1320_minimum_distance_to_type_a_word_using_two_fingers)| Hard | String, Dynamic_Programming | 16 | 82.29
-| 1319 |[Number of Operations to Make Network Connected](src/main/java/g1301_1400/s1319_number_of_operations_to_make_network_connected)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find, Graph_Theory_I_Day_8_Standard_Traversal | 9 | 67.64
+| 1319 |[Number of Operations to Make Network Connected](src/main/java/g1301_1400/s1319_number_of_operations_to_make_network_connected)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find, Graph_Theory_I_Day_8_Standard_Traversal | 4 | 88.52
 | 1318 |[Minimum Flips to Make a OR b Equal to c](src/main/java/g1301_1400/s1318_minimum_flips_to_make_a_or_b_equal_to_c)| Medium | Bit_Manipulation, LeetCode_75_Bit_Manipulation | 0 | 100.00
 | 1317 |[Convert Integer to the Sum of Two No-Zero Integers](src/main/java/g1301_1400/s1317_convert_integer_to_the_sum_of_two_no_zero_integers)| Easy | Math | 1 | 84.36
 | 1316 |[Distinct Echo Substrings](src/main/java/g1301_1400/s1316_distinct_echo_substrings)| Hard | String, Dynamic_Programming, Sliding_Window, Trie, Hash_Function, Rolling_Hash | 165 | 93.15
