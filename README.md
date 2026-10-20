@@ -2088,6 +2088,26 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 3968 |[Maximum Manhattan Distance After All Moves](src/main/java/g3901_4000/s3968_maximum_manhattan_distance_after_all_moves)| Medium | String, Math, Counting, Senior, Weekly_Contest_507 | 7 | 99.64
+| 3966 |[Count Good Integers in a Range](src/main/java/g3901_4000/s3966_count_good_integers_in_a_range)| Hard | Dynamic_Programming, Math, Senior_Staff, Biweekly_Contest_185 | 3 | 100.00
+| 3965 |[Finish Time of Tasks I](src/main/java/g3901_4000/s3965_finish_time_of_tasks_i)| Medium | Array, Dynamic_Programming, Tree, Staff, Depth_First_Search | ntest 185 | ntest 185
+| 3964 |[Minimum Lights to Illuminate a Road](src/main/java/g3901_4000/s3964_minimum_lights_to_illuminate_a_road)| Medium | Array, Prefix_Sum, Staff, Biweekly_Contest_185 | 7 | 100.00
+| 3963 |[Create Grid With Exactly One Path](src/main/java/g3901_4000/s3963_create_grid_with_exactly_one_path)| Easy | Mid_Level, Biweekly_Contest_185 | 2 | 92.91
+| 3962 |[Maximum Subarray Sum After at Most K Swaps](src/main/java/g3901_4000/s3962_maximum_subarray_sum_after_at_most_k_swaps)| Hard | Array, Hash_Table, Sorting, Greedy, Heap_Priority_Queue, Ordered_Set, Binary_Indexed_Tree, Senior_Staff, Weekly_Contest_506 | 13 | 98.61
+| 3961 |[Maximize Sum of Device Ratings](src/main/java/g3901_4000/s3961_maximize_sum_of_device_ratings)| Medium | Array, Sorting, Greedy, Matrix, Staff, Weekly_Contest_506 | 6 | 98.67
+| 3960 |[Frequency Balance Subarray](src/main/java/g3901_4000/s3960_frequency_balance_subarray)| Medium | Array, Hash_Table, Counting, Senior, Weekly_Contest_506 | 264 | 98.53
+| 3959 |[Check Good Integer](src/main/java/g3901_4000/s3959_check_good_integer)| Easy | Math, Simulation, Mid_Level, Weekly_Contest_506 | 1 | 92.77
+| 3957 |[Maximum Sum of M Non-Overlapping Subarrays II](src/main/java/g3901_4000/s3957_maximum_sum_of_m_non_overlapping_subarrays_ii)| Hard | Array, Dynamic_Programming, Binary_Search, Prefix_Sum, Sliding_Window, Queue, Monotonic_Queue, Weekly_Contest_505, Principal | 98 | 93.55
+| 3956 |[Maximum Sum of M Non-Overlapping Subarrays I](src/main/java/g3901_4000/s3956_maximum_sum_of_m_non_overlapping_subarrays_i)| Hard | Array, Dynamic_Programming, Binary_Search, Prefix_Sum, Sliding_Window, Queue, Monotonic_Queue, Senior_Staff, Weekly_Contest_505 | 61 | 91.07
+| 3955 |[Valid Binary Strings With Cost Limit](src/main/java/g3901_4000/s3955_valid_binary_strings_with_cost_limit)| Medium | String, Bit_Manipulation, Backtracking, Enumeration, Senior, Weekly_Contest_505 | 5 | 96.05
+| 3954 |[Sum of Compatible Numbers in Range I](src/main/java/g3901_4000/s3954_sum_of_compatible_numbers_in_range_i)| Easy | Dynamic_Programming, Bit_Manipulation, Enumeration, Mid_Level, Weekly_Contest_505 | 1 | 100.00
+| 3953 |[Maximum Score with Co-Prime Element](src/main/java/g3901_4000/s3953_maximum_score_with_co_prime_element)| Hard | Array, Hash_Table, Math, Enumeration, Number_Theory, Combinatorics, Senior_Staff, Biweekly_Contest_184 | 33 | 100.00
+| 3952 |[Maximum Total Value of Covered Indices](src/main/java/g3901_4000/s3952_maximum_total_value_of_covered_indices)| Medium | Array, String, Dynamic_Programming, Greedy, Staff, Biweekly_Contest_184 | 8 | 93.94
+| 3951 |[Minimum Energy to Maintain Brightness](src/main/java/g3901_4000/s3951_minimum_energy_to_maintain_brightness)| Medium | Array, Sorting, Senior, Biweekly_Contest_184 | 10 | 100.00
+| 3950 |[Exactly One Consecutive Set Bits Pair](src/main/java/g3901_4000/s3950_exactly_one_consecutive_set_bits_pair)| Easy | Bit_Manipulation, Mid_Level, Biweekly_Contest_184 | 1 | 98.26
+| 3948 |[Lexicographically Maximum MEX Array](src/main/java/g3901_4000/s3948_lexicographically_maximum_mex_array)| Hard | Array, Hash_Table, Greedy, Queue, Senior_Staff, Weekly_Contest_504 | 4 | 100.00
+| 3947 |[Maximum Number of Items From Sale II](src/main/java/g3901_4000/s3947_maximum_number_of_items_from_sale_ii)| Medium | Array, Sorting, Greedy, Heap_Priority_Queue, Staff, Weekly_Contest_504 | 20 | 82.93
+| 3946 |[Maximum Number of Items From Sale I](src/main/java/g3901_4000/s3946_maximum_number_of_items_from_sale_i)| Medium | Array, Dynamic_Programming, Greedy, Staff, Weekly_Contest_504 | 13 | 100.00
 | 3945 |[Digit Frequency Score](src/main/java/g3901_4000/s3945_digit_frequency_score)| Easy | Hash_Table, Math, Mid_Level, Weekly_Contest_504 | 1 | 98.46
 | 3943 |[Number of Pairs After Increment](src/main/java/g3901_4000/s3943_number_of_pairs_after_increment)| Hard | Array, Hash_Table, Counting, Divide_and_Conquer, Senior_Staff, Weekly_Contest_503 | 233 | 98.11
 | 3942 |[Minimum Operations to Sort a Permutation](src/main/java/g3901_4000/s3942_minimum_operations_to_sort_a_permutation)| Medium | Array, Staff, Weekly_Contest_503 | 2 | 100.00
