@@ -2090,14 +2090,14 @@
 |------|----------------|-------------|-------------|----------|---------
 | 3968 |[Maximum Manhattan Distance After All Moves](src/main/java/g3901_4000/s3968_maximum_manhattan_distance_after_all_moves)| Medium | String, Math, Counting, Senior, Weekly_Contest_507 | 7 | 99.64
 | 3966 |[Count Good Integers in a Range](src/main/java/g3901_4000/s3966_count_good_integers_in_a_range)| Hard | Dynamic_Programming, Math, Senior_Staff, Biweekly_Contest_185 | 3 | 100.00
-| 3965 |[Finish Time of Tasks I](src/main/java/g3901_4000/s3965_finish_time_of_tasks_i)| Medium | Array, Dynamic_Programming, Tree, Staff, Depth_First_Search | ntest 185 | ntest 185
+| 3965 |[Finish Time of Tasks I](src/main/java/g3901_4000/s3965_finish_time_of_tasks_i)| Medium | Array, Dynamic_Programming, Depth_First_Search, Tree, Staff, Biweekly_Contest_185 | 9 | 99.36
 | 3964 |[Minimum Lights to Illuminate a Road](src/main/java/g3901_4000/s3964_minimum_lights_to_illuminate_a_road)| Medium | Array, Prefix_Sum, Staff, Biweekly_Contest_185 | 7 | 100.00
 | 3963 |[Create Grid With Exactly One Path](src/main/java/g3901_4000/s3963_create_grid_with_exactly_one_path)| Easy | Mid_Level, Biweekly_Contest_185 | 2 | 92.91
 | 3962 |[Maximum Subarray Sum After at Most K Swaps](src/main/java/g3901_4000/s3962_maximum_subarray_sum_after_at_most_k_swaps)| Hard | Array, Hash_Table, Sorting, Greedy, Heap_Priority_Queue, Ordered_Set, Binary_Indexed_Tree, Senior_Staff, Weekly_Contest_506 | 13 | 98.61
 | 3961 |[Maximize Sum of Device Ratings](src/main/java/g3901_4000/s3961_maximize_sum_of_device_ratings)| Medium | Array, Sorting, Greedy, Matrix, Staff, Weekly_Contest_506 | 6 | 98.67
 | 3960 |[Frequency Balance Subarray](src/main/java/g3901_4000/s3960_frequency_balance_subarray)| Medium | Array, Hash_Table, Counting, Senior, Weekly_Contest_506 | 264 | 98.53
 | 3959 |[Check Good Integer](src/main/java/g3901_4000/s3959_check_good_integer)| Easy | Math, Simulation, Mid_Level, Weekly_Contest_506 | 1 | 92.77
-| 3957 |[Maximum Sum of M Non-Overlapping Subarrays II](src/main/java/g3901_4000/s3957_maximum_sum_of_m_non_overlapping_subarrays_ii)| Hard | Array, Dynamic_Programming, Binary_Search, Prefix_Sum, Sliding_Window, Queue, Monotonic_Queue, Weekly_Contest_505, Principal | 98 | 93.55
+| 3957 |[Maximum Sum of M Non-Overlapping Subarrays II](src/main/java/g3901_4000/s3957_maximum_sum_of_m_non_overlapping_subarrays_ii)| Hard | Array, Dynamic_Programming, Binary_Search, Prefix_Sum, Sliding_Window, Queue, Monotonic_Queue, Principal, Weekly_Contest_505 | 98 | 93.55
 | 3956 |[Maximum Sum of M Non-Overlapping Subarrays I](src/main/java/g3901_4000/s3956_maximum_sum_of_m_non_overlapping_subarrays_i)| Hard | Array, Dynamic_Programming, Binary_Search, Prefix_Sum, Sliding_Window, Queue, Monotonic_Queue, Senior_Staff, Weekly_Contest_505 | 61 | 91.07
 | 3955 |[Valid Binary Strings With Cost Limit](src/main/java/g3901_4000/s3955_valid_binary_strings_with_cost_limit)| Medium | String, Bit_Manipulation, Backtracking, Enumeration, Senior, Weekly_Contest_505 | 5 | 96.05
 | 3954 |[Sum of Compatible Numbers in Range I](src/main/java/g3901_4000/s3954_sum_of_compatible_numbers_in_range_i)| Easy | Dynamic_Programming, Bit_Manipulation, Enumeration, Mid_Level, Weekly_Contest_505 | 1 | 100.00
@@ -2113,7 +2113,7 @@
 | 3942 |[Minimum Operations to Sort a Permutation](src/main/java/g3901_4000/s3942_minimum_operations_to_sort_a_permutation)| Medium | Array, Staff, Weekly_Contest_503 | 2 | 100.00
 | 3941 |[Password Strength](src/main/java/g3901_4000/s3941_password_strength)| Medium | String, Hash_Table, Senior, Weekly_Contest_503 | 2 | 100.00
 | 3940 |[Limit Occurrences in Sorted Array](src/main/java/g3901_4000/s3940_limit_occurrences_in_sorted_array)| Easy | Array, Two_Pointers, Mid_Level, Weekly_Contest_503 | 1 | 100.00
-| 3939 |[Count Non Adjacent Subsets in a Rooted Tree](src/main/java/g3901_4000/s3939_count_non_adjacent_subsets_in_a_rooted_tree)| Hard | Array, Dynamic_Programming, Tree, Senior_Staff, Biweekly_Contest_183, Depth_First_Search | 83 | 94.12
+| 3939 |[Count Non Adjacent Subsets in a Rooted Tree](src/main/java/g3901_4000/s3939_count_non_adjacent_subsets_in_a_rooted_tree)| Hard | Array, Dynamic_Programming, Depth_First_Search, Tree, Senior_Staff, Biweekly_Contest_183 | 83 | 94.12
 | 3938 |[Maximum Path Intersection Sum in a Grid](src/main/java/g3901_4000/s3938_maximum_path_intersection_sum_in_a_grid)| Medium | Array, Dynamic_Programming, Matrix, Prefix_Sum, Staff, Biweekly_Contest_183 | 9 | 100.00
 | 3937 |[Minimum Operations to Make Array Modulo Alternating I](src/main/java/g3901_4000/s3937_minimum_operations_to_make_array_modulo_alternating_i)| Medium | Array, Enumeration, Senior, Biweekly_Contest_183 | 5 | 98.11
 | 3936 |[Minimum Swaps to Move Zeros to End](src/main/java/g3901_4000/s3936_minimum_swaps_to_move_zeros_to_end)| Easy | Array, Two_Pointers, Mid_Level, Biweekly_Contest_183 | 1 | 99.59
@@ -2121,11 +2121,11 @@
 | 3933 |[Largest Local Values in a Matrix II](src/main/java/g3901_4000/s3933_largest_local_values_in_a_matrix_ii)| Medium | Array, Matrix, Prefix_Sum, Staff, Weekly_Contest_502 | 40 | 100.00
 | 3932 |[Count K-th Roots in a Range](src/main/java/g3901_4000/s3932_count_k_th_roots_in_a_range)| Medium | Math, Binary_Search, Senior, Weekly_Contest_502 | 1 | 100.00
 | 3931 |[Check Adjacent Digit Differences](src/main/java/g3901_4000/s3931_check_adjacent_digit_differences)| Easy | String, Mid_Level, Weekly_Contest_502 | 1 | 100.00
-| 3928 |[Minimum Cost to Buy Apples II](src/main/java/g3901_4000/s3928_minimum_cost_to_buy_apples_ii)| Hard | Array, Heap_Priority_Queue, Shortest_Path, Senior_Staff, Graph_Theory, Weekly_Contest_501 | 694 | 97.40
+| 3928 |[Minimum Cost to Buy Apples II](src/main/java/g3901_4000/s3928_minimum_cost_to_buy_apples_ii)| Hard | Array, Heap_Priority_Queue, Shortest_Path, Graph_Theory, Senior_Staff, Weekly_Contest_501 | 694 | 97.40
 | 3927 |[Minimize Array Sum Using Divisible Replacements](src/main/java/g3901_4000/s3927_minimize_array_sum_using_divisible_replacements)| Medium | Array, Hash_Table, Math, Greedy, Number_Theory, Staff, Weekly_Contest_501 | 11 | 96.83
 | 3926 |[Count Valid Word Occurrences](src/main/java/g3901_4000/s3926_count_valid_word_occurrences)| Medium | Array, String, Hash_Table, Counting, Staff, Weekly_Contest_501 | 39 | 98.70
 | 3925 |[Concatenate Array With Reverse](src/main/java/g3901_4000/s3925_concatenate_array_with_reverse)| Easy | Array, Simulation, Mid_Level, Weekly_Contest_501 | 1 | 97.85
-| 3924 |[Minimum Threshold Path With Limited Heavy Edges](src/main/java/g3901_4000/s3924_minimum_threshold_path_with_limited_heavy_edges)| Hard | Binary_Search, Senior_Staff, Biweekly_Contest_182, Breadth_First_Search, Graph_Theory | 30 | 98.28
+| 3924 |[Minimum Threshold Path With Limited Heavy Edges](src/main/java/g3901_4000/s3924_minimum_threshold_path_with_limited_heavy_edges)| Hard | Breadth_First_Search, Binary_Search, Graph_Theory, Senior_Staff, Biweekly_Contest_182 | 30 | 98.28
 | 3923 |[Minimum Generations to Target Point](src/main/java/g3901_4000/s3923_minimum_generations_to_target_point)| Medium | Array, Hash_Table, Simulation, Staff, Biweekly_Contest_182 | 24 | 100.00
 | 3922 |[Minimum Flips to Make Binary String Coherent](src/main/java/g3901_4000/s3922_minimum_flips_to_make_binary_string_coherent)| Medium | String, Senior, Biweekly_Contest_182 | 4 | 100.00
 | 3921 |[Score Validator](src/main/java/g3901_4000/s3921_score_validator)| Easy | Array, String, Simulation, Mid_Level, Biweekly_Contest_182 | 2 | 91.74
@@ -2138,7 +2138,7 @@
 | 3913 |[Sort Vowels by Frequency](src/main/java/g3901_4000/s3913_sort_vowels_by_frequency)| Medium | String, Sorting, Counting, Senior, Weekly_Contest_499 | 9 | 100.00
 | 3912 |[Valid Elements in an Array](src/main/java/g3901_4000/s3912_valid_elements_in_an_array)| Easy | Array, Mid_Level, Weekly_Contest_499 | 1 | 100.00
 | 3911 |[K-th Smallest Remaining Even Integer in Subarray Queries](src/main/java/g3901_4000/s3911_k_th_smallest_remaining_even_integer_in_subarray_queries)| Hard | Array, Binary_Search, Senior_Staff, Biweekly_Contest_181 | 5 | 100.00
-| 3910 |[Count Connected Subgraphs with Even Node Sum](src/main/java/g3901_4000/s3910_count_connected_subgraphs_with_even_node_sum)| Hard | Array, Depth_First_Search, Breadth_First_Search, Bit_Manipulation, Union_Find, Enumeration, Senior_Staff, Graph_Theory, Biweekly_Contest_181 | 2 | 100.00
+| 3910 |[Count Connected Subgraphs with Even Node Sum](src/main/java/g3901_4000/s3910_count_connected_subgraphs_with_even_node_sum)| Hard | Array, Depth_First_Search, Breadth_First_Search, Bit_Manipulation, Union_Find, Enumeration, Graph_Theory, Senior_Staff, Biweekly_Contest_181 | 2 | 100.00
 | 3909 |[Compare Sums of Bitonic Parts](src/main/java/g3901_4000/s3909_compare_sums_of_bitonic_parts)| Medium | Array, Senior, Biweekly_Contest_181 | 1 | 100.00
 | 3908 |[Valid Digit Number](src/main/java/g3901_4000/s3908_valid_digit_number)| Easy | Math, Mid_Level, Biweekly_Contest_181 | 1 | 98.66
 | 3906 |[Count Good Integers on a Grid Path](src/main/java/g3901_4000/s3906_count_good_integers_on_a_grid_path)| Hard | Dynamic_Programming, Senior_Staff, Weekly_Contest_498 | 7 | 93.94
@@ -2148,7 +2148,7 @@
 | 3901 |[Good Subsequence Queries](src/main/java/g3901_4000/s3901_good_subsequence_queries)| Hard | Array, Math, Segment_Tree, Number_Theory, Principal, Weekly_Contest_497 | 20 | 100.00
 | 3900 |[Longest Balanced Substring After One Swap](src/main/java/g3801_3900/s3900_longest_balanced_substring_after_one_swap)| Medium | String, Hash_Table, Prefix_Sum, Staff, Weekly_Contest_497 | 15 | 100.00
 | 3899 |[Angles of a Triangle](src/main/java/g3801_3900/s3899_angles_of_a_triangle)| Medium | Array, Math, Geometry, Senior, Weekly_Contest_497 | 1 | 100.00
-| 3898 |[Find the Degree of Each Vertex](src/main/java/g3801_3900/s3898_find_the_degree_of_each_vertex)| Easy | Array, Matrix, Mid_Level, Weekly_Contest_497, Graph_Theory | 1 | 100.00
+| 3898 |[Find the Degree of Each Vertex](src/main/java/g3801_3900/s3898_find_the_degree_of_each_vertex)| Easy | Array, Matrix, Graph_Theory, Mid_Level, Weekly_Contest_497 | 1 | 100.00
 | 3897 |[Maximum Value of Concatenated Binary Segments](src/main/java/g3801_3900/s3897_maximum_value_of_concatenated_binary_segments)| Hard | Array, Sorting, Greedy, Senior_Staff, Biweekly_Contest_180 | 12 | 100.00
 | 3896 |[Minimum Operations to Transform Array into Alternating Prime](src/main/java/g3801_3900/s3896_minimum_operations_to_transform_array_into_alternating_prime)| Medium | Array, Math, Sorting, Binary_Search, Two_Pointers, Number_Theory, Senior, Biweekly_Contest_180 | 18 | 97.87
 | 3895 |[Count Digit Appearances](src/main/java/g3801_3900/s3895_count_digit_appearances)| Medium | Array, Math, Senior, Biweekly_Contest_180 | 3 | 100.00
@@ -2157,7 +2157,7 @@
 | 3891 |[Minimum Increase to Maximize Special Indices](src/main/java/g3801_3900/s3891_minimum_increase_to_maximize_special_indices)| Medium | Array, Dynamic_Programming, Greedy, Prefix_Sum, Staff, Weekly_Contest_496 | 2 | 100.00
 | 3890 |[Integers With Multiple Sum of Two Cubes](src/main/java/g3801_3900/s3890_integers_with_multiple_sum_of_two_cubes)| Medium | Hash_Table, Sorting, Counting, Enumeration, Staff, Weekly_Contest_496 | 169 | 93.96
 | 3889 |[Mirror Frequency Distance](src/main/java/g3801_3900/s3889_mirror_frequency_distance)| Medium | String, Hash_Table, Counting, Senior, Weekly_Contest_496 | 18 | 99.69
-| 3887 |[Incremental Even-Weighted Cycle Queries](src/main/java/g3801_3900/s3887_incremental_even_weighted_cycle_queries)| Hard | Union_Find, Senior_Staff, Graph_Theory, Weekly_Contest_495 | 18 | 100.00
+| 3887 |[Incremental Even-Weighted Cycle Queries](src/main/java/g3801_3900/s3887_incremental_even_weighted_cycle_queries)| Hard | Union_Find, Graph_Theory, Senior_Staff, Weekly_Contest_495 | 18 | 100.00
 | 3886 |[Sum of Sortable Integers](src/main/java/g3801_3900/s3886_sum_of_sortable_integers)| Hard | Array, Math, Sorting, Enumeration, Senior_Staff, Weekly_Contest_495 | 8 | 98.86
 | 3885 |[Design Event Manager](src/main/java/g3801_3900/s3885_design_event_manager)| Medium | Array, Hash_Table, Design, Heap_Priority_Queue, Ordered_Set, Senior, Weekly_Contest_495 | 185 | 98.91
 | 3884 |[First Matching Character From Both Ends](src/main/java/g3801_3900/s3884_first_matching_character_from_both_ends)| Easy | String, Two_Pointers, Mid_Level, Weekly_Contest_495 | 0 | 100.00
@@ -2222,7 +2222,7 @@
 | 3815 |[Design Auction System](src/main/java/g3801_3900/s3815_design_auction_system)| Medium | Hash_Table, Design, Heap_Priority_Queue, Ordered_Set, Staff, Weekly_Contest_485 | 96 | 93.30
 | 3814 |[Maximum Capacity Within Budget](src/main/java/g3801_3900/s3814_maximum_capacity_within_budget)| Medium | Array, Sorting, Binary_Search, Two_Pointers, Senior, Weekly_Contest_485 | 8 | 100.00
 | 3813 |[Vowel-Consonant Score](src/main/java/g3801_3900/s3813_vowel_consonant_score)| Easy | String, Simulation, Mid_Level, Weekly_Contest_485 | 1 | 100.00
-| 3812 |[Minimum Edge Toggles on a Tree](src/main/java/g3801_3900/s3812_minimum_edge_toggles_on_a_tree)| Hard | Sorting, Depth_First_Search, Tree, Topological_Sort, Senior_Staff, Graph_Theory, Biweekly_Contest_174 | 89 | 86.67
+| 3812 |[Minimum Edge Toggles on a Tree](src/main/java/g3801_3900/s3812_minimum_edge_toggles_on_a_tree)| Hard | Sorting, Depth_First_Search, Tree, Topological_Sort, Graph_Theory, Senior_Staff, Biweekly_Contest_174 | 89 | 86.67
 | 3811 |[Number of Alternating XOR Partitions](src/main/java/g3801_3900/s3811_number_of_alternating_xor_partitions)| Medium | Array, Hash_Table, Dynamic_Programming, Bit_Manipulation, Staff, Biweekly_Contest_174 | 5 | 100.00
 | 3810 |[Minimum Operations to Reach Target Array](src/main/java/g3801_3900/s3810_minimum_operations_to_reach_target_array)| Medium | Array, Hash_Table, Greedy, Senior, Biweekly_Contest_174 | 24 | 89.58
 | 3809 |[Best Reachable Tower](src/main/java/g3801_3900/s3809_best_reachable_tower)| Medium | Array, Senior, Biweekly_Contest_174 | 3 | 70.30
@@ -2265,7 +2265,7 @@
 | 3766 |[Minimum Operations to Make Binary Palindrome](src/main/java/g3701_3800/s3766_minimum_operations_to_make_binary_palindrome)| Medium | Array, Binary_Search, Two_Pointers, Bit_Manipulation, Staff, Biweekly_Contest_171 | 54 | 82.69
 | 3765 |[Complete Prime Number](src/main/java/g3701_3800/s3765_complete_prime_number)| Medium | Math, Enumeration, Number_Theory, Senior, Biweekly_Contest_171 | 2 | 91.62
 | 3764 |[Most Common Course Pairs](src/main/java/g3701_3800/s3764_most_common_course_pairs)| Hard || 262 | 63.61
-| 3762 |[Minimum Operations to Equalize Subarrays](src/main/java/g3701_3800/s3762_minimum_operations_to_equalize_subarrays)| Hard | Array, Math, Binary_Search, Segment_Tree, Weekly_Contest_478, Principal | 528 | 100.00
+| 3762 |[Minimum Operations to Equalize Subarrays](src/main/java/g3701_3800/s3762_minimum_operations_to_equalize_subarrays)| Hard | Array, Math, Binary_Search, Segment_Tree, Principal, Weekly_Contest_478 | 528 | 100.00
 | 3761 |[Minimum Absolute Distance Between Mirror Pairs](src/main/java/g3701_3800/s3761_minimum_absolute_distance_between_mirror_pairs)| Medium | Array, Hash_Table, Math, Staff, Weekly_Contest_478 | 49 | 84.83
 | 3760 |[Maximum Substrings With Distinct Start](src/main/java/g3701_3800/s3760_maximum_substrings_with_distinct_start)| Medium | String, Hash_Table, Senior, Weekly_Contest_478 | 5 | 98.92
 | 3759 |[Count Elements With at Least K Greater Values](src/main/java/g3701_3800/s3759_count_elements_with_at_least_k_greater_values)| Medium | Array, Sorting, Binary_Search, Divide_and_Conquer, Quickselect, Senior, Weekly_Contest_478 | 40 | 96.15
@@ -3301,7 +3301,7 @@
 | 2466 |[Count Ways To Build Good Strings](src/main/java/g2401_2500/s2466_count_ways_to_build_good_strings)| Medium | Dynamic_Programming | 8 | 99.59
 | 2465 |[Number of Distinct Averages](src/main/java/g2401_2500/s2465_number_of_distinct_averages)| Easy | Array, Hash_Table, Sorting, Two_Pointers | 1 | 99.48
 | 2463 |[Minimum Total Distance Traveled](src/main/java/g2401_2500/s2463_minimum_total_distance_traveled)| Hard | Array, Dynamic_Programming, Sorting | 2 | 100.00
-| 2462 |[Total Cost to Hire K Workers](src/main/java/g2401_2500/s2462_total_cost_to_hire_k_workers)| Medium | Array, Two_Pointers, Heap_Priority_Queue, Simulation, LeetCode_75_Heap/Priority_Queue | 57 | 96.24
+| 2462 |[Total Cost to Hire K Workers](src/main/java/g2401_2500/s2462_total_cost_to_hire_k_workers)| Medium | Array, Two_Pointers, Heap_Priority_Queue, Simulation, LeetCode_75_Heap/Priority_Queue | 26 | 99.83
 | 2461 |[Maximum Sum of Distinct Subarrays With Length K](src/main/java/g2401_2500/s2461_maximum_sum_of_distinct_subarrays_with_length_k)| Medium | Array, Hash_Table, Sliding_Window | 40 | 93.40
 | 2460 |[Apply Operations to an Array](src/main/java/g2401_2500/s2460_apply_operations_to_an_array)| Easy | Array, Simulation | 1 | 87.93
 | 2458 |[Height of Binary Tree After Subtree Removal Queries](src/main/java/g2401_2500/s2458_height_of_binary_tree_after_subtree_removal_queries)| Hard | Array, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 52 | 87.45
