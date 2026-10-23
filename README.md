@@ -2205,7 +2205,7 @@
 | 3835 |[Count Subarrays With Cost Less Than or Equal to K](src/main/java/g3801_3900/s3835_count_subarrays_with_cost_less_than_or_equal_to_k)| Medium | Array, Queue, Monotonic_Queue, Staff, Weekly_Contest_488 | 53 | 79.87
 | 3834 |[Merge Adjacent Equal Elements](src/main/java/g3801_3900/s3834_merge_adjacent_equal_elements)| Medium | Array, Stack, Simulation, Senior, Weekly_Contest_488 | 17 | 97.36
 | 3833 |[Count Dominant Indices](src/main/java/g3801_3900/s3833_count_dominant_indices)| Easy | Array, Enumeration, Mid_Level, Weekly_Contest_488 | 1 | 100.00
-| 3832 |[Find Users with Persistent Behavior Patterns](src/main/java/g3801_3900/s3832_find_users_with_persistent_behavior_patterns)| Hard || 367 | 16.77
+| 3832 |[Find Users with Persistent Behavior Patterns](src/main/java/g3801_3900/s3832_find_users_with_persistent_behavior_patterns)| Hard | Database | 367 | 16.77
 | 3830 |[Longest Alternating Subarray After Removing At Most One Element](src/main/java/g3801_3900/s3830_longest_alternating_subarray_after_removing_at_most_one_element)| Hard | Array, Dynamic_Programming, Enumeration, Senior_Staff, Weekly_Contest_487 | 13 | 100.00
 | 3829 |[Design Ride Sharing System](src/main/java/g3801_3900/s3829_design_ride_sharing_system)| Medium | Hash_Table, Design, Queue, Data_Stream, Staff, Weekly_Contest_487 | 42 | 100.00
 | 3828 |[Final Element After Subarray Deletions](src/main/java/g3801_3900/s3828_final_element_after_subarray_deletions)| Medium | Array, Math, Game_Theory, Brainteaser, Staff, Weekly_Contest_487 | 0 | 100.00
@@ -2226,7 +2226,7 @@
 | 3811 |[Number of Alternating XOR Partitions](src/main/java/g3801_3900/s3811_number_of_alternating_xor_partitions)| Medium | Array, Hash_Table, Dynamic_Programming, Bit_Manipulation, Staff, Biweekly_Contest_174 | 5 | 100.00
 | 3810 |[Minimum Operations to Reach Target Array](src/main/java/g3801_3900/s3810_minimum_operations_to_reach_target_array)| Medium | Array, Hash_Table, Greedy, Senior, Biweekly_Contest_174 | 24 | 89.58
 | 3809 |[Best Reachable Tower](src/main/java/g3801_3900/s3809_best_reachable_tower)| Medium | Array, Senior, Biweekly_Contest_174 | 3 | 70.30
-| 3808 |[Find Emotionally Consistent Users](src/main/java/g3801_3900/s3808_find_emotionally_consistent_users)| Medium || 290 | 87.69
+| 3808 |[Find Emotionally Consistent Users](src/main/java/g3801_3900/s3808_find_emotionally_consistent_users)| Medium | Database | 290 | 87.69
 | 3806 |[Maximum Bitwise AND After Increment Operations](src/main/java/g3801_3900/s3806_maximum_bitwise_and_after_increment_operations)| Hard | Array, Sorting, Greedy, Bit_Manipulation, Senior_Staff, Weekly_Contest_484 | 107 | 78.72
 | 3805 |[Count Caesar Cipher Pairs](src/main/java/g3801_3900/s3805_count_caesar_cipher_pairs)| Medium | Array, String, Hash_Table, Math, Counting, Senior, Weekly_Contest_484 | 34 | 98.75
 | 3804 |[Number of Centered Subarrays](src/main/java/g3801_3900/s3804_number_of_centered_subarrays)| Medium | Array, Hash_Table, Enumeration, Senior, Weekly_Contest_484 | 84 | 80.43
@@ -2239,7 +2239,7 @@
 | 3796 |[Find Maximum Value in a Constrained Sequence](src/main/java/g3701_3800/s3796_find_maximum_value_in_a_constrained_sequence)| Medium | Array, Greedy, Staff, Biweekly_Contest_173 | 6 | 98.18
 | 3795 |[Minimum Subarray Length With Distinct Sum At Least K](src/main/java/g3701_3800/s3795_minimum_subarray_length_with_distinct_sum_at_least_k)| Medium | Array, Hash_Table, Sliding_Window, Senior, Biweekly_Contest_173 | 88 | 85.14
 | 3794 |[Reverse String Prefix](src/main/java/g3701_3800/s3794_reverse_string_prefix)| Easy | String, Two_Pointers, Mid_Level, Biweekly_Contest_173 | 1 | 100.00
-| 3793 |[Find Users with High Token Usage](src/main/java/g3701_3800/s3793_find_users_with_high_token_usage)| Easy || 286 | 70.33
+| 3793 |[Find Users with High Token Usage](src/main/java/g3701_3800/s3793_find_users_with_high_token_usage)| Easy | Database | 286 | 70.33
 | 3791 |[Number of Balanced Integers in a Range](src/main/java/g3701_3800/s3791_number_of_balanced_integers_in_a_range)| Hard | Dynamic_Programming, Principal, Weekly_Contest_482 | 75 | 83.12
 | 3790 |[Smallest All-Ones Multiple](src/main/java/g3701_3800/s3790_smallest_all_ones_multiple)| Medium | Hash_Table, Math, Staff, Weekly_Contest_482 | 8 | 100.00
 | 3789 |[Minimum Cost to Acquire Required Items](src/main/java/g3701_3800/s3789_minimum_cost_to_acquire_required_items)| Medium | Math, Greedy, Staff, Weekly_Contest_482 | 1 | 100.00
@@ -2264,7 +2264,7 @@
 | 3767 |[Maximize Points After Choosing K Tasks](src/main/java/g3701_3800/s3767_maximize_points_after_choosing_k_tasks)| Medium | Array, Sorting, Greedy, Heap_Priority_Queue, Staff, Biweekly_Contest_171 | 21 | 100.00
 | 3766 |[Minimum Operations to Make Binary Palindrome](src/main/java/g3701_3800/s3766_minimum_operations_to_make_binary_palindrome)| Medium | Array, Binary_Search, Two_Pointers, Bit_Manipulation, Staff, Biweekly_Contest_171 | 54 | 82.69
 | 3765 |[Complete Prime Number](src/main/java/g3701_3800/s3765_complete_prime_number)| Medium | Math, Enumeration, Number_Theory, Senior, Biweekly_Contest_171 | 2 | 91.62
-| 3764 |[Most Common Course Pairs](src/main/java/g3701_3800/s3764_most_common_course_pairs)| Hard || 262 | 63.61
+| 3764 |[Most Common Course Pairs](src/main/java/g3701_3800/s3764_most_common_course_pairs)| Hard | Database | 262 | 63.61
 | 3762 |[Minimum Operations to Equalize Subarrays](src/main/java/g3701_3800/s3762_minimum_operations_to_equalize_subarrays)| Hard | Array, Math, Binary_Search, Segment_Tree, Principal, Weekly_Contest_478 | 528 | 100.00
 | 3761 |[Minimum Absolute Distance Between Mirror Pairs](src/main/java/g3701_3800/s3761_minimum_absolute_distance_between_mirror_pairs)| Medium | Array, Hash_Table, Math, Staff, Weekly_Contest_478 | 49 | 84.83
 | 3760 |[Maximum Substrings With Distinct Start](src/main/java/g3701_3800/s3760_maximum_substrings_with_distinct_start)| Medium | String, Hash_Table, Senior, Weekly_Contest_478 | 5 | 98.92
