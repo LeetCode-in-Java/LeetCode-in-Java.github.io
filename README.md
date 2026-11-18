@@ -2088,6 +2088,26 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 4014 |[Minimum Total Price After Applying Discounts](src/main/java/g4001_4100/s4014_minimum_total_price_after_applying_discounts)| Medium | Array, Sorting, Greedy, Two_Pointers, Senior, Weekly_Contest_514 | 26 | 100.00
+| 4013 |[Count Subarrays With Even Odd Ratio II](src/main/java/g4001_4100/s4013_count_subarrays_with_even_odd_ratio_ii)| Hard | Array, Prefix_Sum, Divide_and_Conquer, Segment_Tree, Binary_Indexed_Tree, Merge_Sort, Senior_Staff, Weekly_Contest_513 | 14 | 98.28
+| 4012 |[Count of Unfinished Tasks After Each Shift](src/main/java/g4001_4100/s4012_count_of_unfinished_tasks_after_each_shift)| Medium | Array, Binary_Search, Prefix_Sum, Staff, Weekly_Contest_513 | 7 | 100.00
+| 4011 |[Count Subarrays With Even Odd Ratio I](src/main/java/g4001_4100/s4011_count_subarrays_with_even_odd_ratio_i)| Medium | Array, Prefix_Sum, Divide_and_Conquer, Segment_Tree, Binary_Indexed_Tree, Merge_Sort, Senior, Weekly_Contest_513 | 6 | 99.17
+| 4010 |[Maximize Pair Strength Using GCD](src/main/java/g4001_4100/s4010_maximize_pair_strength_using_gcd)| Easy | Array, Math, Enumeration, Number_Theory, Mid_Level, Weekly_Contest_513 | 165 | 98.84
+| 4009 |[Minimum Possible Maximum Waiting Time](src/main/java/g4001_4100/s4009_minimum_possible_maximum_waiting_time)| |||
+| 4008 |[Minimum Initial Strength to Defeat All Monsters](src/main/java/g4001_4100/s4008_minimum_initial_strength_to_defeat_all_monsters)| Medium | Array, Greedy, Binary_Search, Prefix_Sum, Staff, Biweekly_Contest_188 | 3 | 97.92
+| 4007 |[Widest Possible Fence](src/main/java/g4001_4100/s4007_widest_possible_fence)| Hard | Array, Hash_Table, Counting, Enumeration, Senior, Biweekly_Contest_188 | 214 | 100.00
+| 4006 |[Count Valid Prefixes](src/main/java/g4001_4100/s4006_count_valid_prefixes)| Easy | String, Counting, Mid_Level, Biweekly_Contest_188 | 2 | 55.11
+| 4003 |[Minimum Cost Path with Alternating Directions III](src/main/java/g4001_4100/s4003_minimum_cost_path_with_alternating_directions_iii)| Hard | Array, Matrix, Heap_Priority_Queue, Shortest_Path, Graph_Theory, Senior_Staff, Weekly_Contest_512 | 349 | 100.00
+| 4002 |[Count Valid Sequences](src/main/java/g4001_4100/s4002_count_valid_sequences)| Medium | Math, Combinatorics, Staff, Weekly_Contest_512 | 8 | 96.61
+| 4001 |[Aggregate Two Time Series](src/main/java/g4001_4100/s4001_aggregate_two_time_series)| Medium | Array, Two_Pointers, Senior, Weekly_Contest_512 | 9 | 100.00
+| 4000 |[Largest Integer With Given Digit Sum](src/main/java/g3901_4000/s4000_largest_integer_with_given_digit_sum)| Easy | Math, Greedy, Mid_Level, Weekly_Contest_512 | 1 | 68.99
+| 3999 |[Minimum Number of String Groups Through Transformations](src/main/java/g3901_4000/s3999_minimum_number_of_string_groups_through_transformations)| Hard | String, Hash_Table, Two_Pointers, Senior_Staff, Weekly_Contest_511 | 83 | 100.00
+| 3998 |[Transform Binary String Using Subsequence Sort](src/main/java/g3901_4000/s3998_transform_binary_string_using_subsequence_sort)| Medium | Array, String, Greedy, Two_Pointers, Staff, Weekly_Contest_511 | 25 | 100.00
+| 3997 |[Count Dominant Nodes in a Binary Tree](src/main/java/g3901_4000/s3997_count_dominant_nodes_in_a_binary_tree)| Medium | Tree, Binary_Tree, Senior, Weekly_Contest_511, Depth_First_Search | 7 | 95.22
+| 3996 |[Even Number of Knight Moves](src/main/java/g3901_4000/s3996_even_number_of_knight_moves)| Easy | Array, Math, Mid_Level, Weekly_Contest_511 | 1 | 88.64
+| 3995 |[Minimum Cost to Convert String III](src/main/java/g3901_4000/s3995_minimum_cost_to_convert_string_iii)| Hard | Array, String, Dynamic_Programming, Senior_Staff, Biweekly_Contest_187 | 10 | 100.00
+| 3994 |[Minimum Adjacent Swaps to Partition Array](src/main/java/g3901_4000/s3994_minimum_adjacent_swaps_to_partition_array)| Medium | Array, Greedy, Staff, Biweekly_Contest_187 | 6 | 80.28
+| 3993 |[Maximum Value of an Alternating Sequence](src/main/java/g3901_4000/s3993_maximum_value_of_an_alternating_sequence)| Medium | Math, Greedy, Senior, Biweekly_Contest_187 | 1 | 96.70
 | 3992 |[Rearrange String to Avoid Character Pair](src/main/java/g3901_4000/s3992_rearrange_string_to_avoid_character_pair)| Easy | String, Sorting, Two_Pointers, Mid_Level, Biweekly_Contest_187 | 2 | 78.07
 | 3989 |[Maximum Consistent Columns in a Grid](src/main/java/g3901_4000/s3989_maximum_consistent_columns_in_a_grid)| Hard | Array, Dynamic_Programming, Matrix, Senior_Staff, Weekly_Contest_510 | 10 | 94.64
 | 3988 |[Create Grid With Exactly K Paths I](src/main/java/g3901_4000/s3988_create_grid_with_exactly_k_paths_i)| Medium | Array, Math, Matrix, Combinatorics, Staff, Weekly_Contest_510 | 1 | 100.00
@@ -2344,7 +2364,7 @@
 | 3697 |[Compute Decimal Representation](src/main/java/g3601_3700/s3697_compute_decimal_representation)| Easy | Array, Math, Weekly_Contest_469 | 1 | 100.00
 | 3695 |[Maximize Alternating Sum Using Swaps](src/main/java/g3601_3700/s3695_maximize_alternating_sum_using_swaps)| Hard | Array, Sorting, Greedy, Union_Find, Biweekly_Contest_166 | 29 | 99.13
 | 3694 |[Distinct Points Reachable After Substring Removal](src/main/java/g3601_3700/s3694_distinct_points_reachable_after_substring_removal)| Medium | String, Hash_Table, Prefix_Sum, Sliding_Window, Biweekly_Contest_166 | 38 | 97.74
-| 3693 |[Climbing Stairs II](src/main/java/g3601_3700/s3693_climbing_stairs_ii)| Medium | Array, Dynamic_Programming, Biweekly_Contest_166 | 3 | 99.74
+| 3693 |[Climbing Stairs II](src/main/java/g3601_3700/s3693_climbing_stairs_ii)| Medium | Array, Dynamic_Programming, Biweekly_Contest_166 | 3 | 97.54
 | 3692 |[Majority Frequency Characters](src/main/java/g3601_3700/s3692_majority_frequency_characters)| Easy | String, Hash_Table, Counting, Biweekly_Contest_166 | 1 | 100.00
 | 3691 |[Maximum Total Subarray Value II](src/main/java/g3601_3700/s3691_maximum_total_subarray_value_ii)| Hard | Array, Greedy, Heap_Priority_Queue, Segment_Tree, Weekly_Contest_468 | 89 | 80.08
 | 3690 |[Split and Merge Array Transformation](src/main/java/g3601_3700/s3690_split_and_merge_array_transformation)| Medium | Array, Hash_Table, Breadth_First_Search, Weekly_Contest_468 | 9 | 100.00
