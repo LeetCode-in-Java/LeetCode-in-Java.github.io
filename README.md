@@ -2093,7 +2093,7 @@
 | 4012 |[Count of Unfinished Tasks After Each Shift](src/main/java/g4001_4100/s4012_count_of_unfinished_tasks_after_each_shift)| Medium | Array, Binary_Search, Prefix_Sum, Staff, Weekly_Contest_513 | 7 | 100.00
 | 4011 |[Count Subarrays With Even Odd Ratio I](src/main/java/g4001_4100/s4011_count_subarrays_with_even_odd_ratio_i)| Medium | Array, Prefix_Sum, Divide_and_Conquer, Segment_Tree, Binary_Indexed_Tree, Merge_Sort, Senior, Weekly_Contest_513 | 6 | 99.17
 | 4010 |[Maximize Pair Strength Using GCD](src/main/java/g4001_4100/s4010_maximize_pair_strength_using_gcd)| Easy | Array, Math, Enumeration, Number_Theory, Mid_Level, Weekly_Contest_513 | 165 | 98.84
-| 4009 |[Minimum Possible Maximum Waiting Time](src/main/java/g4001_4100/s4009_minimum_possible_maximum_waiting_time)| |||
+| 4009 |[Minimum Possible Maximum Waiting Time](src/main/java/g4001_4100/s4009_minimum_possible_maximum_waiting_time)| Hard | Array, Dynamic_Programming, Memoization, Senior_Staff, Biweekly_Contest_188 | 39 | 97.73
 | 4008 |[Minimum Initial Strength to Defeat All Monsters](src/main/java/g4001_4100/s4008_minimum_initial_strength_to_defeat_all_monsters)| Medium | Array, Greedy, Binary_Search, Prefix_Sum, Staff, Biweekly_Contest_188 | 3 | 97.92
 | 4007 |[Widest Possible Fence](src/main/java/g4001_4100/s4007_widest_possible_fence)| Hard | Array, Hash_Table, Counting, Enumeration, Senior, Biweekly_Contest_188 | 214 | 100.00
 | 4006 |[Count Valid Prefixes](src/main/java/g4001_4100/s4006_count_valid_prefixes)| Easy | String, Counting, Mid_Level, Biweekly_Contest_188 | 2 | 55.11

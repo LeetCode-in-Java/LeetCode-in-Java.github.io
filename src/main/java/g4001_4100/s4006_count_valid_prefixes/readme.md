@@ -13,7 +13,7 @@ Return the number of valid prefixes of `s`.
 
 A string is considered **alternating** if no two adjacent characters are equal.
 
-OriginalJava**Example 1:**
+**Example 1:**
 
 **Input:** s = "00101"
 
