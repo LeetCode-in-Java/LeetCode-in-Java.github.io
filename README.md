@@ -2088,6 +2088,11 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 4021 |[Minimum Operations to Make a Rotated Palindrome I](src/main/java/g4001_4100/s4021_minimum_operations_to_make_a_rotated_palindrome_i)| Medium | String, Math, Enumeration, Staff, Biweekly_Contest_189 | 40 | 98.85
+| 4020 |[Elevator Requests I](src/main/java/g4001_4100/s4020_elevator_requests_i)| Easy | Array, Simulation, Mid_Level, Biweekly_Contest_189 | 1 | 99.23
+| 4017 |[Peaks in Array II](src/main/java/g4001_4100/s4017_peaks_in_array_ii)| Hard | Array, Divide_and_Conquer, Segment_Tree, Senior_Staff, Weekly_Contest_514 | 139 | 92.31
+| 4016 |[Maximum Area of Two Non-Overlapping Square Submatrices](src/main/java/g4001_4100/s4016_maximum_area_of_two_non_overlapping_square_submatrices)| Medium | Array, Dynamic_Programming, Binary_Search, Matrix, Staff, Weekly_Contest_514 | 12 | 98.63
+| 4015 |[Weighted Sum of a Tree](src/main/java/g4001_4100/s4015_weighted_sum_of_a_tree)| Medium | Array, Tree, Senior, Weekly_Contest_514, Depth_First_Search | 5 | 100.00
 | 4014 |[Minimum Total Price After Applying Discounts](src/main/java/g4001_4100/s4014_minimum_total_price_after_applying_discounts)| Medium | Array, Sorting, Greedy, Two_Pointers, Senior, Weekly_Contest_514 | 26 | 100.00
 | 4013 |[Count Subarrays With Even Odd Ratio II](src/main/java/g4001_4100/s4013_count_subarrays_with_even_odd_ratio_ii)| Hard | Array, Prefix_Sum, Divide_and_Conquer, Segment_Tree, Binary_Indexed_Tree, Merge_Sort, Senior_Staff, Weekly_Contest_513 | 14 | 98.28
 | 4012 |[Count of Unfinished Tasks After Each Shift](src/main/java/g4001_4100/s4012_count_of_unfinished_tasks_after_each_shift)| Medium | Array, Binary_Search, Prefix_Sum, Staff, Weekly_Contest_513 | 7 | 100.00
@@ -2103,7 +2108,7 @@
 | 4000 |[Largest Integer With Given Digit Sum](src/main/java/g3901_4000/s4000_largest_integer_with_given_digit_sum)| Easy | Math, Greedy, Mid_Level, Weekly_Contest_512 | 1 | 68.99
 | 3999 |[Minimum Number of String Groups Through Transformations](src/main/java/g3901_4000/s3999_minimum_number_of_string_groups_through_transformations)| Hard | String, Hash_Table, Two_Pointers, Senior_Staff, Weekly_Contest_511 | 83 | 100.00
 | 3998 |[Transform Binary String Using Subsequence Sort](src/main/java/g3901_4000/s3998_transform_binary_string_using_subsequence_sort)| Medium | Array, String, Greedy, Two_Pointers, Staff, Weekly_Contest_511 | 25 | 100.00
-| 3997 |[Count Dominant Nodes in a Binary Tree](src/main/java/g3901_4000/s3997_count_dominant_nodes_in_a_binary_tree)| Medium | Tree, Binary_Tree, Senior, Weekly_Contest_511, Depth_First_Search | 7 | 95.22
+| 3997 |[Count Dominant Nodes in a Binary Tree](src/main/java/g3901_4000/s3997_count_dominant_nodes_in_a_binary_tree)| Medium | Depth_First_Search, Tree, Binary_Tree, Senior, Weekly_Contest_511 | 7 | 95.22
 | 3996 |[Even Number of Knight Moves](src/main/java/g3901_4000/s3996_even_number_of_knight_moves)| Easy | Array, Math, Mid_Level, Weekly_Contest_511 | 1 | 88.64
 | 3995 |[Minimum Cost to Convert String III](src/main/java/g3901_4000/s3995_minimum_cost_to_convert_string_iii)| Hard | Array, String, Dynamic_Programming, Senior_Staff, Biweekly_Contest_187 | 10 | 100.00
 | 3994 |[Minimum Adjacent Swaps to Partition Array](src/main/java/g3901_4000/s3994_minimum_adjacent_swaps_to_partition_array)| Medium | Array, Greedy, Staff, Biweekly_Contest_187 | 6 | 80.28

@@ -57,14 +57,14 @@ It can be shown that there is no distribution with an unfairness less than 7.
 public class Solution {
     private int res = Integer.MAX_VALUE;
 
-    public int distributeCookies(int[] c, int k) {
+    public int distributeCookies(int[] cookies, int k) {
         int[] nums = new int[k];
-        dfs(c, nums, 0);
+        dfs(cookies, nums, 0);
         return res;
     }
 
-    private void dfs(int[] c, int[] nums, int cur) {
-        if (cur == c.length) {
+    private void dfs(int[] cookies, int[] nums, int cur) {
+        if (cur == cookies.length) {
             int r = 0;
             for (int num : nums) {
                 r = Math.max(r, num);
@@ -73,12 +73,12 @@ public class Solution {
             return;
         }
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] + c[cur] > res) {
+            if (nums[i] + cookies[cur] > res) {
                 continue;
             }
-            nums[i] += c[cur];
-            dfs(c, nums, cur + 1);
-            nums[i] -= c[cur];
+            nums[i] += cookies[cur];
+            dfs(cookies, nums, cur + 1);
+            nums[i] -= cookies[cur];
         }
     }
 }
