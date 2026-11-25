@@ -2088,6 +2088,26 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 4044 |[Count Good Cyclic Rotations](src/main/java/g4001_4100/s4044_count_good_cyclic_rotations)| Medium | Array, Prefix_Sum, Sliding_Window, Senior, Weekly_Contest_518 | 3 | 98.00
+| 4043 |[Count Rotations With Exactly K Equal Adjacent Pairs](src/main/java/g4001_4100/s4043_count_rotations_with_exactly_k_equal_adjacent_pairs)| Easy | String, Sliding_Window, Enumeration, Mid_Level, Weekly_Contest_518 | 2 | 81.84
+| 4041 |[Minimum Operations to Form Subset Sum II](src/main/java/g4001_4100/s4041_minimum_operations_to_form_subset_sum_ii)| Hard | Array, Dynamic_Programming, Senior_Staff, Weekly_Contest_517 | 89 | 98.57
+| 4040 |[Minimum Operations to Form Subset Sum I](src/main/java/g4001_4100/s4040_minimum_operations_to_form_subset_sum_i)| Medium | Array, Dynamic_Programming, Staff, Weekly_Contest_517 | 64 | 91.80
+| 4039 |[Sum of Decoded Numbers](src/main/java/g4001_4100/s4039_sum_of_decoded_numbers)| Medium | Array, Math, Simulation, Staff, Weekly_Contest_517 | 50 | 98.90
+| 4038 |[Count Integers Appearing in a Single Block](src/main/java/g4001_4100/s4038_count_integers_appearing_in_a_single_block)| Easy | Array, Hash_Table, Counting, Mid_Level, Weekly_Contest_517 | 1 | 99.14
+| 4037 |[Maximum Valid Split Positions II](src/main/java/g4001_4100/s4037_maximum_valid_split_positions_ii)| Hard | Array, Math, Enumeration, Number_Theory, Principal, Biweekly_Contest_190 | 12 | 95.65
+| 4036 |[Lexicographically Largest String After Pair Transformations](src/main/java/g4001_4100/s4036_lexicographically_largest_string_after_pair_transformations)| Medium | Array, String, Greedy, Bit_Manipulation, Staff, Biweekly_Contest_190 | 46 | 99.50
+| 4035 |[Maximum Valid Split Positions I](src/main/java/g4001_4100/s4035_maximum_valid_split_positions_i)| Medium | Array, Math, Enumeration, Number_Theory, Senior, Biweekly_Contest_190 | 2 | 98.99
+| 4034 |[Minimum Bishop Moves to Reach Target](src/main/java/g4001_4100/s4034_minimum_bishop_moves_to_reach_target)| Medium | Array, Math, Senior, Biweekly_Contest_190 | 1 | 96.38
+| 4033 |[Valid K-Unique Subarrays I](src/main/java/g4001_4100/s4033_valid_k_unique_subarrays_i)| Hard | Array, Hash_Table, Bit_Manipulation, Prefix_Sum, Sliding_Window, Segment_Tree, Hash_Function, Binary_Indexed_Tree, Senior_Staff, Weekly_Contest_516 | 20 | 100.00
+| 4032 |[Longest Subarray With at Most K Distinct Prime Factors](src/main/java/g4001_4100/s4032_longest_subarray_with_at_most_k_distinct_prime_factors)| Medium | Array, Hash_Table, Math, Sliding_Window, Number_Theory, Staff, Weekly_Contest_516 | 40 | 100.00
+| 4031 |[Find All Numbers Disappeared in an Array II](src/main/java/g4001_4100/s4031_find_all_numbers_disappeared_in_an_array_ii)| Medium | Array, Sorting, Binary_Search, Senior, Weekly_Contest_516 | 14 | 98.35
+| 4030 |[Check ASCII Palindromic](src/main/java/g4001_4100/s4030_check_ascii_palindromic)| Easy | String, Two_Pointers, Bit_Manipulation, Mid_Level, Weekly_Contest_516 | 1 | 99.80
+| 4027 |[Elevator Requests III](src/main/java/g4001_4100/s4027_elevator_requests_iii)| Hard | Array, Dynamic_Programming, Sorting, Bit_Manipulation, Bitmask, Senior_Staff, Weekly_Contest_515 | 3 | 98.11
+| 4026 |[Maximum Gap Between Stations](src/main/java/g4001_4100/s4026_maximum_gap_between_stations)| Medium | String, Greedy, Two_Pointers, Staff, Weekly_Contest_515 | 28 | 100.00
+| 4025 |[Minimize the Maximum Waiting Time at Synchronized Traffic Lights](src/main/java/g4001_4100/s4025_minimize_the_maximum_waiting_time_at_synchronized_traffic_lights)| Medium | Array, Greedy, Senior, Weekly_Contest_515 | 3 | 100.00
+| 4024 |[Nearest Available Drone](src/main/java/g4001_4100/s4024_nearest_available_drone)| Easy | Array, Enumeration, Mid_Level, Weekly_Contest_515 | 2 | 50.35
+| 4023 |[Elevator Requests II](src/main/java/g4001_4100/s4023_elevator_requests_ii)| Hard | Array, Dynamic_Programming, Sorting, Senior_Staff, Biweekly_Contest_189 | 26 | 100.00
+| 4022 |[K-th Digit in Infinite String](src/main/java/g4001_4100/s4022_k_th_digit_in_infinite_string)| Medium | Math, Binary_Search, Staff, Biweekly_Contest_189 | 2 | 88.89
 | 4021 |[Minimum Operations to Make a Rotated Palindrome I](src/main/java/g4001_4100/s4021_minimum_operations_to_make_a_rotated_palindrome_i)| Medium | String, Math, Enumeration, Staff, Biweekly_Contest_189 | 40 | 98.85
 | 4020 |[Elevator Requests I](src/main/java/g4001_4100/s4020_elevator_requests_i)| Easy | Array, Simulation, Mid_Level, Biweekly_Contest_189 | 1 | 99.23
 | 4017 |[Peaks in Array II](src/main/java/g4001_4100/s4017_peaks_in_array_ii)| Hard | Array, Divide_and_Conquer, Segment_Tree, Senior_Staff, Weekly_Contest_514 | 139 | 92.31
