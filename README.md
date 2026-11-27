@@ -2112,7 +2112,7 @@
 | 4020 |[Elevator Requests I](src/main/java/g4001_4100/s4020_elevator_requests_i)| Easy | Array, Simulation, Mid_Level, Biweekly_Contest_189 | 1 | 99.23
 | 4017 |[Peaks in Array II](src/main/java/g4001_4100/s4017_peaks_in_array_ii)| Hard | Array, Divide_and_Conquer, Segment_Tree, Senior_Staff, Weekly_Contest_514 | 139 | 92.31
 | 4016 |[Maximum Area of Two Non-Overlapping Square Submatrices](src/main/java/g4001_4100/s4016_maximum_area_of_two_non_overlapping_square_submatrices)| Medium | Array, Dynamic_Programming, Binary_Search, Matrix, Staff, Weekly_Contest_514 | 12 | 98.63
-| 4015 |[Weighted Sum of a Tree](src/main/java/g4001_4100/s4015_weighted_sum_of_a_tree)| Medium | Array, Tree, Senior, Weekly_Contest_514, Depth_First_Search | 5 | 100.00
+| 4015 |[Weighted Sum of a Tree](src/main/java/g4001_4100/s4015_weighted_sum_of_a_tree)| Medium | Array, Depth_First_Search, Tree, Senior, Weekly_Contest_514 | 5 | 100.00
 | 4014 |[Minimum Total Price After Applying Discounts](src/main/java/g4001_4100/s4014_minimum_total_price_after_applying_discounts)| Medium | Array, Sorting, Greedy, Two_Pointers, Senior, Weekly_Contest_514 | 26 | 100.00
 | 4013 |[Count Subarrays With Even Odd Ratio II](src/main/java/g4001_4100/s4013_count_subarrays_with_even_odd_ratio_ii)| Hard | Array, Prefix_Sum, Divide_and_Conquer, Segment_Tree, Binary_Indexed_Tree, Merge_Sort, Senior_Staff, Weekly_Contest_513 | 14 | 98.28
 | 4012 |[Count of Unfinished Tasks After Each Shift](src/main/java/g4001_4100/s4012_count_of_unfinished_tasks_after_each_shift)| Medium | Array, Binary_Search, Prefix_Sum, Staff, Weekly_Contest_513 | 7 | 100.00
